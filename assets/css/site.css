@@ -407,3 +407,120 @@ body.welcome-open { overflow: hidden; }
 .spotify { border: 1px solid var(--dt-gray-60); background: var(--dt-gray-90); max-width: 420px; }
 .spotify iframe { display: block; width: 100%; height: 152px; border: 0; border-radius: 0; }
 @media (min-width: 760px) { .welcome { align-items: center; padding: var(--pds-space-8); } .welcome-card { border: 1px solid var(--dt-gray-60); max-height: 90vh; } }
+
+/* ======================================================================
+   Release 2 · the poster. Paper, ink, misregistration. Mobile first.
+   ====================================================================== */
+html { background: var(--pds-bg-canvas); }
+body { position: relative; }
+/* paper grain over everything, below the content */
+body::before { content: ""; position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: .55; mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .55 0 0 0 0 .45 0 0 0 0 .3 0 0 0 .09 0'/></filter><rect width='100%25' height='100%25' filter='url(%23g)'/></svg>"); }
+body > * { position: relative; z-index: 1; }
+
+/* ---------- Masthead: the style print with the wordmark set into it ---------- */
+.site-header { background: var(--wsp-teal-80); color: var(--pds-text-on-band); overflow: hidden; }
+.site-header .print { display: block; width: 100%; height: min(58vw, 340px); object-fit: cover; object-position: 42% 62%; }
+.site-header .inner { padding-top: var(--pds-space-6); padding-bottom: var(--pds-space-8); background: var(--wsp-teal-80); }
+.wordmark h1 { font-size: clamp(34px, 9.4vw, 56px); }
+.wordmark h1 em { color: var(--wsp-gold-30); }
+.wordmark .eyebrow { color: var(--wsp-teal-20); }
+.wordmark .dates { color: var(--wsp-teal-20); }
+.temp-pill { border-color: var(--wsp-teal-60); }
+.theme-toggle { display: none; }
+
+/* ---------- Sticky bar ---------- */
+.site-nav { background: var(--wsp-paper-5); border-bottom: 2px solid var(--pds-text-strong); }
+.menu-btn { border: 2px solid var(--pds-text-strong); }
+.mega { background: var(--wsp-paper-5); box-shadow: 0 16px 32px rgba(36, 23, 9, .25); }
+
+/* ---------- Cards as print panels: brown line, teal second pass offset ---------- */
+.w { border: 2px solid var(--pds-text-strong); box-shadow: var(--wsp-misreg-offset) var(--wsp-misreg-offset) 0 0 var(--wsp-misreg); margin-right: var(--wsp-misreg-offset); }
+.w.is-starred { box-shadow: var(--wsp-misreg-offset) var(--wsp-misreg-offset) 0 0 var(--wsp-gold-40); }
+.w--band { background: var(--wsp-teal-80); border-color: var(--wsp-teal-90); }
+.w--band .w-toggle .chev { border-color: var(--wsp-teal-30); color: var(--pds-text-on-band); }
+.w--band .w-toggle[aria-expanded="true"] .chev { background: var(--wsp-gold-30); color: var(--wsp-teal-90); border-color: var(--wsp-gold-30); }
+.w--band .fact { border-top-color: var(--wsp-teal-60); }
+.w--band .btn--primary { background: var(--wsp-gold-30); color: var(--wsp-teal-90); }
+.w--band .btn { border-color: var(--wsp-teal-30); }
+.w--band .notice { background: var(--wsp-teal-90) !important; color: var(--wsp-gold-30) !important; border-color: var(--wsp-gold-40) !important; }
+.w--band .first-note { background: var(--wsp-teal-90); border-color: var(--wsp-gold-40); }
+.w--updates { border-color: var(--pds-text-strong); box-shadow: var(--wsp-misreg-offset) var(--wsp-misreg-offset) 0 0 var(--wsp-orange-40); }
+.w > header .t h2 { color: var(--pds-text-heading); }
+.w-toggle .chev { border: 2px solid var(--pds-text-strong); }
+.w-toggle[aria-expanded="true"] .chev { background: var(--pds-text-strong); color: var(--wsp-paper-5); }
+
+/* ---------- The star is the poster's starburst ---------- */
+.w-star { color: var(--wsp-ink-50); }
+.w-star svg { width: 26px; height: 26px; }
+.w-star[aria-pressed="true"] { color: var(--wsp-gold-50); }
+
+/* ---------- Buttons, pills, chips ---------- */
+.btn { border-width: 2px; }
+.btn--primary { background: var(--pds-action-bg); color: var(--pds-action-text); }
+.link-pill { border: 1px solid var(--pds-text-strong); background: var(--wsp-paper-5); }
+.link-pill.maps { background: var(--wsp-teal-60); color: var(--wsp-paper-5); border-color: var(--wsp-teal-60); }
+.chip { border: 1.5px solid var(--pds-text-strong); }
+.chip[aria-current="true"], .chip[aria-pressed="true"] { background: var(--pds-text-strong); color: var(--wsp-paper-5); }
+.tag { border-color: var(--wsp-paper-40); color: var(--wsp-ink-60); background: var(--wsp-paper-10); }
+.tab[aria-selected="true"] { border-bottom-color: var(--wsp-teal-50); color: var(--wsp-teal-70); }
+
+/* ---------- Notes, notices, first-open ---------- */
+.notice { border-left-width: 4px; }
+.first-note { border: 2px dashed var(--wsp-gold-50); background: var(--wsp-paper-10); }
+.update.important { border-left: 4px solid var(--wsp-orange-50); }
+.w--updates.has-new > header .t h2::after { background: var(--wsp-orange-50); color: var(--wsp-paper-5); }
+
+/* ---------- Place rows and cards ---------- */
+.place .thumb, .slot .art, .media img, .cast img { border: 2px solid var(--pds-text-strong); }
+.cast img { filter: none; }
+.place .cat { width: 14px; height: 14px; transform: rotate(45deg); margin-top: 6px; }
+.game { border: 2px solid var(--pds-text-strong); background: var(--wsp-paper-10); box-shadow: 3px 3px 0 0 var(--wsp-misreg); margin-right: 3px; }
+.game .big { color: var(--wsp-orange-50); }
+.facts-list li .n { color: var(--wsp-orange-50); }
+.prose .pull { border-left-color: var(--wsp-gold-40); color: var(--wsp-teal-70); }
+.card .face { border-width: 2px; }
+
+/* ---------- Map ---------- */
+.leaflet-tile { filter: sepia(.35) saturate(.75) brightness(1.02); }
+.map-lock { background: var(--pds-text-strong); color: var(--wsp-paper-5); }
+.mini-map-wrap { border: 2px solid var(--pds-text-strong); }
+
+/* ---------- Welcome: the teal band, a print at the top ---------- */
+.welcome, .welcome-card { background: var(--wsp-teal-80); }
+.welcome-fig img, .welcome .print-top { border: 2px solid var(--wsp-teal-90); }
+.welcome .print-top { width: 100%; max-height: 38vh; object-fit: cover; object-position: center 30%; display: block; }
+.welcome-body .prose p { color: var(--wsp-paper-10); }
+.welcome-body .eyebrow { color: var(--wsp-teal-20); }
+.welcome-body .display em { color: var(--wsp-gold-30); }
+.welcome-nav { border-top-color: var(--wsp-teal-60); }
+.welcome-nav .btn { border-color: var(--wsp-teal-30); color: var(--pds-text-on-band); }
+.welcome-nav .btn--primary { background: var(--wsp-gold-30); color: var(--wsp-teal-90); border-color: transparent; }
+.welcome-dots i { background: var(--wsp-teal-60); }
+.welcome-dots i.on { background: var(--wsp-gold-30); }
+.welcome-fig .hush { color: var(--wsp-teal-20); }
+.welcome-fig .hush a { color: var(--wsp-gold-30); }
+.spotify { border-color: var(--wsp-teal-60); background: var(--wsp-teal-90); }
+
+/* ---------- Sheet ---------- */
+.sheet { border-top: 3px solid var(--pds-text-strong); }
+
+/* ---------- Footer ---------- */
+footer { border-top: 2px solid var(--pds-text-strong); }
+
+/* phone: pitcher card fits */
+@media (max-width: 759px) {
+  .card.pitcher .front { gap: 8px; }
+  .card.pitcher .photo { width: 84px; }
+  .card.pitcher .nameplate b { font-size: 16px; }
+  .card.pitcher .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; }
+  .card.pitcher .stats b { font-size: 11px; }
+  .site-header .inner { grid-template-columns: 1fr; }
+}
+/* contrast fixes on the poster palette */
+.w--band > header .t h2 { color: var(--pds-text-on-band); }
+.first-note .eyebrow { color: var(--wsp-orange-60); }
+.w--band .first-note .eyebrow { color: var(--wsp-gold-30); }
+.status--closed { color: #8a4209; }
+.game.after { opacity: 1; }
+.game.after .matchup, .game.after .big, .game.after .when { color: var(--wsp-ink-60); }

@@ -112,7 +112,7 @@ window.WSP = window.WSP || {};
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') WSP.sheet.close(); });
 
   /* ---------- Theme toggle ---------- */
-  $('#theme-toggle').addEventListener('click', () => {
+  if ($('#theme-toggle')) $('#theme-toggle').addEventListener('click', () => {
     const cur = document.documentElement.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     const next = cur === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next); try { localStorage.setItem('wsp-theme', next); } catch (e) {}
@@ -152,7 +152,7 @@ window.WSP = window.WSP || {};
     const idx = shows.indexOf(show); const isPast = show && show.date < t;
     const eyebrow = $('#tonight-eyebrow'), title = $('#tonight-h');
     if (!show) { eyebrow.textContent = 'The run'; title.textContent = 'Widespread Panic at the Riverside'; b.innerHTML = '<p class="muted">Show data is still loading.</p>'; return; }
-    eyebrow.textContent = show.date === t ? `Tonight · Night ${idx + 1} of ${shows.length}` : (isPast ? 'The run is over' : `Next · Night ${idx + 1} of ${shows.length}`);
+    eyebrow.textContent = show.date === t ? `Tonight · ${idx + 1} of ${shows.length}` : (isPast ? 'The run is over' : `Next · ${idx + 1} of ${shows.length}`);
     title.innerHTML = `${esc(show.weekday)} <span class="muted" style="font-weight:400">${esc(longDay(show.date).replace(/^\w+, /, ''))}</span>`;
     const game = ws && ws.games ? ws.games.find(g => g.date === show.date && g.game) : null;
     const party = cl && cl.event && cl.event.name ? cl.event : null;
@@ -214,7 +214,7 @@ window.WSP = window.WSP || {};
     const s = ws.series || {}; const t = todayISO();
     b.innerHTML = `
       <div class="notice">${esc(s.milwaukee_angle || s.series_status || '')}${src(s.source)}</div>
-      <div style="display:flex;flex-direction:column;gap:10px">${(ws.games || []).filter(g => g.date >= '2026-10-23' && g.date <= '2026-10-26').map(g => g.game ? `<div class="game${g.after_departure ? ' after' : ''}${g.date === t ? ' today' : ''}"><div><div class="label">${esc(g.weekday)} ${esc(g.date.slice(5).replace('-', '/'))}${g.date === t ? ' · today' : ''}${g.after_departure ? ' · after your flight' : ''}</div><div class="matchup">${esc(g.matchup || '')}</div><div class="when">${esc(g.venue || '')}${g.city ? `, ${esc(g.city)}` : ''} · ${esc(g.tv || '')}</div></div><div><div class="big num">${esc(g.first_pitch_central)}</div><div class="label" style="text-align:right">first pitch</div></div>${g.note ? `<p class="note">${esc(g.note)}</p>` : ''}</div>` : `<div class="game" style="opacity:.75"><div><div class="label">${esc(g.weekday)} ${esc(g.date.slice(5).replace('-', '/'))}</div><div class="matchup">No game</div><div class="when">${esc(g.note || 'Travel day')}</div></div></div>`).join('')}</div>
+      <div style="display:flex;flex-direction:column;gap:10px">${(ws.games || []).filter(g => g.date >= '2026-10-23' && g.date <= '2026-10-26').map(g => g.game ? `<div class="game${g.after_departure ? ' after' : ''}${g.date === t ? ' today' : ''}"><div><div class="label">${esc(g.weekday)} ${esc(g.date.slice(5).replace('-', '/'))}${g.date === t ? ' · today' : ''}${g.after_departure ? ' · after your flight' : ''}</div><div class="matchup">${esc(g.matchup || '')}</div><div class="when">${esc(g.venue || '')}${g.city ? `, ${esc(g.city)}` : ''} · ${esc(g.tv || '')}</div></div><div><div class="big num">${esc(g.first_pitch_central)}</div><div class="label" style="text-align:right">first pitch</div></div>${g.note ? `<p class="note">${esc(g.note)}</p>` : ''}</div>` : `<div class="game after"><div><div class="label">${esc(g.weekday)} ${esc(g.date.slice(5).replace('-', '/'))}</div><div class="matchup">No game</div><div class="when">${esc(g.note || 'Travel day')}</div></div></div>`).join('')}</div>
       ${s.storylines && s.storylines.length ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">Storylines to drop at the bar</summary><ul class="rules">${s.storylines.map(x => `<li class="rule"><span class="ic">${I.star}</span><span>${esc(typeof x === 'string' ? x : x.text || JSON.stringify(x))}</span></li>`).join('')}</ul></details>` : ''}
       <div><span class="eyebrow">Where to watch</span>${placeList(ws.watch_spots)}</div>
       ${ws.getting_around ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">Getting to the watch parties</summary><ul class="rules">${['deer_district', 'third_ward', 'american_family_field'].filter(k => ws.getting_around[k]).map(k => `<li class="rule"><span class="ic">${I.walk}</span><span><b>${esc(k.replace(/_/g, ' '))}</b> — ${esc(ws.getting_around[k])}</span></li>`).join('')}</ul></details>` : ''}`;
