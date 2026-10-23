@@ -1,0 +1,951 @@
+{
+ "_meta": {
+  "file": "food.json",
+  "trip": "Milwaukee, Fri Oct 23 - Mon Oct 26, 2026 (Widespread Panic at the Riverside Theater Oct 23-25, ~7:30-11:30 PM; flight ~3:00 PM Mon)",
+  "home_base": {
+   "name": "Riverside Theater",
+   "address": "116 W Wisconsin Ave, Milwaukee, WI 53203",
+   "lat": 43.0389,
+   "lng": -87.9109
+  },
+  "meal_windows": [
+   "late breakfast / brunch",
+   "lunch",
+   "early dinner 4:30-6:30 PM (Fri-Sun)",
+   "late night after 11:30 PM (Fri-Sun)",
+   "proper Monday brunch before the airport"
+  ],
+  "compiled": "2026-10-23",
+  "closed_since_last_guidebook": [
+   {
+    "name": "Bavette La Boucherie",
+    "note": "Permanently closed January 17, 2026.",
+    "source": "https://milwaukeerecord.com/food-drink/oh-yeah-bavette-la-boucherie-is-closing-too/"
+   },
+   {
+    "name": "Ardent",
+    "note": "Closed December 31, 2024; replaced by Purslane.",
+    "source": "https://biztimes.com/ardent-to-be-replaced-by-viroqua-based-mediterranean-restaurant/"
+   },
+   {
+    "name": "Ma Fischer's",
+    "note": "No longer 24 hours; now closes at 9:00 PM daily.",
+    "source": "https://urbanmilwaukee.com/2026/04/15/where-to-eat-and-drink-during-the-milwaukee-film-festival/"
+   },
+   {
+    "name": "Botanas",
+    "note": "Official domain is parked / for sale as of Oct 23, 2026; current status unverified, so it was left off the list.",
+    "source": "https://www.botanasrestaurant.com/"
+   }
+  ]
+ },
+ "open_questions": [
+  "Three Brothers: confirm payment policy (historically cash-only) and whether they take reservations for Sunday Oct 25 at 4:00 PM; call 414-481-7530.",
+  "Sanford: a 5:30 PM Friday/Saturday seating for the 4-course prix fixe is tight against a 7:30 PM show; call 414-276-9608 (Tue-Sat 1-9 PM) and tell them the hard stop.",
+  "Solly's Grille hours (Fri/Sat 7:00 AM-7:00 PM, closed Sun/Mon) come from a third-party listing, not the restaurant; confirm by phone 414-332-8808.",
+  "Milwaukee Brat House: bar is open until 2:00-2:30 AM but kitchen cutoff for brats/curds after the show is not published; call 414-273-8709.",
+  "Ian's Pizza Downtown: open until 2:00 AM Fri/Sat, but whether by-the-slice is sold all the way to close is not stated on the site.",
+  "Kopp's: flavor-of-the-day list is company-wide; confirm the Greenfield store carries the same flavors on Monday Oct 26.",
+  "Lakefront Brewery: fish fry reservations are limited to 4:00-4:30 PM and 6:00-6:30 PM slots; otherwise first come, first served at the host stand. Book the 4:00 PM slot Friday if possible."
+ ],
+ "destination": [
+  {
+   "id": "lakefront-brewery-fish-fry",
+   "name": "Lakefront Brewery Beer Hall - Friday Night Fish Fry",
+   "category": "restaurant",
+   "lat": 43.0547,
+   "lng": -87.9052,
+   "address": "1872 N Commerce St, Milwaukee, WI 53212",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Lakefront+Brewery+1872+N+Commerce+St+Milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/lakefront-brewery-milwaukee?tab=food",
+   "website": "https://lakefrontbrewery.com/beer-hall",
+   "blurb": "It is Friday in Milwaukee, which means fish fry, and this is the one with a live polka band in a riverside beer hall. Beer-battered cod, potato pancakes, a Riverwest Stein, and the Brewhaus Polka Kings from 5 to 8 PM, all ten minutes from the Riverside.",
+   "tags": [
+    "fish fry",
+    "polka",
+    "brewery",
+    "Milwaukee institution",
+    "early dinner"
+   ],
+   "image": {
+    "src": "https://lakefrontbrewery.com/wp-content/uploads/2020/01/OG-Beer-hall.jpg",
+    "credit": "Lakefront Brewery",
+    "credit_url": "https://lakefrontbrewery.com/beer-hall",
+    "local": "assets/img/food/lakefront-brewery-fish-fry-e97b5fef.jpg"
+   },
+   "why_special": "Lakefront is the Friday fish fry that out-of-towners remember: a cavernous former power plant on the Milwaukee River, table service with cocktails on Fridays only, and a weekly polka band. It is the full Wisconsin ritual (fish, rye bread, slaw, polka, brandy) in one room, and the closest proper fish fry to the theater.",
+   "must_order": [
+    "Fish Fry Dinner: three-piece beer-battered cod with potato pancakes and applesauce ($20)",
+    "Fried Walleye, hand-breaded, two pieces ($23)",
+    "Cheese curds from the Cheese Curd Flavor of the Month board",
+    "A Riverwest Stein or Fixed Gear on draft, plus a brandy Old Fashioned sweet"
+   ],
+   "price": "$$",
+   "reservation": {
+    "needed": false,
+    "url": "https://lakefrontbrewery.com/beer-hall/food#friday-fish-fry",
+    "note": "Limited reservations only for 4:00-4:30 PM and 6:00-6:30 PM slots; otherwise first come, first served. Parties of 9+ call 414-372-8800."
+   },
+   "best_window": "Friday Oct 23, arrive 4:00 PM when the fish fry kitchen opens; polka starts 5:00 PM; leave by 6:30 PM for doors",
+   "hours_this_weekend": {
+    "fri": "11:00 AM - 9:00 PM (fish fry kitchen 4:00 - 9:00 PM, table service)",
+    "sat": "11:00 AM - 9:00 PM",
+    "sun": "11:00 AM - 5:00 PM",
+    "mon": "11:00 AM - 9:00 PM (Beer Hall food 3:00 - 8:00 PM)"
+   },
+   "travel_from_downtown": "6 min rideshare (1.2 mi) or a 25 min walk north along the RiverWalk",
+   "source": "https://lakefrontbrewery.com/beer-hall",
+   "menu_source": "https://lakefrontbrewery.com/wp-content/uploads/2026/04/Friday-Dinner-Menu-2026.pdf",
+   "hours_source": "https://lakefrontbrewery.com/about-lakefront/contact"
+  },
+  {
+   "id": "three-brothers",
+   "name": "Three Brothers Serbian Restaurant",
+   "category": "restaurant",
+   "lat": 43.0003,
+   "lng": -87.8932,
+   "address": "2414 S St Clair St, Milwaukee, WI 53207",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Three+Brothers+Restaurant+2414+S+St+Clair+St+Milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/three-brothers-restaurant-milwaukee?tab=food",
+   "website": "https://www.travelwisconsin.com/dining/three-brothers-restaurant-204614",
+   "blurb": "A 1956 Serbian family restaurant inside an old Schlitz tiled-corner tavern in Bay View, run by the founder's widow and daughters. James Beard America's Classic (2002). The burek is baked to order and takes about half an hour, so order it the minute you sit down.",
+   "tags": [
+    "James Beard",
+    "Serbian",
+    "old Milwaukee",
+    "early dinner",
+    "Sunday"
+   ],
+   "image": {
+    "src": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/ThreeBrothers_Group_KevinMiyazaki_Milwaukee_3_ln6tio",
+    "credit": "Kevin Miyazaki / The Infatuation",
+    "credit_url": "https://www.theinfatuation.com/milwaukee/reviews/three-brothers",
+    "local": "assets/img/food/three-brothers-2a7f2db5.jpg"
+   },
+   "why_special": "Nothing else like it in the country: the menu has barely changed in 70 years, the dining room is a Schlitz tavern with vintage floral plates and dim lamps, and the food is a Serbian grandmother's Sunday table. It opens at 4:00 PM on Sunday, which lines up perfectly with an early dinner before the last show.",
+   "must_order": [
+    "Burek (spinach and cheese, or meat), a giant baked phyllo pie, about 30 minutes to bake ($26.50)",
+    "Chicken paprikash with potato dumplings",
+    "Roast lamb with house-pickled cabbage",
+    "Serbian salad and a glass of Serbian wine or slivovitz"
+   ],
+   "price": "$$$",
+   "reservation": {
+    "needed": true,
+    "url": null,
+    "note": "Call 414-481-7530; small room, so call ahead for Sunday at 4:00 PM. Bring cash in case (historically cash-only; see open_questions)."
+   },
+   "best_window": "Sunday Oct 25 at 4:00 PM (opens 4:00 PM Sat/Sun); also Saturday 4:00 PM",
+   "hours_this_weekend": {
+    "fri": "5:00 - 9:00 PM",
+    "sat": "4:00 - 9:00 PM",
+    "sun": "4:00 - 9:00 PM",
+    "mon": "Closed"
+   },
+   "travel_from_downtown": "12 min rideshare (4 mi south to Bay View)",
+   "source": "https://www.travelwisconsin.com/dining/three-brothers-restaurant-204614",
+   "editorial_source": "https://www.milwaukeemag.com/three-brothers-carries-on-a-family-legacy/"
+  },
+  {
+   "id": "sanford",
+   "name": "Sanford Restaurant",
+   "category": "restaurant",
+   "lat": 43.0505,
+   "lng": -87.905,
+   "address": "1547 N Jackson St, Milwaukee, WI 53202",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Sanford+Restaurant+1547+N+Jackson+St+Milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/sanford-restaurant-milwaukee?tab=food",
+   "website": "https://www.sanfordrestaurant.com/",
+   "blurb": "Milwaukee's fine-dining standard since 1989, set in the D'Amato family's former corner grocery. A quiet 20-table room, polished service, and a seasonal four-course prix fixe. If she wants one dressed-up dinner this weekend, this is it.",
+   "tags": [
+    "fine dining",
+    "prix fixe",
+    "James Beard",
+    "early dinner",
+    "date night"
+   ],
+   "image": {
+    "src": "https://sanfordrestaurant.com/wp-content/uploads/2022/02/Duck.jpg",
+    "credit": "Sanford Restaurant",
+    "credit_url": "https://www.sanfordrestaurant.com/",
+    "local": "assets/img/food/sanford-59392b82.jpg"
+   },
+   "why_special": "Chef-owner Justin Aprahamian (James Beard Best Chef Midwest) runs the restaurant Sandy D'Amato made famous; it has been on every Milwaukee best-of list for 35 years and still feels like a secret because it seats so few people.",
+   "must_order": [
+    "Four-course Prix Fixe ($105), the whole point",
+    "Surprise seven-course tasting menu ($135) only Tue-Fri, so Friday if time allows",
+    "Whatever the duck preparation is that night"
+   ],
+   "price": "$$$$",
+   "reservation": {
+    "needed": true,
+    "url": "https://sanfordrestaurant.com/3079-2/",
+    "note": "Phone only: 414-276-9608, Tue-Sat 1:00-9:00 PM. First seating is 5:30 PM Fri / 5:00 PM Sat. Tell them about the 7:30 PM show."
+   },
+   "best_window": "Saturday Oct 24 at 5:00 PM (first seating) is the safest fit; Friday first seating is 5:30 PM",
+   "hours_this_weekend": {
+    "fri": "5:30 - 10:00 PM",
+    "sat": "5:00 - 10:00 PM",
+    "sun": "Closed",
+    "mon": "Closed"
+   },
+   "travel_from_downtown": "6 min rideshare (1.3 mi) or 25 min walk",
+   "source": "https://sanfordrestaurant.com/3079-2/",
+   "menu_source": "https://sanfordrestaurant.com/sample-menu/"
+  },
+  {
+   "id": "odd-duck",
+   "name": "Odd Duck",
+   "category": "restaurant",
+   "lat": 43.0213,
+   "lng": -87.9129,
+   "address": "939 S 2nd St, Milwaukee, WI 53204",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Odd+Duck+939+S+2nd+St+Milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/odd-duck-milwaukee?tab=food",
+   "website": "https://www.oddduckrestaurant.com/",
+   "blurb": "Walker's Point's playful, globally inspired small-plates room, consistently on Milwaukee Magazine's best-restaurants list. The menu changes constantly, the bar opens at 3:00 PM with a $7 spritz happy hour, and the kitchen fires at 5:00 PM, so it is a natural pre-show dinner.",
+   "tags": [
+    "small plates",
+    "cocktails",
+    "happy hour",
+    "early dinner",
+    "Walker's Point"
+   ],
+   "image": {
+    "src": "https://images.squarespace-cdn.com/content/v1/697d478559da901e56d1e478/2e1f193d-823b-4e0d-ab81-11f36ce8d469/ODD_DUCK_WEB+%283%29.jpg",
+    "credit": "Odd Duck",
+    "credit_url": "https://www.oddduckrestaurant.com/",
+    "local": "assets/img/food/odd-duck-7a50c700.jpg"
+   },
+   "why_special": "The ever-changing shareable menu means no two visits are alike, the front of house is famously warm, and the bar/patio seats are walk-in, so she can wander in at 4:30 PM, drink through happy hour, and eat at 5:00 PM without a booking.",
+   "must_order": [
+    "Ask for the current duck preparation (there is always one)",
+    "Three or four shareable plates across the vegetable and seafood sections",
+    "Happy hour 3:00-6:00 PM at the bar: $7 spritz, $5 draft, $8 wine"
+   ],
+   "price": "$$$",
+   "reservation": {
+    "needed": false,
+    "url": "https://resy.com/cities/milwaukee-wi/venues/odd-duck-restaurant",
+    "note": "Resy for dining-room tables; bar, bar tables and patio are first come, first served. 3% credit card surcharge (debit exempt)."
+   },
+   "best_window": "Friday or Saturday: bar at 4:30 PM for happy hour, kitchen at 5:00 PM, out by 6:45 PM",
+   "hours_this_weekend": {
+    "fri": "Bar 3:00 PM - 12:00 AM; kitchen 5:00 - 10:00 PM",
+    "sat": "Bar 3:00 PM - 12:00 AM; kitchen 5:00 - 10:00 PM",
+    "sun": "Closed (Tue-Sat only)",
+    "mon": "Closed"
+   },
+   "travel_from_downtown": "7 min rideshare (1.5 mi) or 30 min walk south through the Third Ward",
+   "source": "https://www.oddduckrestaurant.com/",
+   "reservation_source": "https://www.oddduckrestaurant.com/reservations"
+  },
+  {
+   "id": "birch",
+   "name": "Birch",
+   "category": "restaurant",
+   "lat": 43.0509,
+   "lng": -87.9068,
+   "address": "459 E Pleasant St, Milwaukee, WI 53202",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Birch+459+E+Pleasant+St+Milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/birch-milwaukee?tab=food",
+   "website": "https://www.birchonpleasant.com/",
+   "blurb": "Seasonal Midwestern cooking from a wood-fired hearth in a handsome room just north of downtown, with a 4:00-6:00 PM happy hour and a burger that Milwaukee Magazine calls top-tier. Dinner starts at 5:00 PM Friday and Saturday.",
+   "tags": [
+    "wood-fired",
+    "farm-to-table",
+    "happy hour",
+    "early dinner",
+    "burger"
+   ],
+   "image": {
+    "src": "https://images.squarespace-cdn.com/content/v1/6437325162f1731e42343151/1399cae4-e2f8-4486-8ebd-6a8573a39fde/Birch_Web_044.jpg",
+    "credit": "Birch",
+    "credit_url": "https://www.birchonpleasant.com/",
+    "local": "assets/img/food/birch-8d723053.jpg"
+   },
+   "why_special": "Chef Kyle Knall (James Beard semifinalist) cooks almost everything over an open hearth; it is the city's most New-York-feeling room while still being about Wisconsin farms. Milwaukee Magazine Best Restaurants 2025.",
+   "must_order": [
+    "Anything from the hearth: the whole roasted fish or the wood-fired pork",
+    "The Birch burger (a Milwaukee Magazine top pick)",
+    "Happy hour 4:00-6:00 PM Friday at the bar before dinner"
+   ],
+   "price": "$$$",
+   "reservation": {
+    "needed": true,
+    "url": "https://www.opentable.com/r/birch-milwaukee-reservations-milwaukee?restref=1004269&lang=en-US&ot_source=Restaurant%20website",
+    "note": "OpenTable. Book 5:00 PM."
+   },
+   "best_window": "Friday Oct 23 happy hour 4:00 PM then 5:00 PM dinner; or Saturday 5:00 PM",
+   "hours_this_weekend": {
+    "fri": "Happy hour 4:00 - 6:00 PM; dinner 5:00 - 10:00 PM",
+    "sat": "5:00 - 10:00 PM",
+    "sun": "Closed (not listed; Tue-Sat only)",
+    "mon": "Closed"
+   },
+   "travel_from_downtown": "5 min rideshare (1.1 mi) or 22 min walk up Water St",
+   "source": "https://www.birchonpleasant.com/",
+   "editorial_source": "https://www.milwaukeemag.com/the-25-best-restaurants-in-milwaukee/"
+  },
+  {
+   "id": "maders",
+   "name": "Mader's Restaurant",
+   "category": "restaurant",
+   "lat": 43.0439,
+   "lng": -87.9149,
+   "address": "1041 N Old World 3rd St, Milwaukee, WI 53203",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mader's+Restaurant+1041+N+Old+World+3rd+St+Milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/maders-milwaukee-3?tab=food",
+   "website": "https://www.madersrestaurant.com/",
+   "blurb": "Milwaukee's 120-year-old German landmark on Old World Third Street: suits of armor, stained glass, a Hofbrau pour, and the kind of pork shank that needs a nap afterward. Ten minutes on foot from the Riverside and open Sunday and Monday, when much of the city is dark.",
+   "tags": [
+    "German",
+    "old Milwaukee",
+    "landmark",
+    "walkable",
+    "open Sunday",
+    "open Monday"
+   ],
+   "image": {
+    "src": "https://madersrestaurant.com/cdn/shop/files/maders-restaurant-german-dinner-best-rated.jpg?v=1714675667&width=1200",
+    "credit": "Mader's Restaurant",
+    "credit_url": "https://www.madersrestaurant.com/",
+    "local": "assets/img/food/maders-1a4e3cf4.jpg"
+   },
+   "why_special": "It is the surviving old-world German dining room of Beer City (Karl Ratzsch closed in 2017), has fed presidents and rock stars, and is the walkable backup for a Milwaukee-flavored meal on any day of the trip, including a late Monday lunch before the flight.",
+   "must_order": [
+    "Bavarian Platter (schnitzel, kassler, bratwurst, sauerkraut, spaetzle)",
+    "Wiener Schnitzel",
+    "Roasted pork shank",
+    "A brandy Old Fashioned sweet, the Wisconsin way, or a liter of Hofbrau"
+   ],
+   "price": "$$$",
+   "reservation": {
+    "needed": false,
+    "url": "https://resy.com/cities/milwaukee-wi/venues/maders-restaurant",
+    "note": "Resy; walk-ins fine at off hours. 414-271-3377."
+   },
+   "best_window": "Sunday Oct 25 early dinner 4:30 PM, or Monday 11:30 AM lunch before the airport",
+   "hours_this_weekend": {
+    "fri": "11:30 AM - 10:00 PM",
+    "sat": "11:30 AM - 10:00 PM",
+    "sun": "11:30 AM - 8:00 PM",
+    "mon": "11:30 AM - 9:00 PM"
+   },
+   "travel_from_downtown": "10 min walk (0.5 mi) from the Riverside",
+   "source": "https://www.madersrestaurant.com/"
+  },
+  {
+   "id": "sollys-grille",
+   "name": "Solly's Grille",
+   "category": "restaurant",
+   "lat": 43.1003,
+   "lng": -87.9174,
+   "address": "4629 N Port Washington Rd, Glendale, WI 53212",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Solly's+Grille+4629+N+Port+Washington+Rd+Glendale",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/sollys-grille-glendale?tab=food",
+   "website": "https://en.wikipedia.org/wiki/Solly%27s_Grille",
+   "blurb": "Home of the butter burger since 1936 and a James Beard America's Classic (2022): a horseshoe lunch counter where the patty is steamed in butter and then topped with a melting slab of more butter. Pair it with a real malt. Lunch only, and closed Sunday and Monday, so Friday or Saturday it is.",
+   "tags": [
+    "butter burger",
+    "James Beard",
+    "lunch counter",
+    "Milwaukee institution",
+    "lunch"
+   ],
+   "image": {
+    "src": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/images/Sollys_Milwaukee_ButterBurger_CarloMantuano_iPhoneContent_EDIT_01_efe2ed",
+    "credit": "Carlo Mantuano / The Infatuation",
+    "credit_url": "https://www.theinfatuation.com/milwaukee/reviews/sollys-grille",
+    "local": "assets/img/food/sollys-grille-7026095b.jpg"
+   },
+   "why_special": "The butter burger is Milwaukee's signature sandwich and Solly's is its birthplace; the Beard Foundation singled it out in 2022. Eating one at the counter with the regulars is a one-of-a-kind Milwaukee lunch you cannot replicate anywhere else.",
+   "must_order": [
+    "The Original Butter Burger (ask for grilled onions)",
+    "A chocolate malt or shake",
+    "Fries"
+   ],
+   "price": "$",
+   "reservation": {
+    "needed": false,
+    "url": null,
+    "note": "Counter seating, walk in. 414-332-8808."
+   },
+   "best_window": "Saturday Oct 24 late breakfast/lunch (opens 7:00 AM); or Friday lunch",
+   "hours_this_weekend": {
+    "fri": "7:00 AM - 7:00 PM",
+    "sat": "7:00 AM - 7:00 PM",
+    "sun": "Closed",
+    "mon": "Closed"
+   },
+   "travel_from_downtown": "12 min rideshare (5.5 mi north via I-43)",
+   "source": "https://foodle.pro/restaurants/glendale/solly-s-grille",
+   "award_source": "https://en.wikipedia.org/wiki/Solly%27s_Grille",
+   "hours_note": "Hours from a third-party listing; confirm by phone (see open_questions)."
+  },
+  {
+   "id": "la-dama",
+   "name": "La Dama",
+   "category": "restaurant",
+   "lat": 43.0223,
+   "lng": -87.9129,
+   "address": "839 S 2nd St, Milwaukee, WI 53204",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=La+Dama+839+S+2nd+St+Milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/la-dama-milwaukee?tab=food",
+   "website": "https://www.ladamamke.com/",
+   "blurb": "Chef Emmanuel Corona's elegant, mural-walled Mexican kitchen in Walker's Point, the South Side's old Mexican heart. Mole poblano and mole negro from his childhood, a deep mezcal list, and a 4:30 PM Sunday opening that fits the early-dinner window exactly.",
+   "tags": [
+    "Mexican",
+    "mole",
+    "mezcal",
+    "Walker's Point",
+    "early dinner",
+    "Sunday"
+   ],
+   "image": {
+    "src": "https://ladamamke.com/assets/content-photo-food-moles-full-a8d2e3456a201e11.webp",
+    "credit": "La Dama",
+    "credit_url": "https://www.ladamamke.com/",
+    "local": "assets/img/food/la-dama-e8bdf9ba.jpg"
+   },
+   "why_special": "Milwaukee Magazine Best Restaurants 2025 called it an inventive, elegant take on Mexican cuisine; it is the destination version of the South Side's Mexican tradition rather than a taqueria, and one of the only serious restaurants open for an early Sunday dinner.",
+   "must_order": [
+    "Mole poblano or mole negro (the house signatures)",
+    "Octopus",
+    "A mezcal flight or a mezcal cocktail",
+    "Churros or the dessert of the night"
+   ],
+   "price": "$$$",
+   "reservation": {
+    "needed": true,
+    "url": "https://www.exploretock.com/la-dama-milwaukee/",
+    "note": "Tock. 414-645-2606."
+   },
+   "best_window": "Sunday Oct 25 at 4:30 PM (alternative to Three Brothers); Fri/Sat 5:00 PM",
+   "hours_this_weekend": {
+    "fri": "5:00 - 9:30 PM",
+    "sat": "5:00 - 9:30 PM",
+    "sun": "4:30 - 8:00 PM",
+    "mon": "Closed"
+   },
+   "travel_from_downtown": "7 min rideshare (1.5 mi)",
+   "source": "https://www.ladamamke.com/",
+   "editorial_source": "https://www.milwaukeemag.com/the-25-best-restaurants-in-milwaukee/"
+  }
+ ],
+ "street_food": [
+  {
+   "id": "third-street-market-hall",
+   "name": "3rd Street Market Hall",
+   "category": "street-food",
+   "lat": 43.0383,
+   "lng": -87.9147,
+   "address": "275 W Wisconsin Ave, Milwaukee, WI 53203",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=3rd+Street+Market+Hall+275+W+Wisconsin+Ave+Milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/3rd-street-market-hall-milwaukee?tab=food",
+   "website": "https://3rdstmarkethall.com/",
+   "blurb": "Twenty-plus stalls and a bar two blocks west of the Riverside on the same side of Wisconsin Avenue. Lao food at SapSap, Cambodian sandwiches at Num Pang, Wisconsin cheese curds and mac at Rod-N-Makk, tacos at Kompali, Pizza Shuttle slices, Bebe Zito ice cream. Open until 10:00 PM Fri/Sat, so it is the pre-show grazing hall.",
+   "tags": [
+    "food hall",
+    "walkable",
+    "cheese curds",
+    "tacos",
+    "pizza",
+    "pre-show"
+   ],
+   "image": {
+    "src": "https://static.madedaily.com/managed_images/b205c3da-fab6-472b-8ca8-85f825b3207e/62409/large/3smh_hall_takeover09.jpg",
+    "credit": "3rd Street Market Hall",
+    "credit_url": "https://3rdstmarkethall.com/",
+    "local": "assets/img/food/third-street-market-hall-c0a9ebc4.jpg"
+   },
+   "why_special": "Closest food to the venue, with real range: SapSap (Lao, family recipes), Anytime Arepa, Mr. Dye's Pies, Kawa ramen. It also has an on-site bar, self-serve beer wall, and games.",
+   "must_order": [
+    "SapSap: Lao sausage or khao poon",
+    "Rod-N-Makk: Wisconsin cheese curds and a mac bowl",
+    "Num Pang: Cambodian sandwich on house baguette",
+    "Mr. Dye's Pies: a slice for the walk to the show"
+   ],
+   "price": "$-$$",
+   "reservation": {
+    "needed": false,
+    "url": null
+   },
+   "best_window": "Any day for lunch or a 5:00-6:30 PM pre-show bite; Sunday closes 7:00 PM",
+   "hours_this_weekend": {
+    "fri": "Food hall 8:00 AM - 10:00 PM; bar 11:00 AM - 11:00 PM",
+    "sat": "Food hall 9:00 AM - 10:00 PM; bar 11:00 AM - 11:00 PM",
+    "sun": "Food hall 9:00 AM - 7:00 PM; bar 11:00 AM - 7:00 PM",
+    "mon": "Food hall 8:00 AM - 8:00 PM; bar 11:00 AM - 9:00 PM"
+   },
+   "travel_from_downtown": "2 min walk (0.1 mi) west on Wisconsin Ave",
+   "source": "https://3rdstmarkethall.com/",
+   "vendors_source": "https://3rdstmarkethall.com/vendors",
+   "hours_note": "Individual vendor hours vary; some stalls close before the hall does."
+  },
+  {
+   "id": "milwaukee-public-market",
+   "name": "Milwaukee Public Market",
+   "category": "street-food",
+   "lat": 43.0352,
+   "lng": -87.9076,
+   "address": "400 N Water St, Milwaukee, WI 53202",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Milwaukee+Public+Market+400+N+Water+St",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/milwaukee-public-market-milwaukee?tab=food",
+   "website": "https://milwaukeepublicmarket.org/",
+   "blurb": "The Third Ward's market hall: St. Paul Fish Company's lobster rolls and oysters at the palapa bar, West Allis Cheese & Sausage's curds, C. Adam's cakes, Thief Wine's bar upstairs, Anodyne coffee. A ten-minute walk from the Riverside and the best late-breakfast-into-lunch stroll downtown.",
+   "tags": [
+    "market",
+    "walkable",
+    "oysters",
+    "cheese curds",
+    "Bloody Mary",
+    "brunch",
+    "Third Ward"
+   ],
+   "image": {
+    "src": "https://cdn.prod.website-files.com/598a208f22e8860001acd41a/59ee763b7168c200018166ee_6039365442_12b14071cf_b.jpg",
+    "credit": "Milwaukee Public Market",
+    "credit_url": "https://milwaukeepublicmarket.org/",
+    "local": "assets/img/food/milwaukee-public-market-a25946b7.jpg"
+   },
+   "why_special": "Nineteen independent merchants and seven bars under one roof; St. Paul Fish Co. alone is a reason to go (a Bloody Mary and a half-dozen oysters at the bar is a Milwaukee Saturday). The Third Ward's boutiques and the RiverWalk are right outside.",
+   "must_order": [
+    "St. Paul Fish Company: lobster roll, chowder, or oysters at the palapa bar with a Bloody Mary",
+    "West Allis Cheese & Sausage Shoppe: fresh cheese curds and a Usinger-style sausage sampler",
+    "C. Adam's Bakery: a kringle slice or cake",
+    "Thief Wine: a glass on the mezzanine"
+   ],
+   "price": "$-$$",
+   "reservation": {
+    "needed": false,
+    "url": null
+   },
+   "best_window": "Saturday Oct 24 late breakfast/lunch 11:00 AM - 1:00 PM; also Sunday until 6:00 PM",
+   "hours_this_weekend": {
+    "fri": "10:00 AM - 8:00 PM",
+    "sat": "10:00 AM - 8:00 PM",
+    "sun": "10:00 AM - 6:00 PM",
+    "mon": "10:00 AM - 8:00 PM"
+   },
+   "travel_from_downtown": "10 min walk (0.5 mi) east over the river and south on Water St",
+   "source": "https://milwaukeepublicmarket.org/",
+   "vendors_source": "https://milwaukeepublicmarket.org/vendor-listing"
+  },
+  {
+   "id": "real-chili-downtown",
+   "name": "Real Chili (Downtown)",
+   "category": "street-food",
+   "lat": 43.0411,
+   "lng": -87.9059,
+   "address": "419 E Wells St, Milwaukee, WI 53202",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Real+Chili+419+E+Wells+St+Milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/real-chili-restaurant-milwaukee?tab=food",
+   "website": "https://www.realchilimilwaukee.com/",
+   "blurb": "Milwaukee's post-bar ritual since 1931: a counter, a bowl of chili ladled over spaghetti and beans, mild to hot, a fistful of oyster crackers, and a dash of hot vinegar. Open until 3:00 AM Friday and Saturday, ten minutes' walk from the theater.",
+   "tags": [
+    "late night",
+    "chili",
+    "Milwaukee institution",
+    "walkable",
+    "diner"
+   ],
+   "image": null,
+   "why_special": "It is the authentic Milwaukee late-night meal, a 95-year-old counter joint with its own vocabulary (Marquette special, with or without beans, mild/medium/hot). Nothing else downtown is this old, this cheap, or open this late.",
+   "must_order": [
+    "Marquette Special: chili over spaghetti with beans, medium heat",
+    "Chili cheese dog",
+    "Oyster crackers and the hot vinegar shaker on the counter",
+    "A cold Miller High Life"
+   ],
+   "price": "$",
+   "reservation": {
+    "needed": false,
+    "url": null
+   },
+   "best_window": "Friday or Saturday after the show, 11:45 PM - 1:00 AM (closed Sunday downtown)",
+   "hours_this_weekend": {
+    "fri": "11:00 AM - 3:00 AM",
+    "sat": "11:00 AM - 3:00 AM",
+    "sun": "Closed (Marquette location at 1625 W Wells open 11:00 AM - 10:00 PM)",
+    "mon": "11:00 AM - 10:00 PM"
+   },
+   "travel_from_downtown": "10 min walk (0.5 mi) east across the Wisconsin Ave bridge, north on Milwaukee St to Wells",
+   "source": "https://www.realchilimilwaukee.com/"
+  },
+  {
+   "id": "ians-pizza-downtown",
+   "name": "Ian's Pizza Downtown (Cream City Arcade)",
+   "category": "street-food",
+   "lat": 43.0459,
+   "lng": -87.9116,
+   "address": "146 E Juneau Ave, Milwaukee, WI 53202",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Ian's+Pizza+146+E+Juneau+Ave+Milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/ians-pizza-milwaukee-milwaukee-2?tab=food",
+   "website": "https://ianspizza.com/location/ians-pizza-cream-city-milwaukee/",
+   "blurb": "Wisconsin's cult by-the-slice shop (born in Madison) with a downtown location that doubles as a 16-cabinet arcade, open until 2:00 AM Friday and Saturday. The Mac n' Cheese slice is the thing, and it is a 14-minute walk north of the Riverside, or a 4-minute ride.",
+   "tags": [
+    "late night",
+    "pizza",
+    "by the slice",
+    "arcade",
+    "walkable"
+   ],
+   "image": {
+    "src": "https://ianspizza.com/wp-content/uploads/2020/12/Ians-Pizza_Juneau-Avenue-Milwaukee_1200w.jpg",
+    "credit": "Ian's Pizza",
+    "credit_url": "https://ianspizza.com/location/ians-pizza-cream-city-milwaukee/",
+    "local": "assets/img/food/ians-pizza-downtown-84e408f7.jpg"
+   },
+   "why_special": "Late-night Wisconsin pizza culture in one slice: mac and cheese on a crust. The arcade makes it a post-show hang, not just a snack stop.",
+   "must_order": [
+    "Signature Mac n' Cheese slice",
+    "Whatever the rotating specialty slice is (often a Wisconsin-themed one)",
+    "Garlic butter and ranch on the side, the local way"
+   ],
+   "price": "$",
+   "reservation": {
+    "needed": false,
+    "url": null
+   },
+   "best_window": "Friday or Saturday after the show, before 2:00 AM; Sunday closes 10:00 PM",
+   "hours_this_weekend": {
+    "fri": "11:00 AM - 2:00 AM",
+    "sat": "11:00 AM - 2:00 AM",
+    "sun": "11:00 AM - 10:00 PM",
+    "mon": "11:00 AM - 10:00 PM"
+   },
+   "travel_from_downtown": "14 min walk (0.7 mi) north on Water St, or 4 min rideshare",
+   "source": "https://ianspizza.com/location/ians-pizza-cream-city-milwaukee/"
+  },
+  {
+   "id": "milwaukee-brat-house",
+   "name": "Milwaukee Brat House (Downtown)",
+   "category": "street-food",
+   "lat": 43.0433,
+   "lng": -87.9148,
+   "address": "1013 N Old World 3rd St, Milwaukee, WI 53203",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Milwaukee+Brat+House+1013+N+Old+World+3rd+St",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/milwaukee-brat-house-milwaukee?tab=food",
+   "website": "https://www.milwaukeebrathouse.com/",
+   "blurb": "A beer-and-brats tavern on Old World Third, next door to Mader's and a 9-minute walk from the venue. Brats with kraut, fried cheese curds, pretzels, and a bar open until 2:00 AM every night including Sunday, which makes it the late-night Milwaukee-cliche stop after the Sunday show.",
+   "tags": [
+    "brats",
+    "cheese curds",
+    "late night",
+    "bar",
+    "walkable",
+    "open Sunday late"
+   ],
+   "image": null,
+   "why_special": "A bratwurst with sauerkraut and a Wisconsin beer in a downtown tavern is the plain, correct Milwaukee snack, and this is the walkable one open after midnight on Sunday.",
+   "must_order": [
+    "Classic bratwurst with sauerkraut and stadium mustard",
+    "Fried Wisconsin cheese curds",
+    "A local draft (Lakefront, New Glarus Spotted Cow if they have it)"
+   ],
+   "price": "$",
+   "reservation": {
+    "needed": false,
+    "url": null
+   },
+   "best_window": "Sunday Oct 25 after the show (bar to 2:00 AM; confirm kitchen hours), or any afternoon",
+   "hours_this_weekend": {
+    "fri": "11:00 AM - 2:00 AM",
+    "sat": "10:00 AM - 2:30 AM",
+    "sun": "10:00 AM - 2:00 AM",
+    "mon": "11:00 AM - 2:00 AM"
+   },
+   "travel_from_downtown": "9 min walk (0.45 mi) from the Riverside",
+   "source": "https://www.milwaukeebrathouse.com/",
+   "hours_note": "Bar hours; kitchen cutoff not published (see open_questions)."
+  },
+  {
+   "id": "pizza-shuttle",
+   "name": "Pizza Shuttle",
+   "category": "street-food",
+   "lat": 43.0547,
+   "lng": -87.8911,
+   "address": "1827 N Farwell Ave, Milwaukee, WI 53202",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Pizza+Shuttle+1827+N+Farwell+Ave+Milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/pizza-shuttle-milwaukee?tab=food",
+   "website": "https://pizzashuttle.com/",
+   "blurb": "The East Side's 40-year late-night institution: takeout and delivery until 3:00 AM every night, including Sunday, with a dine-in room until midnight. Pizza, broasted chicken, gyros, wonton mozzarella sticks, and a strawberry custard shake. The Sunday-night safety net that delivers to a downtown hotel.",
+   "tags": [
+    "late night",
+    "pizza",
+    "delivery",
+    "open Sunday late",
+    "East Side"
+   ],
+   "image": null,
+   "why_special": "When Real Chili is closed (Sunday) and everything downtown has stopped serving, Pizza Shuttle is still frying broasted chicken at 2:00 AM and delivering to downtown addresses.",
+   "must_order": [
+    "A slice or small pie (the Deluxe)",
+    "Broasted chicken",
+    "Wonton mozzarella sticks",
+    "Strawberry shake made with fresh custard"
+   ],
+   "price": "$",
+   "reservation": {
+    "needed": false,
+    "url": null
+   },
+   "best_window": "Sunday Oct 25 after the show: order delivery to the hotel, or dine in before midnight",
+   "hours_this_weekend": {
+    "fri": "Dine-in 10:00 AM - 12:00 AM; takeout/delivery 10:00 AM - 3:00 AM",
+    "sat": "Dine-in 10:00 AM - 12:00 AM; takeout/delivery 10:00 AM - 3:00 AM",
+    "sun": "Dine-in 10:00 AM - 12:00 AM; takeout/delivery 10:00 AM - 3:00 AM",
+    "mon": "Dine-in 10:00 AM - 12:00 AM; takeout/delivery 10:00 AM - 3:00 AM"
+   },
+   "travel_from_downtown": "6 min rideshare (1.7 mi); delivers downtown",
+   "source": "https://pizzashuttle.com/"
+  }
+ ],
+ "milwaukee_food_traditions": [
+  {
+   "name": "Friday fish fry",
+   "what": "Wisconsin's Catholic-Lent-turned-every-Friday ritual: beer-battered or breaded cod (or lake perch, walleye, bluegill) with rye bread, coleslaw, potato pancakes or fries, tartar sauce, and a brandy Old Fashioned. Breweries, church halls, supper clubs and taverns all do one. Lakefront adds a live polka band. If she wants a second opinion: Kegel's Inn in West Allis (Fridays 11:00 AM - 9:00 PM, lake perch and walleye, 1924 speakeasy) and American Serb Hall (Fridays 3:30 - 8:30 PM, famous Serbian-sauce cod) are the other two legends, both a 15-minute ride.",
+   "where_from_this_list": [
+    "lakefront-brewery-fish-fry"
+   ],
+   "source": "https://www.northshorefamilyadventures.com/food-drinks/lenten-fish-fry"
+  },
+  {
+   "name": "Butter burger",
+   "what": "A thin griddled patty on a bun that has been slathered (not brushed) with butter, so it pools into the beef. Solly's invented it in 1936; Kopp's and Culver's spread it statewide. Order it with fried onions and a malt.",
+   "where_from_this_list": [
+    "sollys-grille",
+    "kopps-greenfield",
+    "sobelmans-st-paul"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Solly%27s_Grille"
+  },
+  {
+   "name": "Frozen custard",
+   "what": "Dense, egg-rich soft-serve kept at a warmer temperature than ice cream, sold by the dish, cone or pint from drive-in stands with a chalkboard Flavor of the Day. Kopp's publishes the schedule: Mr. Baseball (caramel malt with beer nuts and a splash of Miller Lite) on Friday Oct 23, Wedding Cake and German Apple Streusel on Saturday, Mint Chip and Heavenly Hash on Sunday, Twix-Tac-Dough and Cookies 'N Cream on Monday Oct 26.",
+   "where_from_this_list": [
+    "kopps-greenfield"
+   ],
+   "source": "https://www.kopps.com/flavor-preview"
+  },
+  {
+   "name": "Cheese curds",
+   "what": "Fresh, squeaky cheddar curds eaten raw (they squeak against your teeth when they are a day old) or beer-battered and deep-fried with ranch. Lakefront's CurdWagon is fully gluten-free and runs a Cheese Curd Flavor of the Month; West Allis Cheese & Sausage in the Public Market sells fresh ones by the bag.",
+   "where_from_this_list": [
+    "lakefront-brewery-fish-fry",
+    "milwaukee-public-market",
+    "third-street-market-hall",
+    "milwaukee-brat-house"
+   ],
+   "source": "https://lakefrontbrewery.com/beer-hall"
+  },
+  {
+   "name": "Brandy Old Fashioned (sweet or sour, with press)",
+   "what": "Wisconsin drinks more Korbel brandy than any other state, and the Old Fashioned here is brandy (not whiskey) muddled with sugar, bitters and an orange slice and cherry, then topped with your choice of soda: 'sweet' (7UP or Sprite), 'sour' (Squirt or sour mix), 'press' (half 7UP, half seltzer) or 'seltzer.' Order it as 'brandy old fashioned sweet' and watch the bartender nod. Mader's and any fish fry bar will make a proper one; Lakefront serves cocktails at the Friday fish fry.",
+   "where_from_this_list": [
+    "maders",
+    "lakefront-brewery-fish-fry",
+    "three-brothers"
+   ],
+   "source": "https://lakefrontbrewery.com/beer-hall"
+  },
+  {
+   "name": "Bloody Mary with a beer chaser",
+   "what": "In Wisconsin a Bloody Mary comes with a 'snit' or 'chaser,' a few ounces of beer in a short glass on the side, and the garnish often becomes a meal: cheese curds, sausage, pickles, a shrimp, sometimes a whole slider or a fried chicken. Sobelman's built a national reputation on its 'Bloody Masterpiece' and its bacon-wrapped cheddar balls on a skewer; St. Paul Fish Co. in the Public Market pours them with oysters; Honeypie infuses its own.",
+   "where_from_this_list": [
+    "sobelmans-st-paul",
+    "milwaukee-public-market",
+    "honeypie-cafe"
+   ],
+   "source": "https://www.sobelmanspubandgrill.com/"
+  }
+ ],
+ "monday_brunch_before_flight": [
+  {
+   "id": "uncle-wolfies-downtown",
+   "name": "Uncle Wolfie's Breakfast Tavern (Downtown)",
+   "category": "restaurant",
+   "lat": 43.0376,
+   "lng": -87.9075,
+   "address": "600 N Broadway, Milwaukee, WI 53202",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Uncle+Wolfie's+600+N+Broadway+Milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/uncle-wolfies-downtown-and-the-wolf-milwaukee?tab=food",
+   "website": "https://www.unclewolfies.com/",
+   "blurb": "Milwaukee's favorite breakfast tavern, now with a downtown room eight minutes' walk from the Riverside. Walk-in only, open 8:00 AM to 2:00 PM Monday, and the Monday morning crowd is a fraction of the weekend line.",
+   "tags": [
+    "brunch",
+    "walkable",
+    "open Monday",
+    "breakfast tavern",
+    "Bloody Mary"
+   ],
+   "image": {
+    "src": "https://images.squarespace-cdn.com/content/v1/57d75b1f2994ca43043ea5e0/1726251697554-MN16TDVTD0F6RJ3OO1LH/IMG_3635.jpg",
+    "credit": "Uncle Wolfie's",
+    "credit_url": "https://www.unclewolfies.com/",
+    "local": "assets/img/food/uncle-wolfies-downtown-773116c0.jpg"
+   },
+   "why_special": "The easiest great brunch on a Monday: no rideshare needed, open from 8:00 AM, and a kitchen (exec chef Kristen Schwab) good enough that the same space runs a Tock-reserved tasting-menu dinner called The Wolf on Wednesday through Saturday nights.",
+   "must_order": [
+    "The breakfast sandwich or any egg plate with the house potatoes",
+    "A Bloody Mary (it is a breakfast tavern) or the coffee cocktail",
+    "Whatever pastry is on the counter"
+   ],
+   "price": "$$",
+   "reservation": {
+    "needed": false,
+    "url": null,
+    "note": "Walk-in only for brunch at both locations."
+   },
+   "best_window": "Monday Oct 26, 9:30 - 11:00 AM; checkout, brunch, then a 15 min ride to MKE",
+   "hours_this_weekend": {
+    "fri": "8:00 AM - 2:00 PM (The Wolf dinner 5:00 - 10:00 PM)",
+    "sat": "8:00 AM - 3:00 PM (The Wolf dinner 5:00 - 10:00 PM)",
+    "sun": "8:00 AM - 3:00 PM",
+    "mon": "8:00 AM - 2:00 PM"
+   },
+   "travel_from_downtown": "8 min walk (0.4 mi) from the Riverside; 15 min rideshare to MKE from here",
+   "source": "https://www.unclewolfies.com/"
+  },
+  {
+   "id": "honeypie-cafe",
+   "name": "Honeypie Cafe",
+   "category": "restaurant",
+   "lat": 42.998,
+   "lng": -87.9004,
+   "address": "2569 S Kinnickinnic Ave, Milwaukee, WI 53207",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Honeypie+Cafe+2569+S+Kinnickinnic+Ave+Milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/honeypie-cafe-milwaukee?tab=food",
+   "website": "https://www.honeypiecafe.com/",
+   "blurb": "Bay View's Midwestern-comfort cafe with critically acclaimed house-baked pies, buttermilk biscuits, and house-infused Bloody Marys. It sits on Kinnickinnic Avenue, which is on the way to the airport (10 minutes from MKE), and it is open Monday from 9:00 AM.",
+   "tags": [
+    "brunch",
+    "pie",
+    "Bay View",
+    "open Monday",
+    "on the way to MKE",
+    "Bloody Mary"
+   ],
+   "image": {
+    "src": "https://static1.squarespace.com/static/54aefaf7e4b03c743344c765/t/68c87ea415b69702ebab2477/1776531765672/A45378C8-45D8-453F-B3CA-5245099421AE.jpg?format=1500w",
+    "credit": "Honeypie Cafe",
+    "credit_url": "https://www.honeypiecafe.com/",
+    "local": "assets/img/food/honeypie-cafe-d8768a43.jpg"
+   },
+   "why_special": "A slice of Wisconsin pie for the plane, biscuits and gravy, and a Bloody Mary with a snit, in a neighborhood that is the halfway point between downtown and the airport. Check bags, ride to Bay View, eat, ride 10 minutes to MKE.",
+   "must_order": [
+    "A slice of pie (ask what came out of the oven; take a second slice to go)",
+    "Buttermilk biscuits and gravy",
+    "House-infused Bloody Mary with a beer chaser"
+   ],
+   "price": "$$",
+   "reservation": {
+    "needed": false,
+    "url": null,
+    "note": "First come, first served; no reservations."
+   },
+   "best_window": "Monday Oct 26, 10:00 - 11:30 AM, then 10 min to MKE for a 3:00 PM flight",
+   "hours_this_weekend": {
+    "fri": "9:00 AM - 3:00 PM breakfast/lunch; 3:00 - 9:00 PM dinner",
+    "sat": "9:00 AM - 3:00 PM brunch; 3:00 - 9:00 PM dinner",
+    "sun": "9:00 AM - 3:00 PM brunch; 3:00 - 9:00 PM dinner",
+    "mon": "9:00 AM - 3:00 PM breakfast/lunch; 3:00 - 9:00 PM dinner"
+   },
+   "travel_from_downtown": "10 min rideshare (3.5 mi) from the Riverside; 10 min from here to MKE",
+   "source": "https://www.honeypiecafe.com/"
+  },
+  {
+   "id": "sobelmans-st-paul",
+   "name": "Sobelman's Pub & Grill (original, St. Paul Ave)",
+   "category": "restaurant",
+   "lat": 43.0349,
+   "lng": -87.9368,
+   "address": "1900 W St Paul Ave, Milwaukee, WI 53233",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Sobelman's+Pub+and+Grill+1900+W+St+Paul+Ave+Milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/sobelmans-pub-and-grill-milwaukee?tab=food",
+   "website": "https://www.sobelmanspubandgrill.com/",
+   "blurb": "The 1890s Schlitz tavern in the Menomonee Valley that made Milwaukee's over-garnished Bloody Mary famous (bacon-wrapped cheddar balls, sausage, a beer chaser) and backs it with a top-tier burger. Opens 11:00 AM Monday; it is a late Monday brunch disguised as lunch, and I-94 to the airport is right there.",
+   "tags": [
+    "Bloody Mary",
+    "burger",
+    "Milwaukee institution",
+    "open Monday",
+    "Schlitz tavern"
+   ],
+   "image": {
+    "src": "https://static.spotapps.co/web/sobelmanspubandgrill--com/custom/bloody_mary_1.jpg",
+    "credit": "Sobelman's Pub & Grill",
+    "credit_url": "https://www.sobelmanspubandgrill.com/",
+    "local": "assets/img/food/sobelmans-st-paul-e41fdfe9.jpg"
+   },
+   "why_special": "The Bloody Mary with a beer chaser is a Wisconsin tradition and Sobelman's turned it into a spectacle (the Bloody Masterpiece, the Baconado). Doing it at the original tavern at 11:00 AM on a Monday with a Sobelman burger is the ideal send-off meal. Closed Sunday, so Saturday (opens 10:00 AM) or Monday are the options.",
+   "must_order": [
+    "The Bloody Masterpiece (or the Baconado) with the beer chaser",
+    "The Sobelman burger (or the Beast)",
+    "Bacon-wrapped jalapeno cheeseballs"
+   ],
+   "price": "$$",
+   "reservation": {
+    "needed": false,
+    "url": null,
+    "note": "Walk in; 414-931-1919."
+   },
+   "best_window": "Monday Oct 26 at 11:00 AM open, out by 12:15 PM, 15 min drive to MKE; or Saturday 10:00 AM",
+   "hours_this_weekend": {
+    "fri": "11:00 AM - 9:00 PM",
+    "sat": "10:00 AM - 9:00 PM",
+    "sun": "Closed",
+    "mon": "11:00 AM - 8:00 PM"
+   },
+   "travel_from_downtown": "7 min rideshare (1.8 mi west); 15 min from here to MKE via I-94/I-43",
+   "source": "https://www.sobelmanspubandgrill.com/"
+  },
+  {
+   "id": "kopps-greenfield",
+   "name": "Kopp's Frozen Custard (Greenfield, on the way to MKE)",
+   "category": "restaurant",
+   "lat": 42.9586,
+   "lng": -88.0093,
+   "address": "7631 W Layton Ave, Greenfield, WI 53220",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Kopp's+Frozen+Custard+7631+W+Layton+Ave+Greenfield",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/kopps-frozen-custard-greenfield-3?tab=food",
+   "website": "https://www.kopps.com/",
+   "blurb": "Milwaukee's custard temple: a stainless-steel stand on Layton Avenue, the road that runs straight east to the airport. Two Flavors of the Day on a chalkboard and jumbo butter burgers. Monday Oct 26 flavors are Twix-Tac-Dough and Cookies 'N Cream.",
+   "tags": [
+    "frozen custard",
+    "butter burger",
+    "on the way to MKE",
+    "Milwaukee institution",
+    "dessert"
+   ],
+   "image": {
+    "src": "https://kopps.com/wp-content/uploads/2023/02/OG-Image-Default.jpeg",
+    "credit": "Kopp's Frozen Custard",
+    "credit_url": "https://www.kopps.com/",
+    "local": "assets/img/food/kopps-greenfield-967826bc.jpg"
+   },
+   "why_special": "Frozen custard is the dessert Milwaukee is proudest of and Kopp's is the name every local says first. Layton Avenue runs directly to MKE (about 12 minutes), so a dish of custard and a jumbo butter burger is the last Milwaukee stop before security.",
+   "must_order": [
+    "A dish of the Flavor of the Day (Monday: Twix-Tac-Dough or Cookies 'N Cream)",
+    "Jumbo butter burger with fried onions",
+    "Caramel Apple Sundae (October sundae of the month)"
+   ],
+   "price": "$",
+   "reservation": {
+    "needed": false,
+    "url": null
+   },
+   "best_window": "Monday Oct 26, 11:30 AM - 12:30 PM, then 12 min east on Layton Ave to MKE",
+   "hours_this_weekend": {
+    "fri": "10:30 AM - 11:00 PM",
+    "sat": "10:30 AM - 11:00 PM",
+    "sun": "10:30 AM - 10:00 PM",
+    "mon": "10:30 AM - 10:00 PM"
+   },
+   "travel_from_downtown": "18 min rideshare (10 mi) from downtown; 12 min from here to MKE",
+   "source": "https://www.kopps.com/",
+   "flavor_source": "https://www.kopps.com/flavor-preview"
+  }
+ ]
+}

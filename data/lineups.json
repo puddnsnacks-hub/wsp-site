@@ -1,0 +1,2012 @@
+{
+ "open_questions": [
+  "Game 1 starting lineups were not posted as of 2:30 AM CT Oct. 23; both mlb.com lineup pages show TBD. Expect them around 3:00-4:00 PM CT. Replace 'projected_lineups' with 'lineups' and set status to 'announced' when posted.",
+  "Game 3 (Mon Oct. 26, Tropicana Field) starters are not announced; Peralta (TB) and Gasser (MIL) are the consensus projections (CBS Sports, Just Baseball). Rays could also go Rasmussen G2 / Peralta G3 as reported, but Cash has not confirmed.",
+  "Raymond's jersey number could not be verified (the Rays' official bio lists no number; the 2007 photo shows a number starting with 0, probably 00); left null.",
+  "Brewers RF for Game 1 is the one lineup spot in doubt (Sal Frelick vs. Luis Lara); Frelick is projected based on NLCS Game 4.",
+  "All 24 player headshots and the three mascot images were verified to return image/jpeg on Oct. 23; the Wikimedia originals are rate-limited from some networks, so the Raymond card uses the 500px thumbnail URL."
+ ],
+ "as_of": "2026-10-23T02:30:00-05:00",
+ "teams": {
+  "MIL": {
+   "name": "Milwaukee Brewers",
+   "nickname": "Brewers",
+   "colors": {
+    "primary": "#12284B",
+    "secondary": "#FFC52F"
+   },
+   "record_2026": "103-59",
+   "postseason_record": "7-1 (beat SD in NLDS, swept LAD in NLCS)",
+   "manager": "Pat Murphy",
+   "logo_url": "https://www.mlbstatic.com/team-logos/158.svg",
+   "season_note": "A franchise-record 103 wins, the best record in baseball, the presumptive NL Cy Young winner, and a first World Series appearance since 1982 for a team that has never won it.",
+   "source": "https://www.justbaseball.com/?p=245448",
+   "mascot": {
+    "id": "bernie-brewer",
+    "name": "Bernie Brewer",
+    "number": null,
+    "position": "Mascot",
+    "bats": null,
+    "throws": null,
+    "age": null,
+    "hometown": "Milwaukee County Stadium scoreboard, Milwaukee, WI",
+    "headshot_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bernie_Brewer_in_crowd.jpg",
+    "headshot_credit": "Wikimedia Commons, 'Bernie Brewer in crowd' (CC license; see file page)",
+    "headshot_credit_url": "https://commons.wikimedia.org/wiki/File:Bernie_Brewer_in_crowd.jpg",
+    "stats_2026": {
+     "Debut": "1973 (chalet opened at the April 14, 1973 home opener)",
+     "Origin": "Milt Mason, 69, lived ~40 days atop the County Stadium scoreboard in 1970 until the Brewers drew 40,000",
+     "Retired / returned": "1984 / 1993 (fans voted him back)",
+     "Slide": "Down a slide from Bernie's Dugout above the left-field bleachers after every Brewers home run",
+     "Mustache": "Big, blond, non-negotiable"
+    },
+    "postseason_2026": "Has slid after every Brewers postseason home run at American Family Field; 7 Brewers homers in the NLCS alone",
+    "card_back": "In June 1970 a 69-year-old fan named Milt Mason climbed into a trailer on top of the County Stadium scoreboard and vowed not to come down until the brand-new Brewers drew a crowd of 40,000. It took about 40 days; on Bat Day, August 16, 1970, 44,387 showed up and he slid down a rope, burning his hands and legs. The team turned him into a mustachioed lederhosen-wearing character in 1973, with a beer-barrel chalet from which Bernie slid into a giant beer mug after every homer. The chalet was torn out in 1984, fans voted him back in 1993, and today he slides from Bernie's Dugout above left field. Bar line: the original chalet now lives at Lakefront Brewery, where you can see it on the brewery tour.",
+    "weird_fact": "The original 1973 beer-barrel chalet survives and is on display at Lakefront Brewery in Milwaukee; Bernie's slide platform was briefly renamed the Kalahari Splash Zone after a 2009 sponsorship deal. He joined Twitter in April 2010 and has the largest following of any MLB mascot there.",
+    "weird_fact_source": "https://en.wikipedia.org/wiki/Bernie_Brewer",
+    "texas_tie": null,
+    "source": "https://www.mlb.com/brewers/fans/mascots/bernie-brewer",
+    "bio_sources": [
+     "https://en.wikipedia.org/wiki/Bernie_Brewer",
+     "https://www.mlb.com/news/milt-mason-the-original-bernie-brewer"
+    ],
+    "headshot_url_local": "assets/img/cards/bernie-brewer-cd8ebedf.jpg"
+   },
+   "mascot_extra": {
+    "id": "racing-sausages",
+    "name": "Famous Racing Sausages",
+    "number": null,
+    "position": "Mascot (relay team)",
+    "bats": null,
+    "throws": null,
+    "age": null,
+    "hometown": "Klement's Sausage Co., Milwaukee, WI",
+    "headshot_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Sausage_Racers.jpg",
+    "headshot_credit": "Wikimedia Commons, 'Sausage Racers' (CC license; see file page)",
+    "headshot_credit_url": "https://commons.wikimedia.org/wiki/File:Sausage_Racers.jpg",
+    "stats_2026": {
+     "When": "Middle of the 6th inning, every Brewers home game",
+     "First live race": "June 27, 1993, County Stadium (Bratwurst won)",
+     "Roster": "#1 Brat, #2 Polish, #3 Italian, #4 Hot Dog, #5 Chorizo (sombrero)",
+     "2026 wins (through Sept. 13)": "Polish 21, Italian 19, Chorizo 14, Hot Dog 12, Brat 11",
+     "Costume height": "About 7 ft 3 in"
+    },
+    "postseason_2026": "Games 1 and 2 are the first World Series games the sausages have ever raced in; the Brewers' only previous World Series (1982) predates the race.",
+    "card_back": "Five seven-foot foam sausages sprint from third base around home toward first in the middle of the sixth inning at every Brewers home game. It started as a cartoon race on the County Stadium scoreboard in the early 1990s; the first live race was June 27, 1993. The Hot Dog joined mid-decade, and Chorizo ran once in 2006 for Cerveceros Day before MLB's no-new-mascots-midseason rule made him wait until 2007 to join full time. On Sundays the big sausages hand off to the Little Weenies. Bar line: watch the Polish Sausage; the team bio says he starts slow and finishes strong, and he leads the 2026 standings.",
+    "weird_fact": "On July 9, 2003, Pirates first baseman Randall Simon whacked the Italian Sausage with a bat mid-race, knocking over the runner (Mandy Block) and the Hot Dog; he was arrested, fined and suspended three games, and Block asked only for the autographed bat. In 2013 the Italian Sausage costume was stolen from a curling club and turned up at a Cedarburg bar 12 days later.",
+    "weird_fact_source": "https://en.wikipedia.org/wiki/Sausage_Race",
+    "texas_tie": null,
+    "source": "https://www.mlb.com/brewers/fans/mascots/racing-sausages",
+    "bio_sources": [
+     "https://en.wikipedia.org/wiki/Sausage_Race",
+     "https://thestadiumreviews.com/blogs/info/the-milwaukee-brewers-sausage-race-ultimate-guide/"
+    ],
+    "headshot_url_local": "assets/img/cards/racing-sausages-3d7433ae.jpg"
+   },
+   "logo_url_local": "assets/img/cards/milwaukee-brewers-28dc72fb.svg"
+  },
+  "TB": {
+   "name": "Tampa Bay Rays",
+   "nickname": "Rays",
+   "colors": {
+    "primary": "#092C5C",
+    "secondary": "#8FBCE6"
+   },
+   "record_2026": "98-64",
+   "postseason_record": "7-2 (beat NYY in ALDS, beat CLE in 6 in ALCS)",
+   "manager": "Kevin Cash",
+   "logo_url": "https://www.mlbstatic.com/team-logos/139.svg",
+   "season_note": "The AL's best record (98 wins) with a contact-and-speed lineup, baseball's best bullpen closer (Bryan Baker, 41 saves), and two ex-Brewers (Rasmussen, Peralta) in the rotation; the Rays have never won a World Series either, so a first-time champion is guaranteed.",
+   "source": "https://www.si.com/betting/rays-vs-brewers-game-1-opening-odds-for-2026-world-series-milwaukee-set-as-home-favorite",
+   "mascot": {
+    "id": "raymond",
+    "name": "Raymond",
+    "number": null,
+    "position": "Mascot",
+    "bats": null,
+    "throws": null,
+    "age": null,
+    "hometown": "Gulf of Mexico (officially); lives in a private condo inside Tropicana Field",
+    "headshot_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/RaymondTampaBayDevilRaysMascotSeptember2007.jpg/500px-RaymondTampaBayDevilRaysMascotSeptember2007.jpg",
+    "headshot_credit": "Wikimedia Commons, 'Raymond Tampa Bay Devil Rays Mascot September 2007' (CC BY-SA 2.0)",
+    "headshot_credit_url": "https://commons.wikimedia.org/wiki/File:RaymondTampaBayDevilRaysMascotSeptember2007.jpg",
+    "stats_2026": {
+     "Debut": "June 21, 1998, vs. the Red Sox",
+     "Species": "Seadog (Canus Manta Whatthefluffalus, 'identified' by marine biologists in 2005)",
+     "Full name": "Raymond Ray",
+     "Height": "Tall enough to ride the rides at Disney World (seadogs run 5 to 6 feet)",
+     "Weight": "'Don't worry about it'",
+     "Favorite food": "Popcorn, cotton candy and hot dogs",
+     "Dislikes": "Baths, fur in his food, nacho cheese in his fur"
+    },
+    "postseason_2026": "First World Series since 2020; Game 3 on Oct. 26 will be the first World Series game at Tropicana Field since 2008",
+    "card_back": "Raymond is a shaggy blue creature with a baseball for a nose, oversized sneakers and a backward cap. The Rays' official story is that scouts on a Gulf of Mexico fishing trip lured him to the boat with the smell of hot dogs, and that he belongs to a previously undiscovered dog species, the 'seadog.' He debuted June 21, 1998 in the Devil Rays' first season and has outlasted the Devil, the name change, and two stadium sagas. Bar line: he lists his position as 'all of them' and his hobbies as full-contact shuffleboard and extreme checkers.",
+    "weird_fact": "The Rays claim a team of marine biologists and zoologists formally identified his species in 2005 as 'Canus Manta Whatthefluffalus.' He has a second mascot colleague, DJ Kitty, who was reportedly found near the dumpsters behind Tropicana Field.",
+    "weird_fact_source": "https://www.mlb.com/rays/fans/rays-rookies/mascots",
+    "texas_tie": "The Rays' last World Series (2020, vs. the Dodgers) was played entirely at Globe Life Field in Arlington, TX, so Raymond's only prior Fall Classic was in Texas. He is also officially 'born in the Gulf of Mexico,' which laps the Texas coast.",
+    "source": "https://www.mlb.com/rays/fans/rays-rookies/mascots",
+    "bio_sources": [
+     "https://en.wikipedia.org/wiki/List_of_Major_League_Baseball_mascots",
+     "https://www.sportskeeda.com/baseball/tampa-bay-rays-mascot"
+    ],
+    "headshot_url_local": "assets/img/cards/raymond-257dbc80.jpg"
+   },
+   "logo_url_local": "assets/img/cards/tampa-bay-rays-a451f473.svg"
+  }
+ },
+ "games": [
+  {
+   "game": 1,
+   "date": "2026-10-23",
+   "first_pitch_central": "7:00 PM",
+   "venue": "American Family Field",
+   "home": "MIL",
+   "away": "TB",
+   "tv": "FOX",
+   "status": "projected",
+   "pitchers_status": "announced",
+   "probable_pitchers": {
+    "MIL": {
+     "id": "694819",
+     "name": "Jacob Misiorowski",
+     "number": 32,
+     "position": "P",
+     "bats": "R",
+     "throws": "R",
+     "age": 24,
+     "hometown": "Grain Valley, MO",
+     "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/694819/headshot/67/current",
+     "stats_2026": {
+      "W-L": "16-5",
+      "ERA": "1.80",
+      "K": 252,
+      "IP": "174.2",
+      "WHIP": "0.80"
+     },
+     "postseason_2026": "2 starts, 8.1 IP, 3 ER, 11 K; won NLDS G1 and NLCS G1 but has not finished the 5th inning in either",
+     "card_back": "\"The Miz\" is a 6-foot-7 right-hander from Grain Valley, Missouri, who went to a junior college (Crowder) instead of LSU and became the hardest-throwing starter in baseball history. In 2026 he led MLB in ERA (1.80), WHIP (0.80) and strikeouts (252), hit 105.5 mph on June 26, and is the presumptive NL Cy Young winner. Bar line: he threw 57 pitches at 100-plus in one game in May, an MLB record, and he collects Pokemon cards.",
+     "weird_fact": "On June 26, 2026 he threw a 105.5 mph fastball, the fastest pitch ever recorded by a starting pitcher; he also became the first pitcher ever to throw 1,000 pitches at 100-plus mph in one season (September 8).",
+     "weird_fact_source": "https://en.wikipedia.org/wiki/Jacob_Misiorowski",
+     "texas_tie": null,
+     "source": "https://statsapi.mlb.com/api/v1/people/694819?hydrate=stats(type=season,season=2026),education,draft",
+     "bio_sources": [
+      "https://en.wikipedia.org/wiki/Jacob_Misiorowski",
+      "https://www.justbaseball.com/?p=245448"
+     ],
+     "headshot_url_local": "assets/img/cards/694819-e92b83b8.jpg"
+    },
+    "TB": {
+     "id": "607259",
+     "name": "Nick Martinez",
+     "number": 28,
+     "position": "P",
+     "bats": "L",
+     "throws": "R",
+     "age": 36,
+     "hometown": "Miami, FL",
+     "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/607259/headshot/67/current",
+     "stats_2026": {
+      "W-L": "15-6",
+      "ERA": "3.10",
+      "K": 109,
+      "IP": "180.0",
+      "WHIP": "1.09"
+     },
+     "postseason_2026": "2 starts, 9.0 IP, 3 ER, 6 K; held Cleveland to 1 run over 5.1 IP in ALCS G4; first postseason starts of his career",
+     "card_back": "A Miami kid who was a second baseman at Fordham until the Rangers drafted him as an 18th-round pitcher in 2011. After four years in Texas and four in Japan (a 1.60 ERA for SoftBank in 2021 and an Olympic silver medal), he came back to the Padres and Reds, and at 36 made his first All-Star team on a one-year, $13 million Rays deal: 15-6, 3.10 ERA, 180 innings, and the lowest walk rate in baseball. Kevin Cash picked him over ace Drew Rasmussen for Game 1. Bar line: he hosts a team dinner in every road city, and took the Rays to a Milwaukee steakhouse Wednesday night.",
+     "weird_fact": "Was mostly a second baseman in college (.295, 22 steals at Fordham) with only 15 relief appearances before being drafted as a pitcher; now he organizes a team dinner in every road city, including a Milwaukee steakhouse this week.",
+     "weird_fact_source": "https://www.espn.com/mlb/story/_/id/50252981/rays-opt-nick-martinez-open-world-series-vs-brewers",
+     "texas_tie": "Drafted by the Texas Rangers (18th round, 2011); pitched for Texas 2014-2017 with minor-league stops at Frisco and Round Rock.",
+     "source": "https://statsapi.mlb.com/api/v1/people/607259?hydrate=stats(type=season,season=2026),education,draft",
+     "bio_sources": [
+      "https://en.wikipedia.org/wiki/Nick_Martinez_(baseball)",
+      "https://www.espn.com/mlb/story/_/id/50252981/rays-opt-nick-martinez-open-world-series-vs-brewers"
+     ],
+     "headshot_url_local": "assets/img/cards/607259-3f576abf.jpg"
+    }
+   },
+   "pitching_note": "Rays manager Kevin Cash announced Thursday that Nick Martinez, not ace Drew Rasmussen, starts Game 1, to give Rasmussen an extra day after a heavy postseason workload. Misiorowski starts on 11 days' rest.",
+   "lineups": {
+    "MIL": [],
+    "TB": []
+   },
+   "projected_lineups": {
+    "MIL": [
+     {
+      "order": 1,
+      "id": "694192",
+      "name": "Jackson Chourio",
+      "number": 11,
+      "position": "LF",
+      "bats": "R",
+      "throws": "R",
+      "age": 22,
+      "hometown": "Maracaibo, Venezuela",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/694192/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".291",
+       "HR": 25,
+       "RBI": 75,
+       "OPS": ".838",
+       "SB": 23
+      },
+      "postseason_2026": ".171 AVG but 2 HR and 7 RBI in 8 games, including a game-tying homer in NLDS G1 and a walk-off single in NLDS G2",
+      "card_back": "Signed out of Maracaibo, Venezuela, for $1.9 million at 16, Chourio got an eight-year, $82 million contract in December 2023 before he had played a single big-league game, then debuted on Opening Day 2024 as the youngest player in the majors. He is the only player ever with three 20-homer, 20-steal seasons before turning 23, and he already owns the Brewers' career postseason RBI record. Bar line: he won WBC gold with Venezuela in March 2026 despite breaking his hand in the tournament.",
+      "weird_fact": "His $82 million extension (Dec. 4, 2023) was the largest contract ever given to a player who had never appeared in an MLB game.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Jackson_Chourio",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/694192?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Jackson_Chourio"
+      ],
+      "headshot_url_local": "assets/img/cards/694192-626b51c0.jpg"
+     },
+     {
+      "order": 2,
+      "id": "668930",
+      "name": "Brice Turang",
+      "number": 2,
+      "position": "2B",
+      "bats": "L",
+      "throws": "R",
+      "age": 26,
+      "hometown": "Corona, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/668930/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".268",
+       "HR": 21,
+       "RBI": 100,
+       "OPS": ".816",
+       "SB": 19
+      },
+      "postseason_2026": "6-for-11 with 5 walks in the NLCS; 6 runs scored in 8 postseason games",
+      "card_back": "Son of former Mariners outfielder Brian Turang, Brice was the Brewers' first-round pick in 2018 out of Santiago High in Corona, California. His first MLB homer was a grand slam in the 2023 home opener; in 2024 he led the majors with 50 stolen bases and won both the Gold Glove and the Platinum Glove at second base. He drove in 100 runs in 2026. Bar line: his sister Brianna is married to NFL punter Tress Way.",
+      "weird_fact": "In 2024 he won the Gold Glove and Platinum Glove at second base, led MLB with 50 steals, and had the lowest pull percentage of any hitter in the majors (26.4%).",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Brice_Turang",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/668930?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Brice_Turang"
+      ],
+      "headshot_url_local": "assets/img/cards/668930-9c03d61d.jpg"
+     },
+     {
+      "order": 3,
+      "id": "661388",
+      "name": "William Contreras",
+      "number": 24,
+      "position": "C",
+      "bats": "R",
+      "throws": "R",
+      "age": 28,
+      "hometown": "Puerto Cabello, Venezuela",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/661388/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".270",
+       "HR": 18,
+       "RBI": 94,
+       "OPS": ".758",
+       "SB": 1
+      },
+      "postseason_2026": "The best hitter in the 2026 playoffs: .367/.457/.700, 3 HR, 11 hits in 8 games, including a go-ahead HR in NLDS G1",
+      "card_back": "The younger brother of Willson Contreras, William won a World Series ring with the 2021 Braves, made the 2022 All-Star team, and came to Milwaukee in the December 2022 three-team Sean Murphy trade. He has won two Silver Sluggers (2023, 2024), finished fifth in the 2024 NL MVP vote, and the local writers call him the team's heartbeat. Bar line: he played most of 2025 with a fractured middle finger and still made the All-Star team the next year.",
+      "weird_fact": "Played most of the 2025 season with a fractured left middle finger; he is engaged to the sister of former Brewers shortstop Willy Adames.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/William_Contreras",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/661388?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/William_Contreras",
+       "https://www.justbaseball.com/?p=245448"
+      ],
+      "headshot_url_local": "assets/img/cards/661388-e17ab3c2.jpg"
+     },
+     {
+      "order": 4,
+      "id": "641343",
+      "name": "Jake Bauers",
+      "number": 9,
+      "position": "1B",
+      "bats": "L",
+      "throws": "L",
+      "age": 31,
+      "hometown": "Huntington Beach, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/641343/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".266",
+       "HR": 26,
+       "RBI": 86,
+       "OPS": ".873",
+       "SB": 11
+      },
+      "postseason_2026": "2026 NLCS MVP: go-ahead HR in Game 3 at Dodger Stadium, 6 RBI in the series",
+      "card_back": "A seventh-round pick who had been a Ray, an Indian, a Mariner and a Yankee, Bauers hit .199 for Milwaukee in 2024, was cut loose, and came back on a minor-league deal. In 2026 he led the Brewers with 26 home runs and posted a .389 on-base percentage, then won NLCS MVP. Bar line: he had planned to retire after 2024 and came back to the game in part for the health insurance when his wife was pregnant.",
+      "weird_fact": "He was set to retire after the 2024 season but returned to baseball partly for health insurance after his wife became pregnant; two years later he was NLCS MVP.",
+      "weird_fact_source": "https://seatgeek.com/blog/world-series-10-key-players-who-will-decide-the-winner-between-brewers-and-rays",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/641343?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Jake_Bauers",
+       "https://seatgeek.com/blog/world-series-10-key-players-who-will-decide-the-winner-between-brewers-and-rays"
+      ],
+      "headshot_url_local": "assets/img/cards/641343-9ee36d8c.jpg"
+     },
+     {
+      "order": 5,
+      "id": "592885",
+      "name": "Christian Yelich",
+      "number": 22,
+      "position": "DH",
+      "bats": "L",
+      "throws": "R",
+      "age": 34,
+      "hometown": "Thousand Oaks, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/592885/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".235",
+       "HR": 12,
+       "RBI": 59,
+       "OPS": ".693",
+       "SB": 11
+      },
+      "postseason_2026": ".292 in 7 games with 2 steals; still chasing his first World Series ring",
+      "card_back": "The 2018 NL MVP and two-time batting champion, Yelich came to Milwaukee from Miami in January 2018 and became the face of the franchise. On September 26, 2026 the Brewers named him the first captain in team history. His great-grandfather Fred Gehrke played in the NFL. Bar line: Yelich is the only player ever to hit for the cycle three times against the same team (the Reds: twice in 2018, once in 2022).",
+      "weird_fact": "He is the only player in MLB history with three cycles against the same opponent, all against the Cincinnati Reds; he also appeared as himself on Magnum P.I. in 2019.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Christian_Yelich",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/592885?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Christian_Yelich"
+      ],
+      "headshot_url_local": "assets/img/cards/592885-2ce55af1.jpg"
+     },
+     {
+      "order": 6,
+      "id": "669003",
+      "name": "Garrett Mitchell",
+      "number": 5,
+      "position": "CF",
+      "bats": "L",
+      "throws": "R",
+      "age": 28,
+      "hometown": "Orange, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/669003/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".262",
+       "HR": 11,
+       "RBI": 65,
+       "OPS": ".770",
+       "SB": 14
+      },
+      "postseason_2026": "2 HR in the NLCS, both decisive; 6 runs scored in 8 postseason games",
+      "card_back": "A UCLA center fielder who set the Bruins' single-season triples record, Mitchell was Milwaukee's first-round pick in 2020. He has played through Type 1 diabetes since age 9 with an insulin pump, and through a brutal run of injuries (shoulder, broken hand, oblique). Healthy in 2026, he played 145 games and then hit two big NLCS home runs. Bar line: he missed the phone call telling him he was being promoted to the majors because he was eating a chocolate chip cookie.",
+      "weird_fact": "He missed the phone call about his promotion to the big leagues in August 2022 because he was eating a chocolate chip cookie.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Garrett_Mitchell_(baseball)",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/669003?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Garrett_Mitchell_(baseball)",
+       "https://www.justbaseball.com/?p=245448"
+      ],
+      "headshot_url_local": "assets/img/cards/669003-a2832986.jpg"
+     },
+     {
+      "order": 7,
+      "id": "806198",
+      "name": "Cooper Pratt",
+      "number": 12,
+      "position": "SS",
+      "bats": "R",
+      "throws": "R",
+      "age": 22,
+      "hometown": "Hialeah, FL",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/806198/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".281",
+       "HR": 3,
+       "RBI": 34,
+       "OPS": ".718",
+       "SB": 19
+      },
+      "postseason_2026": "9-for-29 (.310) in 8 games as a 22-year-old rookie shortstop",
+      "card_back": "Mississippi's Gatorade Player of the Year in 2023 at Magnolia Heights School in Senatobia, Pratt skipped Ole Miss to sign as a sixth-round pick. The Brewers gave him an eight-year, $50.75 million extension on April 3, 2026, before he had played a big-league game, then called him up June 16. Bar line: as a high school senior he was 10-0 with a 0.14 ERA as a pitcher, and he is starting at shortstop in the World Series four months after his debut.",
+      "weird_fact": "Signed an eight-year, $50.75 million extension on April 3, 2026 with the least upper-level pro experience of any player ever to receive an MLB extension, two and a half months before his MLB debut.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Cooper_Pratt",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/806198?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Cooper_Pratt"
+      ],
+      "headshot_url_local": "assets/img/cards/806198-b5a1c9ce.jpg"
+     },
+     {
+      "order": 8,
+      "id": "686217",
+      "name": "Sal Frelick",
+      "number": 10,
+      "position": "RF",
+      "bats": "L",
+      "throws": "R",
+      "age": 26,
+      "hometown": "Lexington, MA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/686217/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".230",
+       "HR": 4,
+       "RBI": 40,
+       "OPS": ".614",
+       "SB": 7
+      },
+      "postseason_2026": "3-for-15 with 4 walks and 2 steals in 5 games; sat against some lefties",
+      "card_back": "A Lexington, Massachusetts quarterback who threw 30 touchdown passes as a high school senior and turned down a Boston College football scholarship to play baseball there instead. The Brewers took him 15th overall in 2021; he won the 2024 NL Gold Glove in right field with 15 Defensive Runs Saved. Bar line: he played for Italy in the 2023 World Baseball Classic.",
+      "weird_fact": "Was Gatorade Massachusetts Football Player of the Year as a high school quarterback (30 TD passes) before choosing baseball at Boston College, where he was ACC Defensive Player of the Year.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Sal_Frelick",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/686217?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Sal_Frelick"
+      ],
+      "headshot_url_local": "assets/img/cards/686217-90d5eeb1.jpg"
+     },
+     {
+      "order": 9,
+      "id": "666152",
+      "name": "David Hamilton",
+      "number": 6,
+      "position": "3B",
+      "bats": "L",
+      "throws": "R",
+      "age": 29,
+      "hometown": "San Marcos, TX",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/666152/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".245",
+       "HR": 4,
+       "RBI": 26,
+       "OPS": ".650",
+       "SB": 30
+      },
+      "postseason_2026": "5-for-11 (.455) with a HR and 3 steals in 4 games; has started at 3B against right-handers",
+      "card_back": "A San Marcos native who played at San Marcos High and the University of Texas, Hamilton tore his Achilles in an electric scooter accident in 2019, signed with Milwaukee anyway as an eighth-rounder, went to Boston in the Hunter Renfroe trade, and came back to the Brewers in February 2026. He stole 30 bases in 2026 and once swiped six in a single minor-league game. Bar line: both his parents played baseball at Southwest Texas State, now Texas State.",
+      "weird_fact": "Tore his Achilles tendon in an electric scooter accident in 2019, costing him his junior year at Texas; he once stole six bases in one game, a Wisconsin Timber Rattlers record.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/David_Hamilton_(baseball)",
+      "texas_tie": "Born and raised in San Marcos, TX; San Marcos High School and the University of Texas at Austin; parents played at Southwest Texas State; played for Team Texas in 2020.",
+      "source": "https://statsapi.mlb.com/api/v1/people/666152?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/David_Hamilton_(baseball)",
+       "https://www.si.com/mlb/brewers/onsi/brewers-face-key-game-1-lineup-decision-against-rays-nick-martinez-pat3"
+      ],
+      "headshot_url_local": "assets/img/cards/666152-0fa558a5.jpg"
+     }
+    ],
+    "TB": [
+     {
+      "order": 1,
+      "id": "650490",
+      "name": "Yandy Díaz",
+      "number": 2,
+      "position": "DH",
+      "bats": "R",
+      "throws": "R",
+      "age": 35,
+      "hometown": "Sagua la Grande, Cuba",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/650490/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".293",
+       "HR": 22,
+       "RBI": 85,
+       "OPS": ".805",
+       "SB": 3
+      },
+      "postseason_2026": ".308 with 2 HR, 4 doubles and a .905 OPS in 9 games; the only Ray with multiple postseason homers",
+      "card_back": "The 2023 AL batting champion (.330) defected from Cuba in 2013 on his third attempt, after two arrests. Known for the biggest biceps in baseball, he has hit .290 or better in four of the last five seasons and set a Rays record with a 20-game hitting streak in 2024. Bar line: his father Jorge also defected and briefly played in the Rangers' farm system; Yandy was six the last time he saw him.",
+      "weird_fact": "Two of his attempts to defect from Cuba ended in arrest before he made it to the Dominican Republic in 2013; he homered in his first All-Star at-bat (2023) and won the batting title that year.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Yandy_D%C3%ADaz",
+      "texas_tie": "His father Jorge, also a Cuban defector, briefly played in the Texas Rangers organization.",
+      "source": "https://statsapi.mlb.com/api/v1/people/650490?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Yandy_D%C3%ADaz",
+       "https://seatgeek.com/blog/world-series-10-key-players-who-will-decide-the-winner-between-brewers-and-rays"
+      ],
+      "headshot_url_local": "assets/img/cards/650490-d9d3fb0a.jpg"
+     },
+     {
+      "order": 2,
+      "id": "666018",
+      "name": "Jonathan Aranda",
+      "number": 8,
+      "position": "1B",
+      "bats": "L",
+      "throws": "R",
+      "age": 28,
+      "hometown": "Tijuana, BC, Mexico",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/666018/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".274",
+       "HR": 22,
+       "RBI": 92,
+       "OPS": ".792",
+       "SB": 0
+      },
+      "postseason_2026": "9-for-35 (.257) with a HR and 5 RBI in 9 games",
+      "card_back": "Signed out of Tijuana at 17 in 2015, Aranda needed seven years to reach the majors and broke out as a 2025 All-Star (.316 before a broken wrist). In 2026 he hit 22 homers with 92 RBI as the Rays' everyday first baseman. Bar line: he won a WBC bronze with Mexico in 2023.",
+      "weird_fact": "Broke his left wrist in a collision with Giancarlo Stanton at first base on July 31, 2025, and missed two months of his All-Star season.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Jonathan_Aranda",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/666018?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Jonathan_Aranda"
+      ],
+      "headshot_url_local": "assets/img/cards/666018-5719eaa3.jpg"
+     },
+     {
+      "order": 3,
+      "id": "689414",
+      "name": "Liam Hicks",
+      "number": 34,
+      "position": "C",
+      "bats": "L",
+      "throws": "R",
+      "age": 27,
+      "hometown": "Toronto, ON, Canada",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/689414/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".288",
+       "HR": 4,
+       "RBI": 20,
+       "OPS": ".819",
+       "SB": 0,
+       "note": "Rays only (after Aug. 3 trade); .284, 18 HR, 82 RBI combined with the Marlins"
+      },
+      "postseason_2026": "6-for-27 (.222) with 4 RBI; 2 hits in ALCS G5 after a 3-for-20 start",
+      "card_back": "A Toronto-born catcher who went from Mineral Area College to Arkansas State to a $30,000 bonus as a Rangers ninth-rounder in 2021. He was a Rule 5 pick by the Marlins who stuck on the roster, then came to Tampa Bay in an August 3, 2026 trade and hit .288 with a .379 OBP down the stretch. Bar line: his first big-league homer came off fellow Canadian Jordan Romano.",
+      "weird_fact": "A Rule 5 draft pick (Dec. 2024) who made the Marlins' Opening Day roster and stuck; his first MLB home run was off fellow Canadian Jordan Romano.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Liam_Hicks",
+      "texas_tie": "Drafted by the Texas Rangers in 2021 (9th round) and spent 2021-2024 in their system, including the Frisco RoughRiders.",
+      "source": "https://statsapi.mlb.com/api/v1/people/689414?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Liam_Hicks"
+      ],
+      "headshot_url_local": "assets/img/cards/689414-c07a5513.jpg"
+     },
+     {
+      "order": 4,
+      "id": "691406",
+      "name": "Junior Caminero",
+      "number": 13,
+      "position": "3B",
+      "bats": "R",
+      "throws": "R",
+      "age": 23,
+      "hometown": "Santo Domingo, Dominican Republic",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/691406/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".276",
+       "HR": 42,
+       "RBI": 101,
+       "OPS": ".884",
+       "SB": 3
+      },
+      "postseason_2026": ".273/.351/.455 in 9 games; first career postseason HR in the ALCS Game 6 clincher",
+      "card_back": "Signed by Cleveland at 16 and stolen by the Rays in a 2021 trade for pitcher Tobias Myers, Caminero hit 45 homers in 2025 (one shy of the Rays record), reached the Home Run Derby final, and followed with 42 homers and 101 RBI in 2026 at age 23. He won WBC bronze with the Dominican Republic in March. Bar line: his little brother is named Girardi, after Joe Girardi, at Junior's suggestion.",
+      "weird_fact": "His younger brother is named Girardi after former Yankees manager Joe Girardi, a name Junior suggested; in 2025 he led MLB in grounding into double plays (31) while hitting 45 home runs.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Junior_Caminero",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/691406?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Junior_Caminero",
+       "https://www.justbaseball.com/?p=245448"
+      ],
+      "headshot_url_local": "assets/img/cards/691406-9d8037e8.jpg"
+     },
+     {
+      "order": 5,
+      "id": "802415",
+      "name": "Chandler Simpson",
+      "number": 14,
+      "position": "LF",
+      "bats": "L",
+      "throws": "R",
+      "age": 25,
+      "hometown": "Atlanta, GA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/802415/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".306",
+       "HR": 0,
+       "RBI": 38,
+       "OPS": ".689",
+       "SB": 46
+      },
+      "postseason_2026": "6-for-25 with 3 steals and just 1 strikeout in 8 games",
+      "card_back": "The fastest man in baseball. Simpson led Division I with a .434 average at Georgia Tech, stole 104 bases in the minors in 2024 (the most since 2012), and has led the AL in steals in both of his big-league seasons (44, then 46). He hit .306 with 175 hits in 2026. Bar line: he has never hit a major-league home run, and he almost never strikes out.",
+      "weird_fact": "Has zero home runs in two full MLB seasons (0 in 2026) while leading the AL in stolen bases both years; he is the fifth player ever with 40-plus steals in each of his first two seasons.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Chandler_Simpson",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/802415?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Chandler_Simpson"
+      ],
+      "headshot_url_local": "assets/img/cards/802415-507b8875.jpg"
+     },
+     {
+      "order": 6,
+      "id": "683748",
+      "name": "Victor Mesa Jr.",
+      "number": 25,
+      "position": "RF",
+      "bats": "L",
+      "throws": "L",
+      "age": 25,
+      "hometown": "Havana, Cuba",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/683748/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".260",
+       "HR": 14,
+       "RBI": 34,
+       "OPS": ".825",
+       "SB": 9
+      },
+      "postseason_2026": "4-for-31 (.129) with 12 strikeouts, 1 HR",
+      "card_back": "Son of Cuban legend Victor Mesa and brother of Victor Victor Mesa, he defected in 2018 and signed with the Marlins for $1 million. Miami gave up on him in February 2026; the Rays got him for a minor leaguer, called him up in May, and he posted an .825 OPS with 14 homers in 79 games. Bar line: he hit his first big-league home run on his 24th birthday.",
+      "weird_fact": "Hit his first MLB home run on his 24th birthday (Sept. 8, 2025); the Marlins designated him for assignment five months later and the Rays got him for a minor leaguer.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/V%C3%ADctor_Mesa_Jr.",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/683748?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/V%C3%ADctor_Mesa_Jr."
+      ],
+      "headshot_url_local": "assets/img/cards/683748-d4b4a2dc.jpg"
+     },
+     {
+      "order": 7,
+      "id": "676356",
+      "name": "Jonny DeLuca",
+      "number": 21,
+      "position": "CF",
+      "bats": "R",
+      "throws": "R",
+      "age": 28,
+      "hometown": "Thousand Oaks, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/676356/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".266",
+       "HR": 11,
+       "RBI": 50,
+       "OPS": ".729",
+       "SB": 17
+      },
+      "postseason_2026": "6-for-30 (.200) with 2 steals in 9 games",
+      "card_back": "A 25th-round Dodgers pick out of Oregon, DeLuca came to Tampa Bay in the December 2023 Tyler Glasnow trade. Hamstring injuries have chased him the last two seasons, but he hit 11 homers with 17 steals in 112 games in 2026. Bar line: he grew up in Thousand Oaks, California, the same hometown as Brewers captain Christian Yelich.",
+      "weird_fact": "Drafted twice (Twins, 39th round, 2017; Dodgers, 25th round, 2019) and traded for Tyler Glasnow; he is from Thousand Oaks, CA, the same town as Christian Yelich.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Jonny_DeLuca",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/676356?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Jonny_DeLuca"
+      ],
+      "headshot_url_local": "assets/img/cards/676356-db535c8e.jpg"
+     },
+     {
+      "order": 8,
+      "id": "680700",
+      "name": "Richie Palacios",
+      "number": 1,
+      "position": "2B",
+      "bats": "L",
+      "throws": "R",
+      "age": 29,
+      "hometown": "Brooklyn, NY",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/680700/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".235",
+       "HR": 10,
+       "RBI": 57,
+       "OPS": ".704",
+       "SB": 17
+      },
+      "postseason_2026": "8-for-22 (.364) with 3 doubles in 8 games, the Rays' hottest bat outside Diaz",
+      "card_back": "A Brooklyn native from a baseball family (uncle Rey played for the Royals; brother Josh is in pro ball), Palacios went Towson to Cleveland to St. Louis to Tampa Bay, where he was acquired for reliever Andrew Kittredge in January 2024. He opened 2026 in Triple-A and ended it as the Rays' second baseman in the World Series. Bar line: he played for the Netherlands in the 2023 WBC and was in the stands for Derek Jeter's last game at Yankee Stadium.",
+      "weird_fact": "Eligible to play internationally for the Netherlands, Curacao, Puerto Rico and the U.S., he chose the Netherlands for the 2023 WBC; he attended Derek Jeter's final home game.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Richie_Palacios",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/680700?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Richie_Palacios"
+      ],
+      "headshot_url_local": "assets/img/cards/680700-ac67067f.jpg"
+     },
+     {
+      "order": 9,
+      "id": "670764",
+      "name": "Taylor Walls",
+      "number": 6,
+      "position": "SS",
+      "bats": "S",
+      "throws": "R",
+      "age": 30,
+      "hometown": "Cordele, GA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/670764/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".222",
+       "HR": 2,
+       "RBI": 36,
+       "OPS": ".607",
+       "SB": 21
+      },
+      "postseason_2026": "4-for-27 (.148) with 2 steals; in the lineup for his glove",
+      "card_back": "A switch-hitting shortstop from Cordele, Georgia, by way of Florida State, Walls is the classic glove-first Ray: a .222 hitter with 21 steals in 2026 and a reputation for clutch hits. He doubled off Robbie Ray in his first big-league game in 2021. Bar line: he was ejected in June 2025 because an umpire thought he was tapping his helmet in protest.",
+      "weird_fact": "Ejected on June 1, 2025 after an umpire interpreted him tapping his own helmet as a protest; his two home runs on Aug. 11, 2026 were his first in over a year.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Taylor_Walls",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/670764?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Taylor_Walls"
+      ],
+      "headshot_url_local": "assets/img/cards/670764-bbf7a86d.jpg"
+     }
+    ]
+   },
+   "projection_notes": {
+    "MIL": "PROJECTED, not announced: this is the exact lineup Milwaukee used in NLCS Game 4 (Oct. 15 at LAD, won 4-0), its last game before the World Series. Rays Game 1 and 2 starters are both right-handed, so the same lefty-heavy group is expected; the open question is RF (Frelick vs. Luis Lara).",
+    "TB": "PROJECTED, not announced: this is the exact lineup Tampa Bay used in ALCS Game 6 (Oct. 19 vs. CLE, the clincher) against a right-handed opener. Misiorowski and Henderson are both right-handed, so the same group is expected."
+   },
+   "result": null,
+   "source": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-10-23&endDate=2026-10-31&gameType=W&hydrate=probablePitcher,lineups",
+   "lineup_source": "https://www.mlb.com/brewers/roster/starting-lineups",
+   "lineup_source_away": "https://www.mlb.com/rays/roster/starting-lineups",
+   "sportradar_game_id": "39c29f89-8ab2-427b-b424-8886499d548d",
+   "mlb_gamePk": 849805
+  },
+  {
+   "game": 2,
+   "date": "2026-10-24",
+   "first_pitch_central": "7:00 PM",
+   "venue": "American Family Field",
+   "home": "MIL",
+   "away": "TB",
+   "tv": "FOX",
+   "status": "projected",
+   "pitchers_status": "announced",
+   "probable_pitchers": {
+    "MIL": {
+     "id": "701656",
+     "name": "Logan Henderson",
+     "number": 43,
+     "position": "P",
+     "bats": "R",
+     "throws": "R",
+     "age": 24,
+     "hometown": "Katy, TX",
+     "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/701656/headshot/67/current",
+     "stats_2026": {
+      "W-L": "11-3",
+      "ERA": "2.47",
+      "K": 110,
+      "IP": "98.1",
+      "WHIP": "0.84"
+     },
+     "postseason_2026": "2 starts, 9.0 IP, 3 ER, 6 K; Brewers won both (NLDS G2, NLCS G2) despite two throwing errors by him in the NLCS start",
+     "card_back": "A Houston kid out of Cinco Ranch High in Katy and McLennan Community College in Waco, Henderson was a fourth-round pick in 2021 and quietly posted a 2.47 ERA with a 0.84 WHIP across 18 starts in 2026. He struck out nine in his big-league debut in April 2025. Bar line: the Brewers' Game 2 starter learned to pitch 30 minutes from where Crystal grew up watching Astros games.",
+     "weird_fact": "In NLCS Game 2 against the Dodgers he threw the ball away twice on throws to first base, was charged with four runs (two earned), and the Brewers still won 7-4.",
+     "weird_fact_source": "https://en.wikipedia.org/wiki/Logan_Henderson_(baseball)",
+     "texas_tie": "Born in Houston; played at Cinco Ranch High School in Katy, TX, then McLennan Community College in Waco, TX.",
+     "source": "https://statsapi.mlb.com/api/v1/people/701656?hydrate=stats(type=season,season=2026),education,draft",
+     "bio_sources": [
+      "https://en.wikipedia.org/wiki/Logan_Henderson_(baseball)"
+     ],
+     "headshot_url_local": "assets/img/cards/701656-2a721e4e.jpg"
+    },
+    "TB": {
+     "id": "656876",
+     "name": "Drew Rasmussen",
+     "number": 57,
+     "position": "P",
+     "bats": "R",
+     "throws": "R",
+     "age": 31,
+     "hometown": "Puyallup, WA",
+     "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/656876/headshot/67/current",
+     "stats_2026": {
+      "W-L": "16-5",
+      "ERA": "2.67",
+      "K": 174,
+      "IP": "172.0",
+      "WHIP": "0.91"
+     },
+     "postseason_2026": "3 starts, 2-0, 1.29 ERA, 23 K and 3 BB in 21 IP; 8 innings of one-hit ball in ALDS G1 vs. the Yankees",
+     "card_back": "A former Brewer (he debuted for Milwaukee in 2020 and went to Tampa in the 2021 Willy Adames trade), Rasmussen threw the only perfect game in Oregon State history as a freshman, has survived two Tommy John surgeries plus an internal-brace procedure, and has never posted an ERA over 3.00 in a full season. He was the Rays' Opening Day starter in 2025 and 2026 and a two-time All-Star. Bar line: on August 14, 2022 he was perfect through eight innings before losing it in the ninth.",
+     "weird_fact": "Threw the only perfect game in Oregon State history (March 21, 2015), was a first-round pick of the Rays in 2017 but did not sign, then came to the Rays anyway via trade; he has had three elbow surgeries.",
+     "weird_fact_source": "https://en.wikipedia.org/wiki/Drew_Rasmussen",
+     "texas_tie": null,
+     "source": "https://statsapi.mlb.com/api/v1/people/656876?hydrate=stats(type=season,season=2026),education,draft",
+     "bio_sources": [
+      "https://en.wikipedia.org/wiki/Drew_Rasmussen",
+      "https://www.cbssports.com/mlb/news/2026-world-series-rays-game-1-start-nick-martinez/"
+     ],
+     "headshot_url_local": "assets/img/cards/656876-406efb7f.jpg"
+    }
+   },
+   "pitching_note": "Listed as probables on MLB's official schedule feed as of Oct. 23. Both are right-handed. Rasmussen made his MLB debut as a Brewer in 2020; Henderson is a Houston native.",
+   "lineups": {
+    "MIL": [],
+    "TB": []
+   },
+   "projected_lineups": {
+    "MIL": [
+     {
+      "order": 1,
+      "id": "694192",
+      "name": "Jackson Chourio",
+      "number": 11,
+      "position": "LF",
+      "bats": "R",
+      "throws": "R",
+      "age": 22,
+      "hometown": "Maracaibo, Venezuela",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/694192/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".291",
+       "HR": 25,
+       "RBI": 75,
+       "OPS": ".838",
+       "SB": 23
+      },
+      "postseason_2026": ".171 AVG but 2 HR and 7 RBI in 8 games, including a game-tying homer in NLDS G1 and a walk-off single in NLDS G2",
+      "card_back": "Signed out of Maracaibo, Venezuela, for $1.9 million at 16, Chourio got an eight-year, $82 million contract in December 2023 before he had played a single big-league game, then debuted on Opening Day 2024 as the youngest player in the majors. He is the only player ever with three 20-homer, 20-steal seasons before turning 23, and he already owns the Brewers' career postseason RBI record. Bar line: he won WBC gold with Venezuela in March 2026 despite breaking his hand in the tournament.",
+      "weird_fact": "His $82 million extension (Dec. 4, 2023) was the largest contract ever given to a player who had never appeared in an MLB game.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Jackson_Chourio",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/694192?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Jackson_Chourio"
+      ],
+      "headshot_url_local": "assets/img/cards/694192-626b51c0.jpg"
+     },
+     {
+      "order": 2,
+      "id": "668930",
+      "name": "Brice Turang",
+      "number": 2,
+      "position": "2B",
+      "bats": "L",
+      "throws": "R",
+      "age": 26,
+      "hometown": "Corona, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/668930/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".268",
+       "HR": 21,
+       "RBI": 100,
+       "OPS": ".816",
+       "SB": 19
+      },
+      "postseason_2026": "6-for-11 with 5 walks in the NLCS; 6 runs scored in 8 postseason games",
+      "card_back": "Son of former Mariners outfielder Brian Turang, Brice was the Brewers' first-round pick in 2018 out of Santiago High in Corona, California. His first MLB homer was a grand slam in the 2023 home opener; in 2024 he led the majors with 50 stolen bases and won both the Gold Glove and the Platinum Glove at second base. He drove in 100 runs in 2026. Bar line: his sister Brianna is married to NFL punter Tress Way.",
+      "weird_fact": "In 2024 he won the Gold Glove and Platinum Glove at second base, led MLB with 50 steals, and had the lowest pull percentage of any hitter in the majors (26.4%).",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Brice_Turang",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/668930?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Brice_Turang"
+      ],
+      "headshot_url_local": "assets/img/cards/668930-9c03d61d.jpg"
+     },
+     {
+      "order": 3,
+      "id": "661388",
+      "name": "William Contreras",
+      "number": 24,
+      "position": "C",
+      "bats": "R",
+      "throws": "R",
+      "age": 28,
+      "hometown": "Puerto Cabello, Venezuela",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/661388/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".270",
+       "HR": 18,
+       "RBI": 94,
+       "OPS": ".758",
+       "SB": 1
+      },
+      "postseason_2026": "The best hitter in the 2026 playoffs: .367/.457/.700, 3 HR, 11 hits in 8 games, including a go-ahead HR in NLDS G1",
+      "card_back": "The younger brother of Willson Contreras, William won a World Series ring with the 2021 Braves, made the 2022 All-Star team, and came to Milwaukee in the December 2022 three-team Sean Murphy trade. He has won two Silver Sluggers (2023, 2024), finished fifth in the 2024 NL MVP vote, and the local writers call him the team's heartbeat. Bar line: he played most of 2025 with a fractured middle finger and still made the All-Star team the next year.",
+      "weird_fact": "Played most of the 2025 season with a fractured left middle finger; he is engaged to the sister of former Brewers shortstop Willy Adames.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/William_Contreras",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/661388?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/William_Contreras",
+       "https://www.justbaseball.com/?p=245448"
+      ],
+      "headshot_url_local": "assets/img/cards/661388-e17ab3c2.jpg"
+     },
+     {
+      "order": 4,
+      "id": "641343",
+      "name": "Jake Bauers",
+      "number": 9,
+      "position": "1B",
+      "bats": "L",
+      "throws": "L",
+      "age": 31,
+      "hometown": "Huntington Beach, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/641343/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".266",
+       "HR": 26,
+       "RBI": 86,
+       "OPS": ".873",
+       "SB": 11
+      },
+      "postseason_2026": "2026 NLCS MVP: go-ahead HR in Game 3 at Dodger Stadium, 6 RBI in the series",
+      "card_back": "A seventh-round pick who had been a Ray, an Indian, a Mariner and a Yankee, Bauers hit .199 for Milwaukee in 2024, was cut loose, and came back on a minor-league deal. In 2026 he led the Brewers with 26 home runs and posted a .389 on-base percentage, then won NLCS MVP. Bar line: he had planned to retire after 2024 and came back to the game in part for the health insurance when his wife was pregnant.",
+      "weird_fact": "He was set to retire after the 2024 season but returned to baseball partly for health insurance after his wife became pregnant; two years later he was NLCS MVP.",
+      "weird_fact_source": "https://seatgeek.com/blog/world-series-10-key-players-who-will-decide-the-winner-between-brewers-and-rays",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/641343?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Jake_Bauers",
+       "https://seatgeek.com/blog/world-series-10-key-players-who-will-decide-the-winner-between-brewers-and-rays"
+      ],
+      "headshot_url_local": "assets/img/cards/641343-9ee36d8c.jpg"
+     },
+     {
+      "order": 5,
+      "id": "592885",
+      "name": "Christian Yelich",
+      "number": 22,
+      "position": "DH",
+      "bats": "L",
+      "throws": "R",
+      "age": 34,
+      "hometown": "Thousand Oaks, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/592885/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".235",
+       "HR": 12,
+       "RBI": 59,
+       "OPS": ".693",
+       "SB": 11
+      },
+      "postseason_2026": ".292 in 7 games with 2 steals; still chasing his first World Series ring",
+      "card_back": "The 2018 NL MVP and two-time batting champion, Yelich came to Milwaukee from Miami in January 2018 and became the face of the franchise. On September 26, 2026 the Brewers named him the first captain in team history. His great-grandfather Fred Gehrke played in the NFL. Bar line: Yelich is the only player ever to hit for the cycle three times against the same team (the Reds: twice in 2018, once in 2022).",
+      "weird_fact": "He is the only player in MLB history with three cycles against the same opponent, all against the Cincinnati Reds; he also appeared as himself on Magnum P.I. in 2019.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Christian_Yelich",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/592885?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Christian_Yelich"
+      ],
+      "headshot_url_local": "assets/img/cards/592885-2ce55af1.jpg"
+     },
+     {
+      "order": 6,
+      "id": "669003",
+      "name": "Garrett Mitchell",
+      "number": 5,
+      "position": "CF",
+      "bats": "L",
+      "throws": "R",
+      "age": 28,
+      "hometown": "Orange, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/669003/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".262",
+       "HR": 11,
+       "RBI": 65,
+       "OPS": ".770",
+       "SB": 14
+      },
+      "postseason_2026": "2 HR in the NLCS, both decisive; 6 runs scored in 8 postseason games",
+      "card_back": "A UCLA center fielder who set the Bruins' single-season triples record, Mitchell was Milwaukee's first-round pick in 2020. He has played through Type 1 diabetes since age 9 with an insulin pump, and through a brutal run of injuries (shoulder, broken hand, oblique). Healthy in 2026, he played 145 games and then hit two big NLCS home runs. Bar line: he missed the phone call telling him he was being promoted to the majors because he was eating a chocolate chip cookie.",
+      "weird_fact": "He missed the phone call about his promotion to the big leagues in August 2022 because he was eating a chocolate chip cookie.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Garrett_Mitchell_(baseball)",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/669003?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Garrett_Mitchell_(baseball)",
+       "https://www.justbaseball.com/?p=245448"
+      ],
+      "headshot_url_local": "assets/img/cards/669003-a2832986.jpg"
+     },
+     {
+      "order": 7,
+      "id": "806198",
+      "name": "Cooper Pratt",
+      "number": 12,
+      "position": "SS",
+      "bats": "R",
+      "throws": "R",
+      "age": 22,
+      "hometown": "Hialeah, FL",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/806198/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".281",
+       "HR": 3,
+       "RBI": 34,
+       "OPS": ".718",
+       "SB": 19
+      },
+      "postseason_2026": "9-for-29 (.310) in 8 games as a 22-year-old rookie shortstop",
+      "card_back": "Mississippi's Gatorade Player of the Year in 2023 at Magnolia Heights School in Senatobia, Pratt skipped Ole Miss to sign as a sixth-round pick. The Brewers gave him an eight-year, $50.75 million extension on April 3, 2026, before he had played a big-league game, then called him up June 16. Bar line: as a high school senior he was 10-0 with a 0.14 ERA as a pitcher, and he is starting at shortstop in the World Series four months after his debut.",
+      "weird_fact": "Signed an eight-year, $50.75 million extension on April 3, 2026 with the least upper-level pro experience of any player ever to receive an MLB extension, two and a half months before his MLB debut.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Cooper_Pratt",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/806198?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Cooper_Pratt"
+      ],
+      "headshot_url_local": "assets/img/cards/806198-b5a1c9ce.jpg"
+     },
+     {
+      "order": 8,
+      "id": "686217",
+      "name": "Sal Frelick",
+      "number": 10,
+      "position": "RF",
+      "bats": "L",
+      "throws": "R",
+      "age": 26,
+      "hometown": "Lexington, MA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/686217/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".230",
+       "HR": 4,
+       "RBI": 40,
+       "OPS": ".614",
+       "SB": 7
+      },
+      "postseason_2026": "3-for-15 with 4 walks and 2 steals in 5 games; sat against some lefties",
+      "card_back": "A Lexington, Massachusetts quarterback who threw 30 touchdown passes as a high school senior and turned down a Boston College football scholarship to play baseball there instead. The Brewers took him 15th overall in 2021; he won the 2024 NL Gold Glove in right field with 15 Defensive Runs Saved. Bar line: he played for Italy in the 2023 World Baseball Classic.",
+      "weird_fact": "Was Gatorade Massachusetts Football Player of the Year as a high school quarterback (30 TD passes) before choosing baseball at Boston College, where he was ACC Defensive Player of the Year.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Sal_Frelick",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/686217?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Sal_Frelick"
+      ],
+      "headshot_url_local": "assets/img/cards/686217-90d5eeb1.jpg"
+     },
+     {
+      "order": 9,
+      "id": "666152",
+      "name": "David Hamilton",
+      "number": 6,
+      "position": "3B",
+      "bats": "L",
+      "throws": "R",
+      "age": 29,
+      "hometown": "San Marcos, TX",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/666152/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".245",
+       "HR": 4,
+       "RBI": 26,
+       "OPS": ".650",
+       "SB": 30
+      },
+      "postseason_2026": "5-for-11 (.455) with a HR and 3 steals in 4 games; has started at 3B against right-handers",
+      "card_back": "A San Marcos native who played at San Marcos High and the University of Texas, Hamilton tore his Achilles in an electric scooter accident in 2019, signed with Milwaukee anyway as an eighth-rounder, went to Boston in the Hunter Renfroe trade, and came back to the Brewers in February 2026. He stole 30 bases in 2026 and once swiped six in a single minor-league game. Bar line: both his parents played baseball at Southwest Texas State, now Texas State.",
+      "weird_fact": "Tore his Achilles tendon in an electric scooter accident in 2019, costing him his junior year at Texas; he once stole six bases in one game, a Wisconsin Timber Rattlers record.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/David_Hamilton_(baseball)",
+      "texas_tie": "Born and raised in San Marcos, TX; San Marcos High School and the University of Texas at Austin; parents played at Southwest Texas State; played for Team Texas in 2020.",
+      "source": "https://statsapi.mlb.com/api/v1/people/666152?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/David_Hamilton_(baseball)",
+       "https://www.si.com/mlb/brewers/onsi/brewers-face-key-game-1-lineup-decision-against-rays-nick-martinez-pat3"
+      ],
+      "headshot_url_local": "assets/img/cards/666152-0fa558a5.jpg"
+     }
+    ],
+    "TB": [
+     {
+      "order": 1,
+      "id": "650490",
+      "name": "Yandy Díaz",
+      "number": 2,
+      "position": "DH",
+      "bats": "R",
+      "throws": "R",
+      "age": 35,
+      "hometown": "Sagua la Grande, Cuba",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/650490/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".293",
+       "HR": 22,
+       "RBI": 85,
+       "OPS": ".805",
+       "SB": 3
+      },
+      "postseason_2026": ".308 with 2 HR, 4 doubles and a .905 OPS in 9 games; the only Ray with multiple postseason homers",
+      "card_back": "The 2023 AL batting champion (.330) defected from Cuba in 2013 on his third attempt, after two arrests. Known for the biggest biceps in baseball, he has hit .290 or better in four of the last five seasons and set a Rays record with a 20-game hitting streak in 2024. Bar line: his father Jorge also defected and briefly played in the Rangers' farm system; Yandy was six the last time he saw him.",
+      "weird_fact": "Two of his attempts to defect from Cuba ended in arrest before he made it to the Dominican Republic in 2013; he homered in his first All-Star at-bat (2023) and won the batting title that year.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Yandy_D%C3%ADaz",
+      "texas_tie": "His father Jorge, also a Cuban defector, briefly played in the Texas Rangers organization.",
+      "source": "https://statsapi.mlb.com/api/v1/people/650490?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Yandy_D%C3%ADaz",
+       "https://seatgeek.com/blog/world-series-10-key-players-who-will-decide-the-winner-between-brewers-and-rays"
+      ],
+      "headshot_url_local": "assets/img/cards/650490-d9d3fb0a.jpg"
+     },
+     {
+      "order": 2,
+      "id": "666018",
+      "name": "Jonathan Aranda",
+      "number": 8,
+      "position": "1B",
+      "bats": "L",
+      "throws": "R",
+      "age": 28,
+      "hometown": "Tijuana, BC, Mexico",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/666018/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".274",
+       "HR": 22,
+       "RBI": 92,
+       "OPS": ".792",
+       "SB": 0
+      },
+      "postseason_2026": "9-for-35 (.257) with a HR and 5 RBI in 9 games",
+      "card_back": "Signed out of Tijuana at 17 in 2015, Aranda needed seven years to reach the majors and broke out as a 2025 All-Star (.316 before a broken wrist). In 2026 he hit 22 homers with 92 RBI as the Rays' everyday first baseman. Bar line: he won a WBC bronze with Mexico in 2023.",
+      "weird_fact": "Broke his left wrist in a collision with Giancarlo Stanton at first base on July 31, 2025, and missed two months of his All-Star season.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Jonathan_Aranda",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/666018?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Jonathan_Aranda"
+      ],
+      "headshot_url_local": "assets/img/cards/666018-5719eaa3.jpg"
+     },
+     {
+      "order": 3,
+      "id": "689414",
+      "name": "Liam Hicks",
+      "number": 34,
+      "position": "C",
+      "bats": "L",
+      "throws": "R",
+      "age": 27,
+      "hometown": "Toronto, ON, Canada",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/689414/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".288",
+       "HR": 4,
+       "RBI": 20,
+       "OPS": ".819",
+       "SB": 0,
+       "note": "Rays only (after Aug. 3 trade); .284, 18 HR, 82 RBI combined with the Marlins"
+      },
+      "postseason_2026": "6-for-27 (.222) with 4 RBI; 2 hits in ALCS G5 after a 3-for-20 start",
+      "card_back": "A Toronto-born catcher who went from Mineral Area College to Arkansas State to a $30,000 bonus as a Rangers ninth-rounder in 2021. He was a Rule 5 pick by the Marlins who stuck on the roster, then came to Tampa Bay in an August 3, 2026 trade and hit .288 with a .379 OBP down the stretch. Bar line: his first big-league homer came off fellow Canadian Jordan Romano.",
+      "weird_fact": "A Rule 5 draft pick (Dec. 2024) who made the Marlins' Opening Day roster and stuck; his first MLB home run was off fellow Canadian Jordan Romano.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Liam_Hicks",
+      "texas_tie": "Drafted by the Texas Rangers in 2021 (9th round) and spent 2021-2024 in their system, including the Frisco RoughRiders.",
+      "source": "https://statsapi.mlb.com/api/v1/people/689414?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Liam_Hicks"
+      ],
+      "headshot_url_local": "assets/img/cards/689414-c07a5513.jpg"
+     },
+     {
+      "order": 4,
+      "id": "691406",
+      "name": "Junior Caminero",
+      "number": 13,
+      "position": "3B",
+      "bats": "R",
+      "throws": "R",
+      "age": 23,
+      "hometown": "Santo Domingo, Dominican Republic",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/691406/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".276",
+       "HR": 42,
+       "RBI": 101,
+       "OPS": ".884",
+       "SB": 3
+      },
+      "postseason_2026": ".273/.351/.455 in 9 games; first career postseason HR in the ALCS Game 6 clincher",
+      "card_back": "Signed by Cleveland at 16 and stolen by the Rays in a 2021 trade for pitcher Tobias Myers, Caminero hit 45 homers in 2025 (one shy of the Rays record), reached the Home Run Derby final, and followed with 42 homers and 101 RBI in 2026 at age 23. He won WBC bronze with the Dominican Republic in March. Bar line: his little brother is named Girardi, after Joe Girardi, at Junior's suggestion.",
+      "weird_fact": "His younger brother is named Girardi after former Yankees manager Joe Girardi, a name Junior suggested; in 2025 he led MLB in grounding into double plays (31) while hitting 45 home runs.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Junior_Caminero",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/691406?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Junior_Caminero",
+       "https://www.justbaseball.com/?p=245448"
+      ],
+      "headshot_url_local": "assets/img/cards/691406-9d8037e8.jpg"
+     },
+     {
+      "order": 5,
+      "id": "802415",
+      "name": "Chandler Simpson",
+      "number": 14,
+      "position": "LF",
+      "bats": "L",
+      "throws": "R",
+      "age": 25,
+      "hometown": "Atlanta, GA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/802415/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".306",
+       "HR": 0,
+       "RBI": 38,
+       "OPS": ".689",
+       "SB": 46
+      },
+      "postseason_2026": "6-for-25 with 3 steals and just 1 strikeout in 8 games",
+      "card_back": "The fastest man in baseball. Simpson led Division I with a .434 average at Georgia Tech, stole 104 bases in the minors in 2024 (the most since 2012), and has led the AL in steals in both of his big-league seasons (44, then 46). He hit .306 with 175 hits in 2026. Bar line: he has never hit a major-league home run, and he almost never strikes out.",
+      "weird_fact": "Has zero home runs in two full MLB seasons (0 in 2026) while leading the AL in stolen bases both years; he is the fifth player ever with 40-plus steals in each of his first two seasons.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Chandler_Simpson",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/802415?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Chandler_Simpson"
+      ],
+      "headshot_url_local": "assets/img/cards/802415-507b8875.jpg"
+     },
+     {
+      "order": 6,
+      "id": "683748",
+      "name": "Victor Mesa Jr.",
+      "number": 25,
+      "position": "RF",
+      "bats": "L",
+      "throws": "L",
+      "age": 25,
+      "hometown": "Havana, Cuba",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/683748/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".260",
+       "HR": 14,
+       "RBI": 34,
+       "OPS": ".825",
+       "SB": 9
+      },
+      "postseason_2026": "4-for-31 (.129) with 12 strikeouts, 1 HR",
+      "card_back": "Son of Cuban legend Victor Mesa and brother of Victor Victor Mesa, he defected in 2018 and signed with the Marlins for $1 million. Miami gave up on him in February 2026; the Rays got him for a minor leaguer, called him up in May, and he posted an .825 OPS with 14 homers in 79 games. Bar line: he hit his first big-league home run on his 24th birthday.",
+      "weird_fact": "Hit his first MLB home run on his 24th birthday (Sept. 8, 2025); the Marlins designated him for assignment five months later and the Rays got him for a minor leaguer.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/V%C3%ADctor_Mesa_Jr.",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/683748?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/V%C3%ADctor_Mesa_Jr."
+      ],
+      "headshot_url_local": "assets/img/cards/683748-d4b4a2dc.jpg"
+     },
+     {
+      "order": 7,
+      "id": "676356",
+      "name": "Jonny DeLuca",
+      "number": 21,
+      "position": "CF",
+      "bats": "R",
+      "throws": "R",
+      "age": 28,
+      "hometown": "Thousand Oaks, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/676356/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".266",
+       "HR": 11,
+       "RBI": 50,
+       "OPS": ".729",
+       "SB": 17
+      },
+      "postseason_2026": "6-for-30 (.200) with 2 steals in 9 games",
+      "card_back": "A 25th-round Dodgers pick out of Oregon, DeLuca came to Tampa Bay in the December 2023 Tyler Glasnow trade. Hamstring injuries have chased him the last two seasons, but he hit 11 homers with 17 steals in 112 games in 2026. Bar line: he grew up in Thousand Oaks, California, the same hometown as Brewers captain Christian Yelich.",
+      "weird_fact": "Drafted twice (Twins, 39th round, 2017; Dodgers, 25th round, 2019) and traded for Tyler Glasnow; he is from Thousand Oaks, CA, the same town as Christian Yelich.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Jonny_DeLuca",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/676356?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Jonny_DeLuca"
+      ],
+      "headshot_url_local": "assets/img/cards/676356-db535c8e.jpg"
+     },
+     {
+      "order": 8,
+      "id": "680700",
+      "name": "Richie Palacios",
+      "number": 1,
+      "position": "2B",
+      "bats": "L",
+      "throws": "R",
+      "age": 29,
+      "hometown": "Brooklyn, NY",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/680700/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".235",
+       "HR": 10,
+       "RBI": 57,
+       "OPS": ".704",
+       "SB": 17
+      },
+      "postseason_2026": "8-for-22 (.364) with 3 doubles in 8 games, the Rays' hottest bat outside Diaz",
+      "card_back": "A Brooklyn native from a baseball family (uncle Rey played for the Royals; brother Josh is in pro ball), Palacios went Towson to Cleveland to St. Louis to Tampa Bay, where he was acquired for reliever Andrew Kittredge in January 2024. He opened 2026 in Triple-A and ended it as the Rays' second baseman in the World Series. Bar line: he played for the Netherlands in the 2023 WBC and was in the stands for Derek Jeter's last game at Yankee Stadium.",
+      "weird_fact": "Eligible to play internationally for the Netherlands, Curacao, Puerto Rico and the U.S., he chose the Netherlands for the 2023 WBC; he attended Derek Jeter's final home game.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Richie_Palacios",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/680700?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Richie_Palacios"
+      ],
+      "headshot_url_local": "assets/img/cards/680700-ac67067f.jpg"
+     },
+     {
+      "order": 9,
+      "id": "670764",
+      "name": "Taylor Walls",
+      "number": 6,
+      "position": "SS",
+      "bats": "S",
+      "throws": "R",
+      "age": 30,
+      "hometown": "Cordele, GA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/670764/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".222",
+       "HR": 2,
+       "RBI": 36,
+       "OPS": ".607",
+       "SB": 21
+      },
+      "postseason_2026": "4-for-27 (.148) with 2 steals; in the lineup for his glove",
+      "card_back": "A switch-hitting shortstop from Cordele, Georgia, by way of Florida State, Walls is the classic glove-first Ray: a .222 hitter with 21 steals in 2026 and a reputation for clutch hits. He doubled off Robbie Ray in his first big-league game in 2021. Bar line: he was ejected in June 2025 because an umpire thought he was tapping his helmet in protest.",
+      "weird_fact": "Ejected on June 1, 2025 after an umpire interpreted him tapping his own helmet as a protest; his two home runs on Aug. 11, 2026 were his first in over a year.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Taylor_Walls",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/670764?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Taylor_Walls"
+      ],
+      "headshot_url_local": "assets/img/cards/670764-bbf7a86d.jpg"
+     }
+    ]
+   },
+   "projection_notes": {
+    "MIL": "PROJECTED, not announced: this is the exact lineup Milwaukee used in NLCS Game 4 (Oct. 15 at LAD, won 4-0), its last game before the World Series. Rays Game 1 and 2 starters are both right-handed, so the same lefty-heavy group is expected; the open question is RF (Frelick vs. Luis Lara).",
+    "TB": "PROJECTED, not announced: this is the exact lineup Tampa Bay used in ALCS Game 6 (Oct. 19 vs. CLE, the clincher) against a right-handed opener. Misiorowski and Henderson are both right-handed, so the same group is expected."
+   },
+   "result": null,
+   "source": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-10-23&endDate=2026-10-31&gameType=W&hydrate=probablePitcher,lineups",
+   "lineup_source": "https://www.mlb.com/brewers/roster/starting-lineups",
+   "lineup_source_away": "https://www.mlb.com/rays/roster/starting-lineups",
+   "sportradar_game_id": "a1639f1d-3416-4413-9233-c6f6571461a1",
+   "mlb_gamePk": 849802
+  },
+  {
+   "game": 3,
+   "date": "2026-10-26",
+   "first_pitch_central": "7:00 PM",
+   "venue": "Tropicana Field",
+   "home": "TB",
+   "away": "MIL",
+   "tv": "FOX",
+   "status": "projected",
+   "pitchers_status": "projected",
+   "probable_pitchers": {
+    "MIL": {
+     "id": "688107",
+     "name": "Robert Gasser",
+     "number": 54,
+     "position": "P",
+     "bats": "L",
+     "throws": "L",
+     "age": 27,
+     "hometown": "El Dorado Hills, CA",
+     "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/688107/headshot/67/current",
+     "stats_2026": {
+      "W-L": "5-5",
+      "ERA": "3.87",
+      "K": 103,
+      "IP": "109.1",
+      "WHIP": "1.19"
+     },
+     "postseason_2026": "2 starts, 9.0 IP, 1 ER, 6 K, including 5 scoreless innings vs. the Dodgers in the NLCS",
+     "card_back": "A lefty from El Dorado Hills, California, who bounced from New Mexico to a junior college to the University of Houston, where he struck out 105 in 85 innings in 2021. The Padres drafted him 71st overall and traded him to Milwaukee in the 2022 Josh Hader deal. He threw six shutout innings in his MLB debut in May 2024, needed elbow surgery six weeks later, and came back to be the Brewers' No. 3 October starter. Bar line: Vin Diesel used to show up at his high school games.",
+     "weird_fact": "Actor Vin Diesel is a close friend of Gasser's father and often attended Gasser's high school games.",
+     "weird_fact_source": "https://en.wikipedia.org/wiki/Robert_Gasser",
+     "texas_tie": "Pitched his final college season (2021) for the University of Houston Cougars, earning first-team All-AAC.",
+     "source": "https://statsapi.mlb.com/api/v1/people/688107?hydrate=stats(type=season,season=2026),education,draft",
+     "bio_sources": [
+      "https://en.wikipedia.org/wiki/Robert_Gasser",
+      "https://www.justbaseball.com/?p=245448"
+     ],
+     "headshot_url_local": "assets/img/cards/688107-4181df4e.jpg"
+    },
+    "TB": {
+     "id": "642547",
+     "name": "Freddy Peralta",
+     "number": 51,
+     "position": "P",
+     "bats": "R",
+     "throws": "R",
+     "age": 30,
+     "hometown": "Moca, Dominican Republic",
+     "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/642547/headshot/67/current",
+     "stats_2026": {
+      "W-L": "5-2",
+      "ERA": "3.25",
+      "K": 43,
+      "IP": "55.1",
+      "WHIP": "1.01",
+      "note": "Rays only (after Aug. 2 trade); 10-11, 4.42 ERA, 169.0 IP combined with the Mets"
+     },
+     "postseason_2026": "2026 ALCS MVP: 1.08 ERA in 4 games (3 starts), 16.2 IP; started the Game 6 clincher",
+     "card_back": "\"Fastball Freddy\" spent eight seasons as a Brewer, struck out 13 Rockies at Coors Field in his 2018 debut (a Brewers record for a first start), and led the NL in wins in 2025. Milwaukee traded him to the Mets in January 2026, he struggled (4.99 ERA), and the Mets flipped him to Tampa Bay on August 2. He went 0.79 in his last six regular-season starts and was named ALCS MVP. Bar line: he will face the only big-league organization he ever knew, in the ballpark where he pitched for eight years, as a free agent-to-be.",
+     "weird_fact": "Traded twice in 2026 (Brewers to Mets on Jan. 21, Mets to Rays on Aug. 2) and now faces his old team in the World Series; his MLB debut was 13 strikeouts in 5.2 innings at Coors Field.",
+     "weird_fact_source": "https://en.wikipedia.org/wiki/Freddy_Peralta",
+     "texas_tie": null,
+     "source": "https://statsapi.mlb.com/api/v1/people/642547?hydrate=stats(type=season,season=2026),education,draft",
+     "bio_sources": [
+      "https://en.wikipedia.org/wiki/Freddy_Peralta",
+      "https://seatgeek.com/blog/world-series-10-key-players-who-will-decide-the-winner-between-brewers-and-rays"
+     ],
+     "headshot_url_local": "assets/img/cards/642547-c4bd3aa4.jpg"
+    }
+   },
+   "pitching_note": "NOT announced. Projection: Peralta (ALCS MVP, ex-Brewer) for Tampa Bay and lefty Robert Gasser for Milwaukee, per CBS Sports and Just Baseball previews. Crystal will have left Milwaukee by this game.",
+   "lineups": {
+    "MIL": [],
+    "TB": []
+   },
+   "projected_lineups": {
+    "MIL": [
+     {
+      "order": 1,
+      "id": "694192",
+      "name": "Jackson Chourio",
+      "number": 11,
+      "position": "LF",
+      "bats": "R",
+      "throws": "R",
+      "age": 22,
+      "hometown": "Maracaibo, Venezuela",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/694192/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".291",
+       "HR": 25,
+       "RBI": 75,
+       "OPS": ".838",
+       "SB": 23
+      },
+      "postseason_2026": ".171 AVG but 2 HR and 7 RBI in 8 games, including a game-tying homer in NLDS G1 and a walk-off single in NLDS G2",
+      "card_back": "Signed out of Maracaibo, Venezuela, for $1.9 million at 16, Chourio got an eight-year, $82 million contract in December 2023 before he had played a single big-league game, then debuted on Opening Day 2024 as the youngest player in the majors. He is the only player ever with three 20-homer, 20-steal seasons before turning 23, and he already owns the Brewers' career postseason RBI record. Bar line: he won WBC gold with Venezuela in March 2026 despite breaking his hand in the tournament.",
+      "weird_fact": "His $82 million extension (Dec. 4, 2023) was the largest contract ever given to a player who had never appeared in an MLB game.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Jackson_Chourio",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/694192?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Jackson_Chourio"
+      ],
+      "headshot_url_local": "assets/img/cards/694192-626b51c0.jpg"
+     },
+     {
+      "order": 2,
+      "id": "668930",
+      "name": "Brice Turang",
+      "number": 2,
+      "position": "2B",
+      "bats": "L",
+      "throws": "R",
+      "age": 26,
+      "hometown": "Corona, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/668930/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".268",
+       "HR": 21,
+       "RBI": 100,
+       "OPS": ".816",
+       "SB": 19
+      },
+      "postseason_2026": "6-for-11 with 5 walks in the NLCS; 6 runs scored in 8 postseason games",
+      "card_back": "Son of former Mariners outfielder Brian Turang, Brice was the Brewers' first-round pick in 2018 out of Santiago High in Corona, California. His first MLB homer was a grand slam in the 2023 home opener; in 2024 he led the majors with 50 stolen bases and won both the Gold Glove and the Platinum Glove at second base. He drove in 100 runs in 2026. Bar line: his sister Brianna is married to NFL punter Tress Way.",
+      "weird_fact": "In 2024 he won the Gold Glove and Platinum Glove at second base, led MLB with 50 steals, and had the lowest pull percentage of any hitter in the majors (26.4%).",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Brice_Turang",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/668930?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Brice_Turang"
+      ],
+      "headshot_url_local": "assets/img/cards/668930-9c03d61d.jpg"
+     },
+     {
+      "order": 3,
+      "id": "661388",
+      "name": "William Contreras",
+      "number": 24,
+      "position": "C",
+      "bats": "R",
+      "throws": "R",
+      "age": 28,
+      "hometown": "Puerto Cabello, Venezuela",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/661388/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".270",
+       "HR": 18,
+       "RBI": 94,
+       "OPS": ".758",
+       "SB": 1
+      },
+      "postseason_2026": "The best hitter in the 2026 playoffs: .367/.457/.700, 3 HR, 11 hits in 8 games, including a go-ahead HR in NLDS G1",
+      "card_back": "The younger brother of Willson Contreras, William won a World Series ring with the 2021 Braves, made the 2022 All-Star team, and came to Milwaukee in the December 2022 three-team Sean Murphy trade. He has won two Silver Sluggers (2023, 2024), finished fifth in the 2024 NL MVP vote, and the local writers call him the team's heartbeat. Bar line: he played most of 2025 with a fractured middle finger and still made the All-Star team the next year.",
+      "weird_fact": "Played most of the 2025 season with a fractured left middle finger; he is engaged to the sister of former Brewers shortstop Willy Adames.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/William_Contreras",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/661388?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/William_Contreras",
+       "https://www.justbaseball.com/?p=245448"
+      ],
+      "headshot_url_local": "assets/img/cards/661388-e17ab3c2.jpg"
+     },
+     {
+      "order": 4,
+      "id": "641343",
+      "name": "Jake Bauers",
+      "number": 9,
+      "position": "1B",
+      "bats": "L",
+      "throws": "L",
+      "age": 31,
+      "hometown": "Huntington Beach, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/641343/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".266",
+       "HR": 26,
+       "RBI": 86,
+       "OPS": ".873",
+       "SB": 11
+      },
+      "postseason_2026": "2026 NLCS MVP: go-ahead HR in Game 3 at Dodger Stadium, 6 RBI in the series",
+      "card_back": "A seventh-round pick who had been a Ray, an Indian, a Mariner and a Yankee, Bauers hit .199 for Milwaukee in 2024, was cut loose, and came back on a minor-league deal. In 2026 he led the Brewers with 26 home runs and posted a .389 on-base percentage, then won NLCS MVP. Bar line: he had planned to retire after 2024 and came back to the game in part for the health insurance when his wife was pregnant.",
+      "weird_fact": "He was set to retire after the 2024 season but returned to baseball partly for health insurance after his wife became pregnant; two years later he was NLCS MVP.",
+      "weird_fact_source": "https://seatgeek.com/blog/world-series-10-key-players-who-will-decide-the-winner-between-brewers-and-rays",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/641343?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Jake_Bauers",
+       "https://seatgeek.com/blog/world-series-10-key-players-who-will-decide-the-winner-between-brewers-and-rays"
+      ],
+      "headshot_url_local": "assets/img/cards/641343-9ee36d8c.jpg"
+     },
+     {
+      "order": 5,
+      "id": "592885",
+      "name": "Christian Yelich",
+      "number": 22,
+      "position": "DH",
+      "bats": "L",
+      "throws": "R",
+      "age": 34,
+      "hometown": "Thousand Oaks, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/592885/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".235",
+       "HR": 12,
+       "RBI": 59,
+       "OPS": ".693",
+       "SB": 11
+      },
+      "postseason_2026": ".292 in 7 games with 2 steals; still chasing his first World Series ring",
+      "card_back": "The 2018 NL MVP and two-time batting champion, Yelich came to Milwaukee from Miami in January 2018 and became the face of the franchise. On September 26, 2026 the Brewers named him the first captain in team history. His great-grandfather Fred Gehrke played in the NFL. Bar line: Yelich is the only player ever to hit for the cycle three times against the same team (the Reds: twice in 2018, once in 2022).",
+      "weird_fact": "He is the only player in MLB history with three cycles against the same opponent, all against the Cincinnati Reds; he also appeared as himself on Magnum P.I. in 2019.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Christian_Yelich",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/592885?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Christian_Yelich"
+      ],
+      "headshot_url_local": "assets/img/cards/592885-2ce55af1.jpg"
+     },
+     {
+      "order": 6,
+      "id": "669003",
+      "name": "Garrett Mitchell",
+      "number": 5,
+      "position": "CF",
+      "bats": "L",
+      "throws": "R",
+      "age": 28,
+      "hometown": "Orange, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/669003/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".262",
+       "HR": 11,
+       "RBI": 65,
+       "OPS": ".770",
+       "SB": 14
+      },
+      "postseason_2026": "2 HR in the NLCS, both decisive; 6 runs scored in 8 postseason games",
+      "card_back": "A UCLA center fielder who set the Bruins' single-season triples record, Mitchell was Milwaukee's first-round pick in 2020. He has played through Type 1 diabetes since age 9 with an insulin pump, and through a brutal run of injuries (shoulder, broken hand, oblique). Healthy in 2026, he played 145 games and then hit two big NLCS home runs. Bar line: he missed the phone call telling him he was being promoted to the majors because he was eating a chocolate chip cookie.",
+      "weird_fact": "He missed the phone call about his promotion to the big leagues in August 2022 because he was eating a chocolate chip cookie.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Garrett_Mitchell_(baseball)",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/669003?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Garrett_Mitchell_(baseball)",
+       "https://www.justbaseball.com/?p=245448"
+      ],
+      "headshot_url_local": "assets/img/cards/669003-a2832986.jpg"
+     },
+     {
+      "order": 7,
+      "id": "806198",
+      "name": "Cooper Pratt",
+      "number": 12,
+      "position": "SS",
+      "bats": "R",
+      "throws": "R",
+      "age": 22,
+      "hometown": "Hialeah, FL",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/806198/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".281",
+       "HR": 3,
+       "RBI": 34,
+       "OPS": ".718",
+       "SB": 19
+      },
+      "postseason_2026": "9-for-29 (.310) in 8 games as a 22-year-old rookie shortstop",
+      "card_back": "Mississippi's Gatorade Player of the Year in 2023 at Magnolia Heights School in Senatobia, Pratt skipped Ole Miss to sign as a sixth-round pick. The Brewers gave him an eight-year, $50.75 million extension on April 3, 2026, before he had played a big-league game, then called him up June 16. Bar line: as a high school senior he was 10-0 with a 0.14 ERA as a pitcher, and he is starting at shortstop in the World Series four months after his debut.",
+      "weird_fact": "Signed an eight-year, $50.75 million extension on April 3, 2026 with the least upper-level pro experience of any player ever to receive an MLB extension, two and a half months before his MLB debut.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Cooper_Pratt",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/806198?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Cooper_Pratt"
+      ],
+      "headshot_url_local": "assets/img/cards/806198-b5a1c9ce.jpg"
+     },
+     {
+      "order": 8,
+      "id": "686217",
+      "name": "Sal Frelick",
+      "number": 10,
+      "position": "RF",
+      "bats": "L",
+      "throws": "R",
+      "age": 26,
+      "hometown": "Lexington, MA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/686217/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".230",
+       "HR": 4,
+       "RBI": 40,
+       "OPS": ".614",
+       "SB": 7
+      },
+      "postseason_2026": "3-for-15 with 4 walks and 2 steals in 5 games; sat against some lefties",
+      "card_back": "A Lexington, Massachusetts quarterback who threw 30 touchdown passes as a high school senior and turned down a Boston College football scholarship to play baseball there instead. The Brewers took him 15th overall in 2021; he won the 2024 NL Gold Glove in right field with 15 Defensive Runs Saved. Bar line: he played for Italy in the 2023 World Baseball Classic.",
+      "weird_fact": "Was Gatorade Massachusetts Football Player of the Year as a high school quarterback (30 TD passes) before choosing baseball at Boston College, where he was ACC Defensive Player of the Year.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Sal_Frelick",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/686217?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Sal_Frelick"
+      ],
+      "headshot_url_local": "assets/img/cards/686217-90d5eeb1.jpg"
+     },
+     {
+      "order": 9,
+      "id": "666152",
+      "name": "David Hamilton",
+      "number": 6,
+      "position": "3B",
+      "bats": "L",
+      "throws": "R",
+      "age": 29,
+      "hometown": "San Marcos, TX",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/666152/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".245",
+       "HR": 4,
+       "RBI": 26,
+       "OPS": ".650",
+       "SB": 30
+      },
+      "postseason_2026": "5-for-11 (.455) with a HR and 3 steals in 4 games; has started at 3B against right-handers",
+      "card_back": "A San Marcos native who played at San Marcos High and the University of Texas, Hamilton tore his Achilles in an electric scooter accident in 2019, signed with Milwaukee anyway as an eighth-rounder, went to Boston in the Hunter Renfroe trade, and came back to the Brewers in February 2026. He stole 30 bases in 2026 and once swiped six in a single minor-league game. Bar line: both his parents played baseball at Southwest Texas State, now Texas State.",
+      "weird_fact": "Tore his Achilles tendon in an electric scooter accident in 2019, costing him his junior year at Texas; he once stole six bases in one game, a Wisconsin Timber Rattlers record.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/David_Hamilton_(baseball)",
+      "texas_tie": "Born and raised in San Marcos, TX; San Marcos High School and the University of Texas at Austin; parents played at Southwest Texas State; played for Team Texas in 2020.",
+      "source": "https://statsapi.mlb.com/api/v1/people/666152?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/David_Hamilton_(baseball)",
+       "https://www.si.com/mlb/brewers/onsi/brewers-face-key-game-1-lineup-decision-against-rays-nick-martinez-pat3"
+      ],
+      "headshot_url_local": "assets/img/cards/666152-0fa558a5.jpg"
+     }
+    ],
+    "TB": [
+     {
+      "order": 1,
+      "id": "650490",
+      "name": "Yandy Díaz",
+      "number": 2,
+      "position": "DH",
+      "bats": "R",
+      "throws": "R",
+      "age": 35,
+      "hometown": "Sagua la Grande, Cuba",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/650490/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".293",
+       "HR": 22,
+       "RBI": 85,
+       "OPS": ".805",
+       "SB": 3
+      },
+      "postseason_2026": ".308 with 2 HR, 4 doubles and a .905 OPS in 9 games; the only Ray with multiple postseason homers",
+      "card_back": "The 2023 AL batting champion (.330) defected from Cuba in 2013 on his third attempt, after two arrests. Known for the biggest biceps in baseball, he has hit .290 or better in four of the last five seasons and set a Rays record with a 20-game hitting streak in 2024. Bar line: his father Jorge also defected and briefly played in the Rangers' farm system; Yandy was six the last time he saw him.",
+      "weird_fact": "Two of his attempts to defect from Cuba ended in arrest before he made it to the Dominican Republic in 2013; he homered in his first All-Star at-bat (2023) and won the batting title that year.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Yandy_D%C3%ADaz",
+      "texas_tie": "His father Jorge, also a Cuban defector, briefly played in the Texas Rangers organization.",
+      "source": "https://statsapi.mlb.com/api/v1/people/650490?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Yandy_D%C3%ADaz",
+       "https://seatgeek.com/blog/world-series-10-key-players-who-will-decide-the-winner-between-brewers-and-rays"
+      ],
+      "headshot_url_local": "assets/img/cards/650490-d9d3fb0a.jpg"
+     },
+     {
+      "order": 2,
+      "id": "666018",
+      "name": "Jonathan Aranda",
+      "number": 8,
+      "position": "1B",
+      "bats": "L",
+      "throws": "R",
+      "age": 28,
+      "hometown": "Tijuana, BC, Mexico",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/666018/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".274",
+       "HR": 22,
+       "RBI": 92,
+       "OPS": ".792",
+       "SB": 0
+      },
+      "postseason_2026": "9-for-35 (.257) with a HR and 5 RBI in 9 games",
+      "card_back": "Signed out of Tijuana at 17 in 2015, Aranda needed seven years to reach the majors and broke out as a 2025 All-Star (.316 before a broken wrist). In 2026 he hit 22 homers with 92 RBI as the Rays' everyday first baseman. Bar line: he won a WBC bronze with Mexico in 2023.",
+      "weird_fact": "Broke his left wrist in a collision with Giancarlo Stanton at first base on July 31, 2025, and missed two months of his All-Star season.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Jonathan_Aranda",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/666018?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Jonathan_Aranda"
+      ],
+      "headshot_url_local": "assets/img/cards/666018-5719eaa3.jpg"
+     },
+     {
+      "order": 3,
+      "id": "689414",
+      "name": "Liam Hicks",
+      "number": 34,
+      "position": "C",
+      "bats": "L",
+      "throws": "R",
+      "age": 27,
+      "hometown": "Toronto, ON, Canada",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/689414/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".288",
+       "HR": 4,
+       "RBI": 20,
+       "OPS": ".819",
+       "SB": 0,
+       "note": "Rays only (after Aug. 3 trade); .284, 18 HR, 82 RBI combined with the Marlins"
+      },
+      "postseason_2026": "6-for-27 (.222) with 4 RBI; 2 hits in ALCS G5 after a 3-for-20 start",
+      "card_back": "A Toronto-born catcher who went from Mineral Area College to Arkansas State to a $30,000 bonus as a Rangers ninth-rounder in 2021. He was a Rule 5 pick by the Marlins who stuck on the roster, then came to Tampa Bay in an August 3, 2026 trade and hit .288 with a .379 OBP down the stretch. Bar line: his first big-league homer came off fellow Canadian Jordan Romano.",
+      "weird_fact": "A Rule 5 draft pick (Dec. 2024) who made the Marlins' Opening Day roster and stuck; his first MLB home run was off fellow Canadian Jordan Romano.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Liam_Hicks",
+      "texas_tie": "Drafted by the Texas Rangers in 2021 (9th round) and spent 2021-2024 in their system, including the Frisco RoughRiders.",
+      "source": "https://statsapi.mlb.com/api/v1/people/689414?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Liam_Hicks"
+      ],
+      "headshot_url_local": "assets/img/cards/689414-c07a5513.jpg"
+     },
+     {
+      "order": 4,
+      "id": "691406",
+      "name": "Junior Caminero",
+      "number": 13,
+      "position": "3B",
+      "bats": "R",
+      "throws": "R",
+      "age": 23,
+      "hometown": "Santo Domingo, Dominican Republic",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/691406/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".276",
+       "HR": 42,
+       "RBI": 101,
+       "OPS": ".884",
+       "SB": 3
+      },
+      "postseason_2026": ".273/.351/.455 in 9 games; first career postseason HR in the ALCS Game 6 clincher",
+      "card_back": "Signed by Cleveland at 16 and stolen by the Rays in a 2021 trade for pitcher Tobias Myers, Caminero hit 45 homers in 2025 (one shy of the Rays record), reached the Home Run Derby final, and followed with 42 homers and 101 RBI in 2026 at age 23. He won WBC bronze with the Dominican Republic in March. Bar line: his little brother is named Girardi, after Joe Girardi, at Junior's suggestion.",
+      "weird_fact": "His younger brother is named Girardi after former Yankees manager Joe Girardi, a name Junior suggested; in 2025 he led MLB in grounding into double plays (31) while hitting 45 home runs.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Junior_Caminero",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/691406?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Junior_Caminero",
+       "https://www.justbaseball.com/?p=245448"
+      ],
+      "headshot_url_local": "assets/img/cards/691406-9d8037e8.jpg"
+     },
+     {
+      "order": 5,
+      "id": "802415",
+      "name": "Chandler Simpson",
+      "number": 14,
+      "position": "LF",
+      "bats": "L",
+      "throws": "R",
+      "age": 25,
+      "hometown": "Atlanta, GA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/802415/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".306",
+       "HR": 0,
+       "RBI": 38,
+       "OPS": ".689",
+       "SB": 46
+      },
+      "postseason_2026": "6-for-25 with 3 steals and just 1 strikeout in 8 games",
+      "card_back": "The fastest man in baseball. Simpson led Division I with a .434 average at Georgia Tech, stole 104 bases in the minors in 2024 (the most since 2012), and has led the AL in steals in both of his big-league seasons (44, then 46). He hit .306 with 175 hits in 2026. Bar line: he has never hit a major-league home run, and he almost never strikes out.",
+      "weird_fact": "Has zero home runs in two full MLB seasons (0 in 2026) while leading the AL in stolen bases both years; he is the fifth player ever with 40-plus steals in each of his first two seasons.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Chandler_Simpson",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/802415?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Chandler_Simpson"
+      ],
+      "headshot_url_local": "assets/img/cards/802415-507b8875.jpg"
+     },
+     {
+      "order": 6,
+      "id": "683748",
+      "name": "Victor Mesa Jr.",
+      "number": 25,
+      "position": "RF",
+      "bats": "L",
+      "throws": "L",
+      "age": 25,
+      "hometown": "Havana, Cuba",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/683748/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".260",
+       "HR": 14,
+       "RBI": 34,
+       "OPS": ".825",
+       "SB": 9
+      },
+      "postseason_2026": "4-for-31 (.129) with 12 strikeouts, 1 HR",
+      "card_back": "Son of Cuban legend Victor Mesa and brother of Victor Victor Mesa, he defected in 2018 and signed with the Marlins for $1 million. Miami gave up on him in February 2026; the Rays got him for a minor leaguer, called him up in May, and he posted an .825 OPS with 14 homers in 79 games. Bar line: he hit his first big-league home run on his 24th birthday.",
+      "weird_fact": "Hit his first MLB home run on his 24th birthday (Sept. 8, 2025); the Marlins designated him for assignment five months later and the Rays got him for a minor leaguer.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/V%C3%ADctor_Mesa_Jr.",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/683748?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/V%C3%ADctor_Mesa_Jr."
+      ],
+      "headshot_url_local": "assets/img/cards/683748-d4b4a2dc.jpg"
+     },
+     {
+      "order": 7,
+      "id": "676356",
+      "name": "Jonny DeLuca",
+      "number": 21,
+      "position": "CF",
+      "bats": "R",
+      "throws": "R",
+      "age": 28,
+      "hometown": "Thousand Oaks, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/676356/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".266",
+       "HR": 11,
+       "RBI": 50,
+       "OPS": ".729",
+       "SB": 17
+      },
+      "postseason_2026": "6-for-30 (.200) with 2 steals in 9 games",
+      "card_back": "A 25th-round Dodgers pick out of Oregon, DeLuca came to Tampa Bay in the December 2023 Tyler Glasnow trade. Hamstring injuries have chased him the last two seasons, but he hit 11 homers with 17 steals in 112 games in 2026. Bar line: he grew up in Thousand Oaks, California, the same hometown as Brewers captain Christian Yelich.",
+      "weird_fact": "Drafted twice (Twins, 39th round, 2017; Dodgers, 25th round, 2019) and traded for Tyler Glasnow; he is from Thousand Oaks, CA, the same town as Christian Yelich.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Jonny_DeLuca",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/676356?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Jonny_DeLuca"
+      ],
+      "headshot_url_local": "assets/img/cards/676356-db535c8e.jpg"
+     },
+     {
+      "order": 8,
+      "id": "680700",
+      "name": "Richie Palacios",
+      "number": 1,
+      "position": "2B",
+      "bats": "L",
+      "throws": "R",
+      "age": 29,
+      "hometown": "Brooklyn, NY",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/680700/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".235",
+       "HR": 10,
+       "RBI": 57,
+       "OPS": ".704",
+       "SB": 17
+      },
+      "postseason_2026": "8-for-22 (.364) with 3 doubles in 8 games, the Rays' hottest bat outside Diaz",
+      "card_back": "A Brooklyn native from a baseball family (uncle Rey played for the Royals; brother Josh is in pro ball), Palacios went Towson to Cleveland to St. Louis to Tampa Bay, where he was acquired for reliever Andrew Kittredge in January 2024. He opened 2026 in Triple-A and ended it as the Rays' second baseman in the World Series. Bar line: he played for the Netherlands in the 2023 WBC and was in the stands for Derek Jeter's last game at Yankee Stadium.",
+      "weird_fact": "Eligible to play internationally for the Netherlands, Curacao, Puerto Rico and the U.S., he chose the Netherlands for the 2023 WBC; he attended Derek Jeter's final home game.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Richie_Palacios",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/680700?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Richie_Palacios"
+      ],
+      "headshot_url_local": "assets/img/cards/680700-ac67067f.jpg"
+     },
+     {
+      "order": 9,
+      "id": "670764",
+      "name": "Taylor Walls",
+      "number": 6,
+      "position": "SS",
+      "bats": "S",
+      "throws": "R",
+      "age": 30,
+      "hometown": "Cordele, GA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/670764/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".222",
+       "HR": 2,
+       "RBI": 36,
+       "OPS": ".607",
+       "SB": 21
+      },
+      "postseason_2026": "4-for-27 (.148) with 2 steals; in the lineup for his glove",
+      "card_back": "A switch-hitting shortstop from Cordele, Georgia, by way of Florida State, Walls is the classic glove-first Ray: a .222 hitter with 21 steals in 2026 and a reputation for clutch hits. He doubled off Robbie Ray in his first big-league game in 2021. Bar line: he was ejected in June 2025 because an umpire thought he was tapping his helmet in protest.",
+      "weird_fact": "Ejected on June 1, 2025 after an umpire interpreted him tapping his own helmet as a protest; his two home runs on Aug. 11, 2026 were his first in over a year.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Taylor_Walls",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/670764?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Taylor_Walls"
+      ],
+      "headshot_url_local": "assets/img/cards/670764-bbf7a86d.jpg"
+     }
+    ]
+   },
+   "projection_notes": {
+    "MIL": "PROJECTED, not announced: this is the exact lineup Milwaukee used in NLCS Game 4 (Oct. 15 at LAD, won 4-0), its last game before the World Series. Rays Game 1 and 2 starters are both right-handed, so the same lefty-heavy group is expected; the open question is RF (Frelick vs. Luis Lara). Against a right-hander (Peralta) the same group projects; the DH is used in both parks.",
+    "TB": "PROJECTED, not announced: this is the exact lineup Tampa Bay used in ALCS Game 6 (Oct. 19 vs. CLE, the clincher) against a right-handed opener. Misiorowski and Henderson are both right-handed, so the same group is expected. Against a LEFT-hander (Gasser) expect changes: the Rays ranked 27th in wOBA vs. lefties, and lefty bats Hicks, Simpson, Mesa Jr., Palacios and Aranda could be shuffled."
+   },
+   "result": null,
+   "source": "https://www.cbssports.com/mlb/news/2026-world-series-rays-game-1-start-nick-martinez/",
+   "lineup_source": "https://www.mlb.com/rays/roster/starting-lineups",
+   "lineup_source_away": "https://www.mlb.com/brewers/roster/starting-lineups",
+   "sportradar_game_id": "cd201023-1194-41b5-8776-2053cf349281",
+   "mlb_gamePk": 849804
+  }
+ ],
+ "sources_general": [
+  "https://www.mlb.com/brewers/roster/starting-lineups",
+  "https://www.mlb.com/rays/roster/starting-lineups",
+  "https://www.espn.com/mlb/story/_/id/50252981/rays-opt-nick-martinez-open-world-series-vs-brewers",
+  "https://www.cbssports.com/mlb/news/2026-world-series-rays-game-1-start-nick-martinez/",
+  "https://www.justbaseball.com/?p=245448",
+  "https://www.si.com/betting/rays-vs-brewers-game-1-opening-odds-for-2026-world-series-milwaukee-set-as-home-favorite",
+  "https://www.mlb.com/redsox/news/guardians-vs-rays-alcs-game-6-starting-lineups-pitching-matchup",
+  "https://www.si.com/mlb/brewers/onsi/brewers-face-key-game-1-lineup-decision-against-rays-nick-martinez-pat3"
+ ]
+}

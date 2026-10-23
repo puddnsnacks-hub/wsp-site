@@ -1,0 +1,69 @@
+/*
+  Theme: wsp — a PDS theme for the Widespread Panic · Milwaukee companion.
+  Per PDS rules a theme may change the global tier (ramps, faces, depth, radius)
+  and may re-point semantic bindings; it does not add components.
+
+  What this theme changes:
+  1. Category colors for the map and widget markers (one per kind of place).
+  2. The band color warms toward brown-black so the dark header reads like a
+     theater house before the lights drop.
+  3. The display face keeps Fraunces but leans on WONK for show titles.
+  4. Dark mode is the default at night (set by app.js from the clock when the
+     visitor hasn't chosen), since she'll use this walking out of the Riverside.
+*/
+
+:root {
+  /* Category colors: fill, and ink that reads on that fill */
+  --wsp-cat-venue: var(--dt-vivid-50);        --wsp-cat-venue-ink: var(--dt-gray-0);
+  --wsp-cat-hotel: var(--dt-primary-60);      --wsp-cat-hotel-ink: var(--dt-gray-0);
+  --wsp-cat-bar: var(--dt-primary-40);        --wsp-cat-bar-ink: var(--dt-gray-90);
+  --wsp-cat-restaurant: var(--dt-accent-50);  --wsp-cat-restaurant-ink: var(--dt-gray-0);
+  --wsp-cat-street-food: var(--dt-accent-30); --wsp-cat-street-food-ink: var(--dt-gray-90);
+  --wsp-cat-watch-party: var(--ph-green-50);  --wsp-cat-watch-party-ink: var(--dt-gray-0);
+  --wsp-cat-stage: var(--dt-vivid-40);        --wsp-cat-stage-ink: var(--dt-gray-90);
+  --wsp-cat-closure: var(--dt-vivid-30);      --wsp-cat-closure-ink: var(--dt-gray-90);
+  --wsp-cat-landmark: var(--dt-gray-50);      --wsp-cat-landmark-ink: var(--dt-gray-0);
+  --wsp-cat-laverne: #c2185b;                 --wsp-cat-laverne-ink: var(--dt-gray-0);  /* the one off-ramp color: Laverne's L */
+  --wsp-cat-practical: var(--dt-gray-40);     --wsp-cat-practical-ink: var(--dt-gray-90);
+
+  /* Band: deeper, warmer */
+  --pds-bg-band: #1b120c;
+  --pds-text-mark-on-band: var(--dt-accent-20);
+
+  /* Closure polygon on the map */
+  --wsp-closure-fill: rgba(16, 179, 225, .18);
+  --wsp-closure-stroke: var(--dt-vivid-50);
+
+  /* Widget chrome */
+  --wsp-card-shadow: none;
+  --wsp-grid-gap: var(--pds-space-6);
+  --wsp-page-margin: clamp(16px, 3vw, 40px);
+  --wsp-max: 1280px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --pds-bg-band: #120c08;
+    --wsp-cat-bar: var(--dt-primary-30); --wsp-cat-bar-ink: var(--dt-gray-90);
+    --wsp-cat-restaurant: var(--dt-accent-30); --wsp-cat-restaurant-ink: var(--dt-gray-90);
+    --wsp-cat-hotel: var(--dt-primary-30); --wsp-cat-hotel-ink: var(--dt-gray-90);
+    --wsp-cat-venue: var(--dt-vivid-30); --wsp-cat-venue-ink: var(--dt-gray-90);
+    --wsp-cat-watch-party: var(--ph-green-dark-icon); --wsp-cat-watch-party-ink: var(--dt-gray-90);
+    --wsp-cat-landmark: var(--dt-gray-30); --wsp-cat-landmark-ink: var(--dt-gray-90);
+    --wsp-cat-laverne: #f06292; --wsp-cat-laverne-ink: var(--dt-gray-90);
+    --wsp-closure-fill: rgba(114, 211, 248, .16);
+    --wsp-closure-stroke: var(--dt-vivid-30);
+  }
+}
+:root[data-theme="dark"] {
+  --pds-bg-band: #120c08;
+  --wsp-cat-bar: var(--dt-primary-30); --wsp-cat-bar-ink: var(--dt-gray-90);
+  --wsp-cat-restaurant: var(--dt-accent-30); --wsp-cat-restaurant-ink: var(--dt-gray-90);
+  --wsp-cat-hotel: var(--dt-primary-30); --wsp-cat-hotel-ink: var(--dt-gray-90);
+  --wsp-cat-venue: var(--dt-vivid-30); --wsp-cat-venue-ink: var(--dt-gray-90);
+  --wsp-cat-watch-party: var(--ph-green-dark-icon); --wsp-cat-watch-party-ink: var(--dt-gray-90);
+  --wsp-cat-landmark: var(--dt-gray-30); --wsp-cat-landmark-ink: var(--dt-gray-90);
+  --wsp-cat-laverne: #f06292; --wsp-cat-laverne-ink: var(--dt-gray-90);
+  --wsp-closure-fill: rgba(114, 211, 248, .16);
+  --wsp-closure-stroke: var(--dt-vivid-30);
+}

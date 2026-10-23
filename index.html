@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WSP · Milwaukee — Crystal's weekend companion</title>
+<meta name="description" content="Three nights of Widespread Panic at the Riverside Theater, and everything around it: the street party, the World Series, where to eat, where to drink, and Laverne & Shirley.">
+<meta name="theme-color" content="#1b120c">
+<meta property="og:title" content="WSP · Milwaukee">
+<meta property="og:description" content="Crystal's three-night companion: shows, street party, World Series, food, bars, map.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..900,100,1;1,9..144,400..900,100,1&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="assets/css/pds-tokens.css">
+<link rel="stylesheet" href="assets/css/theme-wsp.css">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>
+/* Theme before paint: saved choice wins; otherwise dark after 6 PM and before 7 AM Central. */
+(function(){try{var s=localStorage.getItem('wsp-theme');if(s){document.documentElement.setAttribute('data-theme',s);return;}var h=new Date(new Date().toLocaleString('en-US',{timeZone:'America/Chicago'})).getHours();if(h>=18||h<7)document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();
+</script>
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="inner">
+    <div class="wordmark">
+      <span class="eyebrow">Riverside Theater · Milwaukee · Oct 23–25, 2026</span>
+      <h1>Widespread Panic <em>×</em> Milwaukee</h1>
+      <p class="dates" id="hdr-dates">Three nights. One river. A World Series on every screen.</p>
+    </div>
+    <div class="header-tools">
+      <a class="temp-pill" href="#weather" id="temp-pill" aria-label="Current weather">
+        <svg id="temp-icon" viewBox="0 0 24 24" aria-hidden="true"></svg>
+        <span class="t num" id="temp-now">––°</span>
+        <span class="c" id="temp-desc">Milwaukee</span>
+      </a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light and dark" title="Light / dark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.5 0-1-.1-1.4A5.5 5.5 0 0 1 12 3z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav class="site-nav" aria-label="Sections">
+  <div class="inner">
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="mega">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <span>Menu</span>
+    </button>
+    <span class="now-at" id="now-at" aria-live="polite">Tonight</span>
+    <a class="menu-top" href="#top" aria-label="Back to top">↑</a>
+  </div>
+  <div class="mega" id="mega" hidden>
+    <div class="mega-inner">
+      <section class="mega-col"><h3 class="eyebrow">The shows</h3>
+        <a href="#tonight">Tonight</a><a href="#shows">Three nights at the Riverside</a><a href="#street">Street party &amp; closure rules</a><a href="#street" data-open-details="Live music schedule">Live music schedule</a><a href="#street" data-open-details="Other free live music">Other live music nearby</a></section>
+      <section class="mega-col"><h3 class="eyebrow">Baseball</h3>
+        <a href="#series">World Series schedule</a><a href="#series" data-scroll-to=".places">Where to watch</a><a href="#lineups">Lineup cards</a><a href="#lineups" data-scroll-to=".cards:last-of-type">The mascots</a></section>
+      <section class="mega-col"><h3 class="eyebrow">Eat &amp; drink</h3>
+        <a href="#eat" data-tab="tab-destination">Worth the trip</a><a href="#eat" data-tab="tab-street">Street food</a><a href="#eat" data-tab="tab-traditions">Milwaukee traditions</a><a href="#eat" data-tab="tab-monday">Monday before the flight</a><a href="#drink">Bars</a></section>
+      <section class="mega-col"><h3 class="eyebrow">Getting around</h3>
+        <a href="#map">The map</a><a href="#hotel">Hotel &amp; the walk</a><a href="#hotel" data-open-details="Practical">Pharmacy, urgent care, tipping</a><a href="#weather">Weather</a><a href="#share">Take it with you</a></section>
+      <section class="mega-col"><h3 class="eyebrow">Milwaukee</h3>
+        <a href="#facts">Fun facts</a><a href="#facts" data-open-details="neighborhoods">Neighborhoods</a><a href="#facts" data-open-details="What to wear">What to wear</a><a href="#laverne">Laverne &amp; Shirley</a><a href="#laverne" data-scroll-to=".cast">The cast</a><a href="#laverne" data-scroll-to=".places">The pilgrimage</a></section>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="grid">
+
+    <section class="w w--band w--two-thirds" id="tonight" data-widget="tonight" aria-labelledby="tonight-h">
+      <header><div class="t"><span class="eyebrow" id="tonight-eyebrow">Tonight</span><h2 id="tonight-h">Loading the run…</h2></div></header>
+      <div class="body"><div class="pending-note">Pulling show times, weather and the game</div></div>
+    </section>
+
+    <section class="w w--third" id="weather" data-widget="weather" aria-labelledby="weather-h">
+      <header><div class="t"><span class="eyebrow">Weather · Downtown</span><h2 id="weather-h">Milwaukee sky</h2></div><div class="act"><a class="btn btn--sm" href="https://forecast.weather.gov/MapClick.php?lat=43.0389&lon=-87.9065" target="_blank" rel="noopener">NWS</a></div></header>
+      <div class="body"><div class="pending-note">Reading the forecast</div></div>
+    </section>
+
+    <section class="w" id="map" data-widget="map" aria-labelledby="map-h">
+      <header><div class="t"><span class="eyebrow">The map</span><h2 id="map-h">Everything, pinned</h2><p class="caption">Tap a pin for the card. Filter by what you're after. The pulsing dot is you.</p></div><div class="act"><button class="btn btn--sm" id="locate-btn">Find me</button></div></header>
+      <div class="body flush">
+        <div class="map-filters" id="map-filters" role="group" aria-label="Filter pins"></div>
+        <div class="map-wrap"><div id="leaflet-map" style="height:420px" aria-label="Map of Milwaukee with every place on this site"></div></div>
+      </div>
+    </section>
+
+    <section class="w w--half" id="shows" data-widget="concert" aria-labelledby="shows-h">
+      <header><div class="t"><span class="eyebrow">The run</span><h2 id="shows-h">Three nights at the Riverside</h2></div></header>
+      <div class="body"><div class="pending-note">Confirming doors, set times and venue tips</div></div>
+    </section>
+
+    <section class="w w--half" id="street" data-widget="closure" aria-labelledby="street-h">
+      <header><div class="t"><span class="eyebrow">Street closure · live music</span><h2 id="street-h">The street party</h2></div></header>
+      <div class="body"><div class="pending-note">Finding the closure map, the rules and the stage schedule</div></div>
+    </section>
+
+    <section class="w w--half" id="series" data-widget="worldseries" aria-labelledby="series-h">
+      <header><div class="t"><span class="eyebrow">World Series</span><h2 id="series-h">The games during your stay</h2></div></header>
+      <div class="body"><div class="pending-note">Checking the schedule and where to watch</div></div>
+    </section>
+
+    <section class="w w--half" id="drink" data-widget="bars" aria-labelledby="drink-h">
+      <header><div class="t"><span class="eyebrow">Drink</span><h2 id="drink-h">Bars worth the walk</h2></div></header>
+      <div class="body"><div class="pending-note">Scouting pre-show and after-show spots</div></div>
+    </section>
+
+    <section class="w" id="lineups" data-widget="lineups" aria-labelledby="lineups-h">
+      <header><div class="t"><span class="eyebrow">Starting lineups</span><h2 id="lineups-h">The cards</h2><p class="caption">Tap a card to flip it. Lineups post a few hours before first pitch; until then you'll see the projected nine.</p></div></header>
+      <div class="body"><div class="pending-note">Pulling probable pitchers and lineups</div></div>
+    </section>
+
+    <section class="w" id="eat" data-widget="food" aria-labelledby="eat-h">
+      <header><div class="t"><span class="eyebrow">Eat</span><h2 id="eat-h">Food worth leaving the block for</h2><p class="caption">Every place links to Google Maps and straight to its Yelp food photos.</p></div></header>
+      <div class="body"><div class="pending-note">Hunting the fish fry, the butter burger and the one-of-a-kind meal</div></div>
+    </section>
+
+    <section class="w w--half" id="hotel" data-widget="hotel" aria-labelledby="hotel-h">
+      <header><div class="t"><span class="eyebrow">Home base</span><h2 id="hotel-h">Your hotel &amp; getting around</h2></div></header>
+      <div class="body"><div class="pending-note">Resolving the hotel and the walk across the river</div></div>
+    </section>
+
+    <section class="w w--half" id="facts" data-widget="facts" aria-labelledby="facts-h">
+      <header><div class="t"><span class="eyebrow">Milwaukee</span><h2 id="facts-h">Things to know, things to say at the bar</h2></div></header>
+      <div class="body"><div class="pending-note">Collecting the good facts</div></div>
+    </section>
+
+    <section class="w" id="laverne" data-widget="laverne" aria-labelledby="laverne-h">
+      <header><div class="t"><span class="eyebrow">Schlemiel! Schlimazel!</span><h2 id="laverne-h">Laverne &amp; Shirley</h2></div></header>
+      <div class="body"><div class="pending-note">Checking whether it was really filmed here</div></div>
+    </section>
+
+    <section class="w" id="share" data-widget="share" aria-labelledby="share-h">
+      <header><div class="t"><span class="eyebrow">Take it with you</span><h2 id="share-h">All of this in Google Maps</h2></div></header>
+      <div class="body"><div class="pending-note">Building the shareable map</div></div>
+    </section>
+
+  </div>
+</main>
+
+<footer><div class="inner"><span>Made for Crystal · wsp.puddnsnacks.com</span><span id="data-stamp">Hours and schedules change; tap through to the source before you go.</span></div></footer>
+
+<div class="scrim" id="scrim"></div>
+<aside class="sheet" id="sheet" aria-hidden="true" role="dialog" aria-labelledby="sheet-title"><button class="close" id="sheet-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="sheet-body"></div></aside>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="assets/js/icons.js"></script>
+<script src="assets/js/weather.js"></script>
+<script src="assets/js/map.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
