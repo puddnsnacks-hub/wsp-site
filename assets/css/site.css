@@ -600,11 +600,22 @@ main { padding-top: 0; padding-bottom: 0; overflow-x: clip; }
 .strip--title { font-family: var(--pds-font-display); font-weight: 900; font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144; font-size: clamp(30px, 9.5vw, 54px); line-height: .95; letter-spacing: -.02em; text-shadow: 3px 2px 0 var(--wsp-teal-30); max-width: 92%; }
 .scene[data-side="right"] .scene-head { justify-content: flex-end; padding-right: 6px; }
 .scene[data-side="right"] .strip--title { --st: 2deg; }
-.scene--pinned .scene-head { display: none; }
-/* pinned scene: no art, a short textured solid, tucked under From Snacks */
-.scene--pinned { padding: calc(var(--cut) + 10px) var(--wsp-page-margin) calc(var(--cut) + 10px); background: var(--wsp-paper-20); clip-path: polygon(0 0, 100% var(--cut), 100% 100%, 0 calc(100% - var(--cut))); }
-.scene--pinned::before { display: none; }
-.scene--pinned:empty, .scene--pinned:not(:has(.w)) { display: none; }
+/* the starred view: a short textured solid, the kept cards, then the note */
+.scene--stars { background: var(--wsp-teal-80); }
+.scene--stars::before { display: none; }
+.scene--stars .scene-head { min-height: 18vw; }
+.scene--stars .strip--title { color: var(--wsp-gold-30); background: var(--wsp-teal-90); text-shadow: 3px 2px 0 var(--wsp-teal-60); }
+.stars-note { order: 98; margin: var(--pds-space-4) 4px 0; padding: var(--pds-space-6) var(--pds-space-8); background: var(--wsp-paper-5); border: 2px dashed var(--pds-text-strong); transform: rotate(-.8deg); }
+.stars-note p { margin: 0; font: 400 24px/1.25 "Covered By Your Grace", "Comic Sans MS", cursive; color: var(--pds-text-strong); }
+/* the sticky bar: the hamburger alone on the left, the star on the right */
+.menu-btn { border: 0; box-shadow: none; transform: none; background: transparent; padding: 0; width: var(--pds-control-touch); justify-content: center; }
+.menu-btn svg { width: 26px; height: 26px; }
+.menu-btn[aria-expanded="true"] { background: var(--pds-text-strong); color: var(--pds-bg-card); }
+.nav-spacer { flex: 1; }
+.star-filter { width: var(--pds-control-touch); height: var(--pds-control-touch); display: grid; place-items: center; color: var(--pds-text-strong); background: transparent; border: 0; }
+.star-filter svg { width: 24px; height: 24px; }
+.star-filter[aria-pressed="true"] { color: var(--pds-mark); }
+.star-filter[aria-pressed="true"] svg { fill: currentColor; }
 /* chapter nav: the next picture is one tap away, on two pasted strips */
 .scene-nav { order: 99; display: flex; justify-content: space-between; align-items: flex-end; gap: var(--pds-space-4); margin-top: var(--pds-space-6); padding: 0 4px; }
 .strip--nav { font: 700 17px/1.1 var(--pds-font-display); font-variation-settings: var(--pds-display-axes); color: var(--wsp-ink-90); background: var(--wsp-gold-30); padding: 12px 14px 13px; min-height: var(--pds-control-touch); --st: -1.6deg; cursor: pointer; }
@@ -624,7 +635,6 @@ body[data-chapter]:not([data-chapter="home"]) .site-header .dates { display: non
 body[data-chapter]:not([data-chapter="home"]) .site-header .inner { padding-top: var(--pds-space-4); padding-bottom: var(--pds-space-6); }
 .wordmark h1 { transform: rotate(-2.2deg); transform-origin: left bottom; text-shadow: 3px 2px 0 var(--wsp-teal-50); display: inline-block; }
 .site-nav { position: sticky; }
-.menu-btn { border: 2px solid var(--pds-text-strong); box-shadow: 2px 2px 0 0 var(--wsp-misreg); transform: rotate(-1deg); }
 /* the Tonight band is a print: teal paper with its second ink printed off */
 .w--band { box-shadow: 5px 5px 0 0 var(--wsp-gold-40); }
 /* eyebrows as pasted strips on the card's top edge */

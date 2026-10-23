@@ -16,9 +16,9 @@ WSP.shell = (function () {
   function chapterOf(el) { const s = el && el.closest && el.closest('.scene[data-chapter]'); return s ? s.dataset.chapter : null; }
   function go(id, opts = {}) {
     const list = chapterList(); if (!list.find(c => c.id === id)) id = list[0].id;
+    if (starsOnly) setStarsOnly(false, { silent: true });
     scenes().forEach(s => s.classList.toggle('is-on', s.dataset.chapter === id));
     document.body.dataset.chapter = id; current = id;
-    const na = $('#now-at'); if (na) na.textContent = (list.find(c => c.id === id) || {}).title || '';
     if (opts.scroll !== false) { const nav = $('.site-nav'); const top = $('main').getBoundingClientRect().top + scrollY - (nav ? nav.offsetHeight : 0); scrollTo({ top: Math.max(0, top), behavior: opts.instant ? 'instant' : 'smooth' }); }
     if (id === 'around' && WSP.map) { setTimeout(() => { WSP.map.refresh && WSP.map.refresh(); WSP.map.refreshMini && WSP.map.refreshMini(); }, 60); }
     $$('.to-top').forEach(t => { t.hidden = true; });
@@ -47,7 +47,7 @@ WSP.shell = (function () {
       t.parentNode.insertBefore(btn, t); btn.appendChild(t);
       const body = $(':scope > .body', sec); if (body) body.id = id + '-body';
       if (id !== 'updates') {
-        const star = document.createElement('button'); star.className = 'w-star'; star.type = 'button'; star.setAttribute('aria-pressed', 'false'); star.setAttribute('aria-label', 'Pin this card near the top'); star.title = 'Pin near the top';
+        const star = document.createElement('button'); star.className = 'w-star'; star.type = 'button'; star.setAttribute('aria-pressed', 'false'); star.setAttribute('aria-label', 'Star this card'); star.title = 'Star this card';
         star.innerHTML = I().star; header.appendChild(star);
         star.addEventListener('click', (e) => { e.stopPropagation(); toggleStar(id); });
       }
@@ -107,14 +107,38 @@ WSP.shell = (function () {
 
   /* ---------- Stars ---------- */
   function stars() { return store.get('stars', []); }
-  function toggleStar(id) { let s = stars(); const on = !s.includes(id); s = on ? [...s, id] : s.filter(x => x !== id); store.set('stars', s); applyStars(true); const sec = document.getElementById(id); if (sec) { const ch = chapterOf(sec); if (ch && ch !== current) go(ch, { scroll: false, instant: true }); setOpen(sec, true); sec.scrollIntoView({ block: 'start', behavior: 'smooth' }); } }
-  function applyStars(animate) {
-    const s = stars(); const grid = $('main .grid'); const all = $$('main section.w'); const original = WSP.shell.order || (WSP.shell.order = all.map(x => x.id));
-    const starred = original.filter(id => s.includes(id));
-    const pinned = document.getElementById('scene-pinned') || grid;
-    original.forEach(id => { const el = document.getElementById(id); if (!el) return; if (!el.dataset.home) el.dataset.home = el.parentElement.id || ''; const home = document.getElementById(el.dataset.home) || grid; if (s.includes(id)) pinned.appendChild(el); else home.appendChild(el); });
-    starred.forEach(id => pinned.appendChild(document.getElementById(id)));
-    all.forEach(sec => { const on = s.includes(sec.id); const b = $('.w-star', sec); if (b) { b.setAttribute('aria-pressed', String(on)); b.title = on ? 'Unpin' : 'Pin near the top'; } sec.classList.toggle('is-starred', on); });
+  function toggleStar(id) { let s = stars(); const on = !s.includes(id); s = on ? [...s, id] : s.filter(x => x !== id); store.set('stars', s); applyStars(); }
+  let starsOnly = false;
+  function applyStars() {
+    const s = stars(); const all = $$('main section.w');
+    all.forEach(sec => { const on = s.includes(sec.id); const b = $('.w-star', sec); if (b) { b.setAttribute('aria-pressed', String(on)); b.title = on ? 'Unstar' : 'Star this card'; } sec.classList.toggle('is-starred', on); });
+    if (starsOnly) collectStarred();
+  }
+  /* The star up top: on, only the starred cards (gathered on one page); off, everything where it lives. */
+  function collectStarred() {
+    const s = stars(); const view = $('#scene-stars'); const note = $('#stars-note'); if (!view) return;
+    const original = WSP.shell.order || (WSP.shell.order = $$('main section.w').map(x => x.id));
+    original.forEach(id => { const el = document.getElementById(id); if (!el) return; if (!el.dataset.home) el.dataset.home = el.parentElement.id || ''; if (s.includes(id)) view.insertBefore(el, note); else if (el.parentElement === view) { const home = document.getElementById(el.dataset.home); if (home) home.appendChild(el); } });
+    note.innerHTML = s.length
+      ? `<p>Hey Baby, every card you star lands here, in one place. Tap the star up top again and everything goes back where it was.</p>`
+      : `<p>Hey Baby, nothing starred yet. Tap the star on any card and it lands here.</p>`;
+  }
+  function setStarsOnly(on, opts = {}) {
+    starsOnly = on; const btn = $('#star-filter'); if (btn) btn.setAttribute('aria-pressed', String(on));
+    document.body.classList.toggle('stars-only', on);
+    if (on) {
+      prevChapter = current; collectStarred();
+      scenes().forEach(sc => sc.classList.toggle('is-on', sc.dataset.chapter === 'stars')); current = 'stars'; document.body.dataset.chapter = 'stars';
+      if (!opts.silent) scrollTo({ top: Math.max(0, $('main').getBoundingClientRect().top + scrollY - ($('.site-nav') || {}).offsetHeight || 0), behavior: 'smooth' });
+    } else {
+      $$('#scene-stars section.w').forEach(el => { const home = document.getElementById(el.dataset.home); if (home) home.appendChild(el); });
+      if (!opts.silent) go(prevChapter || 'home', { scroll: false });
+    }
+  }
+  let prevChapter = null;
+  function wireStarFilter() {
+    const btn = $('#star-filter'); if (!btn) return; btn.innerHTML = I().star;
+    btn.addEventListener('click', () => setStarsOnly(!starsOnly));
   }
 
   /* ---------- Map lock ---------- */
@@ -220,7 +244,7 @@ WSP.shell = (function () {
 
   async function init(data) {
     notes = (data.notes && data.notes.widgets) || {}; welcome = data.welcome || null;
-    wireCards(); applyStars(false); wireChapters(); wireMapLock(); wireWelcome();
+    wireCards(); applyStars(); wireChapters(); wireStarFilter(); wireMapLock(); wireWelcome();
     renderUpdates(data.updates);
     const start = location.hash && document.getElementById(location.hash.slice(1));
     go(chapterOf(start) || 'home', { scroll: false, instant: true });
@@ -229,5 +253,5 @@ WSP.shell = (function () {
     wireTop();
     if (!store.get('welcomed', 0) && welcome) showWelcome(); else setTimeout(showCoach, 600);
   }
-  return { init, setOpen, lockMap, showWelcome, go, chapterOf };
+  return { init, setOpen, lockMap, showWelcome, go, chapterOf, setStarsOnly };
 })();

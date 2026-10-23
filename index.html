@@ -43,11 +43,11 @@
 
 <nav class="site-nav" aria-label="Sections">
   <div class="inner">
-    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="mega">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-      <span>Menu</span>
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="mega" aria-label="Menu" title="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3 6.5h18M3 12h18M3 17.5h18"/></svg>
     </button>
-    <span class="now-at" id="now-at" aria-live="polite">From Snacks</span>
+    <span class="nav-spacer"></span>
+    <button class="star-filter" id="star-filter" aria-pressed="false" aria-label="Show only the cards you starred" title="Only starred cards"></button>
   </div>
   <div class="mega" id="mega" hidden>
     <div class="mega-inner">
@@ -69,7 +69,9 @@
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
     </div>
-    <div class="scene scene--pinned" id="scene-pinned" data-chapter="home" data-side="left">
+    <div class="scene scene--stars" id="scene-stars" data-chapter="stars" data-side="left">
+    <div class="scene-head"><span class="strip strip--title">Starred</span></div>
+    <div class="stars-note" id="stars-note"></div>
     </div>
     <div class="scene scene--walk" id="scene-walk" data-chapter="shows" data-title="The shows" data-side="left" style="--art:url(/assets/img/peeps/bridge.jpg);--pos:60% 30%">
     <div class="scene-head"><span class="strip strip--title">The shows</span></div>
@@ -164,7 +166,7 @@
 <a class="to-top" id="to-top" href="#top" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg><span>Top</span></a>
 <div class="coach" id="coach" hidden>
   <svg class="coach-arrow" id="coach-arrow" aria-hidden="true"></svg>
-  <div class="coach-note" id="coach-note"><p>Tap the star and this card moves to the From Snacks page, right under my notes. Tap it again and it goes back where it was.</p><button class="btn btn--sm" type="button" id="coach-ok">Got it</button></div>
+  <div class="coach-note" id="coach-note"><p>Tap the star on a card to keep it. The star up top shows just the ones you kept.</p><button class="btn btn--sm" type="button" id="coach-ok">Got it</button></div>
 </div>
 <div class="scrim" id="scrim"></div>
 <aside class="sheet" id="sheet" aria-hidden="true" role="dialog" aria-labelledby="sheet-title"><button class="close" id="sheet-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="sheet-body"></div></aside>

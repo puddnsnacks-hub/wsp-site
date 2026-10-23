@@ -130,7 +130,7 @@ window.WSP = window.WSP || {};
   });
 
   /* ---------- Mega menu + current-section label ---------- */
-  const mega = $('#mega'), menuBtn = $('#menu-btn'), nowAt = $('#now-at');
+  const mega = $('#mega'), menuBtn = $('#menu-btn');
   const sectionTitle = (id) => { const h = $(`#${id} > header h2`) || $(`#${id} h2`); return h ? h.textContent.trim() : id; };
   function setMenu(open) { mega.hidden = !open; menuBtn.setAttribute('aria-expanded', String(open)); if (open) mega.querySelector('a').focus({ preventScroll: true }); }
   menuBtn.addEventListener('click', () => setMenu(mega.hidden));
