@@ -253,7 +253,7 @@ window.WSP = window.WSP || {};
         <p class="caption">${esc(T[g.away] ? T[g.away].nickname : g.away)} at ${esc(T[g.home] ? T[g.home].nickname : g.home)} · ${esc(g.venue || '')} · first pitch ${esc(g.first_pitch_central || '')}${g.result ? ` · <b>Final: ${esc(T[g.home].nickname)} ${esc(g.result[g.home])}, ${esc(T[g.away].nickname)} ${esc(g.result[g.away])}</b>` : (g.live_score ? ` · <b>${esc(T[g.home].nickname)} ${esc(g.live_score[g.home])}, ${esc(T[g.away].nickname)} ${esc(g.live_score[g.away])}</b> · ${esc(g.live_score.half || '')} ${esc(g.live_score.inning || '')}` : '')}${g.lineup_source ? ` · <a href="${esc(g.lineup_source)}" target="_blank" rel="noopener">lineups</a>` : ''}</p>
         <div class="lineup-teams">${teamBlock(g, g.home)}${teamBlock(g, g.away)}</div></div>`).join('')}
       ${Object.keys(T).some(k => T[k].mascot) ? `<div><span class="eyebrow">The mascots</span><div class="cards" style="margin-top:10px;grid-template-columns:repeat(auto-fill,minmax(170px,1fr))">${Object.keys(T).flatMap(k => [T[k].mascot, T[k].mascot_extra].filter(Boolean).map(mc => card(mc, k, false))).join('')}</div></div>` : ''}
-      <p class="caption">As of ${esc(lu.as_of ? new Date(lu.as_of).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', timeZone: TZ }) : '')} CT. Official lineups: <a href="https://www.mlb.com/brewers/roster/starting-lineups" target="_blank" rel="noopener">Brewers</a> · <a href="https://www.mlb.com/rays/roster/starting-lineups" target="_blank" rel="noopener">Rays</a>.</p>`;
+      <p class="caption">Official lineups: <a href="https://www.mlb.com/brewers/roster/starting-lineups" target="_blank" rel="noopener">Brewers</a> · <a href="https://www.mlb.com/rays/roster/starting-lineups" target="_blank" rel="noopener">Rays</a>.</p>`;
     b.addEventListener('click', (e) => {
       const c = e.target.closest('.card'); if (c) { c.classList.toggle('flipped'); return; }
       const tb = e.target.closest('[data-g]'); if (tb) { b.querySelectorAll('[data-g]').forEach(x => x.setAttribute('aria-pressed', x === tb)); b.querySelectorAll('[data-game]').forEach(x => x.hidden = x.dataset.game !== tb.dataset.g); }
@@ -369,7 +369,7 @@ window.WSP = window.WSP || {};
       const t = todayISO(); const idx = wx.hourly.time.findIndex(x => x.startsWith(t + 'T20'));
       const el = $('#tonight-wx'); if (el && idx >= 0) el.textContent = `${Math.round(wx.hourly.temperature_2m[idx])}° · ${wx.hourly.precipitation_probability[idx]}% rain`;
     }
-    const stamp = $('#data-stamp'); const asOf = d.worldseries && d.worldseries.as_of; if (stamp && asOf) stamp.textContent = `Researched ${new Date(asOf).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', timeZone: TZ })} CT. Hours and schedules change; tap through to the source before you go.`;
+    // footer stays as written in index.html
   }
   boot();
 })();

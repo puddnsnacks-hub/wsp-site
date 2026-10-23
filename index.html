@@ -68,22 +68,53 @@
 
 <main>
   <div class="grid">
-
+    <div class="scene scene--pinned" id="scene-pinned" data-side="left">
+    </div>
+    <div class="scene scene--phone" id="scene-phone" data-side="right" style="--art:url(assets/img/peeps/phone.jpg)">
     <section class="w w--updates" id="updates" data-widget="updates" aria-labelledby="updates-h">
       <header><div class="t"><span class="eyebrow">From Snacks</span><h2 id="updates-h">Notes for Crystal</h2></div></header>
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
-
+    </div>
+    <div class="scene scene--walk" id="scene-walk" data-side="left" style="--art:url(assets/img/peeps/skip.jpg)">
     <section class="w w--band w--two-thirds" id="tonight" data-widget="tonight" aria-labelledby="tonight-h">
       <header><div class="t"><span class="eyebrow" id="tonight-eyebrow">Tonight</span><h2 id="tonight-h">Loading the run…</h2></div></header>
       <div class="body"><div class="pending-note">Pulling show times, weather and the game</div></div>
     </section>
-
     <section class="w w--third" id="weather" data-widget="weather" aria-labelledby="weather-h">
       <header><div class="t"><span class="eyebrow">Weather · Downtown</span><h2 id="weather-h">Fair warning</h2></div><div class="act"><a class="btn btn--sm" href="https://forecast.weather.gov/MapClick.php?lat=43.0389&lon=-87.9065" target="_blank" rel="noopener">NWS</a></div></header>
       <div class="body"><div class="pending-note">Reading the forecast</div></div>
     </section>
-
+    <section class="w w--half" id="shows" data-widget="concert" aria-labelledby="shows-h">
+      <header><div class="t"><span class="eyebrow">The run</span><h2 id="shows-h">Scheduled Panic</h2></div></header>
+      <div class="body"><div class="pending-note">Confirming doors, set times and venue tips</div></div>
+    </section>
+    <section class="w w--half" id="street" data-widget="closure" aria-labelledby="street-h">
+      <header><div class="t"><span class="eyebrow">Street closure · live music</span><h2 id="street-h">Closed for business</h2></div></header>
+      <div class="body"><div class="pending-note">Finding the closure map, the rules and the stage schedule</div></div>
+    </section>
+    </div>
+    <div class="scene scene--game" id="scene-game" data-side="right" style="--art:url(assets/img/peeps/bottling.jpg)">
+    <section class="w w--half" id="series" data-widget="worldseries" aria-labelledby="series-h">
+      <header><div class="t"><span class="eyebrow">World Series</span><h2 id="series-h">First pitch, first time</h2></div></header>
+      <div class="body"><div class="pending-note">Checking the schedule and where to watch</div></div>
+    </section>
+    <section class="w" id="lineups" data-widget="lineups" aria-labelledby="lineups-h">
+      <header><div class="t"><span class="eyebrow">Starting lineups</span><h2 id="lineups-h">Cards on the table</h2></div></header>
+      <div class="body"><div class="pending-note">Pulling probable pitchers and lineups</div></div>
+    </section>
+    </div>
+    <div class="scene scene--eat" id="scene-eat" data-side="left" style="--art:url(assets/img/peeps/bottling.jpg)">
+    <section class="w" id="eat" data-widget="food" aria-labelledby="eat-h">
+      <header><div class="t"><span class="eyebrow">Eat</span><h2 id="eat-h">Order of operations</h2></div></header>
+      <div class="body"><div class="pending-note">Hunting the fish fry, the butter burger and the one-of-a-kind meal</div></div>
+    </section>
+    <section class="w scene-eat" id="drink" data-widget="bars" aria-labelledby="drink-h">
+      <header><div class="t"><span class="eyebrow">Drink</span><h2 id="drink-h">Mixed company</h2></div></header>
+      <div class="body"><div class="pending-note">Scouting pre-show and after-show spots</div></div>
+    </section>
+    </div>
+    <div class="scene scene--town" id="scene-town" data-side="right" style="--art:url(assets/img/peeps/bicycle.jpg)">
     <section class="w" id="map" data-widget="map" aria-labelledby="map-h">
       <header><div class="t"><span class="eyebrow">The map</span><h2 id="map-h">Both banks covered</h2></div><div class="act"><button class="btn btn--sm" id="locate-btn">Find me</button></div></header>
       <div class="body flush">
@@ -91,61 +122,29 @@
         <div class="map-wrap" id="map-wrap"><div id="leaflet-map" aria-label="Map of Milwaukee with every place on this site"></div><button class="map-lock" id="map-lock" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="11" width="14" height="10"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span>Tap to unlock the map</span></button></div>
       </div>
     </section>
-
-    <section class="w w--half" id="shows" data-widget="concert" aria-labelledby="shows-h">
-      <header><div class="t"><span class="eyebrow">The run</span><h2 id="shows-h">Scheduled Panic</h2></div></header>
-      <div class="body"><div class="pending-note">Confirming doors, set times and venue tips</div></div>
-    </section>
-
-    <section class="w w--half" id="street" data-widget="closure" aria-labelledby="street-h">
-      <header><div class="t"><span class="eyebrow">Street closure · live music</span><h2 id="street-h">Closed for business</h2></div></header>
-      <div class="body"><div class="pending-note">Finding the closure map, the rules and the stage schedule</div></div>
-    </section>
-
-    <section class="w w--half" id="series" data-widget="worldseries" aria-labelledby="series-h">
-      <header><div class="t"><span class="eyebrow">World Series</span><h2 id="series-h">First pitch, first time</h2></div></header>
-      <div class="body"><div class="pending-note">Checking the schedule and where to watch</div></div>
-    </section>
-
-    <section class="w w--half" id="drink" data-widget="bars" aria-labelledby="drink-h">
-      <header><div class="t"><span class="eyebrow">Drink</span><h2 id="drink-h">Mixed company</h2></div></header>
-      <div class="body"><div class="pending-note">Scouting pre-show and after-show spots</div></div>
-    </section>
-
-    <section class="w" id="lineups" data-widget="lineups" aria-labelledby="lineups-h">
-      <header><div class="t"><span class="eyebrow">Starting lineups</span><h2 id="lineups-h">Cards on the table</h2></div></header>
-      <div class="body"><div class="pending-note">Pulling probable pitchers and lineups</div></div>
-    </section>
-
-    <section class="w" id="eat" data-widget="food" aria-labelledby="eat-h">
-      <header><div class="t"><span class="eyebrow">Eat</span><h2 id="eat-h">Order of operations</h2></div></header>
-      <div class="body"><div class="pending-note">Hunting the fish fry, the butter burger and the one-of-a-kind meal</div></div>
-    </section>
-
     <section class="w w--half" id="hotel" data-widget="hotel" aria-labelledby="hotel-h">
       <header><div class="t"><span class="eyebrow">Home base</span><h2 id="hotel-h">Kickback at 5:30</h2></div></header>
       <div class="body"><div class="pending-note">Resolving the hotel and the walk across the river</div></div>
     </section>
-
     <section class="w w--half" id="facts" data-widget="facts" aria-labelledby="facts-h">
       <header><div class="t"><span class="eyebrow">Milwaukee</span><h2 id="facts-h">Bridge War stories</h2></div></header>
       <div class="body"><div class="pending-note">Collecting the good facts</div></div>
     </section>
-
+    </div>
+    <div class="scene scene--show" id="scene-show" data-side="left" style="--art:url(assets/img/peeps/gerbil.jpg)">
     <section class="w" id="laverne" data-widget="laverne" aria-labelledby="laverne-h">
       <header><div class="t"><span class="eyebrow">Schlemiel! Schlimazel!</span><h2 id="laverne-h">Welcome Milwaukee Visitors</h2></div></header>
       <div class="body"><div class="pending-note">Checking whether it was really filmed here</div></div>
     </section>
-
     <section class="w" id="share" data-widget="share" aria-labelledby="share-h">
       <header><div class="t"><span class="eyebrow">Take it with you</span><h2 id="share-h">Send it home</h2></div></header>
       <div class="body"><div class="pending-note">Building the shareable map</div></div>
     </section>
-
+    </div>
   </div>
 </main>
 
-<footer><div class="inner"><span>Made for Crystal · wsp.puddnsnacks.com</span><span id="data-stamp">Hours and schedules change; tap through to the source before you go.</span></div></footer>
+<footer><div class="inner"><span>Made for Crystal · wsp.puddnsnacks.com</span><span>Hours and schedules change. Tap through to the place before you go.</span></div></footer>
 
 <div class="welcome" id="welcome" hidden role="dialog" aria-modal="true" aria-labelledby="welcome-h">
   <div class="welcome-card">

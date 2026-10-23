@@ -524,3 +524,11 @@ footer { border-top: 2px solid var(--pds-text-strong); }
 .status--closed { color: #8a4209; }
 .game.after { opacity: 1; }
 .game.after .matchup, .game.after .big, .game.after .when { color: var(--wsp-ink-60); }
+
+/* ---------- Tall cards ---------- */
+.w > .body.is-clamped { max-height: var(--clamp, 180vh); overflow: hidden; overflow: clip; position: relative; padding-bottom: 0; }
+.w > .body.is-clamped > .readmore { position: absolute; left: 0; right: 0; bottom: 0; padding: 72px var(--pds-space-8) var(--pds-space-8); display: flex; gap: var(--pds-space-4); background: linear-gradient(to bottom, rgba(251,243,221,0) 0%, var(--pds-bg-card) 55%); }
+.w--band > .body.is-clamped > .readmore { background: linear-gradient(to bottom, rgba(7,58,69,0) 0%, var(--pds-bg-band) 55%); }
+.w > .body > .closebar { position: sticky; bottom: 0; margin: var(--pds-space-4) calc(-1 * var(--pds-space-8)) calc(-1 * var(--pds-space-8)); padding: var(--pds-space-4) var(--pds-space-8) calc(var(--pds-space-4) + env(safe-area-inset-bottom)); background: var(--pds-bg-card); border-top: 2px solid var(--pds-text-strong); display: flex; }
+.w > .body > .closebar .btn { width: 100%; }
+.w--band > .body > .closebar { background: var(--pds-bg-band); border-top-color: var(--wsp-teal-30); }

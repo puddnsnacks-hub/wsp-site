@@ -33,10 +33,34 @@ WSP.shell = (function () {
     if (open) {
       sec.removeAttribute('data-collapsed'); btn && btn.setAttribute('aria-expanded', 'true');
       firstOpenNote(sec);
+      clampTall(sec);
       if (sec.id === 'map' && WSP.map && WSP.map.refresh) setTimeout(WSP.map.refresh, 50);
       if (sec.id === 'hotel' && WSP.map && WSP.map.refreshMini) setTimeout(WSP.map.refreshMini, 50);
-    } else { sec.setAttribute('data-collapsed', ''); btn && btn.setAttribute('aria-expanded', 'false'); if (sec.id === 'map') lockMap(true); }
+    } else { sec.setAttribute('data-collapsed', ''); btn && btn.setAttribute('aria-expanded', 'false'); if (sec.id === 'map') lockMap(true); const body = $(':scope > .body', sec); if (body) { body.classList.remove('is-clamped'); $$('.readmore, .closebar', body).forEach(x => x.remove()); } }
     if (opts.scroll) sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  /* ---------- Tall cards: 1.8 screens, then Read more; then a sticky Close ---------- */
+  const LIMIT = 1.8;
+  function clampTall(sec) {
+    const body = $(':scope > .body', sec); if (!body || sec.id === 'map') return;
+    body.classList.remove('is-clamped'); $$('.readmore, .closebar', body).forEach(x => x.remove());
+    requestAnimationFrame(() => {
+      const limit = Math.round(innerHeight * LIMIT);
+      if (body.scrollHeight <= limit + 120) return;
+      body.classList.add('is-clamped'); body.style.setProperty('--clamp', limit + 'px');
+      const rm = document.createElement('div'); rm.className = 'readmore';
+      rm.innerHTML = `<button class="btn btn--primary" type="button">Read more</button><button class="btn" type="button" data-close>Close</button>`;
+      body.appendChild(rm);
+      rm.querySelector('[data-close]').addEventListener('click', () => setOpen(sec, false, { scroll: true }));
+      rm.querySelector('.btn--primary').addEventListener('click', () => {
+        body.classList.remove('is-clamped'); rm.remove();
+        const cb = document.createElement('div'); cb.className = 'closebar';
+        cb.innerHTML = `<button class="btn" type="button">Close ${esc(($('h2', sec) || {}).textContent || '')}</button>`;
+        body.appendChild(cb);
+        cb.querySelector('button').addEventListener('click', () => setOpen(sec, false, { scroll: true }));
+      });
+    });
   }
 
   /* ---------- First-open notes ---------- */
