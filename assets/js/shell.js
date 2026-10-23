@@ -17,22 +17,19 @@ WSP.shell = (function () {
   function go(id, opts = {}) {
     const list = chapterList(); if (!list.find(c => c.id === id)) id = list[0].id;
     if (starsOnly) setStarsOnly(false, { silent: true });
-    scenes().forEach(s => s.classList.toggle('is-on', s.dataset.chapter === id));
+    scenes().forEach(s => { const on = s.dataset.chapter === id; s.classList.toggle('is-on', on); const b = $('[data-chapter-toggle]', s); if (b) b.setAttribute('aria-expanded', String(on)); });
     document.body.dataset.chapter = id; current = id;
-    if (opts.scroll !== false) { const nav = $('.site-nav'); const top = $('main').getBoundingClientRect().top + scrollY - (nav ? nav.offsetHeight : 0); scrollTo({ top: Math.max(0, top), behavior: opts.instant ? 'instant' : 'smooth' }); }
+    if (opts.scroll !== false) { const nav = $('.site-nav'); const sc = scenes().find(s => s.dataset.chapter === id); const top = (sc || $('main')).getBoundingClientRect().top + scrollY - (nav ? nav.offsetHeight : 0) + 4; scrollTo({ top: Math.max(0, top), behavior: opts.instant ? 'instant' : 'smooth' }); }
     if (id === 'around' && WSP.map) { setTimeout(() => { WSP.map.refresh && WSP.map.refresh(); WSP.map.refreshMini && WSP.map.refreshMini(); }, 60); }
     $$('.to-top').forEach(t => { t.hidden = true; });
   }
+  function closeAll() { scenes().forEach(s => { s.classList.remove('is-on'); const b = $('[data-chapter-toggle]', s); if (b) b.setAttribute('aria-expanded', 'false'); }); current = null; document.body.dataset.chapter = ''; }
   function wireChapters() {
-    const list = chapterList();
-    scenes().forEach(s => {
-      if (!s.dataset.title) return;
-      const i = list.findIndex(c => c.id === s.dataset.chapter); const prev = list[i - 1], next = list[i + 1];
-      const nav = document.createElement('nav'); nav.className = 'scene-nav'; nav.setAttribute('aria-label', 'Other chapters');
-      nav.innerHTML = `${prev ? `<button class="strip strip--nav" type="button" data-go="${esc(prev.id)}">${I().chevL || '←'} ${esc(prev.title)}</button>` : '<span></span>'}${next ? `<button class="strip strip--nav strip--next" type="button" data-go="${esc(next.id)}">${esc(next.title)} ${I().chevR || '→'}</button>` : '<span></span>'}`;
-      s.appendChild(nav);
+    document.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-chapter-toggle]'); if (!b) return;
+      const id = b.dataset.chapterToggle;
+      if (id === current) { closeAll(); b.closest('.scene').scrollIntoView({ block: 'start', behavior: 'smooth' }); } else go(id);
     });
-    document.addEventListener('click', (e) => { const b = e.target.closest('[data-go]'); if (b) go(b.dataset.go); });
     addEventListener('hashchange', () => { const sec = document.getElementById(location.hash.slice(1)); const ch = chapterOf(sec); if (ch && ch !== current) go(ch, { scroll: false }); });
   }
 
@@ -269,5 +266,5 @@ WSP.shell = (function () {
     wireTop();
     if (!store.get('welcomed', 0) && welcome) showWelcome(); else setTimeout(showCoach, 600);
   }
-  return { init, setOpen, lockMap, showWelcome, go, chapterOf, setStarsOnly };
+  return { init, setOpen, lockMap, showWelcome, go, chapterOf, setStarsOnly, closeAll };
 })();

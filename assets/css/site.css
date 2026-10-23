@@ -584,9 +584,13 @@ main { padding-top: 0; padding-bottom: 0; overflow-x: clip; }
 .scene { --cut: clamp(28px, 8vw, 52px); --tilt: 0deg; position: relative; display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--wsp-grid-gap);
   margin: 0 calc(-1 * var(--wsp-page-margin)); padding: calc(var(--cut) + 6px) var(--wsp-page-margin) calc(var(--cut) + 24px);
   background: var(--wsp-teal-80); color: var(--pds-text-default); isolation: isolate; }
-.scene[data-chapter]:not(.is-on) { display: none; }
+.scene:not(.is-on) > .w, .scene:not(.is-on) > .stars-note { display: none; }
+.scene:not(.is-on) { padding-bottom: calc(var(--cut) + 6px); }
+.scene--stars { display: none; }
+body.stars-only .scene--stars { display: grid; }
+body.stars-only .scene:not(.scene--stars) { display: none; }
 .scene + .scene { margin-top: calc(-1 * var(--cut)); }
-.scene::before { content: ""; position: absolute; inset: -6% -10%; z-index: 0; background: var(--art) var(--pos, 50% 30%) / cover no-repeat; transform: rotate(var(--tilt)) scale(1.08); transform-origin: center; }
+.scene::before { content: ""; position: absolute; left: -10%; right: -10%; top: -8%; height: 112vw; max-height: 760px; z-index: 0; background: var(--art) var(--pos, 50% 30%) / cover no-repeat; transform: rotate(var(--tilt)) scale(1.06); transform-origin: center; -webkit-mask-image: linear-gradient(to bottom, #000 62%, transparent 100%); mask-image: linear-gradient(to bottom, #000 62%, transparent 100%); }
 .scene::after { content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none; mix-blend-mode: multiply; opacity: .55;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='1.1' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .2 0 0 0 0 .3 0 0 0 0 .3 0 0 0 .12 0'/></filter><rect width='100%25' height='100%25' filter='url(%23g)'/></svg>"); }
 .scene > * { position: relative; z-index: 1; }
@@ -595,6 +599,9 @@ main { padding-top: 0; padding-bottom: 0; overflow-x: clip; }
 .scene[data-side="right"] { clip-path: polygon(0 var(--cut), 100% 0, 100% calc(100% - var(--cut)), 0 100%); --tilt: 2.6deg; }
 /* the chapter title: a torn strip of paper pasted low on the picture, so the picture gets the top of the band */
 .scene-head { min-height: 46vw; display: flex; align-items: flex-end; padding: 0 0 6px 2px; }
+.strip--title { border: 0; cursor: pointer; text-align: left; }
+.strip--title .chev { width: .55em; height: .55em; margin-left: .25em; vertical-align: .05em; transition: transform var(--pds-duration-base) var(--pds-ease); }
+.strip--title[aria-expanded="true"] .chev { transform: rotate(180deg); }
 .strip { position: relative; display: inline-block; background: var(--wsp-paper-5); color: var(--wsp-teal-70); padding: .18em .5em .22em; transform: rotate(var(--st, -2.4deg)); box-shadow: 3px 4px 0 rgba(36,23,9,.3);
   clip-path: polygon(0 4%, 3% 0, 31% 3%, 58% 0, 86% 2%, 100% 0, 99% 48%, 100% 100%, 72% 97%, 44% 100%, 16% 96%, 1% 100%, 0 52%); }
 .strip--title { font-family: var(--pds-font-display); font-weight: 900; font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144; font-size: clamp(30px, 9.5vw, 54px); line-height: .95; letter-spacing: -.02em; text-shadow: 3px 2px 0 var(--wsp-teal-30); max-width: 92%; }
@@ -630,9 +637,6 @@ main { padding-top: 0; padding-bottom: 0; overflow-x: clip; }
 /* the masthead: the style print, cut at a slant; shorter once she leaves the home chapter */
 .site-header { position: relative; z-index: 2; clip-path: polygon(0 0, 100% 0, 100% calc(100% - 28px), 0 100%); padding-bottom: 10px; }
 .site-header .print { height: min(64vw, 360px); clip-path: polygon(0 0, 100% 0, 100% calc(100% - 22px), 0 100%); object-position: 42% 62%; transition: height .3s var(--pds-ease); }
-body[data-chapter]:not([data-chapter="home"]) .site-header .print { height: 26vw; object-position: 42% 40%; }
-body[data-chapter]:not([data-chapter="home"]) .site-header .dates { display: none; }
-body[data-chapter]:not([data-chapter="home"]) .site-header .inner { padding-top: var(--pds-space-4); padding-bottom: var(--pds-space-6); }
 .wordmark h1 { transform: rotate(-2.2deg); transform-origin: left bottom; text-shadow: 3px 2px 0 var(--wsp-teal-50); display: inline-block; }
 .site-nav { position: sticky; }
 /* the Tonight band is a print: teal paper with its second ink printed off */
@@ -683,7 +687,6 @@ footer .inner { padding-top: var(--pds-space-12); }
 .peeps--header figcaption { display: none; }
 .site-header .inner { position: relative; }
 .site-header .wordmark { padding-right: min(40vw, 200px); }
-body[data-chapter]:not([data-chapter="home"]) .peeps--header { display: none; }
 .peeps--header .peep img { height: auto; }
 .peeps--header .peep { width: 100%; }
 @media (min-width: 760px) { .peeps--header { right: 250px; width: 165px; bottom: -18px; } .site-header .wordmark { padding-right: 0; } .site-header .inner { grid-template-columns: 1fr auto; } }

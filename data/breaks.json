@@ -1,0 +1,19 @@
+{
+  "_about": "Art breaks between cards, added by art-breaks.js. Key 'after' = the id of the card the break follows. kind: pair (two cutouts on a paper strip), single (one wide cutout), print (a framed print). Files live in assets/img/peeps/. Hidden when Pictures is off in the menu.",
+  "breaks": [
+    { "after": "updates", "kind": "single", "src": "welcome-cutout-sassy.png", "alt": "Crystal and Mindy sitting on a ledge, Crystal smirking", "band": "teal" },
+    { "after": "weather", "kind": "pair", "band": "gold",
+      "left":  { "src": "breaks/crystal-happycalm.webp", "alt": "Crystal, happy and calm" },
+      "right": { "src": "breaks/mindy-happyshow.webp", "alt": "Mindy in her visor, happy at the show" } },
+    { "after": "series", "kind": "pair", "band": "teal",
+      "left":  { "src": "breaks/crystal-business.webp", "alt": "Crystal lowering her sunglasses, all business" },
+      "right": { "src": "breaks/mindy-what.webp", "alt": "Mindy, mouth open: what!" } },
+    { "after": "eat", "kind": "pair", "band": "orange",
+      "left":  { "src": "breaks/crystal-sly.webp", "alt": "Crystal biting a chili pepper, cocktail in hand" },
+      "right": { "src": "breaks/mindy-ohno.webp", "alt": "Mindy, palm up: oh no you aren't" } },
+    { "after": "gmaps", "kind": "pair", "band": "gold",
+      "left":  { "src": "breaks/crystal-kindafunny.webp", "alt": "Crystal with a beer, amused" },
+      "right": { "src": "breaks/mindy-ohwell.webp", "alt": "Mindy shrugging: oh well" } },
+    { "after": "facts", "kind": "print", "src": "breaks/smocks.webp", "alt": "Crystal and Mindy in Shotz smocks", "ratio": "16 / 9" }
+  ]
+}
