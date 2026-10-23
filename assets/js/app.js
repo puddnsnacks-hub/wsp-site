@@ -351,6 +351,7 @@ window.WSP = window.WSP || {};
   async function boot() {
     const wxP = WSP.weather.init();
     const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'locations', 'share', 'peeps', 'notes', 'welcome', 'updates'];
+    const gm = $('#gmaps-open');
     const d = Object.fromEntries(await Promise.all(names.map(async n => [n, await load(n)])));
     const locs = collect(d); locs.forEach(l => byId[l.id] = l); WSP.locations = locs;
 
@@ -360,6 +361,7 @@ window.WSP = window.WSP || {};
     renderLineups(d.lineups);
     renderShare(locs, d.share);
     renderPeeps(d.peeps);
+    if (gm && d.share && d.share.my_maps_url) gm.href = d.share.my_maps_url;
     WSP.map.init(locs, d.closure && d.closure.closure && d.closure.closure.polygon);
     if (d.concert && d.concert.hotel && d.concert.venue) WSP.map.mini('mini-map', d.concert.hotel, d.concert.venue);
     WSP.shell.init(d);

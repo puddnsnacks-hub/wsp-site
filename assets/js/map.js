@@ -82,7 +82,7 @@ WSP.map = (function () {
       const ll = [p.coords.latitude, p.coords.longitude];
       if (youMarker) youMarker.setLatLng(ll); else youMarker = L.marker(ll, { icon: L.divIcon({ className: '', html: '<div class="pin is-you"></div>', iconSize: [26, 26], iconAnchor: [13, 13] }), title: 'You' }).addTo(map);
       map.flyTo(ll, 16);
-    }, () => { alert('Location is off for this site. Turn it on in your browser to see yourself on the map.'); }, { enableHighAccuracy: true, timeout: 8000 });
+    }, () => { alert('Location is off for this site. Turn it on in your browser and tap again.'); }, { enableHighAccuracy: true, timeout: 8000 });
   }
 
   /* A small second map: hotel ↔ venue with the walking route. */

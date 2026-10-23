@@ -12,6 +12,7 @@ WSP.shell = (function () {
   /* ---------- Collapse / expand ---------- */
   function wireCards() {
     $$('main section.w').forEach(sec => {
+      if (sec.hasAttribute('data-nocollapse')) return;
       const header = $(':scope > header', sec), t = $('.t', header); if (!header || !t) return;
       const id = sec.id;
       const btn = document.createElement('button'); btn.className = 'w-toggle'; btn.type = 'button'; btn.setAttribute('aria-expanded', 'false'); btn.setAttribute('aria-controls', id + '-body');
@@ -79,8 +80,10 @@ WSP.shell = (function () {
   function toggleStar(id) { let s = stars(); s = s.includes(id) ? s.filter(x => x !== id) : [...s, id]; store.set('stars', s); applyStars(true); }
   function applyStars(animate) {
     const s = stars(); const grid = $('main .grid'); const all = $$('main section.w'); const original = WSP.shell.order || (WSP.shell.order = all.map(x => x.id));
-    const starred = original.filter(id => s.includes(id)), rest = original.filter(id => !s.includes(id) && id !== 'updates');
-    ['updates', ...starred, ...rest].forEach(id => { const el = document.getElementById(id); if (el) grid.appendChild(el); });
+    const starred = original.filter(id => s.includes(id));
+    const pinned = document.getElementById('scene-pinned') || grid;
+    original.forEach(id => { const el = document.getElementById(id); if (!el) return; if (!el.dataset.home) el.dataset.home = el.parentElement.id || ''; const home = document.getElementById(el.dataset.home) || grid; if (s.includes(id)) pinned.appendChild(el); else home.appendChild(el); });
+    starred.forEach(id => pinned.appendChild(document.getElementById(id)));
     all.forEach(sec => { const on = s.includes(sec.id); const b = $('.w-star', sec); if (b) { b.setAttribute('aria-pressed', String(on)); b.title = on ? 'Unpin' : 'Pin near the top'; } sec.classList.toggle('is-starred', on); if (on && animate) setOpen(sec, true); });
   }
 

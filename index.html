@@ -67,13 +67,13 @@
 
 <main>
   <div class="grid">
-    <div class="scene scene--pinned" id="scene-pinned" data-side="left">
-    </div>
     <div class="scene scene--phone" id="scene-phone" data-side="right" style="--art:url(assets/img/peeps/phone.jpg)">
     <section class="w w--updates" id="updates" data-widget="updates" aria-labelledby="updates-h">
       <header><div class="t"><span class="eyebrow">From Snacks</span><h2 id="updates-h">Notes for Crystal</h2></div></header>
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
+    </div>
+    <div class="scene scene--pinned" id="scene-pinned" data-side="left">
     </div>
     <div class="scene scene--walk" id="scene-walk" data-side="left" style="--art:url(assets/img/peeps/skip.jpg)">
     <section class="w w--band w--two-thirds" id="tonight" data-widget="tonight" aria-labelledby="tonight-h">
@@ -115,11 +115,15 @@
     </div>
     <div class="scene scene--town" id="scene-town" data-side="right" style="--art:url(assets/img/peeps/bicycle.jpg)">
     <section class="w" id="map" data-widget="map" aria-labelledby="map-h">
-      <header><div class="t"><span class="eyebrow">The map</span><h2 id="map-h">Both banks covered</h2></div><div class="act"><button class="btn btn--sm" id="locate-btn">Find me</button></div></header>
+      <header><div class="t"><span class="eyebrow">The map</span><h2 id="map-h">Both banks covered</h2></div><div class="act"><button class="btn btn--sm" id="locate-btn">WTF are we?</button></div></header>
       <div class="body flush">
         <div class="map-filters" id="map-filters" role="group" aria-label="Filter pins"></div>
         <div class="map-wrap" id="map-wrap"><div id="leaflet-map" aria-label="Map of Milwaukee with every place on this site"></div><button class="map-lock" id="map-lock" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="11" width="14" height="10"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span>Tap to unlock the map</span></button></div>
       </div>
+    </section>
+
+    <section class="w w--mini" id="gmaps" data-widget="gmaps" data-nocollapse aria-labelledby="gmaps-h">
+      <div class="body mini"><div class="t"><span class="eyebrow">Same pins, your Maps app</span><h2 id="gmaps-h">Use the map in Google Maps</h2></div><a class="btn btn--primary" id="gmaps-open" href="https://www.google.com/maps/d/viewer?mid=1rASDDOE4Xf7YCKsa2VHaMPvpo2qk8Co" target="_blank" rel="noopener">Open</a></div>
     </section>
     <section class="w w--half" id="hotel" data-widget="hotel" aria-labelledby="hotel-h">
       <header><div class="t"><span class="eyebrow">Home base</span><h2 id="hotel-h">Kickback at 5:30</h2></div></header>

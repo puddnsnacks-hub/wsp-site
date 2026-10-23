@@ -547,3 +547,12 @@ footer { border-top: 2px solid var(--pds-text-strong); }
 .to-top { position: fixed; right: var(--wsp-page-margin); bottom: calc(var(--pds-space-6) + env(safe-area-inset-bottom)); z-index: 45; display: inline-flex; align-items: center; gap: 6px; min-height: var(--pds-control-touch); padding: 0 var(--pds-space-6); background: var(--pds-text-strong); color: var(--wsp-paper-5); border: 2px solid var(--wsp-paper-5); box-shadow: 3px 3px 0 0 var(--wsp-teal-40); font-size: var(--pds-text-ui); font-weight: 600; text-decoration: none; }
 .to-top[hidden] { display: none; }
 .to-top svg { width: 18px; height: 18px; }
+
+/* ---------- Mini card (no collapse) ---------- */
+.w--mini > .body.mini { flex-direction: row; align-items: center; justify-content: space-between; gap: var(--pds-space-6); padding: var(--pds-space-6) var(--pds-space-8); }
+.w--mini .t h2 { font-family: var(--pds-font-display); font-weight: 700; font-variation-settings: var(--pds-display-axes); font-size: 19px; line-height: 1.15; color: var(--pds-text-heading); }
+.w--mini .btn { flex: none; }
+/* ---------- Scenes (picture-book groups); art lands in a later release ---------- */
+.scene { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--wsp-grid-gap); position: relative; }
+.scene:empty { display: none; }
+.scene > .w { grid-column: 1 / -1; }
