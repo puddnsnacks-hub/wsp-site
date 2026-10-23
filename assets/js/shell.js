@@ -122,7 +122,7 @@ WSP.shell = (function () {
     if (!welcome || !welcome.steps || !welcome.steps.length) return;
     const w = $('#welcome'); w.hidden = false; document.body.classList.add('welcome-open'); step = 0; renderStep();
   }
-  function hideWelcome() { $('#welcome').hidden = true; document.body.classList.remove('welcome-open'); store.set('welcomed', Date.now()); }
+  function hideWelcome() { $('#welcome').hidden = true; document.body.classList.remove('welcome-open'); store.set('welcomed', Date.now()); setTimeout(showCoach, 400); }
   function renderStep() {
     const s = welcome.steps[step]; const body = $('#welcome-body');
     const paras = (arr) => [].concat(arr || []).map(p => `<p>${esc(p)}</p>`).join('');
@@ -146,6 +146,35 @@ WSP.shell = (function () {
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('#welcome').hidden) hideWelcome(); });
   }
 
+  /* ---------- The star, explained once ---------- */
+  function showCoach() {
+    if (store.get('star-tip', 0)) return;
+    const star = $('#tonight .w-star') || $('.w-star'); const coach = $('#coach'); if (!star || !coach) return;
+    const sec = star.closest('section'); sec.scrollIntoView({ block: 'start', behavior: 'instant' });
+    setTimeout(() => {
+      const r = star.getBoundingClientRect(); coach.hidden = false; coach.classList.add('open');
+      const note = $('#coach-note'); const nr = note.getBoundingClientRect();
+      // arrow: from the note's top-right to just under the star, hand-drawn curve
+      const x1 = Math.min(nr.right - 40, innerWidth - 60), y1 = nr.top + 8, x2 = r.left + r.width / 2, y2 = r.bottom + 6;
+      const cx = x2 + 28, cy = (y1 + y2) / 2 + 20;
+      const svg = $('#coach-arrow'); svg.setAttribute('viewBox', `0 0 ${innerWidth} ${innerHeight}`);
+      svg.innerHTML = `<path d="M${x1} ${y1} Q${cx} ${cy} ${x2} ${y2}" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 5"/><path d="M${x2 - 11} ${y2 + 14} L${x2} ${y2} L${x2 + 12} ${y2 + 12}" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>`;
+      star.classList.add('is-pointed');
+    }, 350);
+    const done = () => { coach.classList.remove('open'); setTimeout(() => { coach.hidden = true; }, 250); star.classList.remove('is-pointed'); store.set('star-tip', Date.now()); };
+    $('#coach-ok').addEventListener('click', done, { once: true });
+    coach.addEventListener('click', (e) => { if (e.target === coach) done(); });
+    star.addEventListener('click', done, { once: true });
+  }
+
+  /* ---------- Floating Top button ---------- */
+  function wireTop() {
+    const t = $('#to-top'); if (!t) return;
+    const update = () => { t.hidden = scrollY < innerHeight * 1.2; };
+    addEventListener('scroll', update, { passive: true }); update();
+    t.addEventListener('click', (e) => { e.preventDefault(); scrollTo({ top: 0, behavior: 'smooth' }); });
+  }
+
   /* ---------- Mega-menu and in-page links open their card ---------- */
   function wireDeepLinks() {
     document.addEventListener('click', (e) => {
@@ -162,7 +191,8 @@ WSP.shell = (function () {
     renderUpdates(data.updates);
     setOpen('updates', true);
     stars().forEach(id => setOpen(id, true));
-    if (!store.get('welcomed', 0) && welcome) showWelcome();
+    wireTop();
+    if (!store.get('welcomed', 0) && welcome) showWelcome(); else setTimeout(showCoach, 600);
   }
   return { init, setOpen, lockMap, showWelcome };
 })();

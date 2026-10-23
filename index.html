@@ -11,7 +11,7 @@
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..900,100,1;1,9..144,400..900,100,1&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..900,100,1;1,9..144,400..900,100,1&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;600&family=Covered+By+Your+Grace&display=swap">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <link rel="stylesheet" href="assets/css/pds-tokens.css">
 <link rel="stylesheet" href="assets/css/theme-wsp.css">
@@ -48,7 +48,6 @@
       <span>Menu</span>
     </button>
     <span class="now-at" id="now-at" aria-live="polite">Tonight</span>
-    <a class="menu-top" href="#top" aria-label="Back to top">↑</a>
   </div>
   <div class="mega" id="mega" hidden>
     <div class="mega-inner">
@@ -151,6 +150,11 @@
     <div class="welcome-body" id="welcome-body"></div>
     <div class="welcome-nav"><button class="btn" id="welcome-skip">Skip</button><span class="welcome-dots" id="welcome-dots"></span><button class="btn btn--primary" id="welcome-next">Next</button></div>
   </div>
+</div>
+<a class="to-top" id="to-top" href="#top" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg><span>Top</span></a>
+<div class="coach" id="coach" hidden>
+  <svg class="coach-arrow" id="coach-arrow" aria-hidden="true"></svg>
+  <div class="coach-note" id="coach-note"><p>Tap the star and this card moves up top and stays open. Tap it again and it goes back where it was.</p><button class="btn btn--sm" type="button" id="coach-ok">Got it</button></div>
 </div>
 <div class="scrim" id="scrim"></div>
 <aside class="sheet" id="sheet" aria-hidden="true" role="dialog" aria-labelledby="sheet-title"><button class="close" id="sheet-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="sheet-body"></div></aside>
