@@ -710,3 +710,9 @@ body[data-chapter]:not([data-chapter="home"]) .peeps--header { display: none; }
 .wb .welcome-fig .hush { font: 400 17px/1.45 var(--pds-font-sans); text-transform: none; letter-spacing: 0; color: var(--wsp-paper-10); margin-top: 8px; }
 .wb .welcome-fig .hush a { color: var(--wsp-gold-30); font-weight: 600; }
 .wb .spotify { margin-top: 10px; }
+
+/* ---------- Mega menu: room at the bottom so the last group is never cut off ---------- */
+.mega-inner { padding-bottom: calc(160px + env(safe-area-inset-bottom)); }
+/* ---------- Footer: the pudding cup and hat, centered, half a logo of air on every side ---------- */
+footer .brand { --logo: 96px; display: flex; justify-content: center; padding: calc(var(--logo) / 2); }
+footer .brand img { width: var(--logo); height: auto; display: block; }
