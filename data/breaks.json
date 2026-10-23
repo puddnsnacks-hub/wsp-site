@@ -1,19 +1,64 @@
 {
-  "_about": "Art breaks between cards, added by art-breaks.js. Key 'after' = the id of the card the break follows. kind: pair (two cutouts on a paper strip), single (one wide cutout), print (a framed print). Files live in assets/img/peeps/. Hidden when Pictures is off in the menu.",
-  "breaks": [
-    { "after": "updates", "kind": "single", "src": "welcome-cutout-sassy.png", "alt": "Crystal and Mindy sitting on a ledge, Crystal smirking", "band": "teal" },
-    { "after": "weather", "kind": "pair", "band": "gold",
-      "left":  { "src": "breaks/crystal-happycalm.webp", "alt": "Crystal, happy and calm" },
-      "right": { "src": "breaks/mindy-happyshow.webp", "alt": "Mindy in her visor, happy at the show" } },
-    { "after": "series", "kind": "pair", "band": "teal",
-      "left":  { "src": "breaks/crystal-business.webp", "alt": "Crystal lowering her sunglasses, all business" },
-      "right": { "src": "breaks/mindy-what.webp", "alt": "Mindy, mouth open: what!" } },
-    { "after": "eat", "kind": "pair", "band": "orange",
-      "left":  { "src": "breaks/crystal-sly.webp", "alt": "Crystal biting a chili pepper, cocktail in hand" },
-      "right": { "src": "breaks/mindy-ohno.webp", "alt": "Mindy, palm up: oh no you aren't" } },
-    { "after": "gmaps", "kind": "pair", "band": "gold",
-      "left":  { "src": "breaks/crystal-kindafunny.webp", "alt": "Crystal with a beer, amused" },
-      "right": { "src": "breaks/mindy-ohwell.webp", "alt": "Mindy shrugging: oh well" } },
-    { "after": "facts", "kind": "print", "src": "breaks/smocks.webp", "alt": "Crystal and Mindy in Shotz smocks", "ratio": "16 / 9" }
-  ]
+ "_about": "The water between the banks: quiet spreads and small reaction spots between the cards, running Friday to Monday. Each carries a slot for Snacks' reimagined Laverne & Shirley theme (his own original lyrics) and, where it fits, one line from his welcome letter. 'after' = id of the card it follows, or 'end' for the closing coda. kind: spread | pair | single. layout: a | b | c | finale. tone: river | night | butter | ember | paper. lyric: one entry per line of his song, in order; 'len' is a rough placeholder width (letters) until 'text' is filled in. note = his letter line, verbatim. Fill a lyric by adding \"text\" to its line; the placeholder disappears.",
+ "credit": { "text": "After the Laverne & Shirley theme, “Making Our Dreams Come True”", "link": "https://open.spotify.com/album/6xrrOZdO2EK7UdHugaJXy4", "link_label": "Listen" },
+ "breaks": [
+  { "after": "updates", "when": "Friday, landing", "kind": "single", "tone": "river", "credit": true,
+    "src": "welcome-cutout-sassy.png", "alt": "Crystal and Mindy sitting on a ledge, Crystal smirking",
+    "lyric": [ { "n": 1, "len": 32 }, { "n": 2, "len": 31 } ],
+    "note": "Have a really, really, really good time and send me pics of any sightings of folks I know." },
+
+  { "after": "shows", "when": "Friday 5:30, the block", "kind": "spread", "layout": "a", "tone": "night",
+    "src": "streetparty.jpg", "alt": "The closed block of Wisconsin Avenue packed for the street party, the bridge at the far end",
+    "lyric": [ { "n": 3, "len": 40 }, { "n": 4, "len": 17 } ],
+    "note": "the party literally at your door step." },
+
+  { "after": "street", "when": "Friday night, set break", "kind": "spread", "layout": "b", "tone": "ember",
+    "src": "setbreak.jpg", "alt": "Crystal and Mindy at the bar at set break, Crystal deadpan at her phone, Mindy shocked",
+    "lyric": [ { "n": 5, "len": 35 }, { "n": 6, "len": 35 } ],
+    "note": "if there's a good enough reason for a set-break refresh." },
+
+  { "after": "series", "when": "First pitch", "kind": "pair", "tone": "butter",
+    "left":  { "src": "breaks/crystal-business.webp", "alt": "Crystal lowering her sunglasses, all business" },
+    "right": { "src": "breaks/mindy-what.webp", "alt": "Mindy, mouth open" },
+    "lyric": [ { "n": 7, "len": 40 } ] },
+
+  { "after": "eat", "when": "Fish fry", "kind": "pair", "tone": "ember",
+    "left":  { "src": "breaks/crystal-sly.webp", "alt": "Crystal biting a chili pepper, cocktail in hand" },
+    "right": { "src": "breaks/mindy-ohno.webp", "alt": "Mindy, palm up, teasing" },
+    "lyric": [ { "n": 8, "len": 31 } ] },
+
+  { "after": "map", "when": "Saturday, dusk on the bridge", "kind": "spread", "layout": "c", "tone": "night",
+    "src": "breaks/bridge-walk.webp", "alt": "Crystal and Mindy crossing the Wisconsin Avenue bridge at dusk, Crystal pointing at the lit marquee",
+    "lyric": [ { "n": 9, "len": 31 }, { "n": 10, "len": 32 } ],
+    "note": "Google maps says 3 minutes, but i bet y'all could do it in half that" },
+
+  { "after": "hotel", "when": "Back at the Drury", "kind": "pair", "tone": "paper",
+    "left":  { "src": "breaks/crystal-kindafunny.webp", "alt": "Crystal with a beer, amused" },
+    "right": { "src": "breaks/mindy-ohwell.webp", "alt": "Mindy shrugging" },
+    "lyric": [ { "n": 11, "len": 20 } ] },
+
+  { "after": "facts", "when": "The pilgrimage", "kind": "spread", "layout": "b", "tone": "butter",
+    "src": "bottling.jpg", "alt": "Crystal and Mindy on the bottling line in gloves and hair nets",
+    "lyric": [ { "n": 12, "len": 34 }, { "n": 13, "len": 32 } ],
+    "note": "you hangin' with my fav of your buds just like L&S" },
+
+  { "after": "laverne", "when": "How it started", "kind": "spread", "layout": "a", "tone": "paper",
+    "src": "gerbil.jpg", "alt": "Laverne and Shirley, a tan gerbil and a black gerbil, in a doorway under their own marquee",
+    "lyric": [ { "n": 14, "len": 40 } ],
+    "note": "I guess I was Lenny and Squiggy all rolled up in one." },
+
+  { "after": "end", "when": "Sunday, no ball", "kind": "spread", "layout": "a", "tone": "butter",
+    "src": "breaks/sunday-ride.webp", "alt": "Crystal pedaling and Mindy on the back of the bike, arms out, down a brick street",
+    "lyric": [ { "n": 15, "len": 36 }, { "n": 16, "len": 29 } ],
+    "note": "No ball on Sunday so go do something cool." },
+
+  { "after": "end", "when": "Monday, checkout", "kind": "spread", "layout": "c", "tone": "night",
+    "src": "monday.jpg", "alt": "Crystal and Mindy in the hotel hallway with the luggage on Monday",
+    "lyric": [ { "n": 17, "len": 34 }, { "n": 18, "len": 19 } ] },
+
+  { "after": "end", "when": "The two of you", "kind": "spread", "layout": "finale", "tone": "river", "credit": true,
+    "src": "duo-hug.jpg", "alt": "Crystal and Mindy hugging",
+    "lyric": [ { "n": 19, "len": 9 }, { "n": 20, "len": 14 } ],
+    "note": "love you, have more fun starting.......now.", "sign": "-p" }
+ ]
 }
