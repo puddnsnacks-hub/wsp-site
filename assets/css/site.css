@@ -556,3 +556,106 @@ footer { border-top: 2px solid var(--pds-text-strong); }
 .scene { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--wsp-grid-gap); position: relative; }
 .scene:empty { display: none; }
 .scene > .w { grid-column: 1 / -1; }
+
+/* ---------- Mega menu as an accordion ---------- */
+.mega-col { border-bottom: 1px solid var(--pds-border-subtle); }
+.mega-col > summary { list-style: none; display: flex; align-items: center; justify-content: space-between; min-height: var(--pds-control-touch); padding: var(--pds-space-3) 0; cursor: pointer; border-bottom: 0; margin: 0; color: var(--pds-text-strong); }
+.mega-col > summary::-webkit-details-marker { display: none; }
+.mega-col > summary::after { content: ""; width: 10px; height: 10px; border-right: 2px solid var(--pds-text-strong); border-bottom: 2px solid var(--pds-text-strong); transform: rotate(45deg); transition: transform var(--pds-duration-fast) var(--pds-ease); margin-right: 4px; }
+.mega-col[open] > summary::after { transform: rotate(-135deg); }
+.mega-col[open] > summary { border-bottom: 2px solid var(--pds-text-strong); }
+.mega-links { display: flex; flex-direction: column; padding-bottom: var(--pds-space-3); }
+.mega-links a:last-child { border-bottom: 0; }
+@media (min-width: 760px) { .mega-inner { grid-template-columns: 1fr; max-width: 560px; } }
+
+/* ---------- Mascots ---------- */
+.mascot { display: flex; flex-direction: column; gap: var(--pds-space-4); padding-top: var(--pds-space-6); border-top: 2px solid var(--pds-text-strong); }
+.mascot-head { display: grid; grid-template-columns: 96px 1fr; gap: var(--pds-space-6); align-items: center; }
+.mascot-head img { width: 96px; height: 96px; object-fit: cover; object-position: top; border: 2px solid var(--pds-text-strong); box-shadow: 3px 3px 0 0 var(--wsp-misreg); }
+.dyk li { grid-template-columns: 30px 1fr; }
+.dyk li .n { font-size: 20px; color: var(--wsp-teal-50); }
+
+/* ======================================================================
+   The angled picture book. One chapter on screen at a time; each is a
+   full-bleed band of art cut at a slant, with the cards pasted on it.
+   ====================================================================== */
+main { padding-top: 0; padding-bottom: 0; overflow-x: clip; }
+.grid { display: block; }
+.scene { --cut: clamp(28px, 8vw, 52px); --tilt: 0deg; position: relative; display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--wsp-grid-gap);
+  margin: 0 calc(-1 * var(--wsp-page-margin)); padding: calc(var(--cut) + 6px) var(--wsp-page-margin) calc(var(--cut) + 24px);
+  background: var(--wsp-teal-80); color: var(--pds-text-default); isolation: isolate; }
+.scene[data-chapter]:not(.is-on) { display: none; }
+.scene + .scene { margin-top: calc(-1 * var(--cut)); }
+.scene::before { content: ""; position: absolute; inset: -6% -10%; z-index: 0; background: var(--art) var(--pos, 50% 30%) / cover no-repeat; transform: rotate(var(--tilt)) scale(1.08); transform-origin: center; }
+.scene::after { content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none; mix-blend-mode: multiply; opacity: .55;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='1.1' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .2 0 0 0 0 .3 0 0 0 0 .3 0 0 0 .12 0'/></filter><rect width='100%25' height='100%25' filter='url(%23g)'/></svg>"); }
+.scene > * { position: relative; z-index: 1; }
+/* the seam: the slant alternates by side, the art tilts the other way */
+.scene[data-side="left"]  { clip-path: polygon(0 0, 100% var(--cut), 100% 100%, 0 calc(100% - var(--cut))); --tilt: -2.4deg; }
+.scene[data-side="right"] { clip-path: polygon(0 var(--cut), 100% 0, 100% calc(100% - var(--cut)), 0 100%); --tilt: 2.6deg; }
+/* the chapter title: a torn strip of paper pasted low on the picture, so the picture gets the top of the band */
+.scene-head { min-height: 46vw; display: flex; align-items: flex-end; padding: 0 0 6px 2px; }
+.strip { position: relative; display: inline-block; background: var(--wsp-paper-5); color: var(--wsp-teal-70); padding: .18em .5em .22em; transform: rotate(var(--st, -2.4deg)); box-shadow: 3px 4px 0 rgba(36,23,9,.3);
+  clip-path: polygon(0 4%, 3% 0, 31% 3%, 58% 0, 86% 2%, 100% 0, 99% 48%, 100% 100%, 72% 97%, 44% 100%, 16% 96%, 1% 100%, 0 52%); }
+.strip--title { font-family: var(--pds-font-display); font-weight: 900; font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144; font-size: clamp(30px, 9.5vw, 54px); line-height: .95; letter-spacing: -.02em; text-shadow: 3px 2px 0 var(--wsp-teal-30); max-width: 92%; }
+.scene[data-side="right"] .scene-head { justify-content: flex-end; padding-right: 6px; }
+.scene[data-side="right"] .strip--title { --st: 2deg; }
+.scene--pinned .scene-head { display: none; }
+/* pinned scene: no art, a short textured solid, tucked under From Snacks */
+.scene--pinned { padding: calc(var(--cut) + 10px) var(--wsp-page-margin) calc(var(--cut) + 10px); background: var(--wsp-paper-20); clip-path: polygon(0 0, 100% var(--cut), 100% 100%, 0 calc(100% - var(--cut))); }
+.scene--pinned::before { display: none; }
+.scene--pinned:empty, .scene--pinned:not(:has(.w)) { display: none; }
+/* chapter nav: the next picture is one tap away, on two pasted strips */
+.scene-nav { order: 99; display: flex; justify-content: space-between; align-items: flex-end; gap: var(--pds-space-4); margin-top: var(--pds-space-6); padding: 0 4px; }
+.strip--nav { font: 700 17px/1.1 var(--pds-font-display); font-variation-settings: var(--pds-display-axes); color: var(--wsp-ink-90); background: var(--wsp-gold-30); padding: 12px 14px 13px; min-height: var(--pds-control-touch); --st: -1.6deg; cursor: pointer; }
+.strip--nav.strip--next { background: var(--wsp-paper-5); color: var(--wsp-teal-70); --st: 1.4deg; }
+.strip--nav:hover { background: var(--wsp-gold-20); }
+.strip--nav.strip--next:hover { background: var(--wsp-paper-10); }
+/* cards pasted on: small alternating tilt; the open card sits flat */
+.scene > .w:nth-child(odd)  { transform: rotate(-.7deg); }
+.scene > .w:nth-child(even) { transform: rotate(.6deg); }
+.scene > .w.is-starred, .scene > .w:not([data-collapsed]) { transform: none; }
+.w--mini { transform: rotate(.9deg) !important; }
+/* the masthead: the style print, cut at a slant; shorter once she leaves the home chapter */
+.site-header { position: relative; z-index: 2; clip-path: polygon(0 0, 100% 0, 100% calc(100% - 28px), 0 100%); padding-bottom: 10px; }
+.site-header .print { height: min(64vw, 360px); clip-path: polygon(0 0, 100% 0, 100% calc(100% - 22px), 0 100%); object-position: 42% 62%; transition: height .3s var(--pds-ease); }
+body[data-chapter]:not([data-chapter="home"]) .site-header .print { height: 26vw; object-position: 42% 40%; }
+body[data-chapter]:not([data-chapter="home"]) .site-header .dates { display: none; }
+body[data-chapter]:not([data-chapter="home"]) .site-header .inner { padding-top: var(--pds-space-4); padding-bottom: var(--pds-space-6); }
+.wordmark h1 { transform: rotate(-2.2deg); transform-origin: left bottom; text-shadow: 3px 2px 0 var(--wsp-teal-50); display: inline-block; }
+.site-nav { position: sticky; }
+.menu-btn { border: 2px solid var(--pds-text-strong); box-shadow: 2px 2px 0 0 var(--wsp-misreg); transform: rotate(-1deg); }
+/* the Tonight band is a print: teal paper with its second ink printed off */
+.w--band { box-shadow: 5px 5px 0 0 var(--wsp-gold-40); }
+/* eyebrows as pasted strips on the card's top edge */
+.w > header .t .eyebrow { display: inline-block; align-self: flex-start; background: var(--wsp-gold-30); color: var(--wsp-ink-90); padding: 4px 8px 3px; margin: -26px 0 6px -4px; transform: rotate(-1.4deg); box-shadow: 2px 2px 0 rgba(36,23,9,.25); clip-path: polygon(0 6%, 4% 0, 34% 4%, 62% 0, 88% 3%, 100% 0, 99% 52%, 100% 100%, 70% 96%, 40% 100%, 14% 95%, 1% 100%); font-size: 11px; }
+.w:nth-child(even) > header .t .eyebrow { transform: rotate(1.2deg); background: var(--wsp-teal-30); }
+.w--band > header .t .eyebrow { background: var(--wsp-gold-30); color: var(--wsp-ink-90); }
+.w--updates > header .t .eyebrow { background: var(--wsp-orange-40); color: var(--wsp-paper-5); }
+.w > header { padding-top: var(--pds-space-10); overflow: visible; }
+.w { overflow: visible; }
+footer { position: relative; z-index: 1; margin-top: 0; }
+footer .inner { padding-top: var(--pds-space-12); }
+
+/* ---------- Tiles: the picture, the name, one line, Read more. The rest opens in the sheet. ---------- */
+.tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--pds-space-6) var(--pds-space-5); list-style: none; margin: 0; padding: 2px 4px 4px 0; }
+.tiles.folded > [data-folded] { display: none; }
+.tile { display: flex; flex-direction: column; gap: var(--pds-space-3); background: var(--wsp-paper-5); border: 2px solid var(--pds-text-strong); box-shadow: 3px 3px 0 0 var(--wsp-misreg); padding: 0 0 var(--pds-space-4); min-width: 0; }
+.tile:nth-child(odd)  { transform: rotate(-.6deg); }
+.tile:nth-child(even) { transform: rotate(.5deg); }
+.tile-img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; object-position: center 25%; background: var(--wsp-paper-20); border-bottom: 2px solid var(--pds-text-strong); }
+.tile-img.is-gone { visibility: hidden; aspect-ratio: auto; height: 6px; }
+.tile-cat { aspect-ratio: 5 / 2; background: var(--c, var(--wsp-teal-40)); background-image: repeating-linear-gradient(135deg, rgba(255,255,255,.14) 0 6px, transparent 6px 14px); }
+.tile-t { padding: 0 var(--pds-space-4); display: flex; flex-direction: column; gap: 2px; flex: 1; }
+.tile h3 { font-family: var(--pds-font-display); font-weight: 700; font-variation-settings: var(--pds-display-axes); font-size: 17px; line-height: 1.15; color: var(--pds-text-strong); overflow-wrap: anywhere; }
+.tile-line { font-size: var(--pds-text-caption); color: var(--pds-text-muted); line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.tile-more { margin: 0 var(--pds-space-4); align-self: flex-start; }
+.w--band .tile { box-shadow: 3px 3px 0 0 var(--wsp-gold-40); }
+@media (min-width: 560px) { .tiles { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 900px) { .tiles { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+/* the sheet is a print panel too */
+.sheet { border: 2px solid var(--pds-text-strong); border-bottom: 0; box-shadow: 0 -4px 0 0 var(--wsp-misreg); max-height: 86vh; }
+.sheet .media img { max-height: 42vh; object-fit: cover; width: 100%; }
+.sheet .heading-sm { font-size: 24px; }
+.sheet .prose { font-size: 17px; line-height: 1.55; }
+.sheet .facts-list li { font-size: 16px; }

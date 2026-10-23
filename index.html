@@ -47,35 +47,32 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       <span>Menu</span>
     </button>
-    <span class="now-at" id="now-at" aria-live="polite">Tonight</span>
+    <span class="now-at" id="now-at" aria-live="polite">From Snacks</span>
   </div>
   <div class="mega" id="mega" hidden>
     <div class="mega-inner">
-      <section class="mega-col"><h3 class="eyebrow">The shows</h3>
-        <a href="#updates">From Snacks</a><a href="#tonight">Tonight</a><a href="#shows">Three nights at the Riverside</a><a href="#street">Street party &amp; closure rules</a><a href="#street" data-open-details="Live music schedule">Live music schedule</a><a href="#street" data-open-details="Other free live music">Other live music nearby</a></section>
-      <section class="mega-col"><h3 class="eyebrow">Baseball</h3>
-        <a href="#series">World Series schedule</a><a href="#series" data-scroll-to=".places">Where to watch</a><a href="#lineups">Lineup cards</a><a href="#lineups" data-scroll-to=".cards:last-of-type">The mascots</a></section>
-      <section class="mega-col"><h3 class="eyebrow">Eat &amp; drink</h3>
-        <a href="#eat" data-tab="tab-destination">Worth the trip</a><a href="#eat" data-tab="tab-street">Street food</a><a href="#eat" data-tab="tab-traditions">Milwaukee traditions</a><a href="#eat" data-tab="tab-monday">Monday before the flight</a><a href="#drink">Bars</a></section>
-      <section class="mega-col"><h3 class="eyebrow">Getting around</h3>
-        <a href="#map">The map</a><a href="#hotel">Hotel &amp; the walk</a><a href="#hotel" data-open-details="Practical">Pharmacy, urgent care, tipping</a><a href="#weather">Weather</a><a href="#share">Take it with you</a><a href="#top" id="welcome-again">The welcome, again</a></section>
-      <section class="mega-col"><h3 class="eyebrow">Milwaukee</h3>
-        <a href="#facts">Fun facts</a><a href="#facts" data-open-details="neighborhoods">Neighborhoods</a><a href="#facts" data-open-details="What to wear">What to wear</a><a href="#laverne">Laverne &amp; Shirley</a><a href="#laverne" data-scroll-to=".cast">The cast</a><a href="#laverne" data-scroll-to=".places">The pilgrimage</a></section>
+      <details class="mega-col" open><summary class="eyebrow">The shows</summary><div class="mega-links"><a href="#updates">From Snacks</a><a href="#tonight">Tonight</a><a href="#shows">Three nights at the Riverside</a><a href="#street">Street party &amp; closure rules</a><a href="#street" data-open-details="Live music schedule">Live music schedule</a><a href="#street" data-open-details="Other free live music">Other live music nearby</a></div></details>
+      <details class="mega-col"><summary class="eyebrow">Baseball</summary><div class="mega-links"><a href="#series">World Series schedule</a><a href="#series" data-scroll-to=".places">Where to watch</a><a href="#lineups">Lineup cards</a><a href="#mascots">The mascots</a></div></details>
+      <details class="mega-col"><summary class="eyebrow">Eat &amp; drink</summary><div class="mega-links"><a href="#eat" data-tab="tab-destination">Worth the trip</a><a href="#eat" data-tab="tab-street">Street food</a><a href="#eat" data-tab="tab-traditions">Milwaukee traditions</a><a href="#eat" data-tab="tab-monday">Monday before the flight</a><a href="#drink">Bars</a></div></details>
+      <details class="mega-col"><summary class="eyebrow">Getting around</summary><div class="mega-links"><a href="#map">The map</a><a href="#hotel">Hotel &amp; the walk</a><a href="#hotel" data-open-details="Practical">Pharmacy, urgent care, tipping</a><a href="#weather">Weather</a><a href="#share">Take it with you</a><a href="#top" id="welcome-again">The welcome, again</a></div></details>
+      <details class="mega-col"><summary class="eyebrow">Milwaukee</summary><div class="mega-links"><a href="#facts">Fun facts</a><a href="#facts" data-open-details="neighborhoods">Neighborhoods</a><a href="#facts" data-open-details="What to wear">What to wear</a><a href="#laverne">Laverne &amp; Shirley</a><a href="#laverne" data-scroll-to=".cast">The cast</a><a href="#laverne" data-scroll-to=".places">The pilgrimage</a></div></details>
     </div>
   </div>
 </nav>
 
 <main>
   <div class="grid">
-    <div class="scene scene--phone" id="scene-phone" data-side="right" style="--art:url(assets/img/peeps/phone.jpg)">
+    <div class="scene scene--phone" id="scene-phone" data-chapter="home" data-title="From Snacks" data-side="right" style="--art:url(/assets/img/peeps/phone.jpg);--pos:50% 20%">
+    <div class="scene-head"><span class="strip strip--title">From Snacks</span></div>
     <section class="w w--updates" id="updates" data-widget="updates" aria-labelledby="updates-h">
       <header><div class="t"><span class="eyebrow">From Snacks</span><h2 id="updates-h">Notes for Crystal</h2></div></header>
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
     </div>
-    <div class="scene scene--pinned" id="scene-pinned" data-side="left">
+    <div class="scene scene--pinned" id="scene-pinned" data-chapter="home" data-side="left">
     </div>
-    <div class="scene scene--walk" id="scene-walk" data-side="left" style="--art:url(assets/img/peeps/skip.jpg)">
+    <div class="scene scene--walk" id="scene-walk" data-chapter="shows" data-title="The shows" data-side="left" style="--art:url(/assets/img/peeps/bridge.jpg);--pos:60% 30%">
+    <div class="scene-head"><span class="strip strip--title">The shows</span></div>
     <section class="w w--band w--two-thirds" id="tonight" data-widget="tonight" aria-labelledby="tonight-h">
       <header><div class="t"><span class="eyebrow" id="tonight-eyebrow">Tonight</span><h2 id="tonight-h">Loading the run…</h2></div></header>
       <div class="body"><div class="pending-note">Pulling show times, weather and the game</div></div>
@@ -93,7 +90,8 @@
       <div class="body"><div class="pending-note">Finding the closure map, the rules and the stage schedule</div></div>
     </section>
     </div>
-    <div class="scene scene--game" id="scene-game" data-side="right" style="--art:url(assets/img/peeps/bottling.jpg)">
+    <div class="scene scene--game" id="scene-game" data-chapter="ball" data-title="Baseball" data-side="right" style="--art:url(/assets/img/peeps/slide.jpg);--pos:50% 25%">
+    <div class="scene-head"><span class="strip strip--title">Baseball</span></div>
     <section class="w w--half" id="series" data-widget="worldseries" aria-labelledby="series-h">
       <header><div class="t"><span class="eyebrow">World Series</span><h2 id="series-h">First pitch, first time</h2></div></header>
       <div class="body"><div class="pending-note">Checking the schedule and where to watch</div></div>
@@ -102,8 +100,14 @@
       <header><div class="t"><span class="eyebrow">Starting lineups</span><h2 id="lineups-h">Cards on the table</h2></div></header>
       <div class="body"><div class="pending-note">Pulling probable pitchers and lineups</div></div>
     </section>
+
+    <section class="w" id="mascots" data-widget="mascots" aria-labelledby="mascots-h">
+      <header><div class="t"><span class="eyebrow">The mascots</span><h2 id="mascots-h">A man, a chalet, and a seadog</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
     </div>
-    <div class="scene scene--eat" id="scene-eat" data-side="left" style="--art:url(assets/img/peeps/bottling.jpg)">
+    <div class="scene scene--eat" id="scene-eat" data-chapter="eat" data-title="Eat &amp; drink" data-side="left" style="--art:url(/assets/img/peeps/fishfry.jpg);--pos:50% 30%">
+    <div class="scene-head"><span class="strip strip--title">Eat &amp; drink</span></div>
     <section class="w" id="eat" data-widget="food" aria-labelledby="eat-h">
       <header><div class="t"><span class="eyebrow">Eat</span><h2 id="eat-h">Order of operations</h2></div></header>
       <div class="body"><div class="pending-note">Hunting the fish fry, the butter burger and the one-of-a-kind meal</div></div>
@@ -113,7 +117,8 @@
       <div class="body"><div class="pending-note">Scouting pre-show and after-show spots</div></div>
     </section>
     </div>
-    <div class="scene scene--town" id="scene-town" data-side="right" style="--art:url(assets/img/peeps/bicycle.jpg)">
+    <div class="scene scene--town" id="scene-town" data-chapter="around" data-title="Getting around" data-side="right" style="--art:url(/assets/img/peeps/bicycle.jpg);--pos:45% 25%">
+    <div class="scene-head"><span class="strip strip--title">Getting around</span></div>
     <section class="w" id="map" data-widget="map" aria-labelledby="map-h">
       <header><div class="t"><span class="eyebrow">The map</span><h2 id="map-h">Both banks covered</h2></div><div class="act"><button class="btn btn--sm" id="locate-btn">WTF are we?</button></div></header>
       <div class="body flush">
@@ -129,19 +134,20 @@
       <header><div class="t"><span class="eyebrow">Home base</span><h2 id="hotel-h">Kickback at 5:30</h2></div></header>
       <div class="body"><div class="pending-note">Resolving the hotel and the walk across the river</div></div>
     </section>
+    <section class="w" id="share" data-widget="share" aria-labelledby="share-h">
+      <header><div class="t"><span class="eyebrow">Take it with you</span><h2 id="share-h">Send it home</h2></div></header>
+      <div class="body"><div class="pending-note">Building the shareable map</div></div>
+    </section>
+    </div>
+    <div class="scene scene--show" id="scene-show" data-chapter="mke" data-title="Milwaukee" data-side="left" style="--art:url(/assets/img/peeps/gerbil.jpg);--pos:50% 40%">
+    <div class="scene-head"><span class="strip strip--title">Milwaukee</span></div>
     <section class="w w--half" id="facts" data-widget="facts" aria-labelledby="facts-h">
       <header><div class="t"><span class="eyebrow">Milwaukee</span><h2 id="facts-h">Bridge War stories</h2></div></header>
       <div class="body"><div class="pending-note">Collecting the good facts</div></div>
     </section>
-    </div>
-    <div class="scene scene--show" id="scene-show" data-side="left" style="--art:url(assets/img/peeps/gerbil.jpg)">
     <section class="w" id="laverne" data-widget="laverne" aria-labelledby="laverne-h">
       <header><div class="t"><span class="eyebrow">Schlemiel! Schlimazel!</span><h2 id="laverne-h">Welcome Milwaukee Visitors</h2></div></header>
       <div class="body"><div class="pending-note">Checking whether it was really filmed here</div></div>
-    </section>
-    <section class="w" id="share" data-widget="share" aria-labelledby="share-h">
-      <header><div class="t"><span class="eyebrow">Take it with you</span><h2 id="share-h">Send it home</h2></div></header>
-      <div class="body"><div class="pending-note">Building the shareable map</div></div>
     </section>
     </div>
   </div>
@@ -158,7 +164,7 @@
 <a class="to-top" id="to-top" href="#top" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg><span>Top</span></a>
 <div class="coach" id="coach" hidden>
   <svg class="coach-arrow" id="coach-arrow" aria-hidden="true"></svg>
-  <div class="coach-note" id="coach-note"><p>Tap the star and this card moves up top and stays open. Tap it again and it goes back where it was.</p><button class="btn btn--sm" type="button" id="coach-ok">Got it</button></div>
+  <div class="coach-note" id="coach-note"><p>Tap the star and this card moves to the From Snacks page, right under my notes. Tap it again and it goes back where it was.</p><button class="btn btn--sm" type="button" id="coach-ok">Got it</button></div>
 </div>
 <div class="scrim" id="scrim"></div>
 <aside class="sheet" id="sheet" aria-hidden="true" role="dialog" aria-labelledby="sheet-title"><button class="close" id="sheet-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="sheet-body"></div></aside>

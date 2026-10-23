@@ -9,6 +9,33 @@ WSP.shell = (function () {
   const I = () => WSP.icons.ui;
   let notes = {}, welcome = null;
 
+  /* ---------- Chapters: one scene on screen at a time; the menu jumps between them ---------- */
+  let current = null;
+  const scenes = () => $$('main .scene[data-chapter]');
+  const chapterList = () => { const seen = []; scenes().forEach(s => { if (s.dataset.title && !seen.find(c => c.id === s.dataset.chapter)) seen.push({ id: s.dataset.chapter, title: s.dataset.title }); }); return seen; };
+  function chapterOf(el) { const s = el && el.closest && el.closest('.scene[data-chapter]'); return s ? s.dataset.chapter : null; }
+  function go(id, opts = {}) {
+    const list = chapterList(); if (!list.find(c => c.id === id)) id = list[0].id;
+    scenes().forEach(s => s.classList.toggle('is-on', s.dataset.chapter === id));
+    document.body.dataset.chapter = id; current = id;
+    const na = $('#now-at'); if (na) na.textContent = (list.find(c => c.id === id) || {}).title || '';
+    if (opts.scroll !== false) { const nav = $('.site-nav'); const top = $('main').getBoundingClientRect().top + scrollY - (nav ? nav.offsetHeight : 0); scrollTo({ top: Math.max(0, top), behavior: opts.instant ? 'instant' : 'smooth' }); }
+    if (id === 'around' && WSP.map) { setTimeout(() => { WSP.map.refresh && WSP.map.refresh(); WSP.map.refreshMini && WSP.map.refreshMini(); }, 60); }
+    $$('.to-top').forEach(t => { t.hidden = true; });
+  }
+  function wireChapters() {
+    const list = chapterList();
+    scenes().forEach(s => {
+      if (!s.dataset.title) return;
+      const i = list.findIndex(c => c.id === s.dataset.chapter); const prev = list[i - 1], next = list[i + 1];
+      const nav = document.createElement('nav'); nav.className = 'scene-nav'; nav.setAttribute('aria-label', 'Other chapters');
+      nav.innerHTML = `${prev ? `<button class="strip strip--nav" type="button" data-go="${esc(prev.id)}">${I().chevL || '←'} ${esc(prev.title)}</button>` : '<span></span>'}${next ? `<button class="strip strip--nav strip--next" type="button" data-go="${esc(next.id)}">${esc(next.title)} ${I().chevR || '→'}</button>` : '<span></span>'}`;
+      s.appendChild(nav);
+    });
+    document.addEventListener('click', (e) => { const b = e.target.closest('[data-go]'); if (b) go(b.dataset.go); });
+    addEventListener('hashchange', () => { const sec = document.getElementById(location.hash.slice(1)); const ch = chapterOf(sec); if (ch && ch !== current) go(ch, { scroll: false }); });
+  }
+
   /* ---------- Collapse / expand ---------- */
   function wireCards() {
     $$('main section.w').forEach(sec => {
@@ -32,6 +59,9 @@ WSP.shell = (function () {
     if (typeof sec === 'string') sec = document.getElementById(sec); if (!sec) return;
     const btn = $('.w-toggle', sec);
     if (open) {
+      const ch = chapterOf(sec); if (ch && ch !== current) go(ch, { scroll: false, instant: true });
+      // one card open at a time
+      $$('main section.w:not([data-collapsed])').forEach(o => { if (o !== sec && !o.hasAttribute('data-nocollapse')) setOpen(o, false); });
       sec.removeAttribute('data-collapsed'); btn && btn.setAttribute('aria-expanded', 'true');
       firstOpenNote(sec);
       clampTall(sec);
@@ -77,14 +107,14 @@ WSP.shell = (function () {
 
   /* ---------- Stars ---------- */
   function stars() { return store.get('stars', []); }
-  function toggleStar(id) { let s = stars(); s = s.includes(id) ? s.filter(x => x !== id) : [...s, id]; store.set('stars', s); applyStars(true); }
+  function toggleStar(id) { let s = stars(); const on = !s.includes(id); s = on ? [...s, id] : s.filter(x => x !== id); store.set('stars', s); applyStars(true); const sec = document.getElementById(id); if (sec) { const ch = chapterOf(sec); if (ch && ch !== current) go(ch, { scroll: false, instant: true }); setOpen(sec, true); sec.scrollIntoView({ block: 'start', behavior: 'smooth' }); } }
   function applyStars(animate) {
     const s = stars(); const grid = $('main .grid'); const all = $$('main section.w'); const original = WSP.shell.order || (WSP.shell.order = all.map(x => x.id));
     const starred = original.filter(id => s.includes(id));
     const pinned = document.getElementById('scene-pinned') || grid;
     original.forEach(id => { const el = document.getElementById(id); if (!el) return; if (!el.dataset.home) el.dataset.home = el.parentElement.id || ''; const home = document.getElementById(el.dataset.home) || grid; if (s.includes(id)) pinned.appendChild(el); else home.appendChild(el); });
     starred.forEach(id => pinned.appendChild(document.getElementById(id)));
-    all.forEach(sec => { const on = s.includes(sec.id); const b = $('.w-star', sec); if (b) { b.setAttribute('aria-pressed', String(on)); b.title = on ? 'Unpin' : 'Pin near the top'; } sec.classList.toggle('is-starred', on); if (on && animate) setOpen(sec, true); });
+    all.forEach(sec => { const on = s.includes(sec.id); const b = $('.w-star', sec); if (b) { b.setAttribute('aria-pressed', String(on)); b.title = on ? 'Unpin' : 'Pin near the top'; } sec.classList.toggle('is-starred', on); });
   }
 
   /* ---------- Map lock ---------- */
@@ -152,8 +182,8 @@ WSP.shell = (function () {
   /* ---------- The star, explained once ---------- */
   function showCoach() {
     if (store.get('star-tip', 0)) return;
-    const star = $('#tonight .w-star') || $('.w-star'); const coach = $('#coach'); if (!star || !coach) return;
-    const sec = star.closest('section'); sec.scrollIntoView({ block: 'start', behavior: 'instant' });
+    const star = $('.scene.is-on section.w:not([data-collapsed]) .w-star') || $('#tonight .w-star') || $('.w-star'); const coach = $('#coach'); if (!star || !coach) return;
+    const sec = star.closest('section'); const ch = chapterOf(sec); if (ch && ch !== current) go(ch, { scroll: false, instant: true }); sec.scrollIntoView({ block: 'start', behavior: 'instant' });
     setTimeout(() => {
       const r = star.getBoundingClientRect(); coach.hidden = false; coach.classList.add('open');
       const note = $('#coach-note'); const nr = note.getBoundingClientRect();
@@ -190,12 +220,14 @@ WSP.shell = (function () {
 
   async function init(data) {
     notes = (data.notes && data.notes.widgets) || {}; welcome = data.welcome || null;
-    wireCards(); applyStars(false); wireMapLock(); wireWelcome(); wireDeepLinks();
+    wireCards(); applyStars(false); wireChapters(); wireMapLock(); wireWelcome();
     renderUpdates(data.updates);
-    setOpen('updates', true);
-    stars().forEach(id => setOpen(id, true));
+    const start = location.hash && document.getElementById(location.hash.slice(1));
+    go(chapterOf(start) || 'home', { scroll: false, instant: true });
+    wireDeepLinks();
+    if (!start) setOpen('updates', true);
     wireTop();
     if (!store.get('welcomed', 0) && welcome) showWelcome(); else setTimeout(showCoach, 600);
   }
-  return { init, setOpen, lockMap, showWelcome };
+  return { init, setOpen, lockMap, showWelcome, go, chapterOf };
 })();

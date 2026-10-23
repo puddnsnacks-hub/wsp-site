@@ -4,7 +4,7 @@
 window.WSP = window.WSP || {};
 (function () {
   const I = WSP.icons.ui, TZ = 'America/Chicago';
-  const $ = (s, r = document) => r.querySelector(s);
+  const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const body = (name) => $(`[data-widget="${name}"] .body`);
   const gmaps = (loc) => loc.gmaps_url || WSP.map.gmapsFallback(loc);
@@ -49,15 +49,21 @@ window.WSP = window.WSP || {};
     const h = hoursToday(loc.hours_this_weekend); if (h) m.push(esc(h));
     return m.length ? `<div class="meta">${m.map(x => `<span>${x}</span>`).join('<span aria-hidden="true">·</span>')}</div>` : '';
   }
-  function placeRow(loc, opts = {}) {
-    const cat = loc.category || 'landmark'; const img = imgSrc(loc.image);
-    const name = `<h3><a href="#" data-sheet="${esc(loc.id)}">${esc(loc.name)}</a></h3>`;
-    const extraLine = opts.line ? `<p class="caption">${opts.line(loc)}</p>` : '';
-    return `<li class="place${img ? ' has-media' : ''}" data-id="${esc(loc.id)}">
-      ${img ? `<img class="thumb" src="${esc(img)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">` : `<span class="cat" style="--c:var(--wsp-cat-${esc(cat)})"></span>`}
-      <div class="main">${name}${metaBits(loc)}<p class="blurb">${esc(loc.blurb || '')}</p>${extraLine}${loc.tags && loc.tags.length ? `<div class="tags">${loc.tags.slice(0, 4).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>` : ''}${links(loc)}</div></li>`;
+  /* A tile: the picture, the name, one line, and Read more. The rest lives in the sheet. */
+  function tile(o) {
+    const img = o.img ? `<img class="tile-img" src="${esc(o.img)}" alt="" loading="lazy" onerror="this.classList.add('is-gone')">` : `<span class="tile-img tile-cat" style="--c:var(--wsp-cat-${esc(o.cat || 'landmark')})"></span>`;
+    return `<li class="tile" ${o.attrs || ''}>${img}<div class="tile-t"><h3>${esc(o.name)}</h3>${o.line ? `<p class="tile-line">${o.line}</p>` : ''}</div><button class="btn btn--sm tile-more" type="button" ${o.open}>Read more</button></li>`;
   }
-  const FOLD = 4;
+  function placeRow(loc, opts = {}) {
+    const cat = loc.category || 'landmark';
+    const bits = []; if (loc.walk_from_venue_minutes != null) bits.push(`${loc.walk_from_venue_minutes} min walk`); else if (loc.walk_from_riverside_miles != null) bits.push(`${loc.walk_from_riverside_miles} mi`); if (loc.price) bits.push(esc(loc.price));
+    const line = opts.line ? opts.line(loc) : bits.join(' · ');
+    return tile({ img: imgSrc(loc.image), cat, name: loc.name, line, open: `data-sheet="${esc(loc.id)}"`, attrs: `data-id="${esc(loc.id)}"` });
+  }
+  /* Blocks of info that are not places (cast, mascots, bands): the same tile, the content in the sheet. */
+  const modals = {}; let modalN = 0;
+  function modal(html) { const id = 'm' + (++modalN); modals[id] = html; return `data-modal="${id}"`; }
+  const FOLD = 6;
   function factsList(arr, limit = 6, cls = '') {
     arr = arr || []; const rows = arr.map((f, i) => `<li ${i >= limit ? 'data-folded ' : ''}><span class="n num">${i + 1}</span><span>${esc(typeof f === 'string' ? f : f.fact || f.text)}${src(typeof f === 'string' ? '' : f.source)}</span></li>`);
     const more = arr.length > limit ? `<button class="btn btn--sm fold-btn" type="button" data-fold-n="${arr.length - limit}">Show ${arr.length - limit} more</button>` : '';
@@ -65,9 +71,9 @@ window.WSP = window.WSP || {};
   }
   function placeList(arr, opts = {}) {
     arr = arr || []; const limit = opts.limit || FOLD;
-    const rows = arr.map((l, i) => placeRow(l, opts).replace('<li class="place', `<li ${i >= limit ? 'data-folded ' : ''}class="place`));
+    const rows = arr.map((l, i) => placeRow(l, opts).replace('<li class="tile"', `<li ${i >= limit ? 'data-folded ' : ''}class="tile"`));
     const more = arr.length > limit ? `<button class="btn btn--sm fold-btn" type="button" data-fold-n="${arr.length - limit}">Show ${arr.length - limit} more</button>` : '';
-    return `<ul class="places${arr.length > limit ? ' folded' : ''}">${rows.join('')}</ul>${more}`;
+    return `<ul class="tiles${arr.length > limit ? ' folded' : ''}">${rows.join('')}</ul>${more}`;
   }
   document.addEventListener('click', (e) => {
     const f = e.target.closest('.fold-btn'); if (!f) return;
@@ -100,12 +106,17 @@ window.WSP = window.WSP || {};
         <p class="prose">${esc(loc.blurb || '')}</p>
         ${rows.length ? `<dl style="display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:var(--pds-text-caption);margin:0">${rows.map(([k, v]) => `<dt class="label" style="padding-top:2px">${k}</dt><dd style="margin:0">${v}</dd>`).join('')}</dl>` : ''}
         ${links(loc)}${loc.source ? `<p class="caption">Source: <a href="${esc(loc.source)}" target="_blank" rel="noopener">${esc(new URL(loc.source, location.href).hostname)}</a></p>` : ''}</div>`;
-      $('#sheet').classList.add('open'); $('#sheet').setAttribute('aria-hidden', 'false'); $('#scrim').classList.add('open');
+      $('#sheet').classList.add('open'); $('#sheet').setAttribute('aria-hidden', 'false'); $('#scrim').classList.add('open'); $('#sheet').scrollTop = 0;
+    },
+    openHTML(html) {
+      const sb = $('#sheet-body'); if (!sb) return; sb.innerHTML = html;
+      $('#sheet').classList.add('open'); $('#sheet').setAttribute('aria-hidden', 'false'); $('#scrim').classList.add('open'); $('#sheet').scrollTop = 0;
     },
     close() { $('#sheet').classList.remove('open'); $('#sheet').setAttribute('aria-hidden', 'true'); $('#scrim').classList.remove('open'); }
   };
   document.addEventListener('click', (e) => {
     const a = e.target.closest('[data-sheet]'); if (a) { e.preventDefault(); const l = byId[a.dataset.sheet]; if (l) WSP.sheet.openLocation(l); return; }
+    const m = e.target.closest('[data-modal]'); if (m) { e.preventDefault(); if (modals[m.dataset.modal]) WSP.sheet.openHTML(modals[m.dataset.modal]); return; }
     const f = e.target.closest('[data-focus]'); if (f) { e.preventDefault(); WSP.sheet.close(); WSP.map.focus(f.dataset.focus); return; }
     if (e.target.closest('#sheet-close') || e.target.id === 'scrim') WSP.sheet.close();
   });
@@ -123,6 +134,7 @@ window.WSP = window.WSP || {};
   const sectionTitle = (id) => { const h = $(`#${id} > header h2`) || $(`#${id} h2`); return h ? h.textContent.trim() : id; };
   function setMenu(open) { mega.hidden = !open; menuBtn.setAttribute('aria-expanded', String(open)); if (open) mega.querySelector('a').focus({ preventScroll: true }); }
   menuBtn.addEventListener('click', () => setMenu(mega.hidden));
+  $$('.mega-col').forEach(d => d.addEventListener('toggle', () => { if (d.open) $$('.mega-col').forEach(o => { if (o !== d) o.open = false; }); }));
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !mega.hidden) { setMenu(false); menuBtn.focus(); } });
   document.addEventListener('click', (e) => { if (!mega.hidden && !e.target.closest('.site-nav')) setMenu(false); });
   mega.addEventListener('click', (e) => {
@@ -134,13 +146,10 @@ window.WSP = window.WSP || {};
     if (a.dataset.tab) { const t = sec.querySelector('#' + a.dataset.tab); if (t) t.click(); }
     if (a.dataset.openDetails) { const d = [...sec.querySelectorAll('details')].find(x => x.textContent.toLowerCase().includes(a.dataset.openDetails.toLowerCase())); if (d) { d.open = true; target = d; } }
     if (a.dataset.scrollTo) { const el = sec.querySelector(a.dataset.scrollTo); if (el) target = el; }
-    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (WSP.shell && WSP.shell.setOpen) WSP.shell.setOpen(sec, true);
+    requestAnimationFrame(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }));
     history.replaceState(null, '', '#' + id);
   });
-  if ('IntersectionObserver' in window) {
-    const io = new IntersectionObserver((es) => { es.forEach(en => { if (en.isIntersecting) nowAt.textContent = sectionTitle(en.target.id); }); }, { rootMargin: '-40% 0px -55% 0px' });
-    document.querySelectorAll('main section.w').forEach(s => io.observe(s));
-  }
 
   /* ---------- Renderers ---------- */
   function renderTonight(c, ws, cl) {
@@ -202,7 +211,7 @@ window.WSP = window.WSP || {};
       ${cz.streets ? `<div class="notice"><b>Closed to cars:</b> ${esc(cz.streets)}${cz.closed_from ? ` — ${esc(cz.closed_from)} to ${esc(cz.closed_until || '')}` : ''}${src(cz.source)}</div>` : ''}
       ${(ev.hours_by_day || []).length ? `<div class="facts" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:12px">${ev.hours_by_day.map(d => `<div style="border-top:1px solid var(--pds-border-subtle);padding-top:6px"><div class="label">${esc(longDay(d.date).split(',')[0])}</div><div class="strong num">Street open ${esc(d.open)}</div><div class="caption num">Music ${esc((d.music || '').replace(/\s*\(.*\)$/, ''))}${d.street_reopens_to_cars ? ` · cars back ${esc(d.street_reopens_to_cars)}` : ''}</div></div>`).join('')}</div>` : ''}
       ${(cl.rules || []).length ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">The rules in the zone (${cl.rules.length})</summary><ul class="rules">${cl.rules.map(r => `<li class="rule"><span class="ic">${I.info}</span><span><b>${esc(r.rule)}</b>${r.detail ? ` — ${esc(r.detail)}` : ''}${src(r.source)}</span></li>`).join('')}</ul></details>` : ''}
-      ${Object.keys(byDay).length ? `<div><span class="eyebrow">Live music schedule</span>${Object.keys(byDay).sort().map(d => `<details class="day-group" style="margin-top:10px" ${d === todayISO() || (todayISO() > Object.keys(byDay).sort().slice(-1)[0] && d === Object.keys(byDay).sort().slice(-1)[0]) || todayISO() < Object.keys(byDay).sort()[0] && d === Object.keys(byDay).sort()[0] ? 'open' : ''}><summary class="eyebrow" style="cursor:pointer;min-height:36px;display:flex;align-items:center">${esc(longDay(d))}${d === todayISO() ? ' · today' : ''}</summary>${byDay[d].map(s => `<div class="slot${imgSrc(s.image) ? ' has-media' : ''}"><span class="time num">${esc(s.start || '')}${s.end ? `–${esc(s.end)}` : ''}</span><div class="who"><h3>${esc(s.band)}</h3>${s.hometown || s.stage ? `<span class="label">${esc(s.hometown || '')}${s.stage ? ` · ${esc(byId[s.stage] ? byId[s.stage].name : s.stage)}` : ''}</span>` : ''}<p>${esc(s.style || '')}</p><div class="links">${s.spotify_url ? `<a class="link-pill" href="${esc(s.spotify_url)}" target="_blank" rel="noopener">${I.spotify}Spotify</a>` : ''}${s.website ? `<a class="link-pill" href="${esc(s.website)}" target="_blank" rel="noopener">${I.link}Site</a>` : ''}</div></div>${imgSrc(s.image) ? `<img class="art" src="${esc(imgSrc(s.image))}" alt="${esc(s.band)}" loading="lazy" title="${esc(s.image.credit || '')}" onerror="this.remove()">` : ''}</div>`).join('')}</details>`).join('')}</div>` : ''}
+      ${Object.keys(byDay).length ? `<div><span class="eyebrow">Live music schedule</span>${Object.keys(byDay).sort().map(d => `<details class="day-group" style="margin-top:10px" ${d === todayISO() || (todayISO() > Object.keys(byDay).sort().slice(-1)[0] && d === Object.keys(byDay).sort().slice(-1)[0]) || todayISO() < Object.keys(byDay).sort()[0] && d === Object.keys(byDay).sort()[0] ? 'open' : ''}><summary class="eyebrow" style="cursor:pointer;min-height:36px;display:flex;align-items:center">${esc(longDay(d))}${d === todayISO() ? ' · today' : ''}</summary><ul class="tiles" style="margin-top:8px">${byDay[d].map(s => { const stage = s.stage ? (byId[s.stage] ? byId[s.stage].name : s.stage) : ''; const when = `${esc(s.start || '')}${s.end ? `–${esc(s.end)}` : ''}`; return tile({ img: imgSrc(s.image), cat: 'stage', name: s.band, line: when, open: modal(`${media(s.image)}<span class="eyebrow">${esc(longDay(d))} · ${when}</span><h3 id="sheet-title" class="heading-sm">${esc(s.band)}</h3>${s.hometown || stage ? `<p class="caption">${esc(s.hometown || '')}${stage ? ` · ${esc(stage)}` : ''}</p>` : ''}<p class="prose">${esc(s.style || '')}</p><div class="links">${s.spotify_url ? `<a class="link-pill" href="${esc(s.spotify_url)}" target="_blank" rel="noopener">${I.spotify}Spotify</a>` : ''}${s.website ? `<a class="link-pill" href="${esc(s.website)}" target="_blank" rel="noopener">${I.link}Site</a>` : ''}${s.stage && byId[s.stage] ? `<button class="link-pill" data-focus="${esc(s.stage)}">${I.pin}On map</button>` : ''}</div>`) }); }).join('')}</ul></details>`).join('')}</div>` : ''}
       ${(cl.food_and_drink_in_zone || []).length || cl.food_and_drink_note ? `<div><span class="eyebrow">Food and drink in the zone</span>${cl.food_and_drink_note ? `<p class="caption" style="margin-top:6px">${esc(cl.food_and_drink_note)}</p>` : ''}${placeList(cl.food_and_drink_in_zone)}</div>` : ''}
       ${other.length ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">Other free live music nearby this weekend (${other.length})</summary><ul class="rules">${other.map(o => `<li class="rule"><span class="ic">${I.star}</span><span><b>${esc(o.name)}</b> — ${esc(o.venue || '')}${o.dates ? `, ${esc(o.dates)}` : ''}${o.cost ? ` · ${esc(o.cost)}` : ''}. ${esc(o.note || '')}${src(o.source)}</span></li>`).join('')}</ul></details>` : ''}
       ${(cl.transit_notes || []).length ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">Getting around the closure</summary><ul class="rules">${cl.transit_notes.map(t => `<li class="rule"><span class="ic">${I.walk}</span><span>${esc(t)}</span></li>`).join('')}</ul></details>` : ''}
@@ -252,7 +261,6 @@ window.WSP = window.WSP || {};
       ${games.map(g => `<div class="lineup-game" data-game="${g.game}" ${g === def ? '' : 'hidden'}>
         <p class="caption">${esc(T[g.away] ? T[g.away].nickname : g.away)} at ${esc(T[g.home] ? T[g.home].nickname : g.home)} · ${esc(g.venue || '')} · first pitch ${esc(g.first_pitch_central || '')}${g.result ? ` · <b>Final: ${esc(T[g.home].nickname)} ${esc(g.result[g.home])}, ${esc(T[g.away].nickname)} ${esc(g.result[g.away])}</b>` : (g.live_score ? ` · <b>${esc(T[g.home].nickname)} ${esc(g.live_score[g.home])}, ${esc(T[g.away].nickname)} ${esc(g.live_score[g.away])}</b> · ${esc(g.live_score.half || '')} ${esc(g.live_score.inning || '')}` : '')}${g.lineup_source ? ` · <a href="${esc(g.lineup_source)}" target="_blank" rel="noopener">lineups</a>` : ''}</p>
         <div class="lineup-teams">${teamBlock(g, g.home)}${teamBlock(g, g.away)}</div></div>`).join('')}
-      ${Object.keys(T).some(k => T[k].mascot) ? `<div><span class="eyebrow">The mascots</span><div class="cards" style="margin-top:10px;grid-template-columns:repeat(auto-fill,minmax(170px,1fr))">${Object.keys(T).flatMap(k => [T[k].mascot, T[k].mascot_extra].filter(Boolean).map(mc => card(mc, k, false))).join('')}</div></div>` : ''}
       <p class="caption">Official lineups: <a href="https://www.mlb.com/brewers/roster/starting-lineups" target="_blank" rel="noopener">Brewers</a> · <a href="https://www.mlb.com/rays/roster/starting-lineups" target="_blank" rel="noopener">Rays</a>.</p>`;
     b.addEventListener('click', (e) => {
       const c = e.target.closest('.card'); if (c) { c.classList.toggle('flipped'); return; }
@@ -267,6 +275,13 @@ window.WSP = window.WSP || {};
     if (where.includes('header')) { const h = $('.site-header .inner'); if (h) h.insertAdjacentHTML('beforeend', figs('peeps--header')); }
     if (where.includes('tonight')) { const t = $('[data-widget="tonight"] .tonight .lead'); if (t) t.insertAdjacentHTML('afterbegin', figs('peeps--tonight')); }
     if (where.includes('footer')) { const f = $('footer .inner'); if (f) f.insertAdjacentHTML('afterbegin', figs('peeps--footer')); }
+  }
+
+  function renderMascots(m) {
+    const b = body('mascots'); if (!m || !m.mascots) return pending('mascots', 'Loading the mascots');
+    b.innerHTML = `${m.intro ? `<p class="prose">${esc(m.intro)}</p>` : ''}
+      <ul class="tiles">${m.mascots.map(mc => tile({ img: mc.image, cat: 'watch-party', name: mc.name, line: esc(mc.tagline || ''), open: modal(`${mc.image ? `<figure class="media"><img src="${esc(mc.image)}" alt=""></figure>` : ''}<span class="eyebrow">Did you know</span><h3 id="sheet-title" class="heading-sm">${esc(mc.name)}</h3>${mc.tagline ? `<p class="caption">${esc(mc.tagline)}</p>` : ''}<ul class="facts-list dyk" style="margin-top:10px">${(mc.facts || []).map((f, i) => `<li><span class="n num">${i + 1}</span><span>${esc(f.fact)}${src(f.source)}</span></li>`).join('')}</ul>`) })).join('')}</ul>
+      ${(m.texas_ties || []).length ? `<div><span class="eyebrow">Texas ties</span><ul class="facts-list" style="margin-top:6px">${m.texas_ties.map((f, i) => `<li><span class="n num">${i + 1}</span><span>${esc(f.fact)}${src(f.source)}</span></li>`).join('')}</ul></div>` : ''}`;
   }
 
   function renderBars(a) {
@@ -307,10 +322,10 @@ window.WSP = window.WSP || {};
     const b = body('laverne'); if (!l) return pending('laverne', 'Checking whether it was really filmed here');
     b.innerHTML = `
       <div class="two-col">
-        <div class="prose"><p class="pull">${esc(l.hook || '')}</p>${media(l.cast_photo)}<p>${esc(l.filmed_here_truth || '')}</p>${l.synopsis ? `<p><b class="strong">The show, in a breath.</b> ${esc(l.synopsis)}</p>` : ''}</div>
-        <div class="prose"><details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">The whole history, briefly</summary><div class="prose" style="margin-top:8px">${(Array.isArray(l.history) ? l.history : String(l.history || '').split(/\n\n+/)).map(p => `<p>${esc(p)}</p>`).join('')}</div></details>${l.the_chant ? `<div class="notice"><b>${esc(l.the_chant.text)}</b> — ${esc(l.the_chant.meaning || '')}${src(l.the_chant.source)}</div>` : ''}</div>
+        <div class="prose"><p class="pull">${esc(l.hook || '')}</p>${media(l.cast_photo)}<p>${esc(l.filmed_here_truth || '')}</p><p><button class="btn btn--sm" type="button" ${modal(`<span class="eyebrow">Laverne &amp; Shirley</span><h3 id="sheet-title" class="heading-sm">The show, and the whole history</h3>${l.synopsis ? `<p class="prose"><b class="strong">In a breath.</b> ${esc(l.synopsis)}</p>` : ''}${(Array.isArray(l.history) ? l.history : String(l.history || '').split(/\n\n+/)).map(p => `<p class="prose">${esc(p)}</p>`).join('')}`)}>Read the whole history</button></p></div>
+        <div class="prose">${l.the_chant ? `<div class="notice"><b>${esc(l.the_chant.text)}</b> — ${esc(l.the_chant.meaning || '')}${src(l.the_chant.source)}</div>` : ''}</div>
       </div>
-      ${(l.cast || []).length ? `<div><span class="eyebrow">The cast, and what came next</span><div class="cast" style="margin-top:10px">${l.cast.map(c => `<figure>${imgSrc(c.image) ? `<img src="${esc(imgSrc(c.image))}" alt="${esc(c.actor)}" loading="lazy" title="${esc(c.image.credit || '')}" onerror="this.remove()">` : ''}<figcaption><b>${esc(c.actor)}</b><span class="muted">${esc(c.character)}</span><br>${esc(c.after_the_show || '')}${src(c.source)}</figcaption></figure>`).join('')}</div></div>` : ''}
+      ${(l.cast || []).length ? `<div><span class="eyebrow">The cast, and what came next</span><ul class="tiles" style="margin-top:10px">${l.cast.map(c => tile({ img: imgSrc(c.image), cat: 'laverne', name: c.actor, line: esc(c.character), open: modal(`${media(c.image)}<span class="eyebrow">${esc(c.character)}</span><h3 id="sheet-title" class="heading-sm">${esc(c.actor)}</h3>${c.bio_fun ? `<p class="prose">${esc(c.bio_fun)}</p>` : ''}${c.after_the_show ? `<p class="prose"><b class="strong">After the show.</b> ${esc(c.after_the_show)}</p>` : ''}${c.source ? `<p class="caption"><a href="${esc(c.source)}" target="_blank" rel="noopener">Source</a></p>` : ''}`) })).join('')}</ul></div>` : ''}
       ${(l.fun_facts || []).length ? `<div style="display:flex;flex-direction:column;gap:6px"><span class="eyebrow">Fun facts</span>${factsList(l.fun_facts, 5)}</div>` : ''}
       ${(l.milwaukee_pilgrimage || []).length ? `<div><span class="eyebrow">A small pilgrimage</span>${placeList(l.milwaukee_pilgrimage, { limit: 4, line: (x) => [x.why, x.hours].filter(Boolean).map(esc).join(' · ') })}</div>` : ''}
       ${l.watch_it ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">Watch it in the hotel</summary><p class="caption" style="margin-top:6px">${esc((l.watch_it.where_to_stream || []).join(' · '))}</p><ul class="rules">${(l.watch_it.episodes_to_watch_in_the_hotel || []).map(e => `<li class="rule"><span class="ic">${I.star}</span><span><b>${esc(e.title)}</b> (S${esc(e.season)}E${esc(e.episode)}) — ${esc(e.why || '')}</span></li>`).join('')}</ul></details>` : ''}`;
@@ -350,15 +365,15 @@ window.WSP = window.WSP || {};
   /* ---------- Boot ---------- */
   async function boot() {
     const wxP = WSP.weather.init();
-    const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'locations', 'share', 'peeps', 'notes', 'welcome', 'updates'];
+    const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'mascots', 'locations', 'share', 'peeps', 'notes', 'welcome', 'updates'];
     const gm = $('#gmaps-open');
     const d = Object.fromEntries(await Promise.all(names.map(async n => [n, await load(n)])));
     const locs = collect(d); locs.forEach(l => byId[l.id] = l); WSP.locations = locs;
 
-    renderTonight(d.concert, d.worldseries, d.closure); if (scrollY < 200) nowAt.textContent = 'Tonight';
+    renderTonight(d.concert, d.worldseries, d.closure);
     renderConcert(d.concert); renderClosure(d.closure); renderSeries(d.worldseries);
     renderBars(d.area); renderFood(d.food); renderHotel(d.concert, d.area); renderFacts(d.area); renderLaverne(d.laverne);
-    renderLineups(d.lineups);
+    renderLineups(d.lineups); renderMascots(d.mascots);
     renderShare(locs, d.share);
     renderPeeps(d.peeps);
     if (gm && d.share && d.share.my_maps_url) gm.href = d.share.my_maps_url;
