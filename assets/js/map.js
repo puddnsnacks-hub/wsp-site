@@ -16,7 +16,7 @@ WSP.map = (function () {
     'landmark':    { label: 'See',          glyph: '●' },
     'practical':   { label: 'Practical',    glyph: '+' },
   };
-  let map, layerByCat = {}, markersById = {}, active = new Set(Object.keys(CATS)), youMarker;
+  let map, miniMap, layerByCat = {}, markersById = {}, active = new Set(Object.keys(CATS)), youMarker;
 
   function cssVar(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
 
@@ -31,7 +31,6 @@ WSP.map = (function () {
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
-    map.on('click', () => map.scrollWheelZoom.enable());
 
     if (closurePolygon && closurePolygon.length >= 3) {
       L.polygon(closurePolygon, { color: cssVar('--wsp-closure-stroke'), fillColor: cssVar('--wsp-closure-stroke'), fillOpacity: .18, weight: 2, dashArray: '6 4' })
@@ -72,8 +71,9 @@ WSP.map = (function () {
 
   function focus(id) {
     const m = markersById[id]; if (!m || !map) return;
+    if (WSP.shell) { WSP.shell.setOpen('map', true); WSP.shell.lockMap(false); }
     document.getElementById('map').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    map.flyTo(m.getLatLng(), 17, { duration: .8 }); setTimeout(() => m.openPopup(), 900);
+    setTimeout(() => { map.invalidateSize(); map.flyTo(m.getLatLng(), 17, { duration: .8 }); setTimeout(() => m.openPopup(), 900); }, 120);
   }
 
   function locate() {
@@ -88,7 +88,7 @@ WSP.map = (function () {
   /* A small second map: hotel ↔ venue with the walking route. */
   async function mini(elId, hotel, venue) {
     const el = document.getElementById(elId); if (!el || !hotel || !venue || typeof L === 'undefined') return;
-    const m = L.map(el, { scrollWheelZoom: false, dragging: !L.Browser.mobile, zoomControl: false, attributionControl: false });
+    const m = L.map(el, { scrollWheelZoom: false, dragging: false, touchZoom: false, doubleClickZoom: false, zoomControl: false, attributionControl: false, keyboard: false }); miniMap = m;
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(m);
     L.marker([hotel.lat, hotel.lng], { icon: pinIcon('hotel'), title: hotel.name }).addTo(m).bindTooltip('Hotel', { permanent: true, direction: 'right', offset: [10, -14], className: 'mini-tip' });
     L.marker([venue.lat, venue.lng], { icon: pinIcon('venue'), title: venue.name }).addTo(m).bindTooltip('Riverside', { permanent: true, direction: 'left', offset: [-10, -14], className: 'mini-tip' });
@@ -98,12 +98,20 @@ WSP.map = (function () {
       if (r.ok) { const j = await r.json(); const c = j.routes && j.routes[0] && j.routes[0].geometry.coordinates; if (c && c.length > 1) { line = c.map(([x, y]) => [y, x]); dashed = false; } }
     } catch (e) {}
     const pl = L.polyline(line, { color: cssVar('--wsp-cat-venue') || '#007190', weight: 5, opacity: .9, dashArray: dashed ? '8 6' : null }).addTo(m);
-    m.fitBounds(pl.getBounds().pad(.6));
+    m._wspBounds = pl.getBounds().pad(.6); m.fitBounds(m._wspBounds);
     setTimeout(() => m.invalidateSize(), 300);
   }
+
+  function setInteractive(on) {
+    if (!map) return;
+    ['dragging', 'touchZoom', 'scrollWheelZoom', 'doubleClickZoom', 'boxZoom', 'keyboard'].forEach(h => { if (map[h]) on ? map[h].enable() : map[h].disable(); });
+    if (!on) map.closePopup();
+  }
+  function refresh() { if (map) { map.invalidateSize(); } }
+  function refreshMini() { if (miniMap) { miniMap.invalidateSize(); const b = miniMap._wspBounds; if (b) miniMap.fitBounds(b); } }
 
   function gmapsFallback(loc) { return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((loc.name || '') + ' ' + (loc.address || 'Milwaukee WI'))}`; }
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 
-  return { init, focus, mini, CATS, gmapsFallback };
+  return { init, focus, mini, setInteractive, refresh, refreshMini, CATS, gmapsFallback };
 })();

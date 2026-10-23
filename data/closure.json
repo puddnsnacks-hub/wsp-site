@@ -20,7 +20,7 @@
  "event": {
   "name": "Widespread Panic Street Festival (billed by Pabst Theater Group as 'Street Party Before Widespread Panic' with Wolph)",
   "organizer": "Pabst Theater Group (operator of the Riverside Theater), under a City of Milwaukee special-event street closure permit (Police District 1); Molson Coors is the official brewery partner",
-  "summary": "For the fourth time, the City of Milwaukee is closing West Wisconsin Avenue between North Plankinton Avenue and North Water Street, the block in front of the Riverside Theater that includes the Wisconsin Avenue bridge over the Milwaukee River, from noon Friday through midnight Sunday for Pabst Theater Group's free pre-show street party. Virginia jam band Wolph, whose debut record was produced by Widespread Panic bassist Dave Schools, plays a free outdoor set at 5:30 PM all three days before Panic takes the stage inside at 8:00 PM. The tradition of closing the street and building a beer garden dates to the 2017 run; it is unrelated to the World Series block parties happening the same weekend in the Third Ward and Deer District.",
+  "summary": "For the fourth time, the City of Milwaukee is closing West Wisconsin Avenue between North Plankinton Avenue and North Water Street, the block in front of the Riverside Theater including the bridge over the Milwaukee River, from noon Friday through midnight Sunday for Pabst Theater Group's free pre-show street party. Virginia jam band Wolph, whose debut record was produced by Widespread Panic bassist Dave Schools, plays a free outdoor set at 5:30 PM all three days before Panic takes the stage inside at 8:00 PM. Closing the street and building a beer garden dates to the 2017 run. It has nothing to do with the World Series block parties in the Third Ward and Deer District the same weekend.",
   "dates": "Friday, October 23 - Sunday, October 25, 2026",
   "hours_by_day": [
    {
@@ -59,7 +59,7 @@
   ],
   "cost": "Free, no ticket required (Pabst Theater Group: 'FREE SHOWS!')",
   "cost_source": "https://www.pabsttheatergroup.com/events/detail/wolph",
-  "history": "Street first closed with a beer garden for the October 20, 2017 run ('For the first time in the history of the fall Widespread Panic runs at the Riverside, the street actually closed down and a beer garden sprouted up'). The city's 2026 notice is labeled '(4TH)'. 2023 street party acts: Steez, Spare Change Trio, Modern Joey (free, from 4 PM). 2025: Round Trip, Magoo, Kyle Hollingsworth (4 PM start, music at 5 PM).",
+  "history": "The street first closed with a beer garden for the October 20, 2017 run ('For the first time in the history of the fall Widespread Panic runs at the Riverside, the street actually closed down and a beer garden sprouted up'). The city's 2026 notice is labeled '(4TH)'. The 2023 street party acts were Steez, Spare Change Trio and Modern Joey (free, from 4 PM). In 2025 it was Round Trip, Magoo and Kyle Hollingsworth (4 PM start, music at 5 PM).",
   "history_sources": [
    "https://liveforlivemusic.com/news/widespread-panic-riverside-1/",
    "https://liveforlivemusic.com/news/widespread-panic-street-parties-milwaukee/",
@@ -141,22 +141,22 @@
  "rules": [
   {
    "rule": "Free and open to the public",
-   "detail": "No ticket needed for the street party; Pabst Theater Group bills it 'FREE SHOWS!' with 'Doors Open 12:00 PM.' Your Widespread Panic ticket is only needed to enter the Riverside (doors 6:30 PM, show 8:00 PM, all ages).",
+   "detail": "No ticket needed for the street party. Pabst Theater Group bills it 'FREE SHOWS!' with 'Doors Open 12:00 PM.' The Widespread Panic ticket is only needed to enter the Riverside (doors 6:30 PM, show 8:00 PM, all ages).",
    "source": "https://www.pabsttheatergroup.com/events/detail/wolph"
   },
   {
    "rule": "Small purses only inside the Riverside",
-   "detail": "Only small purses 13\" W x 4\" D x 9\" H or smaller are allowed into the theater, all subject to search. Backpacks and oversized bags are strictly prohibited and there is NO bag storage. Street-party bag rules are not published, but you will be walking straight from the street into the theater, so pack as if the theater rule applies.",
+   "detail": "Only small purses 13\" W x 4\" D x 9\" H or smaller are allowed into the theater, all subject to search. Backpacks and oversized bags are prohibited and there is no bag storage. Street-party bag rules are not published, but the walk goes straight from the street into the theater, so pack as if the theater rule applies.",
    "source": "https://www.pabsttheatergroup.com/events/detail/wolph"
   },
   {
    "rule": "No outside food or beverages (including water) into the theater",
-   "detail": "Prohibited inside: outside food and beverages including water, cans, bottles, alcohol; weapons, laser pens, signs, banners, vapes/e-cigarettes, iPads/tablets, selfie sticks, laptops, pro audio recorders (unless artist-approved), pro photography gear, flash photography. Vape pens are prohibited inside the venues.",
+   "detail": "Prohibited inside: outside food and beverages including water, cans, bottles, alcohol, weapons, laser pens, signs, banners, vapes and e-cigarettes, iPads and tablets, selfie sticks, laptops, pro audio recorders (unless artist-approved), pro photography gear, and flash photography.",
    "source": "https://www.pabsttheatergroup.com/events/detail/wolph"
   },
   {
    "rule": "Alcohol in the street",
-   "detail": "Not published for 2026. The closed block has historically been run as a beer garden (2017) with 'drinks to go around' (2023); Molson Coors is PTG's official brewery partner and Sun Cruiser and Jack Daniel's appear as sponsors on the event page. Plan to buy drinks on site rather than bring your own, and do not carry drinks out of the closed block.",
+   "detail": "Not published for 2026. The closed block has been run as a beer garden (2017) with 'drinks to go around' (2023). Molson Coors is PTG's official brewery partner, and Sun Cruiser and Jack Daniel's appear as sponsors on the event page. Buy drinks on site rather than bring your own, and do not carry them out of the closed block.",
    "source": "https://liveforlivemusic.com/news/widespread-panic-riverside-1/"
   },
   {
@@ -166,7 +166,7 @@
   },
   {
    "rule": "Drinks inside the theater",
-   "detail": "PTG FAQ says you can bring your drink from the venue bar into the theater with you (venue-purchased drinks only).",
+   "detail": "The PTG FAQ says a drink from the venue bar can come into the theater with you (venue-purchased drinks only).",
    "source": "https://www.pabsttheatergroup.com/plan-your-visit/faqs"
   },
   {
@@ -181,17 +181,17 @@
   },
   {
    "rule": "Re-entry, chairs, strollers, pets, smoking outdoors",
-   "detail": "Not published for the street party. Re-entry is not addressed in the PTG FAQ either. Treat the street as a standing-room festival block; the sidewalks stay open for pass-through.",
+   "detail": "Not published for the street party, and re-entry is not addressed in the PTG FAQ either. Treat the street as a standing-room festival block. The sidewalks stay open for pass-through.",
    "source": "https://www.pabsttheatergroup.com/plan-your-visit/faqs"
   },
   {
    "rule": "Bikes and scooters",
-   "detail": "No published rule. Bublr bike-share docks nearest the theaters are at Cathedral Square and Red Arrow Park (PTG lists these for the Pabst Theater, a few blocks east); Lyft is PTG's rideshare partner.",
+   "detail": "No published rule. The Bublr bike-share docks nearest the theaters are at Cathedral Square and Red Arrow Park (PTG lists these for the Pabst Theater, a few blocks east). Lyft is PTG's rideshare partner.",
    "source": "https://www.pabsttheatergroup.com/parking-riverside"
   },
   {
    "rule": "Accessibility",
-   "detail": "All PTG venues have accessible entrances, accessible seating and elevators or ramps; email tickets@ptglive.com or call (414) 242-8200 for help. The street party is on flat pavement at street level.",
+   "detail": "All PTG venues have accessible entrances, accessible seating and elevators or ramps. Email tickets@ptglive.com or call (414) 242-8200 for help. The street party is on flat pavement at street level.",
    "source": "https://www.pabsttheatergroup.com/plan-your-visit/faqs"
   }
  ],
@@ -205,7 +205,7 @@
    "address": "W Wisconsin Ave between N Plankinton Ave and N Water St (in front of the Riverside Theater, 116 W Wisconsin Ave), Milwaukee, WI 53203",
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Riverside+Theater+116+W+Wisconsin+Ave+Milwaukee+WI",
    "website": "https://www.pabsttheatergroup.com/events/detail/wolph",
-   "blurb": "The city shuts this one block of Wisconsin Avenue, bridge included, to cars from Friday noon through Sunday night, and Pabst Theater Group turns it into a free outdoor pre-party. Wolph plays at 5:30 PM each day, so you can wander over from the hotel, grab a beer on the pavement, and roll straight into the Riverside when doors open at 6:30 PM.",
+   "blurb": "The city shuts this one block of Wisconsin Avenue, bridge included, to cars from Friday noon through Sunday night, and Pabst Theater Group turns it into a free outdoor pre-party. Wolph plays at 5:30 PM each day, so the hotel, a beer on the pavement and the Riverside doors at 6:30 PM line up in one straight walk.",
    "tags": [
     "free",
     "outdoor",
@@ -233,7 +233,7 @@
    "street_opens": "12:00 PM",
    "stage": "wisconsin-ave-street-stage",
    "band": "Wolph",
-   "style": "Young Virginia jam band built around two 19-year-old guitarist-singers who started out trading Grateful Dead covers in a garage and grew into a six-piece with two drummers, bass and keys. Their sets are largely improvised, rooted in blues, classic rock and folk, with Dead-songbook covers mixed into originals. Widespread Panic's Dave Schools produced their debut single 'Blue Miracle' and their album 'It's Just Wolph,' so this is very much Panic-family music: loose, groove-first and made for dancing in the street.",
+   "style": "Wolph is a young Virginia jam band built around two 19-year-old guitarist-singers who started out trading Grateful Dead covers in a garage and grew into a six-piece with two drummers, bass and keys. The sets are largely improvised, rooted in blues, classic rock and folk, with Dead-songbook covers mixed into originals. Widespread Panic's Dave Schools produced their debut single 'Blue Miracle' and their album 'It's Just Wolph,' so this is Panic-family music: loose, groove-first and made for dancing in the street.",
    "hometown": "Virginia",
    "members": "Joshua Wright (guitar, vocals), Dylan Stickle (guitar, vocals), Cole Morgan and James Dale (drums), Jacob Spence (bass), Greg Gernon (keyboards)",
    "spotify_url": "https://open.spotify.com/artist/7Jo1dVJInWvaAwgOYrotfo",
@@ -269,7 +269,7 @@
    "street_opens": "12:00 PM",
    "stage": "wisconsin-ave-street-stage",
    "band": "Wolph",
-   "style": "Same band all three days. Expect a different, mostly improvised set each night: Dead covers, 'Blue Miracle' and other originals, and long two-drummer jams in the Panic/Dead lineage. If you like the stretched-out second-set feel of a Panic show, this is the warm-up.",
+   "style": "Same band all three days, and a different, mostly improvised set each night: Dead covers, 'Blue Miracle' and other originals, and long two-drummer jams in the Panic and Dead lineage. Anyone who likes the stretched-out second set of a Panic show has found the warm-up.",
    "hometown": "Virginia",
    "spotify_url": "https://open.spotify.com/artist/7Jo1dVJInWvaAwgOYrotfo",
    "website": "https://wolphtheband.com",
@@ -290,7 +290,7 @@
    "street_opens": "12:00 PM",
    "stage": "wisconsin-ave-street-stage",
    "band": "Wolph",
-   "style": "Final free set of the run. Wolph's Dead-leaning, improvisational Southern-rock-meets-psychedelia set is a fitting close before Panic's third night; Red Light Management describes the band as Southern rock with psychedelic sounds and improvisational jamming.",
+   "style": "The final free set of the run. Red Light Management describes the band as Southern rock with psychedelic sounds and improvisational jamming, which is the right close before Panic's third night.",
    "hometown": "Virginia",
    "spotify_url": "https://open.spotify.com/artist/7Jo1dVJInWvaAwgOYrotfo",
    "website": "https://wolphtheband.com",
@@ -312,7 +312,7 @@
    "end": null,
    "venue_id": "mos-irish-pub",
    "band": "Houseplant",
-   "style": "Louisville, Kentucky 'genre-fluid' jam band formed in 2020: electric mandolin up front, indie-rock songwriting in the Radiohead/The National vein, and lush psychedelic improvisation, now anchored by former Goose drummer Ben Atkind. Melodic and exploratory rather than bluesy; a good decompression set after Panic.",
+   "style": "Houseplant is a Louisville, Kentucky 'genre-fluid' jam band formed in 2020: electric mandolin up front, indie-rock songwriting in the Radiohead and The National vein, and lush psychedelic improvisation, now anchored by former Goose drummer Ben Atkind. Melodic and exploratory rather than bluesy, which makes it a good decompression set after Panic.",
    "hometown": "Louisville, KY",
    "members": "Tavis Conley (mandolin, vocals, songwriter), Chris Rodahaffer (guitar), Tommy Arnspiger (bass), Sam Richardson (keys), Ben Atkind (drums, ex-Goose)",
    "spotify_url": "https://open.spotify.com/artist/6NpcDHvp78i8ja2y4yLDDk",
@@ -357,7 +357,7 @@
    "end": null,
    "venue_id": "mos-irish-pub",
    "band": "Armchair Boogie",
-   "style": "Madison, Wisconsin jamgrass quartet (banjo, guitar, bass, drums) that plays 'bluegrass at full throttle, infused with the energy of a jam band and the swagger of rock 'n' roll.' Fast picking, funk grooves and a drummer driving everything; think Greensky or Leftover Salmon energy in a packed Irish pub. A hometown-ish favorite for Wisconsin Panic fans.",
+   "style": "Armchair Boogie is a Madison, Wisconsin jamgrass quartet (banjo, guitar, bass, drums) that plays 'bluegrass at full throttle, infused with the energy of a jam band and the swagger of rock 'n' roll.' Fast picking, funk grooves and a drummer driving everything, in the Greensky or Leftover Salmon lane, inside a packed Irish pub. A near-hometown favorite for Wisconsin Panic fans.",
    "hometown": "Madison, WI (formed in Stevens Point, 2015)",
    "members": "Augie Dougherty (banjo, vocals), Ben Majeska (guitar, vocals), Eli Frieders (bass), Denzel Connor (drums)",
    "spotify_url": "https://open.spotify.com/artist/2KSh6pICPUrZ2ohW7O7Pxw",
@@ -389,7 +389,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mo%27s+Irish+Pub+142+W+Wisconsin+Ave+Milwaukee+WI",
    "yelp_photos_url": null,
    "website": "https://www.mosirishpub.com/milwaukee",
-   "blurb": "The Irish pub literally next door to the Riverside marquee, at the west edge of the closed block. It is the official Widespread Panic after-party bar all three nights (Houseplant Fri/Sat, Armchair Boogie Sun, 21+, doors 11 PM) and the natural indoor fallback if the street gets cold.",
+   "blurb": "Mo's is the Irish pub next door to the Riverside marquee, at the west edge of the closed block. It is the official Widespread Panic after-party bar all three nights (Houseplant Fri/Sat, Armchair Boogie Sun, 21+, doors 11 PM) and the indoor fallback if the street gets cold.",
    "tags": [
     "after-party",
     "irish pub",
@@ -401,7 +401,7 @@
    "source": "https://onmilwaukee.com/articles/widespread-panic-riverside"
   }
  ],
- "food_and_drink_note": "No 2026 vendor list for the closed block was published. Historically the block has hosted a beer garden (2017) and food from Doc's Smokehouse plus drinks (2021). The Riverside's own bars (cashless) open with doors at 6:30 PM.",
+ "food_and_drink_note": "No 2026 vendor list for the closed block was published. The block has hosted a beer garden (2017) and food from Doc's Smokehouse plus drinks (2021). The Riverside's own bars (cashless) open with doors at 6:30 PM.",
  "food_and_drink_note_sources": [
   "https://liveforlivemusic.com/news/widespread-panic-riverside-1/",
   "https://biztimes.com/rock-group-widespread-panic-returns-to-riverside-theater-drawing-thousands-to-milwaukee/"
@@ -409,15 +409,15 @@
  "transit_notes": [
   "MCTS CONNECT 1 (Wisconsin Avenue bus rapid transit) detours off Wisconsin Ave between Plankinton Ave and Water St via Michigan St from 12:00 PM Fri Oct 23 through the closure. Wisconsin & Water BRT Station is inactive both directions (stop IDs 9648 eastbound / 9649 westbound). Board eastbound at Wisconsin & N5 (9646) or Wisconsin & Van Buren (9650); westbound at Wisconsin & Jackson (9651) or Wisconsin & N5 (9647). Source: https://www.ridemcts.com/routes-schedules/connect1",
   "MCTS Route 30 (Sherman-Wisconsin) also detours via Michigan St. Inactive stops: Wisconsin & Plankinton (eastbound stop 63, westbound stop 5) and Wisconsin & Water BRT Station (9648/9649). Alternates: eastbound Wisconsin & N3 (62) or Wisconsin & Jackson (66); westbound Wisconsin & Jackson BRT Station (9651) or Wisconsin & MLK/3rd (6). MCTS lists the detour end as 'Sunday, October 25, 2025' (typo for 2026). Source: https://www.ridemcts.com/routes-schedules/30",
-  "The Hop streetcar is not affected: no track runs on this stretch of Wisconsin Ave (the M-Line runs east of the river on N Broadway / N Milwaukee St; route map at https://thehopmke.com/interactive-map) and no alerts are posted for Oct 23-25. The Hop is free; hours Fri 5 AM-12 AM, Sat 7 AM-12 AM, Sun 7 AM-10 PM. Sources: https://thehopmke.com/service-updates-alerts and https://thehopmke.com/fares-hours",
+  "The Hop streetcar is not affected: no track runs on this stretch of Wisconsin Ave (the M-Line runs east of the river on N Broadway / N Milwaukee St, route map at https://thehopmke.com/interactive-map) and no alerts are posted for Oct 23-25. The Hop is free. Hours Fri 5 AM-12 AM, Sat 7 AM-12 AM, Sun 7 AM-10 PM. Sources: https://thehopmke.com/service-updates-alerts and https://thehopmke.com/fares-hours",
   "The Wisconsin Avenue bridge over the Milwaukee River is inside the closure, so cars crossing the river downtown should use the Michigan St bridge (one block south) or Wells St bridge (two blocks north). Source: https://city.milwaukee.gov/dpw/infrastructure/StreetClosures",
-  "Pabst Theater Group's discounted parking for the Riverside is the Gimbels Parking Structure, 555 N Plankinton Ave (corner of Plankinton and Michigan; entrances on Plankinton or Michigan, 7 ft 3 in clearance), $11 on weekends, prepaid in advance with show tickets and displayed on the dash; lot opens 2 hours before showtime, good for 6 hours; exit access code 7275. Both entrances are south of the closure and reachable. Source: https://www.pabsttheatergroup.com/parking-riverside",
-  "Rideshare: PTG's partner is Lyft but no official pickup zone is published. Wisconsin Ave itself is closed at the theater, so set pickup on W Michigan St or N Plankinton Ave south of Wisconsin, or N Water St east of the bridge. Source: https://www.pabsttheatergroup.com/parking-riverside",
+  "Pabst Theater Group's discounted parking for the Riverside is the Gimbels Parking Structure, 555 N Plankinton Ave (corner of Plankinton and Michigan, entrances on Plankinton or Michigan, 7 ft 3 in clearance), $11 on weekends, prepaid in advance with show tickets and displayed on the dash. The lot opens 2 hours before showtime, is good for 6 hours, and the exit access code is 7275. Both entrances are south of the closure and reachable. Source: https://www.pabsttheatergroup.com/parking-riverside",
+  "Rideshare: PTG's partner is Lyft, but no official pickup zone is published. Wisconsin Ave itself is closed at the theater, so set pickup on W Michigan St or N Plankinton Ave south of Wisconsin, or N Water St east of the bridge. Source: https://www.pabsttheatergroup.com/parking-riverside",
   "Expect heavier-than-usual downtown traffic Friday and Saturday evenings from the Brewers World Series Games 1 and 2 at American Family Field (7 PM) and the Bucks home opener at Fiserv Forum (3 PM Friday), plus the Third Ward and Deer District watch parties. Source: https://radiomilwaukee.org/events-festivals/2026-10-22/brewers-watch-parties-weekend-events"
  ],
  "world_series_watch_parties": {
   "part_of_street_party": false,
-  "note": "The Wisconsin Avenue closure is a Pabst Theater Group / Widespread Panic event only. The Brewers are hosting the Tampa Bay Rays in World Series Games 1 and 2 (Fri Oct 23 and Sat Oct 24, 7 PM) at American Family Field, and two separate free watch parties, one with its own street closure, are happening within a 15-minute walk.",
+  "note": "The Wisconsin Avenue closure is a Pabst Theater Group and Widespread Panic event only. The Brewers host the Tampa Bay Rays in World Series Games 1 and 2 (Fri Oct 23 and Sat Oct 24, 7 PM) at American Family Field, and two separate free watch parties, one with its own street closure, are within a 15-minute walk.",
   "events": [
    {
     "id": "third-ward-world-series-block-party",
@@ -473,7 +473,7 @@
    "venue": "Turner Hall Ballroom, 1040 Vel R. Phillips Ave",
    "dates": "Fri-Sat Oct 23-24",
    "cost": "Free admission",
-   "note": "Two-day arcade festival with competitions, freeplay games, pinball, food and drinks (Pabst Theater Group).",
+   "note": "Two-day arcade festival with competitions, freeplay games, pinball, food and drinks, run by Pabst Theater Group.",
    "source": "https://www.pabsttheatergroup.com/events/detail/big-buck-hunter-championship-2026"
   },
   {
@@ -481,7 +481,7 @@
    "venue": "Vivarium, 1818 N Farwell Ave",
    "dates": "Fri Oct 23",
    "cost": null,
-   "note": "Game 1 on screens throughout the venue, music starts right after the game.",
+   "note": "Game 1 on screens throughout the venue, and the music starts right after the game.",
    "source": "https://www.pabsttheatergroup.com/events/detail/rod-tuffcurls-oct-2026"
   },
   {

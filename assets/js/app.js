@@ -212,7 +212,6 @@ window.WSP = window.WSP || {};
   function renderSeries(ws) {
     const b = body('worldseries'); if (!ws) return pending('worldseries');
     const s = ws.series || {}; const t = todayISO();
-    $('#series-h').textContent = s.brewers_in_it ? `${(s.teams || []).join(' vs. ')} — and it's here` : 'The games during your stay';
     b.innerHTML = `
       <div class="notice">${esc(s.milwaukee_angle || s.series_status || '')}${src(s.source)}</div>
       <div style="display:flex;flex-direction:column;gap:10px">${(ws.games || []).filter(g => g.date >= '2026-10-23' && g.date <= '2026-10-26').map(g => g.game ? `<div class="game${g.after_departure ? ' after' : ''}${g.date === t ? ' today' : ''}"><div><div class="label">${esc(g.weekday)} ${esc(g.date.slice(5).replace('-', '/'))}${g.date === t ? ' · today' : ''}${g.after_departure ? ' · after your flight' : ''}</div><div class="matchup">${esc(g.matchup || '')}</div><div class="when">${esc(g.venue || '')}${g.city ? `, ${esc(g.city)}` : ''} · ${esc(g.tv || '')}</div></div><div><div class="big num">${esc(g.first_pitch_central)}</div><div class="label" style="text-align:right">first pitch</div></div>${g.note ? `<p class="note">${esc(g.note)}</p>` : ''}</div>` : `<div class="game" style="opacity:.75"><div><div class="label">${esc(g.weekday)} ${esc(g.date.slice(5).replace('-', '/'))}</div><div class="matchup">No game</div><div class="when">${esc(g.note || 'Travel day')}</div></div></div>`).join('')}</div>
@@ -351,7 +350,7 @@ window.WSP = window.WSP || {};
   /* ---------- Boot ---------- */
   async function boot() {
     const wxP = WSP.weather.init();
-    const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'locations', 'share', 'peeps'];
+    const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'locations', 'share', 'peeps', 'notes', 'welcome', 'updates'];
     const d = Object.fromEntries(await Promise.all(names.map(async n => [n, await load(n)])));
     const locs = collect(d); locs.forEach(l => byId[l.id] = l); WSP.locations = locs;
 
@@ -363,6 +362,7 @@ window.WSP = window.WSP || {};
     renderPeeps(d.peeps);
     WSP.map.init(locs, d.closure && d.closure.closure && d.closure.closure.polygon);
     if (d.concert && d.concert.hotel && d.concert.venue) WSP.map.mini('mini-map', d.concert.hotel, d.concert.venue);
+    WSP.shell.init(d);
 
     const wx = await wxP;
     if (wx && wx.hourly) {

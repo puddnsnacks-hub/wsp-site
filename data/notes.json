@@ -1,0 +1,17 @@
+{
+ "widgets": {
+  "tonight": "Hey Baby, this card follows the night. It knows which show is next, the game that overlaps it, and the temperature at 8 PM. The walk button is the one you want at 6:15.",
+  "weather": "Hey Baby, refreshed every ten minutes from the downtown station. The lake makes it a few degrees colder than the number once you are near the water, and you are always near the water.",
+  "map": "Hey Baby, every place on this site, colored by kind. Tap a pin for its card, use the chips to narrow it, and Find me puts you on it (it asks your phone for location once).",
+  "shows": "Hey Baby, doors, set times, the room's rules, and the setlist sites for the morning after. Panic does not repeat a song across a run, so each night is its own show.",
+  "street": "Hey Baby, the block in front of the theater is closed to cars all weekend and Wolph plays at 5:30 each day, free. The rules are the theater's rules, since you walk straight from one into the other.",
+  "series": "Hey Baby, the Brewers' side of the weekend. I will keep the scores and the watch spots current between games. The Deer District screen is free and ten minutes away on foot.",
+  "lineups": "Hey Baby, the cards fill in as the lineups post, usually three to four hours before first pitch. Tap a card to flip it (the Texas ties are on the back).",
+  "eat": "Hey Baby, four tabs. Worth the trip is the special meal, Street food is the ten-minute kind, Traditions is the Milwaukee menu, and Monday is the last good breakfast before the airport. Every place opens straight to its Yelp food photos.",
+  "drink": "Hey Baby, before doors and after the encore, sorted. Mo's next door is where the run ends up every night. Last call is 2:30 Friday and Saturday, 2:00 Sunday.",
+  "hotel": "Hey Baby, the Drury, the bridge, the free streetcar, and when to leave for the airport on Monday. The small map shows the walk.",
+  "facts": "Hey Baby, things to say at the bar. Each one links to where it came from, in case someone argues.",
+  "laverne": "Hey Baby, the honest answer and the fun one, both. The Bronze Fonz is five minutes from the theater, and he counts.",
+  "share": "Hey Baby, the whole map for your phone's Maps app, and routes you can tap. The Google Map link is yours to send to anyone who is meeting you."
+ }
+}

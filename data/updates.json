@@ -1,0 +1,26 @@
+{
+ "updates": [
+  {
+   "date": "2026-10-23T05:30:00-05:00",
+   "important": true,
+   "title": "Tonight collides with Game 1, and that is fine",
+   "body": [
+    "Hey Baby, first pitch is 7:00, half an hour before set one. Catch the top of the first at Major Goolsby's two blocks from the theater, check the score at set break, and let the walk home at 11:30 tell you the rest.",
+    "The Riverside bars are cashless and small purses only. No backpacks, no bag check."
+   ],
+   "link": "#series",
+   "link_label": "The games"
+  },
+  {
+   "date": "2026-10-23T05:00:00-05:00",
+   "important": false,
+   "title": "The site is up",
+   "body": [
+    "Hey Baby, everything here was built this morning for this weekend. Hours and schedules come from the places themselves and they change, so tap through before you go.",
+    "Lineups land here the moment they post. The welcome is one tap away in the menu if you want it again."
+   ],
+   "link": "#lineups",
+   "link_label": "The cards"
+  }
+ ]
+}

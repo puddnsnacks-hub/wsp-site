@@ -59,7 +59,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Lakefront+Brewery+1872+N+Commerce+St+Milwaukee",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/lakefront-brewery-milwaukee?tab=food",
    "website": "https://lakefrontbrewery.com/beer-hall",
-   "blurb": "It is Friday in Milwaukee, which means fish fry, and this is the one with a live polka band in a riverside beer hall. Beer-battered cod, potato pancakes, a Riverwest Stein, and the Brewhaus Polka Kings from 5 to 8 PM, all ten minutes from the Riverside.",
+   "blurb": "Friday in Milwaukee means fish fry, and this is the one with a live polka band in a riverside beer hall. Beer-battered cod, potato pancakes, a Riverwest Stein, and the Brewhaus Polka Kings from 5 to 8 PM, ten minutes from the Riverside.",
    "tags": [
     "fish fry",
     "polka",
@@ -73,7 +73,7 @@
     "credit_url": "https://lakefrontbrewery.com/beer-hall",
     "local": "assets/img/food/lakefront-brewery-fish-fry-e97b5fef.jpg"
    },
-   "why_special": "Lakefront is the Friday fish fry that out-of-towners remember: a cavernous former power plant on the Milwaukee River, table service with cocktails on Fridays only, and a weekly polka band. It is the full Wisconsin ritual (fish, rye bread, slaw, polka, brandy) in one room, and the closest proper fish fry to the theater.",
+   "why_special": "Lakefront is the Friday fish fry out-of-towners remember: a cavernous former power plant on the Milwaukee River, table service with cocktails on Fridays only, and a weekly polka band. The whole Wisconsin ritual (fish, rye bread, slaw, polka, brandy) in one room, and the closest proper fish fry to the theater. Never been inside, but the fish fry has a polka band, and that is enough.",
    "must_order": [
     "Fish Fry Dinner: three-piece beer-battered cod with potato pancakes and applesauce ($20)",
     "Fried Walleye, hand-breaded, two pieces ($23)",
@@ -84,9 +84,9 @@
    "reservation": {
     "needed": false,
     "url": "https://lakefrontbrewery.com/beer-hall/food#friday-fish-fry",
-    "note": "Limited reservations only for 4:00-4:30 PM and 6:00-6:30 PM slots; otherwise first come, first served. Parties of 9+ call 414-372-8800."
+    "note": "Limited reservations for the 4:00-4:30 PM and 6:00-6:30 PM slots only, otherwise first come, first served. Parties of 9+ call 414-372-8800."
    },
-   "best_window": "Friday Oct 23, arrive 4:00 PM when the fish fry kitchen opens; polka starts 5:00 PM; leave by 6:30 PM for doors",
+   "best_window": "Friday Oct 23: arrive at 4:00 PM when the fish fry kitchen opens, polka at 5:00 PM, out by 6:30 PM for doors",
    "hours_this_weekend": {
     "fri": "11:00 AM - 9:00 PM (fish fry kitchen 4:00 - 9:00 PM, table service)",
     "sat": "11:00 AM - 9:00 PM",
@@ -108,7 +108,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Three+Brothers+Restaurant+2414+S+St+Clair+St+Milwaukee",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/three-brothers-restaurant-milwaukee?tab=food",
    "website": "https://www.travelwisconsin.com/dining/three-brothers-restaurant-204614",
-   "blurb": "A 1956 Serbian family restaurant inside an old Schlitz tiled-corner tavern in Bay View, run by the founder's widow and daughters. James Beard America's Classic (2002). The burek is baked to order and takes about half an hour, so order it the minute you sit down.",
+   "blurb": "A 1956 Serbian family restaurant inside an old Schlitz tiled-corner tavern in Bay View, run by the founder's widow and daughters, and a James Beard America's Classic (2002). The burek is baked to order and takes about half an hour, so it goes in first.",
    "tags": [
     "James Beard",
     "Serbian",
@@ -122,7 +122,7 @@
     "credit_url": "https://www.theinfatuation.com/milwaukee/reviews/three-brothers",
     "local": "assets/img/food/three-brothers-2a7f2db5.jpg"
    },
-   "why_special": "Nothing else like it in the country: the menu has barely changed in 70 years, the dining room is a Schlitz tavern with vintage floral plates and dim lamps, and the food is a Serbian grandmother's Sunday table. It opens at 4:00 PM on Sunday, which lines up perfectly with an early dinner before the last show.",
+   "why_special": "The menu has barely changed in 70 years, the dining room is a Schlitz tavern with vintage floral plates and dim lamps, and the food is a Serbian grandmother's Sunday table. It opens at 4:00 PM on Sunday, which fits an early dinner before the last show. I haven't eaten here. Every Milwaukee critic I read has, and they agree on the burek.",
    "must_order": [
     "Burek (spinach and cheese, or meat), a giant baked phyllo pie, about 30 minutes to bake ($26.50)",
     "Chicken paprikash with potato dumplings",
@@ -133,9 +133,9 @@
    "reservation": {
     "needed": true,
     "url": null,
-    "note": "Call 414-481-7530; small room, so call ahead for Sunday at 4:00 PM. Bring cash in case (historically cash-only; see open_questions)."
+    "note": "Call 414-481-7530. Small room, so call ahead for Sunday at 4:00 PM, and bring cash in case (historically cash-only)."
    },
-   "best_window": "Sunday Oct 25 at 4:00 PM (opens 4:00 PM Sat/Sun); also Saturday 4:00 PM",
+   "best_window": "Sunday Oct 25 at 4:00 PM (opens 4:00 PM Sat/Sun), or Saturday at 4:00 PM",
    "hours_this_weekend": {
     "fri": "5:00 - 9:00 PM",
     "sat": "4:00 - 9:00 PM",
@@ -156,7 +156,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Sanford+Restaurant+1547+N+Jackson+St+Milwaukee",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/sanford-restaurant-milwaukee?tab=food",
    "website": "https://www.sanfordrestaurant.com/",
-   "blurb": "Milwaukee's fine-dining standard since 1989, set in the D'Amato family's former corner grocery. A quiet 20-table room, polished service, and a seasonal four-course prix fixe. If she wants one dressed-up dinner this weekend, this is it.",
+   "blurb": "Milwaukee's fine-dining standard since 1989, in the D'Amato family's former corner grocery. A quiet 20-table room, polished service, and a seasonal four-course prix fixe. One dressed-up dinner this weekend belongs here.",
    "tags": [
     "fine dining",
     "prix fixe",
@@ -170,7 +170,7 @@
     "credit_url": "https://www.sanfordrestaurant.com/",
     "local": "assets/img/food/sanford-59392b82.jpg"
    },
-   "why_special": "Chef-owner Justin Aprahamian (James Beard Best Chef Midwest) runs the restaurant Sandy D'Amato made famous; it has been on every Milwaukee best-of list for 35 years and still feels like a secret because it seats so few people.",
+   "why_special": "Chef-owner Justin Aprahamian (James Beard Best Chef Midwest) runs the restaurant Sandy D'Amato made famous. It has been on every Milwaukee best-of list for 35 years and still feels like a secret because it seats so few people.",
    "must_order": [
     "Four-course Prix Fixe ($105), the whole point",
     "Surprise seven-course tasting menu ($135) only Tue-Fri, so Friday if time allows",
@@ -182,7 +182,7 @@
     "url": "https://sanfordrestaurant.com/3079-2/",
     "note": "Phone only: 414-276-9608, Tue-Sat 1:00-9:00 PM. First seating is 5:30 PM Fri / 5:00 PM Sat. Tell them about the 7:30 PM show."
    },
-   "best_window": "Saturday Oct 24 at 5:00 PM (first seating) is the safest fit; Friday first seating is 5:30 PM",
+   "best_window": "Saturday Oct 24 at 5:00 PM (first seating) is the safest fit. Friday's first seating is 5:30 PM",
    "hours_this_weekend": {
     "fri": "5:30 - 10:00 PM",
     "sat": "5:00 - 10:00 PM",
@@ -203,7 +203,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Odd+Duck+939+S+2nd+St+Milwaukee",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/odd-duck-milwaukee?tab=food",
    "website": "https://www.oddduckrestaurant.com/",
-   "blurb": "Walker's Point's playful, globally inspired small-plates room, consistently on Milwaukee Magazine's best-restaurants list. The menu changes constantly, the bar opens at 3:00 PM with a $7 spritz happy hour, and the kitchen fires at 5:00 PM, so it is a natural pre-show dinner.",
+   "blurb": "Walker's Point's playful, globally minded small-plates room, a regular on Milwaukee Magazine's best-restaurants list. The menu changes constantly, the bar opens at 3:00 PM with a $7 spritz happy hour, and the kitchen fires at 5:00 PM, which is pre-show dinner timing.",
    "tags": [
     "small plates",
     "cocktails",
@@ -217,7 +217,7 @@
     "credit_url": "https://www.oddduckrestaurant.com/",
     "local": "assets/img/food/odd-duck-7a50c700.jpg"
    },
-   "why_special": "The ever-changing shareable menu means no two visits are alike, the front of house is famously warm, and the bar/patio seats are walk-in, so she can wander in at 4:30 PM, drink through happy hour, and eat at 5:00 PM without a booking.",
+   "why_special": "The shareable menu changes so often that no two visits match, the front of house is known for warmth, and the bar and patio seats are walk-in. Wander in at 4:30 PM, drink through happy hour, and eat at 5:00 PM without a booking.",
    "must_order": [
     "Ask for the current duck preparation (there is always one)",
     "Three or four shareable plates across the vegetable and seafood sections",
@@ -227,7 +227,7 @@
    "reservation": {
     "needed": false,
     "url": "https://resy.com/cities/milwaukee-wi/venues/odd-duck-restaurant",
-    "note": "Resy for dining-room tables; bar, bar tables and patio are first come, first served. 3% credit card surcharge (debit exempt)."
+    "note": "Resy for dining-room tables. Bar, bar tables and patio are first come, first served. 3% credit card surcharge (debit exempt)."
    },
    "best_window": "Friday or Saturday: bar at 4:30 PM for happy hour, kitchen at 5:00 PM, out by 6:45 PM",
    "hours_this_weekend": {
@@ -250,7 +250,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Birch+459+E+Pleasant+St+Milwaukee",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/birch-milwaukee?tab=food",
    "website": "https://www.birchonpleasant.com/",
-   "blurb": "Seasonal Midwestern cooking from a wood-fired hearth in a handsome room just north of downtown, with a 4:00-6:00 PM happy hour and a burger that Milwaukee Magazine calls top-tier. Dinner starts at 5:00 PM Friday and Saturday.",
+   "blurb": "Seasonal Midwestern cooking from a wood-fired hearth in a handsome room just north of downtown, with a 4:00-6:00 PM happy hour and a burger Milwaukee Magazine calls top-tier. Dinner starts at 5:00 PM Friday and Saturday.",
    "tags": [
     "wood-fired",
     "farm-to-table",
@@ -264,7 +264,7 @@
     "credit_url": "https://www.birchonpleasant.com/",
     "local": "assets/img/food/birch-8d723053.jpg"
    },
-   "why_special": "Chef Kyle Knall (James Beard semifinalist) cooks almost everything over an open hearth; it is the city's most New-York-feeling room while still being about Wisconsin farms. Milwaukee Magazine Best Restaurants 2025.",
+   "why_special": "Chef Kyle Knall (James Beard semifinalist) cooks almost everything over an open hearth. It is the most New York-feeling room in the city while still being about Wisconsin farms. Milwaukee Magazine Best Restaurants 2025. This one is on reputation.",
    "must_order": [
     "Anything from the hearth: the whole roasted fish or the wood-fired pork",
     "The Birch burger (a Milwaukee Magazine top pick)",
@@ -276,7 +276,7 @@
     "url": "https://www.opentable.com/r/birch-milwaukee-reservations-milwaukee?restref=1004269&lang=en-US&ot_source=Restaurant%20website",
     "note": "OpenTable. Book 5:00 PM."
    },
-   "best_window": "Friday Oct 23 happy hour 4:00 PM then 5:00 PM dinner; or Saturday 5:00 PM",
+   "best_window": "Friday Oct 23: happy hour at 4:00 PM, then 5:00 PM dinner. Or Saturday at 5:00 PM",
    "hours_this_weekend": {
     "fri": "Happy hour 4:00 - 6:00 PM; dinner 5:00 - 10:00 PM",
     "sat": "5:00 - 10:00 PM",
@@ -297,7 +297,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mader's+Restaurant+1041+N+Old+World+3rd+St+Milwaukee",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/maders-milwaukee-3?tab=food",
    "website": "https://www.madersrestaurant.com/",
-   "blurb": "Milwaukee's 120-year-old German landmark on Old World Third Street: suits of armor, stained glass, a Hofbrau pour, and the kind of pork shank that needs a nap afterward. Ten minutes on foot from the Riverside and open Sunday and Monday, when much of the city is dark.",
+   "blurb": "Milwaukee's 120-year-old German landmark on Old World Third Street: suits of armor, stained glass, a Hofbrau pour, and a pork shank that calls for a nap. Ten minutes on foot from the Riverside, and open Sunday and Monday when much of the city is dark.",
    "tags": [
     "German",
     "old Milwaukee",
@@ -312,7 +312,7 @@
     "credit_url": "https://www.madersrestaurant.com/",
     "local": "assets/img/food/maders-1a4e3cf4.jpg"
    },
-   "why_special": "It is the surviving old-world German dining room of Beer City (Karl Ratzsch closed in 2017), has fed presidents and rock stars, and is the walkable backup for a Milwaukee-flavored meal on any day of the trip, including a late Monday lunch before the flight.",
+   "why_special": "It is the surviving old-world German dining room of Beer City (Karl Ratzsch closed in 2017), it has fed presidents and rock stars, and it is the walkable backup for a Milwaukee-flavored meal any day of the trip, including a late Monday lunch before the flight.",
    "must_order": [
     "Bavarian Platter (schnitzel, kassler, bratwurst, sauerkraut, spaetzle)",
     "Wiener Schnitzel",
@@ -323,9 +323,9 @@
    "reservation": {
     "needed": false,
     "url": "https://resy.com/cities/milwaukee-wi/venues/maders-restaurant",
-    "note": "Resy; walk-ins fine at off hours. 414-271-3377."
+    "note": "Resy. Walk-ins fine at off hours. 414-271-3377."
    },
-   "best_window": "Sunday Oct 25 early dinner 4:30 PM, or Monday 11:30 AM lunch before the airport",
+   "best_window": "Sunday Oct 25 early dinner at 4:30 PM, or Monday 11:30 AM lunch before the airport",
    "hours_this_weekend": {
     "fri": "11:30 AM - 10:00 PM",
     "sat": "11:30 AM - 10:00 PM",
@@ -345,7 +345,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Solly's+Grille+4629+N+Port+Washington+Rd+Glendale",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/sollys-grille-glendale?tab=food",
    "website": "https://en.wikipedia.org/wiki/Solly%27s_Grille",
-   "blurb": "Home of the butter burger since 1936 and a James Beard America's Classic (2022): a horseshoe lunch counter where the patty is steamed in butter and then topped with a melting slab of more butter. Pair it with a real malt. Lunch only, and closed Sunday and Monday, so Friday or Saturday it is.",
+   "blurb": "Home of the butter burger since 1936 and a James Beard America's Classic (2022): a horseshoe lunch counter where the patty is steamed in butter and then topped with a melting slab of more butter. A real malt goes with it. Lunch only, closed Sunday and Monday, so Friday or Saturday.",
    "tags": [
     "butter burger",
     "James Beard",
@@ -359,7 +359,7 @@
     "credit_url": "https://www.theinfatuation.com/milwaukee/reviews/sollys-grille",
     "local": "assets/img/food/sollys-grille-7026095b.jpg"
    },
-   "why_special": "The butter burger is Milwaukee's signature sandwich and Solly's is its birthplace; the Beard Foundation singled it out in 2022. Eating one at the counter with the regulars is a one-of-a-kind Milwaukee lunch you cannot replicate anywhere else.",
+   "why_special": "The butter burger is Milwaukee's signature sandwich and Solly's is its birthplace. The Beard Foundation singled it out in 2022. One at the counter with the regulars is a lunch that exists nowhere else. I haven't had one, and I still respect a kitchen that butters the bun and then adds more butter.",
    "must_order": [
     "The Original Butter Burger (ask for grilled onions)",
     "A chocolate malt or shake",
@@ -371,7 +371,7 @@
     "url": null,
     "note": "Counter seating, walk in. 414-332-8808."
    },
-   "best_window": "Saturday Oct 24 late breakfast/lunch (opens 7:00 AM); or Friday lunch",
+   "best_window": "Saturday Oct 24 late breakfast or lunch (opens 7:00 AM), or Friday lunch",
    "hours_this_weekend": {
     "fri": "7:00 AM - 7:00 PM",
     "sat": "7:00 AM - 7:00 PM",
@@ -393,7 +393,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=La+Dama+839+S+2nd+St+Milwaukee",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/la-dama-milwaukee?tab=food",
    "website": "https://www.ladamamke.com/",
-   "blurb": "Chef Emmanuel Corona's elegant, mural-walled Mexican kitchen in Walker's Point, the South Side's old Mexican heart. Mole poblano and mole negro from his childhood, a deep mezcal list, and a 4:30 PM Sunday opening that fits the early-dinner window exactly.",
+   "blurb": "Chef Emmanuel Corona's mural-walled Mexican kitchen in Walker's Point, the South Side's old Mexican heart. Mole poblano and mole negro from his childhood, a deep mezcal list, and a 4:30 PM Sunday opening that fits the early-dinner window exactly.",
    "tags": [
     "Mexican",
     "mole",
@@ -408,7 +408,7 @@
     "credit_url": "https://www.ladamamke.com/",
     "local": "assets/img/food/la-dama-e8bdf9ba.jpg"
    },
-   "why_special": "Milwaukee Magazine Best Restaurants 2025 called it an inventive, elegant take on Mexican cuisine; it is the destination version of the South Side's Mexican tradition rather than a taqueria, and one of the only serious restaurants open for an early Sunday dinner.",
+   "why_special": "Milwaukee Magazine Best Restaurants 2025 called it an inventive, elegant take on Mexican cuisine. It is the destination version of the South Side's Mexican tradition rather than a taqueria, and one of the few serious restaurants open for an early Sunday dinner.",
    "must_order": [
     "Mole poblano or mole negro (the house signatures)",
     "Octopus",
@@ -421,7 +421,7 @@
     "url": "https://www.exploretock.com/la-dama-milwaukee/",
     "note": "Tock. 414-645-2606."
    },
-   "best_window": "Sunday Oct 25 at 4:30 PM (alternative to Three Brothers); Fri/Sat 5:00 PM",
+   "best_window": "Sunday Oct 25 at 4:30 PM (the alternative to Three Brothers), or Fri/Sat at 5:00 PM",
    "hours_this_weekend": {
     "fri": "5:00 - 9:30 PM",
     "sat": "5:00 - 9:30 PM",
@@ -444,7 +444,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=3rd+Street+Market+Hall+275+W+Wisconsin+Ave+Milwaukee",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/3rd-street-market-hall-milwaukee?tab=food",
    "website": "https://3rdstmarkethall.com/",
-   "blurb": "Twenty-plus stalls and a bar two blocks west of the Riverside on the same side of Wisconsin Avenue. Lao food at SapSap, Cambodian sandwiches at Num Pang, Wisconsin cheese curds and mac at Rod-N-Makk, tacos at Kompali, Pizza Shuttle slices, Bebe Zito ice cream. Open until 10:00 PM Fri/Sat, so it is the pre-show grazing hall.",
+   "blurb": "A food hall with twenty-plus stalls and a bar two blocks west of the Riverside, on the same side of Wisconsin Avenue. Lao food at SapSap, Cambodian sandwiches at Num Pang, Wisconsin cheese curds and mac at Rod-N-Makk, tacos at Kompali, Pizza Shuttle slices, Bebe Zito ice cream. Open until 10:00 PM Fri/Sat, so it is the pre-show grazing hall.",
    "tags": [
     "food hall",
     "walkable",
@@ -459,7 +459,7 @@
     "credit_url": "https://3rdstmarkethall.com/",
     "local": "assets/img/food/third-street-market-hall-c0a9ebc4.jpg"
    },
-   "why_special": "Closest food to the venue, with real range: SapSap (Lao, family recipes), Anytime Arepa, Mr. Dye's Pies, Kawa ramen. It also has an on-site bar, self-serve beer wall, and games.",
+   "why_special": "The closest food to the venue, with real range: SapSap (Lao, family recipes), Anytime Arepa, Mr. Dye's Pies, Kawa ramen. There is an on-site bar, a self-serve beer wall, and games.",
    "must_order": [
     "SapSap: Lao sausage or khao poon",
     "Rod-N-Makk: Wisconsin cheese curds and a mac bowl",
@@ -471,7 +471,7 @@
     "needed": false,
     "url": null
    },
-   "best_window": "Any day for lunch or a 5:00-6:30 PM pre-show bite; Sunday closes 7:00 PM",
+   "best_window": "Any day for lunch or a 5:00-6:30 PM pre-show bite. Sunday closes at 7:00 PM",
    "hours_this_weekend": {
     "fri": "Food hall 8:00 AM - 10:00 PM; bar 11:00 AM - 11:00 PM",
     "sat": "Food hall 9:00 AM - 10:00 PM; bar 11:00 AM - 11:00 PM",
@@ -509,7 +509,7 @@
     "credit_url": "https://milwaukeepublicmarket.org/",
     "local": "assets/img/food/milwaukee-public-market-a25946b7.jpg"
    },
-   "why_special": "Nineteen independent merchants and seven bars under one roof; St. Paul Fish Co. alone is a reason to go (a Bloody Mary and a half-dozen oysters at the bar is a Milwaukee Saturday). The Third Ward's boutiques and the RiverWalk are right outside.",
+   "why_special": "Nineteen independent merchants and seven bars under one roof, and St. Paul Fish Co. alone is a reason to go (a Bloody Mary and a half-dozen oysters at the bar is a Milwaukee Saturday). The Third Ward's boutiques and the RiverWalk are right outside.",
    "must_order": [
     "St. Paul Fish Company: lobster roll, chowder, or oysters at the palapa bar with a Bloody Mary",
     "West Allis Cheese & Sausage Shoppe: fresh cheese curds and a Usinger-style sausage sampler",
@@ -521,7 +521,7 @@
     "needed": false,
     "url": null
    },
-   "best_window": "Saturday Oct 24 late breakfast/lunch 11:00 AM - 1:00 PM; also Sunday until 6:00 PM",
+   "best_window": "Saturday Oct 24 late breakfast or lunch, 11:00 AM - 1:00 PM. Also Sunday until 6:00 PM",
    "hours_this_weekend": {
     "fri": "10:00 AM - 8:00 PM",
     "sat": "10:00 AM - 8:00 PM",
@@ -551,7 +551,7 @@
     "diner"
    ],
    "image": null,
-   "why_special": "It is the authentic Milwaukee late-night meal, a 95-year-old counter joint with its own vocabulary (Marquette special, with or without beans, mild/medium/hot). Nothing else downtown is this old, this cheap, or open this late.",
+   "why_special": "The Milwaukee late-night meal, a 95-year-old counter joint with its own vocabulary (Marquette special, with or without beans, mild/medium/hot). Nothing else downtown is this old, this cheap, or open this late. Never been. Chili over spaghetti at 1 AM does not need a second opinion.",
    "must_order": [
     "Marquette Special: chili over spaghetti with beans, medium heat",
     "Chili cheese dog",
@@ -563,7 +563,7 @@
     "needed": false,
     "url": null
    },
-   "best_window": "Friday or Saturday after the show, 11:45 PM - 1:00 AM (closed Sunday downtown)",
+   "best_window": "Friday or Saturday after the show, 11:45 PM - 1:00 AM (the downtown location is closed Sunday)",
    "hours_this_weekend": {
     "fri": "11:00 AM - 3:00 AM",
     "sat": "11:00 AM - 3:00 AM",
@@ -583,7 +583,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Ian's+Pizza+146+E+Juneau+Ave+Milwaukee",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/ians-pizza-milwaukee-milwaukee-2?tab=food",
    "website": "https://ianspizza.com/location/ians-pizza-cream-city-milwaukee/",
-   "blurb": "Wisconsin's cult by-the-slice shop (born in Madison) with a downtown location that doubles as a 16-cabinet arcade, open until 2:00 AM Friday and Saturday. The Mac n' Cheese slice is the thing, and it is a 14-minute walk north of the Riverside, or a 4-minute ride.",
+   "blurb": "Wisconsin's cult by-the-slice shop (born in Madison), with a downtown location that doubles as an arcade, open until 2:00 AM Friday and Saturday. The Mac n' Cheese slice is the thing. A 14-minute walk north of the Riverside, or a 4-minute ride.",
    "tags": [
     "late night",
     "pizza",
@@ -597,7 +597,7 @@
     "credit_url": "https://ianspizza.com/location/ians-pizza-cream-city-milwaukee/",
     "local": "assets/img/food/ians-pizza-downtown-84e408f7.jpg"
    },
-   "why_special": "Late-night Wisconsin pizza culture in one slice: mac and cheese on a crust. The arcade makes it a post-show hang, not just a snack stop.",
+   "why_special": "Late-night Wisconsin pizza culture in one slice: mac and cheese on a crust. The arcade makes it a post-show hang rather than a snack stop.",
    "must_order": [
     "Signature Mac n' Cheese slice",
     "Whatever the rotating specialty slice is (often a Wisconsin-themed one)",
@@ -608,7 +608,7 @@
     "needed": false,
     "url": null
    },
-   "best_window": "Friday or Saturday after the show, before 2:00 AM; Sunday closes 10:00 PM",
+   "best_window": "Friday or Saturday after the show, before 2:00 AM. Sunday closes at 10:00 PM",
    "hours_this_weekend": {
     "fri": "11:00 AM - 2:00 AM",
     "sat": "11:00 AM - 2:00 AM",
@@ -628,7 +628,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Milwaukee+Brat+House+1013+N+Old+World+3rd+St",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/milwaukee-brat-house-milwaukee?tab=food",
    "website": "https://www.milwaukeebrathouse.com/",
-   "blurb": "A beer-and-brats tavern on Old World Third, next door to Mader's and a 9-minute walk from the venue. Brats with kraut, fried cheese curds, pretzels, and a bar open until 2:00 AM every night including Sunday, which makes it the late-night Milwaukee-cliche stop after the Sunday show.",
+   "blurb": "A beer-and-brats tavern on Old World Third, next door to Mader's and a 9-minute walk from the venue. Brats with kraut, fried cheese curds, pretzels, and a bar open until 2:00 AM every night including Sunday, which makes it the late-night Milwaukee cliche after the Sunday show.",
    "tags": [
     "brats",
     "cheese curds",
@@ -649,7 +649,7 @@
     "needed": false,
     "url": null
    },
-   "best_window": "Sunday Oct 25 after the show (bar to 2:00 AM; confirm kitchen hours), or any afternoon",
+   "best_window": "Sunday Oct 25 after the show (bar to 2:00 AM, confirm kitchen hours), or any afternoon",
    "hours_this_weekend": {
     "fri": "11:00 AM - 2:00 AM",
     "sat": "10:00 AM - 2:30 AM",
@@ -679,7 +679,7 @@
     "East Side"
    ],
    "image": null,
-   "why_special": "When Real Chili is closed (Sunday) and everything downtown has stopped serving, Pizza Shuttle is still frying broasted chicken at 2:00 AM and delivering to downtown addresses.",
+   "why_special": "When Real Chili is closed (Sunday) and everything downtown has stopped serving, Pizza Shuttle is still frying broasted chicken at 2:00 AM and delivering to downtown addresses. On reputation, and the reputation is 40 years of 2 AM.",
    "must_order": [
     "A slice or small pie (the Deluxe)",
     "Broasted chicken",
@@ -691,7 +691,7 @@
     "needed": false,
     "url": null
    },
-   "best_window": "Sunday Oct 25 after the show: order delivery to the hotel, or dine in before midnight",
+   "best_window": "Sunday Oct 25 after the show: delivery to the hotel, or dine in before midnight",
    "hours_this_weekend": {
     "fri": "Dine-in 10:00 AM - 12:00 AM; takeout/delivery 10:00 AM - 3:00 AM",
     "sat": "Dine-in 10:00 AM - 12:00 AM; takeout/delivery 10:00 AM - 3:00 AM",
@@ -705,7 +705,7 @@
  "milwaukee_food_traditions": [
   {
    "name": "Friday fish fry",
-   "what": "Wisconsin's Catholic-Lent-turned-every-Friday ritual: beer-battered or breaded cod (or lake perch, walleye, bluegill) with rye bread, coleslaw, potato pancakes or fries, tartar sauce, and a brandy Old Fashioned. Breweries, church halls, supper clubs and taverns all do one. Lakefront adds a live polka band. If she wants a second opinion: Kegel's Inn in West Allis (Fridays 11:00 AM - 9:00 PM, lake perch and walleye, 1924 speakeasy) and American Serb Hall (Fridays 3:30 - 8:30 PM, famous Serbian-sauce cod) are the other two legends, both a 15-minute ride.",
+   "what": "Wisconsin's Catholic-Lent-turned-every-Friday ritual: beer-battered or breaded cod (or lake perch, walleye, bluegill) with rye bread, coleslaw, potato pancakes or fries, tartar sauce, and a brandy Old Fashioned. Breweries, church halls, supper clubs and taverns all do one, and Lakefront adds a live polka band. The other two legends are Kegel's Inn in West Allis (Fridays 11:00 AM - 9:00 PM, lake perch and walleye, 1924 speakeasy) and American Serb Hall (Fridays 3:30 - 8:30 PM, famous Serbian-sauce cod), both a 15-minute ride.",
    "where_from_this_list": [
     "lakefront-brewery-fish-fry"
    ],
@@ -713,7 +713,7 @@
   },
   {
    "name": "Butter burger",
-   "what": "A thin griddled patty on a bun that has been slathered (not brushed) with butter, so it pools into the beef. Solly's invented it in 1936; Kopp's and Culver's spread it statewide. Order it with fried onions and a malt.",
+   "what": "A thin griddled patty on a bun that has been slathered (not brushed) with butter, so it pools into the beef. Solly's invented it in 1936, and Kopp's and Culver's spread it statewide. Fried onions and a malt go with it.",
    "where_from_this_list": [
     "sollys-grille",
     "kopps-greenfield",
@@ -723,7 +723,7 @@
   },
   {
    "name": "Frozen custard",
-   "what": "Dense, egg-rich soft-serve kept at a warmer temperature than ice cream, sold by the dish, cone or pint from drive-in stands with a chalkboard Flavor of the Day. Kopp's publishes the schedule: Mr. Baseball (caramel malt with beer nuts and a splash of Miller Lite) on Friday Oct 23, Wedding Cake and German Apple Streusel on Saturday, Mint Chip and Heavenly Hash on Sunday, Twix-Tac-Dough and Cookies 'N Cream on Monday Oct 26.",
+   "what": "Dense, egg-rich soft-serve kept warmer than ice cream, sold by the dish, cone or pint from drive-in stands with a chalkboard Flavor of the Day. Kopp's publishes the schedule: Mr. Baseball (caramel malt with beer nuts and a splash of Miller Lite) on Friday Oct 23, Wedding Cake and German Apple Streusel on Saturday, Mint Chip and Heavenly Hash on Sunday, Twix-Tac-Dough and Cookies 'N Cream on Monday Oct 26.",
    "where_from_this_list": [
     "kopps-greenfield"
    ],
@@ -731,7 +731,7 @@
   },
   {
    "name": "Cheese curds",
-   "what": "Fresh, squeaky cheddar curds eaten raw (they squeak against your teeth when they are a day old) or beer-battered and deep-fried with ranch. Lakefront's CurdWagon is fully gluten-free and runs a Cheese Curd Flavor of the Month; West Allis Cheese & Sausage in the Public Market sells fresh ones by the bag.",
+   "what": "Fresh, squeaky cheddar curds eaten raw (they squeak against your teeth when they are a day old) or beer-battered and deep-fried with ranch. Lakefront's CurdWagon is fully gluten-free and runs a Cheese Curd Flavor of the Month. West Allis Cheese & Sausage in the Public Market sells fresh ones by the bag.",
    "where_from_this_list": [
     "lakefront-brewery-fish-fry",
     "milwaukee-public-market",
@@ -742,7 +742,7 @@
   },
   {
    "name": "Brandy Old Fashioned (sweet or sour, with press)",
-   "what": "Wisconsin drinks more Korbel brandy than any other state, and the Old Fashioned here is brandy (not whiskey) muddled with sugar, bitters and an orange slice and cherry, then topped with your choice of soda: 'sweet' (7UP or Sprite), 'sour' (Squirt or sour mix), 'press' (half 7UP, half seltzer) or 'seltzer.' Order it as 'brandy old fashioned sweet' and watch the bartender nod. Mader's and any fish fry bar will make a proper one; Lakefront serves cocktails at the Friday fish fry.",
+   "what": "Wisconsin drinks more Korbel brandy than any other state, and the Old Fashioned here is brandy (not whiskey) muddled with sugar, bitters and an orange slice and cherry, then topped with a soda of choice: 'sweet' (7UP or Sprite), 'sour' (Squirt or sour mix), 'press' (half 7UP, half seltzer) or 'seltzer.' Order it as 'brandy old fashioned sweet' and watch the bartender nod. Mader's and any fish fry bar will make a proper one, and Lakefront serves cocktails at the Friday fish fry.",
    "where_from_this_list": [
     "maders",
     "lakefront-brewery-fish-fry",
@@ -752,7 +752,7 @@
   },
   {
    "name": "Bloody Mary with a beer chaser",
-   "what": "In Wisconsin a Bloody Mary comes with a 'snit' or 'chaser,' a few ounces of beer in a short glass on the side, and the garnish often becomes a meal: cheese curds, sausage, pickles, a shrimp, sometimes a whole slider or a fried chicken. Sobelman's built a national reputation on its 'Bloody Masterpiece' and its bacon-wrapped cheddar balls on a skewer; St. Paul Fish Co. in the Public Market pours them with oysters; Honeypie infuses its own.",
+   "what": "In Wisconsin a Bloody Mary comes with a 'snit' or 'chaser,' a few ounces of beer in a short glass on the side, and the garnish often becomes a meal: cheese curds, sausage, pickles, a shrimp, sometimes a whole slider or a fried chicken. Sobelman's built a national reputation on its 'Bloody Masterpiece' and its bacon-wrapped cheddar balls on a skewer. St. Paul Fish Co. in the Public Market pours them with oysters, and Honeypie infuses its own.",
    "where_from_this_list": [
     "sobelmans-st-paul",
     "milwaukee-public-market",
@@ -772,7 +772,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Uncle+Wolfie's+600+N+Broadway+Milwaukee",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/uncle-wolfies-downtown-and-the-wolf-milwaukee?tab=food",
    "website": "https://www.unclewolfies.com/",
-   "blurb": "Milwaukee's favorite breakfast tavern, now with a downtown room eight minutes' walk from the Riverside. Walk-in only, open 8:00 AM to 2:00 PM Monday, and the Monday morning crowd is a fraction of the weekend line.",
+   "blurb": "Milwaukee's favorite breakfast tavern, now with a downtown room eight minutes' walk from the Riverside. Walk-in only, open 8:00 AM to 2:00 PM Monday, and the Monday crowd is a fraction of the weekend line.",
    "tags": [
     "brunch",
     "walkable",
@@ -786,7 +786,7 @@
     "credit_url": "https://www.unclewolfies.com/",
     "local": "assets/img/food/uncle-wolfies-downtown-773116c0.jpg"
    },
-   "why_special": "The easiest great brunch on a Monday: no rideshare needed, open from 8:00 AM, and a kitchen (exec chef Kristen Schwab) good enough that the same space runs a Tock-reserved tasting-menu dinner called The Wolf on Wednesday through Saturday nights.",
+   "why_special": "The easiest great brunch on a Monday: no rideshare, open from 8:00 AM, and a kitchen (exec chef Kristen Schwab) good enough that the same room runs a Tock-reserved tasting-menu dinner called The Wolf Wednesday through Saturday nights.",
    "must_order": [
     "The breakfast sandwich or any egg plate with the house potatoes",
     "A Bloody Mary (it is a breakfast tavern) or the coffee cocktail",
@@ -798,7 +798,7 @@
     "url": null,
     "note": "Walk-in only for brunch at both locations."
    },
-   "best_window": "Monday Oct 26, 9:30 - 11:00 AM; checkout, brunch, then a 15 min ride to MKE",
+   "best_window": "Monday Oct 26, 9:30 - 11:00 AM: checkout, brunch, then a 15 min ride to MKE",
    "hours_this_weekend": {
     "fri": "8:00 AM - 2:00 PM (The Wolf dinner 5:00 - 10:00 PM)",
     "sat": "8:00 AM - 3:00 PM (The Wolf dinner 5:00 - 10:00 PM)",
@@ -818,7 +818,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Honeypie+Cafe+2569+S+Kinnickinnic+Ave+Milwaukee",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/honeypie-cafe-milwaukee?tab=food",
    "website": "https://www.honeypiecafe.com/",
-   "blurb": "Bay View's Midwestern-comfort cafe with critically acclaimed house-baked pies, buttermilk biscuits, and house-infused Bloody Marys. It sits on Kinnickinnic Avenue, which is on the way to the airport (10 minutes from MKE), and it is open Monday from 9:00 AM.",
+   "blurb": "Bay View's Midwestern-comfort cafe with house-baked pies the critics line up for, buttermilk biscuits, and house-infused Bloody Marys. It sits on Kinnickinnic Avenue, on the way to the airport (10 minutes from MKE), and it is open Monday from 9:00 AM.",
    "tags": [
     "brunch",
     "pie",
@@ -833,7 +833,7 @@
     "credit_url": "https://www.honeypiecafe.com/",
     "local": "assets/img/food/honeypie-cafe-d8768a43.jpg"
    },
-   "why_special": "A slice of Wisconsin pie for the plane, biscuits and gravy, and a Bloody Mary with a snit, in a neighborhood that is the halfway point between downtown and the airport. Check bags, ride to Bay View, eat, ride 10 minutes to MKE.",
+   "why_special": "A slice of Wisconsin pie for the plane, biscuits and gravy, and a Bloody Mary with a snit, in the neighborhood halfway between downtown and the airport. Check bags, ride to Bay View, eat, ride 10 minutes to MKE. I have not had the pie. People who have talk about it the way people talk about a grandmother's.",
    "must_order": [
     "A slice of pie (ask what came out of the oven; take a second slice to go)",
     "Buttermilk biscuits and gravy",
@@ -843,7 +843,7 @@
    "reservation": {
     "needed": false,
     "url": null,
-    "note": "First come, first served; no reservations."
+    "note": "First come, first served. No reservations."
    },
    "best_window": "Monday Oct 26, 10:00 - 11:30 AM, then 10 min to MKE for a 3:00 PM flight",
    "hours_this_weekend": {
@@ -865,7 +865,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Sobelman's+Pub+and+Grill+1900+W+St+Paul+Ave+Milwaukee",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/sobelmans-pub-and-grill-milwaukee?tab=food",
    "website": "https://www.sobelmanspubandgrill.com/",
-   "blurb": "The 1890s Schlitz tavern in the Menomonee Valley that made Milwaukee's over-garnished Bloody Mary famous (bacon-wrapped cheddar balls, sausage, a beer chaser) and backs it with a top-tier burger. Opens 11:00 AM Monday; it is a late Monday brunch disguised as lunch, and I-94 to the airport is right there.",
+   "blurb": "The 1890s Schlitz tavern in the Menomonee Valley that made Milwaukee's over-garnished Bloody Mary famous (bacon-wrapped cheddar balls, sausage, a beer chaser), backed by a top-tier burger. Opens 11:00 AM Monday, a late Monday brunch disguised as lunch, and I-94 to the airport is right there.",
    "tags": [
     "Bloody Mary",
     "burger",
@@ -879,7 +879,7 @@
     "credit_url": "https://www.sobelmanspubandgrill.com/",
     "local": "assets/img/food/sobelmans-st-paul-e41fdfe9.jpg"
    },
-   "why_special": "The Bloody Mary with a beer chaser is a Wisconsin tradition and Sobelman's turned it into a spectacle (the Bloody Masterpiece, the Baconado). Doing it at the original tavern at 11:00 AM on a Monday with a Sobelman burger is the ideal send-off meal. Closed Sunday, so Saturday (opens 10:00 AM) or Monday are the options.",
+   "why_special": "The Bloody Mary with a beer chaser is a Wisconsin tradition and Sobelman's turned it into a spectacle (the Bloody Masterpiece, the Baconado). The original tavern at 11:00 AM on a Monday with a Sobelman burger is the send-off meal. Closed Sunday, so Saturday (opens 10:00 AM) or Monday.",
    "must_order": [
     "The Bloody Masterpiece (or the Baconado) with the beer chaser",
     "The Sobelman burger (or the Beast)",
@@ -889,9 +889,9 @@
    "reservation": {
     "needed": false,
     "url": null,
-    "note": "Walk in; 414-931-1919."
+    "note": "Walk in. 414-931-1919."
    },
-   "best_window": "Monday Oct 26 at 11:00 AM open, out by 12:15 PM, 15 min drive to MKE; or Saturday 10:00 AM",
+   "best_window": "Monday Oct 26 at the 11:00 AM open, out by 12:15 PM, 15 min drive to MKE. Or Saturday at 10:00 AM",
    "hours_this_weekend": {
     "fri": "11:00 AM - 9:00 PM",
     "sat": "10:00 AM - 9:00 PM",
