@@ -4,38 +4,37 @@
   {
    "eyebrow": "Milwaukee, Wisconsin",
    "title": "Hey Baby, You made it to Milwaukee!",
-   "body": [
-    "The home of my first pet's namesake, \"Laverne & Shirley\". Black and tan gerbil roommates whose adventures would've made the legendary gal pals proud. I guess I was Lenny and Squiggy all rolled up in one. OMG, do you know \"Laverne DeFazio\" was Penny freakin Marshall, you know, the director who taught us the most important rule about baseball? Crazy the coincidences. you hangin' with my fav of your buds just like L&S AND the World Series at the same time, with the party literally at your door step. Wild."
-   ],
-   "image": "assets/img/peeps/gerbil.jpg",
-   "image_alt": "Laverne and Shirley, the gerbils, in a doorway under their own marquee",
-   "body_after": [
-    "Well, I made this for you to be a little cheat sheet for your trip. It's got all sorts of useful stuff in it. Look around and if you think of something else you want me to add, let me know. Have a really, really, really good time and send me pics of any sightings of folks I know.",
-    "Love you, I'm gonna go sleep now.",
-    "-p"
-   ],
-   "spotify": {
-    "type": "album",
-    "id": "6xrrOZdO2EK7UdHugaJXy4"
-   },
    "image_top": "assets/img/peeps/duo-hug.jpg",
-   "image_top_alt": "Crystal and Mindy"
+   "image_top_alt": "Crystal and Mindy",
+   "blocks": [
+    { "type": "lede", "text": "The home of my first pet's namesake, \"Laverne & Shirley\"." },
+    { "type": "p", "text": "Black and tan gerbil roommates whose adventures would've made the legendary gal pals proud. I guess I was Lenny and Squiggy all rolled up in one." },
+    { "type": "image", "src": "assets/img/peeps/gerbil.jpg", "alt": "Laverne and Shirley, the gerbils, in a doorway under their own marquee", "tilt": -1.6 },
+    { "type": "p", "text": "OMG, do you know \"Laverne DeFazio\" was Penny freakin Marshall, you know, the director who taught us the most important rule about baseball?" },
+    { "type": "p", "text": "Crazy the coincidences. you hangin' with my fav of your buds just like L&S AND the World Series at the same time, with the party literally at your door step." },
+    { "type": "strip", "text": "Wild." },
+    { "type": "space" },
+    { "type": "p", "text": "Well, I made this for you to be a little cheat sheet for your trip. It's got all sorts of useful stuff in it. Look around and if you think of something else you want me to add, let me know." },
+    { "type": "big", "text": "Have a really, really, really good time and send me pics of any sightings of folks I know." },
+    { "type": "sign", "text": "Love you, I'm gonna go sleep now.", "name": "-p" },
+    { "type": "spotify", "kind": "album", "id": "6xrrOZdO2EK7UdHugaJXy4" }
+   ]
   },
   {
    "eyebrow": "Just the facts, m'am",
    "title": "3 nights, 2 games, 1 bridge.",
-   "body": [
-    "Your free drinks and dogs (and room) are on one side of the Milwaukee River and that jam band you like, is playing on the other side of the bridge - Google maps says 3 minutes, but i bet y'all could do it in half that if there's a good enough reason for a set-break refresh.",
-    "Doors are at 6:30 every night and the show starts at 8.",
-    "The street party outside the theater opens at noon with a free band at 5:30.",
-    "The Brewers throw the first pitch at 7:00 tonight and tomorrow, so you'll have to watch out for those kids with the balloons and these guys"
-   ],
-   "image": "assets/img/cards/bernie-brewer-cd8ebedf.jpg",
-   "image_alt": "Bernie Brewer and the Racing Sausages",
-   "caption_html": "I know you got a soft spot for mascots so here's a bit more about <a href=\"#mascots\">\"Bernie Brewer\"</a>",
-   "body_after": [
-    "No ball on Sunday so go do something cool. maybe there's even something in here you'll find.",
-    "love you, have more fun starting.......now."
+   "blocks": [
+    { "type": "lede", "text": "Your free drinks and dogs (and room) are on one side of the Milwaukee River and that jam band you like, is playing on the other side of the bridge." },
+    { "type": "p", "text": "Google maps says 3 minutes, but i bet y'all could do it in half that if there's a good enough reason for a set-break refresh." },
+    { "type": "image", "src": "assets/img/peeps/setbreak.jpg", "alt": "Crystal and Mindy at the bar at set break", "tilt": 1.4 },
+    { "type": "space" },
+    { "type": "fact", "k": "Doors", "text": "Doors are at 6:30 every night and the show starts at 8." },
+    { "type": "fact", "k": "The block", "text": "The street party outside the theater opens at noon with a free band at 5:30." },
+    { "type": "fact", "k": "The game", "text": "The Brewers throw the first pitch at 7:00 tonight and tomorrow, so you'll have to watch out for those kids with the balloons and these guys" },
+    { "type": "image", "src": "assets/img/cards/bernie-brewer-cd8ebedf.jpg", "alt": "Bernie Brewer", "tilt": -1.2, "caption_html": "I know you got a soft spot for mascots so here's a bit more about <a href=\"#mascots\">\"Bernie Brewer\"</a>" },
+    { "type": "space" },
+    { "type": "big", "text": "No ball on Sunday so go do something cool. maybe there's even something in here you'll find." },
+    { "type": "sign", "text": "love you, have more fun starting.......now." }
    ]
   }
  ]

@@ -687,3 +687,26 @@ body[data-chapter]:not([data-chapter="home"]) .peeps--header { display: none; }
 .peeps--header .peep img { height: auto; }
 .peeps--header .peep { width: 100%; }
 @media (min-width: 760px) { .peeps--header { right: 250px; width: 165px; bottom: -18px; } .site-header .wordmark { padding-right: 0; } .site-header .inner { grid-template-columns: 1fr auto; } }
+
+/* ---------- The welcome, read like a letter: big lede, room between thoughts, key lines on strips ---------- */
+.welcome-body { gap: var(--pds-space-8); padding-bottom: var(--pds-space-16); }
+.welcome-body .display { font-size: clamp(34px, 9.6vw, 48px); line-height: 1.02; margin-top: 4px; }
+.wb { display: flex; flex-direction: column; gap: 22px; max-width: 34rem; }
+.wb > * { margin: 0; }
+.wb-lede { font-family: var(--pds-font-display); font-weight: 600; font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 72; font-size: clamp(24px, 6.4vw, 30px); line-height: 1.22; color: var(--wsp-paper-5); }
+.wb-p { font-size: 19px; line-height: 1.62; color: var(--wsp-paper-10); }
+.wb-big { font-family: var(--pds-font-display); font-weight: 500; font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 72; font-size: clamp(22px, 5.8vw, 27px); line-height: 1.28; color: var(--wsp-gold-20); }
+.wb-strip { margin: 6px 0 2px; }
+.wb-strip .strip { font-family: var(--pds-font-display); font-weight: 900; font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144; font-size: clamp(40px, 13vw, 64px); line-height: .95; letter-spacing: -.02em; color: var(--wsp-teal-80); background: var(--wsp-gold-30); --st: -2.6deg; padding: .12em .45em .18em; text-shadow: 3px 2px 0 var(--wsp-orange-40); }
+.wb-fact { font-family: var(--pds-font-display); font-weight: 600; font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 72; font-size: clamp(21px, 5.6vw, 26px); line-height: 1.28; color: var(--wsp-paper-5); padding-left: 16px; border-left: 4px solid var(--wsp-gold-30); }
+.wb-fact .wb-k { display: block; font: 600 12px/1.2 var(--pds-font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--wsp-gold-30); margin-bottom: 6px; }
+.wb-fact + .wb-fact { margin-top: 2px; }
+.wb-sign { font: 400 clamp(28px, 7.4vw, 34px)/1.2 "Covered By Your Grace", "Comic Sans MS", cursive; color: var(--wsp-gold-20); margin-top: 8px; }
+.wb-sign .wb-name { display: block; font-size: 1.2em; margin-top: 4px; }
+.wb-space { height: 14vh; }
+.wb .welcome-fig { max-width: 100%; margin: 6px 4px 10px 2px; position: relative; transform: rotate(var(--tilt, -1.2deg)); }
+.wb .welcome-fig img { max-height: 48vh; border: 6px solid var(--wsp-paper-5); box-shadow: 2px 3px 0 rgba(0,0,0,.35); object-position: center 30%; }
+.wb .welcome-fig::before { content: ""; position: absolute; inset: 0; bottom: auto; height: 100%; max-height: calc(48vh + 12px); background: var(--wsp-gold-40); transform: translate(7px, 6px) rotate(calc(var(--tilt, -1.2deg) * -1.4)); z-index: -1; mix-blend-mode: screen; opacity: .55; }
+.wb .welcome-fig .hush { font: 400 17px/1.45 var(--pds-font-sans); text-transform: none; letter-spacing: 0; color: var(--wsp-paper-10); margin-top: 8px; }
+.wb .welcome-fig .hush a { color: var(--wsp-gold-30); font-weight: 600; }
+.wb .spotify { margin-top: 10px; }

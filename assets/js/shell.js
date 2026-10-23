@@ -183,7 +183,23 @@ WSP.shell = (function () {
   function renderStep() {
     const s = welcome.steps[step]; const body = $('#welcome-body');
     const paras = (arr) => [].concat(arr || []).map(p => `<p>${esc(p)}</p>`).join('');
-    body.innerHTML = `${s.image_top ? `<img class="print-top" src="${esc(s.image_top)}" alt="${esc(s.image_top_alt || '')}">` : ''}${s.eyebrow ? `<span class="eyebrow">${esc(s.eyebrow)}</span>` : ''}<h2 id="welcome-h" class="display">${esc(s.title)}</h2><div class="prose">${paras(s.body)}</div>${s.image ? `<figure class="welcome-fig"><img src="${esc(s.image)}" alt="${esc(s.image_alt || '')}">${s.caption_html ? `<figcaption class="hush">${s.caption_html}</figcaption>` : ''}</figure>` : ''}${s.body_after ? `<div class="prose">${paras(s.body_after)}</div>` : ''}${s.spotify && s.spotify.id ? `<div class="spotify"><iframe src="https://open.spotify.com/embed/${esc(s.spotify.type || 'album')}/${esc(s.spotify.id)}?utm_source=generator&theme=0" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify player"></iframe></div>` : ''}`;
+    const spotify = (sp) => sp && sp.id ? `<div class="spotify"><iframe src="https://open.spotify.com/embed/${esc(sp.type || sp.kind || 'album')}/${esc(sp.id)}?utm_source=generator&theme=0" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify player"></iframe></div>` : '';
+    const block = (b) => {
+      switch (b.type) {
+        case 'lede': return `<p class="wb-lede">${esc(b.text)}</p>`;
+        case 'big': return `<p class="wb-big">${esc(b.text)}</p>`;
+        case 'strip': return `<p class="wb-strip"><span class="strip">${esc(b.text)}</span></p>`;
+        case 'fact': return `<p class="wb-fact">${b.k ? `<span class="wb-k">${esc(b.k)}</span>` : ''}${esc(b.text)}</p>`;
+        case 'sign': return `<p class="wb-sign">${esc(b.text)}${b.name ? `<span class="wb-name">${esc(b.name)}</span>` : ''}</p>`;
+        case 'space': return `<div class="wb-space" aria-hidden="true"></div>`;
+        case 'image': return `<figure class="welcome-fig print" style="--tilt:${Number(b.tilt || 0)}deg"><img src="${esc(b.src)}" alt="${esc(b.alt || '')}">${b.caption_html ? `<figcaption class="hush">${b.caption_html}</figcaption>` : ''}</figure>`;
+        case 'spotify': return spotify({ type: b.kind || 'album', id: b.id });
+        default: return `<p class="wb-p">${esc(b.text || '')}</p>`;
+      }
+    };
+    const content = s.blocks ? `<div class="wb">${s.blocks.map(block).join('')}</div>`
+      : `<div class="prose">${paras(s.body)}</div>${s.image ? `<figure class="welcome-fig"><img src="${esc(s.image)}" alt="${esc(s.image_alt || '')}">${s.caption_html ? `<figcaption class="hush">${s.caption_html}</figcaption>` : ''}</figure>` : ''}${s.body_after ? `<div class="prose">${paras(s.body_after)}</div>` : ''}${spotify(s.spotify)}`;
+    body.innerHTML = `${s.image_top ? `<img class="print-top" src="${esc(s.image_top)}" alt="${esc(s.image_top_alt || '')}">` : ''}${s.eyebrow ? `<span class="eyebrow">${esc(s.eyebrow)}</span>` : ''}<h2 id="welcome-h" class="display">${esc(s.title)}</h2>${content}`;
     $('#welcome-dots').innerHTML = welcome.steps.map((_, i) => `<i class="${i === step ? 'on' : ''}"></i>`).join('');
     const next = $('#welcome-next'); next.textContent = step === welcome.steps.length - 1 ? (welcome.done_label || 'Let’s go') : 'Next';
     $('#welcome-skip').hidden = step === welcome.steps.length - 1;
