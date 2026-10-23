@@ -101,7 +101,8 @@ WSP.shell = (function () {
   function hideWelcome() { $('#welcome').hidden = true; document.body.classList.remove('welcome-open'); store.set('welcomed', Date.now()); }
   function renderStep() {
     const s = welcome.steps[step]; const body = $('#welcome-body');
-    body.innerHTML = `${s.eyebrow ? `<span class="eyebrow">${esc(s.eyebrow)}</span>` : ''}<h2 id="welcome-h" class="display">${esc(s.title)}</h2>${s.image ? `<figure class="media"><img src="${esc(s.image)}" alt=""></figure>` : ''}<div class="prose">${[].concat(s.body || []).map(p => `<p>${esc(p)}</p>`).join('')}</div>`;
+    const paras = (arr) => [].concat(arr || []).map(p => `<p>${esc(p)}</p>`).join('');
+    body.innerHTML = `${s.eyebrow ? `<span class="eyebrow">${esc(s.eyebrow)}</span>` : ''}<h2 id="welcome-h" class="display">${esc(s.title)}</h2><div class="prose">${paras(s.body)}</div>${s.image ? `<figure class="welcome-fig"><img src="${esc(s.image)}" alt="${esc(s.image_alt || '')}">${s.caption_html ? `<figcaption class="hush">${s.caption_html}</figcaption>` : ''}</figure>` : ''}${s.body_after ? `<div class="prose">${paras(s.body_after)}</div>` : ''}`;
     $('#welcome-dots').innerHTML = welcome.steps.map((_, i) => `<i class="${i === step ? 'on' : ''}"></i>`).join('');
     const next = $('#welcome-next'); next.textContent = step === welcome.steps.length - 1 ? (welcome.done_label || 'Let’s go') : 'Next';
     $('#welcome-skip').hidden = step === welcome.steps.length - 1;
@@ -110,6 +111,13 @@ WSP.shell = (function () {
   function wireWelcome() {
     $('#welcome-next').addEventListener('click', () => { if (step < welcome.steps.length - 1) { step++; renderStep(); } else hideWelcome(); });
     $('#welcome-skip').addEventListener('click', hideWelcome);
+    $('#welcome-body').addEventListener('click', (e) => {
+      const a = e.target.closest('a[href^="#"]'); if (!a) return; e.preventDefault();
+      const id = a.getAttribute('href').slice(1); const sec = document.getElementById(id); hideWelcome();
+      if (!sec) return; setOpen(sec, true);
+      const target = a.dataset.scrollTo ? (sec.querySelector(a.dataset.scrollTo) || sec) : sec;
+      setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+    });
     document.addEventListener('click', (e) => { if (e.target.closest('#welcome-again, #welcome-again-2')) { e.preventDefault(); showWelcome(); } });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('#welcome').hidden) hideWelcome(); });
   }

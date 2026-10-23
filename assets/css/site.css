@@ -399,4 +399,9 @@ body.welcome-open { overflow: hidden; }
 .welcome-dots { display: flex; gap: 6px; }
 .welcome-dots i { width: 8px; height: 8px; background: var(--dt-gray-60); }
 .welcome-dots i.on { background: var(--pds-text-mark-on-band); }
+
+.welcome-fig { margin: 0; display: flex; flex-direction: column; gap: 6px; max-width: 420px; }
+.welcome-fig img { width: 100%; max-height: 32vh; object-fit: cover; object-position: top; border: 1px solid var(--dt-gray-60); }
+.welcome-fig .hush { font: 500 11px/1.5 var(--pds-font-mono); letter-spacing: .04em; text-transform: uppercase; color: var(--dt-gray-40); }
+.welcome-fig .hush a { color: var(--pds-text-mark-on-band); }
 @media (min-width: 760px) { .welcome { align-items: center; padding: var(--pds-space-8); } .welcome-card { border: 1px solid var(--dt-gray-60); max-height: 90vh; } }

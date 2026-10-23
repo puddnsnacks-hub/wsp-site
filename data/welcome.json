@@ -12,35 +12,20 @@
    ]
   },
   {
-   "eyebrow": "The weekend in one breath",
-   "title": "Three nights, two games, one bridge.",
+   "eyebrow": "Just the facts, m'am",
+   "title": "3 nights, 2 games, 1 bridge.",
    "body": [
-    "Your hotel is on one side of the Milwaukee River and the theater is on the other, three minutes apart on foot. Doors are at 6:30 every night and the show starts at 8.",
-    "The street party outside the theater opens at noon with a free band at 5:30. The Brewers throw the first pitch at 7:00 Friday and Saturday, so the city will be loud when you walk out. Sunday the baseball rests and you do not."
-   ]
-  },
-  {
-   "eyebrow": "How to use it",
-   "title": "Cards, closed until you want them.",
-   "body": [
-    "Every card starts closed. Tap a title to open it. The first time a card opens there is a note from me inside (read it once, tap Got it, and it stays gone).",
-    "Tap the star on a card you keep coming back to. It moves up near the top and opens on its own from then on."
-   ]
-  },
-  {
-   "eyebrow": "The map",
-   "title": "Locked, on purpose.",
-   "body": [
-    "The map stays locked so the page scrolls past it without a fight. Tap Unlock when you want to move around in it, and it locks itself again when you scroll away.",
-    "Every pin is a card. The chips above the map narrow it to food, bars, the game, or Laverne and Shirley."
-   ]
-  },
-  {
-   "eyebrow": "From Snacks",
-   "title": "The first card is mine.",
-   "body": [
-    "Lineups when they post, a change of plan, a place I found at 2 AM, it goes in that first card and the card says new until you open it.",
-    "Have the best weekend. Love you. Text me anything you want added, or anything you want gone."
+    "Your free drinks and dogs (and room) are on one side of the Milwaukee River and that jam band you like, is playing on the other side of the bridge - Google maps says 3 minutes, but i bet y'all could do it in half that if there's a good enough reason for a set-break refresh.",
+    "Doors are at 6:30 every night and the show starts at 8.",
+    "The street party outside the theater opens at noon with a free band at 5:30.",
+    "The Brewers throw the first pitch at 7:00 tonight and tomorrow, so you'll have to watch out for those kids with the balloons and these guys"
+   ],
+   "image": "assets/img/cards/bernie-brewer-cd8ebedf.jpg",
+   "image_alt": "Bernie Brewer and the Racing Sausages",
+   "caption_html": "I know you got a soft spot for mascots so here's a bit more about <a href=\"#lineups\" data-scroll-to=\".cards:last-of-type\">\"Bernie Brewer\"</a>",
+   "body_after": [
+    "No ball on Sunday so go do something cool. maybe there's even something in here you'll find.",
+    "love you, have more fun starting.......now."
    ]
   }
  ]
