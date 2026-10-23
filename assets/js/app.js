@@ -348,6 +348,17 @@ window.WSP = window.WSP || {};
       <details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">Put the KML in Google Maps on your phone</summary><ol class="kbd-steps" style="margin-top:8px"><li>On a computer, open <a href="https://www.google.com/maps/d/" target="_blank" rel="noopener">Google My Maps</a> → Create a new map → Import → choose the KML file.</li><li>Share → "Anyone with the link" → copy the link and text it to yourself.</li><li>On your phone, open the link in the Google Maps app: every pin, colored by type, with the notes attached.</li></ol></details>`;
   }
 
+  /* ---------- Peeps prints pasted into cards (data/art.json) ---------- */
+  function applyArt(art) {
+    if (!art || !art.cards) return;
+    Object.entries(art.cards).forEach(([id, a]) => {
+      const bd = $(`#${id} > .body`); if (!bd || !a.src) return;
+      const fig = document.createElement('figure'); fig.className = 'print'; fig.style.setProperty('--tilt', (a.tilt || 0) + 'deg'); if (a.ratio) fig.style.setProperty('--ratio', a.ratio); if (a.pos) fig.style.setProperty('--pos', a.pos);
+      fig.innerHTML = `<img src="assets/img/peeps/${esc(a.src)}" alt="${esc(a.alt || '')}" loading="lazy" onerror="this.closest('figure').remove()">`;
+      bd.insertBefore(fig, bd.firstChild);
+    });
+  }
+
   /* ---------- Collect every location ---------- */
   function collect(d) {
     const out = [];
@@ -365,7 +376,7 @@ window.WSP = window.WSP || {};
   /* ---------- Boot ---------- */
   async function boot() {
     const wxP = WSP.weather.init();
-    const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'mascots', 'locations', 'share', 'peeps', 'notes', 'welcome', 'updates'];
+    const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'mascots', 'locations', 'share', 'peeps', 'notes', 'welcome', 'updates', 'art'];
     const gm = $('#gmaps-open');
     const d = Object.fromEntries(await Promise.all(names.map(async n => [n, await load(n)])));
     const locs = collect(d); locs.forEach(l => byId[l.id] = l); WSP.locations = locs;
@@ -375,7 +386,7 @@ window.WSP = window.WSP || {};
     renderBars(d.area); renderFood(d.food); renderHotel(d.concert, d.area); renderFacts(d.area); renderLaverne(d.laverne);
     renderLineups(d.lineups); renderMascots(d.mascots);
     renderShare(locs, d.share);
-    renderPeeps(d.peeps);
+    renderPeeps(d.peeps); applyArt(d.art);
     if (gm && d.share && d.share.my_maps_url) gm.href = d.share.my_maps_url;
     WSP.map.init(locs, d.closure && d.closure.closure && d.closure.closure.polygon);
     if (d.concert && d.concert.hotel && d.concert.venue) WSP.map.mini('mini-map', d.concert.hotel, d.concert.venue);

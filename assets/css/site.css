@@ -669,3 +669,21 @@ footer .inner { padding-top: var(--pds-space-12); }
 .sheet .heading-sm { font-size: 24px; }
 .sheet .prose { font-size: 17px; line-height: 1.55; }
 .sheet .facts-list li { font-size: 16px; }
+
+/* ---------- Prints pasted into cards: the picture on cream, a second ink block printed a little off ---------- */
+.w > .body > .print { position: relative; margin: 2px 6px 6px 2px; transform: rotate(var(--tilt, -1.2deg)); z-index: 1; align-self: stretch; }
+.w > .body > .print img { display: block; width: 100%; aspect-ratio: var(--ratio, 16 / 10); object-fit: cover; object-position: var(--pos, 50% 35%); border: 6px solid var(--wsp-paper-5); box-shadow: 2px 3px 0 rgba(36,23,9,.25); background: var(--wsp-paper-20); }
+.w > .body > .print::before { content: ""; position: absolute; inset: 0; background: var(--wsp-teal-40); transform: translate(7px, 6px) rotate(calc(var(--tilt, -1.2deg) * -1.4)); z-index: -1; mix-blend-mode: multiply; opacity: .9; }
+.w--band > .body > .print::before { background: var(--wsp-gold-40); }
+.first-note + .print { margin-top: 6px; }
+/* the duo cut out, leaning over the masthead's slanted edge */
+.peeps--header { position: absolute; right: 2px; bottom: -10px; width: min(38vw, 190px); margin: 0; pointer-events: none; z-index: 3; }
+.peeps--header .peep { margin: 0; }
+.peeps--header .peep img { display: block; width: 100%; height: auto; filter: drop-shadow(3px 3px 0 rgba(7,58,69,.55)); transform: rotate(4deg); }
+.peeps--header figcaption { display: none; }
+.site-header .inner { position: relative; }
+.site-header .wordmark { padding-right: min(40vw, 200px); }
+body[data-chapter]:not([data-chapter="home"]) .peeps--header { display: none; }
+.peeps--header .peep img { height: auto; }
+.peeps--header .peep { width: 100%; }
+@media (min-width: 760px) { .peeps--header { right: 250px; width: 165px; bottom: -18px; } .site-header .wordmark { padding-right: 0; } .site-header .inner { grid-template-columns: 1fr auto; } }
