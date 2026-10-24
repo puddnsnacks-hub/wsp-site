@@ -41,7 +41,7 @@
    "id": "shrimp",
    "label": "Shrimp",
    "file": "assets/img/garnish/shrimp.png",
-   "used": 13
+   "used": 14
   },
   {
    "id": "salmon",
@@ -77,7 +77,7 @@
    "id": "beef-stick",
    "label": "Beef stick",
    "file": "assets/img/garnish/beef-stick.png",
-   "used": 20
+   "used": 22
   },
   {
    "id": "sausage",
@@ -89,7 +89,7 @@
    "id": "bacon",
    "label": "Bacon",
    "file": "assets/img/garnish/bacon.png",
-   "used": 13
+   "used": 14
   },
   {
    "id": "cheese-curd",
@@ -107,7 +107,7 @@
    "id": "cheese-cube",
    "label": "Cheese cube",
    "file": "assets/img/garnish/cheese-cube.png",
-   "used": 10
+   "used": 12
   },
   {
    "id": "egg",
@@ -119,19 +119,19 @@
    "id": "pickle",
    "label": "Pickle",
    "file": "assets/img/garnish/pickle.png",
-   "used": 38
+   "used": 41
   },
   {
    "id": "olive",
    "label": "Olive",
    "file": "assets/img/garnish/olive.png",
-   "used": 28
+   "used": 30
   },
   {
    "id": "celery",
    "label": "Celery",
    "file": "assets/img/garnish/celery.png",
-   "used": 19
+   "used": 22
   },
   {
    "id": "asparagus",
@@ -149,13 +149,19 @@
    "id": "brussels-sprout",
    "label": "Brussels sprout",
    "file": "assets/img/garnish/brussels-sprout.png",
-   "used": 3
+   "used": 4
   },
   {
    "id": "mushroom",
    "label": "Mushroom",
    "file": "assets/img/garnish/mushroom.png",
    "used": 5
+  },
+  {
+   "id": "pepperoni",
+   "label": "Pepperoni",
+   "file": "assets/img/garnish/pepperoni.png",
+   "used": 1
   },
   {
    "id": "pepper",
@@ -173,7 +179,7 @@
    "id": "carrot",
    "label": "Carrot",
    "file": "assets/img/garnish/carrot.png",
-   "used": 9
+   "used": 10
   },
   {
    "id": "tomato",
@@ -185,25 +191,25 @@
    "id": "cucumber",
    "label": "Cucumber",
    "file": "assets/img/garnish/cucumber.png",
-   "used": 1
+   "used": 2
   },
   {
    "id": "lemon",
    "label": "Lemon",
    "file": "assets/img/garnish/lemon.png",
-   "used": 10
+   "used": 11
   },
   {
    "id": "lime",
    "label": "Lime",
    "file": "assets/img/garnish/lime.png",
-   "used": 9
+   "used": 10
   },
   {
    "id": "tajin-rim",
    "label": "Tajín rim",
    "file": "assets/img/garnish/tajin-rim.png",
-   "used": 3
+   "used": 5
   },
   {
    "id": "salt-rim",
@@ -234,6 +240,12 @@
    "label": "Chips",
    "file": "assets/img/garnish/chips.png",
    "used": 2
+  },
+  {
+   "id": "pizza-slice",
+   "label": "Pizza slice",
+   "file": "assets/img/garnish/pizza-slice.png",
+   "used": 0
   },
   {
    "id": "mini-beer",
