@@ -24,17 +24,6 @@
   "dates": "Friday, October 23 - Sunday, October 25, 2026",
   "hours_by_day": [
    {
-    "date": "2026-10-23",
-    "day": "Friday",
-    "open": "12:00 PM",
-    "music": "5:30 PM (Wolph)",
-    "close": null,
-    "riverside_doors": "6:30 PM",
-    "wsp_showtime": "8:00 PM",
-    "street_reopens_to_cars": "11:59 PM",
-    "source": "https://www.pabsttheatergroup.com/events/detail/wolph"
-   },
-   {
     "date": "2026-10-24",
     "day": "Saturday",
     "open": "12:00 PM",
@@ -226,42 +215,6 @@
  ],
  "schedule": [
   {
-   "date": "2026-10-23",
-   "day": "Friday",
-   "start": "5:30 PM",
-   "end": null,
-   "street_opens": "12:00 PM",
-   "stage": "wisconsin-ave-street-stage",
-   "band": "Wolph",
-   "style": "Wolph is a young Virginia jam band built around two 19-year-old guitarist-singers who started out trading Grateful Dead covers in a garage and grew into a six-piece with two drummers, bass and keys. The sets are largely improvised, rooted in blues, classic rock and folk, with Dead-songbook covers mixed into originals. Widespread Panic's Dave Schools produced their debut single 'Blue Miracle' and their album 'It's Just Wolph,' so this is Panic-family music: loose, groove-first and made for dancing in the street.",
-   "hometown": "Virginia",
-   "members": "Joshua Wright (guitar, vocals), Dylan Stickle (guitar, vocals), Cole Morgan and James Dale (drums), Jacob Spence (bass), Greg Gernon (keyboards)",
-   "spotify_url": "https://open.spotify.com/artist/7Jo1dVJInWvaAwgOYrotfo",
-   "website": "https://wolphtheband.com",
-   "instagram": "https://www.instagram.com/wolphband/",
-   "facebook": "https://www.facebook.com/Wolphtheband",
-   "youtube": "https://www.youtube.com/@Wolph_Band",
-   "image": {
-    "src": "https://redlightmanagement.com/wp-content/uploads/2026/10/Wolph-Press-Photo.jpg",
-    "credit": "Wolph press photo via Red Light Management (no photographer listed)",
-    "credit_url": "https://redlightmanagement.com/artists/wolph/",
-    "local": "assets/img/bands/closure-6a0e0169.jpg"
-   },
-   "alt_image": {
-    "src": "https://wolphtheband.com/cdn/shop/files/Black_and_white_copy_ed4001ef-73b0-4f65-bb60-e115df986a4a.jpg?v=1789596484",
-    "credit": "wolphtheband.com",
-    "credit_url": "https://wolphtheband.com/pages/band",
-    "local": "assets/img/bands/closure-47367482.jpg"
-   },
-   "cost": "Free",
-   "source": "https://www.pabsttheatergroup.com/events/detail/wolph",
-   "bio_sources": [
-    "https://redlightmanagement.com/artists/wolph/",
-    "https://www.gratefulweb.com/articles/wolph-lights-up-the-broadberry-ahead-of-jampacked/",
-    "https://wolphtheband.com/pages/band"
-   ]
-  },
-  {
    "date": "2026-10-24",
    "day": "Saturday",
    "start": "5:30 PM",
@@ -269,7 +222,7 @@
    "street_opens": "12:00 PM",
    "stage": "wisconsin-ave-street-stage",
    "band": "Wolph",
-   "style": "Same band all three days, and a different, mostly improvised set each night: Dead covers, 'Blue Miracle' and other originals, and long two-drummer jams in the Panic and Dead lineage. Anyone who likes the stretched-out second set of a Panic show has found the warm-up.",
+   "style": "Wolph is a young Virginia jam band built around two 19-year-old guitarist-singers who started out trading Grateful Dead covers in a garage and grew into a six-piece with two drummers, bass and keys. The sets are largely improvised, rooted in blues, classic rock and folk, with Dead-songbook covers mixed into originals. Widespread Panic's Dave Schools produced their debut single 'Blue Miracle' and their album 'It's Just Wolph,' so this is Panic-family music: loose, groove-first and made for dancing in the street.",
    "hometown": "Virginia",
    "spotify_url": "https://open.spotify.com/artist/7Jo1dVJInWvaAwgOYrotfo",
    "website": "https://wolphtheband.com",
@@ -280,7 +233,22 @@
     "local": "assets/img/bands/closure-6a0e0169.jpg"
    },
    "cost": "Free",
-   "source": "https://www.pabsttheatergroup.com/events/detail/wolph"
+   "source": "https://www.pabsttheatergroup.com/events/detail/wolph",
+   "members": "Joshua Wright (guitar, vocals), Dylan Stickle (guitar, vocals), Cole Morgan and James Dale (drums), Jacob Spence (bass), Greg Gernon (keyboards)",
+   "instagram": "https://www.instagram.com/wolphband/",
+   "facebook": "https://www.facebook.com/Wolphtheband",
+   "youtube": "https://www.youtube.com/@Wolph_Band",
+   "alt_image": {
+    "src": "https://wolphtheband.com/cdn/shop/files/Black_and_white_copy_ed4001ef-73b0-4f65-bb60-e115df986a4a.jpg?v=1789596484",
+    "credit": "wolphtheband.com",
+    "credit_url": "https://wolphtheband.com/pages/band",
+    "local": "assets/img/bands/closure-47367482.jpg"
+   },
+   "bio_sources": [
+    "https://redlightmanagement.com/artists/wolph/",
+    "https://www.gratefulweb.com/articles/wolph-lights-up-the-broadberry-ahead-of-jampacked/",
+    "https://wolphtheband.com/pages/band"
+   ]
   },
   {
    "date": "2026-10-25",
@@ -306,17 +274,21 @@
  ],
  "after_parties": [
   {
-   "date": "2026-10-23",
-   "day": "Friday",
+   "date": "2026-10-24",
+   "day": "Saturday",
    "start": "11:00 PM (doors), immediately following Widespread Panic",
    "end": null,
    "venue_id": "mos-irish-pub",
    "band": "Houseplant",
    "style": "Houseplant is a Louisville, Kentucky 'genre-fluid' jam band formed in 2020: electric mandolin up front, indie-rock songwriting in the Radiohead and The National vein, and lush psychedelic improvisation, now anchored by former Goose drummer Ben Atkind. Melodic and exploratory rather than bluesy, which makes it a good decompression set after Panic.",
    "hometown": "Louisville, KY",
-   "members": "Tavis Conley (mandolin, vocals, songwriter), Chris Rodahaffer (guitar), Tommy Arnspiger (bass), Sam Richardson (keys), Ben Atkind (drums, ex-Goose)",
    "spotify_url": "https://open.spotify.com/artist/6NpcDHvp78i8ja2y4yLDDk",
    "website": "https://www.houseplantjams.com",
+   "age": "21+",
+   "cost": null,
+   "tickets": "https://www.axs.com/series/33409/widespread-panic-after-show-offers-tickets?skin=pabst",
+   "source": "https://www.pabsttheatergroup.com/events/detail/houseplant-2026",
+   "members": "Tavis Conley (mandolin, vocals, songwriter), Chris Rodahaffer (guitar), Tommy Arnspiger (bass), Sam Richardson (keys), Ben Atkind (drums, ex-Goose)",
    "bandcamp": "https://houseplantjams.bandcamp.com",
    "instagram": "https://www.instagram.com/houseplant_jams/",
    "image": {
@@ -325,30 +297,10 @@
     "credit_url": "https://www.houseplantjams.com",
     "local": "assets/img/bands/closure-8367fc27.jpg"
    },
-   "age": "21+",
-   "cost": null,
-   "tickets": "https://www.axs.com/series/33409/widespread-panic-after-show-offers-tickets?skin=pabst",
-   "source": "https://www.pabsttheatergroup.com/events/detail/houseplant-2026",
    "bio_sources": [
     "https://relix.com/articles/detail/on-the-verge-houseplant/",
     "https://www.gratefulweb.com/?p=473000"
    ]
-  },
-  {
-   "date": "2026-10-24",
-   "day": "Saturday",
-   "start": "11:00 PM (doors), immediately following Widespread Panic",
-   "end": null,
-   "venue_id": "mos-irish-pub",
-   "band": "Houseplant",
-   "style": "Second of two nights. See Friday.",
-   "hometown": "Louisville, KY",
-   "spotify_url": "https://open.spotify.com/artist/6NpcDHvp78i8ja2y4yLDDk",
-   "website": "https://www.houseplantjams.com",
-   "age": "21+",
-   "cost": null,
-   "tickets": "https://www.axs.com/series/33409/widespread-panic-after-show-offers-tickets?skin=pabst",
-   "source": "https://www.pabsttheatergroup.com/events/detail/houseplant-2026"
   },
   {
    "date": "2026-10-25",
@@ -389,7 +341,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mo%27s+Irish+Pub+142+W+Wisconsin+Ave+Milwaukee+WI",
    "yelp_photos_url": null,
    "website": "https://www.mosirishpub.com/milwaukee",
-   "blurb": "Mo's is the Irish pub next door to the Riverside marquee, at the west edge of the closed block. It is the official Widespread Panic after-party bar all three nights (Houseplant Fri/Sat, Armchair Boogie Sun, 21+, doors 11 PM) and the indoor fallback if the street gets cold.",
+   "blurb": "Mo's is the Irish pub next door to the Riverside marquee, at the west edge of the closed block. It is the official Widespread Panic after-party bar (Houseplant Saturday, Armchair Boogie Sunday, 21+, doors 11 PM) and the indoor fallback if the street gets cold.",
    "tags": [
     "after-party",
     "irish pub",
@@ -413,11 +365,11 @@
   "The Wisconsin Avenue bridge over the Milwaukee River is inside the closure, so cars crossing the river downtown should use the Michigan St bridge (one block south) or Wells St bridge (two blocks north). Source: https://city.milwaukee.gov/dpw/infrastructure/StreetClosures",
   "Pabst Theater Group's discounted parking for the Riverside is the Gimbels Parking Structure, 555 N Plankinton Ave (corner of Plankinton and Michigan, entrances on Plankinton or Michigan, 7 ft 3 in clearance), $11 on weekends, prepaid in advance with show tickets and displayed on the dash. The lot opens 2 hours before showtime, is good for 6 hours, and the exit access code is 7275. Both entrances are south of the closure and reachable. Source: https://www.pabsttheatergroup.com/parking-riverside",
   "Rideshare: PTG's partner is Lyft, but no official pickup zone is published. Wisconsin Ave itself is closed at the theater, so set pickup on W Michigan St or N Plankinton Ave south of Wisconsin, or N Water St east of the bridge. Source: https://www.pabsttheatergroup.com/parking-riverside",
-  "Expect heavier-than-usual downtown traffic Friday and Saturday evenings from the Brewers World Series Games 1 and 2 at American Family Field (7 PM) and the Bucks home opener at Fiserv Forum (3 PM Friday), plus the Third Ward and Deer District watch parties. Source: https://radiomilwaukee.org/events-festivals/2026-10-22/brewers-watch-parties-weekend-events"
+  "Expect heavier-than-usual downtown traffic Saturday evening from World Series Game 2 at American Family Field (7 PM), plus the Third Ward and Deer District watch parties. Source: https://radiomilwaukee.org/events-festivals/2026-10-22/brewers-watch-parties-weekend-events"
  ],
  "world_series_watch_parties": {
   "part_of_street_party": false,
-  "note": "The Wisconsin Avenue closure is a Pabst Theater Group and Widespread Panic event only. The Brewers host the Tampa Bay Rays in World Series Games 1 and 2 (Fri Oct 23 and Sat Oct 24, 7 PM) at American Family Field, and two separate free watch parties, one with its own street closure, are within a 15-minute walk.",
+  "note": "The Wisconsin Avenue closure is a Pabst Theater Group and Widespread Panic event only. The Brewers host the Tampa Bay Rays in World Series Game 2 (Sat Oct 24, 7 PM; they won Game 1 Friday, 3-2) at American Family Field, and two separate free watch parties, one with its own street closure, are within a 15-minute walk.",
   "events": [
    {
     "id": "third-ward-world-series-block-party",
@@ -428,15 +380,15 @@
     "address": "Third Ward Beer Garden at Catalano Square, 147 N Broadway (Menomonee St at Broadway), Milwaukee, WI 53202",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Catalano+Square+147+N+Broadway+Milwaukee+WI",
     "website": "https://urbanmilwaukee.com/pressrelease/world-series-block-party-takes-over-historic-third-ward-friday-saturday/",
-    "blurb": "Fri and Sat, roughly noon to 11 PM: E Menomonee St is closed between N Broadway and N Milwaukee St for a free block party with the games on giant screens at the Third Ward Beer Garden at 7 PM, food trucks, Brewers cocktails, a FOX One 'Relive Live' memorabilia pop-up (noon-4 PM) and free live tapings of the Foul Territory podcast (5-7 PM) with Corey Knebel, Kevin Pillar and Alanna Rizzo. About a 12-minute walk south of the Riverside.",
+    "blurb": "Sat, roughly noon to 11 PM: E Menomonee St is closed between N Broadway and N Milwaukee St for a free block party with the game on giant screens at the Third Ward Beer Garden at 7 PM, food trucks, Brewers cocktails, a FOX One 'Relive Live' memorabilia pop-up (noon-4 PM) and a free live taping of the Foul Territory podcast (5-7 PM) with Corey Knebel, Kevin Pillar and Alanna Rizzo. About a 12-minute walk south of the Riverside.",
     "tags": [
      "free",
      "World Series",
      "street closure",
-     "Fri-Sat only",
+     "Sat only",
      "beer garden"
     ],
-    "dates": "Friday, October 23 - Saturday, October 24, 2026",
+    "dates": "Saturday, October 24, 2026",
     "hours": "12:00 PM - 11:00 PM (OnMilwaukee); games at 7:00 PM",
     "street_closed": "E Menomonee St between N Broadway and N Milwaukee St",
     "organizer": "Historic Third Ward Association and Third Ward Beer Garden",
@@ -452,14 +404,14 @@
     "address": "Deer District plaza at Fiserv Forum, 1111 N Vel R. Phillips Ave, Milwaukee, WI 53203",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Deer+District+Milwaukee+WI",
     "website": "https://deerdistrict.com/event/deer-district-milwaukee-brewers-watch-party",
-    "blurb": "Free outdoor watch parties on the big screen at The Deer Garden presented by Michelob ULTRA, Fri and Sat about 6-11 PM, with bar and restaurant specials all day and a Saturday-game ticket giveaway at The Tap Room. Friday also has the Bucks home opener at 3 PM, so the plaza will be loud all afternoon. About a 12-minute walk north of the Riverside.",
+    "blurb": "Free outdoor watch party on the big screen at The Deer Garden presented by Michelob ULTRA, Saturday about 6-11 PM, with bar and restaurant specials all day. About a 12-minute walk north of the Riverside.",
     "tags": [
      "free",
      "World Series",
      "big screen",
-     "Fri-Sat (plus Mon-Tue if needed)"
+     "Sat (plus Mon-Tue)"
     ],
-    "dates": "Friday, October 23 and Saturday, October 24, 2026 (also Oct 26-27 if the series continues)",
+    "dates": "Saturday, October 24, 2026 (also Oct 26-27 if the series continues)",
     "hours": "6:00 PM - 11:00 PM (per Radio Milwaukee; Deer District's page displays 11:00pm-4:00am, a UTC display error)",
     "organizer": "Deer District BID 53 / Milwaukee Bucks",
     "source": "https://deerdistrict.com/event/deer-district-milwaukee-brewers-watch-party",
@@ -471,18 +423,10 @@
   {
    "name": "BuckFest 2026 / Big Buck Hunter World Championship",
    "venue": "Turner Hall Ballroom, 1040 Vel R. Phillips Ave",
-   "dates": "Fri-Sat Oct 23-24",
+   "dates": "Sat Oct 24",
    "cost": "Free admission",
    "note": "Two-day arcade festival with competitions, freeplay games, pinball, food and drinks, run by Pabst Theater Group.",
    "source": "https://www.pabsttheatergroup.com/events/detail/big-buck-hunter-championship-2026"
-  },
-  {
-   "name": "Rod Tuffcurls and the Bench Press, Baseball Watch Party",
-   "venue": "Vivarium, 1818 N Farwell Ave",
-   "dates": "Fri Oct 23",
-   "cost": null,
-   "note": "Game 1 on screens throughout the venue, and the music starts right after the game.",
-   "source": "https://www.pabsttheatergroup.com/events/detail/rod-tuffcurls-oct-2026"
   },
   {
    "name": "Milwaukee Record Halftime Show: They Want Blood + DJ Squaresoft",

@@ -8,16 +8,16 @@
   "Who's on Third is a longtime Brewers sports bar with a game-day shuttle, but no World Series-specific promo or confirmation of sound-on was found; included on reputation and Google listing only.",
   "Will the Brewers announce a Game 5 watch party at American Family Field (Wed Oct 28)? Irrelevant to Crystal's stay but noted."
  ],
- "as_of": "2026-10-23T02:00:00-05:00",
+ "as_of": "2026-10-23T23:30:00-05:00",
  "series": {
   "teams": [
    "Milwaukee Brewers",
    "Tampa Bay Rays"
   ],
-  "series_status": "Series tied 0-0. Game 1 is tonight (Fri Oct 23) at American Family Field. Nothing has been played yet.",
+  "series_status": "Brewers lead the series 1-0 after a 3-2 win in Game 1 on Friday. Game 2 is Saturday at 7:00 PM at American Family Field.",
   "format": "Best of seven. Brewers (103-59, best record in MLB) have home field: Games 1, 2, 6*, 7* in Milwaukee; Games 3, 4, 5* at Tropicana Field, St. Petersburg (* if necessary).",
   "brewers_in_it": true,
-  "milwaukee_angle": "The Brewers are in the World Series, and Games 1 and 2 are in Milwaukee on Friday and Saturday night, the same two nights as the Riverside shows. It is the Brewers' first World Series since 1982 and the second in franchise history. They went a franchise-record 103-59, beat the Padres in the NLDS and swept the Dodgers in the NLCS. Neither team has ever won a World Series, so a first-time champion is guaranteed. Downtown will be blue and gold: free outdoor watch parties in the Deer District, a two-day block party in the Third Ward, bars running Brewers specials, and a Bucks home opener at 3 PM Friday on top of it. Resale get-in was about $2,700-$2,900 as of Oct 20, so the ballpark is out, but being downtown this weekend is being inside the biggest Milwaukee sports moment in 44 years.",
+  "milwaukee_angle": "The Brewers are in the World Series, and they won Game 1 on Friday, 3-2. Game 2 is Saturday night in Milwaukee, the same night as the second Riverside show. It is the Brewers' first World Series since 1982 and the second in franchise history. They went a franchise-record 103-59, beat the Padres in the NLDS and swept the Dodgers in the NLCS. Neither team has ever won a World Series, so a first-time champion is guaranteed. Downtown will be blue and gold: free outdoor watch parties in the Deer District, a two-day block party in the Third Ward, bars running Brewers specials. Resale get-in was about $2,700-$2,900 as of Oct 20, so the ballpark is out, but being downtown this weekend is being inside the biggest Milwaukee sports moment in 44 years.",
   "storylines": [
    "The Brewers set a franchise record with 103 wins and led MLB in wins for the second straight year.",
    "Milwaukee swept the Dodgers in the NLCS to get here. Tampa Bay swept the Yankees in the ALDS and beat Cleveland in six in the ALCS.",
@@ -29,7 +29,8 @@
   "home_game_ticket_note": "Games 1 and 2 at American Family Field are the hottest tickets in Milwaukee history. Resale get-in was estimated at $2,920 (Game 1) and $2,689 (Game 2) as of Oct 20. Both games overlap the Widespread Panic shows, so this is a watch-party weekend, not a ballpark weekend.",
   "home_game_ticket_source": "https://www.ticketnews.com/2026/10/brewers-rays-world-series-ticket-prices-timeless-ticket/",
   "source": "https://www.mlb.com/rays/news/2026-mlb-world-series-faq-schedule-times-teams-and-more",
-  "secondary_source": "https://www.fox13news.com/sports/tampa-bay-rays-milwaukee-brewers-world-series-schedule-tickets-watch-parties-mlb-playoffs"
+  "secondary_source": "https://www.fox13news.com/sports/tampa-bay-rays-milwaukee-brewers-world-series-schedule-tickets-watch-parties-mlb-playoffs",
+  "series_status_source": "https://www.mlb.com/rays/news/brewers-win-world-series-game-1-2026"
  },
  "games": [
   {
@@ -44,8 +45,20 @@
    "streaming": "FOX One",
    "overlaps_concert": true,
    "after_departure": false,
-   "note": "Hey Baby, first pitch is 30 minutes before Widespread Panic set 1 (~7:30 PM). Soak up the pregame scene downtown from mid-afternoon: the Bucks home opener tips at 3 PM at Fiserv Forum, the Third Ward block party runs from noon, and Foul Territory tapes live at Catalano Square 5-7 PM. Catch the first pitch and top of the 1st at Major Goolsby's (2 blocks from the Riverside), then walk into the show and check the score at set break (~9 PM). The game will likely end around 10:15-10:45 PM, so the city will be either euphoric or hushed when you walk out at 11:30. Downtown bars will be packed from 5 PM on.",
-   "source": "https://www.mlb.com/rays/news/2026-mlb-world-series-faq-schedule-times-teams-and-more"
+   "note": "Christian Yelich tripled in a run in his first World Series at-bat, and Trevor Megill struck out Jonny DeLuca with the tying run on third to end it.",
+   "source": "https://www.mlb.com/rays/news/2026-mlb-world-series-faq-schedule-times-teams-and-more",
+   "status": "final",
+   "result": {
+    "MIL": 3,
+    "TB": 2,
+    "winning_pitcher": "Jacob Misiorowski",
+    "losing_pitcher": "Nick Martinez",
+    "save": "Trevor Megill",
+    "source": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-10-23&endDate=2026-10-23&gameType=W&hydrate=linescore,decisions",
+    "recap_url": "https://www.mlb.com/rays/news/brewers-win-world-series-game-1-2026",
+    "recap_by": "Anthony Castrovince, MLB.com"
+   },
+   "note_source": "https://www.mlb.com/rays/news/brewers-win-world-series-game-1-2026"
   },
   {
    "game": 2,
@@ -59,7 +72,7 @@
    "streaming": "FOX One",
    "overlaps_concert": true,
    "after_departure": false,
-   "note": "Same collision as Friday: 7:00 PM first pitch against a ~7:30 PM set 1. Saturday has the fuller daytime menu: the Third Ward block party noon-11 PM with FOX One's retro 'Relive Live' pop-up (noon-4 PM) and Foul Territory live (5-7 PM) at Catalano Square, the Deer Garden big screen in the Deer District, and 90s2K Cafe's '1982 Retro Watch Party' (doors 5 PM, 82-cent taps 6-7 PM). First pitch somewhere close to the Riverside, then the show, then the score at set break. If the Brewers are up 2-0 heading to Tampa, downtown will be a party until bar close (2:30 AM).",
+   "note": "7:00 PM first pitch against a ~7:30 PM set 1. Saturday has the fuller daytime menu: the Third Ward block party noon-11 PM with FOX One's retro 'Relive Live' pop-up (noon-4 PM) and Foul Territory live (5-7 PM) at Catalano Square, the Deer Garden big screen in the Deer District, and 90s2K Cafe's '1982 Retro Watch Party' (doors 5 PM, 82-cent taps 6-7 PM). First pitch somewhere close to the Riverside, then the show, then the score at set break. If the Brewers win and go up 2-0 heading to Tampa, downtown will be a party until bar close (2:30 AM).",
    "source": "https://www.mlb.com/rays/news/2026-mlb-world-series-faq-schedule-times-teams-and-more"
   },
   {
@@ -94,7 +107,7 @@
    "watch_party_source": "https://urbanmilwaukee.com/pressrelease/brewers-welcome-fans-into-the-ballpark-for-world-series-game-3-and-4-watch-parties-at-american-family-field/"
   }
  ],
- "if_series_ends_early": "Hey Baby, it cannot. A best-of-seven cannot end before Game 4 on Tuesday Oct 27, so both Milwaukee games (Fri and Sat) will be played while you are in town, and the series will still be alive when you fly out Monday afternoon. The only weather risk is a postponement, and American Family Field has a retractable roof, so rain or cold will not postpone Games 1 or 2. If a game is somehow rescheduled, check mlb.com/brewers.",
+ "if_series_ends_early": "Hi Baby, it cannot. A best-of-seven cannot end before Game 4 on Tuesday Oct 27, so Game 2 on Saturday will be played while you are in town, and the series will still be alive when you fly out Monday afternoon. The only weather risk is a postponement, and American Family Field has a retractable roof, so rain or cold will not postpone Games 1 or 2. If a game is somehow rescheduled, check mlb.com/brewers.",
  "getting_around": {
   "deer_district": "About a half-mile walk north of the Riverside (10-12 minutes): west over the river on Wisconsin Ave, then north on N Vel R. Phillips Ave (Old World Third St / MLK Dr) to Fiserv Forum. The Hop streetcar does not serve the Deer District.",
   "third_ward": "About a 12-15 minute walk south on Broadway, or ride The Hop (free): board at the Wisconsin Ave stop a block east of the river, take the L Line or M Line to the Historic Third Ward stop, then walk a couple blocks south on Broadway to Catalano Square. Menomonee St will be closed to cars between Broadway and Milwaukee St for the block party.",
@@ -116,7 +129,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Deer+Garden+at+Deer+District+Milwaukee&query_place_id=ChIJPZ9zGyMZBYgRmNoONk8FinQ",
    "yelp_photos_url": null,
    "website": "https://deerdistrict.com/",
-   "blurb": "The city's official free outdoor watch party: a big screen in the Deer Garden plaza outside Fiserv Forum, ringed by bars and restaurants running Brewers promotions. Friday the Bucks open their season against the Bulls at 3 PM in the arena next door, so the plaza will be humming by mid-afternoon. This is where Milwaukee goes to lose its mind together.",
+   "blurb": "The city's official free outdoor watch party: a big screen in the Deer Garden plaza outside Fiserv Forum, ringed by bars and restaurants running Brewers promotions. This is where Milwaukee goes to lose its mind together.",
    "tags": [
     "free",
     "outdoor",
@@ -126,12 +139,11 @@
    ],
    "walk_from_riverside_miles": 0.46,
    "tv_setup": "Large outdoor screen presented by Michelob ULTRA; surrounding bars (Tom's Watch Bar, The Mecca, Good City, etc.) have screens with sound indoors.",
-   "hours_this_weekend": "Plaza is open all day; watch party programming begins with the Bucks game at 3 PM Friday, Brewers first pitch 7 PM. Saturday implied but not explicitly confirmed (see open_questions). Dress warm; late October nights in Milwaukee run 35-45 F.",
+   "hours_this_weekend": "Plaza is open all day; Brewers first pitch 7 PM. The Game 2 watch party is listed by WTMJ; the Deer District has not posted its own Saturday schedule. Dress warm; late October nights in Milwaukee run 35-45 F.",
    "source": "https://deerdistrict.com/article/ddbaseball/",
    "cost": "Free",
    "confirmed_games": [
-    "Game 1 (Fri Oct 23) confirmed",
-    "Game 2 (Sat Oct 24) implied"
+    "Game 2 (Sat Oct 24) listed by WTMJ"
    ],
    "secondary_source": "https://urbanmilwaukee.com/2026/10/22/where-to-watch-the-brewers-without-breaking-the-bank/"
   },
@@ -155,7 +167,7 @@
    ],
    "walk_from_riverside_miles": 0.47,
    "tv_setup": "More than 100 screens with sound up, oversized 'stadium screens' (reviewers mention a 45-foot jumbotron on the mezzanine), 360-degree viewing, indoor and outdoor seating.",
-   "hours_this_weekend": "Fri 11:00 AM-12:00 AM; Sat 10:00 AM-12:00 AM; Sun 11:00 AM-12:00 AM; Mon 4:00 PM-12:00 AM. Bucks pregame party Fri 1 PM, UFC watch Sat 1 PM, Packers watch Sun 3:25 PM.",
+   "hours_this_weekend": "Fri 11:00 AM-12:00 AM; Sat 10:00 AM-12:00 AM; Sun 11:00 AM-12:00 AM; Mon 4:00 PM-12:00 AM. UFC watch Sat 1 PM, Packers watch Sun 3:25 PM.",
    "source": "https://tomswatchbar.com/milwaukee/",
    "cost": "No cover; reservations via website",
    "phone": "(414) 376-6669"
@@ -196,7 +208,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Third+Ward+World+Series+Block+Party+%28Catalano+Square%29+Milwaukee&query_place_id=ChIJo7PvSp4ZBYgR8Q87Bh_WV_A",
    "yelp_photos_url": "https://www.yelp.com/biz_photos/third-ward-beer-garden-at-catalano-square-milwaukee?tab=food",
    "website": "https://historicthirdward.org/",
-   "blurb": "A two-day free street party in the prettiest neighborhood downtown: Menomonee St closed to cars, giant video screens in Catalano Square, food trucks, Brewers-themed cocktails from the Third Ward Beer Garden, and live tapings of the Foul Territory podcast (Corey Knebel, Kevin Pillar, Alanna Rizzo) 5-7 PM both days. FOX One's 'Relive Live' pop-up is a mock 1980s living room full of Brewers memorabilia and bobbleheads, noon-4 PM. Friday they are giving away two Game 1 tickets plus a shuttle (enter noon-5:15 PM).",
+   "blurb": "A free street party in the prettiest neighborhood downtown: Menomonee St closed to cars, giant video screens in Catalano Square, food trucks, Brewers-themed cocktails from the Third Ward Beer Garden, and a live taping of the Foul Territory podcast (Corey Knebel, Kevin Pillar, Alanna Rizzo) 5-7 PM. FOX One's 'Relive Live' pop-up is a mock 1980s living room full of Brewers memorabilia and bobbleheads, noon-4 PM.",
    "tags": [
     "free",
     "outdoor",
@@ -207,7 +219,7 @@
    ],
    "walk_from_riverside_miles": 0.59,
    "tv_setup": "Giant outdoor video screens in Catalano Square with game audio; the beer garden bar also has TVs.",
-   "hours_this_weekend": "Fri Oct 23 and Sat Oct 24, noon-11:00 PM both days. Foul Territory live 5-7 PM; FOX One pop-up noon-4 PM; Bill Michaels Show live 10 AM-2 PM. Closed Sunday/Monday.",
+   "hours_this_weekend": "Sat Oct 24, noon-11:00 PM. Foul Territory live 5-7 PM; FOX One pop-up noon-4 PM; Bill Michaels Show live 10 AM-2 PM. Closed Sunday/Monday.",
    "source": "https://www.milwaukeemag.com/watch-the-brewers-in-the-world-series-at-this-block-party/",
    "cost": "Free admission; pay for drinks and food",
    "secondary_source": "https://www.tmj4.com/news/local-news/in-your-community/milwaukee-county/world-series-block-party-takes-over-milwaukees-historic-third-ward-with-watch-parties-and-more",
@@ -251,7 +263,7 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=90s2K+Cafe+Milwaukee&query_place_id=ChIJlfXJIQAZBYgR0G97snf2PhE",
    "yelp_photos_url": null,
    "website": null,
-   "blurb": "A nostalgia bar (90s and 2000s decor, DJs, big dance floor) a block from the Deer District, throwing a '1982 Retro Watch Party' Friday and Saturday for the last time the Brewers were in the World Series. Doors 5 PM, 82-cent taps from 6-7 PM, Brewers gear required for the specials. Loud and young, and a Panic fan would enjoy the pregame.",
+   "blurb": "A nostalgia bar (90s and 2000s decor, DJs, big dance floor) a block from the Deer District, throwing a '1982 Retro Watch Party' Saturday for the last time the Brewers were in the World Series. Doors 5 PM, 82-cent taps from 6-7 PM, Brewers gear required for the specials. Loud and young, and a Panic fan would enjoy the pregame.",
    "tags": [
     "theme bar",
     "1982",
@@ -261,7 +273,7 @@
    ],
    "walk_from_riverside_miles": 0.4,
    "tv_setup": "Multiple TVs (normally playing 90s movies) switched to the game for the watch party.",
-   "hours_this_weekend": "Watch party Fri Oct 23 and Sat Oct 24: doors 5:00 PM, 82-cent taps 6:00-7:00 PM, open until 2:30 AM. Posted regular hours: Fri 7 PM-2:30 AM, Sat 4 PM-2:30 AM, Sun 4 PM-2 AM, Mon closed.",
+   "hours_this_weekend": "Watch party Sat Oct 24: doors 5:00 PM, 82-cent taps 6:00-7:00 PM, open until 2:30 AM. Posted regular hours: Sat 4 PM-2:30 AM, Sun 4 PM-2 AM, Mon closed.",
    "source": "https://onmilwaukee.com/articles/brewers-watch-parties",
    "cost": "No cover listed; Brewers gear required for specials",
    "phone": "(414) 210-2938"

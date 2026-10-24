@@ -19,7 +19,7 @@
     var todo = b.lyric.some(function (l) { return !l.text; });
     return '<p class="sp-lyric"' + (todo ? ' data-todo' : '') + '>' + b.lyric.map(function (l) {
       return l.text ? '<span class="ly">' + esc(l.text) + '</span>'
-        : '<span class="ly ly--todo" style="--len:' + Math.max(6, +l.len || 24) + '"><span class="ly-tag">Lyric ' + esc(l.n) + ' · ~' + esc(l.len) + ' letters</span></span>';
+        : '<span class="ly ly--todo" style="--len:' + Math.max(6, +l.len || 24) + '"><span class="ly-tag">Verse ' + esc(l.n) + ' · about ' + esc(l.len) + ' letters</span></span>';
     }).join('') + '</p>';
   }
   function words(b) {

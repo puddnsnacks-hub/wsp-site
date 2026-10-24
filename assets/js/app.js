@@ -2,6 +2,25 @@
    Each widget renders independently: a missing or broken file leaves a quiet
    "coming soon" note and never blocks the rest of the page. */
 window.WSP = window.WSP || {};
+  /* R27: the hero as drawn (Figma, Phone · 390). Each night is past, today or ahead, in Central time */
+  WSP.heroType = function () {
+    const ymd = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Chicago', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+    document.querySelectorAll('.h2-day[data-night]').forEach(d => { const n = d.dataset.night; const st = n < ymd ? 'past' : n === ymd ? 'today' : 'ahead';
+      d.dataset.state = st; const t = d.querySelector('.h2-state'); if (t) t.textContent = st === 'past' ? ', done' : st === 'today' ? ', tonight' : ''; });
+  };
+  const heroGo = () => { WSP.heroType();
+    document.addEventListener('click', (e) => { const a = e.target.closest('[data-hero-go]'); if (!a) return; const ch = a.dataset.heroGo;
+      if (WSP.shell && WSP.shell.go) { e.preventDefault(); history.replaceState(null, '', '#scene-' + ch);
+        const first = document.querySelector(`#scene-${ch} > section.w:not([hidden]):not([data-nocollapse])`); if (first && WSP.shell.setOpen) WSP.shell.setOpen(first, true);
+        setTimeout(() => { WSP.shell.go(ch); const t = document.querySelector(`#scene-${ch} [data-chapter-toggle]`); if (t) t.focus({ preventScroll: true }); }, 50); } }); };  /* review 5: focus follows */   /* review 2: open the first card, then land on the category head */  /* review 2: land on the first card, open */
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', heroGo); else heroGo();
+  setInterval(() => WSP.heroType && WSP.heroType(), 5 * 60 * 1000);
+  /* review 3: arrow keys move along a tab row, as tabs should */
+  document.addEventListener('keydown', (e) => { const t = e.target.closest && e.target.closest('[role=tab]'); if (!t || !['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)) return;
+    const all = [...t.parentNode.querySelectorAll('[role=tab]')]; let i = all.indexOf(t);
+    i = e.key === 'Home' ? 0 : e.key === 'End' ? all.length - 1 : (i + (e.key === 'ArrowRight' ? 1 : -1) + all.length) % all.length;
+    e.preventDefault(); all[i].focus(); all[i].click(); });
+  WSP.motion = () => (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth');
 (function () {
   const I = WSP.icons.ui, TZ = 'America/Chicago';
   const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -20,7 +39,7 @@ window.WSP = window.WSP || {};
     catch (e) { return null; }
   }
   function pending(name, msg) { const b = body(name); if (b) b.innerHTML = `<div class="pending-note">${esc(msg || 'Research still coming in — check back in a bit')}</div>`; }
-  function src(url, label) { return url ? ` <a class="src" href="${esc(url)}" target="_blank" rel="noopener" title="Source">${label || 'src'}</a>` : ''; }
+  function src(url, label) { return url ? ` <a class="src" href="${esc(url)}" target="_blank" rel="noopener" title="Source">${label || 'source'}</a>` : ''; }
   function media(img, cls = '') {
     if (!imgSrc(img)) return '';
     return `<figure class="media ${cls}"><img src="${esc(imgSrc(img))}" alt="" loading="lazy" onerror="this.closest('figure').remove()">${img.credit ? `<figcaption class="credit">${img.credit_url ? `<a href="${esc(img.credit_url)}" target="_blank" rel="noopener">${esc(img.credit)}</a>` : esc(img.credit)}</figcaption>` : ''}</figure>`;
@@ -52,7 +71,8 @@ window.WSP = window.WSP || {};
   /* A tile: the picture, the name, one line, and Read more. The rest lives in the sheet. */
   function tile(o) {
     const img = o.art ? `<span class="tile-img tile-garn" style="--c:var(--wsp-cat-${esc(o.cat || 'landmark')})">${o.art}</span>` : o.img ? `<img class="tile-img" src="${esc(o.img)}" alt="" loading="lazy" onerror="this.classList.add('is-gone')">` : `<span class="tile-img tile-cat" style="--c:var(--wsp-cat-${esc(o.cat || 'landmark')})"></span>`;
-    return `<li class="tile" ${o.attrs || ''}>${img}<div class="tile-t"><h3>${esc(o.name)}</h3>${o.line ? `<p class="tile-line">${o.line}</p>` : ''}</div><button class="btn btn--sm tile-more" type="button" ${o.open}>Read more</button></li>`;
+    const bare = o.bare || (!o.art && !o.img);   /* no picture: no placeholder block */
+    return `<li class="tile${bare ? ' tile--bare' : ''}" ${o.attrs || ''}>${bare ? '' : img}<div class="tile-t"><h3>${esc(o.name)}</h3>${o.line ? `<p class="tile-line">${o.line}</p>` : ''}</div><button class="btn btn--sm tile-more" type="button" aria-label="Read more: ${esc(o.name)}" ${o.open}>Read more</button></li>`;
   }
   function placeRow(loc, opts = {}) {
     const cat = loc.category || 'landmark';
@@ -106,13 +126,14 @@ window.WSP = window.WSP || {};
         <p class="prose">${esc(loc.blurb || '')}</p>
         ${rows.length ? `<dl style="display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:var(--pds-text-caption);margin:0">${rows.map(([k, v]) => `<dt class="label" style="padding-top:2px">${k}</dt><dd style="margin:0">${v}</dd>`).join('')}</dl>` : ''}
         ${links(loc)}${loc.source ? `<p class="caption">Source: <a href="${esc(loc.source)}" target="_blank" rel="noopener">${esc(new URL(loc.source, location.href).hostname)}</a></p>` : ''}</div>`;
-      $('#sheet').classList.add('open'); $('#sheet').setAttribute('aria-hidden', 'false'); $('#scrim').classList.add('open'); $('#sheet').scrollTop = 0;
+      WSP.sheet._show();
     },
+    _show() { const sh = $('#sheet'); WSP.sheet._from = document.activeElement; sh.setAttribute('aria-modal', 'true'); sh.classList.add('open'); sh.setAttribute('aria-hidden', 'false'); $('#scrim').classList.add('open'); sh.scrollTop = 0; const m = $('main'); if (m && !sh.closest('main')) m.inert = true; ['.site-header', '.site-nav', 'footer'].forEach(q => { const x = $(q); if (x) x.inert = true; });  /* review 4: focus stays in the sheet */ const c = $('#sheet-close'); if (c) setTimeout(() => c.focus(), 30); },
     openHTML(html) {
       const sb = $('#sheet-body'); if (!sb) return; sb.innerHTML = html;
-      $('#sheet').classList.add('open'); $('#sheet').setAttribute('aria-hidden', 'false'); $('#scrim').classList.add('open'); $('#sheet').scrollTop = 0;
+      WSP.sheet._show();
     },
-    close() { $('#sheet').classList.remove('open'); $('#sheet').setAttribute('aria-hidden', 'true'); $('#scrim').classList.remove('open'); }
+    close() { const sh = $('#sheet'); if (!sh.classList.contains('open')) return; sh.classList.remove('open'); sh.setAttribute('aria-hidden', 'true'); $('#scrim').classList.remove('open'); const m = $('main'); if (m) m.inert = false; ['.site-header', '.site-nav', 'footer'].forEach(q => { const x = $(q); if (x) x.inert = false; }); if (WSP.sheet._from && WSP.sheet._from.focus) WSP.sheet._from.focus(); WSP.sheet._from = null; }
   };
   document.addEventListener('click', (e) => {
     const a = e.target.closest('[data-sheet]'); if (a) { e.preventDefault(); const l = byId[a.dataset.sheet]; if (l) WSP.sheet.openLocation(l); return; }
@@ -129,39 +150,58 @@ window.WSP = window.WSP || {};
     document.documentElement.setAttribute('data-theme', next); try { localStorage.setItem('wsp-theme', next); } catch (e) {}
   });
 
-  /* ---------- Mega menu + current-section label ---------- */
-  const mega = $('#mega'), menuBtn = $('#menu-btn');
+  /* ---------- Menu: a drawer from the left over a light scrim (Michael 2026-10-24 00:46) ---------- */
+  const mega = $('#mega'), menuBtn = $('#menu-btn'), scrim = $('#mega-scrim');
   const sectionTitle = (id) => { const h = $(`#${id} > header h2`) || $(`#${id} h2`); return h ? h.textContent.trim() : id; };
-  function setMenu(open) { mega.hidden = !open; menuBtn.setAttribute('aria-expanded', String(open)); if (open) mega.querySelector('a').focus({ preventScroll: true }); }
-  menuBtn.addEventListener('click', () => setMenu(mega.hidden));
-  $$('.mega-col').forEach(d => d.addEventListener('toggle', () => { if (d.open) $$('.mega-col').forEach(o => { if (o !== d) o.open = false; }); }));
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !mega.hidden) { setMenu(false); menuBtn.focus(); } });
-  document.addEventListener('click', (e) => { if (!mega.hidden && !e.target.closest('.site-nav')) setMenu(false); });
+  const isOpen = () => mega.classList.contains('is-open');
+  function setMenu(open, focusBack) {
+    mega.classList.toggle('is-open', open); if (scrim) scrim.classList.toggle('is-on', open);
+    mega.inert = !open; mega.setAttribute('aria-hidden', String(!open));
+    document.documentElement.classList.toggle('menu-open', open);
+    menuBtn.setAttribute('aria-expanded', String(open));
+    if (open) {
+      const cur = document.body.dataset.chapter || '';
+      $$('.mega-cat', mega).forEach(a => { if (a.dataset.chapterLink === cur) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); });
+      setTimeout(() => { const f = $('.mega-cat[aria-current]', mega) || $('.mega-cat', mega); if (f) f.focus({ preventScroll: true }); }, 60);
+    } else if (focusBack) menuBtn.focus({ preventScroll: true });
+  }
+  // the drawer and its scrim live at the top of the page's stacking order, not inside the sticky bar
+  if (scrim) document.body.append(scrim); document.body.append(mega);
+  mega.hidden = false; setMenu(false);
+  menuBtn.addEventListener('click', () => setMenu(!isOpen(), true));
+  if (scrim) scrim.addEventListener('click', () => setMenu(false, true));
+  const closeBtn = $('.mega-close', mega); if (closeBtn) closeBtn.addEventListener('click', () => setMenu(false, true));
+  document.addEventListener('keydown', (e) => {
+    if (!isOpen()) return;
+    if (e.key === 'Escape') { setMenu(false, true); return; }
+    if (e.key === 'Tab') { const f = $$('button, a', mega); const first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); } else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); } }
+  });
+  // a swipe toward the left closes it
+  let sx = null; mega.addEventListener('touchstart', (e) => { sx = e.touches[0].clientX; }, { passive: true });
+  mega.addEventListener('touchend', (e) => { if (sx !== null && sx - e.changedTouches[0].clientX > 60) setMenu(false, true); sx = null; }, { passive: true });
   mega.addEventListener('click', (e) => {
-    const a = e.target.closest('a'); if (!a) return;
-    const id = a.getAttribute('href').slice(1); const sec = document.getElementById(id); setMenu(false);
-    if (!sec) return;
-    e.preventDefault();
-    let target = sec;
-    if (a.dataset.tab) { const t = sec.querySelector('#' + a.dataset.tab); if (t) t.click(); }
-    if (a.dataset.openDetails) { const d = [...sec.querySelectorAll('details')].find(x => x.textContent.toLowerCase().includes(a.dataset.openDetails.toLowerCase())); if (d) { d.open = true; target = d; } }
-    if (a.dataset.scrollTo) { const el = sec.querySelector(a.dataset.scrollTo); if (el) target = el; }
-    if (WSP.shell && WSP.shell.setOpen) WSP.shell.setOpen(sec, true);
-    requestAnimationFrame(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }));
-    history.replaceState(null, '', '#' + id);
+    const x = e.target.closest('a.mega-xl');
+    if (x) { setMenu(false); if (x.dataset.x === 'top') { e.preventDefault(); scrollTo({ top: 0, behavior: WSP.motion() }); history.replaceState(null, '', location.pathname); const h = document.querySelector('.h2-btn'); if (h) setTimeout(() => h.focus({ preventScroll: true }), 60); } return; }
+    const a = e.target.closest('a.mega-cat'); if (!a) return;
+    e.preventDefault(); setMenu(false);
+    const ch = a.dataset.chapterLink;
+    if (WSP.shell && WSP.shell.go) WSP.shell.go(ch);
+    history.replaceState(null, '', '#scene-' + ch);
+    setTimeout(() => { const t = document.querySelector(`#scene-${ch} [data-chapter-toggle]`) || document.querySelector(`#scene-${ch} h2`); if (t) { if (!t.matches('button, a')) t.tabIndex = -1; t.focus({ preventScroll: true }); } }, 80);  /* review 4: focus follows her to the category */
   });
 
   /* ---------- Renderers ---------- */
   function renderTonight(c, ws, cl) {
     const b = body('tonight'); if (!b) return;
-    const shows = (c && c.shows) || []; const t = todayISO(); const h = nowHour();
+    const all = (c && c.shows) || []; const shows = all.filter(s => !s.played); const t = todayISO(); const h = nowHour();
     let show = shows.find(s => s.date === t) || null;
     // After 1 AM Central, "tonight" still means the show that just happened until 4 AM; after that, next show.
     if (show && h < 4) { /* keep */ } else if (!show || h >= 4) show = shows.find(s => s.date >= t) || shows[shows.length - 1];
-    const idx = shows.indexOf(show); const isPast = show && show.date < t;
+    const idx = all.indexOf(show); const isPast = show && show.date < t;
     const eyebrow = $('#tonight-eyebrow'), title = $('#tonight-h');
     if (!show) { eyebrow.textContent = 'The run'; title.textContent = 'Widespread Panic at the Riverside'; b.innerHTML = '<p class="muted">Show data is still loading.</p>'; return; }
-    eyebrow.textContent = show.date === t ? `Tonight · ${idx + 1} of ${shows.length}` : (isPast ? 'The run is over' : `Next · ${idx + 1} of ${shows.length}`);
+    eyebrow.textContent = show.date === t ? `Tonight · ${idx + 1} of ${all.length}` : (isPast ? 'The run is over' : `Next · ${idx + 1} of ${all.length}`);
     title.innerHTML = `${esc(show.weekday)} <span class="muted" style="font-weight:400">${esc(longDay(show.date).replace(/^\w+, /, ''))}</span>`;
     const game = ws && ws.games ? ws.games.find(g => g.date === show.date && g.game) : null;
     const party = cl && cl.event && cl.event.name ? cl.event : null;
@@ -187,12 +227,32 @@ window.WSP = window.WSP || {};
     ${ws && ws.series && ws.series.brewers_in_it ? `<div class="notice" style="margin-top:16px;background:var(--dt-accent-90);color:var(--dt-accent-15);border-color:var(--dt-accent-30)"><b>The Brewers are in the World Series.</b> ${esc(ws.series.series_status || '')} Expect the whole city in blue and gold — bars will be loud, screens everywhere, and the walk home at 11:30 will tell you the score.</div>` : ''}`;
   }
 
+  /* The morning after: the newest played night's setlist, where to hear it, a review if one exists, and the game. */
+  function renderLastNight(ln) {
+    const b = body('lastnight'); if (!b) return;
+    const nights = (ln && ln.nights) || []; if (!nights.length) return pending('lastnight', 'Nothing played yet');
+    const needs = (txt, url) => txt && !/^\[NEEDS INFO/.test(txt) ? `<p class="caption needs-info">${esc(txt)}${url ? src(url, 'check') : ''}</p>` : '';   /* placeholders stay off the page until filled */
+    const setlist = (n) => `<div class="day-group">${(n.sets || []).map(s => `<div class="slot"><span class="time">${esc(s.name)}</span><div class="who"><p class="setlist">${(s.songs || []).map((x, i, a) => esc(x.title) + (i < a.length - 1 ? (x.segue_next ? ' &gt; ' : ', ') : '')).join('')}</p></div></div>`).join('')}</div>`;
+    const night = (n, full) => `
+      <p class="caption">${esc(longDay(n.date))} · ${esc(n.venue || '')} · Night ${esc(n.night)} of ${esc(n.of)}</p>
+      ${(n.sets || []).length ? setlist(n) : needs('[NEEDS INFO: the setlist]')}
+      ${n.setlist_source ? `<p class="caption">Setlist: <a href="${esc(n.setlist_source)}" target="_blank" rel="noopener">${esc(n.setlist_source_label || 'source')}</a></p>` : ''}
+      ${needs(n.setlist_needs, n.setlist_needs_url)}
+      ${full ? `<div><span class="eyebrow">Hear it again</span><ul class="rules" style="margin-top:6px">${(n.listen || []).map(l => `<li class="rule"><span class="ic">${l.free === false ? I.ticket : I.link}</span><span><b><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a></b>${l.free === false ? ' · paid' : (l.free ? ' · free' : '')} — ${esc(l.note || '')}${l.needs && !/^\[NEEDS INFO/.test(l.needs) ? ` <span class="needs-info">${esc(l.needs)}</span>` : ''}</span></li>`).join('')}</ul>
+        ${n.next_stream ? `<div class="notice" style="margin-top:10px">${esc(n.next_stream.text)}${src(n.next_stream.url, 'nugs')}</div>` : ''}</div>
+      ${n.review ? `<div><span class="eyebrow">The review</span><p class="prose" style="margin-top:6px">${esc(n.review.summary)}</p><p class="caption"><a href="${esc(n.review.url)}" target="_blank" rel="noopener">${esc(n.review.title || 'Read the review')}</a> · ${esc(n.review.author || '')}${n.review.outlet ? `, ${esc(n.review.outlet)}` : ''}</p></div>` : ''}
+      ${n.game ? `<div><span class="eyebrow">${esc(n.game.label || 'The game')}</span><p class="prose" style="margin-top:6px"><b class="strong">${esc(n.game.score)}.</b> ${esc(n.game.line || '')}</p>${n.game.recap_url ? `<p class="caption"><a href="${esc(n.game.recap_url)}" target="_blank" rel="noopener">The recap</a> · ${esc(n.game.recap_by || '')}${n.game.recap_outlet ? `, ${esc(n.game.recap_outlet)}` : ''}</p>` : ''}</div>` : ''}` : ''}`;
+    const last = nights[nights.length - 1], earlier = nights.slice(0, -1).reverse();
+    const eb = $('#lastnight .eyebrow'); if (eb && last.weekday) eb.textContent = `Last night · ${last.weekday}`;
+    b.innerHTML = night(last, true) + earlier.map(n => `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">Night ${esc(n.night)} · ${esc(longDay(n.date))}</summary>${night(n, false)}</details>`).join('');
+  }
+
   function renderConcert(c) {
     const b = body('concert'); if (!c) return pending('concert');
     const v = c.venue || {};
     b.innerHTML = `
       ${media(v.image)}
-      <div class="day-group">${(c.shows || []).map((s, i) => `<div class="slot"><span class="time">${esc(s.weekday).slice(0, 3)} ${esc(s.date.slice(5).replace('-', '/'))}</span><div class="who"><h3>Night ${i + 1} ${s.status ? `<span class="status status--${/sold/i.test(s.status) ? 'closed' : 'open'}" style="vertical-align:middle;margin-left:6px">${esc(s.status)}</span>` : ''}</h3><p>Doors ${esc(s.doors)} · Show ${esc(s.show)}</p><p>${esc(s.notes || '')}</p><div class="links">${s.ticket_url ? `<a class="link-pill" href="${esc(s.ticket_url)}" target="_blank" rel="noopener">${I.ticket}Tickets</a>` : ''}${s.source ? `<a class="link-pill" href="${esc(s.source)}" target="_blank" rel="noopener">${I.link}Event page</a>` : ''}</div></div></div>`).join('')}</div>
+      <div class="day-group">${(c.shows || []).map((s, i) => s.played ? '' : `<div class="slot"><span class="time">${esc(s.weekday).slice(0, 3)} ${esc(s.date.slice(5).replace('-', '/'))}</span><div class="who"><h3>Night ${i + 1} ${s.status ? `<span class="status status--${/sold/i.test(s.status) ? 'closed' : 'open'}" style="vertical-align:middle;margin-left:6px">${esc(s.status)}</span>` : ''}</h3><p>Doors ${esc(s.doors)} · Show ${esc(s.show)}</p><p>${esc(s.notes || '')}</p><div class="links">${s.ticket_url ? `<a class="link-pill" href="${esc(s.ticket_url)}" target="_blank" rel="noopener">${I.ticket}Tickets</a>` : ''}${s.source ? `<a class="link-pill" href="${esc(s.source)}" target="_blank" rel="noopener">${I.link}Event page</a>` : ''}</div></div></div>`).join('')}</div>
       ${v.name ? `<div><span class="eyebrow">The room</span><p class="prose" style="margin-top:6px">${esc(v.blurb || '')}</p>${links(v)}</div>` : ''}
       ${v.tips && v.tips.length ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">Venue rules and tips (${v.tips.length})</summary><ul class="rules" style="margin-top:8px">${v.tips.map(t => `<li class="rule"><span class="ic">${I.check}</span><span>${esc(typeof t === 'string' ? t : t.tip || t.rule || JSON.stringify(t))}</span></li>`).join('')}</ul>${v.box_office_source ? `<p class="caption" style="margin-top:8px"><a href="${esc(v.box_office_source)}" target="_blank" rel="noopener">Official FAQ</a></p>` : ''}</details>` : ''}
       ${c.fan_tips && c.fan_tips.length ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">Panic-fan tips for this run (${c.fan_tips.length})</summary><ul class="rules" style="margin-top:8px">${c.fan_tips.map(t => `<li class="rule"><span class="ic">${I.star}</span><span>${esc(typeof t === 'string' ? t : t.tip || JSON.stringify(t))}</span></li>`).join('')}</ul></details>` : ''}
@@ -206,14 +266,18 @@ window.WSP = window.WSP || {};
     const byDay = {}; (cl.schedule || []).forEach(s => { (byDay[s.date] = byDay[s.date] || []).push(s); });
     (cl.after_parties || []).forEach(s => { (byDay[s.date] = byDay[s.date] || []).push(Object.assign({}, s, { stage: 'After-party · ' + (byId[s.venue_id] ? byId[s.venue_id].name : "Mo's Irish Pub"), start: (s.start || '').replace(/\s*\(doors\).*$/i, ' doors'), is_after: true })); });
     const other = cl.other_free_live_music_nearby_this_weekend || [];
+    const hb = ev.hours_by_day || []; const td = hb.find(d => d.date === todayISO()) || hb.find(d => d.date > todayISO());
+    const lede = td ? `<p class="prose"><b class="strong">${esc(td.date === todayISO() ? 'Today' : longDay(td.date).split(',')[0])}: the block opens at ${esc(td.open)}, ${esc((td.music || '').replace(/\s*\((.*)\)$/, ' $1').replace(/^(\S+ \S+) (.+)$/, '$2 plays at $1'))}, and the Riverside doors open at ${esc(td.riverside_doors || '6:30 PM')}. Free.</b></p>` : '';
     b.innerHTML = `
-      ${ev.summary ? `<p class="prose">${esc(ev.summary)}${src(ev.source)}</p>` : ''}
+      ${lede}
+      ${Object.keys(byDay).length ? `<div><span class="eyebrow">Who's playing, and when</span>${Object.keys(byDay).sort().map(d => `<details class="day-group" style="margin-top:10px" ${d === todayISO() || (todayISO() > Object.keys(byDay).sort().slice(-1)[0] && d === Object.keys(byDay).sort().slice(-1)[0]) || todayISO() < Object.keys(byDay).sort()[0] && d === Object.keys(byDay).sort()[0] ? 'open' : ''}><summary class="eyebrow" style="cursor:pointer;min-height:36px;display:flex;align-items:center">${esc(longDay(d))}${d === todayISO() ? ' · today' : ''}</summary><ul class="tiles" style="margin-top:8px">${byDay[d].map(s => { const stage = s.stage ? (byId[s.stage] ? byId[s.stage].name : s.stage) : ''; const when = `${esc(s.start || '')}${s.end ? `–${esc(s.end)}` : ''}`; return tile({ img: imgSrc(s.image), cat: 'stage', name: s.band, line: when, open: modal(`${media(s.image)}<span class="eyebrow">${esc(longDay(d))} · ${when}</span><h3 id="sheet-title" class="heading-sm">${esc(s.band)}</h3>${s.hometown || stage ? `<p class="caption">${esc(s.hometown || '')}${stage ? ` · ${esc(stage)}` : ''}</p>` : ''}<p class="prose">${esc(s.style || '')}</p><div class="links">${s.spotify_url ? `<a class="link-pill" href="${esc(s.spotify_url)}" target="_blank" rel="noopener">${I.spotify}Spotify</a>` : ''}${s.website ? `<a class="link-pill" href="${esc(s.website)}" target="_blank" rel="noopener">${I.link}Site</a>` : ''}${s.stage && byId[s.stage] ? `<button class="link-pill" data-focus="${esc(s.stage)}">${I.pin}On map</button>` : ''}</div>`) }); }).join('')}</ul></details>`).join('')}</div>` : ''}
+      ${(cl.food_and_drink_in_zone || []).length || cl.food_and_drink_note ? `<div><span class="eyebrow">Food and drink in the zone</span>${cl.food_and_drink_note ? `<p class="caption" style="margin-top:6px">${esc(cl.food_and_drink_note)}</p>` : ''}${placeList(cl.food_and_drink_in_zone)}</div>` : ''}
+      ${other.length ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">Other free live music nearby this weekend (${other.length})</summary><ul class="rules">${other.map(o => `<li class="rule"><span class="ic">${I.star}</span><span><b>${esc(o.name)}</b> — ${esc(o.venue || '')}${o.dates ? `, ${esc(o.dates)}` : ''}${o.cost ? ` · ${esc(o.cost)}` : ''}. ${esc(o.note || '')}${src(o.source)}</span></li>`).join('')}</ul></details>` : ''}
+      ${ev.summary ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">About the block party</summary><p class="prose">${esc(ev.summary)}${src(ev.source)}</p></details>` : ''}
+      <div><span class="eyebrow">The closure, in short</span></div>
       ${cz.streets ? `<div class="notice"><b>Closed to cars:</b> ${esc(cz.streets)}${cz.closed_from ? ` — ${esc(cz.closed_from)} to ${esc(cz.closed_until || '')}` : ''}${src(cz.source)}</div>` : ''}
       ${(ev.hours_by_day || []).length ? `<div class="facts" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:12px">${ev.hours_by_day.map(d => `<div style="border-top:1px solid var(--pds-border-subtle);padding-top:6px"><div class="label">${esc(longDay(d.date).split(',')[0])}</div><div class="strong num">Street open ${esc(d.open)}</div><div class="caption num">Music ${esc((d.music || '').replace(/\s*\(.*\)$/, ''))}${d.street_reopens_to_cars ? ` · cars back ${esc(d.street_reopens_to_cars)}` : ''}</div></div>`).join('')}</div>` : ''}
       ${(cl.rules || []).length ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">The rules in the zone (${cl.rules.length})</summary><ul class="rules">${cl.rules.map(r => `<li class="rule"><span class="ic">${I.info}</span><span><b>${esc(r.rule)}</b>${r.detail ? ` — ${esc(r.detail)}` : ''}${src(r.source)}</span></li>`).join('')}</ul></details>` : ''}
-      ${Object.keys(byDay).length ? `<div><span class="eyebrow">Live music schedule</span>${Object.keys(byDay).sort().map(d => `<details class="day-group" style="margin-top:10px" ${d === todayISO() || (todayISO() > Object.keys(byDay).sort().slice(-1)[0] && d === Object.keys(byDay).sort().slice(-1)[0]) || todayISO() < Object.keys(byDay).sort()[0] && d === Object.keys(byDay).sort()[0] ? 'open' : ''}><summary class="eyebrow" style="cursor:pointer;min-height:36px;display:flex;align-items:center">${esc(longDay(d))}${d === todayISO() ? ' · today' : ''}</summary><ul class="tiles" style="margin-top:8px">${byDay[d].map(s => { const stage = s.stage ? (byId[s.stage] ? byId[s.stage].name : s.stage) : ''; const when = `${esc(s.start || '')}${s.end ? `–${esc(s.end)}` : ''}`; return tile({ img: imgSrc(s.image), cat: 'stage', name: s.band, line: when, open: modal(`${media(s.image)}<span class="eyebrow">${esc(longDay(d))} · ${when}</span><h3 id="sheet-title" class="heading-sm">${esc(s.band)}</h3>${s.hometown || stage ? `<p class="caption">${esc(s.hometown || '')}${stage ? ` · ${esc(stage)}` : ''}</p>` : ''}<p class="prose">${esc(s.style || '')}</p><div class="links">${s.spotify_url ? `<a class="link-pill" href="${esc(s.spotify_url)}" target="_blank" rel="noopener">${I.spotify}Spotify</a>` : ''}${s.website ? `<a class="link-pill" href="${esc(s.website)}" target="_blank" rel="noopener">${I.link}Site</a>` : ''}${s.stage && byId[s.stage] ? `<button class="link-pill" data-focus="${esc(s.stage)}">${I.pin}On map</button>` : ''}</div>`) }); }).join('')}</ul></details>`).join('')}</div>` : ''}
-      ${(cl.food_and_drink_in_zone || []).length || cl.food_and_drink_note ? `<div><span class="eyebrow">Food and drink in the zone</span>${cl.food_and_drink_note ? `<p class="caption" style="margin-top:6px">${esc(cl.food_and_drink_note)}</p>` : ''}${placeList(cl.food_and_drink_in_zone)}</div>` : ''}
-      ${other.length ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">Other free live music nearby this weekend (${other.length})</summary><ul class="rules">${other.map(o => `<li class="rule"><span class="ic">${I.star}</span><span><b>${esc(o.name)}</b> — ${esc(o.venue || '')}${o.dates ? `, ${esc(o.dates)}` : ''}${o.cost ? ` · ${esc(o.cost)}` : ''}. ${esc(o.note || '')}${src(o.source)}</span></li>`).join('')}</ul></details>` : ''}
       ${(cl.transit_notes || []).length ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">Getting around the closure</summary><ul class="rules">${cl.transit_notes.map(t => `<li class="rule"><span class="ic">${I.walk}</span><span>${esc(t)}</span></li>`).join('')}</ul></details>` : ''}
       ${ev.official_url ? `<p class="caption"><a href="${esc(ev.official_url)}" target="_blank" rel="noopener">Official event page</a></p>` : ''}`;
   }
@@ -223,7 +287,7 @@ window.WSP = window.WSP || {};
     const s = ws.series || {}; const t = todayISO();
     b.innerHTML = `
       <div class="notice">${esc(s.milwaukee_angle || s.series_status || '')}${src(s.source)}</div>
-      <div style="display:flex;flex-direction:column;gap:10px">${(ws.games || []).filter(g => g.date >= '2026-10-23' && g.date <= '2026-10-26').map(g => g.game ? `<div class="game${g.after_departure ? ' after' : ''}${g.date === t ? ' today' : ''}"><div><div class="label">${esc(g.weekday)} ${esc(g.date.slice(5).replace('-', '/'))}${g.date === t ? ' · today' : ''}${g.after_departure ? ' · after your flight' : ''}</div><div class="matchup">${esc(g.matchup || '')}</div><div class="when">${esc(g.venue || '')}${g.city ? `, ${esc(g.city)}` : ''} · ${esc(g.tv || '')}</div></div><div><div class="big num">${esc(g.first_pitch_central)}</div><div class="label" style="text-align:right">first pitch</div></div>${g.note ? `<p class="note">${esc(g.note)}</p>` : ''}</div>` : `<div class="game after"><div><div class="label">${esc(g.weekday)} ${esc(g.date.slice(5).replace('-', '/'))}</div><div class="matchup">No game</div><div class="when">${esc(g.note || 'Travel day')}</div></div></div>`).join('')}</div>
+      <div style="display:flex;flex-direction:column;gap:10px">${(ws.games || []).filter(g => g.date >= '2026-10-23' && g.date <= '2026-10-26').map(g => g.game ? `<div class="game${g.after_departure ? ' after' : ''}${g.date === t ? ' today' : ''}"><div><div class="label">${esc(g.weekday)} ${esc(g.date.slice(5).replace('-', '/'))}${g.date === t ? ' · today' : ''}${g.after_departure ? ' · after your flight' : ''}</div><div class="matchup">${esc(g.matchup || '')}</div><div class="when">${esc(g.venue || '')}${g.city ? `, ${esc(g.city)}` : ''} · ${esc(g.tv || '')}</div></div>${g.result ? `<div><div class="big num">${esc(g.result.MIL)}–${esc(g.result.TB)}</div><div class="label" style="text-align:right">Final · Brewers–Rays</div></div>` : `<div><div class="big num">${esc(g.first_pitch_central)}</div><div class="label" style="text-align:right">first pitch</div></div>`}${g.note ? `<p class="note">${esc(g.note)}${g.result && g.result.recap_url ? src(g.result.recap_url, 'recap') : ''}</p>` : ''}</div>` : `<div class="game after"><div><div class="label">${esc(g.weekday)} ${esc(g.date.slice(5).replace('-', '/'))}</div><div class="matchup">No game</div><div class="when">${esc(g.note || 'Travel day')}</div></div></div>`).join('')}</div>
       ${s.storylines && s.storylines.length ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">Storylines to drop at the bar</summary><ul class="rules">${s.storylines.map(x => `<li class="rule"><span class="ic">${I.star}</span><span>${esc(typeof x === 'string' ? x : x.text || JSON.stringify(x))}</span></li>`).join('')}</ul></details>` : ''}
       <div><span class="eyebrow">Where to watch</span>${placeList(ws.watch_spots)}</div>
       ${ws.getting_around ? `<details><summary class="ui" style="min-height:44px;display:flex;align-items:center;cursor:pointer">Getting to the watch parties</summary><ul class="rules">${['deer_district', 'third_ward', 'american_family_field'].filter(k => ws.getting_around[k]).map(k => `<li class="rule"><span class="ic">${I.walk}</span><span><b>${esc(k.replace(/_/g, ' '))}</b> — ${esc(ws.getting_around[k])}</span></li>`).join('')}</ul></details>` : ''}`;
@@ -262,6 +326,7 @@ window.WSP = window.WSP || {};
         <p class="caption">${esc(T[g.away] ? T[g.away].nickname : g.away)} at ${esc(T[g.home] ? T[g.home].nickname : g.home)} · ${esc(g.venue || '')} · first pitch ${esc(g.first_pitch_central || '')}${g.result ? ` · <b>Final: ${esc(T[g.home].nickname)} ${esc(g.result[g.home])}, ${esc(T[g.away].nickname)} ${esc(g.result[g.away])}</b>` : (g.live_score ? ` · <b>${esc(T[g.home].nickname)} ${esc(g.live_score[g.home])}, ${esc(T[g.away].nickname)} ${esc(g.live_score[g.away])}</b> · ${esc(g.live_score.half || '')} ${esc(g.live_score.inning || '')}` : '')}${g.lineup_source ? ` · <a href="${esc(g.lineup_source)}" target="_blank" rel="noopener">lineups</a>` : ''}</p>
         <div class="lineup-teams">${teamBlock(g, g.home)}${teamBlock(g, g.away)}</div></div>`).join('')}
       <p class="caption">Official lineups: <a href="https://www.mlb.com/brewers/roster/starting-lineups" target="_blank" rel="noopener">Brewers</a> · <a href="https://www.mlb.com/rays/roster/starting-lineups" target="_blank" rel="noopener">Rays</a>.</p>`;
+    b.querySelectorAll('.card a, .card .face').forEach(x => { x.tabIndex = -1; });   /* review 6: no focus stop nested in a card button or on its hidden back */
     b.addEventListener('click', (e) => {
       const c = e.target.closest('.card'); if (c) { c.classList.toggle('flipped'); return; }
       const tb = e.target.closest('[data-g]'); if (tb) { b.querySelectorAll('[data-g]').forEach(x => x.setAttribute('aria-pressed', x === tb)); b.querySelectorAll('[data-game]').forEach(x => x.hidden = x.dataset.game !== tb.dataset.g); }
@@ -295,7 +360,7 @@ window.WSP = window.WSP || {};
 
   function renderFood(f) {
     const b = body('food'); if (!f) return pending('food');
-    const tabs = [['destination', 'Worth the trip', () => placeList(f.destination, { line: (l) => l.must_order ? `Order: ${esc([].concat(l.must_order).join(', '))}` : '' })], ['street', 'Street food', () => placeList(f.street_food, { line: (l) => l.must_order ? `Order: ${esc([].concat(l.must_order).join(', '))}` : '' })], ['traditions', 'Milwaukee traditions', () => `<ul class="facts-list">${(f.milwaukee_food_traditions || []).map((t, i) => `<li><span class="n">${i + 1}</span><span><b class="strong">${esc(t.name)}</b> — ${esc(t.what)}${(t.where_from_this_list || []).length ? `<br><span class="caption">Try it at: ${t.where_from_this_list.map(id => byId[id] ? `<a href="#" data-sheet="${esc(id)}">${esc(byId[id].name)}</a>` : esc(id)).join(', ')}</span>` : ''}</span></li>`).join('')}</ul>`], ['monday', 'Monday before the flight', () => placeList((f.monday_brunch_before_flight || []).map(x => typeof x === 'string' ? byId[x] : x).filter(Boolean))]];
+    const tabs = [['destination', 'Worth the trip', () => placeList(f.destination, { line: (l) => l.must_order ? `Order: ${esc([].concat(l.must_order).join(', '))}` : '' })], ['street', 'Street food', () => placeList(f.street_food, { line: (l) => l.must_order ? `Order: ${esc([].concat(l.must_order).join(', '))}` : '' })], ['traditions', 'Milwaukee traditions', () => `<ul class="facts-list">${(f.milwaukee_food_traditions || []).map((t, i) => `<li><span class="n">${i + 1}</span><span><b class="strong">${esc(t.name)}</b> — ${esc(t.what)}${(t.where_from_this_list || []).length ? `<br><span class="caption">Try it at: ${t.where_from_this_list.map(id => byId[id] ? `<a href="#" data-sheet="${esc(id)}">${esc(byId[id].name)}</a>` : esc(id)).join(', ')}</span>` : ''}</span></li>`).join('')}</ul>`]];  /* Monday before the flight moved to Breakfast (timeline, 2026-10-24) */
     b.innerHTML = `<div class="tabs" role="tablist">${tabs.map(([id, label], i) => `<button class="tab" role="tab" id="tab-${id}" aria-selected="${i === 0}" aria-controls="panel-${id}">${label}</button>`).join('')}</div>${tabs.map(([id, , fn], i) => `<div role="tabpanel" id="panel-${id}" aria-labelledby="tab-${id}" ${i ? 'hidden' : ''}>${fn()}</div>`).join('')}`;
     b.querySelector('.tabs').addEventListener('click', (e) => { const t = e.target.closest('.tab'); if (!t) return; b.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-selected', x === t)); b.querySelectorAll('[role=tabpanel]').forEach(p => p.hidden = p.id !== t.getAttribute('aria-controls')); });
   }
@@ -362,8 +427,10 @@ window.WSP = window.WSP || {};
   /* ---------- Morning: Bloody Marys, micheladas, happy hour, late night ---------- */
   let GX = {};
   const arr = (x) => Array.isArray(x) ? x : (x == null || x === '' ? [] : [x]);
-  const gx = (id, withLabel) => { const g = GX[id] || { label: id.replace(/-/g, ' '), file: `assets/img/garnish/${id}.png` }; return `<span class="gx${withLabel ? ' gx--l' : ''}" title="${esc(g.label)}"><img src="${esc(g.file)}" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-img');this.remove()"><span class="gx-l">${esc(g.label)}</span></span>`; };
-  const gxRow = (ids, withLabel) => ids && ids.length ? `<div class="gx-row">${ids.map(i => gx(i, withLabel)).join('')}</div>` : '';
+  /* the garnishes drawn so far; the rest show their label until a drawing lands (add the id here when it does) */
+  const GX_DRAWN = new Set(['bacon', 'beef-stick', 'carrot', 'celery', 'cheese-cube', 'cheese-curd', 'lemon', 'mini-beer', 'mozzarella-whip', 'olive', 'pickle', 'shrimp']);
+  const gx = (id, withLabel) => { const g = GX[id] || { label: id.replace(/-/g, ' '), file: `assets/img/garnish/${id}.png` }; const drawn = GX_DRAWN.has(id); return `<span class="gx${withLabel ? ' gx--l' : ''}${drawn ? '' : ' no-img'}" title="${esc(g.label)}">${drawn ? `<img src="assets/img/garnish/big/${esc(id)}.webp" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-img');this.remove()">` : ''}<span class="gx-l">${esc(g.label)}</span></span>`; };
+  const gxRow = (ids, withLabel) => ids && ids.length ? `<div class="gx-row">${[...ids].sort((a, b) => GX_DRAWN.has(b) - GX_DRAWN.has(a)).map(i => gx(i, withLabel)).join('')}</div>` : '';  /* drawn garnishes first */
   const yn = (v, yes, no) => v === true ? yes : v === false ? no : '';
   function badges(p) {
     const b = [];
@@ -392,8 +459,8 @@ window.WSP = window.WSP || {};
   function bloodyTile(p) {
     const icons = [...new Set(arr(p.drinks).flatMap(d => d.garnish_icons || []))];
     const d0 = arr(p.drinks)[0] || {};
-    const line = [d0.name, far(p)].filter(Boolean).map(esc).join(' · ');
-    return tile({ art: icons.length ? gxRow(icons.slice(0, 6)) : '', cat: 'bloody', name: p.name, line, open: modal(bloodySheet(p)) });
+    const line = [far(p), d0.name].filter(Boolean).map(esc).join(' · ');   /* the minutes first: a cut line keeps them */
+    return tile({ art: icons.length ? gxRow(icons.slice(0, 6)) : '', bare: !icons.length, cat: 'bloody', name: p.name, line, open: modal(bloodySheet(p)) });   /* no garnish listed: no tray */
   }
   function renderBloody(b) {
     const body_ = body('bloody'); if (!b || !b.places) return pending('bloody');
@@ -414,13 +481,27 @@ window.WSP = window.WSP || {};
     bd.innerHTML = `<ul class="tiles">${arr(b.recipes).map(r => tile({ art: gxRow((r.garnish_icons || []).slice(0, 6)), cat: 'bloody', name: r.name, line: esc(r.style || ''), open: modal(recipeSheet(r)) })).join('')}</ul>
       ${arr(b.culture).length ? `<div><span class="eyebrow">The lore</span>${factsList(b.culture, 5)}</div>` : ''}`;
   }
+  /* ---------- Breakfast (timeline, 2026-10-24): the Bloody research places that serve breakfast, then Monday before the flight ---------- */
+  function renderBreakfast(b, f) {
+    const bd = body('breakfast'); if (!bd) return; if (!b || !b.places) return pending('breakfast');
+    const eats = arr(b.places).filter(p => p.serves_breakfast);
+    const walk = eats.filter(p => p.walk_minutes_from_hotel != null && p.walk_minutes_from_hotel <= 15).sort((a, c) => a.walk_minutes_from_hotel - c.walk_minutes_from_hotel);
+    const ride = eats.filter(p => !walk.includes(p));
+    const meal = (p) => String(p.meal_service || '').split(/[;(]/)[0].trim();
+    const bt = (p) => { const ic = [...new Set(arr(p.drinks).flatMap(d => d.garnish_icons || []))].slice(0, 6); return tile({ art: ic.length ? gxRow(ic) : '', bare: !ic.length, cat: 'restaurant', name: p.name, line: esc([far(p), meal(p)].filter(Boolean).join(' · ')), open: modal(bloodySheet(p)) }); };
+    const mon = arr(f && f.monday_brunch_before_flight).filter(x => x && typeof x === 'object');
+    const groups = [['walk', 'Walk there', () => `<ul class="tiles">${walk.map(bt).join('')}</ul>`], ['ride', 'Worth the ride', () => `<ul class="tiles">${ride.map(bt).join('')}</ul>`]];
+    if (mon.length) groups.push(['monday', 'Monday before the flight', () => placeList(mon)]);
+    bd.innerHTML = `<div class="tabs" role="tablist">${groups.map(([id, l], i) => `<button class="tab" role="tab" id="kt-${id}" aria-selected="${i === 0}" aria-controls="kp-${id}">${l}</button>`).join('')}</div>${groups.map(([id, , fn], i) => `<div role="tabpanel" id="kp-${id}" aria-labelledby="kt-${id}" ${i ? 'hidden' : ''}>${fn()}</div>`).join('')}`;
+    bd.querySelector('.tabs').addEventListener('click', (e) => { const t = e.target.closest('.tab'); if (!t) return; bd.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-selected', x === t)); bd.querySelectorAll('[role=tabpanel]').forEach(x => x.hidden = x.id !== t.getAttribute('aria-controls')); });
+  }
   function simpleSheet(p, extra) {
     return `<span class="eyebrow">${esc([String(p.neighborhood || '').replace(/\s*\(.*$/, ''), far(p)].filter(Boolean).join(' · '))}</span><h3 id="sheet-title" class="heading-sm">${esc(p.name)}</h3>${p.why_go ? `<p class="prose"><b class="strong">${esc(p.why_go)}</b></p>` : ''}${extra || ''}${p.vibe ? `<p class="prose">${esc(p.vibe)}</p>` : ''}${p.reviews_summary ? `<p class="caption">${esc(p.reviews_summary)}</p>` : ''}${placeLinks(p)}`;
   }
   function renderHappy(h) {
     const sec = $('#happyhour'), bd = body('happyhour'); if (!h || !arr(h.places).length) { if (sec) sec.hidden = true; return; }
     sec.hidden = false;
-    bd.innerHTML = `${h.intro ? `<p class="prose">${esc(h.intro)}</p>` : ''}<ul class="tiles">${arr(h.places).map(p => { const hh = p.saturday_happy_hour || {}; const when = hh.when || [hh.start, hh.end].filter(Boolean).join('–'); return tile({ cat: 'happy-hour', name: p.name, line: esc([when, far(p)].filter(Boolean).join(' · ')), open: modal(simpleSheet(p, `${when ? `<p class="bm-garn"><b>Saturday:</b> ${esc(when)}</p>` : ''}${p.late_night_happy_hour ? `<p class="bm-garn"><b>Late:</b> ${esc(typeof p.late_night_happy_hour === 'string' ? p.late_night_happy_hour : [p.late_night_happy_hour.start, p.late_night_happy_hour.end].filter(Boolean).join('–'))}</p>` : ''}${arr(p.deals).length ? `<ul class="rules">${arr(p.deals).map(x => `<li class="rule"><span class="ic">${I.star}</span><span>${esc(x)}</span></li>`).join('')}</ul>` : ''}${p.bloody_or_tomato_special ? `<p class="bm-garn"><b>Bloody special:</b> ${esc(p.bloody_or_tomato_special)}</p>` : ''}`)) }); }).join('')}</ul>`;
+    bd.innerHTML = `${h.intro ? `<p class="prose">${esc(h.intro)}</p>` : ''}<ul class="tiles">${arr(h.places).map(p => { const hh = p.saturday_happy_hour || {}; const when = hh.when || [hh.start, hh.end].filter(Boolean).join('–'); return tile({ bare: true, cat: 'happy-hour', name: p.name, line: esc([when, far(p)].filter(Boolean).join(' · ')), open: modal(simpleSheet(p, `${when ? `<p class="bm-garn"><b>Saturday:</b> ${esc(when)}</p>` : ''}${p.late_night_happy_hour ? `<p class="bm-garn"><b>Late:</b> ${esc(typeof p.late_night_happy_hour === 'string' ? p.late_night_happy_hour : [p.late_night_happy_hour.start, p.late_night_happy_hour.end].filter(Boolean).join('–'))}</p>` : ''}${arr(p.deals).length ? `<ul class="rules">${arr(p.deals).map(x => `<li class="rule"><span class="ic">${I.star}</span><span>${esc(x)}</span></li>`).join('')}</ul>` : ''}${p.bloody_or_tomato_special ? `<p class="bm-garn"><b>Bloody special:</b> ${esc(p.bloody_or_tomato_special)}</p>` : ''}`)) }); }).join('')}</ul>`;
   }
   function renderLate(l) {
     const bd = body('latenight'); const sc = $('#scene-late'); if (!l || !arr(l.places).length) { if (sc) sc.hidden = true; return; } if (sc) sc.hidden = false; const ml = $('#mega-late'); if (ml) ml.hidden = false;
@@ -448,17 +529,18 @@ window.WSP = window.WSP || {};
   /* ---------- Boot ---------- */
   async function boot() {
     const wxP = WSP.weather.init();
-    const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'mascots', 'locations', 'share', 'peeps', 'notes', 'welcome', 'updates', 'art', 'bloody', 'garnish-icons', 'happyhour', 'latenight'];
+    const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'mascots', 'locations', 'share', 'peeps', 'notes', 'welcome', 'updates', 'art', 'lastnight', 'bloody', 'garnish-icons', 'happyhour'];
     const gm = $('#gmaps-open');
     const d = Object.fromEntries(await Promise.all(names.map(async n => [n, await load(n)])));
     const locs = collect(d); locs.forEach(l => byId[l.id] = l); WSP.locations = locs;
 
+    renderLastNight(d.lastnight);
     renderTonight(d.concert, d.worldseries, d.closure);
     renderConcert(d.concert); renderClosure(d.closure); renderSeries(d.worldseries);
     renderBars(d.area); renderFood(d.food); renderHotel(d.concert, d.area); renderFacts(d.area); renderLaverne(d.laverne);
     renderLineups(d.lineups); renderMascots(d.mascots);
     ((d['garnish-icons'] || {}).icons || []).forEach(g => { GX[g.id] = g; });
-    [[renderBloody, d.bloody], [renderBloodyHome, d.bloody], [renderHappy, d.happyhour], [renderLate, d.latenight]].forEach(([f, x]) => { try { f(x); } catch (e) { console.warn('render', f.name, e); } });
+    [[renderBloody, d.bloody], [renderBloodyHome, d.bloody], [(x) => renderBreakfast(x, d.food), d.bloody], [renderHappy, d.happyhour], [renderLate, d.latenight]].forEach(([f, x]) => { try { f(x); } catch (e) { console.warn('render', f.name, e); } });
     renderShare(locs, d.share);
     renderPeeps(d.peeps); applyArt(d.art);
     if (gm && d.share && d.share.my_maps_url) gm.href = d.share.my_maps_url;
@@ -466,11 +548,14 @@ window.WSP = window.WSP || {};
     if (d.concert && d.concert.hotel && d.concert.venue) WSP.map.mini('mini-map', d.concert.hotel, d.concert.venue);
     WSP.shell.init(d);
 
+    // the showtime forecast shows only once there is one; a dash never stands in for it
+    const wxFact = $('#tonight-wx') && $('#tonight-wx').closest('.fact'); if (wxFact) wxFact.hidden = true;
     const wx = await wxP;
     if (wx && wx.hourly) {
       const t = todayISO(); const idx = wx.hourly.time.findIndex(x => x.startsWith(t + 'T20'));
-      const el = $('#tonight-wx'); if (el && idx >= 0) el.textContent = `${Math.round(wx.hourly.temperature_2m[idx])}° · ${wx.hourly.precipitation_probability[idx]}% rain`;
+      const el = $('#tonight-wx'); if (el && idx >= 0) { el.textContent = `${Math.round(wx.hourly.temperature_2m[idx])}° · ${wx.hourly.precipitation_probability[idx]}% rain`; if (wxFact) wxFact.hidden = false; }
     }
+    if (wxFact && wxFact.hidden) wxFact.remove();
     // footer stays as written in index.html
   }
   boot();

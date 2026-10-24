@@ -1,1 +1,10 @@
-{"peeps": [{"name": "Crystal and Mindy", "image": "assets/img/peeps/duo-cutout.png", "line": ""}], "show_in": ["header"]}
+{
+ "peeps": [
+  {
+   "name": "Crystal and Mindy",
+   "image": "assets/img/peeps/duo-cutout.png",
+   "line": ""
+  }
+ ],
+ "show_in": []
+}

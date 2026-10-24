@@ -1,10 +1,4 @@
 {
-  "_about": "Peeps prints pasted into cards. Key = card id. src is under assets/img/peeps/. tilt in degrees. pos is object-position.",
-  "cards": {
-    "street": { "src": "streetparty.jpg", "alt": "The street party on the closed block of Wisconsin Avenue, with the bridge behind", "tilt": -1.6, "ratio": "21 / 9" },
-    "drink":  { "src": "setbreak.jpg", "alt": "Crystal and Mindy at the bar at set break, a cocktail and a beer", "tilt": 1.4, "ratio": "4 / 3", "pos": "50% 30%" },
-    "hotel":  { "src": "monday.jpg", "alt": "Crystal and Mindy in the hotel room with the luggage, Monday", "tilt": -1.2, "ratio": "4 / 3", "pos": "50% 40%" },
-    "laverne": { "src": "bottling.jpg", "alt": "Crystal and Mindy on the Shotz bottling line", "tilt": 1.6, "ratio": "16 / 9" },
-    "share":  { "src": "bridge.jpg", "alt": "Crystal and Mindy on the Wisconsin Avenue bridge, the Riverside lit up ahead", "tilt": -1.4, "ratio": "16 / 10", "pos": "50% 45%" }
-  }
+ "_about": "Peeps prints pasted into cards. Key = card id. src is under assets/img/peeps/. tilt in degrees. pos is object-position. Emptied 2026-10-24 (Michael 08:19: no people this release).",
+ "cards": {}
 }

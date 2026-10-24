@@ -43,7 +43,7 @@ WSP.map = (function () {
     locations.forEach(loc => {
       if (typeof loc.lat !== 'number' || typeof loc.lng !== 'number') return;
       const cat = CATS[loc.category] ? loc.category : 'landmark';
-      const m = L.marker([loc.lat, loc.lng], { icon: pinIcon(cat), title: loc.name, keyboard: true });
+      const m = L.marker([loc.lat, loc.lng], { icon: pinIcon(cat), title: loc.name, keyboard: false });
       m.bindPopup(`<b>${esc(loc.name)}</b>${esc(loc.blurb ? loc.blurb.slice(0, 110) + (loc.blurb.length > 110 ? '…' : '') : '')}<br><a href="#" data-open="${esc(loc.id)}">Details</a> · <a href="${esc(loc.gmaps_url || gmapsFallback(loc))}" target="_blank" rel="noopener">Maps</a>`);
       m.on('popupopen', (e) => { const a = e.popup.getElement().querySelector('[data-open]'); if (a) a.addEventListener('click', (ev) => { ev.preventDefault(); WSP.sheet.openLocation(loc); }); });
       m.addTo(layerByCat[cat]); markersById[loc.id] = m;
@@ -74,7 +74,7 @@ WSP.map = (function () {
   function focus(id) {
     const m = markersById[id]; if (!m || !map) return;
     if (WSP.shell) { WSP.shell.setOpen('map', true); WSP.shell.lockMap(false); }
-    document.getElementById('map').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setTimeout(() => { const el = document.getElementById('map'); const canvas = map.getContainer(); canvas.scrollIntoView({ behavior: WSP.motion ? WSP.motion() : 'smooth', block: 'center' }); el.tabIndex = -1; el.focus({ preventScroll: true }); }, 80);   /* review 11: the map itself, centered, so the pin and its popup are in view on a short phone */   /* review 8: after the card opens, so nothing cancels the scroll; focus follows */
     setTimeout(() => { map.invalidateSize(); map.flyTo(m.getLatLng(), 17, { duration: .8 }); setTimeout(() => m.openPopup(), 900); }, 120);
   }
 
@@ -108,6 +108,8 @@ WSP.map = (function () {
     if (!map) return;
     ['dragging', 'touchZoom', 'scrollWheelZoom', 'doubleClickZoom', 'boxZoom', 'keyboard'].forEach(h => { if (map[h]) on ? map[h].enable() : map[h].disable(); });
     if (!on) map.closePopup();
+    /* review 7: locked map, no focus stops on pins (many sit outside the frame) */
+    map.getContainer().querySelectorAll('.leaflet-control a').forEach(i => { i.tabIndex = on ? 0 : -1; }); map.getContainer().querySelectorAll('.leaflet-marker-icon').forEach(i => { i.tabIndex = -1; });   /* review 9: pins are reached from the place lists, not by Tab across the map */
   }
   function refresh() { if (map) { map.invalidateSize(); } }
   function refreshMini() { if (miniMap) { miniMap.invalidateSize(); const b = miniMap._wspBounds; if (b) miniMap.fitBounds(b); } }

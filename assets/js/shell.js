@@ -18,8 +18,8 @@ WSP.shell = (function () {
     const list = chapterList(); if (!list.find(c => c.id === id)) id = list[0].id;
     if (starsOnly) setStarsOnly(false, { silent: true });
     scenes().forEach(s => { const on = s.dataset.chapter === id; s.classList.toggle('is-on', on); const b = $('[data-chapter-toggle]', s); if (b) b.setAttribute('aria-expanded', String(on)); });
-    document.body.dataset.chapter = id; current = id;
-    if (opts.scroll !== false) { const nav = $('.site-nav'); const sc = scenes().find(s => s.dataset.chapter === id); const top = (sc || $('main')).getBoundingClientRect().top + scrollY - (nav ? nav.offsetHeight : 0) + 4; scrollTo({ top: Math.max(0, top), behavior: opts.instant ? 'instant' : 'smooth' }); }
+    document.body.dataset.chapter = id; current = id; if (opts.scroll !== false) landingAt = Date.now();
+    if (opts.scroll !== false) { const nav = $('.site-nav'); const sc = scenes().find(s => s.dataset.chapter === id); const top = (sc || $('main')).getBoundingClientRect().top + scrollY - (nav ? nav.offsetHeight : 0) + 4; scrollTo({ top: Math.max(0, top), behavior: opts.instant ? 'instant' : WSP.motion() }); }
     if (id === 'around' && WSP.map) { setTimeout(() => { WSP.map.refresh && WSP.map.refresh(); WSP.map.refreshMini && WSP.map.refreshMini(); }, 60); }
     $$('.to-top').forEach(t => { t.hidden = true; });
   }
@@ -28,7 +28,7 @@ WSP.shell = (function () {
     document.addEventListener('click', (e) => {
       const b = e.target.closest('[data-chapter-toggle]'); if (!b) return;
       const id = b.dataset.chapterToggle;
-      if (id === current) { closeAll(); b.closest('.scene').scrollIntoView({ block: 'start', behavior: 'smooth' }); } else go(id);
+      if (id === current) { closeAll(); const sc = b.closest('.scene'); const nav = $('.site-nav'); scrollTo({ top: Math.max(0, sc.getBoundingClientRect().top + scrollY - (nav ? nav.offsetHeight : 0) + 4), behavior: WSP.motion() }); } else go(id);
     });
     addEventListener('hashchange', () => { const sec = document.getElementById(location.hash.slice(1)); const ch = chapterOf(sec); if (ch && ch !== current) go(ch, { scroll: false }); });
   }
@@ -48,7 +48,7 @@ WSP.shell = (function () {
         star.innerHTML = I().star; header.appendChild(star);
         star.addEventListener('click', (e) => { e.stopPropagation(); toggleStar(id); });
       }
-      btn.addEventListener('click', () => setOpen(sec, sec.hasAttribute('data-collapsed')));
+      btn.addEventListener('click', () => { const opening = sec.hasAttribute('data-collapsed'); setOpen(sec, opening); if (!opening && !store.get('star-tip', 0) && sec.id !== 'updates') setTimeout(showCoach, 400); /* UX review: the tip waits until she has read and closed a card, so it never covers the answer */ });
       sec.setAttribute('data-collapsed', '');
     });
   }
@@ -58,21 +58,54 @@ WSP.shell = (function () {
     if (open) {
       const ch = chapterOf(sec); if (ch && ch !== current) go(ch, { scroll: false, instant: true });
       // one card open at a time
+      const pin = sec.getBoundingClientRect().top;
       $$('main section.w:not([data-collapsed])').forEach(o => { if (o !== sec && !o.hasAttribute('data-nocollapse')) setOpen(o, false); });
+      // keep her place: the card she tapped stays where her thumb was
+      if (!opts.scroll) requestAnimationFrame(() => { const moved = sec.getBoundingClientRect().top - pin; if (Math.abs(moved) > 2) scrollBy({ top: moved, behavior: 'instant' }); });
       sec.removeAttribute('data-collapsed'); btn && btn.setAttribute('aria-expanded', 'true');
       firstOpenNote(sec);
       clampTall(sec);
       if (sec.id === 'map' && WSP.map && WSP.map.refresh) setTimeout(WSP.map.refresh, 50);
       if (sec.id === 'hotel' && WSP.map && WSP.map.refreshMini) setTimeout(WSP.map.refreshMini, 50);
     } else { sec.setAttribute('data-collapsed', ''); btn && btn.setAttribute('aria-expanded', 'false'); if (sec.id === 'map') lockMap(true); const body = $(':scope > .body', sec); if (body) { body.classList.remove('is-clamped'); $$('.readmore, .closebar', body).forEach(x => x.remove()); } }
-    if (opts.scroll) sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (opts.scroll) sec.scrollIntoView({ behavior: WSP.motion(), block: 'start' });
   }
+
+  /* review 6 and 7: in a cut card, controls below the cut leave the Tab order until Read more; worked out again after any tab switch */
+  function unclipTabs(body) { $$('[data-clip-tab]', body).forEach(x => { if (x.dataset.clipTab === '') x.removeAttribute('tabindex'); else x.setAttribute('tabindex', x.dataset.clipTab); delete x.dataset.clipTab; }); }
+  function clipTabs(body) {
+    unclipTabs(body); return;   /* review 9: replaced by opening the card when keyboard focus goes past the cut (below) */
+    const limit = +body.dataset.clampLimit || 0, bt = body.getBoundingClientRect().top, rm = $('.readmore', body), band = rm ? rm.getBoundingClientRect().height : 0;
+    $$('a[href], button, input, select, textarea, iframe, summary, [tabindex]:not([tabindex="-1"])', body).forEach(x => { if (rm && rm.contains(x)) return; if (x.getBoundingClientRect().bottom - bt > limit - band - 8) { x.dataset.clipTab = x.getAttribute('tabindex') ?? ''; x.tabIndex = -1; } });
+  }
+  /* review 9: a focused control never sits under the sticky nav or a card's sticky Close bar */
+  let tabAt = 0; var landingAt = 0; document.addEventListener('keydown', (e) => { if (e.key === 'Tab' || e.key.startsWith('Arrow')) tabAt = Date.now(); }, true);
+  document.addEventListener('focusin', (e) => {
+    const el = e.target; if (!el.closest || !el.closest('main')) return;
+    if (Date.now() - tabAt > 400 || (landingAt > tabAt && Date.now() - landingAt < 1500)) return;   /* not for the focus a chapter landing places; yes for her own next Tab */   /* review 10: only when she moved focus herself; a scripted landing keeps its own scroll */
+    requestAnimationFrame(() => {
+      const r = el.getBoundingClientRect(); if (!r.height) return;
+      const nav = $('.site-nav'); const top = nav ? Math.max(0, nav.getBoundingClientRect().bottom) : 0;
+      const own = el.closest('section.w'); const cb = own && $$('.closebar', own).find(x => { const q = x.getBoundingClientRect(); return q.height && q.top < innerHeight && !x.contains(el); });   /* review 12: only her own card's bar */
+      const bottom = cb ? cb.getBoundingClientRect().top : innerHeight;
+      if (r.bottom > bottom - 8) scrollBy({ top: r.bottom - bottom + 20, behavior: 'instant' });
+      else if (r.top < top + 8) scrollBy({ top: r.top - top - 20, behavior: 'instant' });
+    });
+  });
+  /* review 9: when keyboard focus reaches a control below the cut of a card, the card opens in full, so focus is never hidden behind the Read more band */
+  document.addEventListener('focusin', (e) => {
+    const body = e.target.closest && e.target.closest('.body.is-clamped'); if (!body || e.target.closest('.readmore')) return;
+    const rmEl = $('.readmore', body); if (!rmEl) return;
+    if (e.target.getBoundingClientRect().bottom <= rmEl.getBoundingClientRect().top - 4) return;   /* above the band: in view */
+    const go = $('.readmore .btn--primary', body); if (go) { body.dataset.keepFocus = '1'; go.click(); delete body.dataset.keepFocus; e.target.focus(); }
+  });
 
   /* ---------- Tall cards: 1.8 screens, then Read more; then a sticky Close ---------- */
   const LIMIT = 1.8;
   function clampTall(sec) {
     const body = $(':scope > .body', sec); if (!body || sec.id === 'map') return;
     body.classList.remove('is-clamped'); $$('.readmore, .closebar', body).forEach(x => x.remove());
+    $$('[data-clip-tab]', body).forEach(x => { if (x.dataset.clipTab === '') x.removeAttribute('tabindex'); else x.setAttribute('tabindex', x.dataset.clipTab); delete x.dataset.clipTab; });
     requestAnimationFrame(() => {
       const limit = Math.round(innerHeight * LIMIT);
       if (body.scrollHeight <= limit + 120) return;
@@ -80,9 +113,14 @@ WSP.shell = (function () {
       const rm = document.createElement('div'); rm.className = 'readmore';
       rm.innerHTML = `<button class="btn btn--primary" type="button">Read more</button><button class="btn" type="button" data-close>Close</button>`;
       body.appendChild(rm);
+      body.dataset.clampLimit = limit; clipTabs(body);
       rm.querySelector('[data-close]').addEventListener('click', () => setOpen(sec, false, { scroll: true }));
       rm.querySelector('.btn--primary').addEventListener('click', () => {
+        const cut = rm.getBoundingClientRect().top - 4;
+        const firstHidden = body.dataset.keepFocus ? null : $$('a[href], button, input, select, summary', body).find(x => !rm.contains(x) && x.offsetParent && x.getBoundingClientRect().bottom > cut);
         body.classList.remove('is-clamped'); rm.remove();
+        $$('[data-clip-tab]', body).forEach(x => { if (x.dataset.clipTab === '') x.removeAttribute('tabindex'); else x.setAttribute('tabindex', x.dataset.clipTab); delete x.dataset.clipTab; });
+        if (firstHidden) firstHidden.focus();   /* scrolls into view clear of the Close bar (scroll-padding) */   /* review 8: focus goes to the first thing Read more revealed */
         const cb = document.createElement('div'); cb.className = 'closebar';
         cb.innerHTML = `<button class="btn" type="button">Close ${esc(($('h2', sec) || {}).textContent || '')}</button>`;
         body.appendChild(cb);
@@ -91,15 +129,14 @@ WSP.shell = (function () {
     });
   }
 
-  /* ---------- First-open notes ---------- */
+  /* ---------- His note opens the card (the note is the card's lede, always there, nothing to dismiss) ---------- */
   function firstOpenNote(sec) {
     const id = sec.id; const n = notes[id]; if (!n) return;
-    const seen = store.get('seen', {}); if (seen[id]) return;
-    const body = $(':scope > .body', sec); if (!body || $('.first-note', body)) return;
-    const el = document.createElement('div'); el.className = 'first-note';
-    el.innerHTML = `<div class="first-note-t"><span class="eyebrow">From Snacks</span></div><div class="prose">${(Array.isArray(n) ? n : [n]).map(p => `<p>${esc(p)}</p>`).join('')}</div><button class="btn btn--sm" type="button">Got it</button>`;
-    body.insertBefore(el, body.firstChild);
-    $('button', el).addEventListener('click', () => { el.classList.add('leaving'); setTimeout(() => el.remove(), 250); seen[id] = Date.now(); store.set('seen', seen); });
+    const body = $(':scope > .body', sec); if (!body || $('.card-lede', body)) return;
+    const el = document.createElement('div'); el.className = 'card-lede';
+    el.innerHTML = (Array.isArray(n) ? n : [n]).map(p => `<p>${esc(p)}</p>`).join('');
+    const print = $(':scope > .print', body);
+    body.insertBefore(el, print ? print.nextSibling : body.firstChild);
   }
 
   /* ---------- Stars ---------- */
@@ -117,8 +154,8 @@ WSP.shell = (function () {
     const original = WSP.shell.order || (WSP.shell.order = $$('main section.w').map(x => x.id));
     original.forEach(id => { const el = document.getElementById(id); if (!el) return; if (!el.dataset.home) el.dataset.home = el.parentElement.id || ''; if (s.includes(id)) view.insertBefore(el, note); else if (el.parentElement === view) { const home = document.getElementById(el.dataset.home); if (home) home.appendChild(el); } });
     note.innerHTML = s.length
-      ? `<p>Hey Baby, every card you star lands here, in one place. Tap the star up top again and everything goes back where it was.</p>`
-      : `<p>Hey Baby, nothing starred yet. Tap the star on any card and it lands here.</p>`;
+      ? `<p>Hi Baby, every card you star lands here, in one place. Tap the star up top again and everything goes back where it was.</p>`
+      : `<p>Hi Baby, nothing starred yet. Tap the star on any card and it lands here.</p>`;
   }
   function setStarsOnly(on, opts = {}) {
     starsOnly = on; const btn = $('#star-filter'); if (btn) btn.setAttribute('aria-pressed', String(on));
@@ -126,7 +163,7 @@ WSP.shell = (function () {
     if (on) {
       prevChapter = current; collectStarred();
       scenes().forEach(sc => sc.classList.toggle('is-on', sc.dataset.chapter === 'stars')); current = 'stars'; document.body.dataset.chapter = 'stars';
-      if (!opts.silent) scrollTo({ top: Math.max(0, $('main').getBoundingClientRect().top + scrollY - ($('.site-nav') || {}).offsetHeight || 0), behavior: 'smooth' });
+      if (!opts.silent) scrollTo({ top: Math.max(0, $('main').getBoundingClientRect().top + scrollY - ($('.site-nav') || {}).offsetHeight || 0), behavior: WSP.motion() });
     } else {
       $$('#scene-stars section.w').forEach(el => { const home = document.getElementById(el.dataset.home); if (home) home.appendChild(el); });
       if (!opts.silent) go(prevChapter || 'home', { scroll: false });
@@ -160,23 +197,29 @@ WSP.shell = (function () {
     const b = $('[data-widget="updates"] .body'); if (!b) return;
     const items = (u && u.updates) || [];
     const fmt = (iso) => { const d = new Date(iso); return isNaN(d) ? esc(iso) : d.toLocaleString('en-US', { weekday: 'short', hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' }); };
-    const row = (x, i) => `<article class="update${i >= 3 ? ' folded-item' : ''}${x.important ? ' important' : ''}"><div class="update-when">${fmt(x.date)}${x.important ? ' · <b>important</b>' : ''}</div><h3>${esc(x.title)}</h3><div class="prose">${[].concat(x.body || []).map(p => `<p>${esc(p)}</p>`).join('')}</div>${x.link ? `<a class="link-pill" href="${esc(x.link)}">${I().link}${esc(x.link_label || 'Open')}</a>` : ''}</article>`;
+    const seen0 = store.get('updates-seen', 0);
+    const row = (x, i) => `<article class="update${i >= 1 ? ' folded-item' : ''}${x.important ? ' important' : ''}"><div class="update-when">${fmt(x.date)}${(Date.parse(x.date) || 0) > seen0 ? ' <span class="update-new">New</span>' : ''}</div>${x.title ? `<h3>${esc(x.title)}</h3>` : ''}<div class="prose">${[].concat(x.body || []).map(p => `<p>${esc(p)}</p>`).join('')}</div>${x.sign ? `<p class="update-sign">${esc(x.sign)}</p>` : ''}${x.link ? `<a class="link-pill" href="${esc(x.link)}"${/^#scene-[\w-]+$/.test(x.link) ? ` data-hero-go="${esc(x.link.slice(7))}"` : ''}>${I().link}${esc(x.link_label || 'Open')}</a>` : ''}</article>`;
     b.innerHTML = (items.length ? items.map(row).join('') : '<p class="muted">Nothing yet. I will leave notes here as the weekend goes.</p>') +
-      (items.length > 3 ? `<button class="btn btn--sm" type="button" id="updates-more">Earlier notes (${items.length - 3})</button>` : '') +
+      (items.length > 1 ? `<button class="btn btn--sm letter-more" type="button" id="updates-more" aria-expanded="false">Earlier notes (${items.length - 1})</button>` : '') +
       `<p class="caption"><a href="#top" id="welcome-again-2">Read the welcome again</a></p>`;
     const more = $('#updates-more'); if (more) more.addEventListener('click', () => { $$('.folded-item', b).forEach(x => x.classList.remove('folded-item')); more.remove(); });
     const seen = store.get('updates-seen', 0); const newest = items[0] && Date.parse(items[0].date) || 0;
-    if (newest > seen) { const sec = $('#updates'); sec.classList.add('has-new'); }
-    $('#updates .w-toggle') && $('#updates .w-toggle').addEventListener('click', () => { store.set('updates-seen', Date.now()); $('#updates').classList.remove('has-new'); }, { once: true });
+    // the letter is open, so being on the page is reading it: the New mark shows this visit, then clears
+    if (newest > seen) store.set('updates-seen', Date.now());
   }
 
   /* ---------- Welcome ---------- */
   let step = 0;
   function showWelcome() {
     if (!welcome || !welcome.steps || !welcome.steps.length) return;
-    const w = $('#welcome'); w.hidden = false; document.body.classList.add('welcome-open'); step = 0; renderStep();
+    const w = $('#welcome'); welcomeFrom = document.activeElement; w.hidden = false; document.body.classList.add('welcome-open'); step = 0; renderStep();
+    behind(true); setTimeout(() => { const f = w.querySelector('button, a[href], [tabindex]:not([tabindex="-1"])'); if (f) f.focus({ preventScroll: true }); }, 30);
   }
-  function hideWelcome() { $('#welcome').hidden = true; document.body.classList.remove('welcome-open'); store.set('welcomed', Date.now()); setTimeout(showCoach, 400); }
+  /* review 5: the welcome holds focus like the place sheet: the page behind it goes inert, and focus returns to the opener */
+  let welcomeFrom = null;
+  function behind(on) { ['.site-header', '.site-nav', 'main', 'footer'].forEach(q => { const x = $(q); if (x) x.inert = on; }); }
+  function hideWelcome() { $('#welcome').hidden = true; document.body.classList.remove('welcome-open'); store.set('welcomed', Date.now()); behind(false);
+    const back = welcomeFrom && document.contains(welcomeFrom) && welcomeFrom !== document.body && !welcomeFrom.closest('#mega, [inert]') ? welcomeFrom : (welcomeFrom && welcomeFrom.closest && welcomeFrom.closest('#mega') ? $('#menu-btn') : ($('.h2-btn') || $('#menu-btn')));   /* first visit: the top of the page */   /* from the drawer: back to Menu */ if (back && back.focus) back.focus({ preventScroll: true }); welcomeFrom = null; }
   function renderStep() {
     const s = welcome.steps[step]; const body = $('#welcome-body');
     const paras = (arr) => [].concat(arr || []).map(p => `<p>${esc(p)}</p>`).join('');
@@ -210,7 +253,7 @@ WSP.shell = (function () {
       const id = a.getAttribute('href').slice(1); const sec = document.getElementById(id); hideWelcome();
       if (!sec) return; setOpen(sec, true);
       const target = a.dataset.scrollTo ? (sec.querySelector(a.dataset.scrollTo) || sec) : sec;
-      setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+      setTimeout(() => target.scrollIntoView({ behavior: WSP.motion(), block: 'start' }), 80);
     });
     document.addEventListener('click', (e) => { if (e.target.closest('#welcome-again, #welcome-again-2')) { e.preventDefault(); showWelcome(); } });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('#welcome').hidden) hideWelcome(); });
@@ -219,8 +262,8 @@ WSP.shell = (function () {
   /* ---------- The star, explained once ---------- */
   function showCoach() {
     if (store.get('star-tip', 0)) return;
-    const star = $('.scene.is-on section.w:not([data-collapsed]) .w-star') || $('#tonight .w-star') || $('.w-star'); const coach = $('#coach'); if (!star || !coach) return;
-    const sec = star.closest('section'); const ch = chapterOf(sec); if (ch && ch !== current) go(ch, { scroll: false, instant: true }); sec.scrollIntoView({ block: 'start', behavior: 'instant' });
+    const star = $('.scene.is-on section.w:not([data-collapsed]) .w-star'); const coach = $('#coach'); if (!star || !coach) return;
+    const sec = star.closest('section'); sec.scrollIntoView({ block: 'start', behavior: 'instant' });
     setTimeout(() => {
       const r = star.getBoundingClientRect(); coach.hidden = false; coach.classList.add('open');
       const note = $('#coach-note'); const nr = note.getBoundingClientRect();
@@ -242,7 +285,7 @@ WSP.shell = (function () {
     const t = $('#to-top'); if (!t) return;
     const update = () => { t.hidden = scrollY < innerHeight * 1.2; };
     addEventListener('scroll', update, { passive: true }); update();
-    t.addEventListener('click', (e) => { e.preventDefault(); scrollTo({ top: 0, behavior: 'smooth' }); });
+    t.addEventListener('click', (e) => { e.preventDefault(); scrollTo({ top: 0, behavior: WSP.motion() }); });
   }
 
   /* ---------- Mega-menu and in-page links open their card ---------- */
@@ -260,11 +303,11 @@ WSP.shell = (function () {
     wireCards(); applyStars(); wireChapters(); wireStarFilter(); wireMapLock(); wireWelcome();
     renderUpdates(data.updates);
     const start = location.hash && document.getElementById(location.hash.slice(1));
-    go(chapterOf(start) || 'home', { scroll: false, instant: true });
+    // every category starts collapsed; a deep link still opens its own category and card
+    if (start && chapterOf(start)) go(chapterOf(start), { scroll: false, instant: true }); else closeAll();
     wireDeepLinks();
-    if (!start) setOpen('updates', true);
     wireTop();
-    if (!store.get('welcomed', 0) && welcome) showWelcome(); else setTimeout(showCoach, 600);
+    if (!store.get('welcomed', 0) && welcome) showWelcome();
   }
   return { init, setOpen, lockMap, showWelcome, go, chapterOf, setStarsOnly, closeAll };
 })();

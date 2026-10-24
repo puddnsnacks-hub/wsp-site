@@ -1,5 +1,5 @@
 {
- "_about": "Garnish icon set. Drawn once each in Higgsfield and saved as assets/img/garnish/<id>.png (transparent PNG, square, cropped to the art). Until a file exists the site shows the label as a pasted sticker.",
+ "_about": "Garnish icon set. Drawn once each and saved as assets/img/garnish/<id>.png (transparent PNG, square, cropped to the art). Until a file exists the site shows the label as a pasted sticker.",
  "icons": [
   {
    "id": "whole-fried-chicken",

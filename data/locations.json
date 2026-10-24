@@ -35,7 +35,7 @@
    "2nd Floor Reserved Seats"
   ],
   "tips": [
-   "Hey Baby, bag policy first: small purses only, 13\"W x 4\"D x 9\"H or smaller, and they will be searched. Backpacks and oversized bags are turned away and there is no bag storage, so the big bag stays at the Drury.",
+   "Hi Baby, bag policy first: small purses only, 13\"W x 4\"D x 9\"H or smaller, and they will be searched. Backpacks and oversized bags are turned away and there is no bag storage, so the big bag stays at the Drury.",
    "Re-entry: the official FAQ does not address it, so plan as if there is none. Finish the street party and Mo's before you scan in.",
    "Will call: the Riverside box office (116 W Wisconsin Ave) opens at 12:00 PM on event days, and will call opens 2 hours before showtime. Bring photo ID, and only the original purchaser can pick up. AXS mobile tickets live in the AXS app and cannot be printed.",
    "Best entrance: the main doors under the marquee on W Wisconsin Ave, right at the river. Arrive at least 30 minutes before you want to be inside for security screening. The GA line for the pit forms early along Wisconsin Ave.",
@@ -100,7 +100,7 @@
   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Deer+Garden+at+Deer+District+Milwaukee&query_place_id=ChIJPZ9zGyMZBYgRmNoONk8FinQ",
   "yelp_photos_url": null,
   "website": "https://deerdistrict.com/",
-  "blurb": "The city's official free outdoor watch party: a big screen in the Deer Garden plaza outside Fiserv Forum, ringed by bars and restaurants running Brewers promotions. Friday the Bucks open their season against the Bulls at 3 PM in the arena next door, so the plaza will be humming by mid-afternoon. This is where Milwaukee goes to lose its mind together.",
+  "blurb": "The city's official free outdoor watch party: a big screen in the Deer Garden plaza outside Fiserv Forum, ringed by bars and restaurants running Brewers promotions. This is where Milwaukee goes to lose its mind together.",
   "tags": [
    "free",
    "outdoor",
@@ -110,12 +110,11 @@
   ],
   "walk_from_riverside_miles": 0.46,
   "tv_setup": "Large outdoor screen presented by Michelob ULTRA; surrounding bars (Tom's Watch Bar, The Mecca, Good City, etc.) have screens with sound indoors.",
-  "hours_this_weekend": "Plaza is open all day; watch party programming begins with the Bucks game at 3 PM Friday, Brewers first pitch 7 PM. Saturday implied but not explicitly confirmed (see open_questions). Dress warm; late October nights in Milwaukee run 35-45 F.",
+  "hours_this_weekend": "Plaza is open all day; Brewers first pitch 7 PM. The Game 2 watch party is listed by WTMJ; the Deer District has not posted its own Saturday schedule. Dress warm; late October nights in Milwaukee run 35-45 F.",
   "source": "https://deerdistrict.com/article/ddbaseball/",
   "cost": "Free",
   "confirmed_games": [
-   "Game 1 (Fri Oct 23) confirmed",
-   "Game 2 (Sat Oct 24) implied"
+   "Game 2 (Sat Oct 24) listed by WTMJ"
   ],
   "secondary_source": "https://urbanmilwaukee.com/2026/10/22/where-to-watch-the-brewers-without-breaking-the-bank/"
  },
@@ -139,7 +138,7 @@
   ],
   "walk_from_riverside_miles": 0.47,
   "tv_setup": "More than 100 screens with sound up, oversized 'stadium screens' (reviewers mention a 45-foot jumbotron on the mezzanine), 360-degree viewing, indoor and outdoor seating.",
-  "hours_this_weekend": "Fri 11:00 AM-12:00 AM; Sat 10:00 AM-12:00 AM; Sun 11:00 AM-12:00 AM; Mon 4:00 PM-12:00 AM. Bucks pregame party Fri 1 PM, UFC watch Sat 1 PM, Packers watch Sun 3:25 PM.",
+  "hours_this_weekend": "Fri 11:00 AM-12:00 AM; Sat 10:00 AM-12:00 AM; Sun 11:00 AM-12:00 AM; Mon 4:00 PM-12:00 AM. UFC watch Sat 1 PM, Packers watch Sun 3:25 PM.",
   "source": "https://tomswatchbar.com/milwaukee/",
   "cost": "No cover; reservations via website",
   "phone": "(414) 376-6669"
@@ -180,7 +179,7 @@
   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Third+Ward+World+Series+Block+Party+%28Catalano+Square%29+Milwaukee&query_place_id=ChIJo7PvSp4ZBYgR8Q87Bh_WV_A",
   "yelp_photos_url": "https://www.yelp.com/biz_photos/third-ward-beer-garden-at-catalano-square-milwaukee?tab=food",
   "website": "https://historicthirdward.org/",
-  "blurb": "A two-day free street party in the prettiest neighborhood downtown: Menomonee St closed to cars, giant video screens in Catalano Square, food trucks, Brewers-themed cocktails from the Third Ward Beer Garden, and live tapings of the Foul Territory podcast (Corey Knebel, Kevin Pillar, Alanna Rizzo) 5-7 PM both days. FOX One's 'Relive Live' pop-up is a mock 1980s living room full of Brewers memorabilia and bobbleheads, noon-4 PM. Friday they are giving away two Game 1 tickets plus a shuttle (enter noon-5:15 PM).",
+  "blurb": "A free street party in the prettiest neighborhood downtown: Menomonee St closed to cars, giant video screens in Catalano Square, food trucks, Brewers-themed cocktails from the Third Ward Beer Garden, and a live taping of the Foul Territory podcast (Corey Knebel, Kevin Pillar, Alanna Rizzo) 5-7 PM. FOX One's 'Relive Live' pop-up is a mock 1980s living room full of Brewers memorabilia and bobbleheads, noon-4 PM.",
   "tags": [
    "free",
    "outdoor",
@@ -191,7 +190,7 @@
   ],
   "walk_from_riverside_miles": 0.59,
   "tv_setup": "Giant outdoor video screens in Catalano Square with game audio; the beer garden bar also has TVs.",
-  "hours_this_weekend": "Fri Oct 23 and Sat Oct 24, noon-11:00 PM both days. Foul Territory live 5-7 PM; FOX One pop-up noon-4 PM; Bill Michaels Show live 10 AM-2 PM. Closed Sunday/Monday.",
+  "hours_this_weekend": "Sat Oct 24, noon-11:00 PM. Foul Territory live 5-7 PM; FOX One pop-up noon-4 PM; Bill Michaels Show live 10 AM-2 PM. Closed Sunday/Monday.",
   "source": "https://www.milwaukeemag.com/watch-the-brewers-in-the-world-series-at-this-block-party/",
   "cost": "Free admission; pay for drinks and food",
   "secondary_source": "https://www.tmj4.com/news/local-news/in-your-community/milwaukee-county/world-series-block-party-takes-over-milwaukees-historic-third-ward-with-watch-parties-and-more",
@@ -235,7 +234,7 @@
   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=90s2K+Cafe+Milwaukee&query_place_id=ChIJlfXJIQAZBYgR0G97snf2PhE",
   "yelp_photos_url": null,
   "website": null,
-  "blurb": "A nostalgia bar (90s and 2000s decor, DJs, big dance floor) a block from the Deer District, throwing a '1982 Retro Watch Party' Friday and Saturday for the last time the Brewers were in the World Series. Doors 5 PM, 82-cent taps from 6-7 PM, Brewers gear required for the specials. Loud and young, and a Panic fan would enjoy the pregame.",
+  "blurb": "A nostalgia bar (90s and 2000s decor, DJs, big dance floor) a block from the Deer District, throwing a '1982 Retro Watch Party' Saturday for the last time the Brewers were in the World Series. Doors 5 PM, 82-cent taps from 6-7 PM, Brewers gear required for the specials. Loud and young, and a Panic fan would enjoy the pregame.",
   "tags": [
    "theme bar",
    "1982",
@@ -245,7 +244,7 @@
   ],
   "walk_from_riverside_miles": 0.4,
   "tv_setup": "Multiple TVs (normally playing 90s movies) switched to the game for the watch party.",
-  "hours_this_weekend": "Watch party Fri Oct 23 and Sat Oct 24: doors 5:00 PM, 82-cent taps 6:00-7:00 PM, open until 2:30 AM. Posted regular hours: Fri 7 PM-2:30 AM, Sat 4 PM-2:30 AM, Sun 4 PM-2 AM, Mon closed.",
+  "hours_this_weekend": "Watch party Sat Oct 24: doors 5:00 PM, 82-cent taps 6:00-7:00 PM, open until 2:30 AM. Posted regular hours: Sat 4 PM-2:30 AM, Sun 4 PM-2 AM, Mon closed.",
   "source": "https://onmilwaukee.com/articles/brewers-watch-parties",
   "cost": "No cover listed; Brewers gear required for specials",
   "phone": "(414) 210-2938"
@@ -339,7 +338,7 @@
   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mo%27s+Irish+Pub+142+W+Wisconsin+Ave+Milwaukee+WI",
   "yelp_photos_url": null,
   "website": "https://www.mosirishpub.com/milwaukee",
-  "blurb": "Mo's is the Irish pub next door to the Riverside marquee, at the west edge of the closed block. It is the official Widespread Panic after-party bar all three nights (Houseplant Fri/Sat, Armchair Boogie Sun, 21+, doors 11 PM) and the indoor fallback if the street gets cold.",
+  "blurb": "Mo's is the Irish pub next door to the Riverside marquee, at the west edge of the closed block. It is the official Widespread Panic after-party bar (Houseplant Saturday, Armchair Boogie Sunday, 21+, doors 11 PM) and the indoor fallback if the street gets cold.",
   "tags": [
    "after-party",
    "irish pub",
@@ -354,66 +353,16 @@
   "best_time": "after-show",
   "walk_from_venue_minutes": 1,
   "hours_this_weekend": {
-   "fri": "11:00 AM - late (site lists midnight in one place and 2:00 AM in another; the after-party runs past midnight)",
    "sat": "11:00 AM - late (same caveat)",
    "sun": null,
    "mon": "3:00 PM - 1:00 AM"
   },
-  "wsp_fan_note": "Fan guides have called Mo's 'ground zero' for pre- and post-Panic activity since at least 2014, and in 2026 it is the venue-sanctioned after-party all three nights: Houseplant Fri/Sat, Armchair Boogie Sun, ~11:45 PM start, 21+.",
+  "wsp_fan_note": "Fan guides have called Mo's 'ground zero' for pre- and post-Panic activity since at least 2014, and in 2026 it is the venue-sanctioned after-party: Houseplant Saturday, Armchair Boogie Sunday, ~11:45 PM start, 21+.",
   "sources": [
    "https://www.pabsttheatergroup.com/events/detail/widespread-panic-2026",
    "https://tomorrowsverse.com/story/widespread-panic-fans-guide-to-milwaukee-2015-edition-28274.html",
    "https://app.discotech.me/events/38227433-3-day-after-party-at-mos-irish-pub-21-only-at-the-riverside-theater"
   ]
- },
- {
-  "id": "lakefront-brewery-fish-fry",
-  "name": "Lakefront Brewery Beer Hall - Friday Night Fish Fry",
-  "category": "restaurant",
-  "lat": 43.0547,
-  "lng": -87.9052,
-  "address": "1872 N Commerce St, Milwaukee, WI 53212",
-  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Lakefront+Brewery+1872+N+Commerce+St+Milwaukee",
-  "yelp_photos_url": "https://www.yelp.com/biz_photos/lakefront-brewery-milwaukee?tab=food",
-  "website": "https://lakefrontbrewery.com/beer-hall",
-  "blurb": "Friday in Milwaukee means fish fry, and this is the one with a live polka band in a riverside beer hall. Beer-battered cod, potato pancakes, a Riverwest Stein, and the Brewhaus Polka Kings from 5 to 8 PM, ten minutes from the Riverside.",
-  "tags": [
-   "fish fry",
-   "polka",
-   "brewery",
-   "Milwaukee institution",
-   "early dinner"
-  ],
-  "image": {
-   "src": "https://lakefrontbrewery.com/wp-content/uploads/2020/01/OG-Beer-hall.jpg",
-   "credit": "Lakefront Brewery",
-   "credit_url": "https://lakefrontbrewery.com/beer-hall",
-   "local": "assets/img/food/lakefront-brewery-fish-fry-e97b5fef.jpg"
-  },
-  "why_special": "Lakefront is the Friday fish fry out-of-towners remember: a cavernous former power plant on the Milwaukee River, table service with cocktails on Fridays only, and a weekly polka band. The whole Wisconsin ritual (fish, rye bread, slaw, polka, brandy) in one room, and the closest proper fish fry to the theater. Never been inside, but the fish fry has a polka band, and that is enough.",
-  "must_order": [
-   "Fish Fry Dinner: three-piece beer-battered cod with potato pancakes and applesauce ($20)",
-   "Fried Walleye, hand-breaded, two pieces ($23)",
-   "Cheese curds from the Cheese Curd Flavor of the Month board",
-   "A Riverwest Stein or Fixed Gear on draft, plus a brandy Old Fashioned sweet"
-  ],
-  "price": "$$",
-  "reservation": {
-   "needed": false,
-   "url": "https://lakefrontbrewery.com/beer-hall/food#friday-fish-fry",
-   "note": "Limited reservations for the 4:00-4:30 PM and 6:00-6:30 PM slots only, otherwise first come, first served. Parties of 9+ call 414-372-8800."
-  },
-  "best_window": "Friday Oct 23: arrive at 4:00 PM when the fish fry kitchen opens, polka at 5:00 PM, out by 6:30 PM for doors",
-  "hours_this_weekend": {
-   "fri": "11:00 AM - 9:00 PM (fish fry kitchen 4:00 - 9:00 PM, table service)",
-   "sat": "11:00 AM - 9:00 PM",
-   "sun": "11:00 AM - 5:00 PM",
-   "mon": "11:00 AM - 9:00 PM (Beer Hall food 3:00 - 8:00 PM)"
-  },
-  "travel_from_downtown": "6 min rideshare (1.2 mi) or a 25 min walk north along the RiverWalk",
-  "source": "https://lakefrontbrewery.com/beer-hall",
-  "menu_source": "https://lakefrontbrewery.com/wp-content/uploads/2026/04/Friday-Dinner-Menu-2026.pdf",
-  "hours_source": "https://lakefrontbrewery.com/about-lakefront/contact"
  },
  {
   "id": "three-brothers",
@@ -454,7 +403,6 @@
   },
   "best_window": "Sunday Oct 25 at 4:00 PM (opens 4:00 PM Sat/Sun), or Saturday at 4:00 PM",
   "hours_this_weekend": {
-   "fri": "5:00 - 9:00 PM",
    "sat": "4:00 - 9:00 PM",
    "sun": "4:00 - 9:00 PM",
    "mon": "Closed"
@@ -490,18 +438,16 @@
   "why_special": "Chef-owner Justin Aprahamian (James Beard Best Chef Midwest) runs the restaurant Sandy D'Amato made famous. It has been on every Milwaukee best-of list for 35 years and still feels like a secret because it seats so few people.",
   "must_order": [
    "Four-course Prix Fixe ($105), the whole point",
-   "Surprise seven-course tasting menu ($135) only Tue-Fri, so Friday if time allows",
    "Whatever the duck preparation is that night"
   ],
   "price": "$$$$",
   "reservation": {
    "needed": true,
    "url": "https://sanfordrestaurant.com/3079-2/",
-   "note": "Phone only: 414-276-9608, Tue-Sat 1:00-9:00 PM. First seating is 5:30 PM Fri / 5:00 PM Sat. Tell them about the 7:30 PM show."
+   "note": "Phone only: 414-276-9608, Tue-Sat 1:00-9:00 PM. First seating is 5:00 PM Saturday. Tell them about the 7:30 PM show."
   },
-  "best_window": "Saturday Oct 24 at 5:00 PM (first seating) is the safest fit. Friday's first seating is 5:30 PM",
+  "best_window": "Saturday Oct 24 at 5:00 PM (first seating) is the safest fit.",
   "hours_this_weekend": {
-   "fri": "5:30 - 10:00 PM",
    "sat": "5:00 - 10:00 PM",
    "sun": "Closed",
    "mon": "Closed"
@@ -546,9 +492,8 @@
    "url": "https://resy.com/cities/milwaukee-wi/venues/odd-duck-restaurant",
    "note": "Resy for dining-room tables. Bar, bar tables and patio are first come, first served. 3% credit card surcharge (debit exempt)."
   },
-  "best_window": "Friday or Saturday: bar at 4:30 PM for happy hour, kitchen at 5:00 PM, out by 6:45 PM",
+  "best_window": "Saturday: bar at 4:30 PM for happy hour, kitchen at 5:00 PM, out by 6:45 PM",
   "hours_this_weekend": {
-   "fri": "Bar 3:00 PM - 12:00 AM; kitchen 5:00 - 10:00 PM",
    "sat": "Bar 3:00 PM - 12:00 AM; kitchen 5:00 - 10:00 PM",
    "sun": "Closed (Tue-Sat only)",
    "mon": "Closed"
@@ -567,7 +512,7 @@
   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Birch+459+E+Pleasant+St+Milwaukee",
   "yelp_photos_url": "https://www.yelp.com/biz_photos/birch-milwaukee?tab=food",
   "website": "https://www.birchonpleasant.com/",
-  "blurb": "Seasonal Midwestern cooking from a wood-fired hearth in a handsome room just north of downtown, with a 4:00-6:00 PM happy hour and a burger Milwaukee Magazine calls top-tier. Dinner starts at 5:00 PM Friday and Saturday.",
+  "blurb": "Seasonal Midwestern cooking from a wood-fired hearth in a handsome room just north of downtown, with a 4:00-6:00 PM happy hour and a burger Milwaukee Magazine calls top-tier. Dinner starts at 5:00 PM Saturday.",
   "tags": [
    "wood-fired",
    "farm-to-table",
@@ -585,7 +530,7 @@
   "must_order": [
    "Anything from the hearth: the whole roasted fish or the wood-fired pork",
    "The Birch burger (a Milwaukee Magazine top pick)",
-   "Happy hour 4:00-6:00 PM Friday at the bar before dinner"
+   "Happy hour 4:00-6:00 PM at the bar before dinner"
   ],
   "price": "$$$",
   "reservation": {
@@ -593,9 +538,8 @@
    "url": "https://www.opentable.com/r/birch-milwaukee-reservations-milwaukee?restref=1004269&lang=en-US&ot_source=Restaurant%20website",
    "note": "OpenTable. Book 5:00 PM."
   },
-  "best_window": "Friday Oct 23: happy hour at 4:00 PM, then 5:00 PM dinner. Or Saturday at 5:00 PM",
+  "best_window": "Saturday Oct 24 at 5:00 PM",
   "hours_this_weekend": {
-   "fri": "Happy hour 4:00 - 6:00 PM; dinner 5:00 - 10:00 PM",
    "sat": "5:00 - 10:00 PM",
    "sun": "Closed (not listed; Tue-Sat only)",
    "mon": "Closed"
@@ -644,7 +588,6 @@
   },
   "best_window": "Sunday Oct 25 early dinner at 4:30 PM, or Monday 11:30 AM lunch before the airport",
   "hours_this_weekend": {
-   "fri": "11:30 AM - 10:00 PM",
    "sat": "11:30 AM - 10:00 PM",
    "sun": "11:30 AM - 8:00 PM",
    "mon": "11:30 AM - 9:00 PM"
@@ -662,7 +605,7 @@
   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Solly's+Grille+4629+N+Port+Washington+Rd+Glendale",
   "yelp_photos_url": "https://www.yelp.com/biz_photos/sollys-grille-glendale?tab=food",
   "website": "https://en.wikipedia.org/wiki/Solly%27s_Grille",
-  "blurb": "Home of the butter burger since 1936 and a James Beard America's Classic (2022): a horseshoe lunch counter where the patty is steamed in butter and then topped with a melting slab of more butter. A real malt goes with it. Lunch only, closed Sunday and Monday, so Friday or Saturday.",
+  "blurb": "Home of the butter burger since 1936 and a James Beard America's Classic (2022): a horseshoe lunch counter where the patty is steamed in butter and then topped with a melting slab of more butter. A real malt goes with it. Lunch only, closed Sunday and Monday, so Saturday is the day.",
   "tags": [
    "butter burger",
    "James Beard",
@@ -688,9 +631,8 @@
    "url": null,
    "note": "Counter seating, walk in. 414-332-8808."
   },
-  "best_window": "Saturday Oct 24 late breakfast or lunch (opens 7:00 AM), or Friday lunch",
+  "best_window": "Saturday Oct 24 late breakfast or lunch (opens 7:00 AM)",
   "hours_this_weekend": {
-   "fri": "7:00 AM - 7:00 PM",
    "sat": "7:00 AM - 7:00 PM",
    "sun": "Closed",
    "mon": "Closed"
@@ -738,9 +680,8 @@
    "url": "https://www.exploretock.com/la-dama-milwaukee/",
    "note": "Tock. 414-645-2606."
   },
-  "best_window": "Sunday Oct 25 at 4:30 PM (the alternative to Three Brothers), or Fri/Sat at 5:00 PM",
+  "best_window": "Sunday Oct 25 at 4:30 PM (the alternative to Three Brothers), or Saturday at 5:00 PM",
   "hours_this_weekend": {
-   "fri": "5:00 - 9:30 PM",
    "sat": "5:00 - 9:30 PM",
    "sun": "4:30 - 8:00 PM",
    "mon": "Closed"
@@ -788,7 +729,6 @@
   },
   "best_window": "Any day for lunch or a 5:00-6:30 PM pre-show bite. Sunday closes at 7:00 PM",
   "hours_this_weekend": {
-   "fri": "Food hall 8:00 AM - 10:00 PM; bar 11:00 AM - 11:00 PM",
    "sat": "Food hall 9:00 AM - 10:00 PM; bar 11:00 AM - 11:00 PM",
    "sun": "Food hall 9:00 AM - 7:00 PM; bar 11:00 AM - 7:00 PM",
    "mon": "Food hall 8:00 AM - 8:00 PM; bar 11:00 AM - 9:00 PM"
@@ -838,7 +778,6 @@
   },
   "best_window": "Saturday Oct 24 late breakfast or lunch, 11:00 AM - 1:00 PM. Also Sunday until 6:00 PM",
   "hours_this_weekend": {
-   "fri": "10:00 AM - 8:00 PM",
    "sat": "10:00 AM - 8:00 PM",
    "sun": "10:00 AM - 6:00 PM",
    "mon": "10:00 AM - 8:00 PM"
@@ -878,9 +817,8 @@
    "needed": false,
    "url": null
   },
-  "best_window": "Friday or Saturday after the show, 11:45 PM - 1:00 AM (the downtown location is closed Sunday)",
+  "best_window": "Saturday after the show, 11:45 PM - 1:00 AM (the downtown location is closed Sunday)",
   "hours_this_weekend": {
-   "fri": "11:00 AM - 3:00 AM",
    "sat": "11:00 AM - 3:00 AM",
    "sun": "Closed (Marquette location at 1625 W Wells open 11:00 AM - 10:00 PM)",
    "mon": "11:00 AM - 10:00 PM"
@@ -923,9 +861,8 @@
    "needed": false,
    "url": null
   },
-  "best_window": "Friday or Saturday after the show, before 2:00 AM. Sunday closes at 10:00 PM",
+  "best_window": "Saturday after the show, before 2:00 AM. Sunday closes at 10:00 PM",
   "hours_this_weekend": {
-   "fri": "11:00 AM - 2:00 AM",
    "sat": "11:00 AM - 2:00 AM",
    "sun": "11:00 AM - 10:00 PM",
    "mon": "11:00 AM - 10:00 PM"
@@ -966,7 +903,6 @@
   },
   "best_window": "Sunday Oct 25 after the show (bar to 2:00 AM, confirm kitchen hours), or any afternoon",
   "hours_this_weekend": {
-   "fri": "11:00 AM - 2:00 AM",
    "sat": "10:00 AM - 2:30 AM",
    "sun": "10:00 AM - 2:00 AM",
    "mon": "11:00 AM - 2:00 AM"
@@ -1008,7 +944,6 @@
   },
   "best_window": "Sunday Oct 25 after the show: delivery to the hotel, or dine in before midnight",
   "hours_this_weekend": {
-   "fri": "Dine-in 10:00 AM - 12:00 AM; takeout/delivery 10:00 AM - 3:00 AM",
    "sat": "Dine-in 10:00 AM - 12:00 AM; takeout/delivery 10:00 AM - 3:00 AM",
    "sun": "Dine-in 10:00 AM - 12:00 AM; takeout/delivery 10:00 AM - 3:00 AM",
    "mon": "Dine-in 10:00 AM - 12:00 AM; takeout/delivery 10:00 AM - 3:00 AM"
@@ -1054,7 +989,6 @@
   },
   "best_window": "Monday Oct 26, 9:30 - 11:00 AM: checkout, brunch, then a 15 min ride to MKE",
   "hours_this_weekend": {
-   "fri": "8:00 AM - 2:00 PM (The Wolf dinner 5:00 - 10:00 PM)",
    "sat": "8:00 AM - 3:00 PM (The Wolf dinner 5:00 - 10:00 PM)",
    "sun": "8:00 AM - 3:00 PM",
    "mon": "8:00 AM - 2:00 PM"
@@ -1101,7 +1035,6 @@
   },
   "best_window": "Monday Oct 26, 10:00 - 11:30 AM, then 10 min to MKE for a 3:00 PM flight",
   "hours_this_weekend": {
-   "fri": "9:00 AM - 3:00 PM breakfast/lunch; 3:00 - 9:00 PM dinner",
    "sat": "9:00 AM - 3:00 PM brunch; 3:00 - 9:00 PM dinner",
    "sun": "9:00 AM - 3:00 PM brunch; 3:00 - 9:00 PM dinner",
    "mon": "9:00 AM - 3:00 PM breakfast/lunch; 3:00 - 9:00 PM dinner"
@@ -1147,7 +1080,6 @@
   },
   "best_window": "Monday Oct 26 at the 11:00 AM open, out by 12:15 PM, 15 min drive to MKE. Or Saturday at 10:00 AM",
   "hours_this_weekend": {
-   "fri": "11:00 AM - 9:00 PM",
    "sat": "10:00 AM - 9:00 PM",
    "sun": "Closed",
    "mon": "11:00 AM - 8:00 PM"
@@ -1192,7 +1124,6 @@
   },
   "best_window": "Monday Oct 26, 11:30 AM - 12:30 PM, then 12 min east on Layton Ave to MKE",
   "hours_this_weekend": {
-   "fri": "10:30 AM - 11:00 PM",
    "sat": "10:30 AM - 11:00 PM",
    "sun": "10:30 AM - 10:00 PM",
    "mon": "10:30 AM - 10:00 PM"
@@ -1223,12 +1154,11 @@
   "best_time": "pre-show",
   "walk_from_venue_minutes": 4,
   "hours_this_weekend": {
-   "fri": "11:00 AM - 12:00 AM (kitchen to 10 PM)",
    "sat": "11:00 AM - 12:00 AM (kitchen to 10 PM)",
    "sun": "11:00 AM - 8:00 PM",
    "mon": "11:00 AM - 10:00 PM"
   },
-  "wsp_fan_note": "Not a fan gathering spot, it is a Milwaukee rite of passage. Friday and Saturday nights often have a wait without an OpenTable reservation, so book a 4:30-5:30 PM slot and walk to the street party afterward.",
+  "wsp_fan_note": "Not a fan gathering spot, it is a Milwaukee rite of passage. Saturday nights often have a wait without an OpenTable reservation, so book a 4:30-5:30 PM slot and walk to the street party afterward.",
   "source": "https://www.safe-house.com/milwaukee-restaurant",
   "sources": [
    "https://www.milwaukeemag.com/do-you-remember-the-safehouse-password/"
@@ -1257,7 +1187,6 @@
   "best_time": "after-show",
   "walk_from_venue_minutes": 8,
   "hours_this_weekend": {
-   "fri": "4:00 PM - 2:00 AM (live music 8 PM - midnight)",
    "sat": "4:00 PM - 2:00 AM (live music 8 PM - midnight)",
    "sun": "5:00 PM - 12:00 AM",
    "mon": "5:00 PM - 12:00 AM"
@@ -1291,7 +1220,6 @@
   "best_time": "pre-show",
   "walk_from_venue_minutes": 8,
   "hours_this_weekend": {
-   "fri": "11:30 AM - 10:00 PM",
    "sat": "11:30 AM - 10:00 PM",
    "sun": "11:30 AM - 8:00 PM",
    "mon": "11:30 AM - 9:00 PM"
@@ -1323,12 +1251,11 @@
   "walk_from_venue_minutes": 38,
   "rideshare_minutes_from_venue": 10,
   "hours_this_weekend": {
-   "fri": "5:00 PM - 2:00 AM",
    "sat": "3:00 PM - 2:00 AM",
    "sun": "5:00 PM - 12:00 AM",
    "mon": "Closed"
   },
-  "wsp_fan_note": "Not a fan bar, which is exactly why it works as the decompression room after the Riverside. Sunday closes at midnight, so it is a Friday or Saturday after-show call.",
+  "wsp_fan_note": "Not a fan bar, which is exactly why it works as the decompression room after the Riverside. Sunday closes at midnight, so it is a Saturday after-show call.",
   "source": "https://bryantscocktaillounge.com/",
   "sources": [
    "https://savingplaces.org/stories/historic-bars-bryants-cocktail-lounge-in-milwaukee"
@@ -1358,7 +1285,6 @@
   "walk_from_venue_minutes": 65,
   "rideshare_minutes_from_venue": 12,
   "hours_this_weekend": {
-   "fri": "5:00 PM - 2:00 AM",
    "sat": "3:00 PM - 2:00 AM",
    "sun": "3:00 PM - 12:00 AM",
    "mon": "Closed"
@@ -1389,12 +1315,11 @@
   "walk_from_venue_minutes": 50,
   "rideshare_minutes_from_venue": 10,
   "hours_this_weekend": {
-   "fri": "4:00 PM - 2:30 AM",
    "sat": "4:00 PM - 2:30 AM",
    "sun": "12:00 PM - 10:00 PM",
    "mon": "4:00 PM - 12:00 AM"
   },
-  "wsp_fan_note": "Not a fan bar. Sunday closes at 10 PM, so Black Lagoon is a Friday or Saturday after-show move (or a Sunday afternoon one).",
+  "wsp_fan_note": "Not a fan bar. Sunday closes at 10 PM, so Black Lagoon is a Saturday after-show move (or a Sunday afternoon one).",
   "source": "https://www.lostwhalemke.com/contact",
   "sources": [
    "https://onmilwaukee.com/articles/halloween-2026"
@@ -1424,7 +1349,6 @@
   "walk_from_venue_minutes": 25,
   "rideshare_minutes_from_venue": 7,
   "hours_this_weekend": {
-   "fri": "3:00 PM - 2:00 AM",
    "sat": "3:00 PM - 2:00 AM",
    "sun": "3:00 PM - 2:00 AM",
    "mon": "Closed"
@@ -1456,7 +1380,6 @@
   "walk_from_venue_minutes": 30,
   "rideshare_minutes_from_venue": 8,
   "hours_this_weekend": {
-   "fri": "2:00 PM - 2:30 AM",
    "sat": "12:00 PM - 2:30 AM",
    "sun": "12:00 PM - 2:00 AM",
    "mon": "2:00 PM - 2:00 AM"
@@ -1492,7 +1415,6 @@
   "walk_from_venue_minutes": 45,
   "rideshare_minutes_from_venue": 8,
   "hours_this_weekend": {
-   "fri": "3:00 PM - 2:30 AM",
    "sat": "11:00 AM - 2:30 AM",
    "sun": "11:00 AM - 12:00 AM",
    "mon": "4:00 PM - 1:00 AM"
@@ -1647,7 +1569,7 @@
   "address": "700 N Art Museum Dr, Milwaukee, WI 53202",
   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Milwaukee+Art+Museum+700+N+Art+Museum+Dr",
   "website": "https://mam.org/",
-  "blurb": "Santiago Calatrava's 2001 pavilion with the Burke Brise Soleil, a 217-foot pair of wings that open in the morning and fold at night (and close automatically if wind tops 23 mph). Friday Oct 23, 7-11 PM, is 'MAM After Dark: Halloween Bash' ($35 advance / $40 door) with a dress-as-an-artwork costume contest. It collides with the show, and it explains the costumes on the lakefront.",
+  "blurb": "Santiago Calatrava's 2001 pavilion with the Burke Brise Soleil, a 217-foot pair of wings that open in the morning and fold at night (and close automatically if wind tops 23 mph).",
   "tags": [
    "architecture",
    "art",
@@ -1685,7 +1607,7 @@
   "address": "Menomonee St & N Broadway, Milwaukee, WI 53202",
   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Catalano+Square+Milwaukee",
   "website": "https://www.milwaukeemag.com/watch-the-brewers-in-the-world-series-at-this-block-party/",
-  "blurb": "Fri Oct 23 and Sat Oct 24, noon-11 PM: Third Ward Beer Garden and the Historic Third Ward Association close Menomonee Street for food trucks, big screens showing Games 1 and 2, Brewers cocktails, and live tapings of the Foul Territory podcast 5-7 PM. The city's first World Series in 44 years, so the pregame energy around 5 PM will be something.",
+  "blurb": "Sat Oct 24, noon-11 PM: Third Ward Beer Garden and the Historic Third Ward Association close Menomonee Street for food trucks, big screens showing Game 2, Brewers cocktails, and a live taping of the Foul Territory podcast 5-7 PM. The city's first World Series in 44 years, so the pregame energy around 5 PM will be something.",
   "tags": [
    "World Series",
    "block party",
@@ -1788,7 +1710,7 @@
   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Lakefront+Brewery+1872+N+Commerce+St+Milwaukee",
   "yelp_photos_url": "https://www.yelp.com/biz_photos/lakefront-brewery-milwaukee",
   "website": "https://lakefrontbrewery.com/",
-  "blurb": "The most fun brewery tour in America, in an old riverside power plant across the river from Brady Street: 50 minutes, four 8-oz pours, a souvenir pint glass and a free-beer coupon good at local bars, $16 Fri-Sun. The beer hall has a Friday fish fry and Bernie Brewer's original chalet from County Stadium. Tours run roughly hourly Sat noon-6 PM, Sun noon and 2 PM. The beer hall closes 9 PM (5 PM Sunday).",
+  "blurb": "The most fun brewery tour in America, in an old riverside power plant across the river from Brady Street: 50 minutes, four 8-oz pours, a souvenir pint glass and a free-beer coupon good at local bars, $16 Sat-Sun. The beer hall has Bernie Brewer's original chalet from County Stadium. Tours run roughly every 30 minutes Sat noon-6 PM, Sun noon and 2 PM. The beer hall closes 9 PM (5 PM Sunday).",
   "tags": [
    "brewery",
    "tour",
@@ -1800,7 +1722,7 @@
    "https://lakefrontbrewery.com/"
   ],
   "why": "The only place on Earth that re-enacts the Laverne & Shirley opening credits daily.",
-  "hours": "Tours Fri Oct 23: 12, 1, 2, 3, 5, 5:30, 6:30, 7 PM; Sat Oct 24: 12 PM-6 PM every 30 min; Sun Oct 25: 12 PM and 2 PM; Mon Oct 26: 5 PM and 6:30 PM. $13 Mon-Thu, $16 Fri-Sun, 50 min, 21+ or with a parent. Weekend tours usually sell out; buy on etix. Beer hall Fri-Sat 11 AM-9 PM, Sun 11 AM-5 PM, Mon 11 AM-9 PM.",
+  "hours": "Tours Sat Oct 24: 12 PM-6 PM every 30 min; Sun Oct 25: 12 PM and 2 PM; Mon Oct 26: 5 PM and 6:30 PM. $13 Mon-Thu, $16 Fri-Sun, 50 min, 21+ or with a parent. Weekend tours usually sell out; buy on etix. Beer hall Sat 11 AM-9 PM, Sun 11 AM-5 PM, Mon 11 AM-9 PM.",
   "hours_source": "https://lakefrontbrewery.com/brewery-tours/our-famous-tour",
   "image": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Lakefront_Brewery%2C_Milwaukee%2C_WI_%2821478759723%29.jpg/1200px-Lakefront_Brewery%2C_Milwaukee%2C_WI_%2821478759723%29.jpg",
@@ -1963,7 +1885,7 @@
    "live music",
    "WSP fans"
   ],
-  "when": "Fri Oct 23, Sat Oct 24, Sun Oct 25 2026: doors 12:00 PM, show 5:30 PM",
+  "when": "Sat Oct 24, Sun Oct 25 2026: doors 12:00 PM, show 5:30 PM",
   "source": "https://www.pabsttheatergroup.com/events/detail/wolph"
  },
  {
@@ -1975,14 +1897,14 @@
   "address": "142 W Wisconsin Ave, Milwaukee, WI 53203",
   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mo%27s+Irish+Pub+142+W+Wisconsin+Ave+Milwaukee",
   "website": "https://www.pabsttheatergroup.com/events/detail/widespread-panic-2026",
-  "blurb": "Half a block west of the Riverside doors. Houseplant plays Friday and Saturday, Madison jamgrass quartet Armchair Boogie plays Sunday. Listed as 21+, starting 11:45 PM, which is the minute the Riverside lets out. This is the room where the whole run ends up.",
+  "blurb": "Half a block west of the Riverside doors. Houseplant plays Saturday, Madison jamgrass quartet Armchair Boogie plays Sunday. Listed as 21+, starting 11:45 PM, which is the minute the Riverside lets out. This is the room where the whole run ends up.",
   "tags": [
    "after-show",
    "live music",
    "WSP fans",
    "21+"
   ],
-  "when": "Fri Oct 23 & Sat Oct 24: Houseplant; Sun Oct 25: Armchair Boogie. Start ~11:45 PM.",
+  "when": "Sat Oct 24: Houseplant; Sun Oct 25: Armchair Boogie. Start ~11:45 PM.",
   "source": "https://app.discotech.me/events/38227433-3-day-after-party-at-mos-irish-pub-21-only-at-the-riverside-theater"
  },
  {
@@ -2027,7 +1949,7 @@
    "pabst",
    "schlitz"
   ],
-  "hours": "Beer History Tour: Fri Oct 23 12, 2, 4 PM; Sat Oct 24 11 AM, 12, 2, 4 PM; Sun Oct 25 12, 2, 4 PM; Mon Oct 26 12, 2, 4 PM. $14 adults. Haunted tours Oct 25 and 26 at 6:00 and 7:30 PM, $20. Book at etix or 414-223-4709.",
+  "hours": "Beer History Tour: Sat Oct 24 11 AM, 12, 2, 4 PM; Sun Oct 25 12, 2, 4 PM; Mon Oct 26 12, 2, 4 PM. $14 adults. Haunted tours Oct 25 and 26 at 6:00 and 7:30 PM, $20. Book at etix or 414-223-4709.",
   "hours_source": "https://bestplacemilwaukee.com/tours/",
   "image": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Milwaukee_July_2023_088_%28Pabst_Brewery_Complex--Best_Place%29.jpg/1200px-Milwaukee_July_2023_088_%28Pabst_Brewery_Complex--Best_Place%29.jpg",
@@ -2054,7 +1976,7 @@
    "halloween",
    "rainy day"
   ],
-  "hours": "Wed-Mon 10 AM-5 PM, closed Tuesdays. Heads up: exhibit floors close at 1:00 PM on Saturday Oct 24 for a members-only event, so go Fri, Sun, or Mon. Adults $25 (includes a planetarium show).",
+  "hours": "Wed-Mon 10 AM-5 PM, closed Tuesdays. Heads up: exhibit floors close at 1:00 PM on Saturday Oct 24 for a members-only event, so go Sunday or Monday. Adults $25 (includes a planetarium show).",
   "hours_source": "https://www.mpm.edu/plan-visit/hours",
   "image": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Milwaukee_Public_Museum.jpg",

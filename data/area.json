@@ -9,7 +9,7 @@
   "Wikimedia Commons image URLs for East Town, Historic Third Ward and Deer District were verified via the Commons API; the 1200px thumbnail links follow Wikimedia's standard pattern but could not be HEAD-checked due to API rate limiting. No images were sourced for Westown, Brady Street, Walker's Point or Bay View."
  ],
  "this_weekend_headline": {
-  "note": "Three things collide downtown this weekend: the sold-out Widespread Panic run at the Riverside (doors 6:30 PM, show 8:00 PM Fri-Sun), the Brewers hosting World Series Games 1 and 2 at American Family Field (7:00 PM Fri and Sat), and Halloween-weekend parties. Every bar within a half mile of the Riverside will be loud and full from about 5 PM on Friday and Saturday. Reserve where possible (SafeHouse, Blu) and lean on the official Panic street party and after-parties, which are built for this crowd.",
+  "note": "Three things collide downtown this weekend: the sold-out Widespread Panic run at the Riverside (doors 6:30 PM, show 8:00 PM Saturday and Sunday), the Brewers hosting World Series Game 2 at American Family Field (7:00 PM Saturday), and Halloween-weekend parties. Every bar within a half mile of the Riverside will be loud and full from about 5 PM on Saturday. Reserve where possible (SafeHouse, Blu) and lean on the official Panic street party and after-parties, which are built for this crowd.",
   "sources": [
    "https://www.pabsttheatergroup.com/events/detail/widespread-panic-2026",
    "https://www.fox6now.com/sports/brewers-world-series-rays-2026",
@@ -33,7 +33,7 @@
     "live music",
     "WSP fans"
    ],
-   "when": "Fri Oct 23, Sat Oct 24, Sun Oct 25 2026: doors 12:00 PM, show 5:30 PM",
+   "when": "Sat Oct 24, Sun Oct 25 2026: doors 12:00 PM, show 5:30 PM",
    "source": "https://www.pabsttheatergroup.com/events/detail/wolph"
   },
   {
@@ -45,14 +45,14 @@
    "address": "142 W Wisconsin Ave, Milwaukee, WI 53203",
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mo%27s+Irish+Pub+142+W+Wisconsin+Ave+Milwaukee",
    "website": "https://www.pabsttheatergroup.com/events/detail/widespread-panic-2026",
-   "blurb": "Half a block west of the Riverside doors. Houseplant plays Friday and Saturday, Madison jamgrass quartet Armchair Boogie plays Sunday. Listed as 21+, starting 11:45 PM, which is the minute the Riverside lets out. This is the room where the whole run ends up.",
+   "blurb": "Half a block west of the Riverside doors. Houseplant plays Saturday, Madison jamgrass quartet Armchair Boogie plays Sunday. Listed as 21+, starting 11:45 PM, which is the minute the Riverside lets out. This is the room where the whole run ends up.",
    "tags": [
     "after-show",
     "live music",
     "WSP fans",
     "21+"
    ],
-   "when": "Fri Oct 23 & Sat Oct 24: Houseplant; Sun Oct 25: Armchair Boogie. Start ~11:45 PM.",
+   "when": "Sat Oct 24: Houseplant; Sun Oct 25: Armchair Boogie. Start ~11:45 PM.",
    "source": "https://app.discotech.me/events/38227433-3-day-after-party-at-mos-irish-pub-21-only-at-the-riverside-theater"
   }
  ],
@@ -79,12 +79,11 @@
    "best_time": "after-show",
    "walk_from_venue_minutes": 1,
    "hours_this_weekend": {
-    "fri": "11:00 AM - late (site lists midnight in one place and 2:00 AM in another; the after-party runs past midnight)",
     "sat": "11:00 AM - late (same caveat)",
     "sun": null,
     "mon": "3:00 PM - 1:00 AM"
    },
-   "wsp_fan_note": "Fan guides have called Mo's 'ground zero' for pre- and post-Panic activity since at least 2014, and in 2026 it is the venue-sanctioned after-party all three nights: Houseplant Fri/Sat, Armchair Boogie Sun, ~11:45 PM start, 21+.",
+   "wsp_fan_note": "Fan guides have called Mo's 'ground zero' for pre- and post-Panic activity since at least 2014, and in 2026 it is the venue-sanctioned after-party: Houseplant Saturday, Armchair Boogie Sunday, ~11:45 PM start, 21+.",
    "source": "https://mosirishpub.com/milwaukee/",
    "sources": [
     "https://www.pabsttheatergroup.com/events/detail/widespread-panic-2026",
@@ -114,12 +113,11 @@
    "best_time": "pre-show",
    "walk_from_venue_minutes": 4,
    "hours_this_weekend": {
-    "fri": "11:00 AM - 12:00 AM (kitchen to 10 PM)",
     "sat": "11:00 AM - 12:00 AM (kitchen to 10 PM)",
     "sun": "11:00 AM - 8:00 PM",
     "mon": "11:00 AM - 10:00 PM"
    },
-   "wsp_fan_note": "Not a fan gathering spot, it is a Milwaukee rite of passage. Friday and Saturday nights often have a wait without an OpenTable reservation, so book a 4:30-5:30 PM slot and walk to the street party afterward.",
+   "wsp_fan_note": "Not a fan gathering spot, it is a Milwaukee rite of passage. Saturday nights often have a wait without an OpenTable reservation, so book a 4:30-5:30 PM slot and walk to the street party afterward.",
    "source": "https://www.safe-house.com/milwaukee-restaurant",
    "sources": [
     "https://www.milwaukeemag.com/do-you-remember-the-safehouse-password/"
@@ -148,7 +146,6 @@
    "best_time": "after-show",
    "walk_from_venue_minutes": 8,
    "hours_this_weekend": {
-    "fri": "4:00 PM - 2:00 AM (live music 8 PM - midnight)",
     "sat": "4:00 PM - 2:00 AM (live music 8 PM - midnight)",
     "sun": "5:00 PM - 12:00 AM",
     "mon": "5:00 PM - 12:00 AM"
@@ -182,7 +179,6 @@
    "best_time": "pre-show",
    "walk_from_venue_minutes": 8,
    "hours_this_weekend": {
-    "fri": "11:30 AM - 10:00 PM",
     "sat": "11:30 AM - 10:00 PM",
     "sun": "11:30 AM - 8:00 PM",
     "mon": "11:30 AM - 9:00 PM"
@@ -214,12 +210,11 @@
    "walk_from_venue_minutes": 38,
    "rideshare_minutes_from_venue": 10,
    "hours_this_weekend": {
-    "fri": "5:00 PM - 2:00 AM",
     "sat": "3:00 PM - 2:00 AM",
     "sun": "5:00 PM - 12:00 AM",
     "mon": "Closed"
    },
-   "wsp_fan_note": "Not a fan bar, which is exactly why it works as the decompression room after the Riverside. Sunday closes at midnight, so it is a Friday or Saturday after-show call.",
+   "wsp_fan_note": "Not a fan bar, which is exactly why it works as the decompression room after the Riverside. Sunday closes at midnight, so it is a Saturday after-show call.",
    "source": "https://bryantscocktaillounge.com/",
    "sources": [
     "https://savingplaces.org/stories/historic-bars-bryants-cocktail-lounge-in-milwaukee"
@@ -249,7 +244,6 @@
    "walk_from_venue_minutes": 65,
    "rideshare_minutes_from_venue": 12,
    "hours_this_weekend": {
-    "fri": "5:00 PM - 2:00 AM",
     "sat": "3:00 PM - 2:00 AM",
     "sun": "3:00 PM - 12:00 AM",
     "mon": "Closed"
@@ -280,12 +274,11 @@
    "walk_from_venue_minutes": 50,
    "rideshare_minutes_from_venue": 10,
    "hours_this_weekend": {
-    "fri": "4:00 PM - 2:30 AM",
     "sat": "4:00 PM - 2:30 AM",
     "sun": "12:00 PM - 10:00 PM",
     "mon": "4:00 PM - 12:00 AM"
    },
-   "wsp_fan_note": "Not a fan bar. Sunday closes at 10 PM, so Black Lagoon is a Friday or Saturday after-show move (or a Sunday afternoon one).",
+   "wsp_fan_note": "Not a fan bar. Sunday closes at 10 PM, so Black Lagoon is a Saturday after-show move (or a Sunday afternoon one).",
    "source": "https://www.lostwhalemke.com/contact",
    "sources": [
     "https://onmilwaukee.com/articles/halloween-2026"
@@ -315,7 +308,6 @@
    "walk_from_venue_minutes": 25,
    "rideshare_minutes_from_venue": 7,
    "hours_this_weekend": {
-    "fri": "3:00 PM - 2:00 AM",
     "sat": "3:00 PM - 2:00 AM",
     "sun": "3:00 PM - 2:00 AM",
     "mon": "Closed"
@@ -347,7 +339,6 @@
    "walk_from_venue_minutes": 30,
    "rideshare_minutes_from_venue": 8,
    "hours_this_weekend": {
-    "fri": "2:00 PM - 2:30 AM",
     "sat": "12:00 PM - 2:30 AM",
     "sun": "12:00 PM - 2:00 AM",
     "mon": "2:00 PM - 2:00 AM"
@@ -383,7 +374,6 @@
    "walk_from_venue_minutes": 45,
    "rideshare_minutes_from_venue": 8,
    "hours_this_weekend": {
-    "fri": "3:00 PM - 2:30 AM",
     "sat": "11:00 AM - 2:30 AM",
     "sun": "11:00 AM - 12:00 AM",
     "mon": "4:00 PM - 1:00 AM"
@@ -544,7 +534,7 @@
      "address": "700 N Art Museum Dr, Milwaukee, WI 53202",
      "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Milwaukee+Art+Museum+700+N+Art+Museum+Dr",
      "website": "https://mam.org/",
-     "blurb": "Santiago Calatrava's 2001 pavilion with the Burke Brise Soleil, a 217-foot pair of wings that open in the morning and fold at night (and close automatically if wind tops 23 mph). Friday Oct 23, 7-11 PM, is 'MAM After Dark: Halloween Bash' ($35 advance / $40 door) with a dress-as-an-artwork costume contest. It collides with the show, and it explains the costumes on the lakefront.",
+     "blurb": "Santiago Calatrava's 2001 pavilion with the Burke Brise Soleil, a 217-foot pair of wings that open in the morning and fold at night (and close automatically if wind tops 23 mph).",
      "tags": [
       "architecture",
       "art",
@@ -578,7 +568,7 @@
   {
    "name": "Historic Third Ward",
    "what": "Milwaukee's old warehouse district south of I-794, now the gallery, boutique and restaurant quarter: Cream City brick, the Milwaukee Public Market, the Riverwalk, the Broadway Theatre Center, and the Hop streetcar running down Broadway and Milwaukee Street.",
-   "why": "The best daytime wander within 10 minutes of the hotel, and this weekend it hosts the Brewers World Series block party (Fri and Sat, noon-11 PM, Menomonee St between Broadway and Milwaukee St, with big screens at Catalano Square). The Nightmare Bar horror pop-up at Pearl & Cade runs here too.",
+   "why": "The best daytime wander within 10 minutes of the hotel, and this weekend it hosts the Brewers World Series block party (Saturday, noon-11 PM, Menomonee St between Broadway and Milwaukee St, with big screens at Catalano Square). The Nightmare Bar horror pop-up at Pearl & Cade runs here too.",
    "walk_minutes_from_venue": 10,
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Historic_Third_Ward_in_Milwaukee_photographed_in_June_2024_%E2%80%943829.jpg/1200px-Historic_Third_Ward_in_Milwaukee_photographed_in_June_2024_%E2%80%943829.jpg",
@@ -613,7 +603,7 @@
      "address": "Menomonee St & N Broadway, Milwaukee, WI 53202",
      "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Catalano+Square+Milwaukee",
      "website": "https://www.milwaukeemag.com/watch-the-brewers-in-the-world-series-at-this-block-party/",
-     "blurb": "Fri Oct 23 and Sat Oct 24, noon-11 PM: Third Ward Beer Garden and the Historic Third Ward Association close Menomonee Street for food trucks, big screens showing Games 1 and 2, Brewers cocktails, and live tapings of the Foul Territory podcast 5-7 PM. The city's first World Series in 44 years, so the pregame energy around 5 PM will be something.",
+     "blurb": "Sat Oct 24, noon-11 PM: Third Ward Beer Garden and the Historic Third Ward Association close Menomonee Street for food trucks, big screens showing Game 2, Brewers cocktails, and a live taping of the Foul Territory podcast 5-7 PM. The city's first World Series in 44 years, so the pregame energy around 5 PM will be something.",
      "tags": [
       "World Series",
       "block party",
@@ -739,7 +729,7 @@
      "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Lakefront+Brewery+1872+N+Commerce+St+Milwaukee",
      "yelp_photos_url": "https://www.yelp.com/biz_photos/lakefront-brewery-milwaukee",
      "website": "https://lakefrontbrewery.com/",
-     "blurb": "The most fun brewery tour in America, in an old riverside power plant across the river from Brady Street: 50 minutes, four 8-oz pours, a souvenir pint glass and a free-beer coupon good at local bars, $16 Fri-Sun. The beer hall has a Friday fish fry and Bernie Brewer's original chalet from County Stadium. Tours run roughly hourly Sat noon-6 PM, Sun noon and 2 PM. The beer hall closes 9 PM (5 PM Sunday).",
+     "blurb": "The most fun brewery tour in America, in an old riverside power plant across the river from Brady Street: 50 minutes, four 8-oz pours, a souvenir pint glass and a free-beer coupon good at local bars, $16 Sat-Sun. The beer hall has Bernie Brewer's original chalet from County Stadium. Tours run roughly every 30 minutes Sat noon-6 PM, Sun noon and 2 PM. The beer hall closes 9 PM (5 PM Sunday).",
      "tags": [
       "brewery",
       "tour",
@@ -868,7 +858,7 @@
     "https://urbanmilwaukee.com/2026/08/28/the-hop-changes-tracks-to-two-route-configuration/"
    ]
   },
-  "rideshare": "Uber and Lyft are plentiful downtown. Expect surge pricing at ~11:30 PM Fri-Sun when the Riverside empties, and heavy demand Fri/Sat after the 7 PM World Series games end (~10:30 PM). Typical non-surge fares: downtown to Bay View or Bryant's $12-18, downtown to the airport roughly $16-20 (getridewise.com estimate, before surge, tolls and tip). Walk one block off Wisconsin Avenue to set a pickup pin. The block in front of the theater will be a mess.",
+  "rideshare": "Uber and Lyft are plentiful downtown. Expect surge pricing at ~11:30 PM Saturday and Sunday when the Riverside empties, and heavy demand Saturday after the 7 PM World Series game ends (~10:30 PM). Typical non-surge fares: downtown to Bay View or Bryant's $12-18, downtown to the airport roughly $16-20 (getridewise.com estimate, before surge, tolls and tip). Walk one block off Wisconsin Avenue to set a pickup pin. The block in front of the theater will be a mess.",
   "rideshare_source": "https://getridewise.com/airports/mke",
   "bublr_bikes": "Bublr is Milwaukee's bike-share, with docks across downtown, the Third Ward, Brady Street and Bay View, pay-per-ride in the Bublr app. Mild weather this weekend (highs 66-69) makes a daytime ride along the lakefront path to the Art Museum pleasant. Hours and pricing not verified for this weekend: https://bublrbikes.org/",
   "airport": {
@@ -957,7 +947,6 @@
  "weather_and_packing": {
   "typical_late_october": "Highs in the mid-50s and lows in the high 30s are normal, with the lake keeping downtown a few degrees milder than the suburbs. This weekend is running well above normal and dry.",
   "forecast_this_weekend": {
-   "fri": "Dense morning fog clearing to sun, high 66, low 49",
    "sat": "Mostly cloudy, high 67, low 53",
    "sun": "Partly sunny, high 69, low 50",
    "mon": "Mostly cloudy and cooler, high 59, NE wind 10-15 mph",
@@ -965,13 +954,12 @@
    "source": "https://forecast.weather.gov/MapClick.php?lat=43.0391&lon=-87.9115"
   },
   "sunset_times": {
-   "fri": "5:56 PM",
    "sat": "5:55 PM",
    "sun": "5:53 PM",
    "source": "https://sunrise-sunset.org/us/milwaukee-wi"
   },
   "packing_tips": [
-   "Hey Baby, pack a real jacket for the walk out at 11:30 PM. It will be around 50 degrees and breezier near the river.",
+   "Hi Baby, pack a real jacket for the walk out at 11:30 PM. It will be around 50 degrees and breezier near the river.",
    "Layers for the street party: 5:30 PM is sunny-and-66 going to dusk-and-55 within the hour, with sunset about 5:55 PM.",
    "Comfortable shoes. Everything worth doing downtown is a 5-25 minute walk and the Riverwalk is uneven brick in spots.",
    "A small purse only. The Riverside allows bags no larger than 13 x 4 x 9 inches, no backpacks, no bag check.",
@@ -1054,7 +1042,7 @@
   },
   {
    "topic": "World Series crowds",
-   "note": "Games 1 and 2 are at American Family Field (4 miles west) at 7:00 PM Friday and Saturday, the Brewers' first World Series in 44 years. Downtown sports bars will be at capacity from late afternoon, Water Street will be rowdy after the games end around 10:30 PM, and rideshare surge will overlap with the Riverside letting out. Game 3 is Monday night in Tampa, so Monday is calm.",
+   "note": "Game 2 is at American Family Field (4 miles west) at 7:00 PM Saturday, the Brewers' first World Series in 44 years. Downtown sports bars will be at capacity from late afternoon, Water Street will be rowdy after the game ends around 10:30 PM, and rideshare surge will overlap with the Riverside letting out. Game 3 is Monday night in Tampa, so Monday is calm.",
    "source": "https://www.fox6now.com/sports/brewers-world-series-rays-2026"
   }
  ],
@@ -1093,14 +1081,6 @@
    "why": "Ticketed horror-themed bar experience in the Third Ward. Both sessions overlap the show, so it only works by skipping a night, or on Monday if a session is offered.",
    "location_id": "pearl-and-cade-nightmare-bar",
    "source": "https://feverup.com/m/737479"
-  },
-  {
-   "name": "MAM After Dark: Halloween Bash",
-   "when": "Friday Oct 23, 7:00-11:00 PM",
-   "cost": "$35 advance / $40 door",
-   "why": "The Art Museum's big costume party under the Calatrava wings, with a dress-as-an-artwork contest (winners announced 9 PM), tarot, gallery ghost tours and a DJ at 9:30. It conflicts with Friday's show. Listed so the costumed crowd on the lakefront makes sense.",
-   "location_id": "milwaukee-art-museum",
-   "source": "https://mam.org/events/event/mam-after-dark-halloween-bash/"
   },
   {
    "name": "Boos Fest Halloween Bar Crawl",

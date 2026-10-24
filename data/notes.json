@@ -1,22 +1,18 @@
 {
-  "widgets": {
-    "tonight": "Hey Baby, tonight's doors and showtime, the game that overlaps it, the street party hours, and the temperature at 8.",
-    "weather": "Hey Baby, the sky over downtown for the next four days, hour by hour through tonight. The lake runs a few degrees colder than the number.",
-    "map": "Hey Baby, every place on here, the hotel, the theater, the closed block, the bars, the food, the screens, and the Fonz, with where you are on it.",
-    "shows": "Hey Baby, all three nights with doors and set times, the Riverside's rules on bags and drinks, the room's history, and the setlist sites for the morning after.",
-    "street": "Hey Baby, the block in front of the theater that is closed to cars all weekend, its hours, its rules, Wolph at 5:30 each day, and the after-parties at Mo's.",
-    "series": "Hey Baby, the Brewers and the Rays, which games fall on which nights, and the screens near you, free and otherwise, with the Deer District ten minutes away.",
-    "lineups": "Hey Baby, a baseball card for every starter on both sides, and on the backs the odd facts and the Texas ties.",
-    "eat": "Hey Baby, the meals worth a ride, the ten-minute food near the theater, the Milwaukee traditions (fish fry is tonight), and breakfast before Monday's flight.",
-    "drink": "Hey Baby, the bars before doors and after the encore, Mo's next door where the run ends up, and last call: 2:30 tonight and tomorrow, 2:00 Sunday.",
-    "hotel": "Hey Baby, the Drury, the walk over the bridge, the free streetcar, rideshare, and when to leave for the airport on Monday.",
-    "facts": "Hey Baby, things to say at the bar: the Bridge War, the Fonz, the biggest four-faced clock, and where the word Cream City comes from.",
-    "laverne": "Hey Baby, the honest answer on where it was filmed, the cast and what they did after, and the places in town that connect to the show.",
-    "share": "Hey Baby, the whole map for your phone, and a few routes: hotel to theater, a bar crawl, the game-day loop, and the Laverne and Shirley pilgrimage.",
-    "mascots": "Hey Baby, the three mascots you will see this weekend, with the strange true stories behind each one and the Texas ties.",
-    "bloody": "Hey Baby, the best Bloody Marys you can walk to, the legends worth a ride, and the micheladas, each with everything they stick in the glass, whether they do breakfast, and if there is a bar or a patio.",
-    "happyhour": "Hey Baby, the places pouring cheap on Saturday, before doors and after the encore.",
-    "bloody-home": "Hey Baby, how to make each one at home, plus the odd true history behind the beer on the side.",
-    "latenight": "Hey Baby, where to get food after the show when everything else is dark, and where you can get a drink with it."
-  }
+ "widgets": {
+  "tonight": "Hi Baby, tonight's doors and showtime, the game that overlaps it, the street party hours, and the temperature at 8.",
+  "weather": "Hi Baby, the sky over downtown for the next four days, hour by hour through tonight. The lake runs a few degrees colder than the number.",
+  "map": "Hi Baby, every place on here, the hotel, the theater, the closed block, the bars, the food, the screens, and the Fonz, with where you are on it.",
+  "shows": "Hi Baby, all three nights with doors and set times, the Riverside's rules on bags and drinks, the room's history, and the setlist sites for the morning after.",
+  "street": "Hi Baby, the block in front of the theater is a free street party all weekend: Wolph at 5:30 each day, a beer on the pavement before doors, and the after-parties at Mo's. They closed the street so there's room for all of it.",
+  "series": "Hi Baby, the Brewers and the Rays, which games fall on which nights, and the screens near you, free and otherwise, with the Deer District ten minutes away.",
+  "lineups": "Hi Baby, a baseball card for every starter on both sides, and on the backs the odd facts and the Texas ties.",
+  "eat": "Hi Baby, the meals worth a ride, the ten-minute food near the theater, the Milwaukee traditions, and Saturday's happy hour before doors.",
+  "drink": "Hi Baby, the bars before doors and after the encore, Mo's next door where the run ends up, and last call: 2:30 tonight, 2:00 Sunday.",
+  "hotel": "Hi Baby, the Drury, the walk over the bridge, the free streetcar, rideshare, and when to leave for the airport on Monday.",
+  "facts": "Hi Baby, things to say at the bar: the Bridge War, the Fonz, the biggest four-faced clock, and where the word Cream City comes from.",
+  "laverne": "Hi Baby, the honest answer on where it was filmed, the cast and what they did after, and the places in town that connect to the show.",
+  "share": "Hi Baby, the whole map for your phone, and a few routes: hotel to theater, a bar crawl, the game-day loop, and the Laverne and Shirley pilgrimage.",
+  "mascots": "Hi Baby, the three mascots you will see this weekend, with the strange true stories behind each one and the Texas ties."
+ }
 }

@@ -57,7 +57,8 @@ WSP.weather = (function () {
       return data;
     } catch (e) {
       if (mount) mount.innerHTML = `<p class="caption">Couldn't reach the forecast. <a href="https://forecast.weather.gov/MapClick.php?lat=${LAT}&lon=${LON}" target="_blank" rel="noopener">Open the National Weather Service</a>.</p>`;
-      const d = document.getElementById('temp-desc'); if (d) d.textContent = 'Milwaukee';
+      const d = document.getElementById('temp-desc'); if (d) d.textContent = 'Forecast';
+      const pill = document.getElementById('temp-pill'); if (pill) { pill.href = `https://forecast.weather.gov/MapClick.php?lat=${LAT}&lon=${LON}`; pill.target = '_blank'; pill.rel = 'noopener'; pill.setAttribute('aria-label', 'Forecast at the National Weather Service'); pill.classList.add('is-offline'); }
       return null;
     }
   }

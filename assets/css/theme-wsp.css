@@ -67,7 +67,7 @@
   --wsp-cat-venue: var(--wsp-teal-50);        --wsp-cat-venue-ink: var(--wsp-paper-5);
   --wsp-cat-hotel: var(--wsp-ink-70);         --wsp-cat-hotel-ink: var(--wsp-paper-5);
   --wsp-cat-bar: var(--wsp-orange-50);        --wsp-cat-bar-ink: var(--wsp-paper-5);
-  --wsp-cat-bloody: #a3261b;                  --wsp-cat-bloody-ink: var(--wsp-paper-5);
+  --wsp-cat-bloody: var(--wsp-pink-60);       --wsp-cat-bloody-ink: var(--wsp-paper-5);
   --wsp-cat-happy-hour: var(--wsp-gold-40);  --wsp-cat-happy-hour-ink: var(--wsp-ink-90);
   --wsp-cat-restaurant: var(--wsp-gold-50);   --wsp-cat-restaurant-ink: var(--wsp-ink-90);
   --wsp-cat-street-food: var(--wsp-gold-30);  --wsp-cat-street-food-ink: var(--wsp-ink-90);
