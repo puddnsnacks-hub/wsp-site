@@ -1,0 +1,420 @@
+{
+ "places": [
+  {
+   "id": "drury-5-30-kickback",
+   "name": "Drury Plaza Hotel 5:30 Kickback",
+   "category": "hotel_perk_free",
+   "address": "700 N Water St, Milwaukee, WI 53202",
+   "lat": 43.039,
+   "lng": -87.9104,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Drury+Plaza+Hotel+5%3A30+Kickback+700+N+Water+St%2C+Milwaukee%2C+WI+53202",
+   "website": "https://www.druryhotels.com/locations/milwaukee-wi/drury-plaza-hotel-milwaukee-downtown",
+   "walk_minutes_from_hotel": 0,
+   "neighborhood": "Downtown (East Town)",
+   "saturday_happy_hour": {
+    "start": "17:30",
+    "end": "19:00",
+    "verified_source": "https://www.druryhotels.com/locations/milwaukee-wi/drury-plaza-hotel-milwaukee-downtown",
+    "verified_date": "2026-10-23",
+    "when": "5:30–7 PM"
+   },
+   "late_night_happy_hour": null,
+   "deals": [
+    "Free beer, wine and mixed drinks for registered guests",
+    "Free soft drinks"
+   ],
+   "food_deals": [
+    "Free hot food from a rotating nightly menu"
+   ],
+   "bloody_or_tomato_special": null,
+   "has_patio": null,
+   "has_tvs": null,
+   "vibe": "Hotel-lobby freebie, no dressing up required.",
+   "why_go": "The cheapest happy hour in Milwaukee is in your own lobby, and the Riverside is two blocks away.",
+   "notes": "Not a bar happy hour; it is a free hotel amenity, every evening, for registered guests only. Drury's page does not state a drink limit. The separate lobby bar (The Kitchen + Bar @ Wisconsin & Water, Mon-Sat 5 PM-midnight) is paid and has no happy hour listed. Leave by about 6:45 PM to be at doors.",
+   "sources": [
+    "https://www.druryhotels.com/locations/milwaukee-wi/drury-plaza-hotel-milwaukee-downtown"
+   ]
+  },
+  {
+   "id": "black-sheep-mke",
+   "name": "Black Sheep",
+   "category": "true_saturday_happy_hour",
+   "address": "216 S 2nd St, Milwaukee, WI 53204",
+   "lat": 43.029,
+   "lng": -87.9136,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Black+Sheep+216+S+2nd+St%2C+Milwaukee%2C+WI+53204",
+   "website": "https://www.blacksheepmke.com",
+   "walk_minutes_from_hotel": 17,
+   "neighborhood": "Walker's Point",
+   "saturday_happy_hour": {
+    "start": "16:00",
+    "end": "18:00",
+    "verified_source": "https://www.blacksheepmke.com/happy-hour",
+    "verified_date": "2026-10-23",
+    "when": "4–6 PM"
+   },
+   "late_night_happy_hour": null,
+   "deals": [
+    "$5 Wheatley martinis",
+    "$5 Four Roses Manhattans",
+    "$5 house wine pours (red, white)",
+    "$5 house-made sangria"
+   ],
+   "food_deals": [],
+   "bloody_or_tomato_special": null,
+   "has_patio": null,
+   "has_tvs": null,
+   "vibe": "Cozy wine bar with a cocktail streak.",
+   "why_go": "Five-dollar martinis and Manhattans on a Saturday, which is rare in this town.",
+   "notes": "The $10 cheese board is Mon-Thu only, so not Saturday. The happy hour page says Mon-Sat 4-6 PM; the homepage says Tue-Sat 4-6 PM. Both include Saturday. Walk is about 0.8 mi, across the river into Walker's Point.",
+   "sources": [
+    "https://www.blacksheepmke.com/happy-hour",
+    "https://www.blacksheepmke.com",
+    "https://upnorthnewswi.com/community/the-very-best-deals-happy-hour-in-milwaukee"
+   ]
+  },
+  {
+   "id": "movida-hotel-madrid",
+   "name": "Movida at Hotel Madrid",
+   "category": "true_saturday_happy_hour",
+   "address": "600 S 6th St, Milwaukee, WI 53204",
+   "lat": 43.0247,
+   "lng": -87.9187,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Movida+at+Hotel+Madrid+600+S+6th+St%2C+Milwaukee%2C+WI+53204",
+   "website": "https://www.hotelmadridmke.com",
+   "walk_minutes_from_hotel": 25,
+   "neighborhood": "Walker's Point",
+   "saturday_happy_hour": {
+    "start": "16:00",
+    "end": "18:00",
+    "verified_source": "https://www.hotelmadridmke.com/",
+    "verified_date": "2026-10-23",
+    "when": "4–6 PM"
+   },
+   "late_night_happy_hour": null,
+   "deals": [
+    "$9 sangria (per Oct 2025 UpNorthNews roundup)"
+   ],
+   "food_deals": [
+    "Dollar tapas at the bar, Wed-Sun 4-6 PM (paella, pan con tomate, patatas bravas)",
+    "11 happy hour bites priced $1-$5 (per Oct 2025 UpNorthNews)"
+   ],
+   "bloody_or_tomato_special": "Pan con tomate is on the dollar tapas list. It's a tomato bread, not a cocktail.",
+   "has_patio": true,
+   "has_tvs": null,
+   "vibe": "Spanish tapas bar in a boutique hotel.",
+   "why_go": "Dollar tapas and sangria. Basically a trip to Madrid for the price of a parking meter.",
+   "notes": "Happy hour is at the bar only. The October 2025 roundup said daily; the current hotel site says Wed-Sun. Both include Saturday. The site mentions a rooftop and patio, but they may be seasonal in late October. About 1.2 mi from the hotel, at the far end of the walking range; consider a short rideshare.",
+   "sources": [
+    "https://www.hotelmadridmke.com/",
+    "https://upnorthnewswi.com/community/the-very-best-deals-happy-hour-in-milwaukee"
+   ]
+  },
+  {
+   "id": "explorium-distilled",
+   "name": "Explorium Distilled",
+   "category": "true_saturday_happy_hour",
+   "address": "333 W Juneau Ave, Milwaukee, WI 53203",
+   "lat": 43.0455,
+   "lng": -87.9154,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Explorium+Distilled+333+W+Juneau+Ave%2C+Milwaukee%2C+WI+53203",
+   "website": "https://www.exploriumdistilled.com",
+   "walk_minutes_from_hotel": 14,
+   "neighborhood": "Deer District / Westown",
+   "saturday_happy_hour": {
+    "start": "15:00",
+    "end": "18:00",
+    "verified_source": "https://www.exploriumdistilled.com",
+    "verified_date": "2026-10-23",
+    "when": "3–6 PM"
+   },
+   "late_night_happy_hour": null,
+   "deals": [
+    "$5 margaritas",
+    "$8 barrel-aged cocktails",
+    "$5 beers"
+   ],
+   "food_deals": [
+    "Half off select apps"
+   ],
+   "bloody_or_tomato_special": null,
+   "has_patio": true,
+   "has_tvs": true,
+   "vibe": "Distillery bar by Fiserv Forum, built for watch parties.",
+   "why_go": "Three hours of $5 margaritas a few blocks from the Riverside, with the Deer District's game-day buzz.",
+   "notes": "The hours come from a 'Patio season' post on its site (Wed open-close; Thu 4-6; Fri-Sat 3-6), so they may be seasonal. Confirm before going. Its site mentions catching games and watch parties but gives no TV count. Expect World Series crowds in the Deer District.",
+   "sources": [
+    "https://www.exploriumdistilled.com",
+    "https://www.exploriumhospitality.com/"
+   ]
+  },
+  {
+   "id": "the-sofie",
+   "name": "The Sofie (Hotel Metro)",
+   "category": "saturday_happy_hour_partly_verified",
+   "address": "777 N Jefferson St, Lower Level, Milwaukee, WI 53202",
+   "lat": 43.0398,
+   "lng": -87.9062,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Sofie+%28Hotel+Metro%29+777+N+Jefferson+St%2C+Lower+Level%2C+Milwaukee%2C+WI+53202",
+   "website": "https://www.thesofie.com",
+   "walk_minutes_from_hotel": 6,
+   "neighborhood": "East Town",
+   "saturday_happy_hour": {
+    "start": "18:00",
+    "end": "20:00",
+    "verified_source": "https://www.thesofie.com/",
+    "verified_date": "2026-10-23",
+    "caveat": "Site lists an 'extended Happy Hour 6-8 PM' but not which days; open Tue-Sat from 5 PM",
+    "when": "6–8 PM"
+   },
+   "late_night_happy_hour": null,
+   "deals": [
+    "Specially curated happy hour cocktails (prices not listed)",
+    "$3 select drafts, $5 select wines Mon-Sat 5-7 PM (2023 listing, may be outdated)"
+   ],
+   "food_deals": [],
+   "bloody_or_tomato_special": null,
+   "has_patio": false,
+   "has_tvs": null,
+   "vibe": "Moody basement cocktail lounge under Hotel Metro.",
+   "why_go": "A speakeasy-style hideaway six minutes from the hotel. Good for one fancy drink before doors.",
+   "notes": "Its 6-8 PM happy hour overlaps doors, so it fits only a quick 6 PM drink. The days aren't stated, so call (414) 360-8532. Its specials page failed to load. OpenTable lists Tue-Sat 4 PM-2 AM; its own site says 5 PM to close. has_patio is false because the bar is on the lower level; that is inferred, not stated.",
+   "sources": [
+    "https://www.thesofie.com/",
+    "https://www.opentable.ca/r/the-sofie-milwaukee",
+    "https://ultimatehappyhours.com/location/milwaukee/"
+   ]
+  },
+  {
+   "id": "club-charlies",
+   "name": "Club Charlies",
+   "category": "saturday_happy_hour_partly_verified",
+   "address": "320 E Menomonee St, Milwaukee, WI 53202",
+   "lat": 43.033,
+   "lng": -87.9068,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Club+Charlies+320+E+Menomonee+St%2C+Milwaukee%2C+WI+53202",
+   "website": "https://www.clubcharlies.com",
+   "walk_minutes_from_hotel": 11,
+   "neighborhood": "Historic Third Ward",
+   "saturday_happy_hour": {
+    "start": null,
+    "end": null,
+    "verified_source": "https://www.travelwisconsin.com/pubs-taverns/club-charlies-260013",
+    "verified_date": "2026-10-23",
+    "caveat": "Travel Wisconsin lists happy hour 'daily' with no hours; the bar's own site lists no happy hour"
+   },
+   "late_night_happy_hour": null,
+   "deals": [
+    "$4 martinis (nightly drink special, per Travel Wisconsin)",
+    "Half-off bottles of wine (per Travel Wisconsin)",
+    "'Beer in a bag' (per Travel Wisconsin)"
+   ],
+   "food_deals": [
+    "Late-night pizzas 9 PM to close"
+   ],
+   "bloody_or_tomato_special": null,
+   "has_patio": true,
+   "has_tvs": null,
+   "vibe": "Unfussy Third Ward neighborhood bar with a heated patio.",
+   "why_go": "Four-dollar martinis and a bar famous for serving beer in a bag.",
+   "notes": "Open daily from 11 AM. The heated patio is open in winter. Call (414) 763-8548 to confirm Saturday happy hour hours.",
+   "sources": [
+    "https://www.travelwisconsin.com/pubs-taverns/club-charlies-260013",
+    "https://www.clubcharlies.com"
+   ]
+  },
+  {
+   "id": "murphys-irish-pub",
+   "name": "Murphy's Irish Pub",
+   "category": "saturday_happy_hour_unverified_current",
+   "address": "1613 W Wells St, Milwaukee, WI 53233",
+   "lat": 43.0402,
+   "lng": -87.9334,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Murphy%27s+Irish+Pub+1613+W+Wells+St%2C+Milwaukee%2C+WI+53233",
+   "website": null,
+   "walk_minutes_from_hotel": 30,
+   "neighborhood": "Marquette / Avenues West",
+   "saturday_happy_hour": {
+    "start": "16:00",
+    "end": "20:00",
+    "verified_source": "https://ultimatehappyhours.com/location/milwaukee/",
+    "verified_date": "2023-06-25",
+    "caveat": "Aggregator data from June 2023; the pub's own site blocked fetching",
+    "when": "4–8 PM"
+   },
+   "late_night_happy_hour": null,
+   "deals": [
+    "$4 taps and rail mixers (2023 listing)"
+   ],
+   "food_deals": [],
+   "bloody_or_tomato_special": null,
+   "has_patio": null,
+   "has_tvs": null,
+   "vibe": "Marquette-area Irish pub.",
+   "why_go": "Four hours of cheap taps on a Saturday, if it still runs.",
+   "notes": "The site URL wasn't confirmed: murphysirishpubmke.com blocked fetching. A 2020 OnMilwaukee listing also had Mon-Sat happy hour, with Saturday running to midnight. About 1.4 mi west, the edge of walking range. Low confidence.",
+   "sources": [
+    "https://ultimatehappyhours.com/location/milwaukee/",
+    "https://onmilwaukee.com/articles/happyhours"
+   ]
+  },
+  {
+   "id": "tropic-mke",
+   "name": "Tropic MKE",
+   "category": "saturday_happy_hour_during_show",
+   "address": "518 N Water St, Milwaukee, WI 53202",
+   "lat": 43.0366,
+   "lng": -87.91,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Tropic+MKE+518+N+Water+St%2C+Milwaukee%2C+WI+53202",
+   "website": "https://www.tropicmke.com",
+   "walk_minutes_from_hotel": 4,
+   "neighborhood": "Downtown (East Town)",
+   "saturday_happy_hour": {
+    "start": "19:00",
+    "end": "21:00",
+    "verified_source": "https://www.tropicmke.com/happy-hours-specials",
+    "verified_date": "2026-10-23",
+    "when": "7–9 PM"
+   },
+   "late_night_happy_hour": null,
+   "deals": [
+    "$9 Lemon Drops",
+    "$6 rum punch",
+    "$5 Cutwaters",
+    "$10 off hookah"
+   ],
+   "food_deals": [
+    "$8 wing baskets",
+    "$7 jerk corned beef egg rolls (2)"
+   ],
+   "bloody_or_tomato_special": null,
+   "has_patio": null,
+   "has_tvs": null,
+   "vibe": "Caribbean lounge with hookah.",
+   "why_go": "Rum punch steps from the hotel. Only useful if someone skips the opener.",
+   "notes": "Opens 7 PM Saturday; happy hour 7-9 PM falls during the show, so it does not fit before doors. Open until 2 AM, so it works as a post-show stop at regular prices. This is the old Fire on Water address.",
+   "sources": [
+    "https://www.tropicmke.com/happy-hours-specials",
+    "https://www.tropicmke.com",
+    "https://upnorthnewswi.com/community/the-very-best-deals-happy-hour-in-milwaukee"
+   ]
+  },
+  {
+   "id": "the-wicked-hop",
+   "name": "The Wicked Hop",
+   "category": "day_drinking_deal",
+   "address": "345 N Broadway, Milwaukee, WI 53202",
+   "lat": 43.0335,
+   "lng": -87.9083,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Wicked+Hop+345+N+Broadway%2C+Milwaukee%2C+WI+53202",
+   "website": "https://www.thewickedhop.com",
+   "walk_minutes_from_hotel": 9,
+   "neighborhood": "Historic Third Ward",
+   "saturday_happy_hour": null,
+   "late_night_happy_hour": {
+    "start": "09:00",
+    "end": "02:00",
+    "label": "All-day Saturday shot special (not a happy hour)",
+    "deal": "$4 Jim Beam shots",
+    "verified_source": "https://www.thewickedhop.com/specials/",
+    "verified_date": "2026-10-23"
+   },
+   "deals": [
+    "$4 Jim Beam shots all day Sat Oct 24 (9 AM-2 AM)",
+    "Weekend brunch 9 AM-3 PM with $2 off the Mil-mosa 9-11 AM"
+   ],
+   "food_deals": [],
+   "bloody_or_tomato_special": "Famous for its Bloody Mary ('Milwaukee's Best Bloody Mary' on its site), but no Saturday discount. The $2-off Bloody deal is Tuesdays only.",
+   "has_patio": true,
+   "has_tvs": null,
+   "vibe": "Third Ward brunch-and-Bloody institution.",
+   "why_go": "Get the famous Bloody Mary here. It's the main event, not a side drink.",
+   "notes": "Its 'Hoppy Hour' (Mon-Fri 4-6 PM; also Tue and Sun 4-9 PM) skips Saturday. Kitchen gap on Saturday: brunch ends 3 PM, dinner from 4 PM. Open to 2:30 AM Saturday. A Google reviewer mentions shaded outdoor seating.",
+   "sources": [
+    "https://www.thewickedhop.com/specials/",
+    "https://www.thewickedhop.com/menu/",
+    "https://www.thewickedhop.com"
+   ]
+  },
+  {
+   "id": "brothers-bar-milwaukee",
+   "name": "Brothers Bar & Grill",
+   "category": "late_night_deal",
+   "address": "1213 N Water St, Milwaukee, WI 53202",
+   "lat": 43.0457,
+   "lng": -87.911,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Brothers+Bar+%26+Grill+1213+N+Water+St%2C+Milwaukee%2C+WI+53202",
+   "website": "https://www.brothersbar.com/milwaukee",
+   "walk_minutes_from_hotel": 12,
+   "neighborhood": "Water Street / Old World Third",
+   "saturday_happy_hour": null,
+   "late_night_happy_hour": {
+    "start": "19:00",
+    "end": "02:00",
+    "label": "Saturday night specials (not a happy hour)",
+    "deal": "$4 Fireball shots, $4 Green Tea shots, $8 double vodka Red Bulls, $9 32 oz Swamp Water pitchers; DJ at 9 PM",
+    "verified_source": "https://www.brothersbar.com/milwaukee",
+    "verified_date": "2026-10-23"
+   },
+   "deals": [
+    "$4 Fireball shots",
+    "$4 Green Tea shots",
+    "$8 double vodka Red Bulls",
+    "$9 32 oz Swamp Water pitchers"
+   ],
+   "food_deals": [],
+   "bloody_or_tomato_special": "$6 Bloody Marys, but on Sundays only, not Saturday.",
+   "has_patio": null,
+   "has_tvs": null,
+   "vibe": "Loud Water Street party bar with a DJ.",
+   "why_go": "Cheap shots and pitchers after the encore, on the main Water Street bar strip.",
+   "notes": "Happy hour (half-price wells, select calls, drafts, house wine) is Mon-Fri 4-7 PM and Sunday 6 PM-close, not Saturday. Day specials run 7 PM-close unless noted. Open 11 AM-2 AM. Expect heavy World Series crowds.",
+   "sources": [
+    "https://www.brothersbar.com/milwaukee"
+   ]
+  },
+  {
+   "id": "red-lion-pub",
+   "name": "Red Lion Pub",
+   "category": "day_drinking_deal",
+   "address": "1850 N Water St, Milwaukee, WI 53202",
+   "lat": 43.0549,
+   "lng": -87.905,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Red+Lion+Pub+1850+N+Water+St%2C+Milwaukee%2C+WI+53202",
+   "website": "https://www.redlionpubmke.com",
+   "walk_minutes_from_hotel": 27,
+   "neighborhood": "Lower East Side / Brady Street area",
+   "saturday_happy_hour": null,
+   "late_night_happy_hour": null,
+   "deals": [
+    "Saturday brunch (open-2 PM): $25 giant mimosas",
+    "$25 mimosa service"
+   ],
+   "food_deals": [],
+   "bloody_or_tomato_special": null,
+   "has_patio": true,
+   "has_tvs": true,
+   "vibe": "British pub with an award-winning rooftop patio.",
+   "why_go": "Rooftop mimosas in the afternoon, and the pub openly invites World Series watchers.",
+   "notes": "Happy hour is now Mon-Fri 4-6 PM ($4 Bell's and 3 Sheeps pints). The 2023 'daily' listing is outdated. Hours conflict: its site says kitchen Sat 7 AM-10 PM, while Toast says Sat 3-9:30 PM. About 1.3 mi north of the hotel. The rooftop may be weather-dependent in late October.",
+   "sources": [
+    "https://www.redlionpubmke.com/specials",
+    "https://www.redlionpubmke.com",
+    "https://www.toasttab.com/local/order/red-lion-pub-milwaukee",
+    "https://milwaukeerecord.com/food-drink/first-impression-red-lion-pub/"
+   ]
+  }
+ ],
+ "notes": "True Saturday happy hours are rare downtown. Most bars near the Riverside and Drury run happy hour Monday-Friday only. We checked and confirmed weekday-only (Saturday excluded): The Wicked Hop, Brothers Bar, Red Lion Pub, Major Goolsby's (weekday 2-4:30 PM), Milwaukee Brat House (weekday $1 off drafts 3-6 PM, per 2021), Blue Bat, Mason Street Grill, Aperitivo and Fixture. Confirmed Saturday happy hours that fit before doors: Black Sheep (4-6 PM), Movida (4-6 PM), Explorium Distilled (3-6 PM, may be seasonal), plus the free Drury 5:30 Kickback in the hotel lobby. Partly verified: The Sofie and Club Charlies. Murphy's rests on 2023 data. Tropic MKE's Saturday happy hour is 7-9 PM, during the show. No verified late-night happy hour after 10:30 PM was found. Post-show options are all-night specials instead: Brothers Bar ($4 shots, $9 pitchers), The Wicked Hop ($4 Jim Beam shots until 2 AM), and Tropic MKE (open until 2 AM). No verified Saturday Bloody Mary discount exists among these places. The Wicked Hop's famous Bloody is full price on Saturday. Closures found: This Is It! (closed March 2025) and Rock Bottom Brewery Milwaukee (closed November 2022). Walk minutes are estimates at about 3 mph from 700 N Water St; the Riverside is about 2 blocks from the hotel, so times from the theater are similar. Coordinates are approximate, geocoded by address. On World Series Saturday, expect crowds and possible changes to specials. Call ahead.",
+ "open_questions": [
+  "Does The Sofie's 6-8 PM happy hour run on Saturday, and what are the prices? Call (414) 360-8532.",
+  "Is Explorium Distilled's Fri-Sat 3-6 PM happy hour still running after patio season?",
+  "What are Club Charlies' Saturday happy hour hours? The bar's own site lists none.",
+  "Does Murphy's Irish Pub (1613 W Wells) still run Mon-Sat 4-8 PM happy hour? The data is from 2023.",
+  "Movida: is the rooftop or patio open in late October, and is the $9 sangria still on the happy hour menu?",
+  "Red Lion Pub's Saturday hours conflict (site says 7 AM, Toast says 3 PM). Is the rooftop open?",
+  "Will any bar add World Series Game 2 specials on Saturday Oct 24? None were posted as of Oct 23.",
+  "Checked but blocked from fetching (robots or errors), so not included: Miller Time Pub, Milwaukee Ale House, Uber Tap Room (a 2017 listing had weekend happy hour), McGillycuddy's, Lucky Joe's Tiki Room, Bugsy's, Meraki, Glass + Griddle, Boone & Crockett, Camino (Walker's Point), 3rd Street Market Hall."
+ ]
+}
