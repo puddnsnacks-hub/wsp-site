@@ -719,3 +719,25 @@ footer .inner { padding-top: var(--pds-space-12); }
 /* ---------- Footer: the pudding cup and hat, centered, half a logo of air on every side ---------- */
 footer .brand { --logo: 96px; display: flex; justify-content: center; padding: calc(var(--logo) / 2); }
 footer .brand img { width: var(--logo); height: auto; display: block; }
+
+/* ---------- Morning: garnish icons, drink sheets ---------- */
+.tile-garn { display: flex; align-items: center; justify-content: center; padding: 10px; background: var(--wsp-paper-10); background-image: radial-gradient(circle at 50% 120%, color-mix(in srgb, var(--c) 22%, transparent), transparent 70%); }
+.tile-garn .gx-row { justify-content: center; }
+.gx-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.gx { display: inline-flex; align-items: center; gap: 6px; }
+.gx img { width: 40px; height: 40px; object-fit: contain; }
+.gx .gx-l { display: none; }
+.gx.no-img .gx-l, .gx--l .gx-l { display: inline; }
+.gx.no-img { background: var(--wsp-paper-5); border: 1.5px solid var(--pds-text-strong); padding: 2px 7px; font: 600 11px/1.3 var(--pds-font-mono); text-transform: uppercase; letter-spacing: .04em; color: var(--pds-text-strong); transform: rotate(-2deg); }
+.gx.no-img:nth-child(even) { transform: rotate(2deg); background: var(--wsp-gold-20); }
+.gx--l:not(.no-img) .gx-l { font-size: 12px; color: var(--pds-text-muted); }
+.sheet .gx-row { margin: 6px 0 2px; }
+.bm-drink { border-top: 2px solid var(--pds-text-strong); padding-top: 12px; margin-top: 14px; display: flex; flex-direction: column; gap: 8px; }
+.bm-drink h4 { font-family: var(--pds-font-display); font-weight: 700; font-size: 19px; color: var(--pds-text-strong); margin: 0; }
+.bm-garn { font-size: 15px; line-height: 1.5; margin: 0; }
+.hrs { display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; font-size: 14px; margin: 10px 0 0; }
+.hrs dt { font: 600 12px/1.6 var(--pds-font-mono); text-transform: uppercase; color: var(--pds-text-muted); }
+.hrs dd { margin: 0; }
+.scene--late .strip--title { font-size: clamp(26px, 8vw, 46px); }
+
+.scene[hidden], .mega-col[hidden], main section.w[hidden] { display: none !important; }

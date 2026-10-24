@@ -1,0 +1,4390 @@
+{
+ "_about": "Bloody Marys, Marias, Caesars, micheladas and red beer for the Morning chapter. Built by tools/build_morning.py from data/research/bloody-*.json. group: near (walkable), trip (rideshare), michelada.",
+ "places": [
+  {
+   "rank": 1,
+   "id": "wicked-hop",
+   "name": "The Wicked Hop",
+   "address": "345 N Broadway, Milwaukee, WI 53202",
+   "lat": 43.0348282,
+   "lng": -87.9075775,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Wicked+Hop+345+N+Broadway%2C+Milwaukee%2C+WI+53202",
+   "website": "https://www.thewickedhop.com/",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "yelp_note": "Yelp blocks automated fetches; business URL not verified.",
+   "walk_minutes_from_hotel": 7,
+   "neighborhood": "Historic Third Ward (corner of Broadway and St. Paul, across from the Public Market)",
+   "serves_breakfast": true,
+   "meal_service": "brunch",
+   "brunch_days": "Sat and Sun 9 AM-3 PM; mini brunch menu Mon 11 AM-3 PM",
+   "hours_this_weekend": {
+    "sat": "9 AM-2:30 AM (brunch kitchen 9 AM-3 PM)",
+    "sun": "9 AM-2 AM (brunch kitchen 9 AM-3 PM)",
+    "mon": "11 AM-2 AM (mini brunch 11 AM-3 PM)",
+    "note": "From the venue site and Google listing. No special Halloween or World Series hours found; Saturday night after the 7 PM World Series game could make Sunday brunch busier."
+   },
+   "has_bar": true,
+   "bar_seating_note": "Full bar inside, plus a walk-up cocktail window at the St. Paul and Broadway corner facing the Public Market (per Milwaukee Magazine, 2025).",
+   "has_patio": true,
+   "patio_heated": null,
+   "patio_note": "Shaded sidewalk patio mentioned by reviewers; no heater info found.",
+   "reservations": "recommended",
+   "reservations_note": "Online reservations via thewickedhop.com/reserve; weekend brunch gets busy.",
+   "price_range": "$$",
+   "drinks": [
+    {
+     "name": "The Bloody Mary",
+     "style": "bloody mary",
+     "price": "$12 (extra fixings +$5)",
+     "spirit": "vodka (house pour; brand not listed)",
+     "mix": "Secret house mix; thick, moderately spicy, tangy, with a Worcestershire backbone (OnMilwaukee 2026).",
+     "description": "The longtime local favorite that topped OnMilwaukee's Best Bloody reader poll several years running. A thick, savory, medium-heat mix carrying a full Wisconsin skewer, with a Lakefront beer on the side.",
+     "garnishes": [
+      "peeled cold-water shrimp",
+      "Old Wisconsin beef stick",
+      "Milwaukee 'midget' (petite) kosher dill pickle",
+      "Walnut Street portobello mushroom",
+      "Spanish green olive",
+      "mozzarella whips (cheese ropes)"
+     ],
+     "comes_with_snit": "Yes: Lakefront Brewery beer (OnMilwaukee names Riverwest Stein)",
+     "size_options": [
+      "regular",
+      "64 oz Bloody Growler ($50)",
+      "94 oz Glass Slipper boot ($75, same garnish, with beer chasers)"
+     ],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/must-try-milwaukee-bloody-marys",
+      "https://www.milwaukeemag.com/milwaukee-bloody-marys",
+      "https://www.thewickedhop.com/drinks"
+     ],
+     "garnish_icons": [
+      "shrimp",
+      "beef-stick",
+      "pickle",
+      "mushroom",
+      "olive",
+      "mozzarella-whip",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "The Glass Slipper",
+     "style": "bloody mary",
+     "price": "$75",
+     "spirit": "vodka (house)",
+     "mix": "Same house mix",
+     "description": "The house bloody scaled up to a 94-ounce glass boot with the full garnish lineup and beer chasers. A shareable centerpiece for two friends who want the photo.",
+     "garnishes": [
+      "cold-water shrimp",
+      "Old Wisconsin beef stick",
+      "petite kosher pickle",
+      "portobello mushroom",
+      "Spanish olive",
+      "mozzarella whips"
+     ],
+     "comes_with_snit": "Yes: beer chasers (brand not specified)",
+     "size_options": [
+      "94 oz boot"
+     ],
+     "recipe": null,
+     "photo_refs": [
+      "https://www.thewickedhop.com/drinks"
+     ],
+     "garnish_icons": [
+      "shrimp",
+      "beef-stick",
+      "pickle",
+      "mushroom",
+      "olive",
+      "mozzarella-whip",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "Bloody Maria",
+     "style": "bloody maria",
+     "price": "$11.50",
+     "spirit": "tequila",
+     "mix": "House mix (assumed same base; not confirmed)",
+     "description": "Tequila version of the house bloody. Garnish and chaser not listed on the menu.",
+     "garnishes": [],
+     "garnish_note": "Not listed; ask.",
+     "comes_with_snit": null,
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [],
+     "garnish_icons": []
+    },
+    {
+     "name": "Topless Bloody",
+     "style": "other",
+     "price": "$10",
+     "spirit": null,
+     "mix": "House mix",
+     "description": "Lower-priced, stripped-down version of the house bloody (menu gives no details; likely the drink without the full garnish).",
+     "garnishes": [],
+     "comes_with_snit": null,
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [],
+     "garnish_icons": []
+    }
+   ],
+   "food_pairing": "Hoodoo Voodoo Hash (crawfish, andouille, cajun hash browns, poached eggs, hollandaise) or the Spotted Cow Wisco Waffle.",
+   "vibe": "Loud, friendly Third Ward tavern with a Wisconsin-maximalist brunch.",
+   "why_go": "The textbook Milwaukee loaded bloody, seven minutes away, and you can split a 94-ounce boot.",
+   "reviews_summary": "Google shows about 4.4 stars from 2,800+ reviews. Reviewers praise the spice level and generous cheese garnish, and a 2025 Milwaukee Magazine taste test named it the best overall experience. Some recent reviewers mention inconsistent portions and odd music.",
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Must Try Milwaukee: Bloody Marys",
+     "url": "https://onmilwaukee.com/articles/must-try-milwaukee-bloody-marys",
+     "year": 2026
+    },
+    {
+     "outlet": "Milwaukee Magazine",
+     "title": "A Bloody Mary Newbie Tries Five of Milwaukee's Top Bloodys",
+     "url": "https://www.milwaukeemag.com/milwaukee-bloody-marys",
+     "year": 2025
+    },
+    {
+     "outlet": "Islands",
+     "title": "The Bloody Mary Capital Of The World Is A Vibrant Midwest City With An Outrageous Cocktail Culture",
+     "url": "https://www.islands.com/2108446/milwaukee-wisconsin-bloody-mary-capital-world-midwest-city-outrageous-cocktail-culture",
+     "year": 2026
+    },
+    {
+     "outlet": "Milwaukee Magazine",
+     "title": "Where to Get Bloody Marys in Milwaukee",
+     "url": "https://www.milwaukeemag.com/these-bloody-marys-will-light-up-your-morning",
+     "year": 2023
+    },
+    {
+     "outlet": "Visit Milwaukee",
+     "title": "7 Hauntingly Delicious Bloody Marys in Milwaukee",
+     "url": "https://www.visitmilwaukee.org/blog/posts/post/7-bloody-marys-in-milwaukee/",
+     "year": 2023
+    }
+   ],
+   "status_flags": [],
+   "sources": [
+    "https://www.thewickedhop.com/",
+    "https://www.thewickedhop.com/drinks",
+    "https://www.thewickedhop.com/menu",
+    "https://onmilwaukee.com/articles/must-try-milwaukee-bloody-marys",
+    "https://www.milwaukeemag.com/milwaukee-bloody-marys",
+    "https://www.milwaukeemag.com/these-bloody-marys-will-light-up-your-morning",
+    "https://www.visitmilwaukee.org/blog/posts/post/7-bloody-marys-in-milwaukee/",
+    "https://www.islands.com/2108446/milwaukee-wisconsin-bloody-mary-capital-world-midwest-city-outrageous-cocktail-culture",
+    "https://www.northshorefamilyadventures.com/food-drinks/best-brunch",
+    "https://onmilwaukee.com/articles/bloody-mary-bucket-list-2021"
+   ],
+   "group": "near"
+  },
+  {
+   "rank": 2,
+   "id": "west-allis-cheese-sausage-public-market",
+   "name": "West Allis Cheese & Sausage Shoppe (Milwaukee Public Market)",
+   "address": "Milwaukee Public Market, 400 N Water St, Milwaukee, WI 53202",
+   "lat": 43.0352526,
+   "lng": -87.9083155,
+   "coords_note": "Public Market building coordinates.",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=West+Allis+Cheese+%26+Sausage+Shoppe+Milwaukee+Public+Market%2C+400+N+Water+St%2C+Milwaukee%2C+WI+53202",
+   "website": "https://www.westallischeese.com/",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 6,
+   "neighborhood": "Historic Third Ward (Milwaukee Public Market)",
+   "serves_breakfast": false,
+   "meal_service": "lunch (counter food: sandwiches, cheese, sausage)",
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": "10 AM-8 PM (Public Market building hours)",
+    "sun": "10 AM-6 PM (Public Market building hours)",
+    "mon": "10 AM-8 PM (Public Market building hours)",
+    "note": "Vendor page lists Sat 10 AM-8 PM, Sun 10 AM-6 PM, Mon 10 AM-8 PM but notes conflicting listings; confirm bar hours. Market opens at 10 AM, so this is a late-morning stop."
+   },
+   "has_bar": true,
+   "bar_seating_note": "Cocktail counter inside the market stall; shared market seating upstairs and around the hall.",
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": "walk-in",
+   "price_range": "$$",
+   "drinks": [
+    {
+     "name": "The Milwaukeean",
+     "style": "bloody mary",
+     "price": "$13",
+     "spirit": "Central Standard vodka (Milwaukee-made)",
+     "mix": "Lutz Bloody Mary Mix (Wisconsin brand)",
+     "description": "The market's most over-the-top skewer: a bratwurst slider and deep-fried cheese curds ride on top of a classic Wisconsin pickle-and-meat-stick garnish. Comes with a tiny can of Hopewell lager.",
+     "garnishes": [
+      "bratwurst slider",
+      "deep-fried cheese curds",
+      "Nueske's bacon",
+      "beef stick",
+      "mozzarella whips",
+      "pickle",
+      "olive",
+      "celery"
+     ],
+     "comes_with_snit": "Yes: Hopewell Brewing Lil Buddy lager (8 oz can)",
+     "size_options": [
+      "regular",
+      "optional 'Hot Shot' add-on (unpriced)"
+     ],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market"
+     ],
+     "garnish_icons": [
+      "slider",
+      "cheese-curd",
+      "bacon",
+      "beef-stick",
+      "mozzarella-whip",
+      "pickle",
+      "olive",
+      "celery",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "Abso-Bloody-Lutely",
+     "style": "bloody mary",
+     "price": "$13 (listed at $11.50 in 2023)",
+     "spirit": "vodka (brand not specified)",
+     "mix": "Lutz Bloody Mary Mix",
+     "description": "The signature: a mini grilled-cheese slider perched on the glass. Milwaukee Magazine's 2025 bloody newbie called it the tastiest of the five she tried, brighter and heartier than the rest.",
+     "garnishes": [
+      "mini grilled cheese slider",
+      "Nueske's bacon",
+      "beef stick",
+      "mozzarella whips",
+      "pickle",
+      "olive",
+      "celery"
+     ],
+     "comes_with_snit": "Yes: Hopewell Lil Buddy lager can",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market",
+      "https://www.milwaukeemag.com/milwaukee-bloody-marys",
+      "https://www.milwaukeemag.com/these-bloody-marys-will-light-up-your-morning"
+     ],
+     "garnish_icons": [
+      "grilled-cheese",
+      "bacon",
+      "beef-stick",
+      "mozzarella-whip",
+      "pickle",
+      "olive",
+      "celery",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "Cheesehead",
+     "style": "bloody mary",
+     "price": "$13",
+     "spirit": "vodka",
+     "mix": "Lutz Bloody Mary Mix",
+     "description": "Built around a cheese-and-sausage kabob, the most Wisconsin-shop-counter of the lineup.",
+     "garnishes": [
+      "cheese and sausage kabob",
+      "Nueske's bacon",
+      "beef stick",
+      "mozzarella whips",
+      "pickle",
+      "olive",
+      "celery"
+     ],
+     "comes_with_snit": "Yes: Hopewell Lil Buddy lager can",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market"
+     ],
+     "garnish_icons": [
+      "sausage",
+      "bacon",
+      "beef-stick",
+      "mozzarella-whip",
+      "pickle",
+      "olive",
+      "celery",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "Breakfast Bloody",
+     "style": "bloody mary",
+     "price": "$13",
+     "spirit": "bacon-infused vodka",
+     "mix": "Lutz Bloody Mary Mix",
+     "description": "Bacon vodka plus a hard-boiled egg, so it technically counts as breakfast.",
+     "garnishes": [
+      "hard-boiled egg",
+      "Nueske's bacon",
+      "beef stick",
+      "mozzarella whips",
+      "pickle",
+      "olive",
+      "celery"
+     ],
+     "comes_with_snit": "Yes: Hopewell Lil Buddy lager can",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market"
+     ],
+     "garnish_icons": [
+      "egg",
+      "bacon",
+      "beef-stick",
+      "mozzarella-whip",
+      "pickle",
+      "olive",
+      "celery",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "Basic Bloody",
+     "style": "bloody mary",
+     "price": "$10",
+     "spirit": "Central Standard vodka",
+     "mix": "Lutz Bloody Mary Mix",
+     "description": "The entry-level version with the standard Wisconsin skewer.",
+     "garnishes": [
+      "beef stick",
+      "pickle",
+      "olive",
+      "celery"
+     ],
+     "comes_with_snit": "Yes: Hopewell Lil Buddy lager can",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market"
+     ],
+     "garnish_icons": [
+      "beef-stick",
+      "pickle",
+      "olive",
+      "celery",
+      "mini-beer"
+     ]
+    }
+   ],
+   "food_pairing": "Their sandwiches (Shepherd Express singled them out) or a cheese-and-sausage snack plate from the counter.",
+   "vibe": "Cheese counter turned bloody bar inside a bustling food hall.",
+   "why_go": "Five bloodies with a grilled cheese or brat slider on top, plus the start of a whole bloody crawl under one roof.",
+   "reviews_summary": "Milwaukee Magazine's 2025 taste test picked it as the best-tasting bloody of five and loved the mini-can chaser. OnMilwaukee's 2026 market roundup calls it the market's deepest bloody menu.",
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "6 Bloody Marys at the Milwaukee Public Market",
+     "url": "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market",
+     "year": 2026
+    },
+    {
+     "outlet": "Milwaukee Magazine",
+     "title": "A Bloody Mary Newbie Tries Five of Milwaukee's Top Bloodys",
+     "url": "https://www.milwaukeemag.com/milwaukee-bloody-marys",
+     "year": 2025
+    },
+    {
+     "outlet": "Milwaukee Magazine",
+     "title": "Where to Get Bloody Marys in Milwaukee",
+     "url": "https://www.milwaukeemag.com/these-bloody-marys-will-light-up-your-morning",
+     "year": 2023
+    },
+    {
+     "outlet": "Visit Milwaukee",
+     "title": "7 Hauntingly Delicious Bloody Marys in Milwaukee",
+     "url": "https://www.visitmilwaukee.org/blog/posts/post/7-bloody-marys-in-milwaukee/",
+     "year": 2023
+    }
+   ],
+   "status_flags": [],
+   "sources": [
+    "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market",
+    "https://www.milwaukeemag.com/milwaukee-bloody-marys",
+    "https://www.milwaukeemag.com/these-bloody-marys-will-light-up-your-morning",
+    "https://www.visitmilwaukee.org/blog/posts/post/7-bloody-marys-in-milwaukee/",
+    "https://milwaukeepublicmarket.org/vendors/west-allis-cheese-sausage-shoppe",
+    "https://www.milwaukeepublicmarket.org/"
+   ],
+   "group": "near"
+  },
+  {
+   "rank": 3,
+   "id": "cafe-benelux",
+   "name": "Café Benelux",
+   "address": "346 N Broadway, Milwaukee, WI 53202",
+   "lat": 43.034901,
+   "lng": -87.9070841,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Cafe+Benelux+346+N+Broadway%2C+Milwaukee%2C+WI+53202",
+   "website": "https://www.cafebenelux.com/",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 7,
+   "neighborhood": "Historic Third Ward",
+   "serves_breakfast": true,
+   "meal_service": "breakfast and brunch",
+   "brunch_days": "Sat and Sun brunch 7 AM-2 PM; breakfast menu daily",
+   "hours_this_weekend": {
+    "sat": "7 AM-midnight (brunch 7 AM-2 PM)",
+    "sun": "7 AM-11 PM (brunch 7 AM-2 PM)",
+    "mon": "7 AM-11 PM",
+    "note": "Venue site and Google listing agree. No special hours found."
+   },
+   "has_bar": true,
+   "bar_seating_note": "Full bar inside; Belgian beer list is the house specialty.",
+   "has_patio": true,
+   "patio_heated": false,
+   "patio_note": "Rooftop deck with skyline views plus large streetside seating. Heating not stated. The heated 'Lux Domes' on the rooftop normally open around Black Friday, so they will not be up Oct 24-26.",
+   "reservations": "recommended",
+   "reservations_note": "Reserve online via the site; a Google reviewer said reservations were necessary on a busy holiday morning.",
+   "price_range": "$$",
+   "drinks": [
+    {
+     "name": "The Milwaukeean",
+     "style": "bloody mary",
+     "price": "$11.50",
+     "spirit": "horseradish-infused Rehorst vodka (Great Lakes Distillery, Milwaukee)",
+     "mix": "House-made bloody mix",
+     "description": "The house signature: horseradish-infused local vodka gives it a sinus-clearing bite, topped with bacon and a cheese curd. Also sold in a custom-labeled glass can (Milwaukee Magazine 2025).",
+     "garnishes": [
+      "bacon",
+      "cheese curd",
+      "pickle",
+      "olive",
+      "baby carrot"
+     ],
+     "comes_with_snit": "Yes: Lowlander Chaser Red per brunch menu; OnMilwaukee 2026 says Lakefront Fixed Gear",
+     "size_options": [
+      "glass",
+      "packaged glass can (seen by Milwaukee Magazine 2025)"
+     ],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market",
+      "https://www.milwaukeemag.com/milwaukee-bloody-marys",
+      "https://www.cafebenelux.com/menus"
+     ],
+     "garnish_icons": [
+      "bacon",
+      "cheese-curd",
+      "pickle",
+      "olive",
+      "carrot",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "The Malone",
+     "style": "bloody mary",
+     "price": "$12",
+     "spirit": "Saint Brady vodka infused with sriracha, habanero and jalapeño",
+     "mix": "House-made bloody mix",
+     "description": "The hottest of the six, built on a triple-chile infused vodka. It comes with a biermosa instead of a plain beer.",
+     "garnishes": [
+      "beef stick",
+      "shrimp",
+      "cheese curd"
+     ],
+     "comes_with_snit": "Yes: biermosa",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market"
+     ],
+     "garnish_icons": [
+      "beef-stick",
+      "shrimp",
+      "cheese-curd",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "The Stinking Rose",
+     "style": "bloody mary",
+     "price": "$13",
+     "spirit": "garlic-infused Rehorst vodka",
+     "mix": "House-made bloody mix",
+     "description": "A garlic bomb: garlic vodka with a garlic-stuffed olive, plus shrimp and a beef stick.",
+     "garnishes": [
+      "beef stick",
+      "garlic-stuffed olive",
+      "shrimp"
+     ],
+     "comes_with_snit": "Yes (menu says all bloodies come with a chaser)",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market"
+     ],
+     "garnish_icons": [
+      "beef-stick",
+      "olive",
+      "shrimp",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "The Lux",
+     "style": "bloody mary",
+     "price": "$10.50",
+     "spirit": "herbes de Provence-infused Prairie vodka",
+     "mix": "Scratch bloody mix with Luxembourg mustard",
+     "description": "The herbal, European-leaning one: Provençal herbs in the vodka and Luxembourg mustard in the mix.",
+     "garnishes": [
+      "blue cheese-stuffed olives"
+     ],
+     "comes_with_snit": "Yes (menu says all bloodies come with a chaser)",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market"
+     ],
+     "garnish_icons": [
+      "cheese-cube",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "The Southsider",
+     "style": "bloody mary",
+     "price": "$11",
+     "spirit": "peppercorn-infused Rehorst vodka",
+     "mix": "House-made bloody mix",
+     "description": "Black-pepper heat with jalapeño-stuffed olives.",
+     "garnishes": [
+      "pickle",
+      "carrot",
+      "jalapeño-stuffed olives"
+     ],
+     "comes_with_snit": "Yes (menu says all bloodies come with a chaser)",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market"
+     ],
+     "garnish_icons": [
+      "pickle",
+      "carrot",
+      "olive",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "The Benelux",
+     "style": "bloody mary",
+     "price": "$10 (+$1 for gluten-free Prairie vodka)",
+     "spirit": "vodka",
+     "mix": "House-made bloody mix",
+     "description": "The house standard with simple pickled garnish.",
+     "garnishes": [
+      "pickle",
+      "carrot",
+      "olives"
+     ],
+     "comes_with_snit": "Yes (menu says all bloodies come with a chaser)",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market"
+     ],
+     "garnish_icons": [
+      "pickle",
+      "carrot",
+      "olive",
+      "mini-beer"
+     ]
+    }
+   ],
+   "food_pairing": "Beignets to share, then the Hodge Podge (chorizo cream gravy) or the Nashville chicken and waffle.",
+   "vibe": "Belgian-style café with a rooftop over the Third Ward.",
+   "why_go": "Six infused-vodka bloodies means the two of you can each order a different one and trade.",
+   "reviews_summary": "Google shows about 4.5 stars from 6,000+ reviews. Diners rave about the rooftop and recommend trying several bloodies, singling out the horseradish Milwaukeean. Complaints focus on slow kitchen times when packed and heavy beignets.",
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "6 Bloody Marys at the Milwaukee Public Market",
+     "url": "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market",
+     "year": 2026
+    },
+    {
+     "outlet": "Milwaukee Magazine",
+     "title": "A Bloody Mary Newbie Tries Five of Milwaukee's Top Bloodys",
+     "url": "https://www.milwaukeemag.com/milwaukee-bloody-marys",
+     "year": 2025
+    },
+    {
+     "outlet": "Islands",
+     "title": "The Bloody Mary Capital Of The World Is A Vibrant Midwest City With An Outrageous Cocktail Culture",
+     "url": "https://www.islands.com/2108446/milwaukee-wisconsin-bloody-mary-capital-world-midwest-city-outrageous-cocktail-culture",
+     "year": 2026
+    }
+   ],
+   "status_flags": [
+    "OnMilwaukee's 2026 Public Market roundup lists Café Benelux among market vendors, so there may also be a Benelux counter inside the market; unverified."
+   ],
+   "sources": [
+    "https://www.cafebenelux.com/",
+    "https://www.cafebenelux.com/menus",
+    "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market",
+    "https://www.milwaukeemag.com/milwaukee-bloody-marys",
+    "https://www.islands.com/2108446/milwaukee-wisconsin-bloody-mary-capital-world-midwest-city-outrageous-cocktail-culture",
+    "https://www.northshorefamilyadventures.com/food-drinks/best-brunch",
+    "https://cbs58.com/news/lux-domes-return-to-cafe-benelux-for-the-upcoming-holiday-season"
+   ],
+   "group": "near"
+  },
+  {
+   "rank": 4,
+   "id": "sobelmans-st-paul",
+   "name": "Sobelman's Pub & Grill (the original, on St. Paul)",
+   "address": "1900 W St Paul Ave, Milwaukee, WI 53233",
+   "lat": 43.0349154,
+   "lng": -87.9368887,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Sobelman%27s+Pub+and+Grill+1900+W+St+Paul+Ave%2C+Milwaukee%2C+WI+53233",
+   "website": "https://sobelmanspubandgrill.com/",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 35,
+   "distance_note": "About 1.45 miles straight-line, roughly 1.7 miles walking: at the outer edge of this slice. A short rideshare is the practical way. The other agent covering farther places may also list it.",
+   "neighborhood": "Menomonee Valley edge (west of downtown)",
+   "serves_breakfast": false,
+   "meal_service": "lunch (burgers and bar food from opening)",
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": "10 AM-9 PM",
+    "sun": "10 AM-9 PM (Google listing; venue site showed only a holiday closure note)",
+    "mon": "11 AM-8 PM",
+    "note": "Saturday is World Series Game 2 day; expect game-day crowds by afternoon."
+   },
+   "has_bar": true,
+   "bar_seating_note": "Small, historic former Schlitz tavern; bar and tables fill fast on game days.",
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": "walk-in",
+   "reservations_note": "No reservation system found; assumed walk-in.",
+   "price_range": "$",
+   "drinks": [
+    {
+     "name": "Chicken Fried Bloody Beast",
+     "style": "bloody mary",
+     "price": "$65 (2025, per Milwaukee Magazine; $50 in 2017, $60 in 2021)",
+     "spirit": "vodka",
+     "mix": "House-made bloody mix",
+     "description": "The legend: an 80-ounce bloody crowned with an entire fried chicken, four bacon-wrapped cheese balls and the whole standard garnish tray. Meant for a group, and the reason Milwaukee bloodies went viral.",
+     "garnishes": [
+      "whole fried chicken",
+      "four Baconadoes (bacon-wrapped jalapeño cheese balls)",
+      "cheeseburger sliders (per Visit Milwaukee)",
+      "celery",
+      "pickles",
+      "olives",
+      "onions",
+      "cheese",
+      "sausage",
+      "mushroom",
+      "asparagus",
+      "shrimp",
+      "lemon",
+      "Brussels sprout"
+     ],
+     "comes_with_snit": "Yes (beer chaser; Milwaukee Magazine mentions Miller Lite)",
+     "size_options": [
+      "80 oz"
+     ],
+     "recipe": null,
+     "photo_refs": [
+      "https://www.foxnews.com/food-drink/milwaukee-restaurant-garnishes-their-bloody-mary-with-entire-fried-chicken-cheeseburgers-and-more",
+      "https://www.visitmilwaukee.org/blog/posts/post/7-bloody-marys-in-milwaukee/",
+      "https://www.milwaukeemag.com/milwaukee-bloody-marys"
+     ],
+     "garnish_icons": [
+      "whole-fried-chicken",
+      "baconado",
+      "slider",
+      "celery",
+      "pickle",
+      "olive",
+      "onion",
+      "cheese-cube",
+      "sausage",
+      "mushroom",
+      "asparagus",
+      "shrimp",
+      "lemon",
+      "brussels-sprout",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "Sobelman's Bloody Mary (The Classic)",
+     "style": "bloody mary",
+     "price": null,
+     "price_note": "Not published online.",
+     "spirit": "vodka",
+     "mix": "House-made bloody mix",
+     "description": "The signature skewer is a whole relish tray on two picks. Milwaukee Magazine's 2025 skeptic found it sharp and weirdly addictive.",
+     "garnishes": [
+      "Colby-Jack cheese",
+      "pickled Polish sausage",
+      "pickled mushroom",
+      "pickled Brussels sprout",
+      "asparagus",
+      "celery stalk",
+      "green onion",
+      "shrimp",
+      "lemon wedge",
+      "grape tomato",
+      "beef stick"
+     ],
+     "comes_with_snit": "Yes: Miller Lite in a small plastic cup (Milwaukee Magazine 2025)",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://sobelmanspubandgrill.com/milwaukee-sobelman-s-bloody-marys",
+      "https://www.milwaukeemag.com/milwaukee-bloody-marys"
+     ],
+     "garnish_icons": [
+      "cheese-cube",
+      "sausage",
+      "pickle",
+      "asparagus",
+      "celery",
+      "onion",
+      "shrimp",
+      "lemon",
+      "tomato",
+      "beef-stick",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "Baconado Bloody Mary",
+     "style": "bloody mary",
+     "price": null,
+     "spirit": "vodka",
+     "mix": "House-made bloody mix",
+     "description": "The classic plus bacon-wrapped jalapeño cheese balls.",
+     "garnishes": [
+      "bacon-wrapped jalapeño cheese balls (Baconadoes)",
+      "standard Sobelman's garnish"
+     ],
+     "comes_with_snit": "Yes (beer chaser)",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://sobelmanspubandgrill.com/milwaukee-sobelman-s-bloody-marys"
+     ],
+     "garnish_icons": [
+      "baconado",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "The Masterpiece",
+     "style": "bloody mary",
+     "price": null,
+     "spirit": "vodka",
+     "mix": "House-made bloody mix",
+     "description": "Every garnish in the house plus a cheeseburger slider; Sobelman's says it started the burger-on-a-bloody trend in 1999.",
+     "garnishes": [
+      "cheeseburger slider",
+      "every standard garnish"
+     ],
+     "comes_with_snit": "Yes (beer chaser)",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/bloody-mary-bucket-list-2021",
+      "https://www.islands.com/2108446/milwaukee-wisconsin-bloody-mary-capital-world-midwest-city-outrageous-cocktail-culture"
+     ],
+     "garnish_icons": [
+      "slider",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "The Classic",
+     "style": "bloody mary",
+     "price": null,
+     "price_note": "Not published online; a 2015 Shepherd Express piece said everything but the Beasts was $12.50 or less then.",
+     "spirit": "vodka",
+     "mix": "House mix (bottled and sold as Jimmy Luv's Bloody Mary Mix, per Shepherd Express 2015)",
+     "description": "The everyday bloody that started the garnish arms race, a sharp tomato-and-vodka mix under a skewer forest of about a dozen pickled and meaty things. It comes in a pint glass with a little beer on the side. Order it if you want the Sobelman's experience without a whole bird.",
+     "garnishes": [
+      "colby-jack cheese cube",
+      "pickled Polish sausage",
+      "pickled mushroom",
+      "pickled Brussels sprout",
+      "pickled asparagus spear",
+      "celery stalk",
+      "green onion",
+      "shrimp",
+      "lemon wedge",
+      "grape tomato"
+     ],
+     "comes_with_snit": "Yes. Miller Lite in a small plastic cup (Milwaukee Magazine, July 2025)",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://www.sobelmanspubandgrill.com/milwaukee-sobelman-s-bloody-marys",
+      "https://www.milwaukeemag.com/milwaukee-bloody-marys"
+     ],
+     "garnish_icons": [
+      "cheese-cube",
+      "sausage",
+      "pickle",
+      "celery",
+      "onion",
+      "shrimp",
+      "lemon",
+      "tomato",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "The Baconado",
+     "style": "bloody mary",
+     "price": null,
+     "spirit": "vodka",
+     "mix": "House mix",
+     "description": "A standard Sobelman's bloody with a skewer of fried, bacon-wrapped jalapeño cheese balls on top. It's the middle path between the Classic and the Beasts.",
+     "garnishes": [
+      "skewer of bacon-wrapped fried jalapeño cheese balls",
+      "standard house garnishes (cheese, pickled sausage, pickled mushroom, pickled Brussels sprout, asparagus, celery, green onion, shrimp, lemon, grape tomato)"
+     ],
+     "comes_with_snit": "Yes, beer chaser",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://munchies.vice.com/articles/epic-bloody-mary-garnishes-sobelmans"
+     ],
+     "garnish_icons": [
+      "bacon",
+      "shrimp",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "The Cheesehead",
+     "style": "bloody mary",
+     "price": null,
+     "spirit": "vodka",
+     "mix": "House mix",
+     "description": "Topped with deep-fried bacon-and-cheese wedges cut to look like the foam Packers cheese hats. A recent Google reviewer called the bacon cheese bites the best part.",
+     "garnishes": [
+      "three deep-fried bacon-and-cheese wedges shaped like cheesehead hats",
+      "standard house garnishes"
+     ],
+     "comes_with_snit": "Yes, beer chaser",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://TravelWisconsin.com/article/restaurants/wisconsins-behemoth-bloody-mary-at-sobelmans"
+     ],
+     "garnish_icons": [
+      "bacon",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "The Bourbonado",
+     "style": "other",
+     "price": null,
+     "spirit": "bourbon (per name and Travel Wisconsin; not confirmed on the menu)",
+     "mix": "House mix with bourbon sauce",
+     "description": "Bacon-wrapped chicken bites glazed in bourbon sauce ride on top, so it's half drink, half appetizer. Urban Milwaukee's March 2026 review lists it as a current option.",
+     "garnishes": [
+      "bacon-wrapped chicken bites in bourbon sauce",
+      "standard house garnishes"
+     ],
+     "comes_with_snit": "Yes, beer chaser",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://urbanmilwaukee.com/2026/03/07/dining-sobelmans-offers-classic-burgers/"
+     ],
+     "garnish_icons": [
+      "bacon",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "The Chicken Fried Bloody Beast",
+     "style": "bloody mary",
+     "price": "$65",
+     "price_note": "$65 per Urban Milwaukee (Mar 2026) and Milwaukee Magazine (Jul 2025); it was $50 in 2015 and $60 in 2022.",
+     "spirit": "vodka",
+     "mix": "House mix",
+     "description": "An 80-ounce bloody (it started in 2014 as a joke with an 80 oz Mason jar) topped with an entire fried chicken, four Baconado skewers and the full garnish set. Plan to split it; Chowhound's 2025 roundup says it comes with fries and a pitcher of beer.",
+     "garnishes": [
+      "one whole fried chicken",
+      "four Baconado skewers (bacon-wrapped jalapeño cheese balls)",
+      "cheeseburger slider (per Chowhound 2025 and Visit Milwaukee)",
+      "celery",
+      "pickles",
+      "olives",
+      "onions",
+      "cheese",
+      "sausage",
+      "mushrooms",
+      "asparagus",
+      "shrimp",
+      "lemon",
+      "Brussels sprouts"
+     ],
+     "comes_with_snit": "Yes. A pitcher of beer, per Chowhound 2025",
+     "size_options": [
+      "80 oz (single size)"
+     ],
+     "recipe": null,
+     "photo_refs": [
+      "https://www.foxnews.com/food-drink/milwaukee-restaurant-garnishes-their-bloody-mary-with-entire-fried-chicken-cheeseburgers-and-more",
+      "https://www.chowhound.com/1964272/over-the-top-bloody-marys-us/",
+      "https://amp.firstwefeast.com/eat/2014/08/this-bloody-mary-has-a-whole-fried-chicken-in-it"
+     ],
+     "garnish_icons": [
+      "whole-fried-chicken",
+      "baconado",
+      "slider",
+      "celery",
+      "pickle",
+      "olive",
+      "onion",
+      "cheese-cube",
+      "sausage",
+      "mushroom",
+      "asparagus",
+      "shrimp",
+      "lemon",
+      "brussels-sprout",
+      "mini-beer"
+     ]
+    }
+   ],
+   "food_pairing": "A Sobelman burger and the bacon-wrapped jalapeño cheese balls.",
+   "vibe": "Cramped, loud, historic burger tavern; peak Milwaukee.",
+   "why_go": "The famous whole-fried-chicken bloody, if you want the one people back home have seen on TV.",
+   "reviews_summary": "Google shows about 4.6 stars from 4,100+ reviews. Visitors love the bloody selection and garnish, while some call the burger patties bland and say the mix is good rather than great.",
+   "notable_press": [
+    {
+     "outlet": "Milwaukee Magazine",
+     "title": "A Bloody Mary Newbie Tries Five of Milwaukee's Top Bloodys",
+     "url": "https://www.milwaukeemag.com/milwaukee-bloody-marys",
+     "year": 2025
+    },
+    {
+     "outlet": "Islands",
+     "title": "The Bloody Mary Capital Of The World Is A Vibrant Midwest City With An Outrageous Cocktail Culture",
+     "url": "https://www.islands.com/2108446/milwaukee-wisconsin-bloody-mary-capital-world-midwest-city-outrageous-cocktail-culture",
+     "year": 2026
+    },
+    {
+     "outlet": "Visit Milwaukee",
+     "title": "7 Hauntingly Delicious Bloody Marys in Milwaukee",
+     "url": "https://www.visitmilwaukee.org/blog/posts/post/7-bloody-marys-in-milwaukee/",
+     "year": 2023
+    },
+    {
+     "outlet": "Fox News",
+     "title": "Milwaukee restaurant garnishes their Bloody Mary with entire fried chicken, cheeseburgers and more",
+     "url": "https://www.foxnews.com/food-drink/milwaukee-restaurant-garnishes-their-bloody-mary-with-entire-fried-chicken-cheeseburgers-and-more",
+     "year": 2017
+    }
+   ],
+   "status_flags": [
+    "Sobelman's Marquette location (1601 W Wells St) closed in May 2023; the original St. Paul Ave location is open (Urban Milwaukee, Oct 2024; Google hours current)."
+   ],
+   "sources": [
+    "https://sobelmanspubandgrill.com/",
+    "https://sobelmanspubandgrill.com/milwaukee-sobelman-s-bloody-marys",
+    "https://www.milwaukeemag.com/milwaukee-bloody-marys",
+    "https://www.visitmilwaukee.org/blog/posts/post/7-bloody-marys-in-milwaukee/",
+    "https://www.islands.com/2108446/milwaukee-wisconsin-bloody-mary-capital-world-midwest-city-outrageous-cocktail-culture",
+    "https://onmilwaukee.com/articles/bloody-mary-bucket-list-2021",
+    "https://www.foxnews.com/food-drink/milwaukee-restaurant-garnishes-their-bloody-mary-with-entire-fried-chicken-cheeseburgers-and-more",
+    "https://urbanmilwaukee.com/2024/10/29/auction-underway-for-shuttered-sobelmans/",
+    "https://www.sobelmanspubandgrill.com/",
+    "https://www.sobelmanspubandgrill.com/milwaukee-sobelman-s-bloody-marys",
+    "https://urbanmilwaukee.com/2026/03/07/dining-sobelmans-offers-classic-burgers/",
+    "https://vinepair.com/articles/how-the-bloody-mary-garnish-lost-its-mind",
+    "https://munchies.vice.com/articles/epic-bloody-mary-garnishes-sobelmans",
+    "https://shepherdexpress.com/food/short-order/big-burgers-bigger-bloodies/",
+    "https://TravelWisconsin.com/article/restaurants/wisconsins-behemoth-bloody-mary-at-sobelmans",
+    "https://www.chowhound.com/1964272/over-the-top-bloody-marys-us/",
+    "https://www.milwaukeemag.com/tag/sobelmans/",
+    "Coordinates and posted weekly hours from a Google Maps place lookup on 2026-10-23; drive times are estimates (no live traffic)."
+   ],
+   "group": "trip"
+  },
+  {
+   "rank": 5,
+   "id": "st-paul-fish-company",
+   "name": "St. Paul Fish Company (Milwaukee Public Market)",
+   "address": "Milwaukee Public Market, 400 N Water St, Milwaukee, WI 53202",
+   "lat": 43.0352235,
+   "lng": -87.9080971,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=St.+Paul+Fish+Company+Milwaukee+Public+Market%2C+400+N+Water+St%2C+Milwaukee%2C+WI+53202",
+   "website": null,
+   "website_note": "No official site verified in this pass.",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 6,
+   "neighborhood": "Historic Third Ward (Milwaukee Public Market)",
+   "serves_breakfast": false,
+   "meal_service": "lunch (seafood: oysters, lobster rolls)",
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": "11 AM-8 PM",
+    "sun": "11 AM-6 PM",
+    "mon": "11 AM-8 PM",
+    "note": "Google listing. Opens an hour after the market does."
+   },
+   "has_bar": true,
+   "bar_seating_note": "Oyster bar seating inside plus a tiki-style bar area; waits of 15-45 minutes on busy weekend afternoons per reviewers.",
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": "walk-in",
+   "price_range": "$$",
+   "drinks": [
+    {
+     "name": "Lobster Bloody Mary",
+     "style": "bloody mary",
+     "price": "$16 with lobster tail and beer chaser ($11 without the lobster tail)",
+     "spirit": "Gordon's vodka (substitutes allowed)",
+     "mix": "Jimmy Luv's Bloody Mary Mix (Wisconsin-made)",
+     "description": "A seafood-counter bloody topped with a small lobster tail, shrimp, and a chunk of their candied smoked salmon. Pure Instagram, at a fish market.",
+     "garnishes": [
+      "small lobster tail",
+      "shrimp",
+      "Salmon Crack (candied smoked salmon)",
+      "celery",
+      "lemon",
+      "lime"
+     ],
+     "comes_with_snit": "Yes: beer chaser (brand not specified)",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market"
+     ],
+     "garnish_icons": [
+      "lobster-tail",
+      "shrimp",
+      "salmon",
+      "celery",
+      "lemon",
+      "lime",
+      "mini-beer"
+     ]
+    }
+   ],
+   "food_pairing": "Lobster roll or a dozen mixed oysters.",
+   "vibe": "Busy fish-market oyster bar.",
+   "why_go": "A lobster tail on your bloody, six minutes from the hotel.",
+   "reviews_summary": "Google shows about 4.6 stars from 3,100+ reviews, mostly for lobster rolls and oysters. One recent reviewer called the lobster bloody photogenic but felt the garnish was not fresh.",
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "6 Bloody Marys at the Milwaukee Public Market",
+     "url": "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market",
+     "year": 2026
+    }
+   ],
+   "status_flags": [],
+   "sources": [
+    "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market",
+    "https://www.milwaukeepublicmarket.org/"
+   ],
+   "group": "near"
+  },
+  {
+   "rank": 6,
+   "id": "tre-rivali",
+   "name": "Tre Rivali (Kimpton Journeyman Hotel)",
+   "address": "200 N Broadway, Milwaukee, WI 53202",
+   "lat": 43.0328071,
+   "lng": -87.9069527,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Tre+Rivali+200+N+Broadway%2C+Milwaukee%2C+WI+53202",
+   "website": "https://www.trerivalirestaurant.com/",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 10,
+   "neighborhood": "Historic Third Ward",
+   "serves_breakfast": true,
+   "meal_service": "breakfast daily; brunch weekends",
+   "brunch_days": "Sat and Sun 8 AM-2 PM",
+   "hours_this_weekend": {
+    "sat": "Café 7 AM-2 PM; brunch 8 AM-2 PM; afternoon 2-5 PM; dinner 5-10 PM",
+    "sun": "Café 7 AM-2 PM; brunch 8 AM-2 PM",
+    "mon": "Café 7 AM-2 PM; breakfast 7-10:30 AM; midday 11 AM-2 PM (no brunch)",
+    "note": "From the restaurant's Hours page; the bloody board is a weekend-brunch item, so it is unlikely on Monday."
+   },
+   "has_bar": true,
+   "bar_seating_note": "Hotel restaurant bar.",
+   "has_patio": true,
+   "patio_heated": null,
+   "patio_note": "Sidewalk patio on Broadway; heating not stated.",
+   "reservations": "recommended",
+   "reservations_note": "OpenTable via the site.",
+   "price_range": "$$-$$$",
+   "drinks": [
+    {
+     "name": "Bloody Mary Board (Bloody Brunch Board)",
+     "style": "bloody mary",
+     "price": "$15 for the Bloody Mary; board add-on price not published",
+     "spirit": "Grey Goose vodka",
+     "mix": "House mix",
+     "description": "A Mediterranean take: the bloody gets a grilled halloumi skewer and a pickled Basque pepper, and can come with a brunch charcuterie board of meats, cheese, pickled vegetables and olives. A grown-up, shareable bloody for a hotel brunch.",
+     "garnishes": [
+      "skewer of grilled halloumi cheese",
+      "pickled Basque pepper",
+      "olives",
+      "lemon",
+      "lime"
+     ],
+     "board_items": [
+      "charcuterie",
+      "cheese",
+      "pickled vegetables",
+      "olives"
+     ],
+     "comes_with_snit": "Yes: beer chaser (brand not specified)",
+     "size_options": [
+      "drink alone",
+      "drink with brunch charcuterie board"
+     ],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/tre-rivali-brunch-and-bloody-mary-boards"
+     ],
+     "garnish_icons": [
+      "cheese-cube",
+      "pickle",
+      "olive",
+      "lemon",
+      "lime",
+      "mini-beer"
+     ]
+    }
+   ],
+   "food_pairing": "Wood-fired Mediterranean brunch plates; reviewers call out the halloumi and hummus.",
+   "vibe": "Polished, warm hotel restaurant; brunch without the tavern noise.",
+   "why_go": "Grilled halloumi on the glass and a snack board for two; the classy-hangover option.",
+   "reviews_summary": "Google shows about 4.4 stars from 800+ reviews. Weekend brunch guests praise consistent service and fresh ingredients; the board itself was covered by OnMilwaukee in 2025. Menu changed recently, so confirm the board is still offered.",
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Enjoy weekend-worthy brunch (and Bloody Mary boards!) at Tre Rivali",
+     "url": "https://onmilwaukee.com/articles/tre-rivali-brunch-and-bloody-mary-boards",
+     "year": 2025
+    }
+   ],
+   "status_flags": [
+    "A 2026 Google reviewer mentions a new menu; the bloody board (2025) is not shown on the current online brunch page, so it may have changed."
+   ],
+   "sources": [
+    "https://onmilwaukee.com/articles/tre-rivali-brunch-and-bloody-mary-boards",
+    "https://www.trerivalirestaurant.com/",
+    "https://www.trerivalirestaurant.com/hours-location",
+    "https://www.northshorefamilyadventures.com/food-drinks/best-brunch"
+   ],
+   "group": "near"
+  },
+  {
+   "rank": 7,
+   "id": "david-alan-alans-smokehouse",
+   "name": "David Alan Alan's Smokehouse & Saloon (Milwaukee Public Market)",
+   "address": "Milwaukee Public Market, 400 N Water St, Milwaukee, WI 53202",
+   "lat": 43.0351888,
+   "lng": -87.907686,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=David+Alan+Alan%27s+Smokehouse+%26+Saloon+Milwaukee+Public+Market%2C+400+N+Water+St%2C+Milwaukee%2C+WI+53202",
+   "website": null,
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 6,
+   "neighborhood": "Historic Third Ward (Milwaukee Public Market)",
+   "serves_breakfast": false,
+   "meal_service": "lunch (barbecue)",
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": "10 AM-8 PM",
+    "sun": "10 AM-6 PM",
+    "mon": "10 AM-8 PM",
+    "note": "Google listing (matches market hours)."
+   },
+   "has_bar": true,
+   "bar_seating_note": "Saloon-style table service inside the market.",
+   "has_patio": true,
+   "patio_heated": null,
+   "patio_note": "A reviewer mentions a dog-friendly outdoor patio; heat unknown.",
+   "reservations": "walk-in",
+   "price_range": "$$",
+   "drinks": [
+    {
+     "name": "Bloody Mary",
+     "style": "bloody mary",
+     "price": "$11",
+     "spirit": "choice of Burnett's, Absolut or Grey Goose vodka",
+     "mix": "House mix with lemon, lime, pickle juice and spices",
+     "description": "A barbecue joint's bloody, crowned with a whole smoked St. Louis rib and smoked mozzarella whips. Reviewers recommend it alongside the ribs.",
+     "garnishes": [
+      "whole smoked St. Louis-style rib",
+      "smoked mozzarella cheese whips",
+      "beef stick",
+      "celery",
+      "pickle",
+      "olive",
+      "lemon",
+      "lime"
+     ],
+     "comes_with_snit": null,
+     "snit_note": "Not mentioned.",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market"
+     ],
+     "garnish_icons": [
+      "rib",
+      "mozzarella-whip",
+      "beef-stick",
+      "celery",
+      "pickle",
+      "olive",
+      "lemon",
+      "lime"
+     ]
+    }
+   ],
+   "food_pairing": "Smoked ribs or Nashville hot chicken; skip the brisket per one reviewer.",
+   "vibe": "Smoky saloon tucked into the food hall.",
+   "why_go": "A whole rib sticking out of your drink for eleven bucks.",
+   "reviews_summary": "Google shows about 4.9 stars from roughly 570 reviews, with praise for ribs, staff and the bloody; brisket draws the occasional complaint.",
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "6 Bloody Marys at the Milwaukee Public Market",
+     "url": "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market",
+     "year": 2026
+    }
+   ],
+   "status_flags": [],
+   "sources": [
+    "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market",
+    "https://www.milwaukeepublicmarket.org/"
+   ],
+   "group": "near"
+  },
+  {
+   "rank": 8,
+   "id": "great-lakes-distillery",
+   "name": "Great Lakes Distillery & Tasting Room",
+   "address": "616 W Virginia St, Milwaukee, WI 53204",
+   "lat": 43.0266056,
+   "lng": -87.9186192,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Great+Lakes+Distillery+616+W+Virginia+St%2C+Milwaukee%2C+WI+53204",
+   "website": "https://greatlakesdistillery.com/milwaukee-tasting-room",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 24,
+   "neighborhood": "Walker's Point",
+   "serves_breakfast": false,
+   "meal_service": "lunch (Fox Den kitchen next door; burgers, onion rings)",
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": "11 AM-midnight",
+    "sun": "11 AM-7 PM",
+    "mon": "noon-9 PM",
+    "note": "Tasting room hours from the venue site and Google."
+   },
+   "has_bar": true,
+   "bar_seating_note": "Tasting-room bar next to the stills; tours available.",
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": "walk-in",
+   "reservations_note": "Walk-in for the bar is assumed; tours are booked separately.",
+   "price_range": "$$",
+   "drinks": [
+    {
+     "name": "Great Lakes Bloody",
+     "style": "bloody mary",
+     "price": "$10",
+     "spirit": "Rehorst gin by default (a 'red snapper'); vodka on request",
+     "mix": "House-made, infused with sriracha",
+     "description": "Wisconsin's first craft distillery since Prohibition makes its bloody with its own gin, which adds a botanical edge, and a sriracha-spiked house mix. Served in a chilled mug with a choice of Wisconsin beer chaser.",
+     "garnishes": [
+      "meat stick",
+      "cheese wedge",
+      "pickle"
+     ],
+     "comes_with_snit": "Yes: New Glarus Two Women (site); OnMilwaukee also lists Lakefront Riverwest Stein or Hazy Rabbit as options",
+     "size_options": [
+      "chilled mug"
+     ],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/must-try-milwaukee-bloody-marys",
+      "https://greatlakesdistillery.com/milwaukee-tasting-room"
+     ],
+     "garnish_icons": [
+      "beef-stick",
+      "cheese-cube",
+      "pickle",
+      "mini-beer"
+     ]
+    }
+   ],
+   "food_pairing": "Smash burgers and onion rings from the Fox Den kitchen.",
+   "vibe": "Working distillery bar, tours running past the copper stills.",
+   "why_go": "A gin bloody made by the people who distill the gin, plus a tour if you want to linger.",
+   "reviews_summary": "Google shows about 4.7 stars from 540+ reviews, praising fun, knowledgeable bartenders and tour guides, reasonable drink prices and the Fox Den food.",
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Must Try Milwaukee: Bloody Marys",
+     "url": "https://onmilwaukee.com/articles/must-try-milwaukee-bloody-marys",
+     "year": 2026
+    }
+   ],
+   "status_flags": [],
+   "sources": [
+    "https://greatlakesdistillery.com/milwaukee-tasting-room",
+    "https://onmilwaukee.com/articles/must-try-milwaukee-bloody-marys"
+   ],
+   "group": "near"
+  },
+  {
+   "rank": 9,
+   "id": "uncle-wolfies-downtown",
+   "name": "Uncle Wolfie's Downtown",
+   "address": "600 N Broadway, Milwaukee, WI 53202",
+   "lat": 43.0378033,
+   "lng": -87.907316,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Uncle+Wolfie%27s+Downtown+600+N+Broadway%2C+Milwaukee%2C+WI+53202",
+   "website": "https://unclewolfies.com/",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 4,
+   "neighborhood": "East Town (Kinn Guesthouse, corner of Broadway and Michigan)",
+   "serves_breakfast": true,
+   "meal_service": "breakfast and brunch daily",
+   "brunch_days": "Daily; brunch-style menu every morning",
+   "hours_this_weekend": {
+    "sat": "8 AM-3 PM",
+    "sun": "8 AM-3 PM",
+    "mon": "8 AM-2 PM",
+    "note": "Venue site and Google agree. Dinner as The Wolf runs Wed-Sat evenings."
+   },
+   "has_bar": true,
+   "bar_seating_note": "Bar seating used for overflow on busy mornings.",
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": "walk-in",
+   "reservations_note": "Brunch is walk-in only; expect a 30-minute weekend wait.",
+   "price_range": "$$",
+   "drinks": [
+    {
+     "name": "Uncle Wolfie's House Bloody",
+     "style": "bloody mary",
+     "price": "$10 (2018 Brewers Hill menu; current downtown price not verified)",
+     "spirit": "vodka",
+     "mix": "House mix (details not published)",
+     "description": "A restrained, well-balanced bloody for people who want to taste the drink rather than eat a meal off the rim. Milwaukee Magazine's 2025 tester ordered a half size.",
+     "garnishes": [
+      "pickle",
+      "beef stick",
+      "cheese curd"
+     ],
+     "garnish_note": "Garnish listed for the Brewers Hill location in 2021; the 2025 downtown review called the garnish light.",
+     "comes_with_snit": null,
+     "size_options": [
+      "full",
+      "half"
+     ],
+     "recipe": null,
+     "photo_refs": [
+      "https://www.milwaukeemag.com/milwaukee-bloody-marys",
+      "https://onmilwaukee.com/articles/bloody-mary-bucket-list-2021"
+     ],
+     "garnish_icons": [
+      "pickle",
+      "beef-stick",
+      "cheese-curd"
+     ]
+    }
+   ],
+   "food_pairing": "London Fog donuts to share, then a breakfast burrito or the Big McAllister burger.",
+   "vibe": "Bright, playful diner two blocks from the hotel.",
+   "why_go": "The closest good bloody to your bed, open 8 AM every morning including Monday.",
+   "reviews_summary": "Google shows about 4.7 stars from 400+ reviews for the downtown spot. Diners love the vibe, staff and donuts, though a few found dishes salty or bland.",
+   "notable_press": [
+    {
+     "outlet": "Milwaukee Magazine",
+     "title": "A Bloody Mary Newbie Tries Five of Milwaukee's Top Bloodys",
+     "url": "https://www.milwaukeemag.com/milwaukee-bloody-marys",
+     "year": 2025
+    }
+   ],
+   "status_flags": [
+    "Downtown location was previously 'The Wolf on Broadway', then 'Uncle Wolfie's Dinner Diner'; now Uncle Wolfie's Downtown by day and The Wolf for dinner."
+   ],
+   "sources": [
+    "https://unclewolfies.com/",
+    "https://urbanmilwaukee.com/business/uncle-wolfies-dinner-diner/",
+    "https://www.milwaukeemag.com/milwaukee-bloody-marys",
+    "https://onmilwaukee.com/articles/bloody-mary-bucket-list-2021",
+    "https://onmilwaukee.com/articles/uncle-wolfies-breakfast-tavern-menu"
+   ],
+   "group": "near"
+  },
+  {
+   "rank": 10,
+   "id": "margarita-paradise-public-market",
+   "name": "Margarita Paradise (Milwaukee Public Market)",
+   "address": "Milwaukee Public Market, 400 N Water St, Milwaukee, WI 53202",
+   "lat": 43.0352313,
+   "lng": -87.9084967,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Margarita+Paradise+Milwaukee+Public+Market%2C+400+N+Water+St%2C+Milwaukee%2C+WI+53202",
+   "website": null,
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 6,
+   "neighborhood": "Historic Third Ward (Milwaukee Public Market)",
+   "serves_breakfast": false,
+   "meal_service": "lunch (Mexican)",
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": "10 AM-8 PM",
+    "sun": "10 AM-6 PM",
+    "mon": "10 AM-8 PM",
+    "note": "Google listing."
+   },
+   "has_bar": true,
+   "bar_seating_note": "Counter seating at the stall.",
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": "walk-in",
+   "price_range": "$",
+   "drinks": [
+    {
+     "name": "Bloody Maria",
+     "style": "bloody maria",
+     "price": "$11 (11 oz) / $13 (24 oz)",
+     "spirit": "tequila",
+     "mix": "Housemade bloody mix",
+     "description": "The market's tequila option, served in a Tajín-rimmed glass. The 24-ounce size is the move if you are sharing sips.",
+     "garnishes": [
+      "Tajín rim"
+     ],
+     "garnish_note": "Other garnishes not listed.",
+     "comes_with_snit": null,
+     "size_options": [
+      "11 oz",
+      "24 oz"
+     ],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market"
+     ],
+     "garnish_icons": [
+      "tajin-rim"
+     ]
+    }
+   ],
+   "food_pairing": "Tamales, which reviewers rate highly.",
+   "vibe": "Casual margarita counter.",
+   "why_go": "The easy Bloody Maria in this slice, and a Tajín rim to change things up.",
+   "reviews_summary": "Google is mixed at about 3.4 stars from roughly 240 reviews: drinks, including a spicy bloody, get praise, while food and service draw complaints, including one billing dispute.",
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "6 Bloody Marys at the Milwaukee Public Market",
+     "url": "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market",
+     "year": 2026
+    }
+   ],
+   "status_flags": [
+    "Mixed service reviews; treat as a drink stop."
+   ],
+   "sources": [
+    "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market",
+    "https://www.milwaukeepublicmarket.org/"
+   ],
+   "group": "near"
+  },
+  {
+   "rank": 11,
+   "id": "central-standard-crafthouse",
+   "name": "Central Standard Crafthouse & Kitchen",
+   "address": "320 E Clybourn St, Milwaukee, WI 53202",
+   "lat": 43.0365693,
+   "lng": -87.9068104,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Central+Standard+Crafthouse+%26+Kitchen+320+E+Clybourn+St%2C+Milwaukee%2C+WI+53202",
+   "website": "https://www.centralstandardcrafthouse.com/",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 5,
+   "neighborhood": "Downtown / Third Ward edge (Clybourn St)",
+   "serves_breakfast": true,
+   "meal_service": "brunch (weekends)",
+   "brunch_days": "Sat and Sun 10 AM-3 PM",
+   "hours_this_weekend": {
+    "sat": "10 AM-1 AM (brunch 10 AM-3 PM)",
+    "sun": "10 AM-10 PM (brunch 10 AM-3 PM)",
+    "mon": "11 AM-10 PM (no brunch)",
+    "note": "Google listing; brunch times from OnMilwaukee April 2025."
+   },
+   "has_bar": true,
+   "bar_seating_note": "Full cocktail bar; distillery's own spirits.",
+   "has_patio": true,
+   "patio_heated": null,
+   "patio_note": "Rooftop space mentioned by a reviewer; no separate rooftop bar noted.",
+   "reservations": "recommended",
+   "reservations_note": "Not verified; site blocks automated fetching.",
+   "price_range": "$$",
+   "drinks": [
+    {
+     "name": "Bloody Mary (Bottomless Brunch option)",
+     "style": "bloody mary",
+     "price": "$25 Bottomless Brunch: 90 minutes of Bloody Marys and other brunch drinks",
+     "spirit": "Central Standard vodka assumed (it is their distillery); not confirmed",
+     "mix": null,
+     "description": "The distillery that makes the vodka in half the town's bloodies serves its own at brunch, with a $25 bottomless option. Garnish details are not published.",
+     "garnishes": [],
+     "garnish_note": "Not published; ask.",
+     "comes_with_snit": null,
+     "size_options": [
+      "single",
+      "bottomless (90 min)"
+     ],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/new-brunch-central-standard-crafthouse"
+     ],
+     "garnish_icons": []
+    }
+   ],
+   "food_pairing": "Loaded deviled eggs, the giant pretzel and curds, or the Old Fashioned French Toast.",
+   "vibe": "Distillery taproom in a historic building, five minutes from the hotel.",
+   "why_go": "Bottomless bloodies for $25 if Saturday turns into a slow, long brunch.",
+   "reviews_summary": "Google shows about 4.5 stars from 500+ reviews; reviewers praise the bartenders, gluten-free care and the pretzel and curds.",
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Central Standard Crafthouse launches new brunch menu",
+     "url": "https://onmilwaukee.com/articles/new-brunch-central-standard-crafthouse",
+     "year": 2025
+    }
+   ],
+   "status_flags": [],
+   "sources": [
+    "https://onmilwaukee.com/articles/new-brunch-central-standard-crafthouse"
+   ],
+   "group": "near"
+  },
+  {
+   "rank": 12,
+   "id": "wurst-bar-public-market",
+   "name": "The Würst | A Sausage Bar (Milwaukee Public Market)",
+   "address": "Milwaukee Public Market, 400 N Water St, Milwaukee, WI 53202",
+   "lat": 43.0351755,
+   "lng": -87.9080683,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Wurst+Sausage+Bar+Milwaukee+Public+Market%2C+400+N+Water+St%2C+Milwaukee%2C+WI+53202",
+   "website": null,
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 6,
+   "neighborhood": "Historic Third Ward (Milwaukee Public Market)",
+   "serves_breakfast": false,
+   "meal_service": "lunch (sausages)",
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": "10 AM-8 PM",
+    "sun": "10 AM-6 PM",
+    "mon": "10 AM-8 PM",
+    "note": "Google listing."
+   },
+   "has_bar": true,
+   "bar_seating_note": "Small bar area with table service.",
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": "walk-in",
+   "price_range": "$",
+   "drinks": [
+    {
+     "name": "Bloody Mary",
+     "style": "bloody mary",
+     "price": "$9",
+     "spirit": "Gordon's or Tito's vodka",
+     "mix": "Housemade with Italian passata instead of tomato juice",
+     "description": "The cheapest bloody at the market, made on a thicker, fresher-tasting passata base with a Foltz sausage skewer.",
+     "garnishes": [
+      "skewer of Foltz sausage",
+      "pickle",
+      "olive"
+     ],
+     "comes_with_snit": "Yes: any beer on tap",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market"
+     ],
+     "garnish_icons": [
+      "sausage",
+      "pickle",
+      "olive",
+      "mini-beer"
+     ]
+    }
+   ],
+   "food_pairing": "A Milwaukee brat or the bacon-and-onion brat.",
+   "vibe": "Tiny sausage counter with a bar.",
+   "why_go": "A $9 passata bloody with your choice of tap beer as the snit.",
+   "reviews_summary": "Only a handful of Google reviews (about 4.4 stars); most praise the brats and bartenders.",
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "6 Bloody Marys at the Milwaukee Public Market",
+     "url": "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market",
+     "year": 2026
+    }
+   ],
+   "status_flags": [],
+   "sources": [
+    "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market",
+    "https://www.milwaukeepublicmarket.org/"
+   ],
+   "group": "near"
+  },
+  {
+   "rank": 13,
+   "id": "pfister-rouge-sunday-brunch",
+   "name": "The Rouge at The Pfister Hotel (Sunday brunch)",
+   "address": "424 E Wisconsin Ave, Milwaukee, WI 53202",
+   "lat": 43.0391234,
+   "lng": -87.9056853,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Pfister+Hotel+424+E+Wisconsin+Ave%2C+Milwaukee%2C+WI+53202",
+   "website": "https://www.thepfisterhotel.com/",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 5,
+   "neighborhood": "East Town (Wisconsin Ave)",
+   "serves_breakfast": true,
+   "meal_service": "brunch buffet (Sunday only)",
+   "brunch_days": "Sunday 10 AM-2 PM (per OpenTable listing)",
+   "hours_this_weekend": {
+    "sat": null,
+    "sun": "10 AM-2 PM (unverified for Oct 25)",
+    "mon": null,
+    "note": "Hotel site would not load; OpenTable listing describes a regular Sunday brunch but lists no dated availability. Call 414-273-8222 to confirm."
+   },
+   "has_bar": true,
+   "bar_seating_note": "Hotel ballroom-style brunch; Pfister also has lobby bars.",
+   "has_patio": false,
+   "patio_heated": null,
+   "reservations": "needed",
+   "reservations_note": "Contact the hotel directly; not bookable on OpenTable.",
+   "price_range": "$$$",
+   "drinks": [
+    {
+     "name": "Signature Bloody Mary bar",
+     "style": "bloody mary",
+     "price": "Included with brunch ($31-50 on OpenTable; a 2026 guide lists $45-65+ per person)",
+     "spirit": null,
+     "mix": null,
+     "description": "A build-your-own Bloody Mary bar included with the Pfister's Sunday brunch, alongside mimosas, in Milwaukee's grand old hotel. Garnish lineup not published.",
+     "garnishes": [],
+     "garnish_note": "Not published.",
+     "comes_with_snit": null,
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [],
+     "garnish_icons": []
+    }
+   ],
+   "food_pairing": "The full brunch buffet.",
+   "vibe": "Gilded-age hotel elegance, Victorian art everywhere.",
+   "why_go": "The only build-your-own bloody bar found in this slice, inside the Pfister's famous lobby.",
+   "reviews_summary": "No bloody-specific reviews found; the hotel itself is widely praised for its lobby, art and service.",
+   "notable_press": [
+    {
+     "outlet": "North Shore Family Adventures",
+     "title": "Best brunch in greater Milwaukee: Your 2026 guide",
+     "url": "https://www.northshorefamilyadventures.com/food-drinks/best-brunch",
+     "year": 2026
+    }
+   ],
+   "status_flags": [
+    "Unverified for Oct 25, 2026: confirm the Sunday brunch is running and the Bloody Mary bar is still included."
+   ],
+   "sources": [
+    "https://opentable.com/r/pfister-special-events-milwaukee",
+    "https://www.northshorefamilyadventures.com/food-drinks/best-brunch"
+   ],
+   "group": "near"
+  },
+  {
+   "rank": 14,
+   "id": "catrina-cafe",
+   "name": "Catrina Café",
+   "address": "606 S 5th St, Milwaukee, WI 53204",
+   "lat": 43.0250667,
+   "lng": -87.9166961,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Catrina+Cafe+606+S+5th+St%2C+Milwaukee%2C+WI+53204",
+   "website": "https://catrinacafemke.com/",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 25,
+   "neighborhood": "Walker's Point",
+   "serves_breakfast": true,
+   "meal_service": "breakfast and lunch daily (until 4 PM), then dinner",
+   "brunch_days": "Daily 8 AM-4 PM",
+   "hours_this_weekend": {
+    "sat": "8 AM-9 PM",
+    "sun": "8 AM-9 PM",
+    "mon": "8 AM-4 PM",
+    "note": "Google listing; site footer says 8 AM-9 PM daily."
+   },
+   "has_bar": true,
+   "bar_seating_note": "Bar with bartender service per reviewers; weekend DJ.",
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": null,
+   "price_range": "$",
+   "drinks": [
+    {
+     "name": "Bloody Mary",
+     "style": "bloody mary",
+     "price": null,
+     "price_note": "House cocktails listed at $7-13 (Shepherd Express, March 2026).",
+     "spirit": null,
+     "mix": null,
+     "description": "Reviewers call it huge and one of the best they have had, and at least one had it with a Modelito chaser, a Mexican twist on the Wisconsin snit. Recipe and garnish are not published.",
+     "garnishes": [],
+     "garnish_note": "Not published.",
+     "comes_with_snit": "Reported: Modelito (mini Modelo) chaser",
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://catrinacafemke.com/"
+     ],
+     "garnish_icons": []
+    },
+    {
+     "name": "Michelada",
+     "style": "michelada",
+     "price": null,
+     "beer_used": null,
+     "mix": null,
+     "description": "Catrina's bar pours micheladas alongside its house margaritas, mojitos and sangria. It is one of the few Walker's Point spots where you can get one with a full Mexican breakfast from 8 AM. Recipe, beer and garnish are not published, so ask whether it is the Clamato or the lime-and-salsa style.",
+     "rim": null,
+     "garnishes": [],
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://shepherdexpress.com/food/lets-eat/catrina-caf%C3%A9s-wealth-of-mexican-milwaukee-choices/",
+      "https://www.tastingtable.com/1102994/super-garnished-michelada-recipe/",
+      "https://www.clamato.com/en/amp/recipes/shrimp-michelada"
+     ],
+     "verified_detail_level": "exists only",
+     "garnish_icons": []
+    }
+   ],
+   "food_pairing": "Red or green chilaquiles, huevos rancheros, or birria tacos.",
+   "vibe": "Colorful, budget-friendly Mexican breakfast café.",
+   "why_go": "A big bloody with a Modelito snit and chilaquiles, open 8 AM even on Monday.",
+   "reviews_summary": "Google shows about 4.7 stars from roughly 380 reviews, praising the food, chips and salsa, and service; one reviewer reported an off batch of meat after a supplier change.",
+   "notable_press": [
+    {
+     "outlet": "Shepherd Express",
+     "title": "Catrina Café's wealth of Mexican Milwaukee choices",
+     "url": "https://shepherdexpress.com/food/lets-eat/catrina-caf%C3%A9s-wealth-of-mexican-milwaukee-choices/",
+     "year": 2026
+    }
+   ],
+   "status_flags": [],
+   "sources": [
+    "https://catrinacafemke.com/",
+    "https://shepherdexpress.com/food/lets-eat/catrina-caf%C3%A9s-wealth-of-mexican-milwaukee-choices/",
+    "https://www.northshorefamilyadventures.com/food-drinks/best-brunch",
+    "https://urbanmilwaukee.com/2025/09/09/catrina-cafe-will-expand-in-bay-view/"
+   ],
+   "group": "near",
+   "also_michelada": true
+  },
+  {
+   "rank": 15,
+   "id": "sweet-diner",
+   "name": "Sweet Diner",
+   "address": "239 E Chicago St, Milwaukee, WI 53202",
+   "lat": 43.0322876,
+   "lng": -87.9079735,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Sweet+Diner+239+E+Chicago+St%2C+Milwaukee%2C+WI+53202",
+   "website": null,
+   "website_note": "Site blocks automated fetching.",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 11,
+   "neighborhood": "Historic Third Ward",
+   "serves_breakfast": true,
+   "meal_service": "breakfast and brunch daily",
+   "brunch_days": "Daily",
+   "hours_this_weekend": {
+    "sat": "7:30 AM-4 PM",
+    "sun": "7:30 AM-4 PM",
+    "mon": "7:30 AM-3 PM",
+    "note": "Google listing."
+   },
+   "has_bar": null,
+   "bar_seating_note": null,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": null,
+   "price_range": "$$",
+   "drinks": [
+    {
+     "name": "House Bloody Mary",
+     "style": "bloody mary",
+     "price": "$10 (2017; current price not verified)",
+     "spirit": "Rehorst vodka",
+     "mix": "Pickle-forward house mix",
+     "description": "A pickle-forward bloody on local Rehorst vodka; Islands (2026) calls it the more casual option and notes a cheese curd on top.",
+     "garnishes": [
+      "cheese curd"
+     ],
+     "garnish_note": "Only the cheese curd is documented.",
+     "comes_with_snit": null,
+     "size_options": [],
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/first-look-sweet-diner",
+      "https://www.islands.com/2108446/milwaukee-wisconsin-bloody-mary-capital-world-midwest-city-outrageous-cocktail-culture"
+     ],
+     "garnish_icons": [
+      "cheese-curd"
+     ]
+    }
+   ],
+   "food_pairing": "Crème brûlée French toast, crepes or the birria skillet.",
+   "vibe": "Pretty pink-and-marble diner with cherry-blossom decor.",
+   "why_go": "Earliest-opening bloody in the Third Ward, and a photogenic room.",
+   "reviews_summary": "Google shows about 4.5 stars from 2,900+ reviews; breakfast fans praise the pancakes, French toast and standout servers, while a few found waffles underdone and prices high.",
+   "notable_press": [
+    {
+     "outlet": "Islands",
+     "title": "The Bloody Mary Capital Of The World Is A Vibrant Midwest City With An Outrageous Cocktail Culture",
+     "url": "https://www.islands.com/2108446/milwaukee-wisconsin-bloody-mary-capital-world-midwest-city-outrageous-cocktail-culture",
+     "year": 2026
+    },
+    {
+     "outlet": "OnMilwaukee",
+     "title": "First look: Sweet Diner",
+     "url": "https://onmilwaukee.com/articles/first-look-sweet-diner",
+     "year": 2017
+    }
+   ],
+   "status_flags": [
+    "Bloody details are from 2017 plus a 2026 one-line mention; confirm it is still on the menu."
+   ],
+   "sources": [
+    "https://onmilwaukee.com/articles/first-look-sweet-diner",
+    "https://www.islands.com/2108446/milwaukee-wisconsin-bloody-mary-capital-world-midwest-city-outrageous-cocktail-culture",
+    "https://www.northshorefamilyadventures.com/food-drinks/best-brunch"
+   ],
+   "group": "near"
+  },
+  {
+   "id": "eldr-rime-wauwatosa",
+   "name": "Eldr+Rime",
+   "address": "2300 N Mayfair Rd, Wauwatosa, WI 53226 (inside the Renaissance Milwaukee West hotel)",
+   "lat": 43.0607744,
+   "lng": -88.0469348,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Eldr%2BRime+2300+N+Mayfair+Rd%2C+Wauwatosa%2C+WI+53226",
+   "website": "https://www.eldrandrime.com/",
+   "phone": "+1 414-867-9200",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "distance_miles_from_hotel": 7.13,
+   "distance_note": "7.1 mi straight-line, about 8.5 mi via I-94/US-45.",
+   "drive_minutes": 15,
+   "neighborhood": "Wauwatosa (Mayfair corridor)",
+   "serves_breakfast": true,
+   "brunch_days": "Saturday and Sunday, 9 AM-2 PM (OnMilwaukee, 2022; confirm)",
+   "hours_this_weekend": {
+    "sat": "9:00 AM-10:00 PM",
+    "sun": "9:00 AM-8:00 PM",
+    "mon": "6:30 AM-10:00 PM",
+    "note": "Google Maps listing as of 2026-10-23. Whether the bloody menu is poured at Monday breakfast is not verified."
+   },
+   "has_bar": true,
+   "has_patio": true,
+   "patio_heated": null,
+   "reservations": null,
+   "reservations_note": "Not verified; listed on OpenTable.",
+   "price_range": "$$$",
+   "drinks": [
+    {
+     "name": "Signature Bloody Mary",
+     "style": "bloody mary",
+     "price": "$12 (OnMilwaukee, Mar 2024)",
+     "spirit": null,
+     "mix": "House-blended mix, no bottled mixes",
+     "description": "A from-scratch house bloody with a tidy Wisconsin snack skewer. It's more polished than tavern-style but still fully loaded.",
+     "garnishes": [
+      "beef stick",
+      "pickle",
+      "cheese curd",
+      "pepper",
+      "house-made chips",
+      "lime wedge"
+     ],
+     "comes_with_snit": "Yes, New Glarus Spotted Cow",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/must-try-milwaukee-bloody-marys"
+     ],
+     "garnish_icons": [
+      "beef-stick",
+      "pickle",
+      "cheese-curd",
+      "pepper",
+      "chips",
+      "lime",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "Royal Bloody Mary",
+     "style": "bloody mary",
+     "price": "$20 (OnMilwaukee, 2022 and Mar 2024)",
+     "spirit": null,
+     "mix": "House-blended mix",
+     "description": "The Signature upgraded into a seafood brunch board, with grilled shrimp and freshly shucked oysters on the half shell next to the curds and beef sticks. It's the only raw-bar bloody in this guide.",
+     "garnishes": [
+      "two freshly shucked oysters on the half shell",
+      "three grilled shrimp",
+      "Clock Shadow Creamery cheese curds",
+      "Bunzel's beef stick",
+      "pickle",
+      "pepper",
+      "house chips",
+      "lime wedge"
+     ],
+     "comes_with_snit": "Yes, New Glarus Spotted Cow",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/brunch-at-eldr-and-rime",
+      "https://onmilwaukee.com/articles/must-try-milwaukee-bloody-marys"
+     ],
+     "garnish_icons": [
+      "oyster",
+      "shrimp",
+      "cheese-curd",
+      "beef-stick",
+      "pickle",
+      "pepper",
+      "chips",
+      "lime",
+      "mini-beer"
+     ]
+    }
+   ],
+   "food_pairing": "Scandinavian-leaning weekend brunch; the Royal's oysters and shrimp are practically a starter.",
+   "vibe": "Upscale Nordic-modern hotel restaurant with an open kitchen and a patio; more date-night than dive.",
+   "why_go": "A bloody that comes with its own oyster bar.",
+   "reviews_summary": "4.0 on Google with about 450 reviews. People praise the food, cocktails and architecture; complaints are mostly about inconsistent service and high prices.",
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Must-try Milwaukee Bloody Marys",
+     "url": "https://onmilwaukee.com/articles/must-try-milwaukee-bloody-marys",
+     "year": 2024
+    },
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Brunch at Eldr+Rime",
+     "url": "https://onmilwaukee.com/articles/brunch-at-eldr-and-rime",
+     "year": 2022
+    },
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Vendors for Bloody Mary Fest 2025",
+     "url": "https://onmilwaukee.com/articles/vendors-for-bloody-mary-fest-2025",
+     "year": 2025
+    }
+   ],
+   "status_flags": "Appears open (Google listing active Oct 2026). It competed at the June 2025 Bloody Mary Festival. Royal Bloody price and contents are from 2024 and may have changed.",
+   "sources": [
+    "https://www.eldrandrime.com/",
+    "https://onmilwaukee.com/articles/must-try-milwaukee-bloody-marys",
+    "https://onmilwaukee.com/articles/brunch-at-eldr-and-rime",
+    "https://onmilwaukee.com/articles/vendors-for-bloody-mary-fest-2025",
+    "Coordinates and posted weekly hours from a Google Maps place lookup on 2026-10-23; drive times are estimates (no live traffic)."
+   ],
+   "group": "trip",
+   "meal_service": "weekend brunch; weekday hotel breakfast from 6:30 AM"
+  },
+  {
+   "id": "honeypie-bay-view",
+   "name": "Honeypie Cafe",
+   "address": "2569 S Kinnickinnic Ave, Milwaukee, WI 53207",
+   "lat": 42.9979572,
+   "lng": -87.9004599,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Honeypie+Cafe+2569+S+Kinnickinnic+Ave%2C+Milwaukee%2C+WI+53207",
+   "website": "https://www.honeypiecafe.com/",
+   "phone": "+1 414-489-7437",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "distance_miles_from_hotel": 2.86,
+   "distance_note": "2.9 mi straight-line, about 3.5 mi by road. On the way to the airport (3.5 mi from MKE).",
+   "drive_minutes": 11,
+   "neighborhood": "Bay View",
+   "serves_breakfast": true,
+   "brunch_days": "Saturday and Sunday 9 AM-3 PM; weekday breakfast/lunch 9 AM-3 PM",
+   "hours_this_weekend": {
+    "sat": "9:00 AM-9:00 PM (brunch 9-3)",
+    "sun": "9:00 AM-9:00 PM (brunch 9-3)",
+    "mon": "9:00 AM-9:00 PM (breakfast/lunch 9-3)",
+    "note": "Restaurant website and Google listing, checked 2026-10-23."
+   },
+   "has_bar": true,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": "No (first come, first served, per the website)",
+   "price_range": "$$",
+   "drinks": [
+    {
+     "name": "Classic Bloody Mary",
+     "style": "bloody mary",
+     "price": "$11-$12 range (OnMilwaukee, Mar 2024)",
+     "spirit": "vodka",
+     "mix": "House-made",
+     "description": "A neat, made-from-scratch bloody with a short-and-sweet garnish. It comes with the most Milwaukee chaser there is, a baby High Life.",
+     "garnishes": [
+      "lemon wedge",
+      "olive",
+      "pickle",
+      "meat stick"
+     ],
+     "comes_with_snit": "Yes, a baby-sized Miller High Life",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/must-try-milwaukee-bloody-marys"
+     ],
+     "garnish_icons": [
+      "lemon",
+      "olive",
+      "pickle",
+      "beef-stick",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "Garlic-Rosemary Bloody",
+     "style": "bloody mary",
+     "price": "$11 (Milwaukee Magazine, 2023)",
+     "spirit": "house garlic-and-rosemary-infused vodka",
+     "mix": "House-made",
+     "description": "The house signature, made with vodka steeped in garlic and rosemary so it tastes like a Sunday roast in a glass. Milwaukee Magazine picked it for its 2023 morning bloody list.",
+     "garnishes": [
+      "pickled vegetables (not itemized)",
+      "lemon wedge",
+      "olive",
+      "pickle",
+      "meat stick"
+     ],
+     "garnish_note": "The garnish set for this version is assumed to match the classic; only 'pickled vegetables' is confirmed.",
+     "comes_with_snit": "Yes, a baby Miller High Life",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://www.milwaukeemag.com/these-bloody-marys-will-light-up-your-morning"
+     ],
+     "garnish_icons": [
+      "pickle",
+      "lemon",
+      "olive",
+      "beef-stick",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "Jalapeño Bloody",
+     "style": "bloody mary",
+     "price": "$11-$12 range (2024)",
+     "spirit": "vodka (likely jalapeño-infused; not confirmed)",
+     "mix": "House-made",
+     "description": "The spicy one of the three house bloodies. Exact build not published.",
+     "garnishes": [
+      "lemon wedge",
+      "olive",
+      "pickle",
+      "meat stick"
+     ],
+     "comes_with_snit": "Yes, a baby Miller High Life",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [],
+     "garnish_icons": [
+      "lemon",
+      "olive",
+      "pickle",
+      "beef-stick",
+      "mini-beer"
+     ]
+    }
+   ],
+   "food_pairing": "Biscuits and gravy, pork belly Benedict, then a slice of pie to go (key lime, banana cream).",
+   "vibe": "Bright, artsy-casual Bay View comfort-food cafe and pie shop; neighborhood regulars and families.",
+   "why_go": "Garlic-rosemary bloody, a baby High Life and pie for dessert at 10 AM.",
+   "reviews_summary": "4.5 on Google with about 2,500 reviews. The pies are the headline, the brunch plates are comforting and filling, and service gets consistent praise.",
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Must-try Milwaukee Bloody Marys",
+     "url": "https://onmilwaukee.com/articles/must-try-milwaukee-bloody-marys",
+     "year": 2024
+    },
+    {
+     "outlet": "Milwaukee Magazine",
+     "title": "These Bloody Marys Will Light Up Your Morning",
+     "url": "https://www.milwaukeemag.com/these-bloody-marys-will-light-up-your-morning",
+     "year": 2023
+    }
+   ],
+   "status_flags": "Open (website and Google active Oct 2026). Moved to this address in 2019.",
+   "sources": [
+    "https://www.honeypiecafe.com/",
+    "https://onmilwaukee.com/articles/must-try-milwaukee-bloody-marys",
+    "https://www.milwaukeemag.com/these-bloody-marys-will-light-up-your-morning",
+    "Coordinates and posted weekly hours from a Google Maps place lookup on 2026-10-23; drive times are estimates (no live traffic)."
+   ],
+   "group": "trip",
+   "meal_service": "breakfast daily until 3 PM; weekend brunch"
+  },
+  {
+   "id": "centraal-bay-view",
+   "name": "Centraal Grand Café & Tappery (Café Centraal)",
+   "address": "2306 S Kinnickinnic Ave, Milwaukee, WI 53207",
+   "lat": 43.0027569,
+   "lng": -87.9038666,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Centraal+Grand+Cafe+%26+Tappery+2306+S+Kinnickinnic+Ave%2C+Milwaukee%2C+WI+53207",
+   "website": "https://cafecentraal.com/",
+   "phone": "+1 414-755-0378",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "distance_miles_from_hotel": 2.51,
+   "distance_note": "2.5 mi straight-line, about 3 mi by road; roughly 3.9 mi from MKE, so it's the best Monday pre-flight pick.",
+   "drive_minutes": 10,
+   "neighborhood": "Bay View (KK and Lincoln)",
+   "serves_breakfast": true,
+   "brunch_days": "Every day: Mon-Fri 8-11 AM, Sat-Sun 8 AM-2 PM",
+   "hours_this_weekend": {
+    "sat": "8:00 AM-11:00 PM (brunch 8-2)",
+    "sun": "8:00 AM-10:00 PM (brunch 8-2)",
+    "mon": "8:00 AM-10:00 PM (brunch 8-11)",
+    "note": "Website and Google listing, checked 2026-10-23."
+   },
+   "has_bar": true,
+   "has_patio": true,
+   "patio_heated": true,
+   "patio_note": "Street parklet plus a four-season courtyard; the website says a heated tent goes up for winter. Whether it's up by late October is not confirmed.",
+   "reservations": "Accepted (Lowlands Group reservation links)",
+   "price_range": "$$",
+   "drinks": [
+    {
+     "name": "The Centraal",
+     "style": "bloody mary",
+     "price": "$9.50",
+     "spirit": "vodka",
+     "mix": "House bloody mix",
+     "description": "The house standard, with all the fixings. It can be made gluten-free with Prairie vodka for $1 more.",
+     "garnishes": [
+      "'all the fixins' (not itemized; sister café Hollander's house version uses pickle, carrot, olives)"
+     ],
+     "comes_with_snit": "Likely (the Lowlands cafés serve a beer chaser with bloodies), not stated on the Centraal menu",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://cafecentraal.com/menus"
+     ],
+     "garnish_icons": [
+      "pickle"
+     ]
+    },
+    {
+     "name": "The Milwaukeean",
+     "style": "bloody mary",
+     "price": "$10.50",
+     "spirit": "horseradish-infused Rehorst vodka (Great Lakes Distillery, Milwaukee)",
+     "mix": "House bloody mix",
+     "description": "The Lowlands group's hometown bloody: local horseradish vodka with bacon and a cheese curd on top. It comes with a Lakefront beer.",
+     "garnishes": [
+      "bacon",
+      "cheese curd"
+     ],
+     "comes_with_snit": "Lakefront Fixed Gear (listed with the drink)",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://cafecentraal.com/menus"
+     ],
+     "garnish_icons": [
+      "bacon",
+      "cheese-curd"
+     ]
+    },
+    {
+     "name": "The Lux",
+     "style": "bloody mary",
+     "price": "$10.00",
+     "spirit": "herbes de Provence-infused Prairie vodka",
+     "mix": "House bloody mix with Luxembourg mustard",
+     "description": "An herby, mustardy, Euro-café take with blue cheese olives and green beans. Milwaukee Magazine's 2023 bloody list singled it out.",
+     "garnishes": [
+      "blue cheese-stuffed olives",
+      "haricot vert (pickled green bean)"
+     ],
+     "comes_with_snit": null,
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://www.milwaukeemag.com/these-bloody-marys-will-light-up-your-morning"
+     ],
+     "garnish_icons": [
+      "cheese-cube",
+      "pickle"
+     ]
+    },
+    {
+     "name": "The Southsider",
+     "style": "bloody mary",
+     "price": "$10.00",
+     "spirit": "peppercorn-infused Rehorst vodka",
+     "mix": "House bloody mix",
+     "description": "A peppery south-side variation with a spicy pepper and jalapeño olives.",
+     "garnishes": [
+      "spicy pepper",
+      "jalapeño-stuffed olives"
+     ],
+     "comes_with_snit": null,
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [],
+     "garnish_icons": [
+      "pepper",
+      "olive"
+     ]
+    },
+    {
+     "name": "BBB Bloody",
+     "style": "other",
+     "price": "$11.00",
+     "spirit": "Rebel Yell bourbon",
+     "mix": "House bloody mix with house BBQ sauce",
+     "description": "Bourbon, barbecue sauce and bacon: a smoky, sweet-savory bloody.",
+     "garnishes": [
+      "bacon",
+      "cheese curd"
+     ],
+     "comes_with_snit": null,
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [],
+     "garnish_icons": [
+      "bacon",
+      "cheese-curd"
+     ]
+    },
+    {
+     "name": "Rooster Kick",
+     "style": "bloody mary",
+     "price": "$10.00",
+     "spirit": "five-pepper-infused Rehorst vodka",
+     "mix": "House bloody mix with sriracha and chili powder",
+     "description": "The hottest of the lineup, with sriracha in the glass and on the garnish.",
+     "garnishes": [
+      "jalapeño-stuffed olive",
+      "pickled pepper",
+      "sriracha stick"
+     ],
+     "comes_with_snit": null,
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [],
+     "garnish_icons": [
+      "olive",
+      "pickle"
+     ]
+    },
+    {
+     "name": "Bloody Fresca",
+     "style": "bloody mary",
+     "price": "$11.00",
+     "spirit": "Twisted Path cilantro-infused vodka (Milwaukee)",
+     "mix": "House bloody mix with Cholula",
+     "description": "A fresh, cilantro-forward bloody with Cholula, the closest thing to a Maria on the menu.",
+     "garnishes": [
+      "pickle",
+      "carrot",
+      "celery",
+      "jalapeño-stuffed olive"
+     ],
+     "comes_with_snit": null,
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [],
+     "garnish_icons": [
+      "pickle",
+      "carrot",
+      "celery",
+      "olive"
+     ]
+    }
+   ],
+   "food_pairing": "Belgian waffles, Benedicts and frites; deep Belgian beer list if the snit isn't enough.",
+   "vibe": "Bustling Flemish-style grand café anchoring Bay View's main drag; good for groups.",
+   "why_go": "Seven bloodies, brunch on a Monday, and it's on the way to the airport.",
+   "reviews_summary": "4.5 on Google with about 2,700 reviews. Diners praise the Belgian beer selection, waffles and friendly staff; it's easy to seat groups, but it gets busy at peak brunch.",
+   "notable_press": [
+    {
+     "outlet": "Milwaukee Magazine",
+     "title": "These Bloody Marys Will Light Up Your Morning",
+     "url": "https://www.milwaukeemag.com/these-bloody-marys-will-light-up-your-morning",
+     "year": 2023
+    }
+   ],
+   "status_flags": "Open. Google now lists it as 'Centraal Grand Café & Tappery.'",
+   "sources": [
+    "https://cafecentraal.com/",
+    "https://cafecentraal.com/menus",
+    "https://www.milwaukeemag.com/these-bloody-marys-will-light-up-your-morning",
+    "Coordinates and posted weekly hours from a Google Maps place lookup on 2026-10-23; drive times are estimates (no live traffic)."
+   ],
+   "group": "trip",
+   "meal_service": "brunch daily (Belgian/Dutch café menu)"
+  },
+  {
+   "id": "cafe-hollander-downer",
+   "name": "Café Hollander (Downer Ave)",
+   "address": "2608 N Downer Ave, Milwaukee, WI 53211",
+   "lat": 43.0665022,
+   "lng": -87.8778805,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Cafe+Hollander+2608+N+Downer+Ave%2C+Milwaukee%2C+WI+53211",
+   "website": "https://www.cafehollander.com/",
+   "phone": "+1 414-963-6366",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "distance_miles_from_hotel": 2.47,
+   "distance_note": "2.5 mi straight-line, about 3 mi by road via Prospect/Farwell. The Wauwatosa location (7677 W State St) has the same menu and hours.",
+   "drive_minutes": 10,
+   "neighborhood": "East Side (Downer Avenue)",
+   "serves_breakfast": true,
+   "brunch_days": "Every day: Mon-Fri 8-11 AM, Sat-Sun 8 AM-2 PM",
+   "hours_this_weekend": {
+    "sat": "8:00 AM-11:00 PM (brunch 8-2)",
+    "sun": "8:00 AM-10:00 PM (brunch 8-2)",
+    "mon": "8:00 AM-10:00 PM (brunch 8-11)",
+    "note": "Website and Google listing, checked 2026-10-23."
+   },
+   "has_bar": true,
+   "has_patio": true,
+   "patio_heated": null,
+   "patio_note": "Big patio in warm months; 'Winter Domes' in colder months (heating not stated).",
+   "reservations": "Accepted (reservation link on site; second-floor tables can be reserved)",
+   "price_range": "$$",
+   "drinks": [
+    {
+     "name": "The Milwaukeean",
+     "style": "bloody mary",
+     "price": "$11.50 (brunch menu) / $12 (cocktail menu)",
+     "spirit": "horseradish-infused Rehorst vodka",
+     "mix": "House bloody mix",
+     "description": "The flagship of the Lowlands bloody menu. Horseradish vodka brings the heat, and thick-cut bacon and a Muenster curd bring breakfast. A Google reviewer in 2025-26 singled out the bloodies.",
+     "garnishes": [
+      "pickle",
+      "carrot",
+      "thick-cut bacon",
+      "Muenster cheese curd",
+      "olives"
+     ],
+     "comes_with_snit": "Yes, Lowlander Chaser Red",
+     "size_options": [
+      "regular",
+      "double (+$3)"
+     ],
+     "recipe": null,
+     "photo_refs": [
+      "https://cafehollander.com/menus/downer"
+     ],
+     "garnish_icons": [
+      "pickle",
+      "carrot",
+      "bacon",
+      "cheese-curd",
+      "olive",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "Spicy Badger",
+     "style": "bloody mary",
+     "price": "$11 / $12",
+     "spirit": "sriracha, jalapeño and habanero-infused State Line vodka",
+     "mix": "House bloody mix",
+     "description": "Three-chile vodka with a beef stick and curd: the most Wisconsin-loaded of the Hollander lineup.",
+     "garnishes": [
+      "beef stick",
+      "pickle",
+      "spicy pickled carrot",
+      "Muenster cheese curd",
+      "red pepper"
+     ],
+     "comes_with_snit": "Yes, beer chaser",
+     "size_options": [
+      "regular",
+      "double (+$3)"
+     ],
+     "recipe": null,
+     "photo_refs": [
+      "https://cafehollander.com/menus/downer"
+     ],
+     "garnish_icons": [
+      "beef-stick",
+      "pickle",
+      "cheese-curd",
+      "pepper",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "The Hollander",
+     "style": "bloody mary",
+     "price": "$9.50 / $10",
+     "spirit": "vodka",
+     "mix": "House bloody mix",
+     "description": "The straightforward house bloody.",
+     "garnishes": [
+      "pickle",
+      "carrot",
+      "olives"
+     ],
+     "comes_with_snit": "Yes, beer chaser",
+     "size_options": [
+      "regular",
+      "double (+$3)"
+     ],
+     "recipe": null,
+     "photo_refs": [],
+     "garnish_icons": [
+      "pickle",
+      "carrot",
+      "olive",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "The Southsider",
+     "style": "bloody mary",
+     "price": "$11 / $12",
+     "spirit": "peppercorn-infused Rehorst vodka",
+     "mix": "House bloody mix",
+     "description": "Cracked-pepper vodka with jalapeño olives.",
+     "garnishes": [
+      "pickle",
+      "carrot",
+      "spicy pepper",
+      "jalapeño-stuffed olives"
+     ],
+     "comes_with_snit": "Yes, beer chaser",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [],
+     "garnish_icons": [
+      "pickle",
+      "carrot",
+      "pepper",
+      "olive",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "Lux Bloody",
+     "style": "bloody mary",
+     "price": "$10 / $11",
+     "spirit": "herbes de Provence-infused Prairie or Skyy vodka",
+     "mix": "House bloody mix with Luxembourg mustard",
+     "description": "Herbal and mustardy, with blue cheese olives.",
+     "garnishes": [
+      "pickle",
+      "carrot",
+      "blue cheese-stuffed olives"
+     ],
+     "comes_with_snit": "Yes, beer chaser",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [],
+     "garnish_icons": [
+      "pickle",
+      "carrot",
+      "cheese-cube",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "Bloody Fresca",
+     "style": "bloody mary",
+     "price": "$11",
+     "spirit": "Twisted Path cilantro-infused vodka",
+     "mix": "House bloody mix with Cholula",
+     "description": "Cilantro and Cholula; on the gluten-free brunch menu.",
+     "garnishes": [
+      "celery",
+      "pickle",
+      "carrot",
+      "jalapeño olive"
+     ],
+     "comes_with_snit": "Yes, beer chaser",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [],
+     "garnish_icons": [
+      "celery",
+      "pickle",
+      "carrot",
+      "olive",
+      "mini-beer"
+     ]
+    }
+   ],
+   "food_pairing": "Belgian waffles, berry French toast, cheese curds; Belgian and Dutch beers.",
+   "vibe": "Lively East Side Dutch-Belgian café on a walkable shopping street near UWM and Lake Park; parking is tight.",
+   "why_go": "A daily brunch with a bloody list and the beer chaser built in, even on a Monday.",
+   "reviews_summary": "4.6 on Google with about 2,350 reviews. Reviewers consistently praise service and the bloodies, and like the patio; street parking around Downer can be a hassle.",
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Cafe Hollander serves brunch every day",
+     "url": "https://onmilwaukee.com/articles/cafe-hollander-serves-brunch-every-day",
+     "year": 2018
+    },
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Out for bloodies: Cafe Hollander",
+     "url": "https://onmilwaukee.com/articles/outforbloodiescafehollander",
+     "year": 2014
+    }
+   ],
+   "status_flags": "Open, five locations. The Lowlands Group also runs Café Benelux in the Third Ward (inside the 1.5 mi radius; Milwaukee Magazine 2025 noted its Milwaukeean bloody served in a custom-label glass can).",
+   "sources": [
+    "https://www.cafehollander.com/",
+    "https://cafehollander.com/menus/downer",
+    "https://onmilwaukee.com/articles/outforbloodiescafehollander",
+    "Coordinates and posted weekly hours from a Google Maps place lookup on 2026-10-23; drive times are estimates (no live traffic)."
+   ],
+   "group": "trip",
+   "meal_service": "brunch daily"
+  },
+  {
+   "id": "crafty-cow-bay-view",
+   "name": "Crafty Cow (Bay View)",
+   "address": "2671 S Kinnickinnic Ave, Milwaukee, WI 53207",
+   "address_note": "Google lists 2671 S KK; Urban Milwaukee (Aug 2025) used 2675 S KK. Same building.",
+   "lat": 42.9963185,
+   "lng": -87.897699,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Crafty+Cow+2671+S+Kinnickinnic+Ave%2C+Milwaukee%2C+WI+53207",
+   "website": "https://www.craftycowmke.com/",
+   "phone": "+1 414-808-0481",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "distance_miles_from_hotel": 3.0,
+   "distance_note": "3.0 mi straight-line, about 3.6 mi by road; 3.4 mi from MKE. Second location at 6519 W North Ave, Wauwatosa.",
+   "drive_minutes": 11,
+   "neighborhood": "Bay View",
+   "serves_breakfast": true,
+   "brunch_days": "Saturday and Sunday (2021 Tosa brunch ran 11 AM-3 PM; Bay View now opens at 10 AM weekends per Google)",
+   "hours_this_weekend": {
+    "sat": "10:00 AM-9:30 PM",
+    "sun": "10:00 AM-8:00 PM",
+    "mon": "11:00 AM-9:00 PM",
+    "note": "Google Maps listing as of 2026-10-23; the website blocks automated reads."
+   },
+   "has_bar": true,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": null,
+   "price_range": "$",
+   "drinks": [
+    {
+     "name": "House Bloody",
+     "style": "bloody mary",
+     "price": "$11 (OnMilwaukee, 2021)",
+     "spirit": "house veggie-infused vodka",
+     "mix": "House-made",
+     "description": "A burger-bar bloody with house-infused vodka and a classic Wisconsin skewer, chased with the bar's own lager. Visit Milwaukee called the recipe award-winning in 2023.",
+     "garnishes": [
+      "pickle",
+      "olive",
+      "cheese curd",
+      "bacon"
+     ],
+     "comes_with_snit": "Yes. A shot of Crafty Cow Lager (2021); Visit Milwaukee (2023) listed Company Brewing Fred Smith Lager",
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/crafty-cow-launches-brunch-in-tosa",
+      "https://www.visitmilwaukee.org/blog/posts/post/7-bloody-marys-in-milwaukee/"
+     ],
+     "garnish_icons": [
+      "pickle",
+      "olive",
+      "cheese-curd",
+      "bacon",
+      "mini-beer"
+     ]
+    },
+    {
+     "name": "Outlaw Oyster bloody shooter",
+     "style": "other",
+     "price": null,
+     "spirit": "vodka",
+     "mix": "Bloody mary mix",
+     "description": "Oysters on the half shell served as a shooter with bloody mix and vodka, from the Outlaw Oyster pop-up planned inside the Bay View Crafty Cow in 2025. It isn't confirmed to be running now.",
+     "garnishes": [
+      "raw oyster"
+     ],
+     "comes_with_snit": null,
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://urbanmilwaukee.com/2025/08/12/oyster-bar-opening-inside-bay-view-restaurant/"
+     ],
+     "garnish_icons": [
+      "oyster"
+     ]
+    }
+   ],
+   "food_pairing": "Smash burgers, fried chicken sandwiches, hot-honey cheese curds.",
+   "vibe": "Casual Bay View burger-and-fried-chicken bar.",
+   "why_go": "The place that once tried for Wisconsin's biggest Bloody Mary bar: 60 toppings, wings and fried chicken included.",
+   "reviews_summary": "4.3 on Google with about 1,400 reviews. Burgers, curds and the chicken Caesar wrap get a lot of love; a few reviewers found patties bland or service uneven.",
+   "notable_press": [
+    {
+     "outlet": "Milwaukee Record",
+     "title": "Bay View's Crafty Cow will try to have Wisconsin's largest Bloody Mary bar on January 19",
+     "url": "https://milwaukeerecord.com/food-drink/bay-views-crafty-cow-will-try-to-have-wisconsins-largest-bloody-mary-bar-on-january-19/",
+     "year": 2019
+    },
+    {
+     "outlet": "Visit Milwaukee",
+     "title": "7 Bloody Marys in Milwaukee",
+     "url": "https://www.visitmilwaukee.org/blog/posts/post/7-bloody-marys-in-milwaukee/",
+     "year": 2023
+    },
+    {
+     "outlet": "Urban Milwaukee",
+     "title": "Oyster bar opening inside Bay View restaurant",
+     "url": "https://urbanmilwaukee.com/2025/08/12/oyster-bar-opening-inside-bay-view-restaurant/",
+     "year": 2025
+    }
+   ],
+   "status_flags": "Open per Google (Oct 2026). Bloody price and chaser data are 2021-2023, so check before relying on them.",
+   "sources": [
+    "https://onmilwaukee.com/articles/crafty-cow-launches-brunch-in-tosa",
+    "https://www.visitmilwaukee.org/blog/posts/post/7-bloody-marys-in-milwaukee/",
+    "https://milwaukeerecord.com/food-drink/bay-views-crafty-cow-will-try-to-have-wisconsins-largest-bloody-mary-bar-on-january-19/",
+    "https://urbanmilwaukee.com/2025/08/12/oyster-bar-opening-inside-bay-view-restaurant/",
+    "Coordinates and posted weekly hours from a Google Maps place lookup on 2026-10-23; drive times are estimates (no live traffic)."
+   ],
+   "group": "trip",
+   "meal_service": "weekend brunch (Tosa brunch launched 2021; current Bay View brunch menu not verified)"
+  },
+  {
+   "id": "mcbobs-washington-heights",
+   "name": "McBob's Pub & Grill",
+   "address": "4919 W North Ave, Milwaukee, WI 53208",
+   "lat": 43.0605599,
+   "lng": -87.9753848,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=McBob%27s+Pub+%26+Grill+4919+W+North+Ave%2C+Milwaukee%2C+WI+53208",
+   "website": "https://www.mcbobs.com/",
+   "phone": "+1 414-871-5050",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "distance_miles_from_hotel": 3.67,
+   "distance_note": "3.7 mi straight-line, about 4.5 mi by road.",
+   "drive_minutes": 13,
+   "neighborhood": "Washington Heights / Sherman Park edge (west side)",
+   "serves_breakfast": true,
+   "brunch_days": "Breakfast hours not verified for 2026 (2015: Sat 8 AM-noon, Sun 8 AM-2 PM, weekdays 8-11 AM)",
+   "hours_this_weekend": {
+    "sat": "8:00 AM-10:00 PM",
+    "sun": "8:00 AM-8:00 PM",
+    "mon": "10:00 AM-10:00 PM",
+    "note": "Google Maps listing as of 2026-10-23."
+   },
+   "has_bar": true,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": null,
+   "price_range": "$",
+   "drinks": [
+    {
+     "name": "McBob's Bloody Mary",
+     "style": "bloody mary",
+     "price": null,
+     "spirit": null,
+     "mix": null,
+     "description": "McBob's poured at the 2025 Bloody Mary Festival (Harley-Davidson Museum) in the 'Best Bloody Mary in Wisconsin' field. The garnish build and price are not published online, so ask at the bar.",
+     "garnishes": [],
+     "garnish_note": "Not verified; no published garnish list found.",
+     "comes_with_snit": null,
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [],
+     "garnish_icons": []
+    }
+   ],
+   "food_pairing": "The corned beef: a famous Reuben, and corned beef hash under eggs at breakfast.",
+   "vibe": "35-plus-year Irish corner pub with a neighborhood crowd and friendly staff.",
+   "why_go": "A festival-competing bloody next to some of the city's best corned beef hash.",
+   "reviews_summary": "4.3 on Google with about 2,700 reviews. The Reuben and corned beef are the standouts, service is described as warm, and the menu is a fun Irish-meets-Mexican mix.",
+   "notable_press": [
+    {
+     "outlet": "FOX6",
+     "title": "McBob's Pub & Grill celebrating 35+ years in business",
+     "url": "https://www.fox6now.com/news/mcbobs-pub-grill-celebrating-35-years-in-business",
+     "year": 2024
+    },
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Vendors for Bloody Mary Fest 2025",
+     "url": "https://onmilwaukee.com/articles/vendors-for-bloody-mary-fest-2025",
+     "year": 2025
+    }
+   ],
+   "status_flags": "Open; under new owners as of 2024 (FOX6). The weakest entry on bloody details.",
+   "sources": [
+    "https://www.mcbobs.com/",
+    "https://onmilwaukee.com/articles/vendors-for-bloody-mary-fest-2025",
+    "https://www.fox6now.com/news/mcbobs-pub-grill-celebrating-35-years-in-business",
+    "https://shepherdexpress.com/food/short-order/lots-o-breakfast-mcbob-s/",
+    "Coordinates and posted weekly hours from a Google Maps place lookup on 2026-10-23; drive times are estimates (no live traffic)."
+   ],
+   "group": "trip",
+   "meal_service": "breakfast (corned beef hash, Irish bacon bread), especially weekends"
+  },
+  {
+   "id": "randys-neighbors-inn",
+   "name": "Randy's Neighbor's Inn",
+   "address": "6922 W Becher St, West Allis, WI 53219",
+   "lat": 43.0065362,
+   "lng": -87.9998635,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Randy%27s+Neighbor%27s+Inn+6922+W+Becher+St%2C+West+Allis%2C+WI+53219",
+   "website": "https://www.randysneighborsinn.com/",
+   "website_note": "Site blocks automated reads; not verified.",
+   "phone": "+1 414-545-8738 (from OnMilwaukee 2021 and Milwaukee Record 2018)",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "distance_miles_from_hotel": 5.11,
+   "distance_note": "5.1 mi straight-line, about 6.5 mi by road via I-94/I-894 or National Ave.",
+   "drive_minutes": 15,
+   "neighborhood": "West Allis",
+   "serves_breakfast": null,
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": null,
+    "sun": null,
+    "mon": null,
+    "note": "Google lists no hours. Known mostly as a Friday fish fry tavern; call before going."
+   },
+   "has_bar": true,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": "Reservations recommended for Friday fish fry (per reviews); weekend mornings unknown",
+   "price_range": "$",
+   "drinks": [
+    {
+     "name": "Loaded Bloody Mary",
+     "style": "bloody mary",
+     "price": null,
+     "spirit": null,
+     "mix": null,
+     "description": "A neighborhood-tavern tower bloody that OnMilwaukee put on its 2021 bucket list. The skewer holds corn dogs, cheese-filled pretzels and roasted Brussels sprouts as well as the usual pickles. It's the most carnival-food garnish in this guide.",
+     "garnishes": [
+      "corn dogs",
+      "cheese-filled pretzels",
+      "mushrooms",
+      "shrimp",
+      "Brussels sprouts",
+      "pepperoncini",
+      "asparagus",
+      "garlic- or blue cheese-stuffed olives",
+      "pickles",
+      "pickled beans",
+      "cheese sticks",
+      "beef sticks",
+      "bacon",
+      "celery"
+     ],
+     "comes_with_snit": null,
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/bloody-mary-bucket-list-2021"
+     ],
+     "garnish_icons": [
+      "corn-dog",
+      "cheese-cube",
+      "mushroom",
+      "shrimp",
+      "brussels-sprout",
+      "pepper",
+      "asparagus",
+      "pickle",
+      "beef-stick",
+      "bacon",
+      "celery"
+     ]
+    }
+   ],
+   "food_pairing": "Appetizer platter; Friday all-you-can-eat fish fry with potato pancakes and German potato salad (not a weekend-morning thing).",
+   "vibe": "Old-school West Allis corner tavern (opened circa 1978) that feels like a small-town bar.",
+   "why_go": "Corn dogs on a bloody, enough said.",
+   "reviews_summary": "4.5 on Google with about 140 reviews, nearly all about the classic fish fry: crisp fish, great potato pancakes, very friendly staff. Recent reviews don't mention bloodies.",
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Bloody Mary bucket list 2021",
+     "url": "https://onmilwaukee.com/articles/bloody-mary-bucket-list-2021",
+     "year": 2021
+    },
+    {
+     "outlet": "Milwaukee Record",
+     "title": "218 consecutive Friday fish frys: Randy's Neighbor's Inn",
+     "url": "https://milwaukeerecord.com/food-drink/218-consecutive-friday-fish-frys-randys-neighbors-inn/",
+     "year": 2018
+    }
+   ],
+   "status_flags": "Appears open (Google listing active, recent reviews), but hours are unlisted and the bloody details are from 2021. Highest-risk pick; call first.",
+   "sources": [
+    "https://onmilwaukee.com/articles/bloody-mary-bucket-list-2021",
+    "https://milwaukeerecord.com/food-drink/218-consecutive-friday-fish-frys-randys-neighbors-inn/",
+    "Coordinates and posted weekly hours from a Google Maps place lookup on 2026-10-23; drive times are estimates (no live traffic)."
+   ],
+   "group": "trip",
+   "meal_service": null
+  },
+  {
+   "id": "guadalajara-restaurant",
+   "name": "Guadalajara Restaurant",
+   "address": "901 S 10th St, Milwaukee, WI 53204",
+   "lat": 43.022127,
+   "lng": -87.92402,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Guadalajara+Restaurant+901+S+10th+St%2C+Milwaukee%2C+WI+53204",
+   "website": "https://www.milwaukeemexicanfood.com/",
+   "yelp_url": "https://www.yelp.com/biz/guadalajara-restaurant-milwaukee",
+   "yelp_photos_url": "https://www.yelp.com/biz_photos/guadalajara-restaurant-milwaukee",
+   "walk_minutes_from_hotel": 36,
+   "drive_minutes": 8,
+   "neighborhood": "Walker's Point (south of the Menomonee Valley)",
+   "serves_breakfast": true,
+   "brunch_days": "Daily except Tuesday (breakfast menu all day)",
+   "hours_this_weekend": {
+    "sat": "8 AM to 8 PM",
+    "sun": "8 AM to 8 PM",
+    "mon": "9 AM to 8 PM",
+    "note": "Posted hours on the restaurant site; Uber Eats lists a 7:45 PM close. Closed Tuesdays. Phone 414-647-2266."
+   },
+   "has_bar": true,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": "Not indicated; about a dozen tables per The Infatuation (2024)",
+   "price_range": "$ (micheladas $8; breakfast plates $9.95)",
+   "drinks": [
+    {
+     "name": "Micheladas",
+     "style": "michelada",
+     "price": "$8",
+     "beer_used": "Not specified; bar stocks Miller, Miller Lite, Corona, Modelo, Negra Modelo, Pacifico and Victoria",
+     "mix": null,
+     "description": "Listed simply as Micheladas for $8 on the house menu. That is cheap by Milwaukee standards, and you get it at an old art deco corner bar. Mix and garnish are not published, so ask which Mexican lager they'll build it on.",
+     "rim": null,
+     "garnishes": [],
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://www.yelp.com/biz_photos/guadalajara-restaurant-milwaukee",
+      "https://www.tastingtable.com/1102994/super-garnished-michelada-recipe/",
+      "https://www.clamato.com/en/amp/recipes/shrimp-michelada"
+     ],
+     "verified_detail_level": "price only",
+     "garnish_icons": []
+    }
+   ],
+   "food_pairing": "Chilaquiles (red or green), huevos a la Mexicana, huevos con chorizo, coctel de camaron ($15.95).",
+   "vibe": "Small former corner bar with its original art deco bar and big mirror; families after church on Sundays, and strolling accordion-and-guitar musicians on the reviewer's visits.",
+   "why_go": "An $8 michelada and chilaquiles at 8 AM, possibly with a strolling accordion player.",
+   "reviews_summary": "Urban Milwaukee (2024) called the food simple and authentic, and the room busy and family-filled. The Infatuation (2024) described a lively, friendly all-day spot where the owners chat with regulars from behind the bar.",
+   "notable_press": [
+    {
+     "outlet": "Urban Milwaukee",
+     "title": "Dining: Guadalajara Offers Simple, Authentic Mexican Fare",
+     "url": "https://urbanmilwaukee.com/2024/08/14/dining-guadalajara-offers-simple-authentic-mexican-fare/",
+     "year": 2024
+    },
+    {
+     "outlet": "The Infatuation",
+     "title": "Guadalajara Restaurant review",
+     "url": "https://www.theinfatuation.com/milwaukee/reviews/guadalajara",
+     "year": 2024
+    },
+    {
+     "outlet": "Milwaukee Record",
+     "title": "My favorite Mexican restaurants in Milwaukee",
+     "url": "https://milwaukeerecord.com/food-drink/my-favorite-mexican-restaurants-in-milwaukee/",
+     "year": 2021
+    }
+   ],
+   "sources": [
+    "https://www.milwaukeemexicanfood.com/menus",
+    "https://milwaukeemexicanfood.com/",
+    "https://urbanmilwaukee.com/2024/08/14/dining-guadalajara-offers-simple-authentic-mexican-fare/",
+    "https://www.theinfatuation.com/milwaukee/reviews/guadalajara",
+    "https://www.ubereats.com/store/guadalajara-restaurant/wQyCQnQ5XIqbYqFM7_X-8w"
+   ],
+   "rank": 2,
+   "notes": "Coordinates from the US Census Bureau geocoder (address-range interpolation, accurate to roughly a block). Walk/drive times are straight-line estimates x1.3, not routed.",
+   "group": "michelada",
+   "meal_service": "breakfast and lunch plates all day (huevos, chilaquiles), plus dinner",
+   "status_flags": []
+  },
+  {
+   "id": "axolotl-cafe",
+   "name": "Axolotl Café",
+   "address": "3001 S Kinnickinnic Ave, Milwaukee, WI 53207",
+   "lat": 42.990162,
+   "lng": -87.884987,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Axolotl+Caf%C3%A9+3001+S+Kinnickinnic+Ave%2C+Milwaukee%2C+WI+53207",
+   "website": null,
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": null,
+   "drive_minutes": 12,
+   "neighborhood": "Bay View",
+   "serves_breakfast": true,
+   "brunch_days": "Daily",
+   "hours_this_weekend": {
+    "sat": "7 AM to 3 PM",
+    "sun": "7 AM to 3 PM",
+    "mon": "7 AM to 2 PM",
+    "note": "Hours per Marquette Wire (Feb 2026); an earlier report listed weekdays to 2:30 PM. Weekend waits of 30 to 60 minutes are reported, so join the waitlist early. Phone 414-800-4321."
+   },
+   "has_bar": null,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": "Waitlist reported; no reservations info found",
+   "price_range": "$$ (entrees about $17 to $18 per Marquette Wire 2026)",
+   "drinks": [
+    {
+     "name": "Michelada",
+     "style": "michelada",
+     "price": null,
+     "beer_used": null,
+     "mix": null,
+     "description": "Milwaukee Record (July 2026) describes their michelada as the Mexican standard. The owners are from Mexico City, so this is the place for a by-the-book version alongside tamarind or guava mimosas. Beer, mix and garnish are not published.",
+     "rim": null,
+     "garnishes": [],
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://milwaukeerecord.com/food-drink/axolotl-cafe-i-cant-tell-you-how-excited-it-made-me-when-i-tasted-something-that-reminded-me-of-home/",
+      "https://www.tastingtable.com/1102994/super-garnished-michelada-recipe/",
+      "https://www.clamato.com/en/amp/recipes/shrimp-michelada"
+     ],
+     "verified_detail_level": "exists only",
+     "garnish_icons": []
+    }
+   ],
+   "food_pairing": "Molletes, chilaquiles tradicionales, horchata pancakes with RumChata reduction and an edible orchid, birria omelette, guayaba pancakes, biscuits with chorizo gravy.",
+   "vibe": "Busy, buzzy Bay View brunch room in the former Blackwood Brothers space; expect a wait.",
+   "why_go": "Mexico City brunch with a proper michelada and horchata pancakes topped with an orchid; worth the short rideshare.",
+   "reviews_summary": "Milwaukee Record (2026) said the food tasted like home and praised the from-scratch horchata. Marquette Wire (2026) liked the chilaquiles and warned of hour-long weekend waits.",
+   "notable_press": [
+    {
+     "outlet": "Milwaukee Record",
+     "title": "Axolotl Cafe: I can't tell you how excited it made me when I tasted something that reminded me of home",
+     "url": "https://milwaukeerecord.com/food-drink/axolotl-cafe-i-cant-tell-you-how-excited-it-made-me-when-i-tasted-something-that-reminded-me-of-home/",
+     "year": 2026
+    },
+    {
+     "outlet": "Marquette Wire",
+     "title": "Review: Axolotl Cafe in Bayview",
+     "url": "https://marquettewire.org/4149499/ae/review-axolotl-cafe-in-bayview/",
+     "year": 2026
+    },
+    {
+     "outlet": "Milwaukee Journal Sentinel (via AOL)",
+     "title": "New Milwaukee brunch spot Axolotl Café opens in former Blackwood Brothers space in Bay View",
+     "url": "https://www.aol.com/articles/milwaukee-brunch-spot-axolotl-caf-171418775.html",
+     "year": 2025
+    }
+   ],
+   "sources": [
+    "https://milwaukeerecord.com/food-drink/axolotl-cafe-i-cant-tell-you-how-excited-it-made-me-when-i-tasted-something-that-reminded-me-of-home/",
+    "https://marquettewire.org/4149499/ae/review-axolotl-cafe-in-bayview/",
+    "https://www.aol.com/articles/milwaukee-brunch-spot-axolotl-caf-171418775.html"
+   ],
+   "rank": 3,
+   "notes": "Coordinates from the US Census Bureau geocoder (address-range interpolation, accurate to roughly a block). Walk/drive times are straight-line estimates x1.3, not routed.",
+   "group": "michelada",
+   "meal_service": "breakfast and brunch only (Mexico City-style)",
+   "status_flags": [
+    "Opened Nov 2025; active per July 2026 coverage."
+   ]
+  },
+  {
+   "id": "fiesta-cafe",
+   "name": "Fiesta Café",
+   "address": "1407 S 1st St, Milwaukee, WI 53204",
+   "lat": 43.016939,
+   "lng": -87.911306,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Fiesta+Caf%C3%A9+1407+S+1st+St%2C+Milwaukee%2C+WI+53204",
+   "website": "https://www.fiestacafe.net/",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 39,
+   "drive_minutes": 8,
+   "neighborhood": "Walker's Point (south)",
+   "serves_breakfast": true,
+   "brunch_days": "Daily",
+   "hours_this_weekend": {
+    "sat": "7 AM to 4 PM (unconfirmed)",
+    "sun": "7 AM to 4 PM (unconfirmed)",
+    "mon": "7 AM to 4 PM (unconfirmed)",
+    "note": "Last published hours are from a 2019 review (7 AM to 4 PM daily); the site could not be read. Call (414) 914-9569."
+   },
+   "has_bar": true,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": null,
+   "price_range": "$$ (breakfast plates about $10 to $13 and brunch cocktails about $10 in 2018 to 2019 coverage)",
+   "drinks": [
+    {
+     "name": "Michelada (Miche Fest 2025 entry)",
+     "style": "michelada",
+     "price": null,
+     "beer_used": null,
+     "mix": null,
+     "description": "Fiesta Café was one of 15 bars and restaurants competing for Milwaukee's best michelada at the first Miche Fest in April 2025. Its published brunch-cocktail list from earlier years shows a house and a Southwest Bloody Mary but no michelada. Confirm it is on the regular menu before you go.",
+     "rim": null,
+     "garnishes": [],
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://www.tastingtable.com/1102994/super-garnished-michelada-recipe/",
+      "https://www.clamato.com/en/amp/recipes/shrimp-michelada"
+     ],
+     "verified_detail_level": "competition entrant; menu listing not confirmed",
+     "garnish_icons": []
+    }
+   ],
+   "food_pairing": "Chilaquiles, huevos rancheros, divorced eggs, enfrijoladas, molletes, churro French toast, house-made conchas.",
+   "vibe": "Bright red-and-yellow building with a rooster statue out front; six garage doors, a white marble bar and lots of clocks.",
+   "why_go": "A Miche Fest contender with a full Mexican breakfast menu and conchas baked in-house.",
+   "reviews_summary": "Urban Milwaukee (2019) praised the big breakfasts and the Florentine Benedict but found the frittata a bit overdone. OnMilwaukee (2018) highlighted the bright room and the brunch cocktail list.",
+   "notable_press": [
+    {
+     "outlet": "Urban Milwaukee",
+     "title": "Dining: Fiesta Café Offers Big Breakfast",
+     "url": "https://urbanmilwaukee.com/2019/11/20/dining-fiesta-cafe-offers-big-breakfast/",
+     "year": 2019
+    },
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Fiesta Cafe means more breakfast, brunch and lunch for Walker's Point",
+     "url": "https://onmilwaukee.com/articles/first-look-fiesta-cafe",
+     "year": 2018
+    }
+   ],
+   "sources": [
+    "https://urbanmilwaukee.com/2025/04/20/now-serving-zocalo-hosting-inaugural-miche-fest/",
+    "https://urbanmilwaukee.com/2019/11/20/dining-fiesta-cafe-offers-big-breakfast/",
+    "https://onmilwaukee.com/articles/first-look-fiesta-cafe",
+    "https://shepherdexpress.com/locations/fiesta-cafe/"
+   ],
+   "rank": 4,
+   "notes": "Coordinates from the US Census Bureau geocoder (address-range interpolation, accurate to roughly a block). Walk/drive times are straight-line estimates x1.3, not routed.",
+   "group": "michelada",
+   "meal_service": "breakfast, brunch and lunch",
+   "status_flags": [
+    "No 2025 to 2026 press beyond the April 2025 Miche Fest vendor list. Confirm it is open and has micheladas before going."
+   ]
+  },
+  {
+   "id": "highbury-pub",
+   "name": "The Highbury Pub",
+   "address": "2322 S Kinnickinnic Ave, Milwaukee, WI 53207",
+   "lat": 43.002696,
+   "lng": -87.903962,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Highbury+Pub+2322+S+Kinnickinnic+Ave%2C+Milwaukee%2C+WI+53207",
+   "website": null,
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": null,
+   "drive_minutes": 10,
+   "neighborhood": "Bay View",
+   "serves_breakfast": null,
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": "6 AM to 2:30 AM",
+    "sun": "7 AM to 2 AM",
+    "mon": "7 AM to 2 AM",
+    "note": "Hours from the Premier League USA bar finder listing; not confirmed for these dates. The early opening serves English soccer kickoffs."
+   },
+   "has_bar": true,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": null,
+   "price_range": "$",
+   "drinks": [
+    {
+     "name": "Michelada (Miche Fest 2025 entry)",
+     "style": "michelada",
+     "price": null,
+     "beer_used": null,
+     "mix": null,
+     "description": "Highbury entered the 2025 Miche Fest competition. Its own recipe is not published anywhere I could find. It is a soccer pub that opens at dawn, so this is the morning-tavern option, and you can also ask the bartender for a Wisconsin-style red beer (lager and tomato juice).",
+     "rim": null,
+     "garnishes": [],
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://www.tastingtable.com/1102994/super-garnished-michelada-recipe/",
+      "https://www.clamato.com/en/amp/recipes/shrimp-michelada"
+     ],
+     "verified_detail_level": "competition entrant only",
+     "garnish_icons": []
+    }
+   ],
+   "food_pairing": "No food menu verified; pair with Bay View brunch nearby (Axolotl Café is about 1.5 miles south).",
+   "vibe": "Bay View's big soccer pub, home to Arsenal, Chelsea, Crystal Palace and Everton supporters' groups; turns into a Chicago Bears bar on NFL Sundays.",
+   "why_go": "A 6 AM Saturday bar stool, Premier League on the TVs, and a Miche Fest-tested michelada.",
+   "reviews_summary": "Milwaukee Record (2018) described a camaraderie-heavy community bar with Chicago-themed game-day specials.",
+   "notable_press": [
+    {
+     "outlet": "Milwaukee Record",
+     "title": "Sundays at the Highbeary: How a Bay View soccer pub became Milwaukee's biggest Chicago Bears bar",
+     "url": "https://milwaukeerecord.com/sports/sundays-at-the-highbeary-how-a-bay-view-soccer-pub-became-milwaukees-biggest-chicago-bears-bar/",
+     "year": 2018
+    }
+   ],
+   "sources": [
+    "https://premierleague.com/usa-bar-finder/bar/2108/the-highbury-pub",
+    "https://urbanmilwaukee.com/2025/04/20/now-serving-zocalo-hosting-inaugural-miche-fest/"
+   ],
+   "rank": 5,
+   "notes": "Coordinates from the US Census Bureau geocoder (address-range interpolation, accurate to roughly a block). Walk/drive times are straight-line estimates x1.3, not routed.",
+   "group": "michelada",
+   "meal_service": "Pub; no food menu was verified",
+   "status_flags": []
+  },
+  {
+   "id": "zocalo-food-park-tavern",
+   "name": "Zócalo Food Park (tavern)",
+   "address": "636 S 6th St, Milwaukee, WI 53204",
+   "lat": 43.024876,
+   "lng": -87.918156,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Z%C3%B3calo+Food+Park+%28tavern%29+636+S+6th+St%2C+Milwaukee%2C+WI+53204",
+   "website": null,
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 28,
+   "drive_minutes": 6,
+   "neighborhood": "Walker's Point",
+   "serves_breakfast": false,
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": "About 11 AM to 9 PM (vendor hours)",
+    "sun": "About 11 AM to 9 PM (vendor hours)",
+    "mon": "About 11 AM to 9 PM (vendor hours)",
+    "note": "Chucho's Red Tacos at Zócalo lists 11 AM to 9 PM daily on Toast. Tavern and park hours for late October 2026 are not published, and outdoor seasons may shorten. 2019 park hours closed Sundays at 7 PM."
+   },
+   "has_bar": true,
+   "has_patio": true,
+   "patio_heated": null,
+   "reservations": "No",
+   "price_range": "$",
+   "drinks": [
+    {
+     "name": "Michelada",
+     "style": "michelada",
+     "price": null,
+     "beer_used": null,
+     "mix": null,
+     "description": "The park's tavern opened in 2019 with a michelada, Bloody Mary, margarita and paloma among a dozen local taps. Zócalo also hosts Milwaukee's Michelada Fest every April (2025 and 2026), when 15 bars compete for best miche. Current recipe and price are not published.",
+     "rim": null,
+     "garnishes": [],
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/zocalo-food-park-michelada-fest",
+      "https://milwaukeerecord.com/food-drink/enjoy-boxing-beer-music-more-at-michelada-fest-april-26-at-zocalo-food-park/",
+      "https://www.tastingtable.com/1102994/super-garnished-michelada-recipe/",
+      "https://www.clamato.com/en/amp/recipes/shrimp-michelada"
+     ],
+     "verified_detail_level": "exists (2019 opening menu)",
+     "garnish_icons": []
+    }
+   ],
+   "food_pairing": "Birria tacos from Chucho's, tacos from Mazorca, Lao BBQ from SapSap.",
+   "vibe": "Open-air courtyard of food trucks and picnic tables with a small tavern; Milwaukee's first food truck park.",
+   "why_go": "The michelada's home turf in Milwaukee, since it hosts the city's annual Michelada Fest.",
+   "reviews_summary": null,
+   "notable_press": [
+    {
+     "outlet": "Urban Milwaukee",
+     "title": "Now Serving: Zocalo Hosting Inaugural Miche Fest",
+     "url": "https://urbanmilwaukee.com/2025/04/20/now-serving-zocalo-hosting-inaugural-miche-fest/",
+     "year": 2025
+    },
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Get your tickets: Zocalo Food Park to host Michelada Fest April 25",
+     "url": "https://onmilwaukee.com/articles/zocalo-food-park-michelada-fest",
+     "year": 2026
+    },
+    {
+     "outlet": "Milwaukee Record",
+     "title": "Zócalo Food Park hosts second annual Michelada Fest on April 25",
+     "url": "https://milwaukeerecord.com/press-release/zocalo-food-park-hosts-second-annual-michelada-fest-on-april-25/",
+     "year": 2026
+    },
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Tavern at Zocalo Food Park",
+     "url": "https://onmilwaukee.com/articles/tavern-at-zocalo-food-park",
+     "year": 2019
+    }
+   ],
+   "sources": [
+    "https://onmilwaukee.com/articles/tavern-at-zocalo-food-park",
+    "https://urbanmilwaukee.com/2026/04/05/now-serving-zocalo-food-park-has-new-vendors/",
+    "https://toast.app/r/chuchos-red-tacos-zocalo-636-s-6th-st/order",
+    "https://www.wisn.com/article/milwaukee-zocalo-food-truck-park-michelada-festival-2025/64554831"
+   ],
+   "rank": 6,
+   "notes": "Coordinates from the US Census Bureau geocoder (address-range interpolation, accurate to roughly a block). Walk/drive times are straight-line estimates x1.3, not routed.",
+   "group": "michelada",
+   "meal_service": "Food-truck lunch and dinner (vendors include Mazorca Tacos, Chucho's Red Tacos, SapSap, Modern Maki, Ruby's Bagels, Anytime Arepa)",
+   "status_flags": [
+    "Operating as of April 2026. Late-October tavern hours unverified."
+   ]
+  },
+  {
+   "id": "camachos-bar",
+   "name": "Camacho's Bar",
+   "address": "631 S 6th St, Milwaukee, WI 53204",
+   "lat": 43.024937,
+   "lng": -87.918312,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Camacho%27s+Bar+631+S+6th+St%2C+Milwaukee%2C+WI+53204",
+   "website": null,
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 28,
+   "drive_minutes": 6,
+   "neighborhood": "Walker's Point",
+   "serves_breakfast": false,
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": null,
+    "sun": null,
+    "mon": null,
+    "note": "Hours not published in any source found."
+   },
+   "has_bar": true,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": null,
+   "price_range": "$",
+   "drinks": [
+    {
+     "name": "Michelada (Miche Fest 2025 entry)",
+     "style": "michelada",
+     "price": null,
+     "beer_used": null,
+     "mix": null,
+     "description": "This family-run Mexican-American tavern competed in the 2025 Miche Fest. It sits across the street from Zócalo. Its recipe is not published.",
+     "rim": null,
+     "garnishes": [],
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://www.tastingtable.com/1102994/super-garnished-michelada-recipe/",
+      "https://www.clamato.com/en/amp/recipes/shrimp-michelada"
+     ],
+     "verified_detail_level": "competition entrant only",
+     "garnish_icons": []
+    }
+   ],
+   "food_pairing": "Walk across 6th St to the Zócalo trucks.",
+   "vibe": "Opened 1983 by Daniel Camacho (mural on the building); now run by his son Jesse. One of the last Mexican-American-owned bars in Walker's Point, largely unchanged since the '80s.",
+   "why_go": "A 40-plus-year neighborhood institution pouring a Miche Fest michelada, con amor.",
+   "reviews_summary": "WUWM (2024) portrayed it as a beloved neighborhood anchor where regulars feel at home.",
+   "notable_press": [
+    {
+     "outlet": "WUWM 89.7",
+     "title": "Camacho's, one of the last Mexican bars in Walker's Point",
+     "url": "https://www.wuwm.com/2024-05-08/camachos-one-of-the-last-mexican-bars-in-walkers-point",
+     "year": 2024
+    }
+   ],
+   "sources": [
+    "https://www.wuwm.com/2024-05-08/camachos-one-of-the-last-mexican-bars-in-walkers-point",
+    "https://urbanmilwaukee.com/2025/04/20/now-serving-zocalo-hosting-inaugural-miche-fest/"
+   ],
+   "rank": 7,
+   "notes": "Coordinates from the US Census Bureau geocoder (address-range interpolation, accurate to roughly a block). Walk/drive times are straight-line estimates x1.3, not routed.",
+   "group": "michelada",
+   "meal_service": "Tavern (no food verified)",
+   "status_flags": []
+  },
+  {
+   "id": "banderas",
+   "name": "Banderas",
+   "address": "408 W Florida St, Milwaukee, WI 53204",
+   "lat": 43.027427,
+   "lng": -87.915585,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Banderas+408+W+Florida+St%2C+Milwaukee%2C+WI+53204",
+   "website": null,
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 22,
+   "drive_minutes": 5,
+   "neighborhood": "Walker's Point",
+   "serves_breakfast": null,
+   "brunch_days": "Weekend breakfast was planned 'as hours expand' (Aug 2025); not confirmed",
+   "hours_this_weekend": {
+    "sat": "Opens 4 PM (as of Aug 2025)",
+    "sun": "Opens 4 PM (as of Aug 2025)",
+    "mon": "Opens 4 PM (as of Aug 2025)",
+    "note": "Opening hours from the Aug 2025 Urban Milwaukee opening story; World Cup coverage (July 2026) mentions match-driven hours. Check its Instagram or Facebook for weekend morning soccer openings."
+   },
+   "has_bar": true,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": null,
+   "price_range": "$$",
+   "drinks": [
+    {
+     "name": "Micheladas ('hangover helpers')",
+     "style": "michelada",
+     "price": null,
+     "beer_used": null,
+     "mix": null,
+     "description": "Banderas, a Latin tavern built around soccer, lists micheladas among its weekend 'hangover helpers' alongside Bloody Marias and coconut water served in the shell. Recipe and garnish are not published.",
+     "rim": null,
+     "garnishes": [],
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://www.tastingtable.com/1102994/super-garnished-michelada-recipe/",
+      "https://www.clamato.com/en/amp/recipes/shrimp-michelada"
+     ],
+     "verified_detail_level": "exists only",
+     "garnish_icons": []
+    },
+    {
+     "name": "Agave flight with housemade sangritas",
+     "style": "sangrita",
+     "price": null,
+     "beer_used": null,
+     "mix": null,
+     "description": "Tequila and mezcal flights come with several housemade sangritas, the tart, chile-spiked chaser often built on tomato or citrus. It is the most direct sangrita option found in Milwaukee for this research.",
+     "rim": null,
+     "garnishes": [],
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [],
+     "verified_detail_level": "exists only",
+     "garnish_icons": []
+    }
+   ],
+   "food_pairing": "Bacon-wrapped Sonoran hot dog, birria pizza, Argentinian-style ribs from the in-house stall.",
+   "vibe": "'All the flags' Latin American soccer tavern from Caravan Hospitality; Spanish-language matches on TV and a bilingual staff.",
+   "why_go": "Sangrita flights and micheladas at a futbol bar, about 20 minutes on foot from the hotel; better as a pre-show stop.",
+   "reviews_summary": null,
+   "notable_press": [
+    {
+     "outlet": "Urban Milwaukee",
+     "title": "Latin-Inspired Tavern Opens in Walker's Point",
+     "url": "https://urbanmilwaukee.com/2025/08/12/latin-inspired-tavern-opens-in-walkers-point/",
+     "year": 2025
+    },
+    {
+     "outlet": "Hoodline",
+     "title": "Walker's Point scores fiery new futbol bar loaded with tequila",
+     "url": "https://hoodline.com/2026/07/walker-s-point-scores-fiery-new-futbol-bar-loaded-with-tequila/",
+     "year": 2026
+    }
+   ],
+   "sources": [
+    "https://urbanmilwaukee.com/2025/08/12/latin-inspired-tavern-opens-in-walkers-point/",
+    "https://urbanmilwaukee.com/pressrelease/banderas-hosts-grand-opening-weekend-in-walkers-point-august-15th-17th/",
+    "https://urbanmilwaukee.com/business/banderas"
+   ],
+   "rank": 8,
+   "notes": "Coordinates from the US Census Bureau geocoder (address-range interpolation, accurate to roughly a block). Walk/drive times are straight-line estimates x1.3, not routed.",
+   "group": "michelada",
+   "meal_service": "Street-food stall (tortas, enchiladas, birria pizza, Sonoran hot dogs); a weekend breakfast menu was announced but not confirmed",
+   "status_flags": [
+    "Open as of July 2026. Morning hours unlikely unless they open for a soccer match."
+   ]
+  },
+  {
+   "id": "el-senorial",
+   "name": "El Señorial Mexican Restaurant",
+   "address": "1901 S 31st St, Milwaukee, WI 53215",
+   "lat": 43.010294,
+   "lng": -87.952867,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=El+Se%C3%B1orial+Mexican+Restaurant+1901+S+31st+St%2C+Milwaukee%2C+WI+53215",
+   "website": null,
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": null,
+   "drive_minutes": 12,
+   "neighborhood": "Burnham Park (South Side)",
+   "serves_breakfast": true,
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": null,
+    "sun": null,
+    "mon": null,
+    "note": "Hours not published in sources found; Milwaukee Magazine tags it 'Open for Breakfast' and 'Late Night'. Phone (414) 385-9506."
+   },
+   "has_bar": true,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": null,
+   "price_range": "$ to $$",
+   "drinks": [
+    {
+     "name": "Michelada",
+     "style": "michelada",
+     "price": null,
+     "beer_used": null,
+     "mix": null,
+     "description": "Milwaukee Record's 2021 roundup of favorite Mexican spots said El Señorial's micheladas are always well made and go with everything. That makes it the most praised michelada in the press found for this research, but there are no recipe details.",
+     "rim": null,
+     "garnishes": [],
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://www.tastingtable.com/1102994/super-garnished-michelada-recipe/",
+      "https://www.clamato.com/en/amp/recipes/shrimp-michelada"
+     ],
+     "verified_detail_level": "praised by a reviewer; no menu listing",
+     "garnish_icons": []
+    }
+   ],
+   "food_pairing": "Caldos (chicken or beef), camarones a la diabla, parrillada, chilaquiles.",
+   "vibe": "Old-school family Mexican restaurant on the near southwest side.",
+   "why_go": "The one Milwaukee michelada a food writer singled out by name; good for a rideshare caldo-and-miche recovery brunch.",
+   "reviews_summary": "Milwaukee Record (2021, updated 2024) praised the micheladas. Shepherd Express (2014) liked the caldos and carne asada.",
+   "notable_press": [
+    {
+     "outlet": "Milwaukee Record",
+     "title": "My favorite Mexican restaurants in Milwaukee",
+     "url": "https://milwaukeerecord.com/food-drink/my-favorite-mexican-restaurants-in-milwaukee/",
+     "year": 2021
+    },
+    {
+     "outlet": "Shepherd Express",
+     "title": "El Señorial Serves Mexican Tradition With a Side of Surprise",
+     "url": "https://shepherdexpress.com/food/dining-preview/el-senorial-serves-mexican-tradition-with-side-surprise",
+     "year": 2014
+    }
+   ],
+   "sources": [
+    "https://milwaukeerecord.com/food-drink/my-favorite-mexican-restaurants-in-milwaukee/",
+    "https://www.milwaukeemag.com/rest_directory/listing/el-senorial",
+    "https://www.allmenus.com/wi/milwaukee/9656-el-senorial/menu/"
+   ],
+   "rank": 9,
+   "notes": "Coordinates from the US Census Bureau geocoder (address-range interpolation, accurate to roughly a block). Walk/drive times are straight-line estimates x1.3, not routed.",
+   "group": "michelada",
+   "meal_service": "Breakfast served anytime (huevos, chilaquiles) plus full menu",
+   "status_flags": [
+    "No 2025 to 2026 confirmation found. Call before going."
+   ]
+  },
+  {
+   "id": "betos-pizza",
+   "name": "Beto's Pizza",
+   "address": "1234 S Cesar E Chavez Dr, Milwaukee, WI 53204",
+   "lat": 43.0187,
+   "lng": -87.932985,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Beto%27s+Pizza+1234+S+Cesar+E+Chavez+Dr%2C+Milwaukee%2C+WI+53204",
+   "website": "https://www.betosmenu.com/",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 48,
+   "drive_minutes": 9,
+   "neighborhood": "Clarke Square / Cesar Chavez Dr",
+   "serves_breakfast": false,
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": "Open until about 11:15 PM (opening time unknown)",
+    "sun": null,
+    "mon": null,
+    "note": "Only a closing time was visible on Slice; full hours not verified."
+   },
+   "has_bar": null,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": null,
+   "price_range": "$ to $$",
+   "drinks": [
+    {
+     "name": "Beto's Michelada Mix (to go)",
+     "style": "michelada",
+     "price": "$14 and $30 sizes listed on Slice",
+     "beer_used": null,
+     "mix": null,
+     "description": "Beto's bills itself as having 'the best michelada in town' and sells its house michelada mix in two sizes for takeout. You could bring a mix back to the Drury and build your own with a can of Mexican lager. Ingredients are not described.",
+     "rim": null,
+     "garnishes": [],
+     "size_options": "Two mix sizes ($14, $30); volume not stated",
+     "recipe": null,
+     "photo_refs": [
+      "https://www.betosmenu.com/",
+      "https://www.tastingtable.com/1102994/super-garnished-michelada-recipe/",
+      "https://www.clamato.com/en/amp/recipes/shrimp-michelada"
+     ],
+     "verified_detail_level": "mix sold by the container; contents not described",
+     "garnish_icons": []
+    }
+   ],
+   "food_pairing": "Chicago-style pizza, wings.",
+   "vibe": "Neighborhood pizza joint on the Cesar Chavez corridor; also has a Racine location.",
+   "why_go": "A take-home michelada mix for a hotel-room miche before the show.",
+   "reviews_summary": null,
+   "notable_press": [],
+   "sources": [
+    "https://www.betosmenu.com/",
+    "https://slicelife.com/restaurants/wi/milwaukee/53204/beto-s-pizza-milwaukee/menu"
+   ],
+   "rank": 10,
+   "notes": "Coordinates from the US Census Bureau geocoder (address-range interpolation, accurate to roughly a block). Walk/drive times are straight-line estimates x1.3, not routed.",
+   "group": "michelada",
+   "meal_service": "Lunch and dinner (pizza, wings, nachos, burgers)",
+   "status_flags": []
+  },
+  {
+   "id": "tauro-cocina",
+   "name": "Tauro Cocina",
+   "address": "1758 N Water St, Milwaukee, WI 53202",
+   "lat": 43.053535,
+   "lng": -87.903478,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Tauro+Cocina+1758+N+Water+St%2C+Milwaukee%2C+WI+53202",
+   "website": "https://taurococina.com/",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 28,
+   "drive_minutes": 6,
+   "neighborhood": "Lower East Side (Water St)",
+   "serves_breakfast": false,
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": "4 PM to 10 PM",
+    "sun": "4 PM to 9 PM",
+    "mon": null,
+    "note": "Monday not listed (likely closed). Evening only, so not a morning option. Phone (414) 488-2941."
+   },
+   "has_bar": true,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": "Likely; check the site",
+   "price_range": "$$ to $$$",
+   "drinks": [
+    {
+     "name": "Michelada (Miche Fest 2025 entry)",
+     "style": "michelada",
+     "price": null,
+     "beer_used": null,
+     "mix": null,
+     "description": "This mezcal-focused cocktail bar competed at Miche Fest 2025. Its Tajín-rimmed Toro Mambo shows how it handles chile rims. The michelada's build is not published.",
+     "rim": "Bar uses Tajín rims on other cocktails (Toro Mambo); michelada rim unverified",
+     "garnishes": [],
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://onmilwaukee.com/articles/cocktail-porn-tauro-cocina"
+     ],
+     "verified_detail_level": "competition entrant only",
+     "garnish_icons": [
+      "tajin-rim"
+     ]
+    }
+   ],
+   "food_pairing": "Mexican-Italian plates.",
+   "vibe": "Cocktail-forward room in the former Trocadero building.",
+   "why_go": "Evening backup: a Miche Fest contender close to the hotel, on the walk home along Water St.",
+   "reviews_summary": null,
+   "notable_press": [
+    {
+     "outlet": "OnMilwaukee",
+     "title": "Cocktail porn: Tauro Cocina",
+     "url": "https://onmilwaukee.com/articles/cocktail-porn-tauro-cocina",
+     "year": 2023
+    }
+   ],
+   "sources": [
+    "https://taurococina.com/",
+    "https://urbanmilwaukee.com/2025/04/20/now-serving-zocalo-hosting-inaugural-miche-fest/"
+   ],
+   "rank": 11,
+   "notes": "Coordinates from the US Census Bureau geocoder (address-range interpolation, accurate to roughly a block). Walk/drive times are straight-line estimates x1.3, not routed.",
+   "group": "michelada",
+   "meal_service": "Dinner only (Mexican-Italian)",
+   "status_flags": [
+    "Evening only."
+   ]
+  },
+  {
+   "id": "birch-tomato-martini",
+   "name": "Birch",
+   "address": "459 E Pleasant St, Milwaukee, WI 53202",
+   "lat": 43.051007,
+   "lng": -87.906766,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Birch+459+E+Pleasant+St%2C+Milwaukee%2C+WI+53202",
+   "website": "https://birchonpleasant.com/",
+   "yelp_url": null,
+   "yelp_photos_url": null,
+   "walk_minutes_from_hotel": 23,
+   "drive_minutes": 5,
+   "neighborhood": "Lower East Side / Brewers Hill edge",
+   "serves_breakfast": false,
+   "brunch_days": null,
+   "hours_this_weekend": {
+    "sat": "5 PM to 10 PM",
+    "sun": null,
+    "mon": null,
+    "note": "Sun and Mon not listed (likely closed). Evening only. Reservations via OpenTable, 414-323-7372."
+   },
+   "has_bar": true,
+   "has_patio": null,
+   "patio_heated": null,
+   "reservations": "Yes (OpenTable)",
+   "price_range": "$$$",
+   "drinks": [
+    {
+     "name": "Tomato Martini",
+     "style": "other",
+     "price": null,
+     "beer_used": null,
+     "mix": "Gin, tomato, cilantro vodka, blanc vermouth (per WUWM Sept 2026)",
+     "description": "A savory, clear-ish martini built on tomato, cilantro-infused vodka and blanc vermouth. Radio Milwaukee called its return one of the city's best seasonal savory drinks. It is seasonal (late summer), so confirm it is still on the list in late October.",
+     "rim": null,
+     "garnishes": [
+      "Sun Gold cherry tomato"
+     ],
+     "size_options": null,
+     "recipe": null,
+     "photo_refs": [
+      "https://www.wuwm.com/arts-culture/2026-09-08/best-martinis-milwaukee-martini-expo-chicago-2026",
+      "https://radiomilwaukee.org/podcast/this-bites/2026-09-04/new-milwaukee-restaurants-tomato-martini"
+     ],
+     "verified_detail_level": "ingredients and garnish published",
+     "garnish_icons": [
+      "tomato"
+     ]
+    }
+   ],
+   "food_pairing": "Wood-fired seasonal plates.",
+   "vibe": "Wood-fired, chef-driven dinner spot; New York Times Restaurant List 2023.",
+   "why_go": "The fanciest tomato drink in town, if it is still in season; Saturday dinner only.",
+   "reviews_summary": "Radio Milwaukee (2026) called the tomato martini one of the city's best savory drinks.",
+   "notable_press": [
+    {
+     "outlet": "WUWM 89.7",
+     "title": "Milwaukee martinis to try in September",
+     "url": "https://www.wuwm.com/arts-culture/2026-09-08/best-martinis-milwaukee-martini-expo-chicago-2026",
+     "year": 2026
+    },
+    {
+     "outlet": "Radio Milwaukee (This Bites)",
+     "title": "New Milwaukee restaurants and the tomato martini",
+     "url": "https://radiomilwaukee.org/podcast/this-bites/2026-09-04/new-milwaukee-restaurants-tomato-martini",
+     "year": 2026
+    },
+    {
+     "outlet": "The New York Times",
+     "title": "The Restaurant List 2023: Birch",
+     "url": "https://en.wikipedia.org/wiki/Birch_(restaurant)",
+     "year": 2023
+    }
+   ],
+   "sources": [
+    "https://birchonpleasant.com/",
+    "https://www.wuwm.com/arts-culture/2026-09-08/best-martinis-milwaukee-martini-expo-chicago-2026",
+    "https://radiomilwaukee.org/podcast/this-bites/2026-09-04/new-milwaukee-restaurants-tomato-martini"
+   ],
+   "rank": 12,
+   "notes": "Coordinates from the US Census Bureau geocoder (address-range interpolation, accurate to roughly a block). Walk/drive times are straight-line estimates x1.3, not routed.",
+   "group": "michelada",
+   "meal_service": "Dinner only",
+   "status_flags": [
+    "Seasonal drink; evening only. NYT link given via Wikipedia's citation."
+   ]
+  }
+ ],
+ "culture": [
+  {
+   "fact": "In Wisconsin a Bloody Mary traditionally arrives with a small free beer on the side to chase it. A Wisconsin historian told WUWM that beer chasers were established before Bloody Marys caught on in the 1950s, and that the custom exists in Minnesota, Iowa, Illinois and Michigan but its heart is Wisconsin.",
+   "source": "https://www.wuwm.com/regional/2016-09-23/in-wisconsin-a-bloody-mary-isnt-complete-unless-it-has-a-beer-chaser"
+  },
+  {
+   "fact": "That little beer is called a 'snit.' Brian Bartels, the Wisconsin-raised author of 'The Bloody Mary' (Ten Speed Press), describes it as about a 3 oz pour, an example of 'tandem drinking' like a boilermaker. InsideHook dates the snit ritual to sometime in the 1980s.",
+   "source": "https://www.insidehook.com/article/booze/wisconsin-american-cocktail-drinking-capitol ; https://punchdrink.com/recipes/state-street-bloody-mary/"
+  },
+  {
+   "fact": "Chaser beers vary by bar: a baby Miller High Life (Honeypie), a short Rhinelander or Hopewell's 8 oz 'Lil' Buddy' can, Spotted Cow (Eldr+Rime), or Miller Lite in a little plastic cup (Sobelman's). Bay View bartender Matt Langoehr compared it to the water back served with bourbon.",
+   "source": "https://www.islands.com/2218132/unwritten-rules-know-before-visit-milwaukee-wisconsin-city/ ; https://www.wuwm.com/regional/2016-09-23/in-wisconsin-a-bloody-mary-isnt-complete-unless-it-has-a-beer-chaser"
+  },
+  {
+   "fact": "Milwaukee's garnish arms race has a start date. In 2012 Dave Sobelman stuck a cheeseburger slider on a skewer in a Bloody Mary and posted it on Facebook; the post went viral and set off an unspoken competition among Milwaukee bars. His earlier garnishes came from the neighboring Bay View Packing plant.",
+   "source": "https://vinepair.com/articles/how-the-bloody-mary-garnish-lost-its-mind"
+  },
+  {
+   "fact": "Sobelman's 'Bloody Beast' began in 2014 as a joke when a server brought in an 80-ounce Mason jar. It's now a whole fried chicken on an 80 oz bloody ($65 in 2026). Up to a third of Sobelman's business is Bloody Marys, and about half its weekend crowd is from out of town.",
+   "source": "https://vinepair.com/articles/how-the-bloody-mary-garnish-lost-its-mind ; https://urbanmilwaukee.com/2026/03/07/dining-sobelmans-offers-classic-burgers/"
+  },
+  {
+   "fact": "Wisconsin didn't invent the Bloody Mary, and no research proves meat-tower garnishes started there, but Bartels credits the state as the likely source of the beer chaser. Historian Jim Draeger worried the chaser is fading as elaborate garnishes take center stage.",
+   "source": "https://www.milwaukeemag.com/best-milwaukee-bloody-mary/ ; https://www.wuwm.com/regional/2016-09-23/in-wisconsin-a-bloody-mary-isnt-complete-unless-it-has-a-beer-chaser"
+  },
+  {
+   "fact": "The Bloody Mary's origin is contested. Fernand 'Pete' Petiot is usually credited, from Harry's New York Bar in Paris around 1921 and later the St. Regis King Cole Bar in New York, where it was renamed the 'Red Snapper'. George Jessel claimed a 1927 Palm Beach invention, and the earliest print reference to a 'Bloody Mary' as half tomato juice, half vodka is a December 1939 Lucius Beebe column.",
+   "source": "https://www.diffordsguide.com/encyclopedia/496/cocktails/the-history-of-the-bloody-mary"
+  },
+  {
+   "fact": "The Caesar is Canada's cousin of the bloody. Bartender Walter Chell created it in 1969 at the Calgary Inn for the opening of its Italian restaurant, Marco's, inspired by spaghetti alle vongole. He mashed clams into a 'clam nectar' for the tomato base, and Canadians now drink more than 400 million Caesars a year.",
+   "source": "https://thecanadianencyclopedia.ca/en/article/caesar-cocktail"
+  },
+  {
+   "fact": "Clamato (tomato juice with clam broth) was introduced by the Duffy-Mott Company in 1969, the same year as the Caesar, and is now the standard Caesar base. Chell told the Toronto Star his secret was a dash of oregano, and that he didn't use Tabasco.",
+   "source": "https://thecanadianencyclopedia.ca/en/article/caesar-cocktail"
+  },
+  {
+   "fact": "Milwaukee crowns bloodies every year. 'MKE's Best Bloody,' a benefit for the Great Lakes Hemophilia Foundation, held its 14th edition on March 1, 2026 at 3rd Street Market Hall: Best Overall went to Patti's Power Plant, Most Inventive to Red Maple MKE, Most Milwaukee to Burnsie's Bar & Grill, and Most Like a Meal to Smokin' Jack's BBQ. It raised more than $55,000. Separately, the Bloody Mary Festival-Wisconsin held its 6th edition at the Harley-Davidson Museum on June 21, 2025.",
+   "source": "https://milwaukeerecord.com/food-drink/and-milwaukees-best-bloody-of-2026-is/ ; https://milwaukeerecord.com/press-release/the-bloody-mary-festival-returns-to-milwaukee-at-a-new-venue/"
+  },
+  {
+   "fact": "Wisconsin's other brunch-adjacent drink is the Brandy Old Fashioned, the unofficial state cocktail. It's made with muddled sugar, orange, cherry and bitters, a heavy pour of cheap domestic brandy (typically Korbel), and ordered 'sweet,' 'sour' or 'press.' It's a staple of the state's roughly 250 supper clubs.",
+   "source": "https://www.insidehook.com/article/booze/wisconsin-american-cocktail-drinking-capitol"
+  },
+  {
+   "fact": "Odd but true: Wisconsin makes a cheddar-cheese-flavored vodka called Cheddka, sold only in-state as of early 2026 and pitched for Bloody Marys.",
+   "source": "https://www.islands.com/2108446/milwaukee-wisconsin-bloody-mary-capital-world-midwest-city-outrageous-cocktail-culture"
+  },
+  {
+   "fact": "One origin story credits Michel Ésper at the Club Deportivo Potosino in San Luis Potosí in the 1960s. He asked for beer with lime, salt and ice, and members started ordering 'Michel's limonada', which was shortened to 'michelada'.",
+   "source": "https://en.wikipedia.org/wiki/Michelada (citing Los Angeles Times, 'Soul on Ice', 2003)"
+  },
+  {
+   "fact": "The other popular etymology reads 'michelada' as a mash-up of 'mi chela helada', meaning 'my ice-cold beer'. 'Chela' is Mexican slang for beer.",
+   "source": "https://en.wikipedia.org/wiki/Michelada (citing Los Angeles Times 2003 and Texas Monthly 2014)"
+  },
+  {
+   "fact": "A chelada is the simple version: beer, lime and salt. A michelada adds spice and a juice or purée such as Clamato, tomato or hot sauce, though usage varies by region. Budweiser's 2008 'Chelada' was the first prepackaged michelada-style drink sold in the US.",
+   "source": "https://punchdrink.com/articles/what-is-a-michelada-beer-cocktail-recipe/ (Punch, 2019)"
+  },
+  {
+   "fact": "Clamato in its modern form was launched by Duffy-Mott in 1966 as a Manhattan clam chowder-inspired tomato cocktail. Keurig Dr Pepper now owns it, and in Mexico it is a standard michelada mixer.",
+   "source": "https://en.wikipedia.org/wiki/Clamato"
+  },
+  {
+   "fact": "Red beer (light lager plus tomato juice) is an upper-Midwest staple, especially in Nebraska and Minnesota. It also goes by Red Eye, Red Rooster, Red Draw, Bloody Beer and Montana Mary, and some drinkers add a raw egg.",
+   "source": "https://vinepair.com/articles/red-beer-midwest/ (VinePair, 2021)"
+  },
+  {
+   "fact": "Red beer is typically a morning or early-afternoon drink. One theory ties it to canned tomato juice, which became widely available in the 1930s and '40s.",
+   "source": "https://www.chowhound.com/1877262/red-beer-bloody-mary-alternative (Chowhound, 2025)"
+  },
+  {
+   "fact": "Wisconsin's tomato-and-beer ritual is the 'chaser' or 'snit', a short glass of beer served alongside a Bloody Mary. Bartenders outside Wisconsin and parts of Minnesota often don't know the custom, and Milwaukee bars pour Miller Lite, Schlitz or a pony of Miller.",
+   "source": "https://onmilwaukee.com/articles/milwaukee-og-bloody-mary-chaser (OnMilwaukee, 2022); https://www.insidehook.com/drinks/wisconsin-american-cocktail-drinking-capitol (InsideHook, 2020, dates the snit ritual to roughly the 1980s)"
+  },
+  {
+   "fact": "Milwaukee now has its own Michelada Fest at Zócalo Food Park in Walker's Point. The first was April 26, 2025, presented by Pilot Project Brewing with 15 competing bars, and the second was April 25, 2026.",
+   "source": "https://urbanmilwaukee.com/2025/04/20/now-serving-zocalo-hosting-inaugural-miche-fest/; https://milwaukeerecord.com/press-release/zocalo-food-park-hosts-second-annual-michelada-fest-on-april-25/"
+  }
+ ],
+ "recipes": [
+  {
+   "name": "Bloody Mary (Difford's recipe)",
+   "style": "bloody mary",
+   "serves": 1,
+   "ingredients": [
+    {
+     "amount": "1/2",
+     "unit": "ring",
+     "item": "yellow bell pepper (optional, muddled)"
+    },
+    {
+     "amount": "1 1/2",
+     "unit": "fl oz",
+     "item": "vodka (Difford's specifies Ketel One)"
+    },
+    {
+     "amount": "2 1/4",
+     "unit": "fl oz",
+     "item": "tomato juice"
+    },
+    {
+     "amount": "1/3",
+     "unit": "fl oz",
+     "item": "amontillado sherry (Difford's specifies Lustau Los Arcos)"
+    },
+    {
+     "amount": "1/3",
+     "unit": "fl oz",
+     "item": "fresh lemon juice"
+    },
+    {
+     "amount": "1/4",
+     "unit": "fl oz",
+     "item": "rich (2:1) sugar syrup"
+    },
+    {
+     "amount": "2",
+     "unit": "pinches",
+     "item": "celery salt"
+    },
+    {
+     "amount": "3",
+     "unit": "grinds",
+     "item": "black pepper"
+    },
+    {
+     "amount": "8",
+     "unit": "drops",
+     "item": "Tabasco or other vinegar-based red hot sauce"
+    },
+    {
+     "amount": "4",
+     "unit": "dashes",
+     "item": "Worcestershire sauce"
+    }
+   ],
+   "steps": [
+    "Chill a Collins glass.",
+    "Muddle the bell pepper in the base of a shaker.",
+    "Add the remaining ingredients and ice, then roll the drink between the shaker halves rather than shaking it.",
+    "Fine strain into the glass over fresh ice (straight from the freezer, to limit dilution)."
+   ],
+   "garnish_ideas": [
+    "celery stalk",
+    "cherry tomato",
+    "yellow bell pepper slice"
+   ],
+   "rim": "Optional: moisten the outside edge with lime juice and dip in salt (celery salt works well).",
+   "source_name": "Difford's Guide",
+   "source_url": "https://www.diffordsguide.com/en-au/cocktails/recipe/2307/bloody-mary-diffords-recipe",
+   "garnish_icons": [
+    "celery",
+    "tomato",
+    "pepper"
+   ]
+  },
+  {
+   "name": "Bloody Maria",
+   "style": "bloody maria",
+   "serves": 1,
+   "ingredients": [
+    {
+     "amount": "2",
+     "unit": "fl oz",
+     "item": "reposado tequila (100% agave)"
+    },
+    {
+     "amount": "4",
+     "unit": "fl oz",
+     "item": "tomato juice"
+    },
+    {
+     "amount": "1/2",
+     "unit": "fl oz",
+     "item": "fresh lemon juice"
+    },
+    {
+     "amount": "1/2",
+     "unit": "fl oz",
+     "item": "tawny port"
+    },
+    {
+     "amount": "8",
+     "unit": "drops",
+     "item": "Tabasco or other vinegar-based red hot sauce"
+    },
+    {
+     "amount": "4",
+     "unit": "dashes",
+     "item": "Worcestershire sauce"
+    },
+    {
+     "amount": "1/2",
+     "unit": "barspoon",
+     "item": "horseradish sauce"
+    },
+    {
+     "amount": "2",
+     "unit": "pinches",
+     "item": "celery salt"
+    },
+    {
+     "amount": "2",
+     "unit": "grinds",
+     "item": "black pepper"
+    }
+   ],
+   "steps": [
+    "Chill a Collins glass, then rim it (see rim).",
+    "Roll all ingredients with ice between shaker halves; do not shake.",
+    "Strain into the glass over fresh ice."
+   ],
+   "garnish_ideas": [
+    "lime wedge",
+    "cilantro sprigs",
+    "celery stalk"
+   ],
+   "rim": "Moisten the outside edge with lime or orange juice and dip in salt mixed with cracked black pepper.",
+   "source_name": "Difford's Guide",
+   "source_url": "https://www.diffordsguide.com/cocktails/recipe/248/bloody-maria",
+   "garnish_icons": [
+    "lime",
+    "herb",
+    "celery",
+    "pepper"
+   ]
+  },
+  {
+   "name": "Classic Caesar",
+   "style": "caesar",
+   "serves": 1,
+   "ingredients": [
+    {
+     "amount": "1",
+     "unit": "oz",
+     "item": "vodka"
+    },
+    {
+     "amount": "4",
+     "unit": "oz",
+     "item": "Mott's Clamato Original"
+    },
+    {
+     "amount": "2",
+     "unit": "dashes",
+     "item": "hot sauce"
+    },
+    {
+     "amount": "4",
+     "unit": "dashes",
+     "item": "Worcestershire sauce"
+    },
+    {
+     "amount": "3",
+     "unit": "grinds",
+     "item": "fresh cracked salt and pepper"
+    },
+    {
+     "amount": null,
+     "unit": null,
+     "item": "ice"
+    }
+   ],
+   "steps": [
+    "Rim a tall glass with celery salt (or Clamato rimmer).",
+    "Add the vodka, hot sauce, Worcestershire and cracked pepper.",
+    "Fill the glass with ice and top with Clamato.",
+    "Stir well and garnish."
+   ],
+   "garnish_ideas": [
+    "celery stalk",
+    "lime wedge",
+    "pickled green bean (Difford's version)"
+   ],
+   "rim": "Celery salt (Mott's Clamato Rimmer optional)",
+   "source_name": "Mott's Clamato (Canada); the same build appears in The Canadian Encyclopedia's Caesar entry. Difford's Bloody Caesar is a stronger alternative: 2 oz vodka, 4 oz Clamato, 1/2 oz lemon juice, 7 drops Tabasco, 3 dashes Worcestershire, celery salt and pepper.",
+   "source_url": "https://mottsclamato.ca/recipes/classic-caesar-recipe/",
+   "alt_source_url": "https://www.diffordsguide.com/cocktails/recipe/557/bloody-caesar",
+   "garnish_icons": [
+    "celery",
+    "lime",
+    "pickle"
+   ]
+  },
+  {
+   "name": "State Street Bloody Mary (Wisconsin-style, with a snit)",
+   "style": "bloody mary",
+   "serves": 1,
+   "batch_mix_serves": 10,
+   "ingredients": [
+    {
+     "amount": "1 1/2",
+     "unit": "oz",
+     "item": "vodka (Bartels prefers Wisconsin's Death's Door; any clear spirit works)"
+    },
+    {
+     "amount": "5",
+     "unit": "oz",
+     "item": "State Street Bloody Mary mix (batch below)"
+    },
+    {
+     "amount": null,
+     "unit": null,
+     "item": "freshly ground black pepper, to taste"
+    },
+    {
+     "amount": "3",
+     "unit": "oz",
+     "item": "beer, poured on the side as the snit"
+    },
+    {
+     "amount": "44",
+     "unit": "oz",
+     "item": "MIX: tomato juice"
+    },
+    {
+     "amount": "2",
+     "unit": "oz",
+     "item": "MIX: inexpensive mezcal (Del Maguey Vida)"
+    },
+    {
+     "amount": "2",
+     "unit": "oz",
+     "item": "MIX: Worcestershire sauce"
+    },
+    {
+     "amount": "1",
+     "unit": "oz",
+     "item": "MIX: Tabasco Chipotle sauce"
+    },
+    {
+     "amount": "1/2",
+     "unit": "oz",
+     "item": "MIX: soy sauce"
+    },
+    {
+     "amount": "1/2",
+     "unit": "oz",
+     "item": "MIX: Sriracha"
+    },
+    {
+     "amount": "1",
+     "unit": "tbsp",
+     "item": "MIX: molasses"
+    },
+    {
+     "amount": "1",
+     "unit": "tbsp",
+     "item": "MIX: Old Bay seasoning"
+    },
+    {
+     "amount": "1 1/4",
+     "unit": "tsp",
+     "item": "MIX: cracked black pepper"
+    },
+    {
+     "amount": "3/4",
+     "unit": "tsp",
+     "item": "MIX: ground white pepper"
+    }
+   ],
+   "steps": [
+    "Make the mix: combine all MIX ingredients in a large pitcher, then refrigerate in a sealed container (keeps up to two weeks; makes about 50 oz, or 10 drinks).",
+    "Combine the vodka and 5 oz of mix in a shaker tin.",
+    "Roll between two tins several times to combine.",
+    "Pour into a rocks glass filled with ice and top with black pepper.",
+    "Garnish, and serve with a 3 oz beer snit on the side."
+   ],
+   "garnish_ideas": [
+    "cured meats on a skewer (the published garnish)",
+    "celery stalk (the published garnish)",
+    "Milwaukee load-out suggestions, not part of the published recipe: Wisconsin cheese curds, beef stick, pickle spear, pickled Brussels sprout, pickled asparagus, shrimp, bacon, olive, and a cheeseburger slider on top if you're going full Sobelman's"
+   ],
+   "rim": "None in the published recipe; celery salt is the classic Wisconsin choice.",
+   "snit_suggestion": "A short pour of a light lager: Miller High Life, Spotted Cow or Lakefront Riverwest Stein, as Milwaukee bars do.",
+   "source_name": "Brian Bartels (author of 'The Bloody Mary'; learned to bartend on State Street in Madison, WI), via PUNCH",
+   "source_url": "https://punchdrink.com/recipes/state-street-bloody-mary/",
+   "garnish_icons": [
+    "celery",
+    "slider"
+   ]
+  },
+  {
+   "name": "Michelada (Dressed Up Mexican Beer)",
+   "style": "michelada",
+   "serves": 1,
+   "ingredients": [
+    {
+     "amount": "1",
+     "unit": "",
+     "item": "chilled beer mug"
+    },
+    {
+     "amount": "",
+     "unit": "",
+     "item": "kosher or sea salt, for the rim"
+    },
+    {
+     "amount": "1",
+     "unit": "wedge",
+     "item": "lime, for the rim"
+    },
+    {
+     "amount": "",
+     "unit": "",
+     "item": "ice cubes (optional)"
+    },
+    {
+     "amount": "2 to 3",
+     "unit": "tbsp",
+     "item": "freshly squeezed lime juice"
+    },
+    {
+     "amount": "1",
+     "unit": "bottle",
+     "item": "chilled beer, preferably Mexican"
+    },
+    {
+     "amount": "1",
+     "unit": "dash",
+     "item": "hot sauce such as Tabasco, Cholula or Valentina (optional, for michelada especial)"
+    },
+    {
+     "amount": "1",
+     "unit": "dash",
+     "item": "salty sauce such as soy sauce, Worcestershire or Maggi (optional)"
+    },
+    {
+     "amount": "1",
+     "unit": "pinch",
+     "item": "freshly ground black pepper (optional)"
+    },
+    {
+     "amount": "1",
+     "unit": "pinch",
+     "item": "kosher or coarse sea salt (optional)"
+    }
+   ],
+   "steps": [
+    "Spread salt on a small plate, rub the mug rim with the lime wedge, and dip the rim in the salt.",
+    "Basic version: add ice if using, pour in the lime juice, then the beer.",
+    "Michelada especial: add the optional seasonings to the salted mug, stir lightly, then pour in the beer."
+   ],
+   "rim": "Salt",
+   "garnish_ideas": [
+    "lime wheel",
+    "Tajín sprinkle",
+    "chamoy-dipped rim"
+   ],
+   "source_name": "Pati Jinich (Pati's Mexican Table, Season 3)",
+   "source_url": "https://patijinich.com/michelada/",
+   "garnish_icons": [
+    "lime",
+    "tajin-rim"
+   ]
+  },
+  {
+   "name": "Michelada con Camarones (Clamato michelada with shrimp)",
+   "style": "clamato beer",
+   "serves": 4,
+   "ingredients": [
+    {
+     "amount": "24",
+     "unit": "",
+     "item": "cooked, peeled shrimp"
+    },
+    {
+     "amount": "2 1/2",
+     "unit": "cups",
+     "item": "Clamato juice"
+    },
+    {
+     "amount": "1/2",
+     "unit": "cup",
+     "item": "lime juice, plus extra for the rims"
+    },
+    {
+     "amount": "1/4",
+     "unit": "cup",
+     "item": "fresh orange juice"
+    },
+    {
+     "amount": "1",
+     "unit": "tbsp",
+     "item": "Worcestershire sauce"
+    },
+    {
+     "amount": "3/4",
+     "unit": "tsp",
+     "item": "freshly ground black pepper"
+    },
+    {
+     "amount": "1/4",
+     "unit": "tsp",
+     "item": "kosher salt"
+    },
+    {
+     "amount": "1",
+     "unit": "clove",
+     "item": "garlic"
+    },
+    {
+     "amount": "1/2",
+     "unit": "",
+     "item": "serrano chile, stemmed"
+    },
+    {
+     "amount": "4",
+     "unit": "bottles",
+     "item": "lager beer"
+    },
+    {
+     "amount": "",
+     "unit": "",
+     "item": "chile powder, for the rims and shrimp"
+    }
+   ],
+   "steps": [
+    "Pour lime juice onto one plate and chile powder onto another; dip the rims of four pint mugs in lime, then chile powder.",
+    "Dip the tops of the shrimp in chile powder and set aside.",
+    "Blend the Clamato, lime juice, orange juice, Worcestershire, pepper, salt, garlic and serrano until smooth.",
+    "Divide the mixture among the mugs, fill with ice, and top each with a lager.",
+    "Thread 6 shrimp onto each of 4 skewers and rest one across each mug."
+   ],
+   "rim": "Lime juice and chile powder",
+   "garnish_ideas": [
+    "chile-dusted shrimp skewer",
+    "serrano wheels",
+    "lime wedge",
+    "cucumber spear"
+   ],
+   "source_name": "Saveur",
+   "source_url": "https://www.saveur.com/article/Recipes/Mexico-Michelada-Shrimp/",
+   "garnish_icons": [
+    "shrimp",
+    "pepper",
+    "lime",
+    "cucumber"
+   ]
+  },
+  {
+   "name": "Red Beer Deluxe (Midwest red beer)",
+   "style": "red beer",
+   "serves": 1,
+   "ingredients": [
+    {
+     "amount": "6",
+     "unit": "oz",
+     "item": "light lager (Busch Light, Coors Light or Grain Belt suggested; Miller Lite or Schlitz for a Milwaukee touch)"
+    },
+    {
+     "amount": "5",
+     "unit": "oz",
+     "item": "tomato juice"
+    },
+    {
+     "amount": "4 to 5",
+     "unit": "",
+     "item": "green olives"
+    },
+    {
+     "amount": "1",
+     "unit": "oz",
+     "item": "olive brine"
+    },
+    {
+     "amount": "1",
+     "unit": "dash",
+     "item": "salt"
+    }
+   ],
+   "steps": [
+    "Combine the beer, tomato juice and olive brine in a chilled mug.",
+    "Add the green olives and the salt.",
+    "Garnish with two dill pickle slices."
+   ],
+   "rim": null,
+   "garnish_ideas": [
+    "2 dill pickle slices",
+    "green olives",
+    "celery salt (optional)"
+   ],
+   "source_name": "Punch (Lizzie Munro)",
+   "source_url": "https://punchdrink.com/recipes/red-beer-deluxe/",
+   "note": "No published Wisconsin-specific red beer recipe was found. This upper-Midwest version from Punch is the closest reputable one. The light-lager-plus-tomato-juice base matches VinePair's and Chowhound's descriptions of the regional drink, and the Milwaukee beer substitution is my suggestion, not Punch's.",
+   "garnish_icons": [
+    "pickle",
+    "olive",
+    "celery"
+   ]
+  }
+ ],
+ "open_questions": [
+  "near: No Caesar (Clamato-based) bloody was found anywhere in this slice. Ask bartenders; most full bars carry Clamato for red beers and may make one off-menu.",
+  "near: Pfister Sunday brunch with Bloody Mary bar: confirm it runs Oct 25, 2026, plus price and booking (414-273-8222).",
+  "near: Tre Rivali Bloody Mary Board (OnMilwaukee, April 2025): confirm it survived the 2026 menu change.",
+  "near: Wicked Hop Bloody Maria and Topless Bloody garnish and chaser details are not published.",
+  "near: Sobelman's St. Paul: Bloody Beast price ($65 in 2025) and Sunday hours (Google says 10 AM-9 PM; the venue site showed only a holiday note).",
+  "near: Café Benelux Milwaukeean chaser: the brunch menu says Lowlander Chaser Red, OnMilwaukee 2026 says Lakefront Fixed Gear. OnMilwaukee also lists Benelux as a Public Market vendor; it's unclear whether there is a separate market counter.",
+  "near: Central Standard Crafthouse: garnish and price of a single bloody not published.",
+  "near: Patio heaters: no venue in this slice confirmed heated patios for late October.",
+  "near: Closed or excluded: AJ Bombers (1247 N Water St, BOMB Bloody with burger garnish) closed in November 2025. Swingin' Door Exchange is closed Sun/Mon with no brunch. Hi Hat Lounge is closed Sun/Mon and opens 6 PM. County Clare (brunch Sat/Sun 11-3) and Explorium Third Ward (opens 11 AM) have no published bloody details.",
+  "near: Out of range, for the far-slice agent: Red Maple MKE (100 W Maple St, about 2 miles south; opens noon; miso/umami 'Japanese Bloody Mary'; 2025 Bloody Mary Festival People's Choice and 2026 MKE's Best Bloody 'Most Inventive'). Patti's Power Plant won 2026 Best Overall, location not checked.",
+  "near: Brunch It Up / BRUNCH. (714 N Milwaukee St, 4 minutes away, opens 7 AM Mon, 8 AM Sat/Sun) reportedly offers bloody and mimosa flights (2026 brunch guide) and had a Bloody Mary Fest booth in 2025, but no drink details were verified, so it was left off the list.",
+  "trip: Sobelman's hours conflict: Google (Oct 2026) says Sat/Sun 10 AM-9 PM and Mon 11 AM-8 PM; Urban Milwaukee (Mar 2026) said later closings. Opening times agree. Prices for everything except the $65 Chicken Fried Bloody Beast are not published online.",
+  "trip: Sobelman's is 1.44 mi straight-line from the hotel (about 2 mi by road), so it sits right at the slice boundary; dedupe against the nearby-places agent.",
+  "trip: Patti's Power Plant won Best Overall at MKE's Best Bloody (March 1, 2026), but I could not find its address or confirm it's a Milwaukee-area bar; worth a follow-up if Crystal wants the reigning champ.",
+  "trip: Burnsie's Bar & Grill (2026 'Most Milwaukee') and Smokin' Jack's BBQ (2026 'Most Like a Meal'; locations include 6807 W Brown Deer Rd) were not researched in depth.",
+  "trip: Red Maple MKE (100 W Maple St, Walker's Point; 2025 Bloody Mary Festival People's Choice and 2026 Most Inventive) is about 1.1 mi straight-line from the hotel, so I left it to the nearby agent. It opens at noon, not a morning option.",
+  "trip: McBob's and Randy's Neighbor's Inn: no current published bloody price or garnish detail (Randy's is from 2021; McBob's has none). Randy's has no listed hours; call first.",
+  "trip: Crafty Cow and Eldr+Rime bloody prices and contents are from 2021-2024 sources and may have changed.",
+  "trip: Yelp URLs were not collected: Yelp blocks automated fetches and I didn't want to guess slugs.",
+  "trip: Closed or changed, so excluded: Buttermint in Shorewood (closed July 2024); The Packing House near the airport (no brunch now; Sat opens 3:30 PM, Sun 4 PM, closed Mon); Sobelman's Marquette campus location (closed 2023); The White House tavern in Bay View (closed, sold and reopened as a restaurant, no longer the bloody-and-chaser tavern WUWM profiled); Explorium Mequon (closed 2025; other Explorium locations rebranded).",
+  "trip: Louie's Coop inside G. Groppi's Market in Bay View (1441 E Russell Ave; chaser is a short Rhinelander) is charming, but its 2020 hours start at noon or 2 PM (Sun 11 AM), so I left it out. Current hours unverified.",
+  "trip: Monday before the 3 PM MKE flight: Centraal (Bay View, brunch 8-11 AM, about 3.9 mi from MKE) and Honeypie (breakfast from 9 AM, about 3.5 mi from MKE) are the best fits. Crafty Cow Bay View opens 11 AM Monday.",
+  "trip: Patio heating in late October is not confirmed anywhere; Centraal's website mentions a heated winter tent and Hollander mentions 'Winter Domes.'",
+  "michelada: Michelada Fest 2025 and 2026 winners were not named in any article found (Urban Milwaukee, OnMilwaukee, Milwaukee Record, WISN, CBS 58, Shepherd Express). Zócalo's Facebook or Instagram may have them.",
+  "michelada: Almost no Milwaukee venue publishes a michelada recipe, beer or garnish list. The garnish arrays for places are empty rather than guessed, and an illustrator should rely on the generic photo refs (Tasting Table super-garnished michelada, Clamato shrimp michelada).",
+  "michelada: No Milwaukee bar was found that lists 'red beer' or 'red eye' on a menu. In Wisconsin the tomato-and-beer custom shows up mainly as the Bloody Mary beer chaser (snit), which belongs to the Bloody Mary agents. Most taverns will pour a red beer on request, but none was verified.",
+  "michelada: Fiesta Café: current hours and michelada menu listing unverified (the site blocks fetching; last published hours are from 2019).",
+  "michelada: Camacho's Bar, El Señorial, Beto's Pizza: hours not found.",
+  "michelada: Zócalo tavern late-October hours not found. It is an outdoor park, so cold-weather hours may be shorter.",
+  "michelada: Banderas planned weekend breakfast with 'hangover helpers' (Aug 2025); whether it now opens before 4 PM on weekends is unconfirmed.",
+  "michelada: Birch's tomato martini is seasonal (returned Sept 2026); availability on Oct 24 unconfirmed.",
+  "michelada: Closed or changed (avoid): La Perla (734 S 5th St) closed July 2022; La Fuente (625 S 5th St) stopped regular restaurant service in 2017; Sobelman's Marquette location closed May 2023 (the 1900 W St Paul Ave original was still open as of Oct 2024); Electric Lime moved to 811 N Jefferson St, dinner only, no michelada listed; Café Corazón's site now lists only Riverwest and Brown Deer, and its drink menu shows a Bloody Maria but no michelada; Don Camarón (1234 S Cesar Chavez) is marked closed on Yelp; Micheladas Galán (2020 delivery-only michelada truck) status unknown.",
+  "michelada: Handoff for the Bloody agents: Pilot Project Brewing (1128 N 9th St) has a Sunday-only Bloody Mary bar (10 AM to 3 PM) with a Tajín rim option. Café Corazón has a $9 Bloody Maria. Fiesta Café has had a Southwest Bloody.",
+  "michelada: Lat/lng values come from the Census geocoder (block-level interpolation); verify pins on Google Maps before publishing. Walk and drive times are straight-line estimates.",
+  "michelada: Yelp pages could not be fetched (robots). Only Guadalajara's Yelp URL was seen in search results; its photos URL follows Yelp's standard pattern and was not opened."
+ ]
+}

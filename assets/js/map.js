@@ -12,6 +12,8 @@ WSP.map = (function () {
     'restaurant':  { label: 'Eat',          glyph: 'E' },
     'street-food': { label: 'Street food',  glyph: 'S' },
     'bar':         { label: 'Drink',        glyph: 'D' },
+    'bloody':      { label: 'Bloody Marys',  glyph: 'B' },
+    'happy-hour':  { label: 'Happy hour',    glyph: '$' },
     'laverne':     { label: 'Laverne & Shirley', glyph: 'L' },
     'landmark':    { label: 'See',          glyph: '●' },
     'practical':   { label: 'Practical',    glyph: '+' },

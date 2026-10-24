@@ -52,10 +52,12 @@
   <div class="mega" id="mega" hidden>
     <div class="mega-inner">
       <details class="mega-col" open><summary class="eyebrow">The shows</summary><div class="mega-links"><a href="#updates">From Snacks</a><a href="#tonight">Tonight</a><a href="#shows">Three nights at the Riverside</a><a href="#street">Street party &amp; closure rules</a><a href="#street" data-open-details="Live music schedule">Live music schedule</a><a href="#street" data-open-details="Other free live music">Other live music nearby</a></div></details>
+      <details class="mega-col"><summary class="eyebrow">Morning</summary><div class="mega-links"><a href="#bloody" data-tab="bt-near">Bloodies, walking distance</a><a href="#bloody" data-tab="bt-trip">Bloodies worth the ride</a><a href="#bloody" data-tab="bt-michelada">Micheladas &amp; red beer</a><a href="#happyhour">Bonus: Saturday happy hour</a><a href="#bloody-home">Make one at home</a></div></details>
       <details class="mega-col"><summary class="eyebrow">Baseball</summary><div class="mega-links"><a href="#series">World Series schedule</a><a href="#series" data-scroll-to=".places">Where to watch</a><a href="#lineups">Lineup cards</a><a href="#mascots">The mascots</a></div></details>
       <details class="mega-col"><summary class="eyebrow">Eat &amp; drink</summary><div class="mega-links"><a href="#eat" data-tab="tab-destination">Worth the trip</a><a href="#eat" data-tab="tab-street">Street food</a><a href="#eat" data-tab="tab-traditions">Milwaukee traditions</a><a href="#eat" data-tab="tab-monday">Monday before the flight</a><a href="#drink">Bars</a></div></details>
       <details class="mega-col"><summary class="eyebrow">Getting around</summary><div class="mega-links"><a href="#map">The map</a><a href="#hotel">Hotel &amp; the walk</a><a href="#hotel" data-open-details="Practical">Pharmacy, urgent care, tipping</a><a href="#weather">Weather</a><a href="#share">Take it with you</a><a href="#top" id="welcome-again">The welcome, again</a></div></details>
       <details class="mega-col"><summary class="eyebrow">Milwaukee</summary><div class="mega-links"><a href="#facts">Fun facts</a><a href="#facts" data-open-details="neighborhoods">Neighborhoods</a><a href="#facts" data-open-details="What to wear">What to wear</a><a href="#laverne">Laverne &amp; Shirley</a><a href="#laverne" data-scroll-to=".cast">The cast</a><a href="#laverne" data-scroll-to=".places">The pilgrimage</a></div></details>
+      <details class="mega-col" id="mega-late" hidden><summary class="eyebrow">Late</summary><div class="mega-links"><a href="#latenight">I need a drink and a snack</a></div></details>
     </div>
   </div>
 </nav>
@@ -72,6 +74,21 @@
     <div class="scene scene--stars" id="scene-stars" data-chapter="stars" data-side="left">
     <div class="scene-head"><span class="strip strip--title">Starred</span></div>
     <div class="stars-note" id="stars-note"></div>
+    </div>
+    <div class="scene scene--morning" id="scene-morning" data-chapter="morning" data-title="Morning" data-side="right" style="--art:url(/assets/img/peeps/fishfry.jpg);--pos:50% 30%">
+    <div class="scene-head"><button class="strip strip--title" type="button" aria-expanded="false" data-chapter-toggle="morning">Morning<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></div>
+    <section class="w" id="bloody" data-widget="bloody" aria-labelledby="bloody-h">
+      <header><div class="t"><span class="eyebrow">Bloody Marys &amp; micheladas</span><h2 id="bloody-h">Hair of the dog, fully dressed</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w" id="happyhour" data-widget="happyhour" aria-labelledby="happyhour-h" hidden>
+      <header><div class="t"><span class="eyebrow">Bonus · Saturday happy hour</span><h2 id="happyhour-h">Before doors, on the cheap</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w" id="bloody-home" data-widget="bloody-home" aria-labelledby="bloody-home-h">
+      <header><div class="t"><span class="eyebrow">Make one at home</span><h2 id="bloody-home-h">The recipes and the lore</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
     </div>
     <div class="scene scene--walk" id="scene-walk" data-chapter="shows" data-title="The shows" data-side="left" style="--art:url(/assets/img/peeps/bridge.jpg);--pos:60% 30%">
     <div class="scene-head"><button class="strip strip--title" type="button" aria-expanded="false" data-chapter-toggle="shows">The shows<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></div>
@@ -150,6 +167,13 @@
     <section class="w" id="laverne" data-widget="laverne" aria-labelledby="laverne-h">
       <header><div class="t"><span class="eyebrow">Schlemiel! Schlimazel!</span><h2 id="laverne-h">Welcome Milwaukee Visitors</h2></div></header>
       <div class="body"><div class="pending-note">Checking whether it was really filmed here</div></div>
+    </section>
+    </div>
+    <div class="scene scene--late" id="scene-late" hidden data-chapter="late" data-title="I need a drink and a snack" data-side="right" style="--art:url(/assets/img/peeps/setbreak.jpg);--pos:50% 30%">
+    <div class="scene-head"><button class="strip strip--title" type="button" aria-expanded="false" data-chapter-toggle="late">I need a drink and a snack<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></div>
+    <section class="w" id="latenight" data-widget="latenight" aria-labelledby="latenight-h">
+      <header><div class="t"><span class="eyebrow">After the encore</span><h2 id="latenight-h">Open late, open all night</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
     </section>
     </div>
   </div>

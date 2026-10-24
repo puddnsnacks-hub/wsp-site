@@ -51,7 +51,7 @@ window.WSP = window.WSP || {};
   }
   /* A tile: the picture, the name, one line, and Read more. The rest lives in the sheet. */
   function tile(o) {
-    const img = o.img ? `<img class="tile-img" src="${esc(o.img)}" alt="" loading="lazy" onerror="this.classList.add('is-gone')">` : `<span class="tile-img tile-cat" style="--c:var(--wsp-cat-${esc(o.cat || 'landmark')})"></span>`;
+    const img = o.art ? `<span class="tile-img tile-garn" style="--c:var(--wsp-cat-${esc(o.cat || 'landmark')})">${o.art}</span>` : o.img ? `<img class="tile-img" src="${esc(o.img)}" alt="" loading="lazy" onerror="this.classList.add('is-gone')">` : `<span class="tile-img tile-cat" style="--c:var(--wsp-cat-${esc(o.cat || 'landmark')})"></span>`;
     return `<li class="tile" ${o.attrs || ''}>${img}<div class="tile-t"><h3>${esc(o.name)}</h3>${o.line ? `<p class="tile-line">${o.line}</p>` : ''}</div><button class="btn btn--sm tile-more" type="button" ${o.open}>Read more</button></li>`;
   }
   function placeRow(loc, opts = {}) {
@@ -359,6 +359,74 @@ window.WSP = window.WSP || {};
     });
   }
 
+  /* ---------- Morning: Bloody Marys, micheladas, happy hour, late night ---------- */
+  let GX = {};
+  const arr = (x) => Array.isArray(x) ? x : (x == null || x === '' ? [] : [x]);
+  const gx = (id, withLabel) => { const g = GX[id] || { label: id.replace(/-/g, ' '), file: `assets/img/garnish/${id}.png` }; return `<span class="gx${withLabel ? ' gx--l' : ''}" title="${esc(g.label)}"><img src="${esc(g.file)}" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-img');this.remove()"><span class="gx-l">${esc(g.label)}</span></span>`; };
+  const gxRow = (ids, withLabel) => ids && ids.length ? `<div class="gx-row">${ids.map(i => gx(i, withLabel)).join('')}</div>` : '';
+  const yn = (v, yes, no) => v === true ? yes : v === false ? no : '';
+  function badges(p) {
+    const b = [];
+    if (p.serves_breakfast) b.push(/brunch/i.test(p.meal_service || '') && !/breakfast/i.test(p.meal_service || '') ? 'Brunch' : 'Breakfast');
+    if (p.has_bar) b.push('Bar');
+    if (p.has_patio) b.push(p.patio_heated ? 'Heated patio' : 'Patio');
+    if (p.reservations && /recommend|need/i.test(p.reservations)) b.push('Book ahead'); else if (p.reservations && /walk/i.test(p.reservations)) b.push('Walk in');
+    return b.length ? `<div class="tags">${b.map(x => `<span class="tag">${esc(x)}</span>`).join('')}</div>` : '';
+  }
+  function hoursRow(h, keys) {
+    if (!h) return ''; const k = (keys || ['sat', 'sun', 'mon']).filter(x => h[x]);
+    return k.length ? `<dl class="hrs">${k.map(x => `<dt>${x[0].toUpperCase() + x.slice(1)}</dt><dd>${esc(h[x])}</dd>`).join('')}</dl>` : '';
+  }
+  function far(p) { return p.walk_minutes_from_hotel != null ? `${p.walk_minutes_from_hotel} min walk` : p.drive_minutes != null ? `${p.drive_minutes} min ride` : p.distance_miles_from_hotel != null ? `${p.distance_miles_from_hotel} mi` : ''; }
+  function placeLinks(p) { return `<div class="links"><a class="link-pill maps" href="${esc(p.gmaps_url || WSP.map.gmapsFallback(p))}" target="_blank" rel="noopener">${I.pin}Maps</a>${p.website ? `<a class="link-pill" href="${esc(p.website)}" target="_blank" rel="noopener">${I.link}Site</a>` : ''}${p.lat ? `<button class="link-pill" data-focus="${esc(p.id)}">${I.pin}On map</button>` : ''}</div>`; }
+  function bloodySheet(p) {
+    const drinks = arr(p.drinks).map(d => `<div class="bm-drink">
+      <h4>${esc(d.name)}${d.price ? ` <span class="muted">${esc(String(d.price).replace(/\s*\(.*$/, ''))}</span>` : ''}</h4>
+      ${gxRow(d.garnish_icons, true)}
+      ${d.description ? `<p class="prose">${esc(d.description)}</p>` : ''}
+      ${arr(d.garnishes).length ? `<p class="bm-garn"><b>In the glass:</b> ${arr(d.garnishes).map(g => esc(typeof g === 'string' ? g : g.item)).join(', ')}${d.rim ? `; rim: ${esc(d.rim)}` : ''}</p>` : ''}
+      ${d.comes_with_snit && /^yes/i.test(String(d.comes_with_snit)) ? `<p class="bm-garn"><b>On the side:</b> ${esc(String(d.comes_with_snit).replace(/^yes[:,]?\s*/i, ''))}</p>` : ''}
+      ${arr(d.size_options).length > 1 ? `<p class="caption">${arr(d.size_options).map(esc).join(' · ')}</p>` : ''}</div>`).join('');
+    return `<span class="eyebrow">${esc([String(p.neighborhood || '').replace(/\s*\(.*$/, ''), far(p)].filter(Boolean).join(' · '))}</span><h3 id="sheet-title" class="heading-sm">${esc(p.name)}</h3>${badges(p)}${p.why_go ? `<p class="prose"><b class="strong">${esc(p.why_go)}</b></p>` : ''}${drinks}${p.food_pairing ? `<p class="bm-garn"><b>Eat with it:</b> ${esc(p.food_pairing)}</p>` : ''}${hoursRow(p.hours_this_weekend)}${p.reviews_summary ? `<p class="caption">${esc(p.reviews_summary)}</p>` : ''}${placeLinks(p)}`;
+  }
+  function bloodyTile(p) {
+    const icons = [...new Set(arr(p.drinks).flatMap(d => d.garnish_icons || []))];
+    const d0 = arr(p.drinks)[0] || {};
+    const line = [d0.name, far(p)].filter(Boolean).map(esc).join(' · ');
+    return tile({ art: icons.length ? gxRow(icons.slice(0, 6)) : '', cat: 'bloody', name: p.name, line, open: modal(bloodySheet(p)) });
+  }
+  function renderBloody(b) {
+    const body_ = body('bloody'); if (!b || !b.places) return pending('bloody');
+    const groups = [['near', 'Walk there', arr(b.places).filter(p => p.group === 'near')], ['trip', 'Worth the ride', arr(b.places).filter(p => p.group === 'trip')], ['michelada', 'Micheladas', arr(b.places).filter(p => p.group === 'michelada' || p.also_michelada)]];
+    body_.innerHTML = `<div class="tabs" role="tablist">${groups.map(([id, l], i) => `<button class="tab" role="tab" id="bt-${id}" aria-selected="${i === 0}" aria-controls="bp-${id}">${l}</button>`).join('')}</div>${groups.map(([id, , arr], i) => `<div role="tabpanel" id="bp-${id}" aria-labelledby="bt-${id}" ${i ? 'hidden' : ''}><ul class="tiles">${arr.map(bloodyTile).join('')}</ul></div>`).join('')}`;
+    body_.querySelector('.tabs').addEventListener('click', (e) => { const t = e.target.closest('.tab'); if (!t) return; body_.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-selected', x === t)); body_.querySelectorAll('[role=tabpanel]').forEach(x => x.hidden = x.id !== t.getAttribute('aria-controls')); });
+  }
+  function recipeSheet(r) {
+    return `<span class="eyebrow">${esc(r.style || 'Recipe')}${r.serves ? ` · serves ${esc(r.serves)}` : ''}</span><h3 id="sheet-title" class="heading-sm">${esc(r.name)}</h3>
+      <ul class="rules">${arr(r.ingredients).map(i => `<li class="rule"><span class="ic">${I.check}</span><span>${esc([i.amount, i.unit, i.item].filter(x => x != null && x !== '').join(' '))}</span></li>`).join('')}</ul>
+      ${r.rim ? `<p class="bm-garn"><b>Rim:</b> ${esc(r.rim)}</p>` : ''}
+      <ol class="kbd-steps">${arr(r.steps).map(x => `<li>${esc(x)}</li>`).join('')}</ol>
+      ${arr(r.garnish_ideas).length ? `<p class="bm-garn"><b>Garnish:</b> ${arr(r.garnish_ideas).map(esc).join(', ')}</p>` : ''}
+      ${r.source_url ? `<p class="caption">Recipe: <a href="${esc(r.source_url)}" target="_blank" rel="noopener">${esc(r.source_name || 'source')}</a></p>` : ''}`;
+  }
+  function renderBloodyHome(b) {
+    const bd = body('bloody-home'); if (!b) return pending('bloody-home');
+    bd.innerHTML = `<ul class="tiles">${arr(b.recipes).map(r => tile({ art: gxRow((r.garnish_icons || []).slice(0, 6)), cat: 'bloody', name: r.name, line: esc(r.style || ''), open: modal(recipeSheet(r)) })).join('')}</ul>
+      ${arr(b.culture).length ? `<div><span class="eyebrow">The lore</span>${factsList(b.culture, 5)}</div>` : ''}`;
+  }
+  function simpleSheet(p, extra) {
+    return `<span class="eyebrow">${esc([String(p.neighborhood || '').replace(/\s*\(.*$/, ''), far(p)].filter(Boolean).join(' · '))}</span><h3 id="sheet-title" class="heading-sm">${esc(p.name)}</h3>${p.why_go ? `<p class="prose"><b class="strong">${esc(p.why_go)}</b></p>` : ''}${extra || ''}${p.vibe ? `<p class="prose">${esc(p.vibe)}</p>` : ''}${p.reviews_summary ? `<p class="caption">${esc(p.reviews_summary)}</p>` : ''}${placeLinks(p)}`;
+  }
+  function renderHappy(h) {
+    const sec = $('#happyhour'), bd = body('happyhour'); if (!h || !arr(h.places).length) { if (sec) sec.hidden = true; return; }
+    sec.hidden = false;
+    bd.innerHTML = `${h.intro ? `<p class="prose">${esc(h.intro)}</p>` : ''}<ul class="tiles">${arr(h.places).map(p => { const hh = p.saturday_happy_hour || {}; const when = [hh.start, hh.end].filter(Boolean).join('–'); return tile({ cat: 'happy-hour', name: p.name, line: esc([when, far(p)].filter(Boolean).join(' · ')), open: modal(simpleSheet(p, `${when ? `<p class="bm-garn"><b>Saturday:</b> ${esc(when)}</p>` : ''}${p.late_night_happy_hour ? `<p class="bm-garn"><b>Late:</b> ${esc(typeof p.late_night_happy_hour === 'string' ? p.late_night_happy_hour : [p.late_night_happy_hour.start, p.late_night_happy_hour.end].filter(Boolean).join('–'))}</p>` : ''}${arr(p.deals).length ? `<ul class="rules">${arr(p.deals).map(x => `<li class="rule"><span class="ic">${I.star}</span><span>${esc(x)}</span></li>`).join('')}</ul>` : ''}${p.bloody_or_tomato_special ? `<p class="bm-garn"><b>Bloody special:</b> ${esc(p.bloody_or_tomato_special)}</p>` : ''}`)) }); }).join('')}</ul>`;
+  }
+  function renderLate(l) {
+    const bd = body('latenight'); const sc = $('#scene-late'); if (!l || !arr(l.places).length) { if (sc) sc.hidden = true; return; } if (sc) sc.hidden = false; const ml = $('#mega-late'); if (ml) ml.hidden = false;
+    bd.innerHTML = `${l.intro ? `<p class="prose">${esc(l.intro)}</p>` : ''}<ul class="tiles">${arr(l.places).map(p => { const hl = p.hours_late || {}; return tile({ cat: 'restaurant', name: p.name, line: esc([hl.sat || hl.fri, far(p)].filter(Boolean).join(' · ')), open: modal(simpleSheet(p, `${hoursRow(hl, ['fri', 'sat', 'sun'])}${arr(p.what_to_order).length ? `<p class="bm-garn"><b>Order:</b> ${arr(p.what_to_order).map(esc).join(', ')}</p>` : ''}${p.serves_alcohol != null ? `<p class="caption">${p.serves_alcohol ? 'Pours drinks too.' : 'Food only, no bar.'}</p>` : ''}`)) }); }).join('')}</ul>`;
+  }
+
   /* ---------- Collect every location ---------- */
   function collect(d) {
     const out = [];
@@ -369,6 +437,10 @@ window.WSP = window.WSP || {};
     if (d.food) { (d.food.destination || []).forEach(x => push(x, 'restaurant')); (d.food.street_food || []).forEach(x => push(x, 'street-food')); (d.food.monday_brunch_before_flight || []).forEach(x => push(x, 'restaurant')); }
     if (d.area) { (d.area.bars || []).forEach(x => push(x, 'bar')); (d.area.neighborhoods || []).forEach(n => (n.landmarks || []).forEach(x => push(x, 'landmark'))); (d.area.safety_and_practical || []).forEach(x => push(x && x.lat ? x : (x && x.location), 'practical')); (d.area.halloween_weekend || []).forEach(x => push(x && x.lat ? x : (x && x.location), 'landmark')); (d.area.wsp_official_parties || []).forEach(x => push(x, 'stage')); }
     if (d.laverne) (d.laverne.milwaukee_pilgrimage || []).forEach(x => push(x, 'laverne'));
+    const pin = (x, cat) => { if (x && x.lat) { const y = Object.assign({}, x, { category: cat, blurb: x.why_go || x.vibe || '' }); delete y.drinks; out.push(y); } };
+    if (d.bloody) d.bloody.places.forEach(x => pin(x, 'bloody'));
+    if (d.happyhour) (d.happyhour.places || []).forEach(x => pin(x, 'happy-hour'));
+    if (d.latenight) (d.latenight.places || []).forEach(x => pin(x, 'restaurant'));
     if (d.locations && Array.isArray(d.locations)) d.locations.forEach(x => push(x));
     const seen = {}; return out.filter(l => { if (!l.id) l.id = l.name.toLowerCase().replace(/[^a-z0-9]+/g, '-'); if (seen[l.id]) { Object.assign(seen[l.id], Object.fromEntries(Object.entries(l).filter(([k, v]) => v != null && seen[l.id][k] == null))); return false; } seen[l.id] = l; return true; });
   }
@@ -376,7 +448,7 @@ window.WSP = window.WSP || {};
   /* ---------- Boot ---------- */
   async function boot() {
     const wxP = WSP.weather.init();
-    const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'mascots', 'locations', 'share', 'peeps', 'notes', 'welcome', 'updates', 'art'];
+    const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'mascots', 'locations', 'share', 'peeps', 'notes', 'welcome', 'updates', 'art', 'bloody', 'garnish-icons', 'happyhour', 'latenight'];
     const gm = $('#gmaps-open');
     const d = Object.fromEntries(await Promise.all(names.map(async n => [n, await load(n)])));
     const locs = collect(d); locs.forEach(l => byId[l.id] = l); WSP.locations = locs;
@@ -385,6 +457,8 @@ window.WSP = window.WSP || {};
     renderConcert(d.concert); renderClosure(d.closure); renderSeries(d.worldseries);
     renderBars(d.area); renderFood(d.food); renderHotel(d.concert, d.area); renderFacts(d.area); renderLaverne(d.laverne);
     renderLineups(d.lineups); renderMascots(d.mascots);
+    ((d['garnish-icons'] || {}).icons || []).forEach(g => { GX[g.id] = g; });
+    [[renderBloody, d.bloody], [renderBloodyHome, d.bloody], [renderHappy, d.happyhour], [renderLate, d.latenight]].forEach(([f, x]) => { try { f(x); } catch (e) { console.warn('render', f.name, e); } });
     renderShare(locs, d.share);
     renderPeeps(d.peeps); applyArt(d.art);
     if (gm && d.share && d.share.my_maps_url) gm.href = d.share.my_maps_url;
