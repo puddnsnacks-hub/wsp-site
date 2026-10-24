@@ -6,7 +6,7 @@
   "Brewers RF for Game 1 is the one lineup spot in doubt (Sal Frelick vs. Luis Lara); Frelick is projected based on NLCS Game 4.",
   "All 24 player headshots and the three mascot images were verified to return image/jpeg on Oct. 23; the Wikimedia originals are rate-limited from some networks, so the Raymond card uses the 500px thumbnail URL."
  ],
- "as_of": "2026-10-24T15:10:44-05:00",
+ "as_of": "2026-10-24T15:40:49-05:00",
  "teams": {
   "MIL": {
    "name": "Milwaukee Brewers",
@@ -1304,7 +1304,7 @@
    "home": "MIL",
    "away": "TB",
    "tv": "FOX",
-   "status": "projected",
+   "status": "announced",
    "pitchers_status": "announced",
    "probable_pitchers": {
     "MIL": {
@@ -1367,7 +1367,273 @@
    },
    "pitching_note": "Listed as probables on MLB's official schedule feed as of Oct. 23. Both are right-handed. Rasmussen made his MLB debut as a Brewer in 2020, and Henderson is a Houston native.",
    "lineups": {
-    "MIL": [],
+    "MIL": [
+     {
+      "order": 1,
+      "id": "694192",
+      "name": "Jackson Chourio",
+      "number": 11,
+      "position": "LF",
+      "bats": "R",
+      "throws": "R",
+      "age": 22,
+      "hometown": "Maracaibo, Venezuela",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/694192/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".291",
+       "HR": 25,
+       "RBI": 75,
+       "OPS": ".838",
+       "SB": 23
+      },
+      "postseason_2026": ".171 AVG but 2 HR and 7 RBI in 8 games, including a game-tying homer in NLDS G1 and a walk-off single in NLDS G2",
+      "card_back": "Signed out of Maracaibo, Venezuela, for $1.9 million at 16, Chourio got an eight-year, $82 million contract in December 2023 before he had played a big-league game, then debuted on Opening Day 2024 as the youngest player in the majors. He is the only player ever with three 20-homer, 20-steal seasons before turning 23, and he already owns the Brewers' career postseason RBI record. He won WBC gold with Venezuela in March 2026 with a hand he broke during the tournament.",
+      "weird_fact": "His $82 million extension (Dec. 4, 2023) was the largest contract ever given to a player who had never appeared in an MLB game.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Jackson_Chourio",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/694192?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Jackson_Chourio"
+      ],
+      "headshot_url_local": "assets/img/cards/694192-626b51c0.jpg"
+     },
+     {
+      "order": 2,
+      "id": "641343",
+      "name": "Jake Bauers",
+      "number": 9,
+      "position": "1B",
+      "bats": "L",
+      "throws": "L",
+      "age": 31,
+      "hometown": "Huntington Beach, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/641343/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".266",
+       "HR": 26,
+       "RBI": 86,
+       "OPS": ".873",
+       "SB": 11
+      },
+      "postseason_2026": "2026 NLCS MVP: go-ahead HR in Game 3 at Dodger Stadium, 6 RBI in the series",
+      "card_back": "A seventh-round pick who had been a Ray, an Indian, a Mariner and a Yankee, Bauers hit .199 for Milwaukee in 2024, was cut loose, and came back on a minor-league deal. In 2026 he led the Brewers with 26 home runs, posted a .389 on-base percentage, and won NLCS MVP. He had planned to retire after 2024 and came back in part for the health insurance when his wife was pregnant.",
+      "weird_fact": "He was set to retire after the 2024 season and returned to baseball partly for health insurance after his wife became pregnant. Two years later he was NLCS MVP.",
+      "weird_fact_source": "https://seatgeek.com/blog/world-series-10-key-players-who-will-decide-the-winner-between-brewers-and-rays",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/641343?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Jake_Bauers",
+       "https://seatgeek.com/blog/world-series-10-key-players-who-will-decide-the-winner-between-brewers-and-rays"
+      ],
+      "headshot_url_local": "assets/img/cards/641343-9ee36d8c.jpg"
+     },
+     {
+      "order": 3,
+      "id": "592885",
+      "name": "Christian Yelich",
+      "number": 22,
+      "position": "DH",
+      "bats": "L",
+      "throws": "R",
+      "age": 34,
+      "hometown": "Thousand Oaks, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/592885/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".235",
+       "HR": 12,
+       "RBI": 59,
+       "OPS": ".693",
+       "SB": 11
+      },
+      "postseason_2026": ".292 in 7 games with 2 steals; still chasing his first World Series ring",
+      "card_back": "The 2018 NL MVP and two-time batting champion came to Milwaukee from Miami in January 2018 and became the face of the franchise. On September 26, 2026 the Brewers named him the first captain in team history, and his great-grandfather Fred Gehrke played in the NFL. He is the only player ever to hit for the cycle three times against the same team (the Reds: twice in 2018, once in 2022).",
+      "weird_fact": "He is the only player in MLB history with three cycles against the same opponent, all against the Cincinnati Reds, and he appeared as himself on Magnum P.I. in 2019.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Christian_Yelich",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/592885?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Christian_Yelich"
+      ],
+      "headshot_url_local": "assets/img/cards/592885-2ce55af1.jpg"
+     },
+     {
+      "order": 4,
+      "id": "661388",
+      "name": "William Contreras",
+      "number": 24,
+      "position": "C",
+      "bats": "R",
+      "throws": "R",
+      "age": 28,
+      "hometown": "Puerto Cabello, Venezuela",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/661388/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".270",
+       "HR": 18,
+       "RBI": 94,
+       "OPS": ".758",
+       "SB": 1
+      },
+      "postseason_2026": "The best hitter in the 2026 playoffs: .367/.457/.700, 3 HR, 11 hits in 8 games, including a go-ahead HR in NLDS G1",
+      "card_back": "The younger brother of Willson Contreras, William won a World Series ring with the 2021 Braves, made the 2022 All-Star team, and came to Milwaukee in the December 2022 three-team Sean Murphy trade. He has two Silver Sluggers (2023, 2024), finished fifth in the 2024 NL MVP vote, and the local writers call him the team's heartbeat. He played most of 2025 with a fractured middle finger and made the All-Star team the next year.",
+      "weird_fact": "He played most of the 2025 season with a fractured left middle finger, and he is engaged to the sister of former Brewers shortstop Willy Adames.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/William_Contreras",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/661388?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/William_Contreras",
+       "https://www.justbaseball.com/?p=245448"
+      ],
+      "headshot_url_local": "assets/img/cards/661388-e17ab3c2.jpg"
+     },
+     {
+      "order": 5,
+      "id": "668930",
+      "name": "Brice Turang",
+      "number": 2,
+      "position": "2B",
+      "bats": "L",
+      "throws": "R",
+      "age": 26,
+      "hometown": "Corona, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/668930/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".268",
+       "HR": 21,
+       "RBI": 100,
+       "OPS": ".816",
+       "SB": 19
+      },
+      "postseason_2026": "6-for-11 with 5 walks in the NLCS; 6 runs scored in 8 postseason games",
+      "card_back": "Son of former Mariners outfielder Brian Turang, Brice was the Brewers' first-round pick in 2018 out of Santiago High in Corona, California. His first MLB homer was a grand slam in the 2023 home opener, in 2024 he led the majors with 50 stolen bases and won both the Gold Glove and the Platinum Glove at second base, and he drove in 100 runs in 2026. His sister Brianna is married to NFL punter Tress Way.",
+      "weird_fact": "In 2024 he won the Gold Glove and Platinum Glove at second base, led MLB with 50 steals, and had the lowest pull percentage of any hitter in the majors (26.4%).",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Brice_Turang",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/668930?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Brice_Turang"
+      ],
+      "headshot_url_local": "assets/img/cards/668930-9c03d61d.jpg"
+     },
+     {
+      "order": 6,
+      "id": "669003",
+      "name": "Garrett Mitchell",
+      "number": 5,
+      "position": "CF",
+      "bats": "L",
+      "throws": "R",
+      "age": 28,
+      "hometown": "Orange, CA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/669003/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".262",
+       "HR": 11,
+       "RBI": 65,
+       "OPS": ".770",
+       "SB": 14
+      },
+      "postseason_2026": "2 HR in the NLCS, both decisive; 6 runs scored in 8 postseason games",
+      "card_back": "A UCLA center fielder who set the Bruins' single-season triples record, Mitchell was Milwaukee's first-round pick in 2020. He has played with Type 1 diabetes since age 9 on an insulin pump, and through a brutal run of injuries (shoulder, broken hand, oblique), then stayed healthy in 2026 for 145 games and two big NLCS home runs. He missed the phone call promoting him to the majors because he was eating a chocolate chip cookie.",
+      "weird_fact": "He missed the phone call about his promotion to the big leagues in August 2022 because he was eating a chocolate chip cookie.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Garrett_Mitchell_(baseball)",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/669003?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Garrett_Mitchell_(baseball)",
+       "https://www.justbaseball.com/?p=245448"
+      ],
+      "headshot_url_local": "assets/img/cards/669003-a2832986.jpg"
+     },
+     {
+      "order": 7,
+      "id": "806198",
+      "name": "Cooper Pratt",
+      "number": 12,
+      "position": "SS",
+      "bats": "R",
+      "throws": "R",
+      "age": 22,
+      "hometown": "Hialeah, FL",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/806198/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".281",
+       "HR": 3,
+       "RBI": 34,
+       "OPS": ".718",
+       "SB": 19
+      },
+      "postseason_2026": "9-for-29 (.310) in 8 games as a 22-year-old rookie shortstop",
+      "card_back": "Mississippi's Gatorade Player of the Year in 2023 at Magnolia Heights School in Senatobia, Pratt skipped Ole Miss to sign as a sixth-round pick. The Brewers gave him an eight-year, $50.75 million extension on April 3, 2026, before he had played a big-league game, then called him up June 16. As a high school senior he went 10-0 with a 0.14 ERA as a pitcher, and he is starting at shortstop in the World Series four months after his debut.",
+      "weird_fact": "He signed an eight-year, $50.75 million extension on April 3, 2026 with the least upper-level pro experience of any player ever to receive an MLB extension, two and a half months before his MLB debut.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Cooper_Pratt",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/806198?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Cooper_Pratt"
+      ],
+      "headshot_url_local": "assets/img/cards/806198-b5a1c9ce.jpg"
+     },
+     {
+      "order": 8,
+      "id": "686217",
+      "name": "Sal Frelick",
+      "number": 10,
+      "position": "RF",
+      "bats": "L",
+      "throws": "R",
+      "age": 26,
+      "hometown": "Lexington, MA",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/686217/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".230",
+       "HR": 4,
+       "RBI": 40,
+       "OPS": ".614",
+       "SB": 7
+      },
+      "postseason_2026": "3-for-15 with 4 walks and 2 steals in 5 games; sat against some lefties",
+      "card_back": "A Lexington, Massachusetts quarterback who threw 30 touchdown passes as a high school senior, Frelick turned down a Boston College football scholarship to play baseball there instead. The Brewers took him 15th overall in 2021, and he won the 2024 NL Gold Glove in right field with 15 Defensive Runs Saved. He played for Italy in the 2023 World Baseball Classic.",
+      "weird_fact": "He was Gatorade Massachusetts Football Player of the Year as a high school quarterback (30 TD passes) before choosing baseball at Boston College, where he was ACC Defensive Player of the Year.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/Sal_Frelick",
+      "texas_tie": null,
+      "source": "https://statsapi.mlb.com/api/v1/people/686217?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/Sal_Frelick"
+      ],
+      "headshot_url_local": "assets/img/cards/686217-90d5eeb1.jpg"
+     },
+     {
+      "order": 9,
+      "id": "666152",
+      "name": "David Hamilton",
+      "number": 6,
+      "position": "3B",
+      "bats": "L",
+      "throws": "R",
+      "age": 29,
+      "hometown": "San Marcos, TX",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_213,q_auto:best/v1/people/666152/headshot/67/current",
+      "stats_2026": {
+       "AVG": ".245",
+       "HR": 4,
+       "RBI": 26,
+       "OPS": ".650",
+       "SB": 30
+      },
+      "postseason_2026": "5-for-11 (.455) with a HR and 3 steals in 4 games; has started at 3B against right-handers",
+      "card_back": "A San Marcos native out of San Marcos High and the University of Texas, Hamilton tore his Achilles in an electric scooter accident in 2019, signed with Milwaukee anyway as an eighth-rounder, went to Boston in the Hunter Renfroe trade, and came back to the Brewers in February 2026. He stole 30 bases in 2026 and once swiped six in a single minor-league game. Both his parents played baseball at Southwest Texas State, now Texas State.",
+      "weird_fact": "He tore his Achilles tendon in an electric scooter accident in 2019, costing him his junior year at Texas, and he once stole six bases in one game, a Wisconsin Timber Rattlers record.",
+      "weird_fact_source": "https://en.wikipedia.org/wiki/David_Hamilton_(baseball)",
+      "texas_tie": "Born and raised in San Marcos, TX. San Marcos High School and the University of Texas at Austin, parents who played at Southwest Texas State, and Team Texas in 2020.",
+      "source": "https://statsapi.mlb.com/api/v1/people/666152?hydrate=stats(type=season,season=2026),education,draft",
+      "bio_sources": [
+       "https://en.wikipedia.org/wiki/David_Hamilton_(baseball)",
+       "https://www.si.com/mlb/brewers/onsi/brewers-face-key-game-1-lineup-decision-against-rays-nick-martinez-pat3"
+      ],
+      "headshot_url_local": "assets/img/cards/666152-0fa558a5.jpg"
+     }
+    ],
     "TB": [
      {
       "order": 1,
@@ -2179,7 +2445,14 @@
    "lineup_source": "https://www.mlb.com/brewers/roster/starting-lineups",
    "lineup_source_away": "https://www.mlb.com/rays/roster/starting-lineups",
    "sportradar_game_id": "a1639f1d-3416-4413-9233-c6f6571461a1",
-   "mlb_gamePk": 849802
+   "mlb_gamePk": 849802,
+   "live_score": {
+    "MIL": 0,
+    "TB": 0,
+    "inning": 1,
+    "half": "Top",
+    "as_of": "2026-10-24T15:40:49-05:00"
+   }
   },
   {
    "game": 3,

@@ -1,59 +1,69 @@
 {
-  "updates": [
-    {
-      "date": "2026-10-23T23:59:00-05:00",
-      "title": "Night 1, song by song",
-      "body": [
-        "Hey Baby, I hear this is what they played last night.",
-        "Set 1: Rebirtha, Send Your Mind, Little Kin, One Arm Steve, Travelin' Light, Diner, Spoonful, Action Man.",
-        "Set 2: Impossible, Trashy, Wondering, Blue Carousel, Little Lilly, Bear's Gone Fishin', Blackout Blues, For What It's Worth, Love Tractor.",
-        "Encore: Keep Me In Your Heart.",
-        "The soundboard is already up for pre-order on nugs if you want to hear it again on the flight home. Tonight's stream goes live at 8 our time on nugs too."
-      ],
-      "link": "https://widespreadpanic.com/shows/2026-10-23-milwaukee-wi-the-riverside-theater/",
-      "link_label": "The setlist"
-    },
-    {
-      "title": "Game 1: Brewers 3, Rays 2",
-      "body": [
-        "Hey Baby, I hear this happened while you were inside: the Brewers took Game 1, 3 to 2. Jacob Misiorowski gets the win. That is the box score version. The sidewalk outside Mo's will have the rest."
-      ],
-      "link": "#series",
-      "link_label": "The games",
-      "important": true,
-      "date": "2026-10-23T22:41:31-05:00"
-    },
-    {
-      "title": "Game 1 lineups are in",
-      "body": [
-        "Hey Baby, both lineups are posted for Game 1. Brewers send Jacob Misiorowski to the mound, the Rays answer with Nick Martinez. The cards are filled in and flipped-ready."
-      ],
-      "link": "#lineups",
-      "link_label": "The cards",
-      "important": false,
-      "date": "2026-10-23T15:41:16-05:00"
-    },
-    {
-      "date": "2026-10-23T05:30:00-05:00",
-      "important": true,
-      "title": "Tonight collides with Game 1, and that is fine",
-      "body": [
-        "Hey Baby, first pitch is 7:00, half an hour before set one. Catch the top of the first at Major Goolsby's two blocks from the theater, check the score at set break, and let the walk home at 11:30 tell you the rest.",
-        "The Riverside bars are cashless and small purses only. No backpacks, no bag check."
-      ],
-      "link": "#series",
-      "link_label": "The games"
-    },
-    {
-      "date": "2026-10-23T05:00:00-05:00",
-      "important": false,
-      "title": "Hours change, so tap through",
-      "body": [
-        "Hey Baby, hours and schedules come from the places themselves and they change, so tap through before you go.",
-        "Lineups land here the moment they post. The welcome is one tap away in the menu if you want it again."
-      ],
-      "link": "#lineups",
-      "link_label": "The cards"
-    }
-  ]
+ "updates": [
+  {
+   "title": "Game 2 lineups are in",
+   "body": [
+    "Hey Baby, both lineups are posted for Game 2. Brewers send Logan Henderson to the mound, the Rays answer with Drew Rasmussen. The cards are filled in and flipped-ready."
+   ],
+   "link": "#lineups",
+   "link_label": "The cards",
+   "important": false,
+   "date": "2026-10-24T15:40:49-05:00"
+  },
+  {
+   "date": "2026-10-23T23:59:00-05:00",
+   "title": "Night 1, song by song",
+   "body": [
+    "Hey Baby, I hear this is what they played last night.",
+    "Set 1: Rebirtha, Send Your Mind, Little Kin, One Arm Steve, Travelin' Light, Diner, Spoonful, Action Man.",
+    "Set 2: Impossible, Trashy, Wondering, Blue Carousel, Little Lilly, Bear's Gone Fishin', Blackout Blues, For What It's Worth, Love Tractor.",
+    "Encore: Keep Me In Your Heart.",
+    "The soundboard is already up for pre-order on nugs if you want to hear it again on the flight home. Tonight's stream goes live at 8 our time on nugs too."
+   ],
+   "link": "https://widespreadpanic.com/shows/2026-10-23-milwaukee-wi-the-riverside-theater/",
+   "link_label": "The setlist"
+  },
+  {
+   "title": "Game 1: Brewers 3, Rays 2",
+   "body": [
+    "Hey Baby, I hear this happened while you were inside: the Brewers took Game 1, 3 to 2. Jacob Misiorowski gets the win. That is the box score version. The sidewalk outside Mo's will have the rest."
+   ],
+   "link": "#series",
+   "link_label": "The games",
+   "important": true,
+   "date": "2026-10-23T22:41:31-05:00"
+  },
+  {
+   "title": "Game 1 lineups are in",
+   "body": [
+    "Hey Baby, both lineups are posted for Game 1. Brewers send Jacob Misiorowski to the mound, the Rays answer with Nick Martinez. The cards are filled in and flipped-ready."
+   ],
+   "link": "#lineups",
+   "link_label": "The cards",
+   "important": false,
+   "date": "2026-10-23T15:41:16-05:00"
+  },
+  {
+   "date": "2026-10-23T05:30:00-05:00",
+   "important": true,
+   "title": "Tonight collides with Game 1, and that is fine",
+   "body": [
+    "Hey Baby, first pitch is 7:00, half an hour before set one. Catch the top of the first at Major Goolsby's two blocks from the theater, check the score at set break, and let the walk home at 11:30 tell you the rest.",
+    "The Riverside bars are cashless and small purses only. No backpacks, no bag check."
+   ],
+   "link": "#series",
+   "link_label": "The games"
+  },
+  {
+   "date": "2026-10-23T05:00:00-05:00",
+   "important": false,
+   "title": "Hours change, so tap through",
+   "body": [
+    "Hey Baby, hours and schedules come from the places themselves and they change, so tap through before you go.",
+    "Lineups land here the moment they post. The welcome is one tap away in the menu if you want it again."
+   ],
+   "link": "#lineups",
+   "link_label": "The cards"
+  }
+ ]
 }
