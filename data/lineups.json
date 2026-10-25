@@ -6,7 +6,7 @@
   "Brewers RF for Game 1 is the one lineup spot in doubt (Sal Frelick vs. Luis Lara); Frelick is projected based on NLCS Game 4.",
   "All 24 player headshots and the three mascot images were verified to return image/jpeg on Oct. 23; the Wikimedia originals are rate-limited from some networks, so the Raymond card uses the 500px thumbnail URL."
  ],
- "as_of": "2026-10-24T21:10:53-05:00",
+ "as_of": "2026-10-24T21:40:53-05:00",
  "teams": {
   "MIL": {
    "name": "Milwaukee Brewers",
@@ -2447,11 +2447,11 @@
    "sportradar_game_id": "a1639f1d-3416-4413-9233-c6f6571461a1",
    "mlb_gamePk": 849802,
    "live_score": {
-    "MIL": 3,
+    "MIL": 4,
     "TB": 4,
-    "inning": 6,
+    "inning": 7,
     "half": "Top",
-    "as_of": "2026-10-24T21:10:53-05:00"
+    "as_of": "2026-10-24T21:40:53-05:00"
    }
   },
   {
