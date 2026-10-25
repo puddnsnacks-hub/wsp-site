@@ -1,111 +1,201 @@
 {
-  "checked_at": "2026-10-24T22:42:00-05:00",
-  "night2": {
-    "status": "Partial, in progress. The official show page had the full Set 1 and six songs of Set 2 posted when checked at 10:42 PM CT. No encore yet. setlist.fm could not be reached, and everydaycompanion's 10/24/26 page was empty.",
-    "sets": [
-      {
-        "name": "Set 1",
-        "songs": ["Let's Get The Show On The Road", "A of D", "Junior", "Goodpeople", "Dark Bar", "Goodpeople", "Can't Get High", "Up All Night", "Conrad The Caterpillar"]
-      },
-      {
-        "name": "Set 2 (in progress)",
-        "songs": ["Let's Get Down To Business", "Pigeons", "Aunt Avis", "Blight", "Airplane", "Greta"]
-      }
-    ],
-    "source_url": "https://widespreadpanic.com/shows/2026-10-24-milwaukee-wi-the-riverside-theater/",
-    "setlist_photo_url": null,
-    "notes": "The official page shows no segue marks (>). Goodpeople > Dark Bar > Goodpeople reads as a sandwich, the same one played at the Riverside on 10/24/25 (L4LM). No photo of the handwritten or printed setlist was found. The band's YouTube stream description says live setlist updates are posted on Bluesky; that feed was not checked."
-  },
-  "night1_correction": {
-    "note": "L4LM's Night 1 recap lists the encore as Keep Me in Your Heart (Warren Zevon) > Bowlegged Woman, Knock-Kneed Man. The site's known setlist is missing Bowlegged Woman. It also spells 'Wonderin''.",
-    "source": "https://liveforlivemusic.com/news/recap/widespread-panic-first-ever-rebirtha-opener-milwaukee-10-23-26/"
-  },
-  "night3": {
-    "doors": "6:30 PM CT",
-    "show": "8:00 PM CT",
-    "opener": "None announced. No opener is listed on the band's show page or in any announcement found.",
-    "ticket_status": "Sold out (the band's 10/25 show page and PanicStream's 2026 list both mark it 'SOLD OUT')",
-    "specials": "None announced for Sunday. The Hunger Task Force food drive was Friday only. Hunger Task Force is also giving away a band-signed 2025 Milwaukee poster (enter through the band's post). A jambands.com headline from 10/23/26 says this run includes the band's 50th show at the Riverside, but the article would not load, so which night that is remains unverified.",
-    "stream": {
-      "label": "Free live audio stream (all three Milwaukee nights)",
-      "url": "https://widespreadpanic.com/2026/10/21/milwaukee-food-drive-free-live-audio-streams/",
-      "price": "$0",
-      "free": true,
-      "notes": "Audio only, starting 8:00 PM CT, on the nugs app, YouTube (Widespread Panic channel), Facebook and Twitch. On nugs you need a free nugs account to sign in, but no paid subscription (help.nugs.net). YouTube needs no sign-in; Friday's stream ran there as 'Live at The Riverside Theater in Milwaukee, WI, Friday October 23, 2026 (Audio Only)'. No paid video webcast was announced for Milwaukee."
-    },
-    "sources": [
-      "https://widespreadpanic.com/shows/2026-10-25-milwaukee-wi-the-riverside-theater/",
-      "https://widespreadpanic.com/2026/10/21/milwaukee-food-drive-free-live-audio-streams/",
-      "https://help.nugs.net/support/solutions/articles/6000267129-how-do-i-access-free-audio-livestreams-",
-      "https://www.youtube.com/watch?v=dsmve2B0064",
-      "https://www.panicstream.com/vault/",
-      "https://jambands.com/news/2026/10/23/hunger-task-force-offers-an-opportunity-to-win-a-signed-widespread-panic-poster-as-band-plays-50th-show-at-riverside-theater/"
+ "checked_at": "2026-10-24T22:42:00-05:00",
+ "night2": {
+  "status": "Partial. At 12:25 AM CT Sun the official show page still had Set 1 and six songs of Set 2, no encore; setlist.fm and PanicStream's 10/24 page were not posted yet. Re-check Sunday morning.",
+  "sets": [
+   {
+    "name": "Set 1",
+    "songs": [
+     "Let's Get The Show On The Road",
+     "A of D",
+     "Junior",
+     "Goodpeople",
+     "Dark Bar",
+     "Goodpeople",
+     "Can't Get High",
+     "Up All Night",
+     "Conrad The Caterpillar"
     ]
-  },
-  "next_shows": [
-    {
-      "dates": "Fri Oct 30 and Sat Oct 31, 2026 (Halloween)",
-      "venue": "UNO Lakefront Arena",
-      "city": "New Orleans, LA",
-      "source": "https://www.jambase.com/article/widespread-panic-halloween-2026-new-orleans"
-    },
-    {
-      "dates": "Wed Dec 30 and Thu Dec 31, 2026 (New Year's)",
-      "venue": "Bojangles Coliseum",
-      "city": "Charlotte, NC",
-      "source": "https://www.panicstream.com/vault/"
-    },
-    {
-      "dates": "Jan 19-22, 2027 (Panic en la Playa Catorce)",
-      "venue": "Hard Rock Riviera Maya (per L4LM, 'Riviera Maya, Mexico')",
-      "city": "Riviera Maya, Mexico",
-      "source": "https://liveforlivemusic.com/news/recap/widespread-panic-first-ever-rebirtha-opener-milwaukee-10-23-26/"
-    }
+   },
+   {
+    "name": "Set 2 (in progress)",
+    "songs": [
+     "Let's Get Down To Business",
+     "Pigeons",
+     "Aunt Avis",
+     "Blight",
+     "Airplane",
+     "Greta"
+    ]
+   }
   ],
-  "still_in_the_bag": [
-    {"song": "King Baby", "stat": "9 plays this tour; last 9/19/26", "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"},
-    {"song": "Little By Little", "stat": "9 plays this tour; last 8/14/26", "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"},
-    {"song": "Pleas", "stat": "9 plays this tour; last 9/18/26", "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"},
-    {"song": "Ride Me High", "stat": "9 plays this tour; last 8/15/26", "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"},
-    {"song": "Tall Boy", "stat": "9 plays this tour; last 8/14/26", "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"},
-    {"song": "We Walk Each Other Home", "stat": "9 plays this tour; last 9/19/26", "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"},
-    {"song": "All Time Low", "stat": "8 plays this tour; last 9/19/26", "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"},
-    {"song": "Blue Indian", "stat": "8 plays this tour; last 8/16/26", "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"},
-    {"song": "Bust It Big", "stat": "8 plays this tour; last 9/18/26", "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"},
-    {"song": "Climb To Safety", "stat": "8 plays this tour; last 8/16/26", "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"},
-    {"song": "Porch Song", "stat": "8 plays this tour; last 9/18/26", "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"},
-    {"song": "Chilly Water", "stat": "7 plays this tour; last 8/16/26", "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"}
+  "source_url": "https://widespreadpanic.com/shows/2026-10-24-milwaukee-wi-the-riverside-theater/",
+  "setlist_photo_url": null,
+  "notes": "The official page shows no segue marks (>). Goodpeople > Dark Bar > Goodpeople reads as a sandwich, the same one played at the Riverside on 10/24/25 (L4LM). No photo of the handwritten or printed setlist was found. The band's YouTube stream description says live setlist updates are posted on Bluesky; that feed was not checked.",
+  "checked_at_2": "2026-10-25 00:25 CT",
+  "goodpeople_note": "Goodpeople appears twice in Set 1 on the official page: a sandwich (Goodpeople > Dark Bar > Goodpeople), not a typo, per the agent's note citing the same sandwich at the Riverside on 10/24/25."
+ },
+ "night1_correction": {
+  "confirmed": true,
+  "encore": [
+   "Keep Me In Your Heart",
+   "Bowlegged Woman, Knock-Kneed Man"
   ],
-  "still_in_the_bag_notes": "Everyday Companion's 'Current Tour' stats cover 37 shows from 1/20/26 to 9/19/26, so the Memphis shows (10/10-11) are not counted. A song on this list may have been played in Memphis or late on Night 2. Songs that were played on Night 1 or in the posted part of Night 2 are left out, as is Drums (10 plays). Other high-count songs left off for space: Driving Song, Holden Oversoul, Ribs And Whiskey, Saint Ex (8 each).",
-  "milwaukee_history": [
-    {"fact": "The annual Riverside run began in 2006 with a single Saturday show that sold out quickly. Panic was one of the first acts booked after Pabst Theater Group took over the Riverside. (Relix/jambands say 'most years since 2008' instead, so the start year differs by source.)", "source": "https://onmilwaukee.com/articles/widespread-panic-riverside"},
-    {"fact": "Then-Mayor Tom Barrett declared Thursday, Oct. 21, 2021 'Widespread Panic Day' in Milwaukee.", "source": "https://onmilwaukee.com/articles/widespread-panic-riverside"},
-    {"fact": "Oct. 2016 'Sabbath run': a Black Sabbath cover every night, with Fairies Wear Boots on Friday, Sweet Leaf as Saturday's encore (10/22/16), and Children of the Grave as Sunday's encore (10/23/16). Children of the Grave had not been played since 10/31/07, a 604-show gap.", "source": "https://liveforlivemusic.com/news/widespread-panic-closes-out-milwaukee-run-with-third-consecutive-black-sabbath-bust-out/"},
-    {"fact": "Closing night 10/26/25 ended with a double encore: Cosmic Confidante, Soul Kitchen (The Doors, only the 4th time ever and a 52-show gap), Postcard, then Love Tractor. The show also brought back A of D (84-show gap) and Dirty Business.", "source": "https://liveforlivemusic.com/news/widespread-panic-brew-city-sunday-finale-double-encore-10-26-25/"},
-    {"fact": "The archival release 'Milwaukee, WI 1996' (Porch Songs series, out 2010) captures the 11/1/96 show at the Modjeska Theatre with Michael Houser. It includes the first time the band covered Sick and Tired and Shake, Rattle and Roll.", "source": "https://en.wikipedia.org/wiki/Milwaukee,_WI_1996"}
-  ],
-  "reviews": [
-    {
-      "title": "Widespread Panic Tips Its Cap to World Series With First-Ever \"Rebirtha\" Opener in Milwaukee",
-      "outlet": "Live For Live Music (L4LM)",
-      "author": "James Sissler",
-      "url": "https://liveforlivemusic.com/news/recap/widespread-panic-first-ever-rebirtha-opener-milwaukee-10-23-26/",
-      "summary": "Night 1 opened with Rebirtha for the first time ever as a nod to the Brewers' World Series, with Nick Johnson covering for Jimmy Herring and a Herring Brewers jersey hung onstage.",
-      "night": "Night 1 (Oct 23)"
-    }
-  ],
-  "reviews_notes": "No Night 1 or Night 2 review was found from the Milwaukee Journal Sentinel, OnMilwaukee, Shepherd Express or Urban Milwaukee as of the check time.",
-  "sunday_after_party": {
-    "verified": true,
-    "details": "Armchair Boogie at Mo's Irish Pub, Sun Oct 25, 2026. Pabst Theater Group lists it as an 'After Party With Armchair Boogie (Immediately Following Widespread Panic)', with doors and start both at 11:00 PM. Tickets were 'On Sale Now' (not sold out). The price is not shown on the page; it is behind the 'Buy Tickets' link.",
-    "source": "https://www.pabsttheatergroup.com/events/detail/armchair-boogie-2026"
-  },
-  "open_questions": [
-    "Night 2: the rest of Set 2 and the encore (check widespreadpanic.com show page or the band's Bluesky later tonight).",
-    "No Night 2 setlist photo found.",
-    "Which night is the 50th Riverside show (the jambands 10/23/26 article would not load).",
-    "Armchair Boogie ticket price (not on the event page).",
-    "Whether any 'still in the bag' song was played at Mempho (10/10-11) or late on Night 2.",
-    "The start year of the Riverside tradition differs by source (2006 per OnMilwaukee and Radio Milwaukee, 2008 per Relix/jambands)."
+  "note": "Both PanicStream tapers' sources list Bowlegged Woman after Keep Me In Your Heart; L4LM agrees. data/setlists.json Night 1 encore should add it.",
+  "sources": [
+   "https://www.panicstream.com/vault/widespread-panic-10-23-2026-milwaukee-wi/",
+   "https://liveforlivemusic.com/news/recap/widespread-panic-first-ever-rebirtha-opener-milwaukee-10-23-26/"
   ]
+ },
+ "night3": {
+  "doors": "6:30 PM CT",
+  "show": "8:00 PM CT",
+  "opener": "None announced. No opener is listed on the band's show page or in any announcement found.",
+  "ticket_status": "Sold out (the band's 10/25 show page and PanicStream's 2026 list both mark it 'SOLD OUT')",
+  "specials": "None announced for Sunday. The Hunger Task Force food drive was Friday only. Hunger Task Force is also giving away a band-signed 2025 Milwaukee poster (enter through the band's post). A jambands.com headline from 10/23/26 says this run includes the band's 50th show at the Riverside, but the article would not load, so which night that is remains unverified.",
+  "stream": {
+   "label": "Free live audio stream (all three Milwaukee nights)",
+   "url": "https://widespreadpanic.com/2026/10/21/milwaukee-food-drive-free-live-audio-streams/",
+   "price": "$0",
+   "free": true,
+   "notes": "Audio only, starting 8:00 PM CT, on the nugs app, YouTube (Widespread Panic channel), Facebook and Twitch. On nugs you need a free nugs account to sign in, but no paid subscription (help.nugs.net). YouTube needs no sign-in; Friday's stream ran there as 'Live at The Riverside Theater in Milwaukee, WI, Friday October 23, 2026 (Audio Only)'. No paid video webcast was announced for Milwaukee."
+  },
+  "sources": [
+   "https://widespreadpanic.com/shows/2026-10-25-milwaukee-wi-the-riverside-theater/",
+   "https://widespreadpanic.com/2026/10/21/milwaukee-food-drive-free-live-audio-streams/",
+   "https://help.nugs.net/support/solutions/articles/6000267129-how-do-i-access-free-audio-livestreams-",
+   "https://www.youtube.com/watch?v=dsmve2B0064",
+   "https://www.panicstream.com/vault/",
+   "https://jambands.com/news/2026/10/23/hunger-task-force-offers-an-opportunity-to-win-a-signed-widespread-panic-poster-as-band-plays-50th-show-at-riverside-theater/"
+  ]
+ },
+ "next_shows": [
+  {
+   "dates": "Fri Oct 30 and Sat Oct 31, 2026 (Halloween)",
+   "venue": "UNO Lakefront Arena",
+   "city": "New Orleans, LA",
+   "source": "https://www.jambase.com/article/widespread-panic-halloween-2026-new-orleans"
+  },
+  {
+   "dates": "Wed Dec 30 and Thu Dec 31, 2026 (New Year's)",
+   "venue": "Bojangles Coliseum",
+   "city": "Charlotte, NC",
+   "source": "https://www.panicstream.com/vault/"
+  },
+  {
+   "dates": "Jan 19-22, 2027 (Panic en la Playa Catorce)",
+   "venue": "Hard Rock Riviera Maya (per L4LM, 'Riviera Maya, Mexico')",
+   "city": "Riviera Maya, Mexico",
+   "source": "https://liveforlivemusic.com/news/recap/widespread-panic-first-ever-rebirtha-opener-milwaukee-10-23-26/"
+  }
+ ],
+ "still_in_the_bag": [
+  {
+   "song": "King Baby",
+   "stat": "9 plays this tour; last 9/19/26",
+   "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"
+  },
+  {
+   "song": "Little By Little",
+   "stat": "9 plays this tour; last 8/14/26",
+   "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"
+  },
+  {
+   "song": "Pleas",
+   "stat": "9 plays this tour; last 9/18/26",
+   "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"
+  },
+  {
+   "song": "Ride Me High",
+   "stat": "9 plays this tour; last 8/15/26",
+   "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"
+  },
+  {
+   "song": "Tall Boy",
+   "stat": "9 plays this tour; last 8/14/26",
+   "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"
+  },
+  {
+   "song": "We Walk Each Other Home",
+   "stat": "9 plays this tour; last 9/19/26",
+   "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"
+  },
+  {
+   "song": "All Time Low",
+   "stat": "8 plays this tour; last 9/19/26",
+   "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"
+  },
+  {
+   "song": "Blue Indian",
+   "stat": "8 plays this tour; last 8/16/26",
+   "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"
+  },
+  {
+   "song": "Bust It Big",
+   "stat": "8 plays this tour; last 9/18/26",
+   "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"
+  },
+  {
+   "song": "Climb To Safety",
+   "stat": "8 plays this tour; last 8/16/26",
+   "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"
+  },
+  {
+   "song": "Porch Song",
+   "stat": "8 plays this tour; last 9/18/26",
+   "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"
+  },
+  {
+   "song": "Chilly Water",
+   "stat": "7 plays this tour; last 8/16/26",
+   "source": "https://everydaycompanion.com/playstats/tourplaystats.asp"
+  }
+ ],
+ "still_in_the_bag_notes": "Everyday Companion's 'Current Tour' stats cover 37 shows from 1/20/26 to 9/19/26, so the Memphis shows (10/10-11) are not counted. A song on this list may have been played in Memphis or late on Night 2. Songs that were played on Night 1 or in the posted part of Night 2 are left out, as is Drums (10 plays). Other high-count songs left off for space: Driving Song, Holden Oversoul, Ribs And Whiskey, Saint Ex (8 each).",
+ "milwaukee_history": [
+  {
+   "fact": "The annual Riverside run began in 2006 with a single Saturday show that sold out quickly. Panic was one of the first acts booked after Pabst Theater Group took over the Riverside. (Relix/jambands say 'most years since 2008' instead, so the start year differs by source.)",
+   "source": "https://onmilwaukee.com/articles/widespread-panic-riverside"
+  },
+  {
+   "fact": "Then-Mayor Tom Barrett declared Thursday, Oct. 21, 2021 'Widespread Panic Day' in Milwaukee.",
+   "source": "https://onmilwaukee.com/articles/widespread-panic-riverside"
+  },
+  {
+   "fact": "Oct. 2016 'Sabbath run': a Black Sabbath cover every night, with Fairies Wear Boots on Friday, Sweet Leaf as Saturday's encore (10/22/16), and Children of the Grave as Sunday's encore (10/23/16). Children of the Grave had not been played since 10/31/07, a 604-show gap.",
+   "source": "https://liveforlivemusic.com/news/widespread-panic-closes-out-milwaukee-run-with-third-consecutive-black-sabbath-bust-out/"
+  },
+  {
+   "fact": "Closing night 10/26/25 ended with a double encore: Cosmic Confidante, Soul Kitchen (The Doors, only the 4th time ever and a 52-show gap), Postcard, then Love Tractor. The show also brought back A of D (84-show gap) and Dirty Business.",
+   "source": "https://liveforlivemusic.com/news/widespread-panic-brew-city-sunday-finale-double-encore-10-26-25/"
+  },
+  {
+   "fact": "The archival release 'Milwaukee, WI 1996' (Porch Songs series, out 2010) captures the 11/1/96 show at the Modjeska Theatre with Michael Houser. It includes the first time the band covered Sick and Tired and Shake, Rattle and Roll.",
+   "source": "https://en.wikipedia.org/wiki/Milwaukee,_WI_1996"
+  }
+ ],
+ "reviews": [
+  {
+   "title": "Widespread Panic Tips Its Cap to World Series With First-Ever \"Rebirtha\" Opener in Milwaukee",
+   "outlet": "Live For Live Music (L4LM)",
+   "author": "James Sissler",
+   "url": "https://liveforlivemusic.com/news/recap/widespread-panic-first-ever-rebirtha-opener-milwaukee-10-23-26/",
+   "summary": "Night 1 opened with Rebirtha for the first time ever as a nod to the Brewers' World Series, with Nick Johnson covering for Jimmy Herring and a Herring Brewers jersey hung onstage.",
+   "night": "Night 1 (Oct 23)"
+  }
+ ],
+ "reviews_notes": "No Night 1 or Night 2 review was found from the Milwaukee Journal Sentinel, OnMilwaukee, Shepherd Express or Urban Milwaukee as of the check time.",
+ "sunday_after_party": {
+  "verified": true,
+  "details": "Armchair Boogie at Mo's Irish Pub, Sun Oct 25, 2026. Pabst Theater Group lists it as an 'After Party With Armchair Boogie (Immediately Following Widespread Panic)', with doors and start both at 11:00 PM. Tickets were 'On Sale Now' (not sold out). The price is not shown on the page; it is behind the 'Buy Tickets' link.",
+  "source": "https://www.pabsttheatergroup.com/events/detail/armchair-boogie-2026"
+ },
+ "open_questions": [
+  "Night 2: the rest of Set 2 and the encore (check widespreadpanic.com show page or the band's Bluesky later tonight).",
+  "No Night 2 setlist photo found.",
+  "Which night is the 50th Riverside show (the jambands 10/23/26 article would not load).",
+  "Armchair Boogie ticket price (not on the event page).",
+  "Whether any 'still in the bag' song was played at Mempho (10/10-11) or late on Night 2.",
+  "The start year of the Riverside tradition differs by source (2006 per OnMilwaukee and Radio Milwaukee, 2008 per Relix/jambands)."
+ ]
 }

@@ -2,6 +2,9 @@
    Each widget renders independently: a missing or broken file leaves a quiet
    "coming soon" note and never blocks the rest of the page. */
 window.WSP = window.WSP || {};
+/* Michael, 2026-10-25: every link that leaves the site opens in a new tab (decided at click time, so links built later and the map's links follow too) */
+document.addEventListener('click', (e) => { const a = e.target.closest && e.target.closest('a[href]'); if (!a) return; let u; try { u = new URL(a.getAttribute('href'), location.href); } catch (err) { return; }
+  if ((u.protocol === 'http:' || u.protocol === 'https:') && u.origin !== location.origin) { a.target = '_blank'; a.rel = 'noopener'; } }, true);
   /* R27: the hero as drawn (Figma, Phone · 390). Each night is past, today or ahead, in Central time */
   WSP.heroType = function () {
     const ymd = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Chicago', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
