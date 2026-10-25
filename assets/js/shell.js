@@ -195,15 +195,19 @@ WSP.shell = (function () {
   /* ---------- From Snacks (updates) ---------- */
   function renderUpdates(u) {
     const b = $('[data-widget="updates"] .body'); if (!b) return;
-    const items = (u && u.updates) || [];
+    /* Michael, 2026-10-24 19:21: his own note stays pinned above the automatic ones; the newest automatic note stays open under it */
+    const all = (u && u.updates) || [];
+    const items = all.filter(x => x.pin).concat(all.filter(x => !x.pin));
+    const firstAuto = items.findIndex(x => !x.pin);
+    const greet = (t) => String(t).replace(/^Hey Baby\b/, 'Hi Baby');
     const fmt = (iso) => { const d = new Date(iso); return isNaN(d) ? esc(iso) : d.toLocaleString('en-US', { weekday: 'short', hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' }); };
     const seen0 = store.get('updates-seen', 0);
-    const row = (x, i) => `<article class="update${i >= 1 ? ' folded-item' : ''}${x.important ? ' important' : ''}"><div class="update-when">${fmt(x.date)}${(Date.parse(x.date) || 0) > seen0 ? ' <span class="update-new">New</span>' : ''}</div>${x.title ? `<h3>${esc(x.title)}</h3>` : ''}<div class="prose">${[].concat(x.body || []).map(p => `<p>${esc(p)}</p>`).join('')}</div>${x.sign ? `<p class="update-sign">${esc(x.sign)}</p>` : ''}${x.link ? `<a class="link-pill" href="${esc(x.link)}"${/^#scene-[\w-]+$/.test(x.link) ? ` data-hero-go="${esc(x.link.slice(7))}"` : ''}>${I().link}${esc(x.link_label || 'Open')}</a>` : ''}</article>`;
+    const row = (x, i) => `<article class="update${!x.pin && i !== firstAuto ? ' folded-item' : ''}${x.important ? ' important' : ''}"><div class="update-when">${fmt(x.date)}${(Date.parse(x.date) || 0) > seen0 ? ' <span class="update-new">New</span>' : ''}</div>${x.title ? `<h3>${esc(x.title)}</h3>` : ''}<div class="prose">${[].concat(x.body || []).map(p => `<p>${esc(greet(p))}</p>`).join('')}</div>${x.sign ? `<p class="update-sign">${esc(x.sign)}</p>` : ''}${x.link ? `<a class="link-pill" href="${esc(x.link)}"${/^#scene-[\w-]+$/.test(x.link) ? ` data-hero-go="${esc(x.link.slice(7))}"` : ''}>${I().link}${esc(x.link_label || 'Open')}</a>` : ''}</article>`;
     b.innerHTML = (items.length ? items.map(row).join('') : '<p class="muted">Nothing yet. I will leave notes here as the weekend goes.</p>') +
-      (items.length > 1 ? `<button class="btn btn--sm letter-more" type="button" id="updates-more" aria-expanded="false">Earlier notes (${items.length - 1})</button>` : '') +
+      (items.filter((x, i) => !x.pin && i !== firstAuto).length ? `<button class="btn btn--sm letter-more" type="button" id="updates-more" aria-expanded="false">Earlier notes (${items.filter((x, i) => !x.pin && i !== firstAuto).length})</button>` : '') +
       `<p class="caption"><a href="#top" id="welcome-again-2">Read the welcome again</a></p>`;
     const more = $('#updates-more'); if (more) more.addEventListener('click', () => { $$('.folded-item', b).forEach(x => x.classList.remove('folded-item')); more.remove(); });
-    const seen = store.get('updates-seen', 0); const newest = items[0] && Date.parse(items[0].date) || 0;
+    const seen = store.get('updates-seen', 0); const newest = Math.max(0, ...items.map(x => Date.parse(x.date) || 0));
     // the letter is open, so being on the page is reading it: the New mark shows this visit, then clears
     if (newest > seen) store.set('updates-seen', Date.now());
   }
