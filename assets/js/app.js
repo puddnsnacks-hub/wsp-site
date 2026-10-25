@@ -506,6 +506,34 @@ window.WSP = window.WSP || {};
     bd.addEventListener('click', (e) => { const t = e.target.closest('.sl-toggle'); if (!t) return; const open = t.getAttribute('aria-expanded') !== 'true'; t.setAttribute('aria-expanded', String(open)); const l = document.getElementById(t.getAttribute('aria-controls')); if (l) l.hidden = !open; });
   }
 
+
+  /* ---------- Sunday brunch (Michael, 2026-10-25): near the hotel first, then four worth a ride; each sheet links the brunch menu ---------- */
+  function renderBrunch(b) {
+    const bd = body('brunch'); if (!bd) return; if (!b || !arr(b.places).length) return pending('brunch');
+    const BOOK = /benelux|harbor-house|wicked-hop|tre-rivali/;
+    const short = (h) => { h = String(h || ''); if (!h || /not found/i.test(h)) return 'Call for hours'; return h.split(/[(.;]/)[0].replace(/^(Sat and Sun|Sunday|Brunch Sat-Sun|Bubbles & Brunch, Sat and Sun)\s*/i, '').trim(); };
+    const far2 = (p) => p.walk_minutes_from_hotel != null && p.group === 'walk' ? `${p.walk_minutes_from_hotel} min walk` : p.ride_minutes != null ? `${p.ride_minutes} min ride` : '';
+    const tags = (p) => { const t = []; const how = String((p.reservations || {}).how || '');
+      if (/walk-in|no reservations|first come/i.test(how)) t.push('Walk in'); else if (BOOK.test(p.id)) t.push('Book ahead'); else if ((p.reservations || {}).url || /opentable|toast|resy|tock|online/i.test(how)) t.push('Takes reservations');
+      if (arr(p.brunch_drinks).some(x => /bottomless|endless/i.test(x))) t.push('Bottomless'); if (p.has_patio) t.push(p.patio_heated ? 'Heated patio' : 'Patio'); if (p.has_bar) t.push('Bar'); if (p.price) t.push(p.price);
+      return t.length ? `<div class="tags">${t.map(x => `<span class="tag">${esc(x)}</span>`).join('')}</div>` : ''; };
+    const sheet = (p) => { const r = p.reservations || {};
+      return `<span class="eyebrow">${esc([String(p.neighborhood || '').replace(/\s*\(.*$/, ''), far2(p)].filter(Boolean).join(' · '))}</span><h3 id="sheet-title" class="heading-sm">${esc(p.name)}</h3>${tags(p)}
+      ${p.why_go ? `<p class="prose"><b class="strong">${esc(p.why_go)}</b></p>` : ''}
+      <p class="bm-garn"><b>Sunday brunch:</b> ${esc(p.sunday_brunch_hours || 'Call for hours')}</p>
+      ${arr(p.signature_dishes).length ? `<p class="bm-garn"><b>Order:</b> ${arr(p.signature_dishes).map(esc).join(', ')}</p>` : ''}
+      ${arr(p.brunch_drinks).length ? `<p class="bm-garn"><b>To drink:</b> ${arr(p.brunch_drinks).map(esc).join('; ')}</p>` : ''}
+      ${r.how ? `<p class="bm-garn"><b>Table:</b> ${esc(r.how)}${r.sunday_waits ? ` ${esc(r.sunday_waits)}` : ''}</p>` : ''}
+      ${p.dietary_notes ? `<p class="caption">${esc(p.dietary_notes)}</p>` : ''}${p.reviews_summary ? `<p class="caption">${esc(p.reviews_summary)}</p>` : ''}
+      <div class="links">${p.brunch_menu_url ? `<a class="link-pill maps" href="${esc(p.brunch_menu_url)}" target="_blank" rel="noopener">${I.link}Brunch menu</a>` : (p.website ? `<a class="link-pill maps" href="${esc(p.website)}" target="_blank" rel="noopener">${I.link}Menu</a>` : '')}${r.url ? `<a class="link-pill" href="${esc(r.url)}" target="_blank" rel="noopener">${I.ticket}Reserve</a>` : ''}<a class="link-pill" href="${esc(WSP.map.gmapsFallback(p))}" target="_blank" rel="noopener">${I.pin}Maps</a>${p.phone ? `<a class="link-pill" href="tel:${esc(String(p.phone).replace(/[^\d+]/g, ''))}">${I.clock}Call</a>` : ''}${p.lat ? `<button class="link-pill" data-focus="${esc(p.id)}">${I.pin}On map</button>` : ''}</div>`; };
+    const bt = (p) => tile({ bare: true, cat: 'restaurant', name: p.name, line: esc([far2(p), short(p.sunday_brunch_hours)].filter(Boolean).join(' · ')), open: modal(sheet(p)) });
+    const walk = arr(b.places).filter(p => p.group === 'walk').sort((a, c) => (a.walk_minutes_from_hotel || 99) - (c.walk_minutes_from_hotel || 99));
+    const ride = arr(b.places).filter(p => p.group !== 'walk');
+    const groups = [['walk', 'Walk there', () => `<ul class="tiles">${walk.map(bt).join('')}</ul>`], ['ride', 'Worth the ride', () => `<ul class="tiles">${ride.map(bt).join('')}</ul>`]];
+    if (arr(b.tips).length) groups.push(['tips', 'Good to know', () => `<ul class="rules">${arr(b.tips).map(t => `<li class="rule"><span class="ic">${I.info}</span><span>${esc(t.tip)}${src(t.source)}</span></li>`).join('')}</ul>`]);
+    bd.innerHTML = `<div class="tabs" role="tablist">${groups.map(([id, l], i) => `<button class="tab" role="tab" id="bn-${id}" aria-selected="${i === 0}" aria-controls="bnp-${id}">${l}</button>`).join('')}</div>${groups.map(([id, , fn], i) => `<div role="tabpanel" id="bnp-${id}" aria-labelledby="bn-${id}" ${i ? 'hidden' : ''}>${fn()}</div>`).join('')}`;
+    bd.querySelector('.tabs').addEventListener('click', (e) => { const t = e.target.closest('.tab'); if (!t) return; bd.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-selected', x === t)); bd.querySelectorAll('[role=tabpanel]').forEach(x => x.hidden = x.id !== t.getAttribute('aria-controls')); });
+  }
   /* ---------- Breakfast (timeline, 2026-10-24): the Bloody research places that serve breakfast, then Monday before the flight ---------- */
   function renderBreakfast(b, f) {
     const bd = body('breakfast'); if (!bd) return; if (!b || !b.places) return pending('breakfast');
@@ -545,6 +573,7 @@ window.WSP = window.WSP || {};
     if (d.laverne) (d.laverne.milwaukee_pilgrimage || []).forEach(x => push(x, 'laverne'));
     const pin = (x, cat) => { if (x && x.lat) { const y = Object.assign({}, x, { category: cat, blurb: x.why_go || x.vibe || '' }); delete y.drinks; out.push(y); } };
     if (d.bloody) d.bloody.places.forEach(x => pin(x, 'bloody'));
+    if (d.brunch) arr(d.brunch.places).forEach(x => pin(x, 'restaurant'));
     if (d.happyhour) (d.happyhour.places || []).forEach(x => pin(x, 'happy-hour'));
     if (d.latenight) (d.latenight.places || []).forEach(x => pin(x, 'restaurant'));
     if (d.locations && Array.isArray(d.locations)) d.locations.forEach(x => push(x));
@@ -554,7 +583,7 @@ window.WSP = window.WSP || {};
   /* ---------- Boot ---------- */
   async function boot() {
     const wxP = WSP.weather.init();
-    const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'mascots', 'locations', 'share', 'peeps', 'notes', 'welcome', 'updates', 'art', 'lastnight', 'bloody', 'garnish-icons', 'happyhour', 'setlists'];
+    const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'mascots', 'locations', 'share', 'peeps', 'notes', 'welcome', 'updates', 'art', 'lastnight', 'bloody', 'garnish-icons', 'happyhour', 'setlists', 'brunch'];
     const gm = $('#gmaps-open');
     const d = Object.fromEntries(await Promise.all(names.map(async n => [n, await load(n)])));
     const locs = collect(d); locs.forEach(l => byId[l.id] = l); WSP.locations = locs;
@@ -565,7 +594,7 @@ window.WSP = window.WSP || {};
     renderBars(d.area); renderFood(d.food); renderHotel(d.concert, d.area); renderFacts(d.area); renderLaverne(d.laverne);
     renderLineups(d.lineups); renderMascots(d.mascots);
     ((d['garnish-icons'] || {}).icons || []).forEach(g => { GX[g.id] = g; });
-    [[renderSetlists, d.setlists], [renderBloody, d.bloody], [renderBloodyHome, d.bloody], [(x) => renderBreakfast(x, d.food), d.bloody], [renderHappy, d.happyhour], [renderLate, d.latenight]].forEach(([f, x]) => { try { f(x); } catch (e) { console.warn('render', f.name, e); } });
+    [[renderSetlists, d.setlists], [renderBrunch, d.brunch], [renderBloody, d.bloody], [renderBloodyHome, d.bloody], [(x) => renderBreakfast(x, d.food), d.bloody], [renderHappy, d.happyhour], [renderLate, d.latenight]].forEach(([f, x]) => { try { f(x); } catch (e) { console.warn('render', f.name, e); } });
     renderShare(locs, d.share);
     renderPeeps(d.peeps); applyArt(d.art);
     if (gm && d.share && d.share.my_maps_url) gm.href = d.share.my_maps_url;
