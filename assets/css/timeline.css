@@ -190,3 +190,44 @@ html { scroll-padding-top: 76px; scroll-padding-bottom: 84px; }   /* a focused c
 .mega a:focus-visible { outline-color: var(--wsp-gold-30); box-shadow: none; }
 .leaflet-popup-content-wrapper { max-width: calc(100vw - 64px); }   /* review 10: the pin popup fits the map at 320 */
 .leaflet-popup-content { max-width: calc(100vw - 96px); overflow-wrap: break-word; }
+
+/* ---------- Michael, 2026-10-24 19:35: no pictures between the categories; a tighter flat band ---------- */
+.space.space--gap { --h: 72px; --seam: 46px; min-height: 0; }
+@media (min-width: 760px) { .space.space--gap { --h: 84px; } }
+.space.space--gap[data-space="G9"] { margin-bottom: 0 !important; height: calc(var(--h) + var(--seam)); overflow: clip; }
+
+/* ---------- The third hero link: Set lists (Michael, 19:37), set like the Bloody Mary link ---------- */
+.hero2 .h2-btn--3 { left: calc(var(--u) * 16); top: calc(var(--u) * 414); width: calc(var(--u) * 167); height: calc(var(--u) * 45); }
+.hero2 .h2-btn--3::before { left: calc(var(--u) * 8); top: 0; width: calc(var(--u) * 159); height: calc(var(--u) * 45); background: var(--wsp-gold-30); }
+.hero2 .h2-btn--3 > span { margin-top: calc(var(--u) * 4); min-width: calc(var(--u) * 156); width: max-content; height: calc(var(--u) * 37); box-sizing: border-box;
+  padding: calc(var(--u) * 4) calc(var(--u) * 8) calc(var(--u) * 12) calc(var(--u) * 24); background: var(--wsp-green-60); }
+.hero2 .h2-stage { height: calc(var(--u) * 548); }
+.hero2 .h2-stage > .temp-pill { top: calc(var(--u) * 474); }
+
+/* ---------- Set lists: one expandable list per night ---------- */
+.sl { display: grid; gap: 14px; }
+.sl-show { border: 2px solid var(--wsp-ink-90); background: var(--wsp-paper-5); box-shadow: 4px 4px 0 var(--wsp-teal-40); }
+.sl-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 12px; align-items: center; padding: 12px 14px; }
+.sl-t h3 { margin: 0; font: 700 20px/1.15 var(--pds-font-display); color: var(--wsp-ink-90); }
+.sl-wd { font-weight: 400; color: var(--wsp-ink-70); }
+.sl-where { margin: 4px 0 0; font: 400 14px/1.35 var(--pds-font-sans); color: var(--wsp-ink-70); }
+.sl-toggle { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 12px; border: 2px solid var(--wsp-ink-90); background: var(--wsp-teal-80); color: var(--wsp-paper-5); font: 600 14px/1 var(--pds-font-sans); cursor: pointer; }
+.sl-toggle .chev svg { width: 18px; height: 18px; display: block; transition: transform var(--pds-duration-base) var(--pds-ease); }
+.sl-toggle[aria-expanded="true"] .chev svg { transform: rotate(180deg); }
+.sl-listen { grid-column: 1 / -1; }
+.sl-listen > summary { display: inline-flex; align-items: center; min-height: 36px; padding: 0 10px; border: 2px solid var(--wsp-ink-90); font: 600 14px/1 var(--pds-font-sans); color: var(--wsp-ink-90); cursor: pointer; list-style: none; }
+.sl-listen > summary::-webkit-details-marker { display: none; }
+.sl-listen > summary::after { content: "+"; margin-left: 8px; font-weight: 700; }
+.sl-listen[open] > summary::after { content: "–"; }
+.sl-listen ul { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; }
+.sl-listen li a { font-weight: 600; color: var(--wsp-teal-70); }
+.sl-list { border-top: 2px solid var(--wsp-ink-90); padding: 12px 14px 14px; display: grid; gap: 14px; }
+.sl-set h4 { margin: 0 0 6px; font: 600 12px/1 var(--pds-font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--wsp-orange-60); }
+.sl-set ol { margin: 0; padding-left: 28px; display: grid; gap: 4px; font: 400 16px/1.4 var(--pds-font-sans); color: var(--wsp-ink-90); }
+.sl-set ol li::marker { font-family: var(--pds-font-mono); font-size: 13px; color: var(--wsp-ink-70); }
+.sl-soon { margin: 0; padding: 0 14px 12px; }
+.sl-show--ahead { box-shadow: 4px 4px 0 var(--wsp-paper-40); }
+@media (min-width: 760px) { .sl-list { grid-template-columns: repeat(3, minmax(0, 1fr)); } .sl-list > p { grid-column: 1 / -1; } }
+.sl-list[hidden] { display: none; }
+.sl-date { white-space: nowrap; }
+.hero2 .h2-btn--2 > span { justify-content: flex-start; padding-left: calc(var(--u) * 24); }   /* the three labels share one left edge */

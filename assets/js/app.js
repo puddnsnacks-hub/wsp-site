@@ -10,9 +10,14 @@ window.WSP = window.WSP || {};
   };
   const heroGo = () => { WSP.heroType();
     document.addEventListener('click', (e) => { const a = e.target.closest('[data-hero-go]'); if (!a) return; const ch = a.dataset.heroGo;
-      if (WSP.shell && WSP.shell.go) { e.preventDefault(); history.replaceState(null, '', '#scene-' + ch);
-        const first = document.querySelector(`#scene-${ch} > section.w:not([hidden]):not([data-nocollapse])`); if (first && WSP.shell.setOpen) WSP.shell.setOpen(first, true);
-        setTimeout(() => { WSP.shell.go(ch); const t = document.querySelector(`#scene-${ch} [data-chapter-toggle]`); if (t) t.focus({ preventScroll: true }); }, 50); } }); };  /* review 5: focus follows */   /* review 2: open the first card, then land on the category head */  /* review 2: land on the first card, open */
+      if (WSP.shell && WSP.shell.go) { e.preventDefault(); history.replaceState(null, '', '#' + (a.dataset.heroCard || 'scene-' + ch));
+        const first = (a.dataset.heroCard && document.getElementById(a.dataset.heroCard)) || document.querySelector(`#scene-${ch} > section.w:not([hidden]):not([data-nocollapse])`); if (first && WSP.shell.setOpen) WSP.shell.setOpen(first, true);
+        setTimeout(() => {
+          if (a.dataset.heroCard && first) {   /* a named card: land on the card itself */
+            WSP.shell.go(ch, { scroll: false }); const nav = document.querySelector('.site-nav'); const top = first.getBoundingClientRect().top + scrollY - (nav ? nav.offsetHeight : 0) - 12;
+            scrollTo({ top: Math.max(0, top), behavior: WSP.motion() }); const t = first.querySelector('.w-toggle'); if (t) t.focus({ preventScroll: true });
+          } else { WSP.shell.go(ch); const t = document.querySelector(`#scene-${ch} [data-chapter-toggle]`); if (t) t.focus({ preventScroll: true }); }
+        }, 50); } }); };  /* review 5: focus follows */   /* review 2: open the first card, then land on the category head */  /* review 2: land on the first card, open */
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', heroGo); else heroGo();
   setInterval(() => WSP.heroType && WSP.heroType(), 5 * 60 * 1000);
   /* review 3: arrow keys move along a tab row, as tabs should */
@@ -481,6 +486,26 @@ window.WSP = window.WSP || {};
     bd.innerHTML = `<ul class="tiles">${arr(b.recipes).map(r => tile({ art: gxRow((r.garnish_icons || []).slice(0, 6)), cat: 'bloody', name: r.name, line: esc(r.style || ''), open: modal(recipeSheet(r)) })).join('')}</ul>
       ${arr(b.culture).length ? `<div><span class="eyebrow">The lore</span>${factsList(b.culture, 5)}</div>` : ''}`;
   }
+  /* ---------- Set lists (Michael, 2026-10-24 19:35): one expandable list per night; its head carries the title, the place and date, and a folded Listen ---------- */
+  function renderSetlists(s) {
+    const bd = body('setlists'); if (!bd) return; if (!s || !arr(s.shows).length) return pending('setlists', 'The set lists land here after each show');
+    const day = (iso) => { const d = new Date(iso + 'T12:00:00-05:00'); return isNaN(d) ? esc(iso) : d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'America/Chicago' }); };
+    const count = (sh) => arr(sh.sets).reduce((n, x) => n + arr(x.songs).length, 0);
+    bd.innerHTML = `<div class="sl">${arr(s.shows).map((sh, i) => { const id = `sl-${sh.night || i}`, n = count(sh);
+      return `<article class="sl-show${n ? '' : ' sl-show--ahead'}">
+        <div class="sl-head">
+          <div class="sl-t"><h3>${esc(sh.title)}${sh.weekday ? ` <span class="sl-wd">· ${esc(sh.weekday)}</span>` : ''}</h3><p class="sl-where">${esc(sh.place || '')} · <time class="sl-date" datetime="${esc(sh.date)}">${day(sh.date)}</time></p></div>
+          ${n ? `<button class="sl-toggle" type="button" aria-expanded="false" aria-controls="${id}-list"><span>${n} songs</span><span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg></span></button>` : ''}
+          ${arr(sh.listen).length ? `<details class="sl-listen"><summary>Listen</summary><ul>${arr(sh.listen).map(l => `<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>${l.note ? ` <span class="caption">${esc(l.note)}</span>` : ''}</li>`).join('')}</ul></details>` : ''}
+        </div>
+        ${n ? `<div class="sl-list" id="${id}-list" hidden>${arr(sh.sets).map(x => `<div class="sl-set"><h4>${esc(x.name)}</h4><ol>${arr(x.songs).map(t => `<li>${esc(t)}</li>`).join('')}</ol></div>`).join('')}
+          ${sh.note ? `<p class="caption">${esc(sh.note)}${sh.note_link ? ` <a href="${esc(sh.note_link.url)}" target="_blank" rel="noopener">${esc(sh.note_link.label)}</a>` : ''}</p>` : ''}
+          ${sh.source ? `<p class="caption">Songs from <a href="${esc(sh.source.url)}" target="_blank" rel="noopener">${esc(sh.source.label)}</a></p>` : ''}</div>`
+        : `<p class="sl-soon caption">The set list goes up after the show.</p>`}
+      </article>`; }).join('')}</div>`;
+    bd.addEventListener('click', (e) => { const t = e.target.closest('.sl-toggle'); if (!t) return; const open = t.getAttribute('aria-expanded') !== 'true'; t.setAttribute('aria-expanded', String(open)); const l = document.getElementById(t.getAttribute('aria-controls')); if (l) l.hidden = !open; });
+  }
+
   /* ---------- Breakfast (timeline, 2026-10-24): the Bloody research places that serve breakfast, then Monday before the flight ---------- */
   function renderBreakfast(b, f) {
     const bd = body('breakfast'); if (!bd) return; if (!b || !b.places) return pending('breakfast');
@@ -529,7 +554,7 @@ window.WSP = window.WSP || {};
   /* ---------- Boot ---------- */
   async function boot() {
     const wxP = WSP.weather.init();
-    const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'mascots', 'locations', 'share', 'peeps', 'notes', 'welcome', 'updates', 'art', 'lastnight', 'bloody', 'garnish-icons', 'happyhour'];
+    const names = ['concert', 'worldseries', 'closure', 'food', 'area', 'laverne', 'lineups', 'mascots', 'locations', 'share', 'peeps', 'notes', 'welcome', 'updates', 'art', 'lastnight', 'bloody', 'garnish-icons', 'happyhour', 'setlists'];
     const gm = $('#gmaps-open');
     const d = Object.fromEntries(await Promise.all(names.map(async n => [n, await load(n)])));
     const locs = collect(d); locs.forEach(l => byId[l.id] = l); WSP.locations = locs;
@@ -540,7 +565,7 @@ window.WSP = window.WSP || {};
     renderBars(d.area); renderFood(d.food); renderHotel(d.concert, d.area); renderFacts(d.area); renderLaverne(d.laverne);
     renderLineups(d.lineups); renderMascots(d.mascots);
     ((d['garnish-icons'] || {}).icons || []).forEach(g => { GX[g.id] = g; });
-    [[renderBloody, d.bloody], [renderBloodyHome, d.bloody], [(x) => renderBreakfast(x, d.food), d.bloody], [renderHappy, d.happyhour], [renderLate, d.latenight]].forEach(([f, x]) => { try { f(x); } catch (e) { console.warn('render', f.name, e); } });
+    [[renderSetlists, d.setlists], [renderBloody, d.bloody], [renderBloodyHome, d.bloody], [(x) => renderBreakfast(x, d.food), d.bloody], [renderHappy, d.happyhour], [renderLate, d.latenight]].forEach(([f, x]) => { try { f(x); } catch (e) { console.warn('render', f.name, e); } });
     renderShare(locs, d.share);
     renderPeeps(d.peeps); applyArt(d.art);
     if (gm && d.share && d.share.my_maps_url) gm.href = d.share.my_maps_url;
