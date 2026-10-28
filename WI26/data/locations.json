@@ -1,0 +1,2011 @@
+[
+ {
+  "id": "riverside-theater",
+  "name": "Riverside Theater",
+  "category": "venue",
+  "lat": 43.039,
+  "lng": -87.9109,
+  "address": "116 W Wisconsin Ave, Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Riverside+Theater+116+W+Wisconsin+Ave+Milwaukee+WI+53203",
+  "website": "https://www.pabsttheatergroup.com/venues/riverside-theater",
+  "phone": "(414) 242-8200",
+  "blurb": "The Riverside is a 1928 French Baroque vaudeville palace on the west bank of the Milwaukee River, and Widespread Panic's unofficial Midwest home. I have only seen it in photographs, and in every one the balcony looks like it is leaning over the stage.",
+  "tags": [
+   "historic",
+   "GA pit",
+   "cashless bars",
+   "three nights"
+  ],
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Milwaukee_November_2022_13_%28Riverside_Theater_from_Milwaukee_Skywalk%29.jpg/1280px-Milwaukee_November_2022_13_%28Riverside_Theater_from_Milwaukee_Skywalk%29.jpg",
+   "credit": "Michael Barera / Wikimedia Commons, CC BY-SA 4.0",
+   "credit_url": "https://commons.wikimedia.org/wiki/File:Milwaukee_November_2022_13_(Riverside_Theater_from_Milwaukee_Skywalk).jpg",
+   "local": "assets/img/places/riverside-theater-920966e4.jpg"
+  },
+  "capacity": 2480,
+  "capacity_source": "https://en.wikipedia.org/wiki/Riverside_Theater_(Milwaukee)",
+  "history": "RKO opened the Riverside on April 29, 1928 as a vaudeville-and-film house by Milwaukee architects Kirchhoff and Rose, who also drew up New York's Palace Theatre. The Three Stooges, Abbott and Costello, and a young Frank Sinatra with Tommy Dorsey all played here. A 1966 fire took out the ornate ceiling, the theater went dark in 1982, and philanthropist Joseph Zilber's $1.5 million restoration reopened it in 1984. Pabst Theater Group took over in 2005 and added a new marquee and 40-foot vertical sign in 2015-16. The original Wurlitzer organ still sits beneath the stage.",
+  "history_sources": [
+   "https://en.wikipedia.org/wiki/Riverside_Theater_(Milwaukee)",
+   "https://www.pabsttheatergroup.com/connect/green-room/detail/the-riverside-theater-nearly-a-century-of-unforgettable-nights"
+  ],
+  "ticket_options": [
+   "1st Floor General Admission Pit",
+   "1st Floor General Admission",
+   "2nd Floor Reserved Seats"
+  ],
+  "tips": [
+   "Hi Baby, bag policy first: small purses only, 13\"W x 4\"D x 9\"H or smaller, and they will be searched. Backpacks and oversized bags are turned away and there is no bag storage, so the big bag stays at the Drury.",
+   "Re-entry: the official FAQ does not address it, so plan as if there is none. Finish the street party and Mo's before you scan in.",
+   "Will call: the Riverside box office (116 W Wisconsin Ave) opens at 12:00 PM on event days, and will call opens 2 hours before showtime. Bring photo ID, and only the original purchaser can pick up. AXS mobile tickets live in the AXS app and cannot be printed.",
+   "Best entrance: the main doors under the marquee on W Wisconsin Ave, right at the river. Arrive at least 30 minutes before you want to be inside for security screening. The GA line for the pit forms early along Wisconsin Ave.",
+   "Money: bars and concessions are cashless (cards, Apple Pay, Google Pay), so no ATM hunt. Restroom locations are not published, so ask an usher.",
+   "Prohibited: outside food or drink (including water), vapes, laser pens, signs, flags, selfie sticks, tablets, pro cameras with zoom lenses, and any flash photography. Phone cameras are fine.",
+   "Merch: Pabst Theater Group runs an online store, and the in-venue tables are usually in the lobby. Run posters tend to sell out night one.",
+   "Parking is not your problem, you are walking. If a friend drives, the Gimbels Structure at 555 N Plankinton Ave takes Pabst advance parking passes."
+  ],
+  "tips_sources": [
+   "https://www.pabsttheatergroup.com/plan-your-visit/faqs",
+   "https://www.axs.com/venues/101184",
+   "https://www.pabsttheatergroup.com/events/detail/widespread-panic-2026"
+  ],
+  "box_office_source": "https://www.pabsttheatergroup.com/plan-your-visit/faqs"
+ },
+ {
+  "id": "drury-plaza-hotel-milwaukee-downtown",
+  "name": "Drury Plaza Hotel Milwaukee Downtown",
+  "category": "hotel",
+  "lat": 43.0389,
+  "lng": -87.9088,
+  "address": "700 N Water St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Drury+Plaza+Hotel+Milwaukee+Downtown+700+N+Water+St+Milwaukee+WI+53202",
+  "short_link": "https://maps.app.goo.gl/FqDn78sZgWQyeN2U9",
+  "website": "https://www.druryhotels.com/locations/milwaukee-wi/drury-plaza-hotel-milwaukee-downtown",
+  "phone": "800-378-7946",
+  "blurb": "The Drury sits inside the 1928 Art Deco First Financial Centre at Water and Wisconsin, directly across the river from the Riverside. The free 5:30 Kickback (hot appetizers and drinks) lines up with pre-show, and the free hot breakfast will do its part the morning after.",
+  "tags": [
+   "free breakfast",
+   "5:30 Kickback",
+   "indoor/outdoor pool",
+   "skywalk",
+   "Art Deco"
+  ],
+  "image": {
+   "src": "https://cms.druryhotels.com/media/473027/0183_exterior-01.jpg",
+   "credit": "Drury Hotels",
+   "credit_url": "https://www.druryhotels.com/historic-renovations-milwaukee",
+   "local": "assets/img/places/drury-plaza-hotel-milwaukee-downtown-7c70f684.jpg"
+  },
+  "amenities": [
+   "Complimentary 5:30 Kickback reception (appetizers and beverages)",
+   "Complimentary hot breakfast",
+   "Indoor/outdoor pool and whirlpool",
+   "24-hour fitness center",
+   "Free Wi-Fi",
+   "Connected to the Milwaukee skywalk system"
+  ],
+  "amenities_source": "https://www.druryhotels.com/about/pressreleases/drury-plaza-hotel-milwaukee-downtown-now-open",
+  "building_history": "Built in 1928 as the First Financial Centre, designed by Eschweiler & Eschweiler in Art Deco style; the 14-story tower's facade was bricked over in the 1980s and restored during Drury's two-year conversion.",
+  "building_history_source": "https://www.druryhotels.com/historic-renovations-milwaukee",
+  "resolution_confidence": "high",
+  "resolution_note": "The maps.app.goo.gl short link redirects to maps.google.com with q=Drury+Plaza+Hotel+Milwaukee+Downtown,+700+N+Water+St,+Milwaukee,+WI+53202."
+ },
+ {
+  "id": "deer-garden-deer-district",
+  "name": "The Deer Garden at Deer District",
+  "category": "watch-party",
+  "lat": 43.045,
+  "lng": -87.9159,
+  "address": "1134 N Vel R. Phillips Ave, Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Deer+Garden+at+Deer+District+Milwaukee&query_place_id=ChIJPZ9zGyMZBYgRmNoONk8FinQ",
+  "yelp_photos_url": null,
+  "website": "https://deerdistrict.com/",
+  "blurb": "The city's official free outdoor watch party: a big screen in the Deer Garden plaza outside Fiserv Forum, ringed by bars and restaurants running Brewers promotions. This is where Milwaukee goes to lose its mind together.",
+  "tags": [
+   "free",
+   "outdoor",
+   "official watch party",
+   "big screen",
+   "crowds"
+  ],
+  "walk_from_riverside_miles": 0.46,
+  "tv_setup": "Large outdoor screen presented by Michelob ULTRA; surrounding bars (Tom's Watch Bar, The Mecca, Good City, etc.) have screens with sound indoors.",
+  "hours_this_weekend": "Plaza is open all day; Brewers first pitch 7 PM. The Game 2 watch party is listed by WTMJ; the Deer District has not posted its own Saturday schedule. Dress warm; late October nights in Milwaukee run 35-45 F.",
+  "source": "https://deerdistrict.com/article/ddbaseball/",
+  "cost": "Free",
+  "confirmed_games": [
+   "Game 2 (Sat Oct 24) listed by WTMJ"
+  ],
+  "secondary_source": "https://urbanmilwaukee.com/2026/10/22/where-to-watch-the-brewers-without-breaking-the-bank/"
+ },
+ {
+  "id": "toms-watch-bar-milwaukee",
+  "name": "Tom's Watch Bar",
+  "category": "watch-party",
+  "lat": 43.0452,
+  "lng": -87.9156,
+  "address": "1134 N Vel R. Phillips Ave, Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Tom%27s+Watch+Bar+Milwaukee&query_place_id=ChIJEbbO0v4ZBYgRjEE3UnbLF_c",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/toms-watch-bar-milwaukee?tab=food",
+  "website": "https://tomswatchbar.com/milwaukee/",
+  "blurb": "The most screens in the city, all with the sound up, in a 360-degree stadium-seating room on the Deer District plaza. They have committed to every Brewers postseason game, take reservations for playoff tables (it fills), and the food runs a notch above wings-and-fries. I have not sat in it. Reviewers who have say it is the ballpark without the $2,900 ticket.",
+  "tags": [
+   "sports bar",
+   "100+ screens",
+   "sound on",
+   "reservations",
+   "deer district"
+  ],
+  "walk_from_riverside_miles": 0.47,
+  "tv_setup": "More than 100 screens with sound up, oversized 'stadium screens' (reviewers mention a 45-foot jumbotron on the mezzanine), 360-degree viewing, indoor and outdoor seating.",
+  "hours_this_weekend": "Fri 11:00 AM-12:00 AM; Sat 10:00 AM-12:00 AM; Sun 11:00 AM-12:00 AM; Mon 4:00 PM-12:00 AM. UFC watch Sat 1 PM, Packers watch Sun 3:25 PM.",
+  "source": "https://tomswatchbar.com/milwaukee/",
+  "cost": "No cover; reservations via website",
+  "phone": "(414) 376-6669"
+ },
+ {
+  "id": "major-goolsbys",
+  "name": "Major Goolsby's",
+  "category": "watch-party",
+  "lat": 43.0417,
+  "lng": -87.9156,
+  "address": "340 W Kilbourn Ave, Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Major+Goolsby%27s+Milwaukee&query_place_id=ChIJ3VkbA3UZBYgRC3Z4Ai_xQew",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/major-goolsbys-milwaukee-2?tab=food",
+  "website": "https://www.majorgoolsbys.com/",
+  "blurb": "Milwaukee's old-school sports bar, two blocks from the Riverside, walls covered in signed memorabilia and TVs everywhere. $10 pitchers during every World Series game, giant pretzels, wings, burgers. The closest place to catch first pitch and still make the opening notes of set 1.",
+  "tags": [
+   "sports bar",
+   "cheap",
+   "closest to riverside",
+   "pitchers",
+   "institution"
+  ],
+  "walk_from_riverside_miles": 0.27,
+  "tv_setup": "TVs throughout the bar and dining room; game audio on for Brewers games (classic sports-bar setup, no single mega-screen).",
+  "hours_this_weekend": "Fri 11:00 AM-11:00 PM; Sat 11:00 AM-11:00 PM; Sun 11:00 AM-9:00 PM; Mon 4:00-9:00 PM. $10 beer pitchers during every World Series game.",
+  "source": "https://www.milwaukeemag.com/celebrate-the-world-series-with-these-great-game-day-specials/",
+  "cost": "No cover",
+  "phone": "(414) 271-3414",
+  "secondary_source": "https://milwaukeerecord.com/sports/heres-a-list-of-world-series-watch-parties-and-thats-it/"
+ },
+ {
+  "id": "third-ward-beer-garden-catalano-square",
+  "name": "Third Ward World Series Block Party (Catalano Square)",
+  "category": "watch-party",
+  "lat": 43.0313,
+  "lng": -87.9067,
+  "address": "147 N Broadway, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Third+Ward+World+Series+Block+Party+%28Catalano+Square%29+Milwaukee&query_place_id=ChIJo7PvSp4ZBYgR8Q87Bh_WV_A",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/third-ward-beer-garden-at-catalano-square-milwaukee?tab=food",
+  "website": "https://historicthirdward.org/",
+  "blurb": "A free street party in the prettiest neighborhood downtown: Menomonee St closed to cars, giant video screens in Catalano Square, food trucks, Brewers-themed cocktails from the Third Ward Beer Garden, and a live taping of the Foul Territory podcast (Corey Knebel, Kevin Pillar, Alanna Rizzo) 5-7 PM. FOX One's 'Relive Live' pop-up is a mock 1980s living room full of Brewers memorabilia and bobbleheads, noon-4 PM.",
+  "tags": [
+   "free",
+   "outdoor",
+   "block party",
+   "food trucks",
+   "third ward",
+   "official"
+  ],
+  "walk_from_riverside_miles": 0.59,
+  "tv_setup": "Giant outdoor video screens in Catalano Square with game audio; the beer garden bar also has TVs.",
+  "hours_this_weekend": "Sat Oct 24, noon-11:00 PM. Foul Territory live 5-7 PM; FOX One pop-up noon-4 PM; Bill Michaels Show live 10 AM-2 PM. Closed Sunday/Monday.",
+  "source": "https://www.milwaukeemag.com/watch-the-brewers-in-the-world-series-at-this-block-party/",
+  "cost": "Free admission; pay for drinks and food",
+  "secondary_source": "https://www.tmj4.com/news/local-news/in-your-community/milwaukee-county/world-series-block-party-takes-over-milwaukees-historic-third-ward-with-watch-parties-and-more",
+  "tertiary_source": "https://urbanmilwaukee.com/2026/10/22/where-to-watch-the-brewers-without-breaking-the-bank/",
+  "host": "Third Ward Beer Garden and the Historic Third Ward Association, with FOX One"
+ },
+ {
+  "id": "cafe-benelux",
+  "name": "Cafe Benelux",
+  "category": "watch-party",
+  "lat": 43.0349,
+  "lng": -87.9071,
+  "address": "346 N Broadway, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Cafe+Benelux+Milwaukee&query_place_id=ChIJZ_10J6QZBYgRjajwdJ3ukeg",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/caf%C3%A9-benelux-milwaukee-2?tab=food",
+  "website": "https://www.cafebenelux.com/",
+  "blurb": "Lowlands Group's Belgian-style grand cafe with a rooftop patio in the heart of the Third Ward, two blocks from the block party. Official watch parties with buy-one-get-one Lowlands Brewing Collaborative beers from 5 PM, and they have promised to stay open until the final out. Frites and mussels instead of wings. This one is on reputation, and the reputation is sit-down and grown-up.",
+  "tags": [
+   "restaurant",
+   "belgian beer",
+   "rooftop",
+   "third ward",
+   "bogo",
+   "watch party"
+  ],
+  "walk_from_riverside_miles": 0.37,
+  "tv_setup": "TVs throughout the bar and dining rooms; game on for Brewers watch parties.",
+  "hours_this_weekend": "Fri 7:00 AM-12:00 AM; Sat 7:00 AM-12:00 AM; Sun 7:00 AM-11:00 PM; Mon 7:00 AM-11:00 PM. BOGO Lowlands beers from 5 PM on game days; open until the game ends.",
+  "source": "https://urbanmilwaukee.com/2026/10/22/where-to-watch-the-brewers-without-breaking-the-bank/",
+  "cost": "No cover",
+  "phone": "(414) 501-2500",
+  "secondary_source": "https://onmilwaukee.com/articles/brewers-watch-parties"
+ },
+ {
+  "id": "90s2k-cafe",
+  "name": "90s2K Cafe",
+  "category": "watch-party",
+  "lat": 43.0445,
+  "lng": -87.9146,
+  "address": "1103 N Dr. Martin Luther King Jr. Dr, Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=90s2K+Cafe+Milwaukee&query_place_id=ChIJlfXJIQAZBYgR0G97snf2PhE",
+  "yelp_photos_url": null,
+  "website": null,
+  "blurb": "A nostalgia bar (90s and 2000s decor, DJs, big dance floor) a block from the Deer District, throwing a '1982 Retro Watch Party' Saturday for the last time the Brewers were in the World Series. Doors 5 PM, 82-cent taps from 6-7 PM, Brewers gear required for the specials. Loud and young, and a Panic fan would enjoy the pregame.",
+  "tags": [
+   "theme bar",
+   "1982",
+   "cheap taps",
+   "dance floor",
+   "dress code: brewers gear"
+  ],
+  "walk_from_riverside_miles": 0.4,
+  "tv_setup": "Multiple TVs (normally playing 90s movies) switched to the game for the watch party.",
+  "hours_this_weekend": "Watch party Sat Oct 24: doors 5:00 PM, 82-cent taps 6:00-7:00 PM, open until 2:30 AM. Posted regular hours: Sat 4 PM-2:30 AM, Sun 4 PM-2 AM, Mon closed.",
+  "source": "https://onmilwaukee.com/articles/brewers-watch-parties",
+  "cost": "No cover listed; Brewers gear required for specials",
+  "phone": "(414) 210-2938"
+ },
+ {
+  "id": "whos-on-third",
+  "name": "Who's on Third",
+  "category": "watch-party",
+  "lat": 43.0432,
+  "lng": -87.9146,
+  "address": "1007 N Dr. Martin Luther King Jr. Dr (Old World Third St), Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Who%27s+on+Third+Milwaukee&query_place_id=ChIJC4Uvv3QZBYgRElnmPP7d1no",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/whos-on-third-milwaukee?tab=food",
+  "website": null,
+  "blurb": "The Brewers bar downtown: wings, brats, an outdoor patio, and a game-day shuttle to American Family Field that reviewers come back for on consecutive game days. Four blocks from the Riverside on the walk toward the Deer District. Open until 2:30 AM Friday and Saturday, so it works as a post-show stop for highlights and the mood. Never been inside, but a Brewers bar on a World Series night does not need my review.",
+  "tags": [
+   "sports bar",
+   "brewers bar",
+   "shuttle",
+   "late night",
+   "wings"
+  ],
+  "walk_from_riverside_miles": 0.32,
+  "tv_setup": "Sports-bar TV wall throughout; Brewers games are the house religion.",
+  "hours_this_weekend": "Fri 11:00 AM-2:30 AM; Sat 11:00 AM-2:30 AM; Sun 11:00 AM-2:00 AM; Mon 11:00 AM-2:00 AM (Google listing). No World Series-specific promo confirmed.",
+  "source": "https://www.google.com/maps/search/?api=1&query=Who%27s+on+Third+Milwaukee&query_place_id=ChIJC4Uvv3QZBYgRElnmPP7d1no",
+  "cost": "No cover",
+  "phone": "(414) 897-8373"
+ },
+ {
+  "id": "central-waters-milwaukee-taproom",
+  "name": "Central Waters Brewing Co. Milwaukee Taproom",
+  "category": "watch-party",
+  "lat": 43.0456,
+  "lng": -87.9255,
+  "address": "1037 W Juneau Ave, Milwaukee, WI 53233",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Central+Waters+Brewing+Co.+Milwaukee+Taproom+Milwaukee&query_place_id=ChIJC5y5gqgZBYgRiVsH67MVAyk",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/central-waters-brewing-milwaukee-milwaukee?tab=food",
+  "website": "https://centralwaters.com/",
+  "blurb": "A craft brewery taproom inside a converted 1880s church in the old Pabst brewery district, about a 15-minute walk west of the Deer District. The game goes on a projector with audio through the whole bar. World Series specials are $1 off full pours, $4 tallboys of Grand Slam Lager, and 8 bone-in wings with fries for $14, and Trouble Makers Cocina serves Mexican food on site. The calmest option of the watch spots, and the best beer.",
+  "tags": [
+   "brewery",
+   "craft beer",
+   "projector",
+   "sound on",
+   "historic building",
+   "quieter"
+  ],
+  "walk_from_riverside_miles": 0.84,
+  "tv_setup": "Projector screen with game audio throughout the taproom.",
+  "hours_this_weekend": "Fri 11:00 AM-10:00 PM; Sat 11:00 AM-10:00 PM; Sun 11:00 AM-7:00 PM; Mon 3:00-9:00 PM (posted). Specials run all day on World Series game days; unconfirmed whether they stay open past 10 PM to the final out.",
+  "source": "https://milwaukeerecord.com/sports/heres-a-list-of-world-series-watch-parties-and-thats-it/",
+  "cost": "No cover",
+  "phone": "(414) 271-3174",
+  "secondary_source": "https://urbanmilwaukee.com/2026/10/22/where-to-watch-the-brewers-without-breaking-the-bank/"
+ },
+ {
+  "id": "wisconsin-ave-street-stage",
+  "name": "Street Party Stage, W Wisconsin Ave at the Riverside Theater",
+  "category": "stage",
+  "lat": 43.0388,
+  "lng": -87.9108,
+  "address": "W Wisconsin Ave between N Plankinton Ave and N Water St (in front of the Riverside Theater, 116 W Wisconsin Ave), Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Riverside+Theater+116+W+Wisconsin+Ave+Milwaukee+WI",
+  "website": "https://www.pabsttheatergroup.com/events/detail/wolph",
+  "blurb": "The city shuts this one block of Wisconsin Avenue, bridge included, to cars from Friday noon through Sunday night, and Pabst Theater Group turns it into a free outdoor pre-party. Wolph plays at 5:30 PM each day, so the hotel, a beer on the pavement and the Riverside doors at 6:30 PM line up in one straight walk.",
+  "tags": [
+   "free",
+   "outdoor",
+   "live music",
+   "pre-party",
+   "beer garden",
+   "5:30 PM daily"
+  ],
+  "position_note": "Approximate. Exact stage placement within the closed block is not published; historically the setup faced the Riverside marquee near Plankinton Ave.",
+  "image": {
+   "src": "https://redlightmanagement.com/wp-content/uploads/2026/10/Wolph-Press-Photo.jpg",
+   "credit": "Wolph press photo via Red Light Management",
+   "credit_url": "https://redlightmanagement.com/artists/wolph/",
+   "local": "assets/img/bands/wisconsin-ave-street-stage-6a0e0169.jpg"
+  },
+  "source": "https://city.milwaukee.gov/dpw/infrastructure/StreetClosures"
+ },
+ {
+  "id": "mos-irish-pub",
+  "name": "Mo's Irish Pub",
+  "category": "bar",
+  "lat": 43.0389,
+  "lng": -87.9116,
+  "address": "142 W Wisconsin Ave, Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mo%27s+Irish+Pub+142+W+Wisconsin+Ave+Milwaukee+WI",
+  "yelp_photos_url": null,
+  "website": "https://www.mosirishpub.com/milwaukee",
+  "blurb": "Mo's is the Irish pub next door to the Riverside marquee, at the west edge of the closed block. It is the official Widespread Panic after-party bar (Houseplant Saturday, Armchair Boogie Sunday, 21+, doors 11 PM) and the indoor fallback if the street gets cold.",
+  "tags": [
+   "after-party",
+   "irish pub",
+   "late night",
+   "21+ after 11 PM",
+   "adjacent to closure"
+  ],
+  "zone_note": "Sits on the west side of N Plankinton Ave, immediately outside the closed block rather than inside it.",
+  "source": "https://onmilwaukee.com/articles/widespread-panic-riverside",
+  "vibe": "Big, loud, friendly Irish pub that turns into a jam-band clubhouse during the Panic run. A mini-Shakedown often forms on the sidewalk outside.",
+  "signature_drink": "Guinness or a local tap (Lakefront, Third Space); this is a pint place, not a cocktail place",
+  "best_time": "after-show",
+  "walk_from_venue_minutes": 1,
+  "hours_this_weekend": {
+   "sat": "11:00 AM - late (same caveat)",
+   "sun": null,
+   "mon": "3:00 PM - 1:00 AM"
+  },
+  "wsp_fan_note": "Fan guides have called Mo's 'ground zero' for pre- and post-Panic activity since at least 2014, and in 2026 it is the venue-sanctioned after-party: Houseplant Saturday, Armchair Boogie Sunday, ~11:45 PM start, 21+.",
+  "sources": [
+   "https://www.pabsttheatergroup.com/events/detail/widespread-panic-2026",
+   "https://tomorrowsverse.com/story/widespread-panic-fans-guide-to-milwaukee-2015-edition-28274.html",
+   "https://app.discotech.me/events/38227433-3-day-after-party-at-mos-irish-pub-21-only-at-the-riverside-theater"
+  ]
+ },
+ {
+  "id": "three-brothers",
+  "name": "Three Brothers Serbian Restaurant",
+  "category": "restaurant",
+  "lat": 43.0003,
+  "lng": -87.8932,
+  "address": "2414 S St Clair St, Milwaukee, WI 53207",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Three+Brothers+Restaurant+2414+S+St+Clair+St+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/three-brothers-restaurant-milwaukee?tab=food",
+  "website": "https://www.travelwisconsin.com/dining/three-brothers-restaurant-204614",
+  "blurb": "A 1956 Serbian family restaurant inside an old Schlitz tiled-corner tavern in Bay View, run by the founder's widow and daughters, and a James Beard America's Classic (2002). The burek is baked to order and takes about half an hour, so it goes in first.",
+  "tags": [
+   "James Beard",
+   "Serbian",
+   "old Milwaukee",
+   "early dinner",
+   "Sunday"
+  ],
+  "image": {
+   "src": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/ThreeBrothers_Group_KevinMiyazaki_Milwaukee_3_ln6tio",
+   "credit": "Kevin Miyazaki / The Infatuation",
+   "credit_url": "https://www.theinfatuation.com/milwaukee/reviews/three-brothers",
+   "local": "assets/img/food/three-brothers-2a7f2db5.jpg"
+  },
+  "why_special": "The menu has barely changed in 70 years, the dining room is a Schlitz tavern with vintage floral plates and dim lamps, and the food is a Serbian grandmother's Sunday table. It opens at 4:00 PM on Sunday, which fits an early dinner before the last show. I haven't eaten here. Every Milwaukee critic I read has, and they agree on the burek.",
+  "must_order": [
+   "Burek (spinach and cheese, or meat), a giant baked phyllo pie, about 30 minutes to bake ($26.50)",
+   "Chicken paprikash with potato dumplings",
+   "Roast lamb with house-pickled cabbage",
+   "Serbian salad and a glass of Serbian wine or slivovitz"
+  ],
+  "price": "$$$",
+  "reservation": {
+   "needed": true,
+   "url": null,
+   "note": "Call 414-481-7530. Small room, so call ahead for Sunday at 4:00 PM, and bring cash in case (historically cash-only)."
+  },
+  "best_window": "Sunday Oct 25 at 4:00 PM (opens 4:00 PM Sat/Sun), or Saturday at 4:00 PM",
+  "hours_this_weekend": {
+   "sat": "4:00 - 9:00 PM",
+   "sun": "4:00 - 9:00 PM",
+   "mon": "Closed"
+  },
+  "travel_from_downtown": "12 min rideshare (4 mi south to Bay View)",
+  "source": "https://www.travelwisconsin.com/dining/three-brothers-restaurant-204614",
+  "editorial_source": "https://www.milwaukeemag.com/three-brothers-carries-on-a-family-legacy/"
+ },
+ {
+  "id": "sanford",
+  "name": "Sanford Restaurant",
+  "category": "restaurant",
+  "lat": 43.0505,
+  "lng": -87.905,
+  "address": "1547 N Jackson St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Sanford+Restaurant+1547+N+Jackson+St+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/sanford-restaurant-milwaukee?tab=food",
+  "website": "https://www.sanfordrestaurant.com/",
+  "blurb": "Milwaukee's fine-dining standard since 1989, in the D'Amato family's former corner grocery. A quiet 20-table room, polished service, and a seasonal four-course prix fixe. One dressed-up dinner this weekend belongs here.",
+  "tags": [
+   "fine dining",
+   "prix fixe",
+   "James Beard",
+   "early dinner",
+   "date night"
+  ],
+  "image": {
+   "src": "https://sanfordrestaurant.com/wp-content/uploads/2022/02/Duck.jpg",
+   "credit": "Sanford Restaurant",
+   "credit_url": "https://www.sanfordrestaurant.com/",
+   "local": "assets/img/food/sanford-59392b82.jpg"
+  },
+  "why_special": "Chef-owner Justin Aprahamian (James Beard Best Chef Midwest) runs the restaurant Sandy D'Amato made famous. It has been on every Milwaukee best-of list for 35 years and still feels like a secret because it seats so few people.",
+  "must_order": [
+   "Four-course Prix Fixe ($105), the whole point",
+   "Whatever the duck preparation is that night"
+  ],
+  "price": "$$$$",
+  "reservation": {
+   "needed": true,
+   "url": "https://sanfordrestaurant.com/3079-2/",
+   "note": "Phone only: 414-276-9608, Tue-Sat 1:00-9:00 PM. First seating is 5:00 PM Saturday. Tell them about the 7:30 PM show."
+  },
+  "best_window": "Saturday Oct 24 at 5:00 PM (first seating) is the safest fit.",
+  "hours_this_weekend": {
+   "sat": "5:00 - 10:00 PM",
+   "sun": "Closed",
+   "mon": "Closed"
+  },
+  "travel_from_downtown": "6 min rideshare (1.3 mi) or 25 min walk",
+  "source": "https://sanfordrestaurant.com/3079-2/",
+  "menu_source": "https://sanfordrestaurant.com/sample-menu/"
+ },
+ {
+  "id": "odd-duck",
+  "name": "Odd Duck",
+  "category": "restaurant",
+  "lat": 43.0213,
+  "lng": -87.9129,
+  "address": "939 S 2nd St, Milwaukee, WI 53204",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Odd+Duck+939+S+2nd+St+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/odd-duck-milwaukee?tab=food",
+  "website": "https://www.oddduckrestaurant.com/",
+  "blurb": "Walker's Point's playful, globally minded small-plates room, a regular on Milwaukee Magazine's best-restaurants list. The menu changes constantly, the bar opens at 3:00 PM with a $7 spritz happy hour, and the kitchen fires at 5:00 PM, which is pre-show dinner timing.",
+  "tags": [
+   "small plates",
+   "cocktails",
+   "happy hour",
+   "early dinner",
+   "Walker's Point"
+  ],
+  "image": {
+   "src": "https://images.squarespace-cdn.com/content/v1/697d478559da901e56d1e478/2e1f193d-823b-4e0d-ab81-11f36ce8d469/ODD_DUCK_WEB+%283%29.jpg",
+   "credit": "Odd Duck",
+   "credit_url": "https://www.oddduckrestaurant.com/",
+   "local": "assets/img/food/odd-duck-7a50c700.jpg"
+  },
+  "why_special": "The shareable menu changes so often that no two visits match, the front of house is known for warmth, and the bar and patio seats are walk-in. Wander in at 4:30 PM, drink through happy hour, and eat at 5:00 PM without a booking.",
+  "must_order": [
+   "Ask for the current duck preparation (there is always one)",
+   "Three or four shareable plates across the vegetable and seafood sections",
+   "Happy hour 3:00-6:00 PM at the bar: $7 spritz, $5 draft, $8 wine"
+  ],
+  "price": "$$$",
+  "reservation": {
+   "needed": false,
+   "url": "https://resy.com/cities/milwaukee-wi/venues/odd-duck-restaurant",
+   "note": "Resy for dining-room tables. Bar, bar tables and patio are first come, first served. 3% credit card surcharge (debit exempt)."
+  },
+  "best_window": "Saturday: bar at 4:30 PM for happy hour, kitchen at 5:00 PM, out by 6:45 PM",
+  "hours_this_weekend": {
+   "sat": "Bar 3:00 PM - 12:00 AM; kitchen 5:00 - 10:00 PM",
+   "sun": "Closed (Tue-Sat only)",
+   "mon": "Closed"
+  },
+  "travel_from_downtown": "7 min rideshare (1.5 mi) or 30 min walk south through the Third Ward",
+  "source": "https://www.oddduckrestaurant.com/",
+  "reservation_source": "https://www.oddduckrestaurant.com/reservations"
+ },
+ {
+  "id": "birch",
+  "name": "Birch",
+  "category": "restaurant",
+  "lat": 43.0509,
+  "lng": -87.9068,
+  "address": "459 E Pleasant St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Birch+459+E+Pleasant+St+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/birch-milwaukee?tab=food",
+  "website": "https://www.birchonpleasant.com/",
+  "blurb": "Seasonal Midwestern cooking from a wood-fired hearth in a handsome room just north of downtown, with a 4:00-6:00 PM happy hour and a burger Milwaukee Magazine calls top-tier. Dinner starts at 5:00 PM Saturday.",
+  "tags": [
+   "wood-fired",
+   "farm-to-table",
+   "happy hour",
+   "early dinner",
+   "burger"
+  ],
+  "image": {
+   "src": "https://images.squarespace-cdn.com/content/v1/6437325162f1731e42343151/1399cae4-e2f8-4486-8ebd-6a8573a39fde/Birch_Web_044.jpg",
+   "credit": "Birch",
+   "credit_url": "https://www.birchonpleasant.com/",
+   "local": "assets/img/food/birch-8d723053.jpg"
+  },
+  "why_special": "Chef Kyle Knall (James Beard semifinalist) cooks almost everything over an open hearth. It is the most New York-feeling room in the city while still being about Wisconsin farms. Milwaukee Magazine Best Restaurants 2025. This one is on reputation.",
+  "must_order": [
+   "Anything from the hearth: the whole roasted fish or the wood-fired pork",
+   "The Birch burger (a Milwaukee Magazine top pick)",
+   "Happy hour 4:00-6:00 PM at the bar before dinner"
+  ],
+  "price": "$$$",
+  "reservation": {
+   "needed": true,
+   "url": "https://www.opentable.com/r/birch-milwaukee-reservations-milwaukee?restref=1004269&lang=en-US&ot_source=Restaurant%20website",
+   "note": "OpenTable. Book 5:00 PM."
+  },
+  "best_window": "Saturday Oct 24 at 5:00 PM",
+  "hours_this_weekend": {
+   "sat": "5:00 - 10:00 PM",
+   "sun": "Closed (not listed; Tue-Sat only)",
+   "mon": "Closed"
+  },
+  "travel_from_downtown": "5 min rideshare (1.1 mi) or 22 min walk up Water St",
+  "source": "https://www.birchonpleasant.com/",
+  "editorial_source": "https://www.milwaukeemag.com/the-25-best-restaurants-in-milwaukee/"
+ },
+ {
+  "id": "maders",
+  "name": "Mader's Restaurant",
+  "category": "restaurant",
+  "lat": 43.0439,
+  "lng": -87.9149,
+  "address": "1041 N Old World 3rd St, Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mader's+Restaurant+1041+N+Old+World+3rd+St+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/maders-milwaukee-3?tab=food",
+  "website": "https://www.madersrestaurant.com/",
+  "blurb": "Milwaukee's 120-year-old German landmark on Old World Third Street: suits of armor, stained glass, a Hofbrau pour, and a pork shank that calls for a nap. Ten minutes on foot from the Riverside, and open Sunday and Monday when much of the city is dark.",
+  "tags": [
+   "German",
+   "old Milwaukee",
+   "landmark",
+   "walkable",
+   "open Sunday",
+   "open Monday"
+  ],
+  "image": {
+   "src": "https://madersrestaurant.com/cdn/shop/files/maders-restaurant-german-dinner-best-rated.jpg?v=1714675667&width=1200",
+   "credit": "Mader's Restaurant",
+   "credit_url": "https://www.madersrestaurant.com/",
+   "local": "assets/img/food/maders-1a4e3cf4.jpg"
+  },
+  "why_special": "It is the surviving old-world German dining room of Beer City (Karl Ratzsch closed in 2017), it has fed presidents and rock stars, and it is the walkable backup for a Milwaukee-flavored meal any day of the trip, including a late Monday lunch before the flight.",
+  "must_order": [
+   "Bavarian Platter (schnitzel, kassler, bratwurst, sauerkraut, spaetzle)",
+   "Wiener Schnitzel",
+   "Roasted pork shank",
+   "A brandy Old Fashioned sweet, the Wisconsin way, or a liter of Hofbrau"
+  ],
+  "price": "$$$",
+  "reservation": {
+   "needed": false,
+   "url": "https://resy.com/cities/milwaukee-wi/venues/maders-restaurant",
+   "note": "Resy. Walk-ins fine at off hours. 414-271-3377."
+  },
+  "best_window": "Sunday Oct 25 early dinner at 4:30 PM, or Monday 11:30 AM lunch before the airport",
+  "hours_this_weekend": {
+   "sat": "11:30 AM - 10:00 PM",
+   "sun": "11:30 AM - 8:00 PM",
+   "mon": "11:30 AM - 9:00 PM"
+  },
+  "travel_from_downtown": "10 min walk (0.5 mi) from the Riverside",
+  "source": "https://www.madersrestaurant.com/"
+ },
+ {
+  "id": "sollys-grille",
+  "name": "Solly's Grille",
+  "category": "restaurant",
+  "lat": 43.1003,
+  "lng": -87.9174,
+  "address": "4629 N Port Washington Rd, Glendale, WI 53212",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Solly's+Grille+4629+N+Port+Washington+Rd+Glendale",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/sollys-grille-glendale?tab=food",
+  "website": "https://en.wikipedia.org/wiki/Solly%27s_Grille",
+  "blurb": "Home of the butter burger since 1936 and a James Beard America's Classic (2022): a horseshoe lunch counter where the patty is steamed in butter and then topped with a melting slab of more butter. A real malt goes with it. Lunch only, closed Sunday and Monday, so Saturday is the day.",
+  "tags": [
+   "butter burger",
+   "James Beard",
+   "lunch counter",
+   "Milwaukee institution",
+   "lunch"
+  ],
+  "image": {
+   "src": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/images/Sollys_Milwaukee_ButterBurger_CarloMantuano_iPhoneContent_EDIT_01_efe2ed",
+   "credit": "Carlo Mantuano / The Infatuation",
+   "credit_url": "https://www.theinfatuation.com/milwaukee/reviews/sollys-grille",
+   "local": "assets/img/food/sollys-grille-7026095b.jpg"
+  },
+  "why_special": "The butter burger is Milwaukee's signature sandwich and Solly's is its birthplace. The Beard Foundation singled it out in 2022. One at the counter with the regulars is a lunch that exists nowhere else. I haven't had one, and I still respect a kitchen that butters the bun and then adds more butter.",
+  "must_order": [
+   "The Original Butter Burger (ask for grilled onions)",
+   "A chocolate malt or shake",
+   "Fries"
+  ],
+  "price": "$",
+  "reservation": {
+   "needed": false,
+   "url": null,
+   "note": "Counter seating, walk in. 414-332-8808."
+  },
+  "best_window": "Saturday Oct 24 late breakfast or lunch (opens 7:00 AM)",
+  "hours_this_weekend": {
+   "sat": "7:00 AM - 7:00 PM",
+   "sun": "Closed",
+   "mon": "Closed"
+  },
+  "travel_from_downtown": "12 min rideshare (5.5 mi north via I-43)",
+  "source": "https://foodle.pro/restaurants/glendale/solly-s-grille",
+  "award_source": "https://en.wikipedia.org/wiki/Solly%27s_Grille",
+  "hours_note": "Hours from a third-party listing; confirm by phone (see open_questions)."
+ },
+ {
+  "id": "la-dama",
+  "name": "La Dama",
+  "category": "restaurant",
+  "lat": 43.0223,
+  "lng": -87.9129,
+  "address": "839 S 2nd St, Milwaukee, WI 53204",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=La+Dama+839+S+2nd+St+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/la-dama-milwaukee?tab=food",
+  "website": "https://www.ladamamke.com/",
+  "blurb": "Chef Emmanuel Corona's mural-walled Mexican kitchen in Walker's Point, the South Side's old Mexican heart. Mole poblano and mole negro from his childhood, a deep mezcal list, and a 4:30 PM Sunday opening that fits the early-dinner window exactly.",
+  "tags": [
+   "Mexican",
+   "mole",
+   "mezcal",
+   "Walker's Point",
+   "early dinner",
+   "Sunday"
+  ],
+  "image": {
+   "src": "https://ladamamke.com/assets/content-photo-food-moles-full-a8d2e3456a201e11.webp",
+   "credit": "La Dama",
+   "credit_url": "https://www.ladamamke.com/",
+   "local": "assets/img/food/la-dama-e8bdf9ba.jpg"
+  },
+  "why_special": "Milwaukee Magazine Best Restaurants 2025 called it an inventive, elegant take on Mexican cuisine. It is the destination version of the South Side's Mexican tradition rather than a taqueria, and one of the few serious restaurants open for an early Sunday dinner.",
+  "must_order": [
+   "Mole poblano or mole negro (the house signatures)",
+   "Octopus",
+   "A mezcal flight or a mezcal cocktail",
+   "Churros or the dessert of the night"
+  ],
+  "price": "$$$",
+  "reservation": {
+   "needed": true,
+   "url": "https://www.exploretock.com/la-dama-milwaukee/",
+   "note": "Tock. 414-645-2606."
+  },
+  "best_window": "Sunday Oct 25 at 4:30 PM (the alternative to Three Brothers), or Saturday at 5:00 PM",
+  "hours_this_weekend": {
+   "sat": "5:00 - 9:30 PM",
+   "sun": "4:30 - 8:00 PM",
+   "mon": "Closed"
+  },
+  "travel_from_downtown": "7 min rideshare (1.5 mi)",
+  "source": "https://www.ladamamke.com/",
+  "editorial_source": "https://www.milwaukeemag.com/the-25-best-restaurants-in-milwaukee/"
+ },
+ {
+  "id": "third-street-market-hall",
+  "name": "3rd Street Market Hall",
+  "category": "street-food",
+  "lat": 43.0383,
+  "lng": -87.9147,
+  "address": "275 W Wisconsin Ave, Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=3rd+Street+Market+Hall+275+W+Wisconsin+Ave+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/3rd-street-market-hall-milwaukee?tab=food",
+  "website": "https://3rdstmarkethall.com/",
+  "blurb": "A food hall with twenty-plus stalls and a bar two blocks west of the Riverside, on the same side of Wisconsin Avenue. Lao food at SapSap, Cambodian sandwiches at Num Pang, Wisconsin cheese curds and mac at Rod-N-Makk, tacos at Kompali, Pizza Shuttle slices, Bebe Zito ice cream. Open until 10:00 PM Fri/Sat, so it is the pre-show grazing hall.",
+  "tags": [
+   "food hall",
+   "walkable",
+   "cheese curds",
+   "tacos",
+   "pizza",
+   "pre-show"
+  ],
+  "image": {
+   "src": "https://static.madedaily.com/managed_images/b205c3da-fab6-472b-8ca8-85f825b3207e/62409/large/3smh_hall_takeover09.jpg",
+   "credit": "3rd Street Market Hall",
+   "credit_url": "https://3rdstmarkethall.com/",
+   "local": "assets/img/food/third-street-market-hall-c0a9ebc4.jpg"
+  },
+  "why_special": "The closest food to the venue, with real range: SapSap (Lao, family recipes), Anytime Arepa, Mr. Dye's Pies, Kawa ramen. There is an on-site bar, a self-serve beer wall, and games.",
+  "must_order": [
+   "SapSap: Lao sausage or khao poon",
+   "Rod-N-Makk: Wisconsin cheese curds and a mac bowl",
+   "Num Pang: Cambodian sandwich on house baguette",
+   "Mr. Dye's Pies: a slice for the walk to the show"
+  ],
+  "price": "$-$$",
+  "reservation": {
+   "needed": false,
+   "url": null
+  },
+  "best_window": "Any day for lunch or a 5:00-6:30 PM pre-show bite. Sunday closes at 7:00 PM",
+  "hours_this_weekend": {
+   "sat": "Food hall 9:00 AM - 10:00 PM; bar 11:00 AM - 11:00 PM",
+   "sun": "Food hall 9:00 AM - 7:00 PM; bar 11:00 AM - 7:00 PM",
+   "mon": "Food hall 8:00 AM - 8:00 PM; bar 11:00 AM - 9:00 PM"
+  },
+  "travel_from_downtown": "2 min walk (0.1 mi) west on Wisconsin Ave",
+  "source": "https://3rdstmarkethall.com/",
+  "vendors_source": "https://3rdstmarkethall.com/vendors",
+  "hours_note": "Individual vendor hours vary; some stalls close before the hall does."
+ },
+ {
+  "id": "milwaukee-public-market",
+  "name": "Milwaukee Public Market",
+  "category": "street-food",
+  "lat": 43.0352,
+  "lng": -87.9076,
+  "address": "400 N Water St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Milwaukee+Public+Market+400+N+Water+St",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/milwaukee-public-market-milwaukee?tab=food",
+  "website": "https://milwaukeepublicmarket.org/",
+  "blurb": "The Third Ward's market hall: St. Paul Fish Company's lobster rolls and oysters at the palapa bar, West Allis Cheese & Sausage's curds, C. Adam's cakes, Thief Wine's bar upstairs, Anodyne coffee. A ten-minute walk from the Riverside and the best late-breakfast-into-lunch stroll downtown.",
+  "tags": [
+   "market",
+   "walkable",
+   "oysters",
+   "cheese curds",
+   "Bloody Mary",
+   "brunch",
+   "Third Ward"
+  ],
+  "image": {
+   "src": "https://cdn.prod.website-files.com/598a208f22e8860001acd41a/59ee763b7168c200018166ee_6039365442_12b14071cf_b.jpg",
+   "credit": "Milwaukee Public Market",
+   "credit_url": "https://milwaukeepublicmarket.org/",
+   "local": "assets/img/food/milwaukee-public-market-a25946b7.jpg"
+  },
+  "why_special": "Nineteen independent merchants and seven bars under one roof, and St. Paul Fish Co. alone is a reason to go (a Bloody Mary and a half-dozen oysters at the bar is a Milwaukee Saturday). The Third Ward's boutiques and the RiverWalk are right outside.",
+  "must_order": [
+   "St. Paul Fish Company: lobster roll, chowder, or oysters at the palapa bar with a Bloody Mary",
+   "West Allis Cheese & Sausage Shoppe: fresh cheese curds and a Usinger-style sausage sampler",
+   "C. Adam's Bakery: a kringle slice or cake",
+   "Thief Wine: a glass on the mezzanine"
+  ],
+  "price": "$-$$",
+  "reservation": {
+   "needed": false,
+   "url": null
+  },
+  "best_window": "Saturday Oct 24 late breakfast or lunch, 11:00 AM - 1:00 PM. Also Sunday until 6:00 PM",
+  "hours_this_weekend": {
+   "sat": "10:00 AM - 8:00 PM",
+   "sun": "10:00 AM - 6:00 PM",
+   "mon": "10:00 AM - 8:00 PM"
+  },
+  "travel_from_downtown": "10 min walk (0.5 mi) east over the river and south on Water St",
+  "source": "https://milwaukeepublicmarket.org/",
+  "vendors_source": "https://milwaukeepublicmarket.org/vendor-listing"
+ },
+ {
+  "id": "real-chili-downtown",
+  "name": "Real Chili (Downtown)",
+  "category": "street-food",
+  "lat": 43.0411,
+  "lng": -87.9059,
+  "address": "419 E Wells St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Real+Chili+419+E+Wells+St+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/real-chili-restaurant-milwaukee?tab=food",
+  "website": "https://www.realchilimilwaukee.com/",
+  "blurb": "Milwaukee's post-bar ritual since 1931: a counter, a bowl of chili ladled over spaghetti and beans, mild to hot, a fistful of oyster crackers, and a dash of hot vinegar. Open until 3:00 AM Friday and Saturday, ten minutes' walk from the theater.",
+  "tags": [
+   "late night",
+   "chili",
+   "Milwaukee institution",
+   "walkable",
+   "diner"
+  ],
+  "image": null,
+  "why_special": "The Milwaukee late-night meal, a 95-year-old counter joint with its own vocabulary (Marquette special, with or without beans, mild/medium/hot). Nothing else downtown is this old, this cheap, or open this late. Never been. Chili over spaghetti at 1 AM does not need a second opinion.",
+  "must_order": [
+   "Marquette Special: chili over spaghetti with beans, medium heat",
+   "Chili cheese dog",
+   "Oyster crackers and the hot vinegar shaker on the counter",
+   "A cold Miller High Life"
+  ],
+  "price": "$",
+  "reservation": {
+   "needed": false,
+   "url": null
+  },
+  "best_window": "Saturday after the show, 11:45 PM - 1:00 AM (the downtown location is closed Sunday)",
+  "hours_this_weekend": {
+   "sat": "11:00 AM - 3:00 AM",
+   "sun": "Closed (Marquette location at 1625 W Wells open 11:00 AM - 10:00 PM)",
+   "mon": "11:00 AM - 10:00 PM"
+  },
+  "travel_from_downtown": "10 min walk (0.5 mi) east across the Wisconsin Ave bridge, north on Milwaukee St to Wells",
+  "source": "https://www.realchilimilwaukee.com/"
+ },
+ {
+  "id": "ians-pizza-downtown",
+  "name": "Ian's Pizza Downtown (Cream City Arcade)",
+  "category": "street-food",
+  "lat": 43.0459,
+  "lng": -87.9116,
+  "address": "146 E Juneau Ave, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Ian's+Pizza+146+E+Juneau+Ave+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/ians-pizza-milwaukee-milwaukee-2?tab=food",
+  "website": "https://ianspizza.com/location/ians-pizza-cream-city-milwaukee/",
+  "blurb": "Wisconsin's cult by-the-slice shop (born in Madison), with a downtown location that doubles as an arcade, open until 2:00 AM Friday and Saturday. The Mac n' Cheese slice is the thing. A 14-minute walk north of the Riverside, or a 4-minute ride.",
+  "tags": [
+   "late night",
+   "pizza",
+   "by the slice",
+   "arcade",
+   "walkable"
+  ],
+  "image": {
+   "src": "https://ianspizza.com/wp-content/uploads/2020/12/Ians-Pizza_Juneau-Avenue-Milwaukee_1200w.jpg",
+   "credit": "Ian's Pizza",
+   "credit_url": "https://ianspizza.com/location/ians-pizza-cream-city-milwaukee/",
+   "local": "assets/img/food/ians-pizza-downtown-84e408f7.jpg"
+  },
+  "why_special": "Late-night Wisconsin pizza culture in one slice: mac and cheese on a crust. The arcade makes it a post-show hang rather than a snack stop.",
+  "must_order": [
+   "Signature Mac n' Cheese slice",
+   "Whatever the rotating specialty slice is (often a Wisconsin-themed one)",
+   "Garlic butter and ranch on the side, the local way"
+  ],
+  "price": "$",
+  "reservation": {
+   "needed": false,
+   "url": null
+  },
+  "best_window": "Saturday after the show, before 2:00 AM. Sunday closes at 10:00 PM",
+  "hours_this_weekend": {
+   "sat": "11:00 AM - 2:00 AM",
+   "sun": "11:00 AM - 10:00 PM",
+   "mon": "11:00 AM - 10:00 PM"
+  },
+  "travel_from_downtown": "14 min walk (0.7 mi) north on Water St, or 4 min rideshare",
+  "source": "https://ianspizza.com/location/ians-pizza-cream-city-milwaukee/"
+ },
+ {
+  "id": "milwaukee-brat-house",
+  "name": "Milwaukee Brat House (Downtown)",
+  "category": "street-food",
+  "lat": 43.0433,
+  "lng": -87.9148,
+  "address": "1013 N Old World 3rd St, Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Milwaukee+Brat+House+1013+N+Old+World+3rd+St",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/milwaukee-brat-house-milwaukee?tab=food",
+  "website": "https://www.milwaukeebrathouse.com/",
+  "blurb": "A beer-and-brats tavern on Old World Third, next door to Mader's and a 9-minute walk from the venue. Brats with kraut, fried cheese curds, pretzels, and a bar open until 2:00 AM every night including Sunday, which makes it the late-night Milwaukee cliche after the Sunday show.",
+  "tags": [
+   "brats",
+   "cheese curds",
+   "late night",
+   "bar",
+   "walkable",
+   "open Sunday late"
+  ],
+  "image": null,
+  "why_special": "A bratwurst with sauerkraut and a Wisconsin beer in a downtown tavern is the plain, correct Milwaukee snack, and this is the walkable one open after midnight on Sunday.",
+  "must_order": [
+   "Classic bratwurst with sauerkraut and stadium mustard",
+   "Fried Wisconsin cheese curds",
+   "A local draft (Lakefront, New Glarus Spotted Cow if they have it)"
+  ],
+  "price": "$",
+  "reservation": {
+   "needed": false,
+   "url": null
+  },
+  "best_window": "Sunday Oct 25 after the show (bar to 2:00 AM, confirm kitchen hours), or any afternoon",
+  "hours_this_weekend": {
+   "sat": "10:00 AM - 2:30 AM",
+   "sun": "10:00 AM - 2:00 AM",
+   "mon": "11:00 AM - 2:00 AM"
+  },
+  "travel_from_downtown": "9 min walk (0.45 mi) from the Riverside",
+  "source": "https://www.milwaukeebrathouse.com/",
+  "hours_note": "Bar hours; kitchen cutoff not published (see open_questions)."
+ },
+ {
+  "id": "pizza-shuttle",
+  "name": "Pizza Shuttle",
+  "category": "street-food",
+  "lat": 43.0547,
+  "lng": -87.8911,
+  "address": "1827 N Farwell Ave, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Pizza+Shuttle+1827+N+Farwell+Ave+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/pizza-shuttle-milwaukee?tab=food",
+  "website": "https://pizzashuttle.com/",
+  "blurb": "The East Side's 40-year late-night institution: takeout and delivery until 3:00 AM every night, including Sunday, with a dine-in room until midnight. Pizza, broasted chicken, gyros, wonton mozzarella sticks, and a strawberry custard shake. The Sunday-night safety net that delivers to a downtown hotel.",
+  "tags": [
+   "late night",
+   "pizza",
+   "delivery",
+   "open Sunday late",
+   "East Side"
+  ],
+  "image": null,
+  "why_special": "When Real Chili is closed (Sunday) and everything downtown has stopped serving, Pizza Shuttle is still frying broasted chicken at 2:00 AM and delivering to downtown addresses. On reputation, and the reputation is 40 years of 2 AM.",
+  "must_order": [
+   "A slice or small pie (the Deluxe)",
+   "Broasted chicken",
+   "Wonton mozzarella sticks",
+   "Strawberry shake made with fresh custard"
+  ],
+  "price": "$",
+  "reservation": {
+   "needed": false,
+   "url": null
+  },
+  "best_window": "Sunday Oct 25 after the show: delivery to the hotel, or dine in before midnight",
+  "hours_this_weekend": {
+   "sat": "Dine-in 10:00 AM - 12:00 AM; takeout/delivery 10:00 AM - 3:00 AM",
+   "sun": "Dine-in 10:00 AM - 12:00 AM; takeout/delivery 10:00 AM - 3:00 AM",
+   "mon": "Dine-in 10:00 AM - 12:00 AM; takeout/delivery 10:00 AM - 3:00 AM"
+  },
+  "travel_from_downtown": "6 min rideshare (1.7 mi); delivers downtown",
+  "source": "https://pizzashuttle.com/"
+ },
+ {
+  "id": "uncle-wolfies-downtown",
+  "name": "Uncle Wolfie's Breakfast Tavern (Downtown)",
+  "category": "restaurant",
+  "lat": 43.0376,
+  "lng": -87.9075,
+  "address": "600 N Broadway, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Uncle+Wolfie's+600+N+Broadway+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/uncle-wolfies-downtown-and-the-wolf-milwaukee?tab=food",
+  "website": "https://www.unclewolfies.com/",
+  "blurb": "Milwaukee's favorite breakfast tavern, now with a downtown room eight minutes' walk from the Riverside. Walk-in only, open 8:00 AM to 2:00 PM Monday, and the Monday crowd is a fraction of the weekend line.",
+  "tags": [
+   "brunch",
+   "walkable",
+   "open Monday",
+   "breakfast tavern",
+   "Bloody Mary"
+  ],
+  "image": {
+   "src": "https://images.squarespace-cdn.com/content/v1/57d75b1f2994ca43043ea5e0/1726251697554-MN16TDVTD0F6RJ3OO1LH/IMG_3635.jpg",
+   "credit": "Uncle Wolfie's",
+   "credit_url": "https://www.unclewolfies.com/",
+   "local": "assets/img/food/uncle-wolfies-downtown-773116c0.jpg"
+  },
+  "why_special": "The easiest great brunch on a Monday: no rideshare, open from 8:00 AM, and a kitchen (exec chef Kristen Schwab) good enough that the same room runs a Tock-reserved tasting-menu dinner called The Wolf Wednesday through Saturday nights.",
+  "must_order": [
+   "The breakfast sandwich or any egg plate with the house potatoes",
+   "A Bloody Mary (it is a breakfast tavern) or the coffee cocktail",
+   "Whatever pastry is on the counter"
+  ],
+  "price": "$$",
+  "reservation": {
+   "needed": false,
+   "url": null,
+   "note": "Walk-in only for brunch at both locations."
+  },
+  "best_window": "Monday Oct 26, 9:30 - 11:00 AM: checkout, brunch, then a 15 min ride to MKE",
+  "hours_this_weekend": {
+   "sat": "8:00 AM - 3:00 PM (The Wolf dinner 5:00 - 10:00 PM)",
+   "sun": "8:00 AM - 3:00 PM",
+   "mon": "8:00 AM - 2:00 PM"
+  },
+  "travel_from_downtown": "8 min walk (0.4 mi) from the Riverside; 15 min rideshare to MKE from here",
+  "source": "https://www.unclewolfies.com/"
+ },
+ {
+  "id": "honeypie-cafe",
+  "name": "Honeypie Cafe",
+  "category": "restaurant",
+  "lat": 42.998,
+  "lng": -87.9004,
+  "address": "2569 S Kinnickinnic Ave, Milwaukee, WI 53207",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Honeypie+Cafe+2569+S+Kinnickinnic+Ave+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/honeypie-cafe-milwaukee?tab=food",
+  "website": "https://www.honeypiecafe.com/",
+  "blurb": "Bay View's Midwestern-comfort cafe with house-baked pies the critics line up for, buttermilk biscuits, and house-infused Bloody Marys. It sits on Kinnickinnic Avenue, on the way to the airport (10 minutes from MKE), and it is open Monday from 9:00 AM.",
+  "tags": [
+   "brunch",
+   "pie",
+   "Bay View",
+   "open Monday",
+   "on the way to MKE",
+   "Bloody Mary"
+  ],
+  "image": {
+   "src": "https://static1.squarespace.com/static/54aefaf7e4b03c743344c765/t/68c87ea415b69702ebab2477/1776531765672/A45378C8-45D8-453F-B3CA-5245099421AE.jpg?format=1500w",
+   "credit": "Honeypie Cafe",
+   "credit_url": "https://www.honeypiecafe.com/",
+   "local": "assets/img/food/honeypie-cafe-d8768a43.jpg"
+  },
+  "why_special": "A slice of Wisconsin pie for the plane, biscuits and gravy, and a Bloody Mary with a snit, in the neighborhood halfway between downtown and the airport. Check bags, ride to Bay View, eat, ride 10 minutes to MKE. I have not had the pie. People who have talk about it the way people talk about a grandmother's.",
+  "must_order": [
+   "A slice of pie (ask what came out of the oven; take a second slice to go)",
+   "Buttermilk biscuits and gravy",
+   "House-infused Bloody Mary with a beer chaser"
+  ],
+  "price": "$$",
+  "reservation": {
+   "needed": false,
+   "url": null,
+   "note": "First come, first served. No reservations."
+  },
+  "best_window": "Monday Oct 26, 10:00 - 11:30 AM, then 10 min to MKE for a 3:00 PM flight",
+  "hours_this_weekend": {
+   "sat": "9:00 AM - 3:00 PM brunch; 3:00 - 9:00 PM dinner",
+   "sun": "9:00 AM - 3:00 PM brunch; 3:00 - 9:00 PM dinner",
+   "mon": "9:00 AM - 3:00 PM breakfast/lunch; 3:00 - 9:00 PM dinner"
+  },
+  "travel_from_downtown": "10 min rideshare (3.5 mi) from the Riverside; 10 min from here to MKE",
+  "source": "https://www.honeypiecafe.com/"
+ },
+ {
+  "id": "sobelmans-st-paul",
+  "name": "Sobelman's Pub & Grill (original, St. Paul Ave)",
+  "category": "restaurant",
+  "lat": 43.0349,
+  "lng": -87.9368,
+  "address": "1900 W St Paul Ave, Milwaukee, WI 53233",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Sobelman's+Pub+and+Grill+1900+W+St+Paul+Ave+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/sobelmans-pub-and-grill-milwaukee?tab=food",
+  "website": "https://www.sobelmanspubandgrill.com/",
+  "blurb": "The 1890s Schlitz tavern in the Menomonee Valley that made Milwaukee's over-garnished Bloody Mary famous (bacon-wrapped cheddar balls, sausage, a beer chaser), backed by a top-tier burger. Opens 11:00 AM Monday, a late Monday brunch disguised as lunch, and I-94 to the airport is right there.",
+  "tags": [
+   "Bloody Mary",
+   "burger",
+   "Milwaukee institution",
+   "open Monday",
+   "Schlitz tavern"
+  ],
+  "image": {
+   "src": "https://static.spotapps.co/web/sobelmanspubandgrill--com/custom/bloody_mary_1.jpg",
+   "credit": "Sobelman's Pub & Grill",
+   "credit_url": "https://www.sobelmanspubandgrill.com/",
+   "local": "assets/img/food/sobelmans-st-paul-e41fdfe9.jpg"
+  },
+  "why_special": "The Bloody Mary with a beer chaser is a Wisconsin tradition and Sobelman's turned it into a spectacle (the Bloody Masterpiece, the Baconado). The original tavern at 11:00 AM on a Monday with a Sobelman burger is the send-off meal. Closed Sunday, so Saturday (opens 10:00 AM) or Monday.",
+  "must_order": [
+   "The Bloody Masterpiece (or the Baconado) with the beer chaser",
+   "The Sobelman burger (or the Beast)",
+   "Bacon-wrapped jalapeno cheeseballs"
+  ],
+  "price": "$$",
+  "reservation": {
+   "needed": false,
+   "url": null,
+   "note": "Walk in. 414-931-1919."
+  },
+  "best_window": "Monday Oct 26 at the 11:00 AM open, out by 12:15 PM, 15 min drive to MKE. Or Saturday at 10:00 AM",
+  "hours_this_weekend": {
+   "sat": "10:00 AM - 9:00 PM",
+   "sun": "Closed",
+   "mon": "11:00 AM - 8:00 PM"
+  },
+  "travel_from_downtown": "7 min rideshare (1.8 mi west); 15 min from here to MKE via I-94/I-43",
+  "source": "https://www.sobelmanspubandgrill.com/"
+ },
+ {
+  "id": "kopps-greenfield",
+  "name": "Kopp's Frozen Custard (Greenfield, on the way to MKE)",
+  "category": "restaurant",
+  "lat": 42.9586,
+  "lng": -88.0093,
+  "address": "7631 W Layton Ave, Greenfield, WI 53220",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Kopp's+Frozen+Custard+7631+W+Layton+Ave+Greenfield",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/kopps-frozen-custard-greenfield-3?tab=food",
+  "website": "https://www.kopps.com/",
+  "blurb": "Milwaukee's custard temple: a stainless-steel stand on Layton Avenue, the road that runs straight east to the airport. Two Flavors of the Day on a chalkboard and jumbo butter burgers. Monday Oct 26 flavors are Twix-Tac-Dough and Cookies 'N Cream.",
+  "tags": [
+   "frozen custard",
+   "butter burger",
+   "on the way to MKE",
+   "Milwaukee institution",
+   "dessert"
+  ],
+  "image": {
+   "src": "https://kopps.com/wp-content/uploads/2023/02/OG-Image-Default.jpeg",
+   "credit": "Kopp's Frozen Custard",
+   "credit_url": "https://www.kopps.com/",
+   "local": "assets/img/food/kopps-greenfield-967826bc.jpg"
+  },
+  "why_special": "Frozen custard is the dessert Milwaukee is proudest of and Kopp's is the name every local says first. Layton Avenue runs directly to MKE (about 12 minutes), so a dish of custard and a jumbo butter burger is the last Milwaukee stop before security.",
+  "must_order": [
+   "A dish of the Flavor of the Day (Monday: Twix-Tac-Dough or Cookies 'N Cream)",
+   "Jumbo butter burger with fried onions",
+   "Caramel Apple Sundae (October sundae of the month)"
+  ],
+  "price": "$",
+  "reservation": {
+   "needed": false,
+   "url": null
+  },
+  "best_window": "Monday Oct 26, 11:30 AM - 12:30 PM, then 12 min east on Layton Ave to MKE",
+  "hours_this_weekend": {
+   "sat": "10:30 AM - 11:00 PM",
+   "sun": "10:30 AM - 10:00 PM",
+   "mon": "10:30 AM - 10:00 PM"
+  },
+  "travel_from_downtown": "18 min rideshare (10 mi) from downtown; 12 min from here to MKE",
+  "source": "https://www.kopps.com/",
+  "flavor_source": "https://www.kopps.com/flavor-preview"
+ },
+ {
+  "id": "safehouse-milwaukee",
+  "name": "SafeHouse",
+  "category": "bar",
+  "lat": 43.0406,
+  "lng": -87.9103,
+  "address": "779 N Front St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=SafeHouse+779+N+Front+St+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/safehouse-milwaukee",
+  "website": "https://www.safe-house.com/milwaukee-restaurant",
+  "blurb": "A spy-themed bar hidden behind an unmarked red door on a side street, open since 1966. Entry takes a password, and without it 'Agent Moneypenny' runs a clearance test while the whole bar watches on camera. Committed kitsch, a 4-minute walk from the Riverside, and I know it only by reputation, which is sixty years long.",
+  "tags": [
+   "pre-show",
+   "quirky",
+   "history",
+   "reservations"
+  ],
+  "vibe": "Dim, gadget-filled, secret passages and a spinning bookcase exit. Touristy in the best way. Go early, before the show, when the crowd is lighter.",
+  "signature_drink": "The Spy's Demise (a tall, boozy rum punch that comes with a warning)",
+  "best_time": "pre-show",
+  "walk_from_venue_minutes": 4,
+  "hours_this_weekend": {
+   "sat": "11:00 AM - 12:00 AM (kitchen to 10 PM)",
+   "sun": "11:00 AM - 8:00 PM",
+   "mon": "11:00 AM - 10:00 PM"
+  },
+  "wsp_fan_note": "Not a fan gathering spot, it is a Milwaukee rite of passage. Saturday nights often have a wait without an OpenTable reservation, so book a 4:30-5:30 PM slot and walk to the street party afterward.",
+  "source": "https://www.safe-house.com/milwaukee-restaurant",
+  "sources": [
+   "https://www.milwaukeemag.com/do-you-remember-the-safehouse-password/"
+  ]
+ },
+ {
+  "id": "blu-pfister",
+  "name": "Blu at The Pfister Hotel",
+  "category": "bar",
+  "lat": 43.0394,
+  "lng": -87.9057,
+  "address": "424 E Wisconsin Ave, 23rd Floor, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Blu+Pfister+Hotel+424+E+Wisconsin+Ave+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/blu-milwaukee",
+  "website": "https://www.thepfisterhotel.com/dining/blu",
+  "blurb": "Twenty-three floors above the city in the 1893 Pfister, with floor-to-ceiling views of downtown and Lake Michigan. Martinis, a deep wine list, live piano or jazz Friday and Saturday from 8 PM. Open until 2 AM Fri and Sat, which makes it the classiest nightcap after the show, a straight 8-minute walk east on Wisconsin Avenue.",
+  "tags": [
+   "view",
+   "cocktails",
+   "live music",
+   "after-show",
+   "history"
+  ],
+  "vibe": "Hushed, grown-up, glittering. The lake is black at night but the city lights and the Allen-Bradley clock glow to the south. The lobby below holds the largest collection of Victorian art of any hotel in the world, and a resident ghost.",
+  "signature_drink": "A classic martini (Blu bills itself as one of the city's most popular martini bars)",
+  "best_time": "after-show",
+  "walk_from_venue_minutes": 8,
+  "hours_this_weekend": {
+   "sat": "4:00 PM - 2:00 AM (live music 8 PM - midnight)",
+   "sun": "5:00 PM - 12:00 AM",
+   "mon": "5:00 PM - 12:00 AM"
+  },
+  "wsp_fan_note": "Not a fan bar. A good escape hatch if Mo's is too packed, 5 minutes on foot from Mo's.",
+  "source": "https://www.thepfisterhotel.com/dining/blu",
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Pfister_Hotel",
+   "https://www.tmj4.com/sports/baseball/milwaukee-brewers/angels-player-claims-he-saw-ghost-at-pfister-hotel"
+  ]
+ },
+ {
+  "id": "maders-knights-bar",
+  "name": "Mader's Knight's Bar",
+  "category": "bar",
+  "lat": 43.0439,
+  "lng": -87.9149,
+  "address": "1041 N Old World 3rd St (now signed N Dr. Martin Luther King Jr. Dr), Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mader%27s+Restaurant+1041+N+Old+World+3rd+St+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/maders-restaurant-milwaukee",
+  "website": "https://www.madersrestaurant.com/",
+  "blurb": "The bar inside Milwaukee's most famous German restaurant (since 1902), guarded by two suits of armor in the window and hung with medieval weaponry. A boot of German lager here before the show is the most Milwaukee thing within a 10-minute walk of the theater.",
+  "tags": [
+   "pre-show",
+   "history",
+   "German",
+   "beer"
+  ],
+  "vibe": "Dark wood, armor, steins, old-world Bavarian theater. Shares the block with Usinger's sausage (1880) and the Wisconsin Cheese Mart, so a pre-show wander up Old World Third is a greatest-hits tour of old Milwaukee.",
+  "signature_drink": "German draft lager (Spaten, Hofbrau) or a Wisconsin brandy old fashioned",
+  "best_time": "pre-show",
+  "walk_from_venue_minutes": 8,
+  "hours_this_weekend": {
+   "sat": "11:30 AM - 10:00 PM",
+   "sun": "11:30 AM - 8:00 PM",
+   "mon": "11:30 AM - 9:00 PM"
+  },
+  "wsp_fan_note": "Not a fan bar, and it closes before the show lets out. Pre-show only.",
+  "source": "https://www.madersrestaurant.com/"
+ },
+ {
+  "id": "bryants-cocktail-lounge",
+  "name": "Bryant's Cocktail Lounge",
+  "category": "bar",
+  "lat": 43.0144,
+  "lng": -87.9229,
+  "address": "1579 S 9th St, Milwaukee, WI 53204",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Bryant%27s+Cocktail+Lounge+1579+S+9th+St+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/bryants-cocktail-lounge-milwaukee",
+  "website": "https://bryantscocktaillounge.com/",
+  "blurb": "Milwaukee's oldest cocktail lounge (1938) and one of the great bars in America: no menu, no visible bottles, just velvet, low light and a bartender who asks what you like and builds something from a house repertoire of hundreds of drinks. Open until 2 AM Friday and Saturday, a 10-minute rideshare south of the Riverside. I have not sat at that bar. I have read enough people who have to trust the velvet.",
+  "tags": [
+   "cocktails",
+   "history",
+   "after-show",
+   "no menu",
+   "21+"
+  ],
+  "vibe": "Mid-century lounge frozen in amber: red velvet, a jukebox, hushed conversation, no TVs. First-come seating at the bar and main lounge. The upstairs Velvet Lounge takes reservations Fri/Sat for parties of 2-8.",
+  "signature_drink": "Whatever the bartender makes you after you say 'something with gin, not too sweet'; the Pink Squirrel (ice-cream drink) is a Milwaukee classic they do beautifully",
+  "best_time": "after-show",
+  "walk_from_venue_minutes": 38,
+  "rideshare_minutes_from_venue": 10,
+  "hours_this_weekend": {
+   "sat": "3:00 PM - 2:00 AM",
+   "sun": "5:00 PM - 12:00 AM",
+   "mon": "Closed"
+  },
+  "wsp_fan_note": "Not a fan bar, which is exactly why it works as the decompression room after the Riverside. Sunday closes at midnight, so it is a Saturday after-show call.",
+  "source": "https://bryantscocktaillounge.com/",
+  "sources": [
+   "https://savingplaces.org/stories/historic-bars-bryants-cocktail-lounge-in-milwaukee"
+  ]
+ },
+ {
+  "id": "at-random",
+  "name": "At Random",
+  "category": "bar",
+  "lat": 42.9979,
+  "lng": -87.8914,
+  "address": "2501 S Delaware Ave, Milwaukee, WI 53207",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=At+Random+2501+S+Delaware+Ave+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/at-random-milwaukee",
+  "website": "https://www.atrandommke.com/",
+  "blurb": "A 1964 Bay View time capsule of Naugahyde booths, swag lamps and ice-cream cocktails, saved and run by the same owner as Bryant's. A Grasshopper or a Brandy Alexander the size of your head, in a room that looks like a Wes Anderson set. Fri/Sat open until 2 AM.",
+  "tags": [
+   "cocktails",
+   "ice cream drinks",
+   "retro",
+   "after-show",
+   "Bay View"
+  ],
+  "vibe": "Supper-club kitsch at its finest: dark, red, intimate, and strictly for people who want to talk. Groups capped at 8, first-come seating.",
+  "signature_drink": "Ice cream drinks: Grasshopper, Pink Squirrel, Brandy Alexander; the shareable Love Bowl for two",
+  "best_time": "after-show",
+  "walk_from_venue_minutes": 65,
+  "rideshare_minutes_from_venue": 12,
+  "hours_this_weekend": {
+   "sat": "3:00 PM - 2:00 AM",
+   "sun": "3:00 PM - 12:00 AM",
+   "mon": "Closed"
+  },
+  "wsp_fan_note": "Not a fan bar. Pairs with Lost Whale (a 5-minute walk away) for a Bay View after-show double.",
+  "source": "https://www.atrandommke.com/"
+ },
+ {
+  "id": "lost-whale",
+  "name": "Lost Whale",
+  "category": "bar",
+  "lat": 43.0054,
+  "lng": -87.9065,
+  "address": "2151 S Kinnickinnic Ave, Milwaukee, WI 53207",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Lost+Whale+2151+S+Kinnickinnic+Ave+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/lost-whale-milwaukee",
+  "website": "https://www.lostwhalemke.com/",
+  "blurb": "Bay View's best modern cocktail bar: tropical-leaning, sustainability-minded, zero pretension, with a serious tap-cocktail program and $4.50 old fashioneds. For October it is wearing a costume: the horror-themed Black Lagoon pop-up takes over the room all month, which suits the weekend before Halloween.",
+  "tags": [
+   "cocktails",
+   "Halloween pop-up",
+   "after-show",
+   "Bay View"
+  ],
+  "vibe": "Creative, casual, a little nautical, a little weird. Crowd skews 25-40, the music is good, the bartenders are friendly. That is the word from people who go, not from me.",
+  "signature_drink": "Tap cocktails; the seasonal Black Lagoon menu through Oct 31 (per OnMilwaukee)",
+  "best_time": "after-show",
+  "walk_from_venue_minutes": 50,
+  "rideshare_minutes_from_venue": 10,
+  "hours_this_weekend": {
+   "sat": "4:00 PM - 2:30 AM",
+   "sun": "12:00 PM - 10:00 PM",
+   "mon": "4:00 PM - 12:00 AM"
+  },
+  "wsp_fan_note": "Not a fan bar. Sunday closes at 10 PM, so Black Lagoon is a Saturday after-show move (or a Sunday afternoon one).",
+  "source": "https://www.lostwhalemke.com/contact",
+  "sources": [
+   "https://onmilwaukee.com/articles/halloween-2026"
+  ]
+ },
+ {
+  "id": "boone-and-crockett",
+  "name": "Boone & Crockett",
+  "category": "bar",
+  "lat": 43.0227,
+  "lng": -87.9066,
+  "address": "818 S Water St, Milwaukee, WI 53204",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Boone+%26+Crockett+818+S+Water+St+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/boone-and-crockett-milwaukee",
+  "website": "https://www.boonemilwaukee.com/",
+  "blurb": "'Pretentious drinks without the pretentiousness': a taxidermy-and-string-lights cocktail bar on the Kinnickinnic River in Walker's Point, with a big waterfront patio, Taco Moto on site, and a 2 AM close every night it is open. The Trinidad Sour alone is worth the 25-minute riverwalk south.",
+  "tags": [
+   "cocktails",
+   "patio",
+   "waterfront",
+   "after-show",
+   "Walker's Point"
+  ],
+  "vibe": "Hunting-lodge-meets-dive, boats docked outside, DJs and dancing some nights, a tiki-adjacent back bar. Lively, young, fun.",
+  "signature_drink": "Trinidad Sour (Angostura, rye, lemon, almond) or the Gin Bramble",
+  "best_time": "after-show",
+  "walk_from_venue_minutes": 25,
+  "rideshare_minutes_from_venue": 7,
+  "hours_this_weekend": {
+   "sat": "3:00 PM - 2:00 AM",
+   "sun": "3:00 PM - 2:00 AM",
+   "mon": "Closed"
+  },
+  "wsp_fan_note": "Not an official fan bar, but one of the few quality cocktail rooms open until 2 AM on Sunday, which makes it the closing-night nightcap.",
+  "source": "https://www.boonemilwaukee.com/"
+ },
+ {
+  "id": "wolskis-tavern",
+  "name": "Wolski's Tavern",
+  "category": "bar",
+  "lat": 43.0552,
+  "lng": -87.8966,
+  "address": "1836 N Pulaski St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Wolski%27s+Tavern+1836+N+Pulaski+St+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/wolskis-tavern-milwaukee",
+  "website": "https://www.wolskis.com/",
+  "blurb": "A 1908 corner tavern on a residential street two blocks off Brady, run by the founder's great-grandsons. Steel-tip darts, bar dice, a popcorn machine, Stoli Orange shots, cash only. Stay until last call and the bartender hands over the 'I Closed Wolski's' bumper sticker, which cannot be bought and has been spotted from Dublin to Osaka. I have never closed Wolski's. The sticker gets around more than I do.",
+  "tags": [
+   "dive",
+   "history",
+   "cash only",
+   "late night",
+   "after-show"
+  ],
+  "vibe": "The platonic Milwaukee corner bar: Tiffany lamps, Polish flag over the men's room, regulars who have been coming for 40 years, and zero attitude toward newcomers.",
+  "signature_drink": "A Miller High Life and a Stoli Orange shot (the house shot)",
+  "best_time": "after-show",
+  "walk_from_venue_minutes": 30,
+  "rideshare_minutes_from_venue": 8,
+  "hours_this_weekend": {
+   "sat": "12:00 PM - 2:30 AM",
+   "sun": "12:00 PM - 2:00 AM",
+   "mon": "2:00 PM - 2:00 AM"
+  },
+  "wsp_fan_note": "Fan guides have recommended it for years ('stay until closing for the bumper sticker'). Bring cash. Sunday close is 2:00 AM, so closing Wolski's on Sunday night means staying until 2.",
+  "source": "https://www.wolskis.com/",
+  "sources": [
+   "https://punchdrink.com/articles/i-closed-wolskis-tavern-milwaukee-bar/",
+   "https://tomorrowsverse.com/story/widespread-panic-fans-guide-to-milwaukee-2015-edition-28274.html"
+  ]
+ },
+ {
+  "id": "von-trier",
+  "name": "Von Trier",
+  "category": "bar",
+  "lat": 43.0599,
+  "lng": -87.886,
+  "address": "2235 N Farwell Ave, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Von+Trier+2235+N+Farwell+Ave+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/von-trier-milwaukee",
+  "website": "https://www.vontriers.com/",
+  "blurb": "A dark, carved-wood German bierstube on the East Side (here since 1978, a tavern since Prohibition's end) with 30 taps heavy on German imports, a Cyril Colnik chandelier rescued from the Pabst Mansion, hand-painted murals and a beer garden out back. When the city threatened to turn it into a sleek cocktail lounge in 2016, Milwaukee revolted and it stayed as it was.",
+  "tags": [
+   "beer",
+   "German",
+   "history",
+   "beer garden",
+   "after-show"
+  ],
+  "vibe": "Candlelit Black Forest tavern. Quiet enough to talk, serious enough about beer to matter, and open until 2:30 AM Friday and Saturday.",
+  "signature_drink": "A half-liter of Spaten or Franziskaner Weissbier; the Jagertee in cold weather",
+  "best_time": "after-show",
+  "walk_from_venue_minutes": 45,
+  "rideshare_minutes_from_venue": 8,
+  "hours_this_weekend": {
+   "sat": "11:00 AM - 2:30 AM",
+   "sun": "11:00 AM - 12:00 AM",
+   "mon": "4:00 PM - 1:00 AM"
+  },
+  "wsp_fan_note": "Not a fan bar. Landmark Lanes (bowling, three bars, arcade, open until 2 AM) is directly across the street if the night wants to keep going.",
+  "source": "https://www.vontriers.com/",
+  "sources": [
+   "https://milwaukeerecord.com/food-drink/theres-already-petition-keep-von-trier-way/"
+  ]
+ },
+ {
+  "id": "riverside-theater-landmark",
+  "name": "Riverside Theater",
+  "category": "landmark",
+  "lat": 43.0389,
+  "lng": -87.9109,
+  "address": "116 W Wisconsin Ave, Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Riverside+Theater+116+W+Wisconsin+Ave+Milwaukee",
+  "website": "https://www.pabsttheatergroup.com/events/venue/the-riverside-theater",
+  "blurb": "A 2,480-seat 1928 vaudeville-and-movie palace by Kirchhoff & Rose, tucked under the 12-story Empire Building that RKO built. Panic has played it since 2006 and done three-night fall stands here most years since 2008. Locals treat the run like a holiday.",
+  "tags": [
+   "venue",
+   "history",
+   "1928"
+  ],
+  "source": "https://en.wikipedia.org/wiki/Riverside_Theater_(Milwaukee)"
+ },
+ {
+  "id": "gertie-the-duck",
+  "name": "Gertie the Duck statue",
+  "category": "landmark",
+  "lat": 43.0388,
+  "lng": -87.9102,
+  "address": "Wisconsin Avenue Bridge (northwest corner), Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Gertie+the+Duck+Wisconsin+Avenue+Bridge+Milwaukee",
+  "website": "https://en.wikipedia.org/wiki/Gertie_the_Duck",
+  "blurb": "In April 1945 a mallard nested on a piling under this bridge and a war-weary country followed her ducklings in the newspaper. Gwendolyn Gillen's bronze Gertie and her brood have sat on the bridge since 1997, about 150 feet from the Riverside marquee.",
+  "tags": [
+   "statue",
+   "history",
+   "photo op"
+  ],
+  "source": "https://en.wikipedia.org/wiki/Gertie_the_Duck"
+ },
+ {
+  "id": "bronze-fonz",
+  "name": "The Bronze Fonz",
+  "category": "landmark",
+  "lat": 43.0404,
+  "lng": -87.911,
+  "address": "Milwaukee RiverWalk, just south of E Wells St (east bank), Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Bronze+Fonz+Milwaukee+Riverwalk",
+  "website": "https://en.wikipedia.org/wiki/Bronze_Fonz",
+  "blurb": "Henry Winkler's Fonzie in bronze, double thumbs up, unveiled in 2008 with most of the Happy Days cast present. Two blocks from the theater on the Riverwalk. The obligatory Milwaukee selfie.",
+  "tags": [
+   "statue",
+   "photo op",
+   "Happy Days"
+  ],
+  "source": "https://en.wikipedia.org/wiki/Bronze_Fonz",
+  "why": "The only Happy Days-universe statue in town. There is no Laverne or Shirley statue (yet).",
+  "hours": "Outdoors, always open.",
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Milwaukee_July_2022_103_%28Milwaukee_Riverwalk%29.jpg/1200px-Milwaukee_July_2022_103_%28Milwaukee_Riverwalk%29.jpg",
+   "credit": "Milwaukee RiverWalk by Michael Barera, CC BY-SA 4.0, via Wikimedia Commons (the statue itself is copyrighted, so Commons has no photo of it)",
+   "credit_url": "https://commons.wikimedia.org/wiki/File:Milwaukee_July_2022_103_(Milwaukee_Riverwalk).jpg",
+   "local": "assets/img/laverne/bronze-fonz-619103ed.jpg"
+  }
+ },
+ {
+  "id": "usingers-sausage",
+  "name": "Usinger's Famous Sausage",
+  "category": "landmark",
+  "lat": 43.0437,
+  "lng": -87.914,
+  "address": "1030 N Old World 3rd St (N Dr. Martin Luther King Jr. Dr), Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Usinger%27s+Famous+Sausage+Milwaukee",
+  "website": "https://www.usinger.com/",
+  "blurb": "Sausage-makers since 1880, in a shop with hand-painted elf murals, directly across from Mader's. A snack-size bratwurst or summer sausage travels well to a hotel room, and they ship.",
+  "tags": [
+   "food",
+   "history",
+   "German"
+  ],
+  "source": "https://www.usinger.com/"
+ },
+ {
+  "id": "st-james-1868",
+  "name": "St. James 1868",
+  "category": "landmark",
+  "lat": 43.0382,
+  "lng": -87.9231,
+  "address": "833 W Wisconsin Ave, Milwaukee, WI 53233",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=St.+James+1868+833+W+Wisconsin+Ave+Milwaukee",
+  "website": "https://onmilwaukee.com/articles/halloween-2026",
+  "blurb": "A deconsecrated 1868 Episcopal church turned event space, 10 minutes west on Wisconsin Avenue. On Sunday Oct 25 it hosts 'Candlelight: A Haunted Evening of Halloween Classics' at 4:30 PM and 6:45 PM. The 4:30 show ends in time for the 6:30 doors.",
+  "tags": [
+   "Halloween",
+   "live music",
+   "history"
+  ],
+  "source": "https://onmilwaukee.com/articles/halloween-2026"
+ },
+ {
+  "id": "milwaukee-city-hall",
+  "name": "Milwaukee City Hall",
+  "category": "landmark",
+  "lat": 43.0417,
+  "lng": -87.9098,
+  "address": "200 E Wells St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Milwaukee+City+Hall+200+E+Wells+St",
+  "website": "https://city.milwaukee.gov/",
+  "blurb": "The 1895 Flemish Renaissance tower that was briefly among the tallest buildings in America, and the one in the Laverne & Shirley opening credits. The lobby in daytime is worth the detour: an eight-story open atrium ringed with iron railings, one of the great civic interiors in the Midwest.",
+  "tags": [
+   "architecture",
+   "history",
+   "Laverne & Shirley"
+  ],
+  "source": "https://en.wikipedia.org/wiki/Milwaukee_City_Hall",
+  "why": "The only location in the show that was actually filmed in Milwaukee.",
+  "hours": "Exterior anytime; lobby weekdays during business hours.",
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Milwaukee_City_Hall_742.jpg/1200px-Milwaukee_City_Hall_742.jpg",
+   "credit": "Gillfoto, CC BY-SA 4.0, via Wikimedia Commons",
+   "credit_url": "https://commons.wikimedia.org/wiki/File:Milwaukee_City_Hall_742.jpg",
+   "local": "assets/img/laverne/milwaukee-city-hall-4195e145.jpg"
+  }
+ },
+ {
+  "id": "pabst-theater",
+  "name": "Pabst Theater",
+  "category": "landmark",
+  "lat": 43.0411,
+  "lng": -87.9105,
+  "address": "144 E Wells St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Pabst+Theater+144+E+Wells+St+Milwaukee",
+  "website": "https://www.pabsttheatergroup.com/",
+  "blurb": "Captain Frederick Pabst's 1895 opera house, sister venue to the Riverside, and the meeting point for the 'Shadow of City Hall' ghost walk (select Fri/Sat 7:30 PM, $33.57, ~2 hours, covering the Pfister ghost, City Hall and the Newhall House fire site).",
+  "tags": [
+   "history",
+   "ghost tour",
+   "venue"
+  ],
+  "source": "https://americanghostwalks.com/tour/milwaukee-shadow-city-hall-ghost-walk"
+ },
+ {
+  "id": "milwaukee-art-museum",
+  "name": "Milwaukee Art Museum (Quadracci Pavilion)",
+  "category": "landmark",
+  "lat": 43.0398,
+  "lng": -87.8971,
+  "address": "700 N Art Museum Dr, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Milwaukee+Art+Museum+700+N+Art+Museum+Dr",
+  "website": "https://mam.org/",
+  "blurb": "Santiago Calatrava's 2001 pavilion with the Burke Brise Soleil, a 217-foot pair of wings that open in the morning and fold at night (and close automatically if wind tops 23 mph).",
+  "tags": [
+   "architecture",
+   "art",
+   "lakefront",
+   "Halloween"
+  ],
+  "source": "https://en.wikipedia.org/wiki/Milwaukee_Art_Museum",
+  "sources": [
+   "https://mam.org/events/event/mam-after-dark-halloween-bash/"
+  ]
+ },
+ {
+  "id": "brothers-bar-boos-fest",
+  "name": "Brothers Bar & Grill (Boos Fest Halloween Crawl check-in)",
+  "category": "landmark",
+  "lat": 43.0461,
+  "lng": -87.9115,
+  "address": "1213 N Water St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Brothers+Bar+%26+Grill+1213+N+Water+St+Milwaukee",
+  "website": "https://www.barcrawlnation.com/events/milwaukee-boos-fest-halloween-crawl-2026",
+  "blurb": "Starting point for the Saturday Oct 24 'Boos Fest' Halloween bar crawl (doors 6 PM, late check-in by 8 PM, GA $24.99 advance / $40 door) that works through Water Street and Old World Third. A college-crowd crawl, not a quality-bar crawl, but the costumes on Water Street Saturday night will be a show of their own.",
+  "tags": [
+   "Halloween",
+   "bar crawl",
+   "Water Street"
+  ],
+  "source": "https://www.barcrawlnation.com/events/milwaukee-boos-fest-halloween-crawl-2026"
+ },
+ {
+  "id": "catalano-square",
+  "name": "Catalano Square (World Series block party screens)",
+  "category": "landmark",
+  "lat": 43.0311,
+  "lng": -87.9068,
+  "address": "Menomonee St & N Broadway, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Catalano+Square+Milwaukee",
+  "website": "https://www.milwaukeemag.com/watch-the-brewers-in-the-world-series-at-this-block-party/",
+  "blurb": "Sat Oct 24, noon-11 PM: Third Ward Beer Garden and the Historic Third Ward Association close Menomonee Street for food trucks, big screens showing Game 2, Brewers cocktails, and a live taping of the Foul Territory podcast 5-7 PM. The city's first World Series in 44 years, so the pregame energy around 5 PM will be something.",
+  "tags": [
+   "World Series",
+   "block party",
+   "free"
+  ],
+  "source": "https://www.milwaukeemag.com/watch-the-brewers-in-the-world-series-at-this-block-party/"
+ },
+ {
+  "id": "pearl-and-cade-nightmare-bar",
+  "name": "Pearl & Cade (The Nightmare Bar pop-up)",
+  "category": "landmark",
+  "lat": 43.0333,
+  "lng": -87.9062,
+  "address": "219 N Milwaukee St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Pearl+%26+Cade+219+N+Milwaukee+St+Milwaukee",
+  "website": "https://feverup.com/m/737479",
+  "blurb": "Fever's ticketed horror-themed pop-up bar in the Phoenix Building, Oct 8-31: 90-minute sessions at 7 PM and 9 PM, 21+, $17.50 with a welcome drink, costumes encouraged. Both sessions overlap the show, so it is a Monday-afternoon curiosity at most, barring a skipped set break.",
+  "tags": [
+   "Halloween",
+   "pop-up",
+   "ticketed"
+  ],
+  "source": "https://feverup.com/m/737479"
+ },
+ {
+  "id": "the-outsider-rooftop",
+  "name": "The Outsider (Kimpton Journeyman rooftop)",
+  "category": "landmark",
+  "lat": 43.033,
+  "lng": -87.9068,
+  "address": "310 E Chicago St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Outsider+Rooftop+310+E+Chicago+St+Milwaukee",
+  "website": "https://www.journeymanhotel.com/the-outsider",
+  "blurb": "Ninth-floor rooftop bar over the Third Ward with fire pits and a skyline view. A golden-hour stop (sunset is about 5:55 PM) before the 12-minute walk north to the street party. Hours not verified for this weekend, so check before going.",
+  "tags": [
+   "rooftop",
+   "view",
+   "cocktails"
+  ],
+  "source": "https://www.journeymanhotel.com/the-outsider"
+ },
+ {
+  "id": "fiserv-forum",
+  "name": "Fiserv Forum",
+  "category": "landmark",
+  "lat": 43.045,
+  "lng": -87.9175,
+  "address": "1111 Vel R. Phillips Ave, Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Fiserv+Forum+Milwaukee",
+  "website": "https://www.fiservforum.com/",
+  "blurb": "Home of the Bucks, with a swooping zinc roof. The Bucks moved their home-opener tipoff this week so it would not collide with the Brewers' World Series run. That is how much this city is living baseball right now.",
+  "tags": [
+   "arena",
+   "architecture"
+  ],
+  "source": "https://www.mlb.com/news/milwaukee-bucks-change-time-of-home-opener-brewers-world-series"
+ },
+ {
+  "id": "gloriosos-italian-market",
+  "name": "Glorioso's Italian Market",
+  "category": "landmark",
+  "lat": 43.0528,
+  "lng": -87.8993,
+  "address": "1011 E Brady St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Glorioso%27s+Italian+Market+1011+E+Brady+St+Milwaukee",
+  "website": "https://www.gloriosos.com/",
+  "blurb": "Family-run Italian grocery and deli since 1946, the anchor of Brady Street. The Italian sub and the cannoli are the move for a Saturday or Sunday lunch before a stroll.",
+  "tags": [
+   "food",
+   "daytime",
+   "history"
+  ],
+  "source": "https://www.gloriosos.com/"
+ },
+ {
+  "id": "landmark-lanes",
+  "name": "Landmark Lanes",
+  "category": "landmark",
+  "lat": 43.0597,
+  "lng": -87.8857,
+  "address": "2220 N Farwell Ave, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Landmark+Lanes+2220+N+Farwell+Ave+Milwaukee",
+  "website": "https://www.landmarklanes.com/",
+  "blurb": "A subterranean 1927 bowling alley under the Oriental Theatre with three bars, a retro arcade, pool and darts. 21+ after 9 PM, bar open until 2 AM nightly, bowling until 11 PM. Directly across from Von Trier.",
+  "tags": [
+   "bowling",
+   "late night",
+   "arcade",
+   "dive"
+  ],
+  "source": "https://www.landmarklanes.com/"
+ },
+ {
+  "id": "lakefront-brewery",
+  "name": "Lakefront Brewery",
+  "category": "landmark",
+  "lat": 43.0547,
+  "lng": -87.9052,
+  "address": "1872 N Commerce St, Milwaukee, WI 53212",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Lakefront+Brewery+1872+N+Commerce+St+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/lakefront-brewery-milwaukee",
+  "website": "https://lakefrontbrewery.com/",
+  "blurb": "The most fun brewery tour in America, in an old riverside power plant across the river from Brady Street: 50 minutes, four 8-oz pours, a souvenir pint glass and a free-beer coupon good at local bars, $16 Sat-Sun. The beer hall has Bernie Brewer's original chalet from County Stadium. Tours run roughly every 30 minutes Sat noon-6 PM, Sun noon and 2 PM. The beer hall closes 9 PM (5 PM Sunday).",
+  "tags": [
+   "brewery",
+   "tour",
+   "daytime",
+   "beer"
+  ],
+  "source": "https://lakefrontbrewery.com/tour",
+  "sources": [
+   "https://lakefrontbrewery.com/"
+  ],
+  "why": "The only place on Earth that re-enacts the Laverne & Shirley opening credits daily.",
+  "hours": "Tours Sat Oct 24: 12 PM-6 PM every 30 min; Sun Oct 25: 12 PM and 2 PM; Mon Oct 26: 5 PM and 6:30 PM. $13 Mon-Thu, $16 Fri-Sun, 50 min, 21+ or with a parent. Weekend tours usually sell out; buy on etix. Beer hall Sat 11 AM-9 PM, Sun 11 AM-5 PM, Mon 11 AM-9 PM.",
+  "hours_source": "https://lakefrontbrewery.com/brewery-tours/our-famous-tour",
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Lakefront_Brewery%2C_Milwaukee%2C_WI_%2821478759723%29.jpg/1200px-Lakefront_Brewery%2C_Milwaukee%2C_WI_%2821478759723%29.jpg",
+   "credit": "jgagnon, CC BY 2.0, via Wikimedia Commons",
+   "credit_url": "https://commons.wikimedia.org/wiki/File:Lakefront_Brewery,_Milwaukee,_WI_(21478759723).jpg",
+   "local": "assets/img/laverne/lakefront-brewery-c9953cf6.jpg"
+  }
+ },
+ {
+  "id": "allen-bradley-clock-tower",
+  "name": "Allen-Bradley Clock Tower (the 'Polish Moon')",
+  "category": "landmark",
+  "lat": 43.0178,
+  "lng": -87.9147,
+  "address": "1201 S 2nd St, Milwaukee, WI 53204",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Allen-Bradley+Clock+Tower+Milwaukee",
+  "website": "https://en.wikipedia.org/wiki/Rockwell_Automation_Headquarters_and_Allen-Bradley_Clock_Tower",
+  "blurb": "Dedicated on Halloween 1962, with four faces more than 40 feet across. It was the largest four-faced clock in the world until Mecca's Abraj Al Bait topped it. South-siders call the glowing faces the Polish Moon. Visible from Blu's windows and from most of Walker's Point.",
+  "tags": [
+   "landmark",
+   "history",
+   "night view"
+  ],
+  "source": "https://en.wikipedia.org/wiki/Rockwell_Automation_Headquarters_and_Allen-Bradley_Clock_Tower"
+ },
+ {
+  "id": "harley-davidson-museum",
+  "name": "Harley-Davidson Museum",
+  "category": "landmark",
+  "lat": 43.0313,
+  "lng": -87.917,
+  "address": "400 W Canal St, Milwaukee, WI 53201",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Harley-Davidson+Museum+Milwaukee",
+  "website": "https://www.harley-davidson.com/us/en/museum.html",
+  "blurb": "Twenty acres on the Menomonee River telling the story that began in a 10-by-15-foot Davidson-family shed in 1903. Non-riders go for the Engine Room and the 'tsunami bike' that washed up in Canada. A 15-minute walk from the Riverside, and the MOTOR bar and restaurant does a solid lunch.",
+  "tags": [
+   "museum",
+   "history",
+   "daytime"
+  ],
+  "source": "https://en.wikipedia.org/wiki/Harley-Davidson"
+ },
+ {
+  "id": "basilica-of-st-josaphat",
+  "name": "Basilica of St. Josaphat",
+  "category": "landmark",
+  "lat": 43.0025,
+  "lng": -87.9192,
+  "address": "2333 S 6th St, Milwaukee, WI 53215",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Basilica+of+St.+Josaphat+Milwaukee",
+  "website": "https://thebasilica.org/",
+  "blurb": "Polish immigrants built this 1901 basilica, dome 214 feet high, out of the demolished Chicago federal post office, which their pastor bought for $20,000 and shipped north on 500 railroad flatcars. Ten minutes south of Bryant's by car, an easy pairing with cocktails there.",
+  "tags": [
+   "architecture",
+   "history",
+   "Polish heritage"
+  ],
+  "source": "https://en.wikipedia.org/wiki/Basilica_of_St._Josaphat"
+ },
+ {
+  "id": "burnhearts",
+  "name": "Burnhearts",
+  "category": "landmark",
+  "lat": 42.9973,
+  "lng": -87.897,
+  "address": "2599 S Logan Ave, Milwaukee, WI 53207",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Burnhearts+2599+S+Logan+Ave+Milwaukee",
+  "website": "https://www.burnhearts.com/",
+  "blurb": "A Bay View corner bar with a serious craft-beer list and a pinball corner, named 'my favorite bar in Milwaukee' in the 2015 Panic fan guide. Two blocks from At Random. Hours not verified for this weekend.",
+  "tags": [
+   "beer",
+   "dive",
+   "neighborhood"
+  ],
+  "source": "https://tomorrowsverse.com/story/widespread-panic-fans-guide-to-milwaukee-2015-edition-28274.html"
+ },
+ {
+  "id": "holler-house",
+  "name": "Holler House",
+  "category": "landmark",
+  "lat": 43.0032,
+  "lng": -87.9396,
+  "address": "2042 W Lincoln Ave, Milwaukee, WI 53215",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Holler+House+2042+W+Lincoln+Ave+Milwaukee",
+  "website": "https://en.wikipedia.org/wiki/Holler_House",
+  "blurb": "A 1908 tavern whose two basement lanes are the oldest sanctioned tenpin lanes in the United States, still set by human pinsetters. Hundreds of signed bras hang from the ceiling, a tradition the late owner Marcy Skowronski started one rowdy night. Call ahead for lane time, and cash is wise.",
+  "tags": [
+   "bowling",
+   "history",
+   "dive",
+   "quirky"
+  ],
+  "source": "https://en.wikipedia.org/wiki/Holler_House"
+ },
+ {
+  "id": "walgreens-brady-farwell",
+  "name": "Walgreens (24-hour store), Brady & Farwell",
+  "category": "landmark",
+  "lat": 43.0531,
+  "lng": -87.8935,
+  "address": "1400 E Brady St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Walgreens+1400+E+Brady+St+Milwaukee",
+  "website": "https://www.walgreens.com/locator/walgreens-1400+e+brady+st-milwaukee-wi-53202/id=1685",
+  "blurb": "Open 24 hours for Advil, water, snacks and phone chargers. Pharmacy counter 8 AM. Phone 414-272-2171. About a 7-minute rideshare from the hotel.",
+  "tags": [
+   "pharmacy",
+   "24 hours",
+   "practical"
+  ],
+  "source": "https://www.walgreens.com/storelocator/24-hour-store/milwaukee-wi"
+ },
+ {
+  "id": "aurora-urgent-care-schlitz-park",
+  "name": "Aurora Urgent Care, Schlitz Park",
+  "category": "landmark",
+  "lat": 43.0514,
+  "lng": -87.9098,
+  "address": "1575 N RiverCenter Dr, Milwaukee, WI 53212",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Aurora+Urgent+Care+1575+N+RiverCenter+Dr+Milwaukee",
+  "website": "https://www.aurorahealthcare.org/",
+  "blurb": "Walk-in urgent care in the old Schlitz brewery complex. Weekend hours 8 AM - 4 PM per directory listing. Confirm by phone, 414-276-4242.",
+  "tags": [
+   "urgent care",
+   "practical"
+  ],
+  "source": "https://urgentcaremap.health/wisconsin/milwaukee/aurora-urgent-care-rivercenter/"
+ },
+ {
+  "id": "lost-whale-black-lagoon",
+  "name": "Lost Whale (Black Lagoon pop-up)",
+  "category": "bar",
+  "lat": 43.0054,
+  "lng": -87.9065,
+  "address": "2151 S Kinnickinnic Ave, Milwaukee, WI 53207",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Lost+Whale+2151+S+Kinnickinnic+Ave+Milwaukee",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/lost-whale-milwaukee",
+  "website": "https://www.lostwhalemke.com/",
+  "blurb": "Bay View's best cocktail bar in full horror-movie dress for October.",
+  "tags": [
+   "Halloween",
+   "cocktails",
+   "pop-up",
+   "after-show"
+  ],
+  "source": "https://onmilwaukee.com/articles/halloween-2026"
+ },
+ {
+  "id": "wolph-street-party",
+  "name": "Wolph: Free Street Party Before Widespread Panic",
+  "category": "stage",
+  "lat": 43.0389,
+  "lng": -87.9109,
+  "address": "W Wisconsin Ave outside the Riverside Theater, 116 W Wisconsin Ave, Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Riverside+Theater+116+W+Wisconsin+Ave+Milwaukee",
+  "website": "https://www.pabsttheatergroup.com/events/detail/wolph",
+  "blurb": "Pabst Theater Group's free outdoor pre-party on Wisconsin Avenue right outside the Riverside, all three nights. Wolph is a young Grateful Dead-leaning jam band whose originals are being produced by Panic's own Dave Schools, so the lot is a family affair. Doors 12:00 PM, music 5:30 PM, then straight into the theater at 6:30.",
+  "tags": [
+   "free",
+   "pre-show",
+   "live music",
+   "WSP fans"
+  ],
+  "when": "Sat Oct 24, Sun Oct 25 2026: doors 12:00 PM, show 5:30 PM",
+  "source": "https://www.pabsttheatergroup.com/events/detail/wolph"
+ },
+ {
+  "id": "mos-after-party",
+  "name": "Official Widespread Panic After-Parties at Mo's Irish Pub",
+  "category": "stage",
+  "lat": 43.0389,
+  "lng": -87.9116,
+  "address": "142 W Wisconsin Ave, Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mo%27s+Irish+Pub+142+W+Wisconsin+Ave+Milwaukee",
+  "website": "https://www.pabsttheatergroup.com/events/detail/widespread-panic-2026",
+  "blurb": "Half a block west of the Riverside doors. Houseplant plays Saturday, Madison jamgrass quartet Armchair Boogie plays Sunday. Listed as 21+, starting 11:45 PM, which is the minute the Riverside lets out. This is the room where the whole run ends up.",
+  "tags": [
+   "after-show",
+   "live music",
+   "WSP fans",
+   "21+"
+  ],
+  "when": "Sat Oct 24: Houseplant; Sun Oct 25: Armchair Boogie. Start ~11:45 PM.",
+  "source": "https://app.discotech.me/events/38227433-3-day-after-party-at-mos-irish-pub-21-only-at-the-riverside-theater"
+ },
+ {
+  "id": "milwaukee-county-historical-society",
+  "name": "Milwaukee County Historical Society",
+  "category": "laverne",
+  "lat": 43.0419,
+  "lng": -87.9142,
+  "address": "910 N Dr Martin Luther King Jr Dr (Old World Third St), Milwaukee, WI 53203",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Milwaukee+County+Historical+Society+910+N+Dr+Martin+Luther+King+Jr+Dr",
+  "website": "https://milwaukeehistory.net/",
+  "blurb": "The 1913 bank building on Pere Marquette Park is where the actual 'Welcome Milwaukee Visitors' letters from the opening credits ended up (City Hall gave them to the art school MIAD, which handed them here in 2012). Staff spelled PENNY in the river windows when Marshall died and CINDY when Williams did. Cheap, quick, and a real piece of the show to stand next to. Ask at the desk whether the letters are out.",
+  "why": "Holds the real sign letters seen in the opening credits.",
+  "tags": [
+   "museum",
+   "opening credits",
+   "cheap",
+   "walk from venue"
+  ],
+  "hours": "Mon and Wed-Sat 9:30 AM-5:00 PM; closed Tue and Sun; Saturdays often close at 2:00 PM for private events. Admission $8 adults.",
+  "hours_source": "https://milwaukeehistory.net/visit/visitor-information/",
+  "image": null,
+  "source": "https://onmilwaukee.com/articles/mchs-shirley-tribute"
+ },
+ {
+  "id": "best-place-pabst-brewery",
+  "name": "Best Place at the Historic Pabst Brewery",
+  "category": "laverne",
+  "lat": 43.0455,
+  "lng": -87.9234,
+  "address": "917 W Juneau Ave, Milwaukee, WI 53233",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Best+Place+at+the+Historic+Pabst+Brewery+917+W+Juneau+Ave+Milwaukee",
+  "website": "https://bestplacemilwaukee.com/tours/",
+  "yelp_photos_url": "https://www.yelp.com/biz_photos/best-place-at-the-historic-pabst-brewery-milwaukee?tab=food",
+  "blurb": "Shotz never existed, but this did: the 1800s Pabst brewery complex, the cream-city-brick beer castle the show was pretending to be. The hour-long Beer History Tour ($14, includes a pint) walks through Captain Pabst's old offices and reception hall, and the Blue Ribbon Hall tavern pours Pabst, Schlitz, and Blatz under a mural ceiling. For these dates: Haunted Pabst Brewery flashlight tours run Sunday Oct 25 and Monday Oct 26 at 6:00 and 7:30 PM ($20, includes a tallboy).",
+  "why": "The real brewery-baron Milwaukee the fictional Shotz was riffing on, with the Schlitz brand still on tap.",
+  "tags": [
+   "brewery history",
+   "tour",
+   "tavern",
+   "haunted tour",
+   "pabst",
+   "schlitz"
+  ],
+  "hours": "Beer History Tour: Sat Oct 24 11 AM, 12, 2, 4 PM; Sun Oct 25 12, 2, 4 PM; Mon Oct 26 12, 2, 4 PM. $14 adults. Haunted tours Oct 25 and 26 at 6:00 and 7:30 PM, $20. Book at etix or 414-223-4709.",
+  "hours_source": "https://bestplacemilwaukee.com/tours/",
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Milwaukee_July_2023_088_%28Pabst_Brewery_Complex--Best_Place%29.jpg/1200px-Milwaukee_July_2023_088_%28Pabst_Brewery_Complex--Best_Place%29.jpg",
+   "credit": "Michael Barera, CC BY-SA 4.0, via Wikimedia Commons",
+   "credit_url": "https://commons.wikimedia.org/wiki/File:Milwaukee_July_2023_088_(Pabst_Brewery_Complex--Best_Place).jpg",
+   "local": "assets/img/laverne/best-place-pabst-brewery-879dc60b.jpg"
+  },
+  "source": "https://bestplacemilwaukee.com/tours/"
+ },
+ {
+  "id": "streets-of-old-milwaukee",
+  "name": "Milwaukee Public Museum: Streets of Old Milwaukee",
+  "category": "laverne",
+  "lat": 43.0407,
+  "lng": -87.9213,
+  "address": "800 W Wells St, Milwaukee, WI 53233",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Milwaukee+Public+Museum+800+W+Wells+St",
+  "website": "https://www.mpm.edu/plan-visit",
+  "blurb": "A walk-through, lamp-lit replica of turn-of-the-century Milwaukee streets (cobblestones, a candy shop, Grandma peering out her window) that has been a rite of passage for every Milwaukee kid since 1965. It is the closest thing to a Shotz-era streetscape anyone can stroll, and this is the last chance: the Wells Street museum closes for good January 3, 2027, before moving to the new Nature & Culture Museum. Right now it is dressed for 'Historic Halloween' through November 1.",
+  "why": "Last-chance nostalgia: the old-Milwaukee street set the show never had.",
+  "tags": [
+   "museum",
+   "last chance",
+   "halloween",
+   "rainy day"
+  ],
+  "hours": "Wed-Mon 10 AM-5 PM, closed Tuesdays. Heads up: exhibit floors close at 1:00 PM on Saturday Oct 24 for a members-only event, so go Sunday or Monday. Adults $25 (includes a planetarium show).",
+  "hours_source": "https://www.mpm.edu/plan-visit/hours",
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Milwaukee_Public_Museum.jpg",
+   "credit": "Sulfur, CC BY-SA 3.0, via Wikimedia Commons",
+   "credit_url": "https://commons.wikimedia.org/wiki/File:Milwaukee_Public_Museum.jpg",
+   "local": "assets/img/laverne/streets-of-old-milwaukee-488034f5.jpg"
+  },
+  "source": "https://www.milwaukeemag.com/milwaukee-public-museum-announces-its-final-day/"
+ },
+ {
+  "id": "knapp-street",
+  "name": "730 E Knapp Street (Laverne & Shirley's address)",
+  "category": "laverne",
+  "lat": 43.047,
+  "lng": -87.903,
+  "address": "730 E Knapp St, Milwaukee, WI 53202",
+  "gmaps_url": "https://www.google.com/maps/search/?api=1&query=730+E+Knapp+St+Milwaukee+WI",
+  "website": null,
+  "blurb": "The girls gave their address as 730 Knapp Street, and Knapp Street is real: a quiet lower-east-side block of row houses and condos about a 12-minute walk northeast of the Riverside. There is no plaque, no basement apartment, and nothing was filmed here, which is the point. Take the photo under the street sign, caption it 'Shirley, we're home,' and move on.",
+  "why": "The real street behind the fictional address.",
+  "tags": [
+   "free",
+   "photo op",
+   "street sign",
+   "walk from venue",
+   "deep cut"
+  ],
+  "hours": "Public street, anytime. Respect the residents.",
+  "image": null,
+  "source": "http://postcardsandcoasters.blogspot.com/2011/05/milwaukee-sites-from-laverne-and.html"
+ }
+]

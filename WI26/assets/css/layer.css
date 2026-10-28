@@ -1,0 +1,166 @@
+/* layer.css — the this layer, layered over site.css and art-breaks.css. Loaded last.
+   Every fix maps to a row in CRITIQUE.md. Tokens only, except where a value is a measurement. */
+
+/* ---------- 1. Chapters: moved to reverse.css (the reversal: categories are the colored shapes, pictures are the spaces) ---------- */
+:root { --torn: polygon(0 2%, 6% .6%, 13% 2.4%, 21% .4%, 30% 1.8%, 38% 0, 47% 2.2%, 55% .8%, 63% 2.6%, 72% .6%, 80% 2%, 88% .2%, 95% 1.6%, 100% .6%,
+  99.2% 10%, 100% 22%, 98.8% 35%, 99.6% 50%, 98.6% 63%, 100% 77%, 99% 90%,
+  100% 99%, 93% 97.6%, 85% 99.6%, 77% 98%, 68% 100%, 60% 97.8%, 51% 99.4%, 42% 97.4%, 34% 99.8%, 25% 98%, 17% 99.6%, 9% 97.8%, 0 99.4%,
+  .8% 88%, 0 74%, 1.2% 60%, .2% 46%, 1.4% 32%, 0 18%, .8% 8%); }
+
+/* ---------- 2. Cards read at 17px; the note from Snacks is the card's lede ---------- */
+.w .prose, .w .prose p, .w .rule, .w .notice, .update .prose, .place .blurb, .facts-list li, .w .mascot .prose { font-size: 17px; line-height: 1.55; }
+.w .caption, .slot .who p, .kbd-steps, .tile-line, .place .meta { font-size: 14px; }
+.w > header .t .eyebrow, .tag { font-size: 12px; }
+.card-lede { padding-left: 14px; border-left: 4px solid var(--wsp-gold-40); }
+.card-lede p { margin: 0; font-family: var(--pds-font-display); font-weight: 600; font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 48; font-size: 20px; line-height: 1.34; color: var(--wsp-teal-70); }
+.w--band .card-lede { border-left-color: var(--wsp-gold-30); }
+.w--band .card-lede p { color: var(--wsp-paper-5); }
+.w > .body > .print + .card-lede { margin-top: 4px; }
+
+/* ---------- 3. Sources: still quiet, now a real target ---------- */
+a.src { display: inline-flex; align-items: center; width: auto; max-width: max-content; align-self: flex-start; min-height: 28px; min-width: 28px; padding: 0 8px; margin: 2px 0 2px 6px; vertical-align: middle;
+  font: 600 12px/1 var(--pds-font-mono); letter-spacing: .06em; text-transform: uppercase; text-decoration: none;
+  color: var(--wsp-teal-60); border: 1.5px solid currentColor; }
+a.src:hover { background: var(--wsp-paper-10); }
+.w--band a.src, .notice a.src { color: inherit; }
+
+/* ---------- 4. The star tip waits for her first card ---------- */
+.coach-note { top: auto; bottom: calc(96px + env(safe-area-inset-bottom)); }
+
+/* ---------- 5. Weather that fails quietly ---------- */
+.temp-pill.is-offline .t { display: none; }
+.temp-pill.is-offline .c { font-size: 15px; font-weight: 600; color: var(--pds-text-on-band); }
+.temp-pill.is-offline svg { display: none; }
+
+/* ---------- 6. The welcome: no holes, a visible step, Bernie printed in the poster's ink ---------- */
+.welcome-nav .btn[hidden] { display: none; }
+.welcome-dots i { width: 10px; height: 10px; }
+.welcome-dots i.on { background: var(--wsp-gold-30) !important; box-shadow: 0 0 0 2px var(--wsp-teal-90); }
+.wb-space { height: 12px; }
+.wb .welcome-fig img[src*="bernie"] { filter: grayscale(1) sepia(1) saturate(1.7) hue-rotate(148deg) brightness(.92) contrast(1.12); }
+
+/* ---------- 7. The footer is the closing piece ---------- */
+.ft-draft { margin: 14px 0 0; display: inline-block; justify-self: start; font: 600 12px/1 var(--pds-font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--wsp-paper-5); background: var(--wsp-orange-60); padding: 6px 8px 5px; transform: rotate(-1.5deg); }
+
+/* ---------- The next thing, in the sticky bar ---------- */
+.next-up { flex: 1; min-width: 0; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  font: 600 12px/1.2 var(--pds-font-mono); letter-spacing: .05em; text-transform: uppercase; color: var(--wsp-ink-80); }
+.next-up .nu-v { font-family: var(--pds-font-display); font-variation-settings: "SOFT" 100, "WONK" 1; font-weight: 800; font-size: 19px; letter-spacing: 0; text-transform: none; color: var(--wsp-teal-70); vertical-align: -1px; }
+.next-up .nu-in { color: var(--wsp-orange-60); }
+
+/* ---------- The verse slots: his to write, so they hold their place quietly ---------- */
+.ly--todo { height: auto; min-height: 0; width: min(100%, calc(var(--len) * .62em)); margin: .25em 0 .15em; padding: 0 0 .35em; background: none; outline: 0;
+  border-bottom: 2px dashed var(--sp-ink-2); font-size: 15px; }
+.ly-tag { position: static; transform: none; display: inline-block; padding: 0; background: none !important; text-shadow: none;
+  font: 600 12px/1 var(--pds-font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--sp-ink-2) !important; }
+.spot .ly--todo { border-bottom-color: var(--wsp-paper-5); background: none; outline: 0; }
+.spot .ly-tag { color: var(--wsp-paper-5) !important; }
+.sp-lyric[data-todo] { gap: .2em; }
+
+/* ---------- Phone: a card's action drops under its title instead of squeezing it ---------- */
+@media (max-width: 759px) {
+  .w > header:has(.act) { flex-wrap: wrap; row-gap: 0; }
+  .w > header:has(.act) .w-toggle { flex: 1 1 calc(100% - 52px); }
+  .w > header .act { order: 3; flex-basis: 100%; padding: 0 0 2px 44px; }
+}
+
+/* ---------- Wide screens: the colors run the full width; the cards keep a reading column ---------- */
+@media (min-width: 760px) {
+  main { max-width: none; }
+  .scene[data-chapter] > .w, .scene[data-chapter] > .stars-note { max-width: 760px; }
+  .scene[data-chapter] > .w { width: 100%; justify-self: center; }
+}
+
+/* ---------- Contrast fixes found in the check ---------- */
+.tone--ember .sp-note p { color: var(--wsp-paper-5); }
+.scene .w.w--updates > header .t .eyebrow { background: var(--wsp-orange-60); color: var(--wsp-paper-5); }
+.update-when { font-size: 12px; }
+
+/* ---------- The sticky nav as part of the print: no bar, three pasted pieces ----------
+   Only the menu (far left) and the star (far right) need a ground, so they get their own:
+   a torn paper tab bleeding off the left edge, and a gold starburst bleeding off the right.
+   The next thing rides between them on a small teal strip. The art shows through everywhere else. */
+.site-nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30; background: none; border: 0; box-shadow: none;
+  margin-bottom: -66px; pointer-events: none; }
+.site-nav .inner { max-width: none; margin: 0; padding: 8px 0 0; display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; pointer-events: none; }
+.site-nav .inner > *, .site-nav .mega { pointer-events: auto; }
+/* shared: a clipped shape on ::before, its shadow from the parent's drop-shadow so the clip keeps it */
+.menu-btn, .star-filter, .next-up { position: relative; isolation: isolate; filter: drop-shadow(3px 4px 0 rgba(36, 23, 9, .32)); }
+.menu-btn::before, .star-filter::before, .next-up::before { content: ""; position: absolute; z-index: -1; }
+/* the menu: a torn cream tab, tilted, pasted from the left edge */
+.menu-btn { width: 66px; height: 50px; margin: 2px 0 0 -6px; padding: 0 0 0 8px; border: 0; background: none; color: var(--wsp-teal-80); transform: rotate(-3deg); justify-content: center; }
+.menu-btn::before { inset: 0; background: var(--wsp-paper-5);
+  clip-path: polygon(0 4%, 22% 0, 48% 5%, 76% 1%, 100% 6%, 97% 36%, 100% 62%, 96% 100%, 68% 95%, 40% 100%, 14% 96%, 0 100%); }
+.menu-btn svg { width: 26px; height: 26px; }
+.menu-btn[aria-expanded="true"] { background: none; color: var(--wsp-paper-5); }
+.menu-btn[aria-expanded="true"]::before { background: var(--wsp-teal-80); }
+/* the star filter: the poster's eight-point starburst, gold, bleeding off the right edge */
+.star-filter { width: 64px; height: 64px; margin: -2px -8px 0 0; padding: 0 6px 0 0; color: var(--wsp-teal-90); transform: rotate(10deg); }
+.star-filter::before { inset: 0; background: var(--wsp-gold-30);
+  clip-path: polygon(50% 0, 59% 29%, 85% 15%, 71% 41%, 100% 50%, 71% 59%, 85% 85%, 59% 71%, 50% 100%, 41% 71%, 15% 85%, 29% 59%, 0 50%, 29% 41%, 15% 15%, 41% 29%); }
+.star-filter svg { width: 22px; height: 22px; transform: rotate(-10deg); }
+.star-filter[aria-pressed="true"] { color: var(--wsp-paper-5); }
+.star-filter[aria-pressed="true"]::before { background: var(--wsp-orange-60); }
+.star-filter[aria-pressed="true"] svg { fill: currentColor; }
+/* the next thing: a short teal strip between them, only as wide as its words */
+.next-up { flex: 0 1 auto; align-self: flex-start; margin-top: 10px; padding: 9px 14px 10px; max-width: calc(100% - 156px); transform: rotate(1.4deg); color: var(--wsp-teal-20); }
+.next-up:empty { display: none; }
+.next-up::before { inset: 0; background: var(--wsp-teal-80);
+  clip-path: polygon(0 8%, 30% 0, 62% 6%, 100% 0, 98% 52%, 100% 100%, 66% 94%, 34% 100%, 0 94%, 2% 48%); }
+.next-up .nu-v { color: var(--wsp-gold-30); }
+.next-up .nu-in { color: var(--wsp-orange-40); }
+/* the menu panel drops below the pieces, as its own sheet */
+.mega { margin-top: 8px; border-top: 2px solid var(--pds-text-strong); }
+@media (min-width: 760px) {
+  .menu-btn { width: 76px; height: 54px; }
+  .star-filter { width: 70px; height: 70px; }
+  .next-up { margin-top: 12px; }
+}
+@media (prefers-reduced-motion: reduce) { .menu-btn, .star-filter, .next-up { transition: none; } }
+.next-up { max-width: calc(100% - 140px); }
+.next-up .nu-k { font-size: 11px; }
+/* the open menu is a full sheet under the three pieces */
+.mega { position: fixed; inset: 0 0 auto 0; z-index: -1; margin: 0; max-height: 100vh; max-height: 100dvh; overflow: auto;
+  padding-top: calc(72px + env(safe-area-inset-top, 0px)); border-top: 0; border-bottom: 2px solid var(--pds-text-strong); }
+.temp-pill.is-offline { gap: 0; }
+
+/* ---------- QA fixes ---------- */
+/* the pieces bleed off the edges; the page itself never scrolls sideways */
+.site-nav { overflow-x: clip; }
+html, body { overflow-x: clip; }
+/* over a card, the pieces get a soft ground of the chapter's color so text never reads through them */
+.site-nav::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 84px; z-index: -2; pointer-events: none; opacity: 0;
+  background: var(--nav-ground, var(--wsp-teal-80)); transition: opacity .2s;
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 91% 94%, 80% 89%, 67% 96%, 55% 90%, 43% 97%, 31% 91%, 19% 96%, 8% 90%, 0 95%); }
+body.nav-over-text .site-nav::before { opacity: 1; }
+@media (prefers-reduced-motion: reduce) { .site-nav::before { transition: none; } }
+/* the next thing: the time first; under 360px the day and countdown drop */
+.next-up .nu-v { margin-right: 6px; }
+@media (max-width: 359px) { .next-up .nu-day, .next-up .nu-in { display: none; } }
+/* verse tags wrap inside their slot */
+.ly--todo { max-width: 100%; }
+.ly--todo { width: min(100%, max(15em, calc(var(--len) * .62em))); }
+/* the chapter pictures, set here so every browser resolves the path the same way */
+
+
+/* ---------- The band above the header (in-app browser, home-screen web app) ----------
+   It is page space there. At the top, the masthead print runs up behind the clock; once the chapters
+   start, the band takes the chapter's color and ends on a torn edge the nav pieces hang from.
+   In Safari it is one sampled color; layer.js keeps the body color and theme-color on the chapter. */
+.site-header { margin-top: calc(-1 * env(safe-area-inset-top, 0px)); }
+.site-header .print { height: calc(min(64vw, 360px) + env(safe-area-inset-top, 0px)); }
+html::before { content: ""; position: fixed; z-index: 29; left: 0; right: 0; top: 0; pointer-events: none;
+  height: calc(env(safe-area-inset-top, 0px) * 1.3); background: var(--nav-ground, var(--wsp-teal-80)); opacity: 0; transition: opacity .2s;
+  clip-path: polygon(0 0, 100% 0, 100% 82%, 90% 94%, 78% 84%, 64% 97%, 51% 86%, 38% 96%, 25% 83%, 12% 95%, 0 85%); }
+html.past-head::before { opacity: 1; }
+@media (prefers-reduced-motion: reduce) { html::before { transition: none; } }
+
+/* ---------- The last blends, made flat ---------- */
+/* a tall card's read-more sits on a solid ground with a rule above it */
+.w > .body.is-clamped > .readmore { background: var(--pds-bg-card); padding-top: var(--pds-space-6); border-top: 2px solid var(--pds-text-strong); }
+.w--band > .body.is-clamped > .readmore { background: var(--pds-bg-band); }
+/* the locked map: no shadow; the unlock button carries its own ground */
+.map-wrap.locked #leaflet-map::after { background: none; }
+/* the spread whose words rise over the picture: the picture ends on a torn edge, not a fade */
+.sp--c .sp-img { -webkit-mask-image: none; mask-image: none;
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 90% 96%, 78% 91%, 65% 97%, 52% 92%, 39% 98%, 26% 92%, 13% 97%, 0 93%); }

@@ -1,0 +1,135 @@
+{
+ "places": [
+  {
+   "id": "george-webb-downtown",
+   "name": "George Webb (Downtown)",
+   "address": "812 N Dr. Martin Luther King Jr. Dr., Milwaukee, WI 53203",
+   "address_note": "This stretch of N. 3rd St. / Old World 3rd St. was renamed Dr. Martin Luther King Jr. Dr.; older listings show 812 N. Old World 3rd St. Same spot.",
+   "lat": 43.04036,
+   "lng": -87.91444,
+   "coords_source": "US Census geocoder (interpolated street address for 812 N 3rd St)",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=George%20Webb%20812%20N%20Dr.%20Martin%20Luther%20King%20Jr.%20Dr.%2C%20Milwaukee%2C%20WI%2053203",
+   "website": "https://www.georgewebb.com/",
+   "walk_minutes_from_hotel": 9,
+   "walk_minutes_from_riverside": 6,
+   "drive_minutes": null,
+   "hours_late": {
+    "fri": "Open 24 hours (Uber Eats listing for this store shows 24 hours; chain site says '23 hours, 59 minutes, 7 days a week')",
+    "sat": "Open 24 hours (same sources)",
+    "sun": "Open 24 hours (same sources)",
+    "truly_24_hours": true,
+    "confidence": "medium: no store-specific hours on georgewebb.com; Uber Eats store page lists 24 hours; location confirmed operating August 2025. Call (or check Google) before relying on it at 3 AM."
+   },
+   "serves_alcohol": false,
+   "what_to_order": [
+    "Cheeseburger (or double) with fries",
+    "Chili with saltines and cheese",
+    "Breakfast scrambler with hash browns",
+    "Wheatcakes and coffee"
+   ],
+   "vibe": "Old-school Milwaukee counter diner with coffee cups, griddle smoke and a gruff-but-kind server.",
+   "why_go": "It's the only true all-nighter in walking distance, and it's basically a Milwaukee rite of passage.",
+   "reviews_summary": "A local institution loved for cheap, fast, small griddle burgers and all-night coffee rather than for culinary heights. A 2017 Milwaukee Magazine roundup was underwhelmed by the food, while a 2016 Milwaukee Record visit found it busy after midnight and pleasantly no-frills. It can get packed right after bar close (2 to 2:30 AM); in 2020 Milwaukee Record found the inner door locked during a 2:40 AM rush.",
+   "rating_notes": "Uber Eats: 4.0 from 2,000+ delivery ratings (store page). Google/Yelp ratings for this specific store not verified.",
+   "sources": [
+    "https://www.ubereats.com/store/george-webb-3rd-st/k1KX2IqGTsuSKVUqLqXZTA/4d983470-6749-59c2-b3ca-4c47e88ce479/facfbf79-bcd3-532f-a12e-063ebef2fd70",
+    "https://www.georgewebb.com/menu",
+    "https://urbanmilwaukee.com/2025/02/25/george-webb-on-east-side-closed/",
+    "https://milwaukeerecord.com/food-drink/overheard-in-line-for-a-free-george-webb-burger-in-downtown-milwaukee-a-minute-by-minute-report/",
+    "https://milwaukeerecord.com/food-drink/we-went-to-every-george-webb-in-the-world-on-february-29/",
+    "https://milwaukeerecord.com/city-life/we-closed-wolskis-and-opened-highbury-on-the-same-day-and-did-local-late-night-stuff-in-between/",
+    "https://onmilwaukee.com/articles/late-night-eats-near-downtown-milwaukee",
+    "https://www.milwaukeemag.com/nightlife-guide-late-night-eats/"
+   ],
+   "line": "Open 24 hours"
+  },
+  {
+   "id": "real-chili-downtown",
+   "name": "Real Chili (Downtown)",
+   "address": "419 E Wells St, Milwaukee, WI 53202",
+   "lat": 43.04115,
+   "lng": -87.9065,
+   "coords_source": "US Census geocoder (interpolated street address)",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Real%20Chili%20419%20E%20Wells%20St%2C%20Milwaukee%2C%20WI%2053202",
+   "website": "https://realchilimilwaukee.com/",
+   "walk_minutes_from_hotel": 6,
+   "walk_minutes_from_riverside": 8,
+   "drive_minutes": null,
+   "hours_late": {
+    "fri": "Until 3:00 AM",
+    "sat": "Until 3:00 AM",
+    "sun": "CLOSED Sunday (downtown location). The Marquette location at 1625 W Wells St is open Sunday but only until 10 PM.",
+    "truly_24_hours": false,
+    "confidence": "high for Fri/Sat (official site and a July 2026 Urban Milwaukee review both say 3 AM); Sunday closure per official site, and the July 2026 review lists no Sunday hours."
+   },
+   "serves_alcohol": null,
+   "serves_alcohol_note": "No source mentions beer or liquor; it reads as a counter-service chili parlor (soda and chili). Treat as food only.",
+   "what_to_order": [
+    "The Marquette: medium chili over spaghetti with beans",
+    "Chili cheese dog",
+    "Frito pie or chili nachos",
+    "Vegetarian chili (no animal products)"
+   ],
+   "vibe": "Barebones 1931-born chili counter with checkered floors, red stools, communal tables and old clippings on the walls.",
+   "why_go": "A steaming bowl of Milwaukee history six minutes from bed, and it's the city's classic bar-close tradition.",
+   "reviews_summary": "Reviewers and local critics call it a neighborhood gem: thick, rich, meat-based secret-recipe chili, fast counter service and warm staff who greet you like family. A July 2026 Urban Milwaukee review praised it as the real deal; Milwaukee Record calls it great comfort food and a post-bar-time staple.",
+   "rating_notes": "Numeric Google/Yelp ratings not verified (Yelp blocks fetches). Critic coverage is consistently positive, most recently July 2026.",
+   "sources": [
+    "https://realchilimilwaukee.com/",
+    "https://urbanmilwaukee.com/?p=980747",
+    "https://urbanmilwaukee.com/business/real-chili/",
+    "https://milwaukeerecord.com/food-drink/mandatory-milwaukee-real-chili-great-comfort-food/",
+    "https://www.travelwisconsin.com/food-drink/restaurants/real-chili-downtown-east-town",
+    "https://onmilwaukee.com/articles/late-night-eats-near-downtown-milwaukee"
+   ],
+   "line": "Until 3:00 AM"
+  },
+  {
+   "id": "milwaukee-brat-house",
+   "name": "Milwaukee Brat House",
+   "address": "1013 N Dr. Martin Luther King Jr. Dr., Milwaukee, WI 53203",
+   "address_note": "Older listings say 1013 N. Old World 3rd St.",
+   "lat": 43.043297,
+   "lng": -87.914921,
+   "coords_source": "Google Maps pin embedded in Wanderlog listing",
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Milwaukee%20Brat%20House%201013%20N%20Dr.%20Martin%20Luther%20King%20Jr.%20Dr.%2C%20Milwaukee%2C%20WI%2053203",
+   "website": "https://www.milwaukeebrathouse.com/",
+   "walk_minutes_from_hotel": 13,
+   "walk_minutes_from_riverside": 11,
+   "drive_minutes": null,
+   "hours_late": {
+    "fri": "Bar open until 2:00 AM; kitchen reported open until 1:00 AM",
+    "sat": "Bar open until 2:30 AM; kitchen reported open until 1:00 AM",
+    "sun": "Bar open until 2:00 AM; kitchen reported open until 1:00 AM",
+    "truly_24_hours": false,
+    "confidence": "Bar hours from the official site (2026). The 1 AM kitchen close comes from OnMilwaukee (April 2024) and was not re-confirmed for 2026; ask at the bar before ordering after 12:30."
+   },
+   "serves_alcohol": true,
+   "what_to_order": [
+    "Brat House Sausage Sampler (four sausages plus a pretzel roll)",
+    "Build-your-own loaded brat",
+    "Beer cheese soup",
+    "Fried cheese curds"
+   ],
+   "vibe": "Lively, unpretentious Old World Third sports bar with a big Wisconsin beer list and Brewers-fan energy.",
+   "why_go": "The after-show move for a cold beer and a brat; Wisconsin in one basket, open late all three nights.",
+   "reviews_summary": "Reviewers rave about juicy sausages on soft buns, rich beer cheese soup and crispy curds, plus friendly staff and a fun, relaxed room. Yelp users ranked it the top brat spot in Milwaukee in a 2024 roundup, highlighting the sampler and the build-your-own option.",
+   "rating_notes": "Google: 4.5 from about 3,160 reviews; Tripadvisor: 4.5 from about 550 (via Wanderlog). Ranked #1 in UpNorthNews' 2024 Yelp-based brat list.",
+   "sources": [
+    "https://www.milwaukeebrathouse.com/",
+    "https://wanderlog.com/place/details/800449",
+    "https://onmilwaukee.com/articles/late-night-eats-near-downtown-milwaukee",
+    "https://upnorthnewswi.com/local/food-drink/the-best-brats-in-milwaukee-according-to-yelp//"
+   ],
+   "line": "Bar until 2:30 AM"
+  }
+ ],
+ "notes": "Hotel coordinates used for walk times: Drury Plaza, 700 N Water St (43.03864, -87.90905, US Census geocoder); Riverside Theater, 116 W Wisconsin Ave (43.03876, -87.91083). Walk times are estimates from straight-line grid distance at about 3 mph, not routed. Bottom line: Milwaukee has almost no true 24-hour diners left. The downtown George Webb is the only one within walking distance and appears to run around the clock. The classic 24-hour Greek family restaurants are gone or have cut back: Ma Fischer's (East Side) now lists 7 AM to 9 PM, Zebb's reopened with 8 AM to 10 PM hours, the East Side George Webb on Oakland closed in February 2025, and Omega on S. 27th St (once 24 hours) is slated for demolition (Urban Milwaukee, August 2026). Sunday is the tricky night: Real Chili downtown is closed, so Sunday after the show it's George Webb (food, no booze) or the Brat House (beer plus food until about 1 AM). Wisconsin bar close is 2 AM weeknights and 2:30 AM Fri/Sat, so expect George Webb and Real Chili to get a rush right after. Also considered but not picked: Uppa Yard on Water (1123 N Water St, Jamaican jerk and live music, open until 2 AM Fri/Sat, 10 PM Sun) opened in August 2026, too new to have a review track record and kitchen close time unverified; Gyro Palace in Walker's Point (602 S 2nd St, about a 25-minute walk or 5-minute drive) shows online ordering until 2:25 AM, but its dine-in hours weren't verified.",
+ "open_questions": [
+  "George Webb downtown: confirm by phone or Google that the dining room (not just delivery) is open 24 hours the weekend of Oct 23 to 25, 2026; the store has no posted hours on georgewebb.com.",
+  "Milwaukee Brat House: confirm the kitchen still closes at 1 AM (the source is from 2024); the bar hours are current.",
+  "Real Chili: does it serve beer? No source says either way (set to null).",
+  "Numeric Google/Yelp ratings for George Webb downtown and Real Chili downtown were not verified.",
+  "Uppa Yard on Water: worth a second look if they want a Fri/Sat sit-down bar with food until 2 AM once reviews exist; kitchen hours unconfirmed."
+ ]
+}

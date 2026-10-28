@@ -6,7 +6,7 @@
   "Brewers RF for Game 1 is the one lineup spot in doubt (Sal Frelick vs. Luis Lara); Frelick is projected based on NLCS Game 4.",
   "All 24 player headshots and the three mascot images were verified to return image/jpeg on Oct. 23; the Wikimedia originals are rate-limited from some networks, so the Raymond card uses the 500px thumbnail URL."
  ],
- "as_of": "2026-10-26T15:41:26-05:00",
+ "as_of": "2026-10-28T02:34:16-05:00",
  "teams": {
   "MIL": {
    "name": "Milwaukee Brewers",
@@ -2468,7 +2468,7 @@
    "home": "TB",
    "away": "MIL",
    "tv": "FOX",
-   "status": "announced",
+   "status": "final",
    "pitchers_status": "projected",
    "probable_pitchers": {
     "MIL": {
@@ -3593,7 +3593,13 @@
     "MIL": "Projected, not announced: this is the exact lineup Milwaukee used in NLCS Game 4 (Oct. 15 at LAD, won 4-0), its last game before the World Series. Rays Game 1 and 2 starters are both right-handed, so the same lefty-heavy group is expected; the open question is RF (Frelick vs. Luis Lara). Against a right-hander (Peralta) the same group projects; the DH is used in both parks.",
     "TB": "Projected, not announced: this is the exact lineup Tampa Bay used in ALCS Game 6 (Oct. 19 vs. CLE, the clincher) against a right-handed opener. Misiorowski and Henderson are both right-handed, so the same group is expected. Against a LEFT-hander (Gasser) expect changes: the Rays ranked 27th in wOBA vs. lefties, and lefty bats Hicks, Simpson, Mesa Jr., Palacios and Aranda could be shuffled."
    },
-   "result": null,
+   "result": {
+    "TB": 1,
+    "MIL": 10,
+    "winning_pitcher": "Robert Gasser",
+    "losing_pitcher": "Freddy Peralta",
+    "note": null
+   },
    "source": "https://www.cbssports.com/mlb/news/2026-world-series-rays-game-1-start-nick-martinez/",
    "lineup_source": "https://www.mlb.com/rays/roster/starting-lineups",
    "lineup_source_away": "https://www.mlb.com/brewers/roster/starting-lineups",

@@ -1,0 +1,196 @@
+{
+  "setlist": {
+    "date": "2026-10-23",
+    "venue": "The Riverside Theater, 116 W Wisconsin Ave, Milwaukee, WI",
+    "status": "posted",
+    "status_detail": "Full song list posted on the band's official show page. Segues and show notes (bustouts, guests, teases) are NOT marked there, and Everyday Companion has the show page up but no songs yet. setlist.fm had only the opener (Rebirtha) at last check, updated 2026-10-24 03:53 UTC.",
+    "sets": [
+      {
+        "name": "Set 1",
+        "songs": [
+          {"title": "Rebirtha", "segue_next": false, "notes": "Opener"},
+          {"title": "Send Your Mind", "segue_next": false, "notes": ""},
+          {"title": "Little Kin", "segue_next": false, "notes": ""},
+          {"title": "One Arm Steve", "segue_next": false, "notes": ""},
+          {"title": "Travelin' Light", "segue_next": false, "notes": ""},
+          {"title": "Diner", "segue_next": false, "notes": ""},
+          {"title": "Spoonful", "segue_next": false, "notes": ""},
+          {"title": "Action Man", "segue_next": false, "notes": "Set 1 closer"}
+        ]
+      },
+      {
+        "name": "Set 2",
+        "songs": [
+          {"title": "Impossible", "segue_next": false, "notes": "Set 2 opener"},
+          {"title": "Trashy", "segue_next": false, "notes": ""},
+          {"title": "Wondering", "segue_next": false, "notes": ""},
+          {"title": "Blue Carousel", "segue_next": false, "notes": ""},
+          {"title": "Little Lilly", "segue_next": false, "notes": ""},
+          {"title": "Bear's Gone Fishin'", "segue_next": false, "notes": ""},
+          {"title": "Blackout Blues", "segue_next": false, "notes": ""},
+          {"title": "For What It's Worth", "segue_next": false, "notes": ""},
+          {"title": "Love Tractor", "segue_next": false, "notes": "Set 2 closer"}
+        ]
+      }
+    ],
+    "encore": [
+      {"title": "Keep Me In Your Heart", "segue_next": false, "notes": ""}
+    ],
+    "notes": [
+      "segue_next is false everywhere because no source has marked segues yet, not because none happened. Re-check Everyday Companion for segues and footnotes (bustout gaps, debuts, guests).",
+      "Background, not from show notes: as of June 2026 the band said guitarist Jimmy Herring was off the road for cancer treatment, with Nick Johnson filling in on guitar (L4LM, 2026-06-15). Not confirmed for this show specifically.",
+      "Doors 6:30 PM, show 8:00 PM, sold out (Pabst Theater Group)."
+    ],
+    "setlist_photo": null,
+    "setlist_photo_detail": "No photo of the handwritten or printed setlist found. The official show page has only a promo graphic. X, Instagram, Reddit and Phantasy Tour could not be fetched (blocked), so check @widespreadpanic / @widespreadpanichq on Instagram and the Widespread Panic Facebook page by hand.",
+    "stream": {
+      "provider": "nugs.net",
+      "url": "https://www.nugs.net/live-download-of-widespread-panic-the-riverside-theater-milwaukee-wi-10-23-2026-mp3-flac-or-online-music-streaming/49699.html",
+      "notes": "nugs ran a FREE live audio stream of all three nights (free for all users, login required, 9:00 PM ET listed for Sat and Sun). The 10/23 soundboard is up for pre-order at $10.95 (MP3/FLAC/ALAC/HD/CD), setlist 'coming soon' on that page. Artist page: https://www.nugs.net/widespread-panic-concerts-live-downloads-in-mp3-flac-or-online-music-streaming-1/ (livewidespreadpanic.com redirects there). Sat release: .../49700.html, Sun release: .../49701.html. PanicStream has no page for this show yet; latest posted is 10/11/2026 Memphis. Expected URL: https://www.panicstream.com/vault/widespread-panic-10-23-2026-milwaukee-wi/ (unverified, built from the site's pattern). 2026 index: https://www.panicstream.com/vault/widespread-panic/2026-streams/"
+    },
+    "fan_vibe": [],
+    "fan_vibe_detail": "No fan reports found yet. Reddit, X and Phantasy Tour were blocked, and no press review was published by the time of the search.",
+    "sources": [
+      "https://widespreadpanic.com/shows/2026-10-23-milwaukee-wi-the-riverside-theater/",
+      "https://www.setlist.fm/setlist/widespread-panic/2026/riverside-theater-milwaukee-wi-33729c41.html",
+      "https://everydaycompanion.com/setlists/20261023a.asp",
+      "https://www.nugs.net/widespread-panic-concerts-live-downloads-in-mp3-flac-or-online-music-streaming-1/",
+      "https://www.nugs.net/live-download-of-widespread-panic-the-riverside-theater-milwaukee-wi-10-23-2026-mp3-flac-or-online-music-streaming/49699.html",
+      "https://www.panicstream.com/vault/widespread-panic/2026-streams/",
+      "https://www.pabsttheatergroup.com/events/detail/widespread-panic-2026",
+      "https://liveforlivemusic.com/news/widespread-panic-2026-milwaukee-run/"
+    ]
+  },
+  "game1": {
+    "status": "final",
+    "final": {
+      "home": "Milwaukee Brewers",
+      "away": "Tampa Bay Rays",
+      "score": "Brewers 3, Rays 2",
+      "brewers": 3,
+      "rays": 2,
+      "venue": "American Family Field, Milwaukee",
+      "date": "2026-10-23"
+    },
+    "summary": "The Brewers held off a ninth-inning Rays rally to win Game 1, 3-2, at the first World Series game in Milwaukee since 1982. Jackson Chourio opened the first with a single, Christian Yelich drove him in with a triple in his first-ever World Series at-bat, and William Contreras singled home Yelich for a 2-0 lead. Tampa Bay got a run back in the fourth after a Junior Caminero double, and Chourio's two-out single in the seventh brought home Cooper Pratt for a 3-1 cushion. In the ninth the Rays loaded the bases against Trevor Megill, and what looked like a game-ending double play was overturned on replay, which let a run score. Megill then struck out Jonny DeLuca with the tying run on third to end it. Jacob Misiorowski set the tone with a 103.5 mph first pitch, the fastest ever recorded in a World Series.",
+    "decisions": {
+      "win": "Jacob Misiorowski (1-0): 5 IP, 4 H, 1 ER, 1 BB, 3 K",
+      "loss": "Nick Martinez (1-1): 5 IP, 5 H, 2 ER, 0 BB, 5 K",
+      "save": "Trevor Megill (5th of the postseason in 5 chances)"
+    },
+    "key_moments": [
+      "1st: Chourio leadoff single, Yelich RBI triple (his first World Series at-bat), Contreras RBI single for 2-0.",
+      "Misiorowski's first pitch was clocked at 103.5 mph, a World Series record.",
+      "4th: Caminero's 112.7 mph double set up the Rays' first run, scored on a Liam Hicks groundout (2-1).",
+      "5th and 6th: Contreras threw out Victor Mesa Jr. trying to take third, then caught Jonathan Aranda stealing second.",
+      "7th: Pratt walked and scored on Chourio's two-out single (3-1).",
+      "9th: bases loaded, an apparent game-ending double play was reversed on review (Pratt's foot was off the bag) and a run scored (3-2). Megill struck out DeLuca to finish it.",
+      "No home runs by either team. Robin Yount threw the ceremonial first pitch wearing Bob Uecker's sport coat."
+    ],
+    "series": "Brewers lead the World Series 1-0.",
+    "next": "Game 2: Saturday, Oct 24, 7:00 PM CT (8 PM ET) at American Family Field on FOX, FOX One and FOX Deportes. Probable starters: Logan Henderson (MIL) vs. Drew Rasmussen (TB), who was pushed back a day for extra rest. Games 3 and 4 move to Tampa Bay on Mon Oct 26 and Tue Oct 27.",
+    "sources": [
+      "https://www.mlb.com/rays/news/brewers-win-world-series-game-1-2026",
+      "https://www.wdbo.com/sports/brewers-withstand/PNZLZVQAWI3KFGQAYKXMNZWBDI/",
+      "https://fieldlevelmedia.com/mlb/brewers-survive-harrowing-9th-to-edge-rays-in-world-series-opener/",
+      "https://bleacherreport.com/articles/25519609-brewers-survive-rays-rally-win-box-score-stats-highlights-2026-mlb-world-series-game-1",
+      "https://www.wisn.com/article/world-series-game-1-brewers-win/74235496",
+      "https://sports.yahoo.com/articles/brewers-henderson-set-world-series-142958116.html",
+      "https://www.mlb.com/news/2026-mlb-playoff-and-world-series-schedule"
+    ]
+  },
+  "street_party": [
+    {
+      "name": "Wolph: Street Party Before Widespread Panic",
+      "what": "Free street party outside the Riverside. Wolph (Dylan Stickle and Joshua Wright) plays Grateful Dead and jam-inspired covers and originals; Dave Schools is producing their original music. No other bands, DJs, vendors, food trucks, games, screens, giveaways or costume events are listed, and no schedule changes have been posted.",
+      "date": "2026-10-24 and 2026-10-25",
+      "start": "12:00 PM (party opens); Wolph 5:30 PM",
+      "end": "not stated on the event page",
+      "where": "W Wisconsin Ave outside The Riverside Theater, 116 W Wisconsin Ave",
+      "source": "https://www.pabsttheatergroup.com/events/detail/wolph",
+      "verified_date": "2026-10-24"
+    },
+    {
+      "name": "Widespread Panic after party: Houseplant",
+      "what": "Official after party, sold as an add-on at Widespread Panic checkout (not free).",
+      "date": "2026-10-24",
+      "start": "after the show (time not stated)",
+      "end": "not stated",
+      "where": "Mo's Irish Pub (per Shepherd Express)",
+      "source": "https://www.pabsttheatergroup.com/events/detail/widespread-panic-2026",
+      "verified_date": "2026-10-24"
+    },
+    {
+      "name": "Widespread Panic after party: Armchair Boogie",
+      "what": "Official after party, sold as an add-on at Widespread Panic checkout (not free).",
+      "date": "2026-10-25",
+      "start": "after the show (time not stated)",
+      "end": "not stated",
+      "where": "Mo's Irish Pub (per Shepherd Express)",
+      "source": "https://www.pabsttheatergroup.com/events/detail/widespread-panic-2026",
+      "verified_date": "2026-10-24"
+    }
+  ],
+  "other_free_music": [
+    {
+      "name": "Festival City Symphony: River, Sea, and Symphony",
+      "what": "Orchestra concert, free with a suggested donation",
+      "date": "2026-10-24",
+      "start": "2:00 PM",
+      "end": "not stated",
+      "where": "Bradley Symphony Center, downtown",
+      "source": "https://shepherdexpress.com/music/this-week/this-week-in-mke-music-oct-22-28-2026/",
+      "verified_date": "2026-10-24"
+    },
+    {
+      "name": "Jack-O-Lantern Jubilee",
+      "what": "Free Halloween event: pumpkins, treats, entertainment and a lit-up Halloween Village",
+      "date": "2026-10-24",
+      "start": "11:00 AM",
+      "end": "2:00 PM",
+      "where": "Baird Community Commons, downtown",
+      "source": "https://wtmj.com/shows/whats-on-tap/2026/10/22/brewers-world-series-watch-parties-halloween-events-milwaukee-10-22-26/",
+      "verified_date": "2026-10-24"
+    },
+    {
+      "name": "Deer District World Series Watch Party (Game 2)",
+      "what": "Free outdoor big-screen watch party at The Deer Garden (not music)",
+      "date": "2026-10-24",
+      "start": "7:00 PM game time (gate time not stated)",
+      "end": "end of game",
+      "where": "Deer District, near Fiserv Forum",
+      "source": "https://wtmj.com/shows/whats-on-tap/2026/10/22/brewers-world-series-watch-parties-halloween-events-milwaukee-10-22-26/",
+      "verified_date": "2026-10-24"
+    },
+    {
+      "name": "Third Ward World Series Block Party (Game 2)",
+      "what": "Menomonee St closed for giant screens, food trucks, Brewers cocktails, Bill Michaels Show live, FOX One pop-up with giveaways (noon-4 PM, free) and Foul Territory live taping (5-7 PM, free). No bands listed.",
+      "date": "2026-10-24",
+      "start": "12:00 PM (pop-up); 7:00 PM watch party",
+      "end": "not stated",
+      "where": "Menomonee St (Broadway to Milwaukee St), Catalano Square (147 N Broadway) and Third Ward Beer Garden",
+      "source": "https://urbanmilwaukee.com/pressrelease/world-series-block-party-takes-over-historic-third-ward-friday-saturday/",
+      "verified_date": "2026-10-24"
+    },
+    {
+      "name": "BuckFest 2026 (Big Buck Hunter World Championship)",
+      "what": "Free admission, free-play arcade and pinball, vendors, Saturday amateur tournament (not music)",
+      "date": "2026-10-24",
+      "start": "not stated",
+      "end": "not stated",
+      "where": "Turner Hall Ballroom",
+      "source": "https://wtmj.com/shows/whats-on-tap/2026/10/22/brewers-world-series-watch-parties-halloween-events-milwaukee-10-22-26/",
+      "verified_date": "2026-10-24"
+    }
+  ],
+  "open_questions": [
+    "Night 1 segues and footnotes (bustouts, debuts, guests, teases): not marked yet. Re-check https://everydaycompanion.com/setlists/20261023a.asp.",
+    "Whether Jimmy Herring or Nick Johnson played guitar on 10/23 is unconfirmed.",
+    "No setlist photo found; Instagram, X, Facebook, Reddit and Phantasy Tour could not be fetched.",
+    "No fan reports on night 1 vibe found yet.",
+    "Street party closing time each day isn't on the Pabst event page (brief says midnight Sun; not confirmed there).",
+    "Whether the Wisconsin Ave street party shows World Series Game 2 on a screen (Sat first pitch 7 PM, an hour before Panic) is not stated anywhere.",
+    "Exact Mo's Irish Pub after party start times are not stated.",
+    "PanicStream page for 10/23 isn't up; the predicted URL is unverified."
+  ]
+}

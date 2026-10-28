@@ -1,0 +1,570 @@
+{
+  "_about": "Follow-up garnish research for 17 sparse places in bloody.json (2026-10-23). Evidence values: menu, review, photo caption, press. Nothing invented; empty garnish arrays mean none found (see notes). photo_refs are references only; nothing downloaded.",
+  "places": [
+    {
+      "id": "margarita-paradise-public-market",
+      "drinks": [
+        {
+          "name": "Bloody Maria",
+          "style": "bloody maria",
+          "garnishes": [],
+          "rim": "Tajín (press: OnMilwaukee says it is 'served up simply in a glass rimmed with Tajin')",
+          "beer": null,
+          "mix_notes": "Tequila with a housemade Bloody Mary mix; $11 (11 oz) / $13 (24 oz). OnMilwaukee describes it as robust, savory and spicy. No chaser mentioned.",
+          "photo_refs": [
+            "https://onmilwaukee.com/articles/6-bloody-marys-at-mke-public-market"
+          ]
+        }
+      ],
+      "notes": "No garnish beyond the Tajín rim found. OnMilwaukee's wording ('served up simply') suggests there is little or no skewer. The stall website (margarita-paradise.com) would not load, the SinglePlatform menu lists food only, and the Public Market vendor page, Shepherd Express and Wanderlog reviews never mention the drink. Yelp has 114 photos but blocks fetching."
+    },
+    {
+      "id": "central-standard-crafthouse",
+      "drinks": [
+        {
+          "name": "Standard Issue Bloody Mary",
+          "style": "bloody mary",
+          "garnishes": [],
+          "rim": "Celery salt (menu)",
+          "beer": "Miller High Life chaser (menu)",
+          "mix_notes": "$13. Standard Issue vodka, Lutz Bloody Mary Mix, signature house spice blend. The menu just says 'Garnishes' without naming them. You can make it spicy with Triple Pepper vodka infusion; Virgin $10, Topless $11.",
+          "photo_refs": [
+            "https://crafthouseandkitchen.com/crafthouse-kitchen/"
+          ]
+        },
+        {
+          "name": "The Pickled Garden",
+          "style": "bloody mary",
+          "garnishes": [],
+          "rim": "Celery salt (menu)",
+          "beer": "Miller High Life chaser (menu)",
+          "mix_notes": "$13. Standard Issue vodka, Lutz mix, vegetable juice and spice blend. The menu lists 'Garnishes' without naming them; the name suggests pickled vegetables, but that is not confirmed.",
+          "photo_refs": [
+            "https://crafthouseandkitchen.com/crafthouse-kitchen/"
+          ]
+        },
+        {
+          "name": "Midwestern Cowboy",
+          "style": "bloody mary",
+          "garnishes": [],
+          "rim": "BBQ rub (menu)",
+          "beer": "Miller High Life chaser (menu)",
+          "mix_notes": "$13. Bacon-washed Dockside bourbon, Lutz mix, signature house spice blend, BBQ sauce. Garnishes listed only as 'Garnishes'.",
+          "photo_refs": [
+            "https://crafthouseandkitchen.com/crafthouse-kitchen/"
+          ]
+        },
+        {
+          "name": "Red Snapper",
+          "style": "red snapper (gin bloody)",
+          "garnishes": [],
+          "rim": "Tajín (menu)",
+          "beer": "Miller High Life chaser (menu)",
+          "mix_notes": "$13. Guided Trail gin, Lutz mix, Red Snapper spice blend. Garnishes listed only as 'garnishes'.",
+          "photo_refs": [
+            "https://crafthouseandkitchen.com/crafthouse-kitchen/"
+          ]
+        },
+        {
+          "name": "Reverse Bloody",
+          "style": "beer with bloody chaser",
+          "garnishes": [],
+          "rim": null,
+          "beer": "Miller High Life bottle (menu)",
+          "mix_notes": "$8. A Miller High Life bottle with a mini Bloody Mary as the chaser, the snit flipped around (menu).",
+          "photo_refs": [
+            "https://crafthouseandkitchen.com/crafthouse-kitchen/"
+          ]
+        }
+      ],
+      "notes": "The current brunch menu at crafthouseandkitchen.com lists five bloodies with rims and a High Life chaser on each, but it only says 'Garnishes' without naming them. The old domain (centralstandardcrafthouse.com) blocks fetching. TripAdvisor and OpenTable reviews mention the Bloody Mary only as 'delish', and OnMilwaukee (2021, 2025) and the Dominic the Food Reviewer piece name no garnishes. Garnish items: none found."
+    },
+    {
+      "id": "pfister-rouge-sunday-brunch",
+      "drinks": [
+        {
+          "name": "Signature Bloody Mary bar (Sunday brunch)",
+          "style": "bloody mary (build-your-own bar)",
+          "garnishes": [
+            {
+              "item": "pickled vegetables",
+              "evidence": "review",
+              "source": "https://www.tripadvisor.com/ShowUserReviews-g60097-d101022-r611297614-The_Pfister_Hotel-Milwaukee_Wisconsin.html (Sheila L, Aug 2018: 'the bloody Mary bar with the pickled vegetables was out of this world')"
+            }
+          ],
+          "rim": null,
+          "beer": null,
+          "mix_notes": "Included with brunch, per OpenTable ('Mimosas and signature Bloody Mary bar also included'). The bar setup is not itemized anywhere.",
+          "photo_refs": [
+            "https://www.tripadvisor.com/ShowUserReviews-g60097-d101022-r611297614-The_Pfister_Hotel-Milwaukee_Wisconsin.html (page includes a photo filed as bloody-mary-station.jpg)",
+            "https://opentable.com/r/pfister-special-events-milwaukee"
+          ]
+        },
+        {
+          "name": "Lobby Lounge Bloody Mary (same hotel; not the brunch bar)",
+          "style": "bloody mary",
+          "garnishes": [
+            {
+              "item": "marinated shrimp",
+              "evidence": "review",
+              "source": "https://www.bloodymarytour.org/midwest-1/2017/1/27/lobby-lounge-at-pfister-hotel-milwaukee-wi (Jan 2017)"
+            },
+            {
+              "item": "summer sausage",
+              "evidence": "review",
+              "source": "https://www.bloodymarytour.org/midwest-1/2017/1/27/lobby-lounge-at-pfister-hotel-milwaukee-wi"
+            },
+            {
+              "item": "cheese cube (cheddar, reviewer believed)",
+              "evidence": "review",
+              "source": "https://www.bloodymarytour.org/midwest-1/2017/1/27/lobby-lounge-at-pfister-hotel-milwaukee-wi"
+            },
+            {
+              "item": "celery",
+              "evidence": "review",
+              "source": "https://www.bloodymarytour.org/midwest-1/2017/1/27/lobby-lounge-at-pfister-hotel-milwaukee-wi"
+            },
+            {
+              "item": "lemon slice",
+              "evidence": "review",
+              "source": "https://www.bloodymarytour.org/midwest-1/2017/1/27/lobby-lounge-at-pfister-hotel-milwaukee-wi"
+            },
+            {
+              "item": "blue-cheese-stuffed olive",
+              "evidence": "review",
+              "source": "https://www.bloodymarytour.org/midwest-1/2017/1/27/lobby-lounge-at-pfister-hotel-milwaukee-wi"
+            },
+            {
+              "item": "pickle",
+              "evidence": "review",
+              "source": "https://www.bloodymarytour.org/midwest-1/2017/1/27/lobby-lounge-at-pfister-hotel-milwaukee-wi"
+            },
+            {
+              "item": "carrot",
+              "evidence": "review",
+              "source": "https://www.bloodymarytour.org/midwest-1/2017/1/27/lobby-lounge-at-pfister-hotel-milwaukee-wi"
+            },
+            {
+              "item": "Brussels sprout",
+              "evidence": "review",
+              "source": "https://www.bloodymarytour.org/midwest-1/2017/1/27/lobby-lounge-at-pfister-hotel-milwaukee-wi"
+            },
+            {
+              "item": "pickled asparagus",
+              "evidence": "review",
+              "source": "https://www.bloodymarytour.org/midwest-1/2017/1/27/lobby-lounge-at-pfister-hotel-milwaukee-wi"
+            },
+            {
+              "item": "plain olive",
+              "evidence": "review",
+              "source": "https://www.bloodymarytour.org/midwest-1/2017/1/27/lobby-lounge-at-pfister-hotel-milwaukee-wi"
+            },
+            {
+              "item": "pepperoni",
+              "evidence": "review",
+              "source": "https://www.tripadvisor.com/ShowUserReviews-g60097-d101022-r134100950-The_Pfister_Hotel-Milwaukee_Wisconsin.html (July 2012: 'shrimp, cheese, pepperoni, celery, olives, etc.')"
+            },
+            {
+              "item": "'fancy shrimp'",
+              "evidence": "press",
+              "source": "https://shepherdexpress.com/food/brew-city-booze/milwaukee-s-best-bloody-marys/"
+            }
+          ],
+          "rim": null,
+          "beer": "Reviewer chose a New Glarus Spotted Cow alongside (2017). At the 2015 East Town Heat It Up event, the Pfister entry came with a Miller Lite shorty.",
+          "mix_notes": "House mix by longtime bartender Valerie, 'perfecting her Bloody Mary recipe for over 30 years' (Bloody Mary Tour 2017). Shepherd Express calls it heavy on the citrus and says a habanero version was among the spiciest in town.",
+          "photo_refs": [
+            "https://www.bloodymarytour.org/midwest-1/2017/1/27/lobby-lounge-at-pfister-hotel-milwaukee-wi",
+            "https://outforbloodies.com/wp-content/uploads/2015/10/img_6634.jpg (captioned 'Pfister Bloody Mary', 2015 event entry)",
+            "https://outforbloodies.com/2015/10/04/east-towns-heat-it-up-bloody-mary-chili-3/"
+          ]
+        }
+      ],
+      "notes": "The brunch bar's garnish lineup is not published. The only brunch-specific evidence is 'pickled vegetables' (2018 review). The second entry is the Lobby Lounge bloody from the same hotel, with a well-documented skewer from 2012 to 2017. It is a different outlet and may not match what the Rouge brunch bar puts out. Garnishes are dated, so treat them as likely, not guaranteed."
+    },
+    {
+      "id": "catrina-cafe",
+      "drinks": [
+        {
+          "name": "Bloody Mary",
+          "style": "bloody mary",
+          "garnishes": [],
+          "rim": null,
+          "beer": "Modelito chaser (review: Debs Cool on catrinacafemke.com, 'We had Bloody Mary's with Modelito chasers')",
+          "mix_notes": "$13, 'House mix with vodka' (MenuToEat listing, updated Apr 2026). Reviewers call it 'huge' and 'one of the best bloody marys i've ever had'.",
+          "photo_refs": [
+            "https://catrinacafemke.com/",
+            "https://menutoeat.com/catrina-caf-mke/"
+          ]
+        },
+        {
+          "name": "Catrina Michelada",
+          "style": "michelada",
+          "garnishes": [],
+          "rim": null,
+          "beer": "Not specified; menu beers include Modelo, Modelo Negra, Corona, Corona Light, Tecate Light and caguama",
+          "mix_notes": "$10, 'House mix with beer' (MenuToEat). The menu prices it $1 above the Regular Michelada, which suggests a dressed-up version, but no listing says how.",
+          "photo_refs": [
+            "https://menutoeat.com/catrina-caf-mke/"
+          ]
+        },
+        {
+          "name": "Regular Michelada",
+          "style": "michelada",
+          "garnishes": [],
+          "rim": null,
+          "beer": "Not specified",
+          "mix_notes": "$9, 'House mix with beer' (MenuToEat). Several reviews on the restaurant's site praise the michelada without describing it.",
+          "photo_refs": [
+            "https://menutoeat.com/catrina-caf-mke/"
+          ]
+        }
+      ],
+      "notes": "No garnishes found. The restaurant's menu pages are images only (no text to read). Shepherd Express (2026) and Urban Milwaukee name no garnishes, Instagram blocks fetching, and the reviews on the restaurant's homepage praise size and taste only. New this pass: the two-michelada split and prices, plus confirmation of the Modelito chaser."
+    },
+    {
+      "id": "sweet-diner",
+      "drinks": [
+        {
+          "name": "House Bloody Mary",
+          "style": "bloody mary",
+          "garnishes": [
+            {
+              "item": "cheese curd",
+              "evidence": "press",
+              "source": "https://www.islands.com/2108446/milwaukee-wisconsin-bloody-mary-capital-world-midwest-city-outrageous-cocktail-culture/ ('a Bloody Mary topped with a cheese curd')"
+            },
+            {
+              "item": "cheese curds (on the skewer, 'salad')",
+              "evidence": "review",
+              "source": "https://www.bestbloodymary.com/location/10673 (Dan S, Nov 2023: 'Salad included candied bacon and cheese curds')"
+            },
+            {
+              "item": "candied bacon",
+              "evidence": "review",
+              "source": "https://www.bestbloodymary.com/location/10673"
+            }
+          ],
+          "rim": null,
+          "beer": "Miller shorties (review: 'Miller shorties too')",
+          "mix_notes": "Pickle-forward house mix with Rehorst vodka, $10 in 2017 (OnMilwaukee). 2023 reviewer: 'The regular was spicy! I wonder how spicy the spicy is?', which suggests a spicy version too.",
+          "photo_refs": [
+            "https://www.bestbloodymary.com/img/upload/10673_23_1702234689613.jpg (reviewer photo, Dec 2023)",
+            "https://www.bestbloodymary.com/location/10673",
+            "https://onmilwaukee.com/articles/first-look-sweet-diner"
+          ]
+        }
+      ],
+      "notes": "'Salad' is the reviewer's slang for the garnish skewer. The cheese curd is confirmed by two independent sources."
+    },
+    {
+      "id": "mcbobs-washington-heights",
+      "drinks": [
+        {
+          "name": "McBob's Bloody Dew (Bloody Mary)",
+          "style": "bloody mary",
+          "garnishes": [
+            {
+              "item": "beef stick",
+              "evidence": "review",
+              "source": "https://outforbloodies.com/tag/mcbobs/ (Out for Bloodies, Sept 23, 2014: 'Fixin's: Beefstick, cheese, olive, spicy pickle')"
+            },
+            {
+              "item": "cheese",
+              "evidence": "review",
+              "source": "https://outforbloodies.com/tag/mcbobs/"
+            },
+            {
+              "item": "olive",
+              "evidence": "review",
+              "source": "https://outforbloodies.com/tag/mcbobs/"
+            },
+            {
+              "item": "spicy pickle",
+              "evidence": "review",
+              "source": "https://outforbloodies.com/tag/mcbobs/"
+            }
+          ],
+          "rim": null,
+          "beer": "Chaser included ('Chaser: Yes'); beer not named",
+          "mix_notes": "Homemade mix made with Tullamore Dew Irish whiskey (hence 'Bloody Dew'), $7.25 in 2014. A May 2023 TripAdvisor review says 'Spicy Bloody Marys are also great,' and a traveler photo there is captioned 'Spicy Bloody Mary'.",
+          "photo_refs": [
+            "https://outforbloodies.com/wp-content/uploads/2014/09/mcbobs.jpg",
+            "https://outforbloodies.com/tag/mcbobs/",
+            "https://www.tripadvisor.com/Restaurant_Review-g60097-d552673-Reviews-McBob_s_Pub_and_Grill-Milwaukee_Wisconsin.html (traveler photo 'Spicy Bloody Mary')"
+          ]
+        }
+      ],
+      "notes": "The garnish evidence is from 2014 and may be dated. The online menu at mcbobs.com/menu lists no drinks."
+    },
+    {
+      "id": "guadalajara-restaurant",
+      "drinks": [
+        {
+          "name": "Micheladas",
+          "style": "michelada",
+          "garnishes": [],
+          "rim": null,
+          "beer": "Not specified; bar beers are Miller, Miller Lite, Corona, Modelo, Negra Modelo, Pacifico, Victoria",
+          "mix_notes": "$8 on the house menu, with no description.",
+          "photo_refs": [
+            "https://www.yelp.com/biz_photos/guadalajara-restaurant-milwaukee",
+            "https://urbanmilwaukee.com/2024/08/14/dining-guadalajara-offers-simple-authentic-mexican-fare/ (has a photo captioned 'The bar')"
+          ]
+        }
+      ],
+      "notes": "No garnishes found. Checked the house menu (price only), Urban Milwaukee 2024, The Infatuation, two TMJ4 features, Restaurantji and OverlookMaps reviews. None describe the michelada. Yelp (130 photos) blocks fetching, and search results returned no snippets."
+    },
+    {
+      "id": "axolotl-cafe",
+      "drinks": [
+        {
+          "name": "Axo Michelada",
+          "style": "michelada",
+          "garnishes": [],
+          "rim": null,
+          "beer": null,
+          "mix_notes": "Listed by name on the All Day Menu (alcoholic drinks, dine-in only) with no description or price. Milwaukee Record (2026) calls it 'the Mexican standard michelada'.",
+          "photo_refs": [
+            "https://www.axolotlcafemke.com/menu?menu=dinner-menu"
+          ]
+        },
+        {
+          "name": "Bloody Mary",
+          "style": "bloody mary",
+          "garnishes": [],
+          "rim": null,
+          "beer": null,
+          "mix_notes": "Listed by name only on the All Day Menu.",
+          "photo_refs": [
+            "https://www.axolotlcafemke.com/menu?menu=dinner-menu"
+          ]
+        }
+      ],
+      "notes": "No garnishes found. New this pass: the house michelada is named 'Axo Michelada', and there is also a Bloody Mary. Checked the menu PDF (food only), DoorDash (no alcohol), Marquette Wire, Milwaukee Record and AOL/JS Online; OnMilwaukee's opening story failed to load. Yelp (about 200 photos) blocks fetching."
+    },
+    {
+      "id": "fiesta-cafe",
+      "drinks": [
+        {
+          "name": "Signature Bloody Mary (house) and Southwest Bloody",
+          "style": "bloody mary",
+          "garnishes": [],
+          "rim": null,
+          "beer": null,
+          "mix_notes": "$10 each (OnMilwaukee 2018). Shepherd Express (Sept 2018): 'Fiesta Café's signature Bloody Mary ($10) is spicy and plentifully garnished', with no items named. Urban Milwaukee (2019) names the 'Southwest Bloody'.",
+          "photo_refs": [
+            "https://shepherdexpress.com/food/dining-out/fiesta-cafe-s-melting-pot-of-good-flavor",
+            "https://www.fiesta-garibaldi.com/fiesta-cafe-menu (menu shown as 9 page images, unreadable as text)"
+          ]
+        },
+        {
+          "name": "Michelada (Miche Fest 2025 entry)",
+          "style": "michelada",
+          "garnishes": [],
+          "rim": null,
+          "beer": null,
+          "mix_notes": "Competition entrant only. No description found.",
+          "photo_refs": []
+        }
+      ],
+      "notes": "No garnish items found. Press says 'plentifully garnished' without naming any. The current menu is at fiesta-garibaldi.com/fiesta-cafe-menu (not fiestacafe.net, which blocks fetching), and it is image-only. That page lists phone (414) 349-0200, which differs from the (414) 914-9569 in bloody.json. A 'Fiesta Cafe' at 3812 W Greenfield Ave, West Milwaukee, is a different place and is listed as permanently closed."
+    },
+    {
+      "id": "highbury-pub",
+      "drinks": [
+        {
+          "name": "Michelada (Miche Fest 2025 entry)",
+          "style": "michelada",
+          "garnishes": [],
+          "rim": null,
+          "beer": null,
+          "mix_notes": null,
+          "photo_refs": []
+        }
+      ],
+      "notes": "None found. Checked Urban Milwaukee (2014 and business page), OnMilwaukee (Hidden Gem, 2021), Milwaukee Record (Highbeary story, drink specials are Old Style, Half Acre and Malört) and Miche Fest coverage (Urban Milwaukee, WISN, OnMilwaukee, Milwaukee Record, CBS58, Radio Milwaukee). No vendor-level drink descriptions exist in any of them. Yelp, Instagram and Restaurant Guru would not load. The JS Online festival story (via Yahoo) also failed to load."
+    },
+    {
+      "id": "zocalo-food-park-tavern",
+      "drinks": [
+        {
+          "name": "Michelada",
+          "style": "michelada",
+          "garnishes": [],
+          "rim": null,
+          "beer": null,
+          "mix_notes": "On the 2019 opening cocktail menu with a Bloody Mary, margarita and paloma (OnMilwaukee, Aug 2019). The Dec 2023 tavern reboot story lists new cocktails (spicy cilantro margarita, blueberry mojito, chai espresso martini) but no michelada.",
+          "photo_refs": []
+        }
+      ],
+      "notes": "None found. The tavern page at zocalofoodpark.com says only 'Full bar, craft cocktails, local brews'. Chucho's Red Tacos' Toast menu has no drinks. Reviews on Wanderlog and Restaurantji mention margaritas only. Miche Fest coverage describes add-ins generically ('Clamato and chopped jalapenos to tajin and chamoy', Urban Milwaukee 2025), not the tavern's own drink, so those are not recorded as garnishes."
+    },
+    {
+      "id": "camachos-bar",
+      "drinks": [
+        {
+          "name": "Michelada (Miche Fest 2025 entry)",
+          "style": "michelada",
+          "garnishes": [],
+          "rim": null,
+          "beer": null,
+          "mix_notes": null,
+          "photo_refs": []
+        }
+      ],
+      "notes": "None found. WUWM 2024 (photo captions are people and the mural), the Urban Milwaukee business page and Miche Fest coverage have no drink details. Yelp blocks fetching. Search results for 'Camacho's' are mostly an unrelated, closed Camacho's Family Restaurant on S 13th St."
+    },
+    {
+      "id": "banderas",
+      "drinks": [
+        {
+          "name": "Micheladas ('hangover helpers')",
+          "style": "michelada",
+          "garnishes": [],
+          "rim": null,
+          "beer": null,
+          "mix_notes": "Wanderlog review (Alex M, Dec 2025): 'Micheladas are perfected.' No build details.",
+          "photo_refs": [
+            "https://wanderlog.com/place/details/15589655/banderas"
+          ]
+        },
+        {
+          "name": "Bloody Maria",
+          "style": "bloody maria",
+          "garnishes": [],
+          "rim": null,
+          "beer": null,
+          "mix_notes": "Listed among the weekend 'hangover helpers' (Urban Milwaukee, Aug 2025).",
+          "photo_refs": []
+        },
+        {
+          "name": "Agave flight with housemade sangritas",
+          "style": "sangrita",
+          "garnishes": [],
+          "rim": null,
+          "beer": null,
+          "mix_notes": "Press release: 'house-made sangritas, traditional Mexican fruit-based chasers'.",
+          "photo_refs": []
+        }
+      ],
+      "notes": "No michelada garnishes found. One Wanderlog review (Annie W, Sept 2025) says 'the pickle on my drink was flat out dreamy!' about one of the spicy cocktails, without naming the drink. Another reviewer praises a 'pickle limonada' mocktail. So pickles are part of the bar's style, but no source ties one to the michelada or the Bloody Maria, and it is not recorded as a garnish. banderasmke.com/menu loads its menu dynamically (Toast) and showed no items, and Instagram and OnMilwaukee's First Look would not load."
+    },
+    {
+      "id": "el-senorial",
+      "drinks": [
+        {
+          "name": "Michelada",
+          "style": "michelada",
+          "garnishes": [],
+          "rim": null,
+          "beer": null,
+          "mix_notes": "TripAdvisor review (Laura L, March 2018): 'The Micheladas looked great (and enormous).' Milwaukee Record (2021) praises them.",
+          "photo_refs": [
+            "https://www.tripadvisor.com/Restaurant_Review-g60097-d840711-Reviews-El_Senorial_Mexican_Restaurant-Milwaukee_Wisconsin.html"
+          ]
+        }
+      ],
+      "notes": "No garnishes found, only that they are huge. Checked Milwaukee Record, the AllMenus listing (no bar items), Restaurantji, Wanderlog and two TripAdvisor review pages. Yelp (150 photos) blocks fetching."
+    },
+    {
+      "id": "betos-pizza",
+      "drinks": [
+        {
+          "name": "Beto's Michelada (dine-in at the bar)",
+          "style": "michelada",
+          "garnishes": [
+            {
+              "item": "cucumber",
+              "evidence": "press",
+              "source": "https://milwaukeerecord.com/food-drink/betos-pizza-brings-unique-pies-and-more-to-milwaukees-south-side/ ('They come with a cucumber garnish as well as other extravagant snacks that can be nibbled on while sipping.')"
+            }
+          ],
+          "rim": null,
+          "beer": null,
+          "mix_notes": "House mix: 'Our signature Michelada Mix, crafted with a bold blend of spices, tangy lime, and savory flavors' (menu, DoorDash). Ordered at the bar, it comes with a free slice of pizza (Milwaukee Record). The 'other extravagant snacks' are not named.",
+          "photo_refs": [
+            "https://milwaukeerecord.com/food-drink/betos-pizza-brings-unique-pies-and-more-to-milwaukees-south-side/"
+          ]
+        },
+        {
+          "name": "Beto's Michelada Mix (to go)",
+          "style": "michelada mix",
+          "garnishes": [],
+          "rim": null,
+          "beer": "Your choice ('Just add your favorite beer')",
+          "mix_notes": "DoorDash: 64 oz bottle $29.99 and 32 oz bottle $19.99. Slice lists $30 and $14. It sits in a 'Michelada Mix & Carne Seca' section, with carne seca sold separately ($16.99).",
+          "photo_refs": [
+            "https://www.doordash.com/business/betos-pizza-11144276/menu",
+            "https://slicelife.com/restaurants/wi/milwaukee/53204/beto-s-pizza-milwaukee/menu"
+          ]
+        }
+      ],
+      "notes": "Toast and Facebook block fetching, and Restaurant Guru errored."
+    },
+    {
+      "id": "tauro-cocina",
+      "drinks": [
+        {
+          "name": "Michelada",
+          "style": "michelada",
+          "garnishes": [],
+          "rim": "Tajín (menu: 'house made michelada mix, choice of beer, tajin rim')",
+          "beer": "Your choice (menu)",
+          "mix_notes": "$11 on the current drink menu (Con Alcohol section). House-made mix.",
+          "photo_refs": [
+            "https://taurococina.com/milwaukee-lower-east-side-tauro-cocina-drink-menu"
+          ]
+        },
+        {
+          "name": "Bloody Mary (pictured on site)",
+          "style": "bloody mary",
+          "garnishes": [
+            {
+              "item": "lime",
+              "evidence": "photo caption",
+              "source": "https://taurococina.com/ (homepage image captioned 'Bloody mary with lime garnish')"
+            }
+          ],
+          "rim": null,
+          "beer": null,
+          "mix_notes": "Seen only in a homepage photo caption; not on the current drink menu.",
+          "photo_refs": [
+            "https://taurococina.com/"
+          ]
+        }
+      ],
+      "notes": "The michelada is now confirmed on the menu with a Tajín rim and choice of beer, but no garnish is listed. The Toro Mambo (OnMilwaukee 2023) has a Tajín rim and 'chili horns', which shows the bar's style but does not count for the michelada."
+    },
+    {
+      "id": "birch-tomato-martini",
+      "drinks": [
+        {
+          "name": "Tomato Martini",
+          "style": "tomato martini",
+          "garnishes": [
+            {
+              "item": "Sun Gold cherry tomato",
+              "evidence": "press",
+              "source": "https://www.wuwm.com/arts-culture/2026-09-08/best-martinis-milwaukee-martini-expo-chicago-2026 ('It was garnished with a Sun Gold cherry tomato.')"
+            },
+            {
+              "item": "Sun Gold cherry tomato",
+              "evidence": "photo caption",
+              "source": "https://www.wuwm.com/arts-culture/2026-09-08/best-martinis-milwaukee-martini-expo-chicago-2026 (caption: 'garnished with a Sun Gold cherry tomato')"
+            }
+          ],
+          "rim": null,
+          "beer": null,
+          "mix_notes": "Gin, tomato, cilantro vodka, blanc vermouth, $16 (Birch beverage menu dated Aug 18, 2026, which lists no garnish). The same menu has a savory 'You Fancy, Huh?' (vodka, cilantro, carrot, miso, ginger, amaro, $16).",
+          "photo_refs": [
+            "https://www.wuwm.com/arts-culture/2026-09-08/best-martinis-milwaukee-martini-expo-chicago-2026",
+            "https://radiomilwaukee.org/podcast/this-bites/2026-09-04/new-milwaukee-restaurants-tomato-martini (photo captioned with Birch on Pleasant's tomato martini)",
+            "https://www.birchonpleasant.com/s/20260818-Beverage.pdf"
+          ]
+        }
+      ],
+      "notes": "Only one garnish exists (a single Sun Gold tomato), and it is confirmed by both the WUWM text and its caption. The Aug 18 menu is the latest found, and the drink is seasonal, so confirm it is still on the menu in late October."
+    }
+  ]
+}
