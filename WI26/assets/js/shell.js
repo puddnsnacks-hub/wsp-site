@@ -246,7 +246,6 @@ WSP.shell = (function () {
     body.innerHTML = `${s.image_top ? `<img class="print-top" src="${esc(s.image_top)}" alt="${esc(s.image_top_alt || '')}">` : ''}${s.eyebrow ? `<span class="eyebrow">${esc(s.eyebrow)}</span>` : ''}<h2 id="welcome-h" class="display">${esc(s.title)}</h2>${content}`;
     $('#welcome-dots').innerHTML = welcome.steps.map((_, i) => `<i class="${i === step ? 'on' : ''}"></i>`).join('');
     const next = $('#welcome-next'); next.textContent = step === welcome.steps.length - 1 ? (welcome.done_label || 'Let’s go') : 'Next';
-    $('#welcome-skip').hidden = step === welcome.steps.length - 1;
     body.scrollTop = 0;
   }
   function wireWelcome() {
@@ -311,7 +310,7 @@ WSP.shell = (function () {
     if (start && chapterOf(start)) go(chapterOf(start), { scroll: false, instant: true }); else closeAll();
     wireDeepLinks();
     wireTop();
-    if (!store.get('welcomed', 0) && welcome) showWelcome();
+    if (welcome) showWelcome();
   }
   return { init, setOpen, lockMap, showWelcome, go, chapterOf, setStarsOnly, closeAll };
 })();

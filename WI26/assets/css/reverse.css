@@ -338,3 +338,8 @@ html.menu-open, html.menu-open body { overflow: hidden; }
   .hero-venue { font-size: 18px; }
   .hero-dates { font-size: 32px; }
 }
+
+/* Welcome: Skip sits at the top right of the card on every step */
+.welcome-card { position: relative; }
+.welcome-skip { position: absolute; top: calc(10px + env(safe-area-inset-top)); right: var(--wsp-page-margin); z-index: 2; min-height: 36px; padding: 0 14px; background: var(--wsp-teal-90); color: var(--pds-text-on-band); border: 1px solid var(--dt-gray-40); }
+.welcome-skip:hover { border-color: var(--pds-text-on-band); }
