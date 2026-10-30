@@ -1,0 +1,160 @@
+/* art-breaks.css — the banks and the water. Pairs with art-breaks.js.
+   Banks: the cards, each chapter on its own ground. Water: quiet spreads, one picture, his song, his letter line.
+   Spots: small reaction cutouts. Type steps from small labels to huge lyrics so density ebbs and flows. */
+
+/* ---------- Tones (each redefines the same tokens) ---------- */
+.tone--river  { --sp-bg: var(--wsp-teal-70);   --sp-ink: var(--wsp-gold-30);  --sp-ink-2: var(--wsp-paper-10); --sp-edge: var(--wsp-teal-90);  --sp-accent: var(--wsp-gold-40); }
+.tone--night  { --sp-bg: var(--wsp-teal-90);   --sp-ink: var(--wsp-paper-5);  --sp-ink-2: var(--wsp-teal-20);  --sp-edge: #02161b;            --sp-accent: var(--wsp-orange-40); }
+.tone--butter { --sp-bg: var(--wsp-gold-30);   --sp-ink: var(--wsp-teal-80);  --sp-ink-2: var(--wsp-ink-80);   --sp-edge: var(--wsp-gold-50);  --sp-accent: var(--wsp-teal-50); }
+.tone--ember  { --sp-bg: var(--wsp-orange-60); --sp-ink: var(--wsp-paper-5);  --sp-ink-2: var(--wsp-gold-30);  --sp-edge: #6e3409;            --sp-accent: var(--wsp-gold-30); }
+.tone--paper  { --sp-bg: var(--wsp-paper-10);  --sp-ink: var(--wsp-pink-60);  --sp-ink-2: var(--wsp-teal-70);  --sp-edge: var(--wsp-paper-40); --sp-accent: var(--wsp-teal-50); }
+.art-break, .coda { --grain: radial-gradient(circle at 1px 1px, rgba(36, 23, 9, .13) 1px, transparent 1.5px) 0 0 / 5px 5px; }
+
+/* ---------- Chapter grounds: the bank under each chapter's cards ---------- */
+.scene[data-chapter="home"]   { background: var(--wsp-paper-30); }
+.scene[data-chapter="shows"]  { background: var(--wsp-teal-80); }
+.scene[data-chapter="ball"]   { background: var(--wsp-green-60); }
+.scene[data-chapter="eat"]    { background: var(--wsp-orange-60); }
+.scene[data-chapter="around"] { background: var(--wsp-teal-60); }
+.scene[data-chapter="mke"]    { background: var(--wsp-pink-60); }
+.scene.is-on { row-gap: clamp(28px, 7vw, 44px); padding-bottom: calc(var(--cut) + clamp(56px, 14vw, 96px)); }
+
+/* ---------- Shared ---------- */
+.art-break { grid-column: 1 / -1; position: relative; z-index: 1; margin: 0; }
+.scene:not(.is-on) > .art-break { display: none; }
+.sp-img { display: block; width: 100%; height: auto; }
+.sp-words { display: grid; gap: 16px; justify-items: start; position: relative; z-index: 1; width: min(100%, 22ch); font-size: clamp(30px, 8.4vw, 60px); }
+
+/* the time stamp: where in the weekend this is */
+.sp-when { margin: 0; font: 600 13px/1 var(--pds-font-mono, monospace); letter-spacing: .1em; text-transform: uppercase; color: var(--sp-bg); background: var(--sp-ink); padding: 6px 9px 5px; transform: rotate(-2deg); box-shadow: 3px 3px 0 rgba(0, 0, 0, .25); }
+
+/* his song: the biggest type on the page */
+.sp-lyric { margin: 0; justify-self: stretch; width: 100%; display: grid; gap: .08em; font-family: var(--pds-font-display); font-weight: 900; font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144; font-size: 1em; line-height: 1.04; letter-spacing: -.015em; color: var(--sp-ink); text-wrap: balance; }
+.ly { display: block; }
+/* a line not written yet: holds its place at about the length of the original line */
+.ly--todo { position: relative; display: block; height: .82em; width: min(100%, calc(var(--len) * .5em)); margin: .12em 0;
+  background: repeating-linear-gradient(-45deg, color-mix(in srgb, var(--sp-ink) 30%, transparent) 0 6px, transparent 6px 12px); outline: 2px dashed var(--sp-ink); outline-offset: -2px; }
+.ly-tag { position: absolute; left: 8px; top: 50%; transform: translateY(-50%); font: 600 11px/1 var(--pds-font-mono, monospace); letter-spacing: .06em; text-transform: uppercase; color: var(--sp-ink); background: var(--sp-bg); padding: 3px 5px; white-space: nowrap; }
+
+/* his letter line: a step down, in italic, a second voice under the song */
+.sp-note { margin: 0; max-width: 26ch; }
+.sp-note p { margin: 0; font-family: var(--pds-font-display); font-style: italic; font-weight: 500; font-variation-settings: "SOFT" 100, "opsz" 36; font-size: clamp(20px, 5.4vw, 28px); line-height: 1.3; color: var(--sp-ink-2); }
+.sp-note { border-left: 3px solid var(--sp-accent); padding-left: 14px; }
+.sp-credit { margin: 4px 0 0; max-width: 34ch; font: 400 15px/1.45 var(--pds-font-sans, sans-serif); color: var(--sp-ink-2); }
+.sp-credit a { color: var(--sp-ink); font-weight: 700; text-underline-offset: 3px; }
+
+/* ---------- The water: spreads ---------- */
+.sp { margin: clamp(24px, 8vw, 56px) calc(-1 * var(--wsp-page-margin)); padding: clamp(64px, 18vw, 128px) var(--wsp-page-margin);
+  background: var(--grain), var(--sp-bg); display: grid; gap: clamp(28px, 7vw, 48px);
+  clip-path: polygon(0 var(--sp-cut, 34px), 100% 0, 100% calc(100% - var(--sp-cut, 34px)), 0 100%); }
+.sp[data-side="r"] { clip-path: polygon(0 0, 100% var(--sp-cut, 34px), 100% 100%, 0 calc(100% - var(--sp-cut, 34px))); }
+.sp-pic { position: relative; }
+
+/* a: the picture edge to edge, the words below crossing the center */
+.sp--a { padding-left: 0; padding-right: 0; }
+.sp--a .sp-pic { transform: rotate(var(--sp-tilt, -1.6deg)) scale(1.04); }
+.sp--a[data-side="r"] { --sp-tilt: 1.6deg; }
+.sp--a .sp-img { aspect-ratio: 16 / 10; object-fit: cover; box-shadow: 0 6px 0 var(--sp-edge); }
+.sp--a .sp-words { padding: 0 var(--wsp-page-margin); margin-left: 6%; }
+
+/* b: the words first, then the picture as a print with a second ink behind */
+.sp--b .sp-pic { width: 88%; justify-self: end; transform: rotate(var(--sp-tilt, 1.8deg)); }
+.sp--b[data-side="r"] .sp-pic { justify-self: start; --sp-tilt: -1.8deg; }
+.sp--b .sp-pic::before { content: ""; position: absolute; inset: 0; background: var(--sp-accent); transform: translate(-12px, 12px) rotate(-2.4deg); z-index: -1; }
+.sp--b .sp-img { border: 8px solid var(--wsp-paper-5); }
+
+/* c: on a phone the words rise over the picture's faded edge; side by side on desktop */
+.sp--c .sp-img { aspect-ratio: 4 / 3; object-fit: cover; -webkit-mask-image: linear-gradient(to bottom, #000 68%, transparent); mask-image: linear-gradient(to bottom, #000 68%, transparent); }
+.sp--c .sp-words { margin-top: calc(-1 * clamp(48px, 14vw, 90px)); justify-self: end; justify-items: end; text-align: right; }
+.sp--c .ly--todo { margin-left: auto; }
+
+/* the welcome ledge */
+.sp--single { padding-top: clamp(40px, 12vw, 80px); justify-items: center; text-align: center; }
+.sp--single .ab-stage { position: relative; width: 100%; height: clamp(230px, 66vw, 380px); }
+.sp--single .ab-one { position: absolute; left: 50%; bottom: 0; height: 100%; width: auto; max-width: 100%; object-fit: contain; transform: translateX(-50%); filter: drop-shadow(5px 6px 0 rgba(0, 0, 0, .3)); }
+.sp--single .sp-words, .sp--finale .sp-words { justify-items: center; text-align: center; }
+.sp--single .ly--todo, .sp--finale .ly--todo, .spot .ly--todo { margin-left: auto; margin-right: auto; }
+
+/* the finale: the hug, the last two lines of his song, his sign-off in his hand */
+.sp--finale { justify-items: center; padding-bottom: clamp(96px, 26vw, 180px); }
+.sp--finale .sp-pic { width: min(86%, 560px); transform: rotate(-1.2deg); }
+.sp--finale .sp-img { border: 10px solid var(--wsp-paper-5); box-shadow: 10px 12px 0 var(--sp-accent); }
+.sp--finale .sp-note p { font: 400 clamp(36px, 10vw, 60px)/1.15 "Covered By Your Grace", "Comic Sans MS", cursive; font-style: normal; color: var(--sp-ink); }
+.sp--finale .sp-note p::before { content: none; }
+.sp-sign { display: block; margin-top: 6px; font: 400 clamp(44px, 12vw, 72px)/1 "Covered By Your Grace", cursive; color: var(--sp-ink-2); }
+
+/* the coda: Sunday, Monday, the hug — always on the page, after the last chapter */
+.coda { grid-column: 1 / -1; margin: calc(-1 * var(--cut, 34px)) calc(-1 * var(--wsp-page-margin)) 0; position: relative; z-index: 1; }
+.coda .sp { margin: 0 0 -34px; }
+
+/* ---------- Spots: two reaction cutouts and one line of the song ---------- */
+.spot { display: grid; gap: 8px; justify-items: center; margin: clamp(12px, 4vw, 28px) 0; }
+.spot .sp-words { justify-items: center; text-align: center; width: min(100%, 18ch); font-size: clamp(26px, 7vw, 44px); }
+.art-break--pair { position: relative; width: 100%; height: clamp(280px, 80vw, 400px); pointer-events: none; }
+.art-break--pair .ab-sheet { position: absolute; inset: 12% 4% 6% 4%; background: var(--grain), var(--sp-bg); transform: rotate(var(--ab-sheet, 1.4deg)); box-shadow: 5px 6px 0 rgba(36, 23, 9, .3); }
+.spot[data-side="r"] { --ab-sheet: -1.4deg; --ab-tilt: 2deg; }
+.art-break--pair .ab-band { position: absolute; left: 0; right: 0; bottom: 6%; height: 18%; background: var(--sp-accent); transform: rotate(var(--ab-tilt, -2deg)); }
+.ab-star { position: absolute; left: 50%; top: 24%; width: clamp(60px, 18vw, 100px); transform: translateX(-50%) rotate(12deg); fill: var(--sp-accent); }
+.art-break--pair img { position: absolute; bottom: 9%; height: 98%; width: auto; filter: drop-shadow(4px 5px 0 rgba(36, 23, 9, .3)); }
+.ab-left  { left: 4%;  transform: rotate(-2deg); transform-origin: bottom center; }
+.ab-right { right: 6%; transform: rotate(2deg);  transform-origin: bottom center; }
+/* on the chapter's own ground the line needs that ground's ink */
+.spot .sp-lyric { color: var(--wsp-paper-5); text-shadow: 3px 3px 0 rgba(0, 0, 0, .28); }
+.spot .ly--todo { outline-color: var(--wsp-paper-5); background: repeating-linear-gradient(-45deg, rgba(251, 243, 221, .32) 0 6px, transparent 6px 12px); }
+.spot .ly-tag { color: var(--wsp-paper-5); background: rgba(0, 0, 0, .35); }
+.spot .sp-when { color: var(--wsp-ink-90); background: var(--wsp-paper-5); }
+
+@media (min-width: 760px) {
+  .sp { padding-left: max(var(--wsp-page-margin), calc((100vw - 1080px) / 2)); padding-right: max(var(--wsp-page-margin), calc((100vw - 1080px) / 2)); }
+  .sp-words { font-size: clamp(34px, 3.8vw, 56px); }
+  .sp--a .sp-words { margin-left: 18%; margin-top: -40px; }
+  .sp--b { grid-template-columns: 1fr 1.25fr; align-items: center; }
+  .sp--b .sp-pic { width: 100%; }
+  .sp--c { grid-template-columns: 1.6fr 1fr; align-items: center; column-gap: 56px; }
+  .sp--c .sp-words { margin-top: 0; justify-self: start; justify-items: start; text-align: left; }
+  .sp--c .ly--todo { margin-left: 0; }
+  .sp--c .sp-img { -webkit-mask-image: none; mask-image: none; }
+  .spot { max-width: 760px; width: 100%; justify-self: center; }
+  .art-break--pair { height: 420px; }
+}
+
+/* ---------- Pictures off: the pictures go, his words stay ---------- */
+html.art-off .art-break--pair, html.art-off .sp-pic, html.art-off .ab-stage,
+html.art-off figure.print, html.art-off .site-header .print { display: none !important; }
+html.art-off .scene::before, html.art-off .scene::after { display: none; }
+html.art-off .scene-head { min-height: 18vw; }
+html.art-off .sp { padding-top: 56px; padding-bottom: 64px; }
+
+/* ---------- The switch, at the bottom of the menu ---------- */
+.mega-art { grid-column: 1 / -1; padding-top: 12px; }
+.art-switch { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 44px; padding: 8px 0; background: none; border: 0; cursor: pointer;
+  color: var(--pds-text-strong); font: 600 var(--pds-text-ui, 16px) / 1.2 var(--pds-font-sans, inherit); text-align: left; }
+.as-label { flex: 1; }
+.as-track { position: relative; width: 48px; height: 28px; border-radius: 14px; background: var(--wsp-paper-40); transition: background .2s; flex: none; }
+.as-knob { position: absolute; top: 3px; left: 3px; width: 22px; height: 22px; border-radius: 50%; background: var(--wsp-paper-5); box-shadow: 0 1px 2px rgba(36, 23, 9, .35); transition: transform .2s; }
+.art-switch[aria-checked="true"] .as-track { background: var(--wsp-teal-50); }
+.art-switch[aria-checked="true"] .as-knob { transform: translateX(20px); }
+.as-state { min-width: 2.2em; font-size: .85em; color: var(--pds-text-muted, var(--wsp-ink-60)); }
+.art-switch:focus-visible { outline: 3px solid var(--wsp-gold-40); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { .as-track, .as-knob { transition: none; } }
+
+/* ---------- PROTOTYPE: footer as a closing piece (html[data-proto]) ---------- */
+footer.ft { background: var(--grain, none), var(--wsp-paper-20); border-top: 0; padding: clamp(72px, 18vw, 120px) var(--wsp-page-margin) calc(clamp(72px, 18vw, 120px) + env(safe-area-inset-bottom)); }
+.ft-in { max-width: 760px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr); gap: 32px; }
+.ft-hat { margin: 0; width: min(62%, 260px); transform: rotate(-2.2deg); }
+.ft-hat img { display: block; width: 100%; height: auto; border: 8px solid var(--wsp-paper-5); box-shadow: 9px 10px 0 var(--wsp-teal-70); clip-path: polygon(0 2%, 100% 0, 99% 98%, 1% 100%); }
+.ft-words { display: grid; gap: 10px; max-width: 34ch; }
+.ft-made { margin: 0; }
+.ft-made .strip { font: 900 clamp(26px, 7vw, 36px)/1 var(--pds-font-display); font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144; color: var(--wsp-teal-80); background: var(--wsp-gold-30); --st: -2deg; padding: .18em .45em .24em; }
+.ft-url { margin: 6px 0 0; font: 600 15px/1.4 var(--pds-font-mono, monospace); letter-spacing: .04em; color: var(--wsp-teal-70); }
+.ft-note { margin: 0; font-size: 17px; line-height: 1.55; color: var(--wsp-ink-80); }
+@media (min-width: 760px) { .ft-in { grid-template-columns: 260px 1fr; align-items: center; gap: 56px; } .ft-hat { width: 100%; } }
+[data-theme="dark"] footer.ft { background: var(--wsp-ink-90); }
+[data-theme="dark"] .ft-url { color: var(--wsp-teal-20); }
+[data-theme="dark"] .ft-note { color: var(--wsp-paper-20); }
+
+/* ---------- PROTOTYPE: welcome — the ledge pair looking down at "Hey Baby", room between thoughts ---------- */
+.welcome .print-top[src$=".png"] { border: 0; max-height: none; height: clamp(190px, 52vw, 280px); width: auto; max-width: 100%; object-fit: contain; align-self: center; margin: 4px 0 -8px; filter: drop-shadow(0 0 18px rgba(242, 199, 92, .25)); }
+.wb-space { height: 12px; }
+.welcome-nav .btn[hidden] { display: none; }
+#welcome-dots i.on { background: var(--wsp-gold-30) !important; }

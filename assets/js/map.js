@@ -12,7 +12,7 @@ WSP.map = (function () {
     'hotel':     { label: 'Your hotel',   glyph: '★' },
   };
   /* New Orleans: the map opens on the hotel and the Quarter, the chips fly farther out */
-  const CITY_VIEWS = { all: [29.955, -90.075, 13], quarter: [29.955, -90.066, 15], uptown: [29.935, -90.105, 13], lake: [30.0, -90.06, 12] };
+  const CITY_VIEWS = { home: [29.9455, -90.0670, 15], all: [29.955, -90.075, 13], quarter: [29.955, -90.066, 15], uptown: [29.935, -90.105, 13], lake: [30.0, -90.06, 12] };
   let map, miniMap, layerByCat = {}, markersById = {}, active = new Set(Object.keys(CATS)), youMarker;
 
   function cssVar(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }

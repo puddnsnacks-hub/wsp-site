@@ -1696,6 +1696,18 @@
    "blurb": "A bakery and restaurant in the Central Business District, known for comforting Southern breakfast and brunch plates and pastries. Come early, since the site runs a waitlist at busy times.",
    "rows": [
     [
+     "The Bloody Mary",
+     "The WJ Bloody Mary is vodka with the house Willa Jean mix, a Tajín rim and a pickled garnish."
+    ],
+    [
+     "Garnishes",
+     "Tajín rim, pickled garnish"
+    ],
+    [
+     "Also order",
+     "Fried chicken biscuit with Tabasco honey, and cornbread with Steen's cane syrup butter."
+    ],
+    [
      "Order",
      "Pastries and Southern breakfast plates (check the day's menu)"
     ],
@@ -1719,7 +1731,8 @@
    "website": "https://www.willajean.com/",
    "check": "",
    "sources": [
-    "https://www.willajean.com/"
+    "https://www.willajean.com/",
+    "https://www.willajean.com/menu"
    ],
    "image": {
     "src": "assets/img/places/willa-jean.jpg",
@@ -1790,6 +1803,18 @@
    "blurb": "The turquoise-and-white Garden District landmark, famous for its Jazz Brunch and a Bloody Mary built with a block of ice. Dress up a little and plan for a long, lovely meal.",
    "rows": [
     [
+     "The Bloody Mary",
+     "The house's award-winning Classic Bloody Mary is spiked tableside with vodka poured from a bottle frozen in a block of ice, in a spice-rimmed glass."
+    ],
+    [
+     "Garnishes",
+     "spice-rimmed glass"
+    ],
+    [
+     "Also order",
+     "Turtle soup finished tableside with aged sherry."
+    ],
+    [
      "Order",
      "Jazz Brunch. The Yellow Heirloom Tomato Bloody Mary. Friday lunch 25-cent martinis"
     ],
@@ -1814,7 +1839,10 @@
    "check": "",
    "sources": [
     "https://www.commanderspalace.com/about",
-    "https://www.commanderspalace.com/"
+    "https://www.commanderspalace.com/",
+    "https://www.commanderspalace.com/about#restaurant-hours",
+    "https://www.commanderspalace.com/menus",
+    "https://www.myneworleans.com/in-the-bloody-mary-mood/"
    ],
    "image": {
     "src": "assets/img/places/commanders-palace.jpg",
@@ -2738,6 +2766,14 @@
    "blurb": "A Garden District neighborhood restaurant with inventive Bloody Marys, including a green Bywater version and a 'Bloody Fairy' made with absinthe. Closed Tuesdays and Wednesdays but open all weekend.",
    "rows": [
     [
+     "The Bloody Mary",
+     "Famous for a build-your-own Bloody Mary bar with real tomato juice and fixings. The menu also lists a green Bywater Bloody Mary and a Bloody Fairy made with absinthe instead of vodka."
+    ],
+    [
+     "Garnishes",
+     "cucumber, jalapeño, assorted vegetables (build-your-own bar)"
+    ],
+    [
      "Order",
      "Bywater Bloody Mary or the Bloody Fairy (absinthe)"
     ],
@@ -2761,7 +2797,8 @@
    "website": "https://www.atchafalayarestaurant.com/",
    "check": "",
    "sources": [
-    "https://www.atchafalayarestaurant.com/"
+    "https://www.atchafalayarestaurant.com/",
+    "https://www.myneworleans.com/in-the-bloody-mary-mood/"
    ],
    "image": {
     "src": "assets/img/places/atchafalaya.jpg",
@@ -2784,6 +2821,10 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Amelie+912+Royal+St%2C+New+Orleans%2C+LA+70116",
    "blurb": "A romantic French Quarter courtyard with a brunch Thursday through Sunday and a Bloody Mary menu. Book ahead for the courtyard.",
    "rows": [
+    [
+     "The Bloody Mary",
+     "New Orleans Magazine singled out its Bloody Marys, including a version with a Polynesian-inspired twist."
+    ],
     [
      "Order",
      "Brunch plus a Bloody Mary"
@@ -2808,7 +2849,8 @@
    "website": "https://www.cafeamelie.com/",
    "check": "",
    "sources": [
-    "https://www.cafeamelie.com/"
+    "https://www.cafeamelie.com/",
+    "https://www.myneworleans.com/in-the-bloody-mary-mood/"
    ],
    "image": {
     "src": "assets/img/places/cafe-amelie.jpg",
@@ -2831,6 +2873,14 @@
    "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mr.+B%27s+Bistro+201+Royal+St%2C+New+Orleans%2C+LA+70130",
    "blurb": "A Brennan-family French Quarter bistro known for a Bloody Mary with a spicy kick and a weekly Sunday jazz brunch.",
    "rows": [
+    [
+     "The Bloody Mary",
+     "Mr. B's signature-recipe Bloody Mary spiked with vodka, one of the eye-openers on the Sunday Jazz Brunch menu."
+    ],
+    [
+     "Also order",
+     "Bacon-wrapped shrimp and grits with red-eye gravy, or the crispy fried Gulf oysters."
+    ],
     [
      "Order",
      "Bloody Mary and the barbecue shrimp"
@@ -2856,7 +2906,9 @@
    "check": "",
    "sources": [
     "https://www.mrbsbistro.com/",
-    "https://mrbsbistro.com/general_info.php"
+    "https://mrbsbistro.com/general_info.php",
+    "https://www.mrbsbistro.com/general_info.php",
+    "https://www.mrbsbistro.com/pdf/menu/102326-10-2026.pdf"
    ],
    "image": {
     "src": "assets/img/places/mr-bs-bistro.jpg",
@@ -3326,6 +3378,822 @@
    ],
    "id": "verti-marte",
    "miles": null
+  },
+  {
+   "id": "ruby-slipper-cbd",
+   "name": "The Ruby Slipper Café (CBD)",
+   "short": "The Ruby Slipper Café (CBD)",
+   "category": "drink",
+   "card": "eat-bloody",
+   "group": "",
+   "area": "CBD",
+   "address": "200 Magazine St, New Orleans, LA 70130",
+   "lat": 29.9509679,
+   "lng": -90.0674108,
+   "gmaps_url": "",
+   "website": "https://rubybrunch.com/locations/louisiana/central-business-district/",
+   "blurb": "The local brunch chain's downtown location, a short walk from the hotel, with benedicts, biscuits and an early start every day.",
+   "rows": [
+    [
+     "The Bloody Mary",
+     "An award-winning Bloody Mary in a spicy housemade mix, with Frïs vodka or Pueblo Viejo tequila, or as the Bacon Bloody Mary with applewood-smoked bacon-infused Frïs vodka."
+    ],
+    [
+     "Also order",
+     "The Costa Rican Breakfast (eggs, chorizo, black beans and rice, plantains, avocado), a founder's favorite."
+    ],
+    [
+     "Hours",
+     "Fri 7:00 am – 2:00 pm · Sat 7:00 am – 3:00 pm · Sun 7:00 am – 3:00 pm"
+    ],
+    [
+     "Reservations",
+     "Online reservations and a waitlist are both offered"
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://rubybrunch.com/locations/louisiana/central-business-district/",
+    "https://rubybrunch.com/menu/"
+   ],
+   "image": {
+    "src": "assets/img/places/ruby-slipper-cbd.jpg",
+    "credit": "The Ruby Slipper Café · Venue promotional image (og:image, WebP)",
+    "credit_url": "https://rubybrunch.com/locations/louisiana/central-business-district/"
+   },
+   "miles": 0.5
+  },
+  {
+   "id": "daisy-dukes-chartres",
+   "name": "Daisy Dukes (French Quarter)",
+   "short": "Daisy Dukes (French Quarter)",
+   "category": "drink",
+   "card": "eat-bloody",
+   "group": "",
+   "area": "French Quarter",
+   "address": "121 Chartres St, New Orleans, LA 70130",
+   "lat": 29.9532114,
+   "lng": -90.0678743,
+   "gmaps_url": "",
+   "website": "https://www.daisydukesrestaurant.com/",
+   "blurb": "A casual, no-fuss Cajun and Creole diner near Canal Street, the original location of a local mini-chain.",
+   "rows": [
+    [
+     "The Bloody Mary",
+     "The restaurant bills its Bloody Mary as one of the city's most talked-about and sells its award-winning mix. A dining guide describes it as bottomless with an entrée."
+    ],
+    [
+     "Also order",
+     "Shrimp and grits, chargrilled oysters or beignets."
+    ],
+    [
+     "Hours",
+     "Fri 7:00 am – 2:00 pm and 5:00 – 10:00 pm · Sat 7:00 am – 2:00 pm and 5:00 – 10:00 pm · Sun 7:00 am – 2:00 pm"
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.daisydukesrestaurant.com/",
+    "https://www.neworleansrestaurants.com/guides/bloody-marys-new-orleans"
+   ],
+   "miles": 0.7
+  },
+  {
+   "id": "elizabeths",
+   "name": "Elizabeth's",
+   "short": "Elizabeth's",
+   "category": "drink",
+   "card": "eat-bloody",
+   "group": "",
+   "area": "Bywater",
+   "address": "601 Gallier St, New Orleans, LA 70117",
+   "lat": 29.961521,
+   "lng": -90.040923,
+   "gmaps_url": "",
+   "website": "https://www.elizabethsrestaurantnola.com/",
+   "blurb": "A beloved, quirky Bywater breakfast-and-brunch joint with folk-art walls and a loyal neighborhood following.",
+   "rows": [
+    [
+     "The Bloody Mary",
+     "Spoon University named its Bloody Mary, made with a house-made mix, among the city's iconic ones."
+    ],
+    [
+     "Hours",
+     "Fri 8:00 am – 2:30 pm · Sat 8:00 am – 2:30 pm · Sun 8:00 am – 2:30 pm"
+    ],
+    [
+     "Reservations",
+     "Only for parties of 10 or more (504–944–9272). Otherwise walk in"
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.elizabethsrestaurantnola.com/",
+    "https://spoonuniversity.com/place/9-iconic-bloody-marys-new-orleans"
+   ],
+   "miles": 2.0
+  },
+  {
+   "id": "two-chicks-cafe-warehouse",
+   "name": "Two Chicks Cafe (Warehouse District)",
+   "short": "Two Chicks Cafe (Warehouse District)",
+   "category": "food",
+   "card": "eat-near",
+   "group": "",
+   "area": "",
+   "address": "901 Convention Center Blvd, Suite 109, New Orleans, LA 70130",
+   "lat": 29.9419514,
+   "lng": -90.0647538,
+   "gmaps_url": "",
+   "website": "https://www.twochickscafe.com/",
+   "blurb": "A bright, scratch-cooking breakfast and brunch spot a few blocks from the hotel, with fresh-squeezed juice and a smoothie bar.",
+   "rows": [
+    [
+     "Order",
+     "An omelet or a benedict with fresh juice. The menu also lists BBQ shrimp and grits."
+    ],
+    [
+     "Price",
+     "$$"
+    ],
+    [
+     "Hours",
+     "Fri 8 AM – 2 PM · Sat 8 AM – 2 PM · Sun 8 AM – 2 PM"
+    ],
+    [
+     "Reservations",
+     "Not mentioned on the site. Walk in."
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.twochickscafe.com/"
+   ],
+   "image": {
+    "src": "assets/img/places/two-chicks-cafe-warehouse.jpg",
+    "credit": "Two Chicks Cafe · Venue image, used for reference",
+    "credit_url": "https://www.twochickscafe.com/"
+   },
+   "miles": 0.1
+  },
+  {
+   "id": "luke",
+   "name": "Luke",
+   "short": "Luke",
+   "category": "food",
+   "card": "eat-near",
+   "group": "",
+   "area": "",
+   "address": "333 St. Charles Ave, New Orleans, LA 70130",
+   "lat": 29.9507254,
+   "lng": -90.0706459,
+   "gmaps_url": "",
+   "website": "https://www.lukeneworleans.com/",
+   "blurb": "A Franco-German brasserie on St. Charles that opens at 7 AM, so it works for an early breakfast as well as an oyster-and-cocktail evening.",
+   "rows": [
+    [
+     "Order",
+     "Oysters from the daily selection, per the restaurant's own description. Breakfast from 7 AM."
+    ],
+    [
+     "Hours",
+     "Fri 7 AM – 10 PM · Sat 7 AM – 10 PM · Sun 7 AM – 10 PM"
+    ],
+    [
+     "Reservations",
+     "Yes, 'Book a table' on the site."
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.lukeneworleans.com/"
+   ],
+   "miles": 0.6
+  },
+  {
+   "id": "st-james-cheese-warehouse",
+   "name": "St. James Cheese Company (Warehouse District)",
+   "short": "St. James Cheese Company (Warehouse District)",
+   "category": "food",
+   "card": "eat-near",
+   "group": "",
+   "area": "",
+   "address": "641 Tchoupitoulas St, New Orleans, LA 70130",
+   "lat": 29.9467638,
+   "lng": -90.0674912,
+   "gmaps_url": "",
+   "website": "https://stjamescheese.com/",
+   "blurb": "A cheese shop and cafe two blocks from the hotel, good for a sandwich, a cheese board and a glass of wine.",
+   "rows": [
+    [
+     "Order",
+     "A cheese plate or a sandwich from the Warehouse District menu. Saturday adds brunch."
+    ],
+    [
+     "Hours",
+     "Fri 11 AM – 7 PM · Sat 11 AM – 7 PM (brunch 11–3 plus regular menu) · Sun Closed"
+    ],
+    [
+     "Reservations",
+     "Not mentioned on the site."
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://stjamescheese.com/"
+   ],
+   "miles": 0.3
+  },
+  {
+   "id": "mulates",
+   "name": "Mulate's",
+   "short": "Mulate's",
+   "category": "food",
+   "card": "eat-near",
+   "group": "",
+   "area": "",
+   "address": "201 Julia St, New Orleans, LA 70130",
+   "lat": 29.9445185,
+   "lng": -90.0649258,
+   "gmaps_url": "",
+   "website": "https://mulates.com/",
+   "blurb": "A big, friendly Cajun dance hall and restaurant across from the Convention Center, with gumbo, fried seafood and live Cajun music.",
+   "rows": [
+    [
+     "Order",
+     "Seafood gumbo, fried gator, or the Cajun sampler platter, all on the food menu."
+    ],
+    [
+     "Hours",
+     "Fri 11 AM – 10 PM · Sat 11 AM – 10 PM · Sun 11 AM – 9 PM"
+    ],
+    [
+     "Reservations",
+     "Not stated on the home page. Call (504) 522–1492."
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://mulates.com/"
+   ],
+   "image": {
+    "src": "assets/img/places/mulates.jpg",
+    "credit": "See Commons file page · CC BY 2.0 (per Commons search snippet; confirm author on file page)",
+    "credit_url": "https://commons.wikimedia.org/wiki/File:Seafood_Gumbo_at_Mulate%27s_New_Orleans.jpg"
+   },
+   "miles": 0.1
+  },
+  {
+   "id": "rouses-market-baronne",
+   "name": "Rouses Market (Baronne St)",
+   "short": "Rouses Market (Baronne St)",
+   "category": "food",
+   "card": "eat-near",
+   "group": "",
+   "area": "",
+   "address": "701 Baronne St, New Orleans, LA 70113",
+   "lat": 29.9477232,
+   "lng": -90.0741703,
+   "gmaps_url": "",
+   "website": "https://www.rouses.com/locations/rouses-market-46/",
+   "blurb": "The downtown branch of the Gulf Coast grocery chain, with a deli and hot foods counter that stays open late.",
+   "rows": [
+    [
+     "Order",
+     "Something from the deli and prepared-foods counter for a cheap lunch or a late snack."
+    ],
+    [
+     "Price",
+     "$"
+    ],
+    [
+     "Hours",
+     "Fri 6 AM – 11 PM · Sat 6 AM – 11 PM · Sun 6 AM – 11 PM"
+    ],
+    [
+     "Reservations",
+     "None. Grocery store."
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.rouses.com/locations/",
+    "https://www.rouses.com/locations/rouses-market-46/"
+   ],
+   "image": {
+    "src": "assets/img/places/rouses-market-baronne.jpg",
+    "credit": "See Commons file page · Not confirmed (Commons rate-limited)",
+    "credit_url": "https://commons.wikimedia.org/wiki/File:Rouses_Market,_Baronne_Street,_New_Orleans,_from_Girod_April_2018_-_entrance.jpg"
+   },
+   "miles": 0.6
+  },
+  {
+   "id": "french-truck-coffee-canal",
+   "name": "French Truck Coffee (700 Canal)",
+   "short": "French Truck Coffee (700 Canal)",
+   "category": "food",
+   "card": "eat-near",
+   "group": "",
+   "area": "",
+   "address": "700 Canal St, New Orleans, LA 70130",
+   "lat": 29.9530497,
+   "lng": -90.0694014,
+   "gmaps_url": "",
+   "website": "https://www.frenchtruckcoffee.com/",
+   "blurb": "The local roaster's downtown cafe at Canal and Camp, for a proper espresso or iced coffee on the way into the Quarter.",
+   "rows": [
+    [
+     "Order",
+     "An espresso drink or cold brew. This is a New Orleans roaster."
+    ],
+    [
+     "Hours",
+     "Fri 7 AM – 3:45 PM · Sat 8 AM – 3:45 PM · Sun 8 AM – 3:45 PM"
+    ],
+    [
+     "Reservations",
+     "None."
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://toast.app/r/french-truck-coffee-canal-700-canal-st/order",
+    "https://www.frenchtruckcoffee.com/"
+   ],
+   "miles": 0.7
+  },
+  {
+   "id": "lucys-retired-surfers-bar",
+   "name": "Lucy's Retired Surfers Bar & Restaurant",
+   "short": "Lucy's Retired Surfers Bar & Restaurant",
+   "category": "food",
+   "card": "eat-near",
+   "group": "",
+   "area": "",
+   "address": "701 Tchoupitoulas St, New Orleans, LA 70130",
+   "lat": 29.9463991,
+   "lng": -90.0675098,
+   "gmaps_url": "",
+   "website": "https://www.toasttab.com/local/order/lucyssurf",
+   "blurb": "A loud, easygoing beach-bar hangout two blocks from the hotel, with a big patio crowd on weekend nights.",
+   "rows": [
+    [
+     "Order",
+     "Bar food and a cold drink. Check the online menu."
+    ],
+    [
+     "Hours",
+     "Fri 11 AM – 11:30 PM · Sat 11 AM – 11:30 PM · Sun 11 AM – 10:30 PM"
+    ],
+    [
+     "Reservations",
+     "Not stated."
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.toasttab.com/local/order/lucyssurf"
+   ],
+   "image": {
+    "src": "assets/img/places/lucys-retired-surfers-bar.jpg",
+    "credit": "See Commons file page · Not confirmed (Commons rate-limited)",
+    "credit_url": "https://commons.wikimedia.org/wiki/File:Lucy%27s_Retired_Surfers_Bar_%26_Restaurant.jpg"
+   },
+   "miles": 0.2
+  },
+  {
+   "id": "fulton-alley",
+   "name": "Fulton Alley",
+   "short": "Fulton Alley",
+   "category": "food",
+   "card": "eat-near",
+   "group": "",
+   "area": "",
+   "address": "600 Fulton St, New Orleans, LA 70130",
+   "lat": 29.9469792,
+   "lng": -90.0651925,
+   "gmaps_url": "",
+   "website": "https://www.fultonalley.com/",
+   "blurb": "A vintage-styled boutique bowling alley and cocktail lounge on the Fulton Street pedestrian block, open until midnight on the weekend.",
+   "rows": [
+    [
+     "Order",
+     "A few frames of bowling with cocktails and bar bites."
+    ],
+    [
+     "Hours",
+     "Fri 4 PM – 12 AM · Sat 11 AM – 12 AM · Sun 11 AM – 11 PM"
+    ],
+    [
+     "Reservations",
+     "Lanes can be booked on the site."
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.fultonalley.com/location/fulton-street/",
+    "https://www.fultonalley.com/"
+   ],
+   "miles": 0.3
+  },
+  {
+   "id": "gianna",
+   "name": "Gianna",
+   "short": "Gianna",
+   "category": "food",
+   "card": "eat-near",
+   "group": "",
+   "area": "",
+   "address": "700 Magazine St, New Orleans, LA 70130",
+   "lat": 29.9466053,
+   "lng": -90.0686345,
+   "gmaps_url": "",
+   "website": "https://giannarestaurant.com/",
+   "blurb": "A warm Italian trattoria from the Link Restaurant Group, three blocks from the hotel, with house-made pasta and Gulf seafood.",
+   "rows": [
+    [
+     "Order",
+     "House-made pasta, or the 'Feed Me' option to let the kitchen choose."
+    ],
+    [
+     "Hours",
+     "Fri 11 AM – 10 PM · Sat 11 AM – 10 PM · Sun 11 AM – 10 PM"
+    ],
+    [
+     "Reservations",
+     "Recommended. Call (504) 399–0816."
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://giannarestaurant.com/"
+   ],
+   "miles": 0.3
+  },
+  {
+   "id": "seaworthy",
+   "name": "Seaworthy",
+   "short": "Seaworthy",
+   "category": "food",
+   "card": "eat-near",
+   "group": "",
+   "area": "",
+   "address": "630 Carondelet St, New Orleans, LA 70130",
+   "lat": 29.9478989,
+   "lng": -90.0723094,
+   "gmaps_url": "",
+   "website": "https://www.seaworthynola.com/",
+   "blurb": "An oyster bar in a 19th-century Creole townhouse, with Gulf and East Coast oysters and a strong cocktail list.",
+   "rows": [
+    [
+     "Order",
+     "Raw oysters (half off 4–6 PM daily) and a cocktail."
+    ],
+    [
+     "Hours",
+     "Fri 4 PM – 11 PM · Sat 4 PM – 11 PM · Sun 4 PM – 10 PM"
+    ],
+    [
+     "Reservations",
+     "Not stated on the home page. Call 504–930–3071."
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.seaworthynola.com/"
+   ],
+   "image": {
+    "src": "assets/img/places/seaworthy.jpg",
+    "credit": "Seaworthy / The Barnett New Orleans · Venue image, used for reference",
+    "credit_url": "https://www.seaworthynola.com/"
+   },
+   "miles": 0.5
+  },
+  {
+   "id": "copper-vine",
+   "name": "Copper Vine",
+   "short": "Copper Vine",
+   "category": "food",
+   "card": "eat-near",
+   "group": "",
+   "area": "",
+   "address": "1001 Poydras St, New Orleans, LA 70112",
+   "lat": 29.9506389,
+   "lng": -90.0743504,
+   "gmaps_url": "",
+   "website": "https://www.coppervine.com/",
+   "blurb": "A wine pub and inn on Poydras with a courtyard and balcony, good for an easy dinner or a weekend brunch.",
+   "rows": [
+    [
+     "Order",
+     "A glass from the wine list with dinner, or the weekend bottomless brunch."
+    ],
+    [
+     "Hours",
+     "Fri 11 AM – 10 PM · Sat Brunch 10:30 AM – 3 PM. Dinner 3:00 – 10 PM · Sun Brunch 10:30 AM – 3 PM. Dinner 3:00 – 9 PM"
+    ],
+    [
+     "Reservations",
+     "Yes, through the site. Courtyard and balcony are first come, first served."
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.coppervine.com/location/copper-vine/",
+    "https://www.coppervine.com/"
+   ],
+   "miles": 0.7
+  },
+  {
+   "id": "domenica",
+   "name": "Domenica",
+   "short": "Domenica",
+   "category": "food",
+   "card": "eat-near",
+   "group": "",
+   "area": "",
+   "address": "123 Baronne St, New Orleans, LA 70112",
+   "lat": 29.9539374,
+   "lng": -90.0716552,
+   "gmaps_url": "",
+   "website": "https://www.domenicarestaurant.com/",
+   "blurb": "A handsome Italian dining room in the Roosevelt Hotel, with wood-fired Neapolitan pizza and pasta made by hand daily.",
+   "rows": [
+    [
+     "Order",
+     "A wood-fired pizza and a handmade pasta to share."
+    ],
+    [
+     "Hours",
+     "Fri 11 AM – 10 PM · Sat 11 AM – 10 PM · Sun 11 AM – 10 PM"
+    ],
+    [
+     "Reservations",
+     "Yes, 'Book a table' on the site."
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.domenicarestaurant.com/"
+   ],
+   "miles": 0.8
+  },
+  {
+   "id": "barrel-proof",
+   "name": "Barrel Proof",
+   "short": "Barrel Proof",
+   "category": "drink",
+   "card": "drink-near",
+   "group": "",
+   "area": "",
+   "address": "1201 Magazine St, New Orleans, LA 70130",
+   "lat": 29.9391967,
+   "lng": -90.0711708,
+   "gmaps_url": "",
+   "website": "https://drinkbarrelproof.com/",
+   "blurb": "A dark, wood-paneled whiskey bar on lower Magazine Street with hundreds of bottles on the wall. It works as well for a quick beer and a shot as it does for a rare pour.",
+   "rows": [
+    [
+     "Order",
+     "A $5 boilermaker (a shot of Old Grand-Dad with a Schlitz), as Garden & Gun describes it on the bar's press page. Or a whiskey from the 500-plus list."
+    ],
+    [
+     "Hours",
+     "Fri 4 PM – 1 AM · Sat 4 PM – 1 AM · Sun 4 PM – 1 AM"
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://drinkbarrelproof.com/"
+   ],
+   "miles": 0.4
+  },
+  {
+   "id": "loa-bar",
+   "name": "Loa (International House)",
+   "short": "Loa (International House)",
+   "category": "drink",
+   "card": "drink-near",
+   "group": "",
+   "area": "",
+   "address": "221 Camp St, New Orleans, LA 70130",
+   "lat": 29.9516091,
+   "lng": -90.0687249,
+   "gmaps_url": "",
+   "website": "https://www.ihhotel.com/food-drink/food-drinks-loa-bar-new-orleans",
+   "blurb": "The cocktail bar inside the International House hotel on Camp Street, mixing classic New Orleans drinks with new ones. A calm, grown-up spot for a nightcap.",
+   "rows": [
+    [
+     "Hours",
+     "Fri 4 PM – 11 PM · Sat 4 PM – 11 PM · Sun 5 PM – 10 PM"
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.ihhotel.com/",
+    "https://www.ihhotel.com/food-drink/food-drinks-loa-bar-new-orleans"
+   ],
+   "image": {
+    "src": "assets/img/places/loa-bar.jpg",
+    "credit": "LittleT889 · CC BY-SA 4.0",
+    "credit_url": "https://commons.wikimedia.org/wiki/File:International_House_Hotel.jpg"
+   },
+   "miles": 0.6
+  },
+  {
+   "id": "polo-club-windsor-court",
+   "name": "The Polo Club at Windsor Court",
+   "short": "The Polo Club at Windsor Court",
+   "category": "drink",
+   "card": "drink-near",
+   "group": "",
+   "area": "",
+   "address": "300 Gravier St, New Orleans, LA 70130",
+   "lat": 29.9494756,
+   "lng": -90.0663527,
+   "gmaps_url": "",
+   "website": "https://www.windsorcourthotel.com/dining/",
+   "blurb": "The Windsor Court hotel's lounge, serving classic cocktails and pub fare, with jazz piano early and a small band later on Friday and Saturday.",
+   "rows": [
+    [
+     "Friday",
+     "David Boeddinghaus, 5:30 PM"
+    ],
+    [
+     "Friday",
+     "Bean 'N The Boys, 9 PM"
+    ],
+    [
+     "Saturday",
+     "John Royen, 5:30 PM"
+    ],
+    [
+     "Saturday",
+     "Bean 'N The Boys, 9 PM"
+    ],
+    [
+     "Hours",
+     "Fri 11:30 AM – Midnight · Sat 11:30 AM – Midnight · Sun 11:30 AM – 11 PM"
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.windsorcourthotel.com/dining/",
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-30",
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-31"
+   ],
+   "image": {
+    "src": "assets/img/places/polo-club-windsor-court.jpg",
+    "credit": "Windsor Court Hotel",
+    "credit_url": "https://www.windsorcourthotel.com/dining/"
+   },
+   "miles": 0.4
+  },
+  {
+   "id": "wine-institute-new-orleans",
+   "name": "Wine Institute of New Orleans (W.I.N.O.)",
+   "short": "Wine Institute of New Orleans (W.I.N.O.)",
+   "category": "drink",
+   "card": "drink-near",
+   "group": "",
+   "area": "",
+   "address": "610 Tchoupitoulas St, New Orleans, LA 70130",
+   "lat": 29.947198,
+   "lng": -90.0671841,
+   "gmaps_url": "",
+   "website": "https://www.winoschool.org/",
+   "blurb": "A Warehouse District wine tasting bar and shop, a few blocks from the hotel, where you can try many wines in small pours before settling on a glass.",
+   "rows": [
+    [
+     "Hours",
+     "Fri 4 PM – 11 PM · Sat 4 PM – 11 PM"
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.winoschool.org/"
+   ],
+   "image": {
+    "src": "assets/img/places/wine-institute-new-orleans.jpg",
+    "credit": "Anthony Arrigo · CC BY 2.0",
+    "credit_url": "https://commons.wikimedia.org/wiki/File:Wine_Institute_of_New_Orleans.jpg"
+   },
+   "miles": 0.3
+  },
+  {
+   "id": "howlin-wolf",
+   "name": "The Howlin' Wolf and The Den",
+   "short": "The Howlin' Wolf and The Den",
+   "category": "music",
+   "card": "music-near",
+   "group": "",
+   "area": "",
+   "address": "907 S Peters St, New Orleans, LA 70130",
+   "lat": 29.9426969,
+   "lng": -90.0659227,
+   "gmaps_url": "",
+   "website": "https://www.thehowlinwolf.com/",
+   "blurb": "A Warehouse District rock and brass club about a block from the hotel, with a smaller side room, The Den, next door.",
+   "rows": [
+    [
+     "Friday",
+     "Saint Social + Rare Seed (main room), 7 PM"
+    ],
+    [
+     "Friday",
+     "Hypno Nun + Summer With Monika + JADDER (The Den), 8 PM"
+    ],
+    [
+     "Saturday",
+     "Brasshearts + Sunscape + Dizzy (The Den), 9 PM"
+    ],
+    [
+     "Sunday",
+     "Hot 8 Brass Band (main room), 10:30 PM"
+    ]
+   ],
+   "check": "Hours aren't posted. Call ahead.",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-30",
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-31",
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-11-01",
+    "https://www.thehowlinwolf.com/"
+   ],
+   "image": {
+    "src": "assets/img/places/howlin-wolf.jpg",
+    "credit": "Infrogmation of New Orleans · CC BY-SA 4.0",
+    "credit_url": "https://commons.wikimedia.org/wiki/File:The_Howlin%27_Wolf,_New_Orleans,_Exterior_view_at_Night_Jan_2019.jpg"
+   },
+   "miles": 0.0
+  },
+  {
+   "id": "republic-nola",
+   "name": "Republic NOLA",
+   "short": "Republic NOLA",
+   "category": "music",
+   "card": "music-near",
+   "group": "",
+   "area": "",
+   "address": "828 S Peters St, New Orleans, LA 70130",
+   "lat": 29.9441335,
+   "lng": -90.0657002,
+   "gmaps_url": "",
+   "website": "https://republicnola.com/",
+   "blurb": "A big dance club with a stage and a balcony over the floor, around the corner from the hotel. This weekend it's costume-friendly DJ dance parties.",
+   "rows": [
+    [
+     "Friday",
+     "Rewind: Kult Klassics, 2000s and 2010s Halloween dance party (Pellowtalk, DJ G, Snaxx, Lafourche), 18+, Doors 9 PM, show 10 PM, GA $6-$11 (tiered)"
+    ],
+    [
+     "Saturday",
+     "Emo Night: Nine Year Sadiversary (hey thanks., Dan the Lion, Snaxx, Lafourche), 18+, Doors 9 PM, show 10 PM, GA $6.66 early bird, $10, $15. $25 at the door"
+    ],
+    [
+     "Hours",
+     "Fri Doors 9 PM · Sat Doors 9 PM"
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://republicnola.com/events/",
+    "https://republicnola.com/event/rewind-kult-klassics/",
+    "https://republicnola.com/event/emo-night-nine-year-sadiversary/",
+    "https://republicnola.com/"
+   ],
+   "image": {
+    "src": "assets/img/places/republic-nola.jpg",
+    "credit": "Republic NOLA",
+    "credit_url": "https://republicnola.com/"
+   },
+   "miles": 0.1
+  },
+  {
+   "id": "commons-club-virgin",
+   "name": "Commons Club at Virgin Hotels New Orleans",
+   "short": "Commons Club at Virgin Hotels New Orleans",
+   "category": "music",
+   "card": "music-near",
+   "group": "",
+   "area": "",
+   "address": "550 Baronne St, New Orleans, LA",
+   "lat": 29.9494229,
+   "lng": -90.0731755,
+   "gmaps_url": "",
+   "website": "https://virginhotels.com/new-orleans/",
+   "blurb": "The all-day bar and lounge in the Virgin Hotels lobby, with an early-evening live set on Friday.",
+   "rows": [
+    [
+     "Friday",
+     "Nell Simmons-Bradley, 7 PM"
+    ]
+   ],
+   "check": "Hours aren't posted. Call ahead.",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-30",
+    "https://virginhotels.com/new-orleans/"
+   ],
+   "miles": 0.6
   },
   {
    "id": "ogden-museum-of-southern-art",
@@ -4561,6 +5429,204 @@
    "lng": -90.060261,
    "address": "1008 N Peters St, New Orleans, LA 70116",
    "blurb": "The oldest public market in the country, with free cooking demos with free samples. Fri Oct 30 is Market Morsels and Sat Oct 31 features Black Masking Indians with a cooking demo."
+  },
+  {
+   "id": "ruby-slipper-cbd",
+   "name": "The Ruby Slipper Café (CBD)",
+   "category": "drink",
+   "lat": 29.9509679,
+   "lng": -90.0674108,
+   "address": "200 Magazine St, New Orleans, LA 70130",
+   "blurb": "The local brunch chain's downtown location, a short walk from the hotel, with benedicts, biscuits and an early start every day."
+  },
+  {
+   "id": "daisy-dukes-chartres",
+   "name": "Daisy Dukes (French Quarter)",
+   "category": "drink",
+   "lat": 29.9532114,
+   "lng": -90.0678743,
+   "address": "121 Chartres St, New Orleans, LA 70130",
+   "blurb": "A casual, no-fuss Cajun and Creole diner near Canal Street, the original location of a local mini-chain."
+  },
+  {
+   "id": "elizabeths",
+   "name": "Elizabeth's",
+   "category": "drink",
+   "lat": 29.961521,
+   "lng": -90.040923,
+   "address": "601 Gallier St, New Orleans, LA 70117",
+   "blurb": "A beloved, quirky Bywater breakfast-and-brunch joint with folk-art walls and a loyal neighborhood following."
+  },
+  {
+   "id": "two-chicks-cafe-warehouse",
+   "name": "Two Chicks Cafe (Warehouse District)",
+   "category": "food",
+   "lat": 29.9419514,
+   "lng": -90.0647538,
+   "address": "901 Convention Center Blvd, Suite 109, New Orleans, LA 70130",
+   "blurb": "A bright, scratch-cooking breakfast and brunch spot a few blocks from the hotel, with fresh-squeezed juice and a smoothie bar."
+  },
+  {
+   "id": "luke",
+   "name": "Luke",
+   "category": "food",
+   "lat": 29.9507254,
+   "lng": -90.0706459,
+   "address": "333 St. Charles Ave, New Orleans, LA 70130",
+   "blurb": "A Franco-German brasserie on St. Charles that opens at 7 AM, so it works for an early breakfast as well as an oyster-and-cocktail evening."
+  },
+  {
+   "id": "st-james-cheese-warehouse",
+   "name": "St. James Cheese Company (Warehouse District)",
+   "category": "food",
+   "lat": 29.9467638,
+   "lng": -90.0674912,
+   "address": "641 Tchoupitoulas St, New Orleans, LA 70130",
+   "blurb": "A cheese shop and cafe two blocks from the hotel, good for a sandwich, a cheese board and a glass of wine."
+  },
+  {
+   "id": "mulates",
+   "name": "Mulate's",
+   "category": "food",
+   "lat": 29.9445185,
+   "lng": -90.0649258,
+   "address": "201 Julia St, New Orleans, LA 70130",
+   "blurb": "A big, friendly Cajun dance hall and restaurant across from the Convention Center, with gumbo, fried seafood and live Cajun music."
+  },
+  {
+   "id": "rouses-market-baronne",
+   "name": "Rouses Market (Baronne St)",
+   "category": "food",
+   "lat": 29.9477232,
+   "lng": -90.0741703,
+   "address": "701 Baronne St, New Orleans, LA 70113",
+   "blurb": "The downtown branch of the Gulf Coast grocery chain, with a deli and hot foods counter that stays open late."
+  },
+  {
+   "id": "french-truck-coffee-canal",
+   "name": "French Truck Coffee (700 Canal)",
+   "category": "food",
+   "lat": 29.9530497,
+   "lng": -90.0694014,
+   "address": "700 Canal St, New Orleans, LA 70130",
+   "blurb": "The local roaster's downtown cafe at Canal and Camp, for a proper espresso or iced coffee on the way into the Quarter."
+  },
+  {
+   "id": "lucys-retired-surfers-bar",
+   "name": "Lucy's Retired Surfers Bar & Restaurant",
+   "category": "food",
+   "lat": 29.9463991,
+   "lng": -90.0675098,
+   "address": "701 Tchoupitoulas St, New Orleans, LA 70130",
+   "blurb": "A loud, easygoing beach-bar hangout two blocks from the hotel, with a big patio crowd on weekend nights."
+  },
+  {
+   "id": "fulton-alley",
+   "name": "Fulton Alley",
+   "category": "food",
+   "lat": 29.9469792,
+   "lng": -90.0651925,
+   "address": "600 Fulton St, New Orleans, LA 70130",
+   "blurb": "A vintage-styled boutique bowling alley and cocktail lounge on the Fulton Street pedestrian block, open until midnight on the weekend."
+  },
+  {
+   "id": "gianna",
+   "name": "Gianna",
+   "category": "food",
+   "lat": 29.9466053,
+   "lng": -90.0686345,
+   "address": "700 Magazine St, New Orleans, LA 70130",
+   "blurb": "A warm Italian trattoria from the Link Restaurant Group, three blocks from the hotel, with house-made pasta and Gulf seafood."
+  },
+  {
+   "id": "seaworthy",
+   "name": "Seaworthy",
+   "category": "food",
+   "lat": 29.9478989,
+   "lng": -90.0723094,
+   "address": "630 Carondelet St, New Orleans, LA 70130",
+   "blurb": "An oyster bar in a 19th-century Creole townhouse, with Gulf and East Coast oysters and a strong cocktail list."
+  },
+  {
+   "id": "copper-vine",
+   "name": "Copper Vine",
+   "category": "food",
+   "lat": 29.9506389,
+   "lng": -90.0743504,
+   "address": "1001 Poydras St, New Orleans, LA 70112",
+   "blurb": "A wine pub and inn on Poydras with a courtyard and balcony, good for an easy dinner or a weekend brunch."
+  },
+  {
+   "id": "domenica",
+   "name": "Domenica",
+   "category": "food",
+   "lat": 29.9539374,
+   "lng": -90.0716552,
+   "address": "123 Baronne St, New Orleans, LA 70112",
+   "blurb": "A handsome Italian dining room in the Roosevelt Hotel, with wood-fired Neapolitan pizza and pasta made by hand daily."
+  },
+  {
+   "id": "barrel-proof",
+   "name": "Barrel Proof",
+   "category": "drink",
+   "lat": 29.9391967,
+   "lng": -90.0711708,
+   "address": "1201 Magazine St, New Orleans, LA 70130",
+   "blurb": "A dark, wood-paneled whiskey bar on lower Magazine Street with hundreds of bottles on the wall. It works as well for a quick beer and a shot as it does for a rare pour."
+  },
+  {
+   "id": "loa-bar",
+   "name": "Loa (International House)",
+   "category": "drink",
+   "lat": 29.9516091,
+   "lng": -90.0687249,
+   "address": "221 Camp St, New Orleans, LA 70130",
+   "blurb": "The cocktail bar inside the International House hotel on Camp Street, mixing classic New Orleans drinks with new ones. A calm, grown-up spot for a nightcap."
+  },
+  {
+   "id": "polo-club-windsor-court",
+   "name": "The Polo Club at Windsor Court",
+   "category": "drink",
+   "lat": 29.9494756,
+   "lng": -90.0663527,
+   "address": "300 Gravier St, New Orleans, LA 70130",
+   "blurb": "The Windsor Court hotel's lounge, serving classic cocktails and pub fare, with jazz piano early and a small band later on Friday and Saturday."
+  },
+  {
+   "id": "wine-institute-new-orleans",
+   "name": "Wine Institute of New Orleans (W.I.N.O.)",
+   "category": "drink",
+   "lat": 29.947198,
+   "lng": -90.0671841,
+   "address": "610 Tchoupitoulas St, New Orleans, LA 70130",
+   "blurb": "A Warehouse District wine tasting bar and shop, a few blocks from the hotel, where you can try many wines in small pours before settling on a glass."
+  },
+  {
+   "id": "howlin-wolf",
+   "name": "The Howlin' Wolf and The Den",
+   "category": "music",
+   "lat": 29.9426969,
+   "lng": -90.0659227,
+   "address": "907 S Peters St, New Orleans, LA 70130",
+   "blurb": "A Warehouse District rock and brass club about a block from the hotel, with a smaller side room, The Den, next door."
+  },
+  {
+   "id": "republic-nola",
+   "name": "Republic NOLA",
+   "category": "music",
+   "lat": 29.9441335,
+   "lng": -90.0657002,
+   "address": "828 S Peters St, New Orleans, LA 70130",
+   "blurb": "A big dance club with a stage and a balcony over the floor, around the corner from the hotel. This weekend it's costume-friendly DJ dance parties."
+  },
+  {
+   "id": "commons-club-virgin",
+   "name": "Commons Club at Virgin Hotels New Orleans",
+   "category": "music",
+   "lat": 29.9494229,
+   "lng": -90.0731755,
+   "address": "550 Baronne St, New Orleans, LA",
+   "blurb": "The all-day bar and lounge in the Virgin Hotels lobby, with an early-evening live set on Friday."
   },
   {
    "id": "ogden-museum-of-southern-art",

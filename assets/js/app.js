@@ -278,7 +278,7 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
   });
 
   /* a tile: the picture, the name, one line, Read more */
-  const lineFor = (p) => { const w = arr(p.rows).find(r => r[0] === 'When'); return [w ? w[1] : '', p.area || (p.miles != null ? `${p.miles} mi from the hotel` : '')].filter(Boolean).join(' · '); };
+  const lineFor = (p) => { const w = arr(p.rows).find(r => r[0] === 'When'); const near = p.miles != null && p.miles <= 0.8 ? `about ${Math.max(5, Math.round(p.miles * 1.3 * 20 / 5) * 5)} min walk` : ''; return [w ? w[1] : '', p.area, near || (p.miles != null && !p.area ? `${p.miles} mi from the hotel` : '')].filter(Boolean).join(' · '); };
   const placeTile = (p) => tile({ img: p.image && p.image.src, cat: p.category, name: p.name, line: esc(lineFor(p)), open: `data-place="${esc(p.id)}"`, attrs: `data-id="${esc(p.id)}"${p.check ? ' data-check' : ''}` });
   function renderPlaces(cardId, ids, byDay) {
     const bd = body(cardId); if (!bd) return;
@@ -297,7 +297,7 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
     renderPlaces('shows-scene', c['shows-scene'], true);
     ['music-fri', 'music-sat', 'music-sun', 'music-free'].forEach(k => renderPlaces(k, c[k]));
     ['music-frenchmen', 'music-brass'].forEach(k => renderPlaces(k, c[k], true));
-    ['eat-morning', 'eat-lunch', 'eat-dinner', 'eat-late', 'drink-bars', 'eat-sweets', 'eat-events', 'see-halloween', 'see-saints', 'see-museums'].forEach(k => renderPlaces(k, c[k]));
+    ['music-near', 'eat-near', 'eat-bloody', 'drink-near', 'eat-morning', 'eat-lunch', 'eat-dinner', 'eat-late', 'drink-bars', 'eat-sweets', 'eat-events', 'see-halloween', 'see-saints', 'see-museums'].forEach(k => renderPlaces(k, c[k]));
     /* the walks: stops in order, the leg from the last stop above each, a stop opens its card */
     ['fri', 'sat'].forEach(k => { const wb = body('walk-' + k), W = N.walks && N.walks[k]; if (!wb || !W) return;
       wb.innerHTML = `<p class="walk-wx">${esc(W.weather)}</p><ol class="walk">${W.stops.map((s, i) => `<li>${s.leg ? `<p class="walk-leg">${esc(s.leg)}</p>` : ''}<span class="walk-n num">${i + 1}</span><div>${s.time ? `<p class="walk-t">${esc(s.time)}</p>` : ''}<h3>${s.place && P[s.place] ? `<button class="walk-go" type="button" data-place="${esc(s.place)}">${esc(s.name)}</button>` : esc(s.name)}</h3><p class="walk-a">${esc(String(s.address).replace(/,\s*New Orleans.*$/, ''))}</p><p>${esc(s.note)}${src(s.sources)}</p></div></li>`).join('')}</ol><p class="caption">${W.miles ? `About ${W.miles} miles on foot. ` : ''}Walking times are estimates. Tap a stop for its hours.</p><p class="links"><button class="link-pill" type="button" data-walk-map="${k}">${I.pin}See the walk on the map</button></p>`; });

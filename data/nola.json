@@ -7,6 +7,24 @@
    "napoleon-house",
    "pat-obriens"
   ],
+  "drink-near": [
+   "wine-institute-new-orleans",
+   "barrel-proof",
+   "polo-club-windsor-court",
+   "seaworthy",
+   "loa-bar",
+   "copper-vine"
+  ],
+  "eat-bloody": [
+   "ruby-slipper-cbd",
+   "willa-jean",
+   "daisy-dukes-chartres",
+   "mr-bs-bistro",
+   "cafe-amelie",
+   "commanders-palace",
+   "atchafalaya",
+   "elizabeths"
+  ],
   "eat-dinner": [
    "cochon-restaurant",
    "annunciation-restaurant",
@@ -46,6 +64,20 @@
    "commanders-palace",
    "atchafalaya"
   ],
+  "eat-near": [
+   "two-chicks-cafe-warehouse",
+   "mulates",
+   "lucys-retired-surfers-bar",
+   "st-james-cheese-warehouse",
+   "fulton-alley",
+   "gianna",
+   "seaworthy",
+   "luke",
+   "rouses-market-baronne",
+   "french-truck-coffee-canal",
+   "copper-vine",
+   "domenica"
+  ],
   "eat-sweets": [
    "cafe-du-monde-riverwalk",
    "cafe-du-monde-french-market"
@@ -82,6 +114,11 @@
    "gasa-low-cut-connie-oct30",
    "tips-soul-rebels-oct30",
    "howlin-wolf-saint-social-oct30"
+  ],
+  "music-near": [
+   "howlin-wolf",
+   "republic-nola",
+   "commons-club-virgin"
   ],
   "music-sat": [
    "wsp-night-2",

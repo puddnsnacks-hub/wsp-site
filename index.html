@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="assets/css/layer.css">
 <link rel="stylesheet" href="assets/css/reverse.css">
 <link rel="stylesheet" href="assets/css/timeline.css">
-<link rel="stylesheet" href="assets/css/nola.css?v=7">
+<link rel="stylesheet" href="assets/css/nola.css?v=8">
 <script>document.documentElement.setAttribute("data-theme","light");</script>
 </head>
 <body>
@@ -52,7 +52,7 @@
   <div class="mega" id="mega" role="dialog" aria-modal="true" aria-label="Menu" hidden>
     <div class="mega-inner">
       <div class="mega-top"><span class="mega-label">Menu</span><button class="mega-close" type="button" aria-label="Close the menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
-      <ul class="mega-cats"><li><a class="mega-cat" href="#scene-shows" data-chapter-link="shows" style="--chip: var(--chip-shows)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">The shows</span><span class="mega-d">Your bus, two nights of Panic, and the late ones after</span></a></li><li><a class="mega-cat" href="#scene-music" data-chapter-link="music" style="--chip: var(--chip-music)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Halloween weekend</span><span class="mega-d">What&#x27;s playing, night by night</span></a></li><li><a class="mega-cat" href="#scene-eat" data-chapter-link="eat" style="--chip: var(--chip-eat)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Eat and drink</span><span class="mega-d">Mornings after, po&#x27; boys, Creole dinners and late nights</span></a></li><li><a class="mega-cat" href="#scene-see" data-chapter-link="see" style="--chip: var(--chip-see)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Halloween and All Saints</span><span class="mega-d">Parties, cemeteries, and the museums next door</span></a></li><li><a class="mega-cat" href="#scene-walk" data-chapter-link="walk" style="--chip: var(--chip-walk)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">The walks</span><span class="mega-d">Today and tomorrow, until the bus</span></a></li><li><a class="mega-cat" href="#scene-around" data-chapter-link="around" style="--chip: var(--chip-around)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Getting around</span><span class="mega-d">The hotel, streetcars, late nights, the map, the weather</span></a></li></ul>
+      <ul class="mega-cats"><li><a class="mega-cat" href="#scene-shows" data-chapter-link="shows" style="--chip: var(--chip-shows)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">The shows</span><span class="mega-d">Your bus, two nights of Panic, and the late ones after</span></a></li><li><a class="mega-cat" href="#scene-music" data-chapter-link="music" style="--chip: var(--chip-music)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Halloween weekend</span><span class="mega-d">What&#x27;s playing, night by night</span></a></li><li><a class="mega-cat" href="#scene-eat" data-chapter-link="eat" style="--chip: var(--chip-eat)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Eat and drink</span><span class="mega-d">Close to the hotel, Bloody Marys, po&#x27; boys, Creole dinners and late nights</span></a></li><li><a class="mega-cat" href="#scene-see" data-chapter-link="see" style="--chip: var(--chip-see)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Halloween and All Saints</span><span class="mega-d">Parties, cemeteries, and the museums next door</span></a></li><li><a class="mega-cat" href="#scene-walk" data-chapter-link="walk" style="--chip: var(--chip-walk)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">The walks</span><span class="mega-d">Today and tomorrow, until the bus</span></a></li><li><a class="mega-cat" href="#scene-around" data-chapter-link="around" style="--chip: var(--chip-around)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Getting around</span><span class="mega-d">The hotel, streetcars, late nights, the map, the weather</span></a></li></ul>
       <ul class="mega-x"><li><a class="mega-xl" href="#top" data-x="top">Top of the page</a></li></ul>
     </div>
   </div>
@@ -83,6 +83,10 @@
     <div class="space space--gap" data-space="G1" data-next="music" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-gold-30)"></div>
     <div class="scene cat" id="scene-music" data-chapter="music" data-title="Halloween weekend" data-side="right">
     <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="music"><span class="strip strip--title">Halloween weekend</span><span class="cat-desc">What&#x27;s playing, night by night</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <section class="w" id="music-near" data-widget="music-near" aria-labelledby="music-near-h">
+      <header><div class="t"><span class="eyebrow">A short walk from the hotel</span><h2 id="music-near-h">Around the corner</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
     <section class="w" id="music-fri" data-widget="music-fri" aria-labelledby="music-fri-h">
       <header><div class="t"><span class="eyebrow">Friday, Oct 30</span><h2 id="music-fri-h">The big rooms</h2></div></header>
       <div class="body"><div class="pending-note">Loading</div></div>
@@ -110,7 +114,19 @@
     </div>
     <div class="space space--gap" data-space="G2" data-next="eat" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-teal-90)"></div>
     <div class="scene cat" id="scene-eat" data-chapter="eat" data-title="Eat and drink" data-side="left">
-    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="eat"><span class="strip strip--title">Eat and drink</span><span class="cat-desc">Mornings after, po&#x27; boys, Creole dinners and late nights</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="eat"><span class="strip strip--title">Eat and drink</span><span class="cat-desc">Close to the hotel, Bloody Marys, po&#x27; boys, Creole dinners and late nights</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <section class="w" id="eat-near" data-widget="eat-near" aria-labelledby="eat-near-h">
+      <header><div class="t"><span class="eyebrow">A short walk from the hotel</span><h2 id="eat-near-h">Close to home</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w" id="eat-bloody" data-widget="eat-bloody" aria-labelledby="eat-bloody-h">
+      <header><div class="t"><span class="eyebrow">Bloody Marys</span><h2 id="eat-bloody-h">Bloody good</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w" id="drink-near" data-widget="drink-near" aria-labelledby="drink-near-h">
+      <header><div class="t"><span class="eyebrow">Bars a short walk from the hotel</span><h2 id="drink-near-h">Nightcap, nearby</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
     <section class="w" id="eat-morning" data-widget="eat-morning" aria-labelledby="eat-morning-h">
       <header><div class="t"><span class="eyebrow">Breakfast and brunch</span><h2 id="eat-morning-h">The morning after</h2></div></header>
       <div class="body"><div class="pending-note">Loading</div></div>
@@ -186,7 +202,7 @@
     <section class="w" id="map" data-widget="map" aria-labelledby="map-h">
       <header><div class="t"><span class="eyebrow">The map</span><h2 id="map-h">Every pin, both walks</h2></div><div class="act"><button class="btn btn--sm" id="locate-btn">Where am I?</button></div></header>
       <div class="body flush">
-        <div class="map-cities" id="map-cities" role="group" aria-label="Show part of town"><button class="chip" type="button" data-city="all" aria-pressed="false">Downtown</button><button class="chip" type="button" data-city="quarter" aria-pressed="false">The Quarter</button><button class="chip" type="button" data-city="uptown" aria-pressed="false">Uptown</button><button class="chip" type="button" data-city="lake" aria-pressed="false">The lake</button></div>
+        <div class="map-cities" id="map-cities" role="group" aria-label="Show part of town"><button class="chip" type="button" data-city="home" aria-pressed="false">Home base</button><button class="chip" type="button" data-city="all" aria-pressed="false">Downtown</button><button class="chip" type="button" data-city="quarter" aria-pressed="false">The Quarter</button><button class="chip" type="button" data-city="uptown" aria-pressed="false">Uptown</button><button class="chip" type="button" data-city="lake" aria-pressed="false">The lake</button></div>
         <div class="map-filters map-walks" id="map-walks" role="group" aria-label="Show a walk"></div>
         <div class="map-filters" id="map-filters" role="group" aria-label="Filter pins"></div>
         <div class="map-wrap" id="map-wrap"><div id="leaflet-map" aria-label="Map of every place in the guide"></div><button class="map-lock" id="map-lock" aria-pressed="true"><span>Tap to unlock the map</span></button></div>
@@ -225,8 +241,8 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="assets/js/icons.js?v=4"></script>
 <script src="assets/js/weather.js?v=3"></script>
-<script src="assets/js/map.js?v=3"></script>
+<script src="assets/js/map.js?v=5"></script>
 <script src="assets/js/shell.js?v=1"></script>
-<script src="assets/js/app.js?v=5"></script>
+<script src="assets/js/app.js?v=6"></script>
 </body>
 </html>
