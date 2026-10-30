@@ -1,23 +1,18 @@
 /* Map: Leaflet + OpenStreetMap tiles. Pins colored by category; tap → detail sheet.
-   Expects WSP.locations (array of Location objects) and optional WSP.closurePolygon. */
+   Expects WSP.locations (array of Location objects) and the id of the city to open on. */
 window.WSP = window.WSP || {};
 WSP.map = (function () {
-  const CENTER = [43.0389, -87.9100];
   const CATS = {
-    'venue':       { label: 'Venue',        glyph: '♪' },
-    'hotel':       { label: 'Hotel',        glyph: 'H' },
-    'stage':       { label: 'Live music',   glyph: '♫' },
-    'closure':     { label: 'Street party', glyph: '✦' },
-    'watch-party': { label: 'Watch the game', glyph: 'W' },
-    'restaurant':  { label: 'Eat',          glyph: 'E' },
-    'street-food': { label: 'Street food',  glyph: 'S' },
-    'bar':         { label: 'Drink',        glyph: 'D' },
-    'bloody':      { label: 'Bloody Marys',  glyph: 'B' },
-    'happy-hour':  { label: 'Happy hour',    glyph: '$' },
-    'laverne':     { label: 'Laverne & Shirley', glyph: 'L' },
-    'landmark':    { label: 'See',          glyph: '●' },
-    'practical':   { label: 'Practical',    glyph: '+' },
+    'panic':     { label: 'Panic',        glyph: 'P' },
+    'music':     { label: 'Music',        glyph: '♫' },
+    'food':      { label: 'Food',         glyph: 'F' },
+    'drink':     { label: 'Drinks',       glyph: 'D' },
+    'art':       { label: 'Art',          glyph: 'A' },
+    'halloween': { label: 'Halloween and All Saints', glyph: 'H' },
+    'hotel':     { label: 'Your hotel',   glyph: '★' },
   };
+  /* New Orleans: the map opens on the hotel and the Quarter, the chips fly farther out */
+  const CITY_VIEWS = { all: [29.955, -90.075, 13], quarter: [29.955, -90.066, 15], uptown: [29.935, -90.105, 13], lake: [30.0, -90.06, 12] };
   let map, miniMap, layerByCat = {}, markersById = {}, active = new Set(Object.keys(CATS)), youMarker;
 
   function cssVar(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
@@ -27,24 +22,27 @@ WSP.map = (function () {
     return L.divIcon({ className: '', html: `<div class="pin" style="--c:${c};--ink:${ink}"><span>${(CATS[cat] || {}).glyph || '●'}</span></div>`, iconSize: [26, 26], iconAnchor: [13, 26], popupAnchor: [0, -24] });
   }
 
-  function init(locations, closurePolygon) {
+  function init(locations, cityId) {
     const el = document.getElementById('leaflet-map'); if (!el || typeof L === 'undefined') return;
-    map = L.map(el, { scrollWheelZoom: false, zoomControl: true, attributionControl: true }).setView(CENTER, 15);
+    const v = CITY_VIEWS[cityId] || CITY_VIEWS.all;
+    map = L.map(el, { scrollWheelZoom: false, zoomControl: true, attributionControl: true }).setView([v[0], v[1]], v[2]);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    if (closurePolygon && closurePolygon.length >= 3) {
-      L.polygon(closurePolygon, { color: cssVar('--wsp-closure-stroke'), fillColor: cssVar('--wsp-closure-stroke'), fillOpacity: .18, weight: 2, dashArray: '6 4' })
-        .addTo(map).bindTooltip('Street closed to cars', { sticky: true });
+    const cityBar = document.getElementById('map-cities');
+    if (cityBar) {
+      const set = (id) => cityBar.querySelectorAll('[data-city]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.city === id)));
+      set(CITY_VIEWS[cityId] ? cityId : 'all');
+      cityBar.addEventListener('click', (e) => { const b = e.target.closest('[data-city]'); if (!b) return; const w = CITY_VIEWS[b.dataset.city]; if (!w) return; set(b.dataset.city); map.closePopup(); map.flyTo([w[0], w[1]], w[2], { duration: .8 }); });
     }
 
     Object.keys(CATS).forEach(c => { layerByCat[c] = L.layerGroup().addTo(map); });
     locations.forEach(loc => {
       if (typeof loc.lat !== 'number' || typeof loc.lng !== 'number') return;
-      const cat = CATS[loc.category] ? loc.category : 'landmark';
+      const cat = CATS[loc.category] ? loc.category : 'nature';
       const m = L.marker([loc.lat, loc.lng], { icon: pinIcon(cat), title: loc.name, keyboard: false });
-      m.bindPopup(`<b>${esc(loc.name)}</b>${esc(loc.blurb ? loc.blurb.slice(0, 110) + (loc.blurb.length > 110 ? '…' : '') : '')}<br><a href="#" data-open="${esc(loc.id)}">Details</a> · <a href="${esc(loc.gmaps_url || gmapsFallback(loc))}" target="_blank" rel="noopener">Maps</a>`);
+      m.bindPopup(`<b>${esc(loc.name)}</b><br>${esc(loc.blurb ? loc.blurb.slice(0, 110) + (loc.blurb.length > 110 ? '…' : '') : '')}<br>${cat === 'airport' ? '' : `<a href="#" data-open="${esc(loc.id)}">Details</a> · `}<a href="${esc(loc.gmaps_url || gmapsFallback(loc))}" target="_blank" rel="noopener">Maps</a>`);
       m.on('popupopen', (e) => { const a = e.popup.getElement().querySelector('[data-open]'); if (a) a.addEventListener('click', (ev) => { ev.preventDefault(); WSP.sheet.openLocation(loc); }); });
       m.addTo(layerByCat[cat]); markersById[loc.id] = m;
     });
@@ -56,7 +54,7 @@ WSP.map = (function () {
 
   function renderFilters(locations) {
     const wrap = document.getElementById('map-filters'); if (!wrap) return;
-    const counts = {}; locations.forEach(l => { const c = CATS[l.category] ? l.category : 'landmark'; counts[c] = (counts[c] || 0) + 1; });
+    const counts = {}; locations.forEach(l => { const c = CATS[l.category] ? l.category : 'nature'; counts[c] = (counts[c] || 0) + 1; });
     wrap.innerHTML = `<button class="chip" data-cat="*" aria-pressed="true">All</button>` + Object.keys(CATS).filter(c => counts[c]).map(c =>
       `<button class="chip" data-cat="${c}" aria-pressed="true"><span class="dot" style="--c:var(--wsp-cat-${c})"></span>${CATS[c].label} <span class="muted num">${counts[c]}</span></button>`).join('');
     wrap.addEventListener('click', (e) => {
@@ -114,7 +112,7 @@ WSP.map = (function () {
   function refresh() { if (map) { map.invalidateSize(); } }
   function refreshMini() { if (miniMap) { miniMap.invalidateSize(); const b = miniMap._wspBounds; if (b) miniMap.fitBounds(b); } }
 
-  function gmapsFallback(loc) { return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((loc.name || '') + ' ' + (loc.address || 'Milwaukee WI'))}`; }
+  function gmapsFallback(loc) { return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((loc.name || '') + ' ' + (String(loc.address || '').split(/\.\s|\s\(/)[0] || loc.city || 'New Orleans'))}`; }
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 
   return { init, focus, mini, setInteractive, refresh, refreshMini, CATS, gmapsFallback };

@@ -5,7 +5,7 @@ window.WSP = window.WSP || {};
 WSP.shell = (function () {
   const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-  const store = { get(k, d) { try { const v = localStorage.getItem('wsp-' + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem('wsp-' + k, JSON.stringify(v)); } catch (e) {} } };
+  const store = { get(k, d) { try { const v = localStorage.getItem('nola-' + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem('nola-' + k, JSON.stringify(v)); } catch (e) {} } };
   const I = () => WSP.icons.ui;
   let notes = {}, welcome = null;
 
@@ -41,11 +41,11 @@ WSP.shell = (function () {
       const id = sec.id;
       const btn = document.createElement('button'); btn.className = 'w-toggle'; btn.type = 'button'; btn.setAttribute('aria-expanded', 'false'); btn.setAttribute('aria-controls', id + '-body');
       btn.innerHTML = `<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span>`;
-      t.parentNode.insertBefore(btn, t); btn.appendChild(t);
+      t.parentNode.insertBefore(btn, t); btn.insertBefore(t, btn.firstChild);   /* esp: the title first, the expand arrow on the right */
       const body = $(':scope > .body', sec); if (body) body.id = id + '-body';
       if (id !== 'updates') {
-        const star = document.createElement('button'); star.className = 'w-star'; star.type = 'button'; star.setAttribute('aria-pressed', 'false'); star.setAttribute('aria-label', 'Star this card'); star.title = 'Star this card';
-        star.innerHTML = I().star; header.appendChild(star);
+        const star = document.createElement('button'); star.className = 'w-star'; star.type = 'button'; star.setAttribute('aria-pressed', 'false'); star.setAttribute('aria-label', 'Favorite this card'); star.title = 'Favorite this card';
+        star.innerHTML = I().fav; header.insertBefore(star, header.firstChild);   /* esp: the star on the left, so every expand arrow sits on the right */
         star.addEventListener('click', (e) => { e.stopPropagation(); toggleStar(id); });
       }
       btn.addEventListener('click', () => { const opening = sec.hasAttribute('data-collapsed'); setOpen(sec, opening); if (!opening && !store.get('star-tip', 0) && sec.id !== 'updates') setTimeout(showCoach, 400); /* UX review: the tip waits until she has read and closed a card, so it never covers the answer */ });
@@ -145,7 +145,7 @@ WSP.shell = (function () {
   let starsOnly = false;
   function applyStars() {
     const s = stars(); const all = $$('main section.w');
-    all.forEach(sec => { const on = s.includes(sec.id); const b = $('.w-star', sec); if (b) { b.setAttribute('aria-pressed', String(on)); b.title = on ? 'Unstar' : 'Star this card'; } sec.classList.toggle('is-starred', on); });
+    all.forEach(sec => { const on = s.includes(sec.id); const b = $('.w-star', sec); if (b) { b.setAttribute('aria-pressed', String(on)); b.title = on ? 'Remove from favorites' : 'Favorite this card'; } sec.classList.toggle('is-starred', on); });
     if (starsOnly) collectStarred();
   }
   /* The star up top: on, only the starred cards (gathered on one page); off, everything where it lives. */
@@ -154,8 +154,8 @@ WSP.shell = (function () {
     const original = WSP.shell.order || (WSP.shell.order = $$('main section.w').map(x => x.id));
     original.forEach(id => { const el = document.getElementById(id); if (!el) return; if (!el.dataset.home) el.dataset.home = el.parentElement.id || ''; if (s.includes(id)) view.insertBefore(el, note); else if (el.parentElement === view) { const home = document.getElementById(el.dataset.home); if (home) home.appendChild(el); } });
     note.innerHTML = s.length
-      ? `<p>Hi Baby, every card you star lands here, in one place. Tap the star up top again and everything goes back where it was.</p>`
-      : `<p>Hi Baby, nothing starred yet. Tap the star on any card and it lands here.</p>`;
+      ? `<p>Every card you favorite lands here, in one place. Tap the star up top again and everything goes back where it was.</p>`
+      : `<p>Nothing starred yet. Tap the star on any card and it lands here.</p>`;
   }
   function setStarsOnly(on, opts = {}) {
     starsOnly = on; const btn = $('#star-filter'); if (btn) btn.setAttribute('aria-pressed', String(on));
@@ -171,7 +171,7 @@ WSP.shell = (function () {
   }
   let prevChapter = null;
   function wireStarFilter() {
-    const btn = $('#star-filter'); if (!btn) return; btn.innerHTML = I().star;
+    const btn = $('#star-filter'); if (!btn) return; btn.innerHTML = I().fav;
     btn.addEventListener('click', () => setStarsOnly(!starsOnly));
   }
 
@@ -197,15 +197,25 @@ WSP.shell = (function () {
     const b = $('[data-widget="updates"] .body'); if (!b) return;
     /* Michael, 2026-10-24 19:21: his own note stays pinned above the automatic ones; the newest automatic note stays open under it */
     const all = (u && u.updates) || [];
-    const items = all.filter(x => x.pin).concat(all.filter(x => !x.pin));
+    /* Snacks, 2026-10-28 08:30: a way to dismiss his note; remembered on this phone, and a newer note still shows */
+    const nkey = (x) => `${x.date || ''}|${x.title || ''}`;
+    const gone = store.get('dismissed-notes', []);
+    const items = all.filter(x => x.pin).concat(all.filter(x => !x.pin)).filter(x => !gone.includes(nkey(x)));
+    const home = document.getElementById('scene-home');
+    if (!items.length && all.length) { if (home) home.hidden = true; return; }
     const firstAuto = items.findIndex(x => !x.pin);
-    const greet = (t) => String(t).replace(/^Hey Baby\b/, 'Hi Baby');
-    const fmt = (iso) => { const d = new Date(iso); return isNaN(d) ? esc(iso) : d.toLocaleString('en-US', { weekday: 'short', hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' }); };
+    const greet = (t) => String(t);   /* Snacks: notes to Crystal open with "Hey Baby, " */
+    const fmt = (iso) => { const d = new Date(iso); return isNaN(d) ? esc(iso) : d.toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' }); };
     const seen0 = store.get('updates-seen', 0);
-    const row = (x, i) => `<article class="update${!x.pin && i !== firstAuto ? ' folded-item' : ''}${x.important ? ' important' : ''}"><div class="update-when">${fmt(x.date)}${(Date.parse(x.date) || 0) > seen0 ? ' <span class="update-new">New</span>' : ''}</div>${x.title ? `<h3>${esc(x.title)}</h3>` : ''}<div class="prose">${[].concat(x.body || []).map(p => `<p>${esc(greet(p))}</p>`).join('')}</div>${x.sign ? `<p class="update-sign">${esc(x.sign)}</p>` : ''}${x.link ? `<a class="link-pill" href="${esc(x.link)}"${/^#scene-[\w-]+$/.test(x.link) ? ` data-hero-go="${esc(x.link.slice(7))}"` : ''}>${I().link}${esc(x.link_label || 'Open')}</a>` : ''}</article>`;
-    b.innerHTML = (items.length ? items.map(row).join('') : '<p class="muted">Nothing yet. I will leave notes here as the weekend goes.</p>') +
+    const row = (x, i) => `<article class="update${!x.pin && i !== firstAuto ? ' folded-item' : ''}${x.important ? ' important' : ''}"><button class="btn btn--sm update-dismiss" type="button" data-note="${esc(nkey(x))}" aria-label="Dismiss this note">Dismiss</button><div class="update-when">${fmt(x.date)}${(Date.parse(x.date) || 0) > seen0 ? ' <span class="update-new">New</span>' : ''}</div>${x.title ? `<h3>${esc(x.title)}</h3>` : ''}<div class="prose">${[].concat(x.body || []).map(p => `<p>${esc(greet(p))}</p>`).join('')}</div>${x.sign ? `<p class="update-sign">${esc(x.sign)}</p>` : ''}${x.link ? `<a class="link-pill" href="${esc(x.link)}"${/^#scene-[\w-]+$/.test(x.link) ? ` data-hero-go="${esc(x.link.slice(7))}"` : ''}>${I().link}${esc(x.link_label || 'Open')}</a>` : ''}</article>`;
+    b.innerHTML = (items.length ? items.map(row).join('') : '<p class="muted">Nothing yet. I will leave notes here as the trip goes.</p>') +
       (items.filter((x, i) => !x.pin && i !== firstAuto).length ? `<button class="btn btn--sm letter-more" type="button" id="updates-more" aria-expanded="false">Earlier notes (${items.filter((x, i) => !x.pin && i !== firstAuto).length})</button>` : '') +
-      `<p class="caption"><a href="#top" id="welcome-again-2">Read the welcome again</a></p>`;
+      (welcome ? `<p class="caption"><a href="#top" id="welcome-again-2">Read the welcome again</a></p>` : '');
+    $$('.update-dismiss', b).forEach(btn => btn.addEventListener('click', () => {
+      store.set('dismissed-notes', store.get('dismissed-notes', []).concat(btn.dataset.note));
+      const art = btn.closest('.update'); if (art) art.remove();
+      if (!$('.update', b) && home) home.hidden = true;
+    }));
     const more = $('#updates-more'); if (more) more.addEventListener('click', () => { $$('.folded-item', b).forEach(x => x.classList.remove('folded-item')); more.remove(); });
     const seen = store.get('updates-seen', 0); const newest = Math.max(0, ...items.map(x => Date.parse(x.date) || 0));
     // the letter is open, so being on the page is reading it: the New mark shows this visit, then clears
