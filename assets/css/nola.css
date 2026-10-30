@@ -519,3 +519,28 @@ body.stars-only .space--gap { display: none; }
 .walk-pin { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--c); color: #fff; border: 3px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.45); font: 700 14px/1 var(--pds-font-sans); }
 .walk-pin--start { font-size: 15px; }
 .map-walks { padding-bottom: 0; }
+
+/* ---------- The map, its own chapter ---------- */
+.scene[data-chapter="map"]      { --ground: var(--wsp-green-40); --c-title: var(--wsp-teal-80); --c-shadow: var(--wsp-gold-30);
+  --c-w1: var(--wsp-teal-80); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-black); --c-w2-ink: var(--wsp-paper-5); }
+#scene-map { --lab-ink: var(--wsp-green-60); clip-path: polygon(0 calc(var(--c) * .4), 58% calc(var(--c) * 1.1), 100% 0, 100% calc(100% - var(--c) * .6), 0 100%); }
+#scene-map .cat-desc { color: var(--wsp-ink-90); }
+:root { --chip-map: var(--wsp-green-40); }
+
+/* ---------- Hero: the folded map, in the space right of the buttons ---------- */
+.hero2 .h2-map { position: absolute; left: calc(var(--u) * 266); top: calc(var(--u) * 300); width: calc(var(--u) * 106);
+  display: grid; justify-items: center; row-gap: calc(var(--u) * 6); text-decoration: none; color: var(--wsp-paper-5);
+  transform: rotate(4deg); transition: transform .2s ease; }
+.hero2 .h2-map:hover, .hero2 .h2-map:focus-visible { transform: rotate(0deg) scale(1.04); }
+.hero2 .h2-map:focus-visible { outline: 3px solid var(--wsp-gold-30); outline-offset: 4px; }
+.h2-map-art { width: 100%; height: auto; filter: drop-shadow(calc(var(--u) * 5) calc(var(--u) * 5) 0 var(--wsp-black)); }
+.h2-map-art .mf1 { fill: var(--wsp-paper-5); }
+.h2-map-art .mf2 { fill: var(--wsp-paper-10); }
+.h2-map-art .mst { fill: none; stroke: var(--wsp-gold-30); stroke-width: 2.4; }
+.h2-map-art .mri { fill: none; stroke: var(--wsp-green-40); stroke-width: 5; stroke-linecap: round; }
+.h2-map-art .mwk { fill: none; stroke: var(--wsp-teal-60); stroke-width: 3.4; stroke-dasharray: 5 4; stroke-linecap: round; stroke-linejoin: round; }
+.h2-map-art .mstar { fill: var(--wsp-orange-50); stroke: var(--wsp-black); stroke-width: 1; }
+.h2-map-art .mpin { fill: var(--wsp-green-60); stroke: var(--wsp-paper-5); stroke-width: 2; }
+.h2-map-t { font: 400 max(17px, calc(var(--u) * 20))/1.1 "Francois One", var(--pds-font-sans); letter-spacing: .02em;
+  background: var(--wsp-gold-30); color: var(--wsp-teal-80); padding: calc(var(--u) * 4) calc(var(--u) * 12); min-height: 24px; }
+@media (prefers-reduced-motion: reduce) { .hero2 .h2-map { transition: none; } }

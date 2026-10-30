@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="assets/css/layer.css">
 <link rel="stylesheet" href="assets/css/reverse.css">
 <link rel="stylesheet" href="assets/css/timeline.css">
-<link rel="stylesheet" href="assets/css/nola.css?v=8">
+<link rel="stylesheet" href="assets/css/nola.css?v=9">
 <script>document.documentElement.setAttribute("data-theme","light");</script>
 </head>
 <body>
@@ -32,6 +32,18 @@
     <h1 class="h2-title"><span class="h2-w">NOLA</span> <span class="h2-mke">Oct 30 – Nov 1</span></h1>
     <nav class="h2-days" aria-label="The three days"><a class="h2-day" href="#music-fri" data-hero-go="music" data-hero-card="music-fri" data-from="2026-10-30" data-to="2026-10-30" data-d="fri"><span class="h2-code" aria-hidden="true">FRI</span><span class="h2-date" aria-hidden="true">Oct 30<span class="h2-state"></span></span><span class="visually-hidden">Oct 30, what&#39;s playing</span></a><a class="h2-day" href="#music-sat" data-hero-go="music" data-hero-card="music-sat" data-from="2026-10-31" data-to="2026-10-31" data-d="sat"><span class="h2-code" aria-hidden="true">SAT</span><span class="h2-date" aria-hidden="true">Oct 31<span class="h2-state"></span></span><span class="visually-hidden">Oct 31, what&#39;s playing</span></a><a class="h2-day" href="#music-sun" data-hero-go="music" data-hero-card="music-sun" data-from="2026-11-01" data-to="2026-11-01" data-d="sun"><span class="h2-code" aria-hidden="true">SUN</span><span class="h2-date" aria-hidden="true">Nov 1<span class="h2-state"></span></span><span class="visually-hidden">Nov 1, what&#39;s playing</span></a></nav>
     <nav class="h2-go" aria-label="Featured"><a class="h2-btn h2-btn--1" href="#walk-fri" data-hero-go="walk" data-hero-card="walk-fri"><span>The walks</span></a><a class="h2-btn h2-btn--2" href="#shows-bus" data-hero-go="shows" data-hero-card="shows-bus"><span>Your bus</span></a><a class="h2-btn h2-btn--3" href="#eat-late" data-hero-go="eat" data-hero-card="eat-late"><span>Late-night eats</span></a></nav>
+    <a class="h2-map" href="#map" data-hero-go="map" data-hero-card="map">
+      <svg class="h2-map-art" viewBox="0 0 100 110" aria-hidden="true">
+        <path class="mf1" d="M4 10 L34 4 L66 12 L96 6 L96 100 L66 106 L34 98 L4 104 Z"/>
+        <path class="mf2" d="M34 4 L66 12 L66 106 L34 98 Z"/>
+        <path class="mst" d="M4 40 L96 34 M4 72 L96 66 M20 8 L22 102 M80 8 L82 104"/>
+        <path class="mri" d="M4 88 C30 80 46 96 66 84 S90 78 96 82"/>
+        <path class="mwk" d="M24 24 L50 22 L52 54 L76 50 L78 78"/>
+        <path class="mstar" d="M24 15.5 l2.4 5 5.5.7 -4 3.8 1 5.4 -4.9 -2.6 -4.9 2.6 1 -5.4 -4 -3.8 5.5 -.7 Z"/>
+        <circle class="mpin" cx="78" cy="78" r="5"/>
+      </svg>
+      <span class="h2-map-t">The map</span>
+    </a>
     <a class="temp-pill" href="#weather" id="temp-pill" data-hero-go="around" data-hero-card="weather">
         <svg id="temp-icon" viewBox="0 0 24 24" aria-hidden="true"></svg>
         <span class="t num" id="temp-now"></span>
@@ -52,7 +64,7 @@
   <div class="mega" id="mega" role="dialog" aria-modal="true" aria-label="Menu" hidden>
     <div class="mega-inner">
       <div class="mega-top"><span class="mega-label">Menu</span><button class="mega-close" type="button" aria-label="Close the menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
-      <ul class="mega-cats"><li><a class="mega-cat" href="#scene-shows" data-chapter-link="shows" style="--chip: var(--chip-shows)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">The shows</span><span class="mega-d">Your bus, two nights of Panic, and the late ones after</span></a></li><li><a class="mega-cat" href="#scene-music" data-chapter-link="music" style="--chip: var(--chip-music)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Halloween weekend</span><span class="mega-d">What&#x27;s playing, night by night</span></a></li><li><a class="mega-cat" href="#scene-eat" data-chapter-link="eat" style="--chip: var(--chip-eat)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Eat and drink</span><span class="mega-d">Close to the hotel, Bloody Marys, po&#x27; boys, Creole dinners and late nights</span></a></li><li><a class="mega-cat" href="#scene-see" data-chapter-link="see" style="--chip: var(--chip-see)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Halloween and All Saints</span><span class="mega-d">Parties, cemeteries, and the museums next door</span></a></li><li><a class="mega-cat" href="#scene-walk" data-chapter-link="walk" style="--chip: var(--chip-walk)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">The walks</span><span class="mega-d">Today and tomorrow, until the bus</span></a></li><li><a class="mega-cat" href="#scene-around" data-chapter-link="around" style="--chip: var(--chip-around)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Getting around</span><span class="mega-d">The hotel, streetcars, late nights, the map, the weather</span></a></li></ul>
+      <ul class="mega-cats"><li><a class="mega-cat" href="#scene-shows" data-chapter-link="shows" style="--chip: var(--chip-shows)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">The shows</span><span class="mega-d">Your bus, two nights of Panic, and the late ones after</span></a></li><li><a class="mega-cat" href="#scene-music" data-chapter-link="music" style="--chip: var(--chip-music)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Halloween weekend</span><span class="mega-d">What&#x27;s playing, night by night</span></a></li><li><a class="mega-cat" href="#scene-eat" data-chapter-link="eat" style="--chip: var(--chip-eat)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Eat and drink</span><span class="mega-d">Close to the hotel, Bloody Marys, po&#x27; boys, Creole dinners and late nights</span></a></li><li><a class="mega-cat" href="#scene-see" data-chapter-link="see" style="--chip: var(--chip-see)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Halloween and All Saints</span><span class="mega-d">Parties, cemeteries, and the museums next door</span></a></li><li><a class="mega-cat" href="#scene-walk" data-chapter-link="walk" style="--chip: var(--chip-walk)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">The walks</span><span class="mega-d">Today and tomorrow, until the bus</span></a></li><li><a class="mega-cat" href="#scene-map" data-chapter-link="map" style="--chip: var(--chip-map)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">The map</span><span class="mega-d">Every pin, both walks, home base</span></a></li><li><a class="mega-cat" href="#scene-around" data-chapter-link="around" style="--chip: var(--chip-around)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Getting around</span><span class="mega-d">The hotel, streetcars, late nights, the weather</span></a></li></ul>
       <ul class="mega-x"><li><a class="mega-xl" href="#top" data-x="top">Top of the page</a></li></ul>
     </div>
   </div>
@@ -184,9 +196,23 @@
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
     </div>
-    <div class="space space--gap" data-space="G5" data-next="around" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-gold-30)"></div>
+    <div class="space space--gap" data-space="G5" data-next="map" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-gold-30)"></div>
+    <div class="scene cat" id="scene-map" data-chapter="map" data-title="The map" data-side="left">
+    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="map"><span class="strip strip--title">The map</span><span class="cat-desc">Every pin, both walks, and home base</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <section class="w" id="map" data-widget="map" aria-labelledby="map-h">
+      <header><div class="t"><span class="eyebrow">The map</span><h2 id="map-h">Every pin, both walks</h2></div><div class="act"><button class="btn btn--sm" id="locate-btn">Where am I?</button></div></header>
+      <div class="body flush">
+        <div class="map-cities" id="map-cities" role="group" aria-label="Show part of town"><button class="chip" type="button" data-city="home" aria-pressed="false">Home base</button><button class="chip" type="button" data-city="all" aria-pressed="false">Downtown</button><button class="chip" type="button" data-city="quarter" aria-pressed="false">The Quarter</button><button class="chip" type="button" data-city="uptown" aria-pressed="false">Uptown</button><button class="chip" type="button" data-city="lake" aria-pressed="false">The lake</button></div>
+        <div class="map-filters map-walks" id="map-walks" role="group" aria-label="Show a walk"></div>
+        <div class="map-filters" id="map-filters" role="group" aria-label="Filter pins"></div>
+        <div class="map-wrap" id="map-wrap"><div id="leaflet-map" aria-label="Map of every place in the guide"></div><button class="map-lock" id="map-lock" aria-pressed="true"><span>Tap to unlock the map</span></button></div>
+        <p class="caption map-note">Pins sit at each street address. The address in each card is the one to trust.</p>
+      </div>
+    </section>
+    </div>
+    <div class="space space--gap" data-space="G6" data-next="around" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-orange-40)"></div>
     <div class="scene cat" id="scene-around" data-chapter="around" data-title="Getting around" data-side="right">
-    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="around"><span class="strip strip--title">Getting around</span><span class="cat-desc">The hotel, streetcars and cabs, late nights, the map and the weather</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="around"><span class="strip strip--title">Getting around</span><span class="cat-desc">The hotel, streetcars and cabs, late nights and the weather</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
     <section class="w" id="around-hotel" data-widget="around-hotel" aria-labelledby="around-hotel-h">
       <header><div class="t"><span class="eyebrow">SpringHill Suites · 301 St Joseph St</span><h2 id="around-hotel-h">Home base</h2></div></header>
       <div class="body"><div class="pending-note">Loading</div></div>
@@ -198,16 +224,6 @@
     <section class="w w--half" id="around-night" data-widget="around-night" aria-labelledby="around-night-h">
       <header><div class="t"><span class="eyebrow">After dark</span><h2 id="around-night-h">Home safe</h2></div></header>
       <div class="body"><div class="pending-note">Loading</div></div>
-    </section>
-    <section class="w" id="map" data-widget="map" aria-labelledby="map-h">
-      <header><div class="t"><span class="eyebrow">The map</span><h2 id="map-h">Every pin, both walks</h2></div><div class="act"><button class="btn btn--sm" id="locate-btn">Where am I?</button></div></header>
-      <div class="body flush">
-        <div class="map-cities" id="map-cities" role="group" aria-label="Show part of town"><button class="chip" type="button" data-city="home" aria-pressed="false">Home base</button><button class="chip" type="button" data-city="all" aria-pressed="false">Downtown</button><button class="chip" type="button" data-city="quarter" aria-pressed="false">The Quarter</button><button class="chip" type="button" data-city="uptown" aria-pressed="false">Uptown</button><button class="chip" type="button" data-city="lake" aria-pressed="false">The lake</button></div>
-        <div class="map-filters map-walks" id="map-walks" role="group" aria-label="Show a walk"></div>
-        <div class="map-filters" id="map-filters" role="group" aria-label="Filter pins"></div>
-        <div class="map-wrap" id="map-wrap"><div id="leaflet-map" aria-label="Map of every place in the guide"></div><button class="map-lock" id="map-lock" aria-pressed="true"><span>Tap to unlock the map</span></button></div>
-        <p class="caption map-note">Pins sit at each street address. The address in each card is the one to trust.</p>
-      </div>
     </section>
     <section class="w w--half" id="weather" data-widget="weather" aria-labelledby="weather-h">
       <header><div class="t"><span class="eyebrow">Weather</span><h2 id="weather-h">Umbrella math</h2></div></header>
@@ -241,8 +257,8 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="assets/js/icons.js?v=4"></script>
 <script src="assets/js/weather.js?v=3"></script>
-<script src="assets/js/map.js?v=5"></script>
-<script src="assets/js/shell.js?v=1"></script>
+<script src="assets/js/map.js?v=6"></script>
+<script src="assets/js/shell.js?v=2"></script>
 <script src="assets/js/app.js?v=6"></script>
 </body>
 </html>

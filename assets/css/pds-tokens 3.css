@@ -1,0 +1,177 @@
+/*
+  PDS tokens — the puddnsnacks design system, as it exists today.
+  Ramps: Derby Teal (QR-Manager/site-redesign/ds/tokens.css). These are the
+  stand-in until the -b ramps land from the Figma file PDS_ColorRamps; swap
+  the --dt-* block and nothing else moves.
+  Type: the PDS set from Character Study (CharacterStudy/presets/pds.json):
+  Fraunces for display and headings, IBM Plex Sans for body and UI,
+  IBM Plex Mono for eyebrows and labels.
+
+  Load order: pds-tokens.css → theme-wsp.css → site.css
+  Components use the semantic --pds-* tokens only. Never the --dt-* ramps.
+*/
+
+:root {
+  /* ---------- Primitive ramps ---------- */
+  --dt-primary-5: #fff9f7;  --dt-primary-10: #fff4ef; --dt-primary-20: #f3d6c9; --dt-primary-30: #e4bba8;
+  --dt-primary-40: #ba8a73; --dt-primary-50: #8a5941; --dt-primary-60: #452f23; --dt-primary-70: #2f1f16;
+  --dt-primary-80: #2c180e; --dt-primary-90: #22140d;
+
+  --dt-vivid-5: #f7fdff;  --dt-vivid-10: #e7f8ff; --dt-vivid-20: #a5e1fa; --dt-vivid-30: #72d3f8;
+  --dt-vivid-40: #10b3e1; --dt-vivid-50: #007190; --dt-vivid-60: #005167; --dt-vivid-70: #003242;
+  --dt-vivid-80: #00232f; --dt-vivid-90: #001821;
+
+  --dt-accent-5: #fff8eb;  --dt-accent-10: #ffebc7; --dt-accent-15: #f5dbaa; --dt-accent-20: #eacd98;
+  --dt-accent-30: #ddbc84; --dt-accent-40: #c39c50; --dt-accent-50: #876208; --dt-accent-60: #634600;
+  --dt-accent-70: #412d00; --dt-accent-80: #312100; --dt-accent-90: #241800;
+
+  --dt-gray-0: #ffffff; --dt-gray-1: #fcfbfa; --dt-gray-3: #f7f5f3; --dt-gray-5: #f6f3ee;
+  --dt-gray-10: #eae3db; --dt-gray-20: #dcccbc; --dt-gray-30: #b9a694; --dt-gray-40: #958c81;
+  --dt-gray-50: #675f54; --dt-gray-60: #4c453c; --dt-gray-70: #3e3831; --dt-gray-80: #36312b;
+  --dt-gray-90: #26231f; --dt-gray-100: #000000;
+
+  /* Status (placeholder ladder, as in PDS; replaced when real status ramps arrive) */
+  --ph-green-10: #e6f4ea; --ph-green-50: #2e7d45; --ph-green-70: #1e5631;
+  --ph-green-dark-bg: #24402c; --ph-green-dark-icon: #7ccb91; --ph-green-dark-text: #b9e6c4;
+  --ph-red-10: #fdebe9; --ph-red-50: #b3261e; --ph-red-70: #7a1a14;
+  --ph-red-dark-bg: #46231f; --ph-red-dark-text: #f3b8b2;
+
+  /* ---------- Type (PDS roles) ---------- */
+  --pds-font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --pds-font-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --pds-font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --pds-display-axes: "SOFT" 100, "WONK" 1;
+
+  --pds-text-legal: 12px;  --pds-text-label: 12px; --pds-text-eyebrow: 13px; --pds-text-caption: 13px;
+  --pds-text-ui: 15px;     --pds-text-forms: 15px; --pds-text-body: 17px;
+  --pds-text-heading-sm: 22px; --pds-text-heading: 32px; --pds-text-display: clamp(40px, 8vw, 56px);
+  --pds-text-display-xl: clamp(56px, 12vw, 104px);
+
+  --pds-leading-display: 1.05; --pds-leading-heading: 1.2; --pds-leading-body: 1.55; --pds-leading-ui: 1.2;
+  --pds-tracking-eyebrow: .08em; --pds-tracking-display: -.01em; --pds-tracking-heading: -.005em;
+
+  /* ---------- Space (4px base) ---------- */
+  --pds-space-1: 2px; --pds-space-2: 4px; --pds-space-3: 6px; --pds-space-4: 8px; --pds-space-5: 10px;
+  --pds-space-6: 12px; --pds-space-8: 16px; --pds-space-10: 20px; --pds-space-12: 24px; --pds-space-16: 32px;
+  --pds-space-20: 40px; --pds-space-24: 48px; --pds-space-32: 64px;
+
+  /* ---------- Shape, size, motion ---------- */
+  --pds-radius: 0;            /* PDS is square-cornered */
+  --pds-radius-focus: 4px;
+  --pds-border-width: 1px;
+  --pds-focus-width: 2px;
+  --pds-control-md: 40px; --pds-control-touch: 44px; --pds-control-lg: 48px;
+  --pds-duration-fast: 120ms; --pds-duration-base: 200ms; --pds-ease: cubic-bezier(.2, 0, 0, 1);
+  --pds-scrim: rgba(38, 35, 31, .55);
+
+  /* ---------- Semantic: light ---------- */
+  color-scheme: light;
+  --pds-bg-canvas: var(--dt-gray-5);
+  --pds-bg-card: var(--dt-gray-0);
+  --pds-bg-surface: var(--dt-gray-3);
+  --pds-bg-sunken: var(--dt-gray-10);
+  --pds-bg-bar: var(--dt-gray-0);
+  --pds-bg-band: var(--dt-primary-70);     /* a dark band for headers, hero, footer */
+  --pds-bg-selected: var(--dt-gray-10);
+
+  --pds-border-subtle: var(--dt-gray-10);
+  --pds-border-control: var(--dt-gray-40);
+  --pds-border-strong: var(--dt-gray-60);
+
+  --pds-text-default: var(--dt-gray-60);
+  --pds-text-muted: var(--dt-gray-50);
+  --pds-text-strong: var(--dt-gray-90);
+  --pds-text-heading: var(--dt-primary-70);
+  --pds-text-eyebrow: var(--dt-gray-50);
+  --pds-text-link: var(--dt-vivid-60);
+  --pds-text-on-band: var(--dt-gray-5);
+  --pds-text-on-band-muted: var(--dt-gray-30);
+  --pds-text-mark-on-band: var(--dt-accent-20);
+
+  --pds-action-bg: var(--dt-vivid-60);
+  --pds-action-text: var(--dt-gray-0);
+  --pds-action-secondary-bg: var(--dt-gray-0);
+  --pds-action-secondary-text: var(--dt-gray-90);
+  --pds-action-outline: var(--dt-gray-50);
+
+  --pds-mark: var(--dt-accent-50);         /* identity marks: numerals, kickers */
+  --pds-focus-ring: var(--dt-vivid-50);
+  --pds-focus-halo: var(--dt-vivid-20);
+
+  --pds-status-open-bg: var(--ph-green-10); --pds-status-open-text: var(--ph-green-70); --pds-status-open-dot: var(--ph-green-50);
+  --pds-status-closed-bg: var(--ph-red-10); --pds-status-closed-text: var(--ph-red-70); --pds-status-closed-dot: var(--ph-red-50);
+  --pds-status-soon-bg: var(--dt-accent-10); --pds-status-soon-text: var(--dt-accent-70); --pds-status-soon-dot: var(--dt-accent-40);
+
+  --pds-notice-bg: var(--dt-accent-5); --pds-notice-edge: var(--dt-accent-40); --pds-notice-text: var(--dt-accent-70);
+
+  /* Map */
+  --pds-map-pin-edge: var(--dt-gray-0);
+}
+
+/* ---------- Semantic: dark ---------- */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --pds-bg-canvas: var(--dt-gray-90);
+    --pds-bg-card: var(--dt-gray-80);
+    --pds-bg-surface: var(--dt-gray-70);
+    --pds-bg-sunken: #1f1c18;
+    --pds-bg-bar: var(--dt-gray-90);
+    --pds-bg-band: var(--dt-primary-90);
+    --pds-bg-selected: #413b33;
+    --pds-border-subtle: var(--dt-gray-60);
+    --pds-border-control: var(--dt-gray-40);
+    --pds-border-strong: var(--dt-gray-30);
+    --pds-text-default: var(--dt-gray-20);
+    --pds-text-muted: var(--dt-gray-30);
+    --pds-text-strong: var(--dt-gray-3);
+    --pds-text-heading: var(--dt-accent-15);
+    --pds-text-eyebrow: var(--dt-gray-30);
+    --pds-text-link: var(--dt-vivid-30);
+    --pds-action-bg: var(--dt-vivid-30);
+    --pds-action-text: var(--dt-vivid-90);
+    --pds-action-secondary-bg: var(--dt-gray-80);
+    --pds-action-secondary-text: var(--dt-gray-3);
+    --pds-action-outline: var(--dt-gray-40);
+    --pds-mark: var(--dt-accent-20);
+    --pds-focus-ring: var(--dt-vivid-30);
+    --pds-focus-halo: var(--dt-vivid-60);
+    --pds-status-open-bg: var(--ph-green-dark-bg); --pds-status-open-text: var(--ph-green-dark-text); --pds-status-open-dot: var(--ph-green-dark-icon);
+    --pds-status-closed-bg: var(--ph-red-dark-bg); --pds-status-closed-text: var(--ph-red-dark-text); --pds-status-closed-dot: #e06c62;
+    --pds-status-soon-bg: var(--dt-accent-80); --pds-status-soon-text: var(--dt-accent-15); --pds-status-soon-dot: var(--dt-accent-30);
+    --pds-notice-bg: var(--dt-accent-90); --pds-notice-edge: var(--dt-accent-40); --pds-notice-text: var(--dt-accent-15);
+    --pds-map-pin-edge: var(--dt-gray-90);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --pds-bg-canvas: var(--dt-gray-90);
+  --pds-bg-card: var(--dt-gray-80);
+  --pds-bg-surface: var(--dt-gray-70);
+  --pds-bg-sunken: #1f1c18;
+  --pds-bg-bar: var(--dt-gray-90);
+  --pds-bg-band: var(--dt-primary-90);
+  --pds-bg-selected: #413b33;
+  --pds-border-subtle: var(--dt-gray-60);
+  --pds-border-control: var(--dt-gray-40);
+  --pds-border-strong: var(--dt-gray-30);
+  --pds-text-default: var(--dt-gray-20);
+  --pds-text-muted: var(--dt-gray-30);
+  --pds-text-strong: var(--dt-gray-3);
+  --pds-text-heading: var(--dt-accent-15);
+  --pds-text-eyebrow: var(--dt-gray-30);
+  --pds-text-link: var(--dt-vivid-30);
+  --pds-action-bg: var(--dt-vivid-30);
+  --pds-action-text: var(--dt-vivid-90);
+  --pds-action-secondary-bg: var(--dt-gray-80);
+  --pds-action-secondary-text: var(--dt-gray-3);
+  --pds-action-outline: var(--dt-gray-40);
+  --pds-mark: var(--dt-accent-20);
+  --pds-focus-ring: var(--dt-vivid-30);
+  --pds-focus-halo: var(--dt-vivid-60);
+  --pds-status-open-bg: var(--ph-green-dark-bg); --pds-status-open-text: var(--ph-green-dark-text); --pds-status-open-dot: var(--ph-green-dark-icon);
+  --pds-status-closed-bg: var(--ph-red-dark-bg); --pds-status-closed-text: var(--ph-red-dark-text); --pds-status-closed-dot: #e06c62;
+  --pds-status-soon-bg: var(--dt-accent-80); --pds-status-soon-text: var(--dt-accent-15); --pds-status-soon-dot: var(--dt-accent-30);
+  --pds-notice-bg: var(--dt-accent-90); --pds-notice-edge: var(--dt-accent-40); --pds-notice-text: var(--dt-accent-15);
+  --pds-map-pin-edge: var(--dt-gray-90);
+}

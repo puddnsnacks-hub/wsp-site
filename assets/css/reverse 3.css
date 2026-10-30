@@ -1,0 +1,340 @@
+/* reverse.css — the reversal (Michael, 2026-10-23 14:46 and 15:42).
+   The colored shapes are the categories and their widgets; the pictures are the spaces between them.
+   Categories run in his order, colored by the time of day, and every one starts collapsed. A collapsed
+   category and each collapsed widget carry a small picture tied to what is inside.
+   Flat ink, hard edges, no blends. Loaded after layer.css. */
+
+/* proposed light pinks for the Eat & drink breakfast end (Figma globals pink/20, pink/30; not yet in theme-wsp.css) */
+:root { --wsp-pink-20: #f4c4cf; --wsp-pink-30: #e98aa2; }
+
+/* ---------- No plain paper between shapes: every space brings its own ground ---------- */
+main { background: var(--wsp-ink-90); }
+
+/* ---------- Category colors, by the time of day ----------
+   --ground: the shape · --c-title / --c-shadow: the title and its second ink
+   --c-w1 / --c-w2: widget header colors, alternating · *-ink: text on that header · *-tag: the eyebrow tag on it */
+.scene[data-chapter] { --tag-bg: var(--wsp-paper-5); --tag-ink: var(--wsp-ink-90); }
+.scene[data-chapter="home"]   { --ground: var(--wsp-gold-30);  --c-title: var(--wsp-teal-80); --c-shadow: var(--wsp-orange-50);
+  --c-w1: var(--wsp-teal-80); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-teal-80); --c-w2-ink: var(--wsp-paper-5);
+  --peek-bg: var(--wsp-teal-80); --peek-ink: var(--wsp-paper-5); }
+.scene[data-chapter="shows"]  { --ground: var(--wsp-orange-50); --c-title: var(--wsp-paper-5); --c-shadow: var(--wsp-teal-80);
+  --c-w1: var(--wsp-teal-80); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-orange-60); --c-w2-ink: var(--wsp-paper-5); }
+.scene[data-chapter="after"]  { --ground: var(--wsp-ink-90); --c-title: var(--wsp-gold-30); --c-shadow: var(--wsp-pink-60);
+  --c-w1: var(--wsp-pink-60); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-gold-60); --c-w2-ink: var(--wsp-paper-5); }
+.scene[data-chapter="eat"]    { --ground: var(--wsp-pink-60); --c-title: var(--wsp-paper-5); --c-shadow: var(--wsp-gold-30);
+  --c-w1: var(--wsp-pink-20); --c-w1-ink: var(--wsp-ink-90); --c-w1-tag: dark; --c-w2: var(--wsp-gold-30); --c-w2-ink: var(--wsp-ink-90); }
+.scene[data-chapter="street"] { --ground: var(--wsp-paper-5); --c-title: var(--wsp-teal-50); --c-shadow: var(--wsp-teal-30);
+  --c-w1: var(--wsp-teal-50); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-ink-90); --c-w2-ink: var(--wsp-paper-5);
+  --peek-bg: var(--wsp-ink-90); --peek-ink: var(--wsp-paper-5); }
+.scene[data-chapter="around"] { --ground: var(--wsp-teal-20); --c-title: var(--wsp-green-60); --c-shadow: var(--wsp-paper-5);
+  --c-w1: var(--wsp-green-60); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-teal-80); --c-w2-ink: var(--wsp-paper-5); }
+.scene[data-chapter="ball"]   { --ground: var(--wsp-teal-50); --c-title: var(--wsp-paper-5); --c-shadow: var(--wsp-gold-60);
+  --c-w1: var(--wsp-gold-60); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-green-50); --c-w2-ink: var(--wsp-paper-5); }
+.scene[data-chapter="mke"]    { --ground: var(--wsp-pink-60); --c-title: var(--wsp-paper-5); --c-shadow: var(--wsp-ink-90);
+  --c-w1: var(--wsp-ink-90); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-paper-5); --c-w2-ink: var(--wsp-ink-90); }
+
+/* ======================================================================
+   Layout (calm pass, Michael 2026-10-24 00:42–00:50). Categories are full-bleed colored shapes with their own
+   cuts. Between every two of them is one picture, a full stop that carries one category into the next; the
+   pictures keep one steady height, so the page has a rhythm to rest on. Each category head is a raised label:
+   a paper slip on the category's color, lifted by a hard ink edge, with the name, a plain description and
+   a round arrow. One display face (lighter weight, no shadows) and one sans face; nothing else on the shapes.
+   ====================================================================== */
+:root { --pm: var(--wsp-page-margin); }
+main { max-width: none; }
+main > .grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; align-items: start; }
+main > .grid > * { grid-column: 1 / -1; min-width: 0; margin-left: calc(-1 * var(--pm)); margin-right: calc(-1 * var(--pm)); }
+
+/* ---------- The category shape ---------- */
+.scene.cat { --cut: clamp(18px, 6vw, 44px); --c: var(--cut); --wsp-misreg: var(--c-shadow);
+  position: relative; z-index: 1; background: var(--ground); color: var(--wsp-ink-90); align-self: start;
+  padding: calc(var(--cut) + 22px) var(--pm) calc(var(--cut) * 1.3 + 26px); }
+.scene.cat::before { display: none; }
+.scene.cat.is-on { padding-bottom: calc(var(--cut) * 1.3 + 64px); }
+.scene.cat > .scene-head { min-height: 0; display: block; padding: 0; width: 100%; max-width: 560px; justify-self: start; }
+.scene.cat[data-side="right"] > .scene-head { justify-self: end; }
+.scene.cat > .w { width: 100%; max-width: 760px; justify-self: center; }
+
+/* ---------- The head: a raised label ---------- */
+.cat-btn { all: unset; box-sizing: border-box; width: 100%; cursor: pointer; display: grid;
+  grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "title chev" "desc chev"; column-gap: 16px; row-gap: 6px; align-items: center;
+  padding: 16px 18px 17px 20px; background: var(--lab-bg, var(--wsp-paper-5)); color: var(--wsp-ink-90);
+  border: 2px solid var(--wsp-ink-90); box-shadow: 7px 7px 0 0 var(--wsp-ink-90);
+  transform: rotate(var(--lab-r, -1.2deg)); transition: transform .14s var(--pds-ease), box-shadow .14s var(--pds-ease); }
+.scene.cat[data-side="right"] .cat-btn { --lab-r: 1deg; }
+.cat-btn:hover { transform: rotate(var(--lab-r, -1.2deg)) translate(-2px, -2px); box-shadow: 9px 9px 0 0 var(--wsp-ink-90); }
+.cat-btn:active { transform: rotate(var(--lab-r, -1.2deg)) translate(4px, 4px); box-shadow: 3px 3px 0 0 var(--wsp-ink-90); }
+.cat-btn:focus-visible { outline: 3px solid var(--wsp-ink-90); outline-offset: 5px; }
+.scene.cat .cat-btn .strip--title { grid-area: title; justify-self: start; max-width: 100%;
+  background: none; clip-path: none; box-shadow: none; padding: 0; margin: 0; transform: none;
+  color: var(--lab-ink, var(--wsp-ink-90)); text-shadow: none; font-family: var(--pds-font-display); font-weight: 560;
+  font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 144; letter-spacing: -.01em; font-size: clamp(32px, 9vw, 52px); line-height: 1; text-wrap: balance; }
+.cat-desc { grid-area: desc; font: 400 16px/1.35 var(--pds-font-sans); color: var(--wsp-ink-70); text-wrap: pretty; }
+.cat-chev { grid-area: chev; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--lab-ink, var(--wsp-ink-90)); color: var(--wsp-paper-5); }
+.cat-chev .chev { width: 22px; height: 22px; margin: 0; transition: transform var(--pds-duration-base) var(--pds-ease); }
+.cat-btn[aria-expanded="true"] .cat-chev .chev { transform: rotate(180deg); }
+.scene.cat.is-on .cat-btn { --lab-r: 0deg; }
+
+/* Each label takes its ink from its category; the shape around it keeps its own cut */
+#scene-home   { --lab-ink: var(--wsp-teal-80); padding-top: calc(var(--cut) + 64px);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--c) * 1.2), 0 100%); }
+#scene-shows  { --lab-ink: var(--wsp-teal-80);
+  clip-path: polygon(0 var(--c), 100% 0, 100% calc(100% - var(--c) * 1.3), 0 calc(100% - var(--c) * .2)); }
+#scene-after  { --lab-ink: var(--wsp-ink-90); --lab-bg: var(--wsp-gold-30);
+  clip-path: polygon(0 calc(var(--c) * 1.4), 100% 0, 100% 100%, 0 calc(100% - var(--c) * .6)); }
+#scene-eat    { --lab-ink: var(--wsp-pink-60);
+  clip-path: polygon(0 calc(var(--c) * 1.2), 34% 0, 100% calc(var(--c) * .5), 100% 100%, 0 calc(100% - var(--c) * .8)); }
+#scene-street { --lab-ink: var(--wsp-teal-70);
+  clip-path: polygon(0 calc(var(--c) * .3), 100% var(--c), 100% calc(100% - var(--c) * .7), 52% 100%, 0 calc(100% - var(--c) * .7)); }
+#scene-around { --lab-ink: var(--wsp-green-60);
+  clip-path: polygon(0 0, 47% calc(var(--c) * .85), 100% calc(var(--c) * .2), 100% calc(100% - var(--c) * 1.1), 0 100%); }
+#scene-ball   { --lab-ink: var(--wsp-teal-70);
+  clip-path: polygon(0 calc(var(--c) * .5), 100% 0, 100% calc(100% - var(--c) * 1.2), 50% 100%, 0 calc(100% - var(--c) * 1.2)); }
+#scene-mke    { --lab-ink: var(--wsp-pink-60);
+  clip-path: polygon(0 calc(var(--c) * .9), 100% calc(var(--c) * .15), 100% 100%, 0 100%); }
+#scene-street .cat-desc, #scene-home .cat-desc { color: var(--wsp-ink-70); }
+#scene-after .cat-desc { color: var(--wsp-ink-80); }
+
+/* ---------- Widgets: colored shapes inside the category; the reading stays on paper ---------- */
+.scene.cat > .w { --c-w: var(--c-w1); --c-w-ink: var(--c-w1-ink); border: 2px solid var(--wsp-ink-90); border-radius: 0;
+  background: var(--wsp-paper-5); box-shadow: 6px 6px 0 0 var(--c-shadow); }
+.scene.cat > .w:nth-of-type(even) { --c-w: var(--c-w2); --c-w-ink: var(--c-w2-ink); }
+.scene.cat > .w > header { background: var(--c-w); color: var(--c-w-ink); padding: 10px 12px; margin: 0; column-gap: 6px; }
+.scene.cat > .w > header .t h2 { color: var(--c-w-ink); font-size: 22px; }
+.scene.cat > .w > header .t .eyebrow { justify-self: start; align-self: end; display: inline-block; width: max-content; max-width: 100%; margin: 0 0 3px;
+  background: var(--tag-bg); color: var(--tag-ink); padding: 3px 6px 2px; font-size: 12px; letter-spacing: .06em; }
+.scene[data-chapter="eat"] > .w > header .eyebrow,
+.scene[data-chapter="mke"] > .w:nth-of-type(even) > header .eyebrow { background: var(--wsp-ink-90); color: var(--wsp-paper-5); }
+.scene.cat .w-toggle .chev { border: 2px solid currentColor; color: inherit; background: none; }
+.scene.cat .w-toggle[aria-expanded="true"] .chev { background: var(--c-w-ink); color: var(--c-w); border-color: var(--c-w-ink); }
+.scene.cat .w-star { color: var(--c-w-ink); flex: none; }
+.scene.cat .w-toggle:focus-visible, .scene.cat .w-star:focus-visible { outline: 3px solid var(--c-w-ink); outline-offset: 2px; }
+.scene.cat > .w > header:has(.act) .w-toggle { flex: 1 1 0; min-width: 0; }
+.scene.cat > .w > header .act .btn { background: var(--wsp-paper-5); color: var(--wsp-ink-90); border: 2px solid var(--wsp-ink-90); }
+.scene.cat > .w > header .t { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 12px; align-items: center; }
+.scene.cat > .w > header .t > :not(.w-thumb) { grid-column: 2; }
+.w-thumb { grid-column: 1; grid-row: 1 / span 3; width: 60px; height: 60px; object-fit: cover; display: block;
+  border: 3px solid var(--wsp-paper-5); box-shadow: 3px 3px 0 var(--wsp-ink-90); transform: rotate(-3deg); background: var(--wsp-paper-10); }
+.scene.cat > .w:nth-of-type(even) .w-thumb { transform: rotate(3deg); }
+.scene.cat > .w--band { background: var(--wsp-teal-80); }
+.scene.cat > .w--mini { background: var(--c-w2); color: var(--c-w2-ink); }
+.scene.cat > .w--mini .t h2 { color: var(--c-w2-ink); }
+.scene.cat > .w--mini .eyebrow { background: var(--tag-bg); color: var(--tag-ink); padding: 3px 6px 2px; display: inline-block; }
+#scene-stars { background: var(--wsp-ink-90); }
+
+/* ---------- The spaces: one picture each, at a steady height ----------
+   Each space is a full stop between two categories: one picture that carries the first into the next.
+   Same height down the page (the opener and the ending a little taller), so the rhythm stays calm.
+   People in a picture go behind the next shape and bleed through its cut; the shapes are the foreground. */
+.space { --h: 68svh; --seam: 46px; --sg: var(--wsp-ink-90);
+  position: relative; height: calc(var(--h) + var(--seam) * 2); margin-top: calc(-1 * var(--seam)) !important; margin-bottom: calc(-1 * var(--seam)) !important;
+  padding: 0; background: var(--sg); overflow-x: clip; pointer-events: none; }
+.space > .sp-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+.space > .sp-shape { position: absolute; z-index: 0; display: block; }
+.space > .sp-cut { position: absolute; z-index: 1; display: block; max-width: none; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* S0 · Hi Baby → The shows: the hotel desk, the whisper before the night starts */
+.space[data-space="S0"] { --h: 80svh; }
+/* S1 · The shows → After parties: dancing at each other, both in profile (his R16) */
+.space[data-space="S1"] { --sg: var(--wsp-ink-90); }
+.space .cut-dance { height: 94%; left: 50%; transform: translateX(-50%); bottom: 0; width: auto; max-width: 100%; }
+/* S2 · After parties → Eat & drink: the late snack, split in two, laughing */
+.space[data-space="S2"] { --sg: var(--wsp-pink-20); }
+.snack { width: 34vw; height: 34vw; max-width: 240px; max-height: 240px; background: var(--wsp-gold-30); top: calc(var(--seam) + 6%); right: 8%; }
+.snack--l { clip-path: polygon(50% 0, 0 0, 0 100%, 50% 100%, 44% 72%, 54% 50%, 42% 28%); transform: translate(-14px, 8px) rotate(-12deg); border-radius: 50%; }
+.snack--r { clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%, 44% 72%, 54% 50%, 42% 28%); transform: translate(14px, -6px) rotate(8deg); border-radius: 50%; }
+.space .cut-phone { width: 104%; left: -6%; bottom: 0; }
+/* S3 · Eat & drink → The Street: the crowd on the closed block, the two of them looking for their guy */
+.space .cut-search { height: 52%; left: -2%; bottom: 0; }
+/* S4 · The Street → Getting around: riding in from the edge */
+.space[data-space="S4"] { --sg: var(--wsp-teal-20); }
+.sun--s4 { width: 44vw; height: 44vw; max-width: 320px; max-height: 320px; border-radius: 50%; background: var(--wsp-gold-30); right: 6%; top: calc(var(--seam) + 4%); }
+.hill--s4 { left: 0; right: 0; bottom: 0; height: 42%; background: var(--wsp-green-60); clip-path: polygon(0 34%, 58% 0, 100% 22%, 100% 100%, 0 100%); }
+.space .cut-bike { width: 84%; right: -8%; bottom: calc(var(--seam) + 18%); }
+/* S5 · Getting around → Baseball: down the slide */
+/* S6 · Baseball → Milwaukee: the verdict, close */
+.space[data-space="S6"] { --sg: var(--wsp-gold-60); }
+.space .cut-verdict { width: 140%; left: -20%; bottom: 0; }
+/* S7 · the end: small, under a big night */
+.space[data-space="S7"] { --h: 80svh; --sg: var(--wsp-teal-90); margin-bottom: 0 !important; height: calc(var(--h) + var(--seam)); overflow: clip; }
+.moon { width: 120vw; height: 120vw; max-width: 1400px; max-height: 1400px; border-radius: 50%; background: var(--wsp-gold-30); left: 50%; translate: -50% 0; top: calc(var(--seam) + 58%); }
+.star { width: 13vw; height: 13vw; max-width: 96px; max-height: 96px; background: var(--wsp-orange-40);
+  clip-path: polygon(50% 0, 56% 42%, 100% 50%, 56% 58%, 50% 100%, 44% 58%, 0 50%, 44% 42%); }
+.star--a { left: 8%; top: calc(var(--seam) + 8%); }
+.star--b { right: 14%; top: calc(var(--seam) + 20%); width: 8vw; height: 8vw; background: var(--wsp-teal-30); }
+.star--c { left: 64%; top: calc(var(--seam) + 6%); width: 6vw; height: 6vw; background: var(--wsp-paper-5); }
+.space .cut-hug { height: 24%; left: 50%; translate: -50% 0; top: calc(var(--seam) + 58% - 23.3%); }
+
+@media (min-width: 760px) {
+  .space { --h: 78svh; }
+  .space[data-space="S0"], .space[data-space="S7"] { --h: 88svh; }
+  .scene.cat { padding-top: calc(var(--cut) + 34px); padding-bottom: calc(var(--cut) * 1.3 + 38px); }
+  .scene.cat > .scene-head { max-width: 600px; margin-inline: 6vw; }
+  .space .cut-dance { height: 92%; }
+  .space .cut-phone { width: auto; height: 74%; left: auto; right: 6%; }
+  .snack { right: auto; left: 18%; top: calc(var(--seam) + 14%); }
+  .space .cut-search { height: 66%; left: 8%; }
+  .space .cut-bike { width: auto; height: 70%; right: 6%; bottom: calc(var(--seam) + 2%); }
+  .space .cut-verdict { width: auto; height: 74%; left: 50%; translate: -50% 0; }
+  .space .cut-hug { height: 28%; top: calc(var(--seam) + 58% - 27.3%); }
+}
+
+/* ---------- Pictures off: the grounds and shapes stay, the people and photos go ---------- */
+html.art-off .sp-bg, html.art-off .sp-cut, html.art-off .cat-thumb, html.art-off .w-thumb { display: none; }
+html.art-off .space { --sg: var(--wsp-ink-90); }
+
+/* ---------- Needs info: a placeholder reads as one ---------- */
+.needs-info { display: inline-block; background: var(--wsp-paper-10); color: var(--wsp-ink-90); border: 2px dashed var(--wsp-ink-70); padding: 2px 8px; font-style: normal; }
+
+/* ---------- Print: the information, open, in ink on white; no story pictures ---------- */
+@media print {
+  .space, .cat-thumb, .w-thumb, .site-nav, html::before { display: none !important; }
+  .scene.cat { clip-path: none !important; background: none !important; padding: 12px 0 !important; break-inside: auto; }
+  .scene.cat .cat-btn .strip--title { color: #000 !important; text-shadow: none !important; transform: none !important; writing-mode: horizontal-tb !important; }
+  .scene.cat > .w, .scene:not(.is-on) > .w { display: block !important; box-shadow: none; break-inside: avoid; }
+  .w[data-collapsed] > .body { display: block !important; }
+  #scene-after:not(.is-on) { grid-column: 1 / -1 !important; }
+}
+
+/* ---------- Type pass (Michael, 2026-10-24 00:42): no drop shadows on type; lighter display weight; no next-thing pill ---------- */
+.wordmark h1, .scene--stars .strip--title, .wb-strip .strip, .strip--title { text-shadow: none !important; }
+.wordmark h1 { font-weight: 560; font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 144; letter-spacing: -.01em; }
+.next-up { display: none !important; }
+
+/* ---------- The menu: a dark drawer from the left over a light scrim (Michael, 2026-10-24 00:44–00:46) ----------
+   No sub-links: one row per category, its own color chip, its name, and what is inside (its cards' eyebrows).
+   Opens 90% of the way across (never wider than 440px); the page behind turns 80% paper. Close: the X, the scrim, Escape, or a swipe left. */
+:root { --chip-home: var(--wsp-gold-30); --chip-shows: var(--wsp-orange-50); --chip-after: var(--wsp-pink-60); --chip-eat: var(--wsp-pink-30);
+  --chip-street: var(--wsp-paper-5); --chip-around: var(--wsp-teal-20); --chip-ball: var(--wsp-teal-50); --chip-mke: var(--wsp-pink-60); }
+.mega-scrim { position: fixed; inset: 0; z-index: 1000; background: color-mix(in srgb, var(--wsp-paper-5) 80%, transparent); opacity: 0; visibility: hidden;
+  transition: opacity .28s var(--pds-ease), visibility 0s linear .28s; }
+.mega-scrim.is-on { opacity: 1; visibility: visible; transition: opacity .28s var(--pds-ease); }
+body > .mega { position: fixed; z-index: 1001; top: 0; bottom: 0; left: 0; width: min(90vw, 440px); max-height: none; margin: 0; border: 0; overflow-y: auto; overscroll-behavior: contain;
+  background: var(--wsp-ink-90); color: var(--wsp-paper-5); box-shadow: none;
+  padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+  transform: translateX(-102%); visibility: hidden; transition: transform .32s cubic-bezier(.2, .8, .2, 1), visibility 0s linear .32s;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 14px) 100%, 0 100%); }
+body > .mega.is-open { transform: none; visibility: visible; transition: transform .32s cubic-bezier(.2, .8, .2, 1); }
+body > .mega[hidden] { display: block; }
+.mega .mega-inner { display: block; max-width: none; margin: 0; padding: 0 0 40px; }
+.mega-top { position: sticky; top: 0; z-index: 1; display: flex; align-items: center; justify-content: space-between; padding: 14px 22px 10px 20px; background: var(--wsp-ink-90); }
+.mega-label { font: 600 12px/1 var(--pds-font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--wsp-gold-30); }
+.mega-close { all: unset; box-sizing: border-box; width: 44px; height: 44px; display: grid; place-items: center; cursor: pointer; color: var(--wsp-paper-5); border: 2px solid var(--wsp-paper-5); }
+.mega-close svg { width: 20px; height: 20px; }
+.mega-close:focus-visible, .mega-cat:focus-visible { outline: 3px solid var(--wsp-gold-30); outline-offset: 2px; }
+.mega-cats { list-style: none; margin: 0; padding: 4px 0 0; }
+.mega-cats li { margin: 0; }
+.mega-cat { display: grid; grid-template-columns: 26px minmax(0, 1fr); column-gap: 16px; align-items: baseline; padding: 14px 30px 14px 20px; min-height: 44px; text-decoration: none; color: var(--wsp-paper-5); border-left: 6px solid transparent; }
+.mega-cat:hover { background: color-mix(in srgb, var(--wsp-paper-5) 8%, transparent); }
+.mega-cat[aria-current] { border-left-color: var(--chip); background: color-mix(in srgb, var(--wsp-paper-5) 6%, transparent); }
+.mega-chip { grid-row: 1 / span 2; align-self: start; width: 26px; height: 26px; margin-top: 3px; background: var(--chip); clip-path: polygon(0 12%, 100% 0, 88% 100%, 6% 92%); }
+.mega-t { font-family: var(--pds-font-display); font-weight: 560; font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 144; font-size: 30px; line-height: 1.02; letter-spacing: -.01em; color: var(--wsp-paper-5); }
+.mega-d { grid-column: 2; margin-top: 5px; font: 500 12px/1.4 var(--pds-font-mono); letter-spacing: .05em; text-transform: uppercase; color: var(--wsp-teal-20); }
+html.menu-open, html.menu-open body { overflow: hidden; }
+/* the old accordion pieces stay hidden */
+.mega-col, .mega-links { display: none !important; }
+@media (prefers-reduced-motion: reduce) { body > .mega, body > .mega.is-open, .mega-scrim, .mega-scrim.is-on { transition: none; } }
+
+/* ---------- Hi Baby (Michael, 2026-10-24 00:52): his section sits on the hat-and-bulb poster, extended to bleed to every edge ---------- */
+#scene-home { background: var(--wsp-gold-30) url("../img/brand/hat-poster-tall.jpg") 50% 30% / cover no-repeat; min-height: 78svh; display: grid; align-content: end; }
+#scene-home.is-on { min-height: 0; align-content: start; background-position: 50% 0; }
+@media (min-width: 760px) {
+  #scene-home { background-image: url("../img/brand/hat-poster-wide.jpg"); background-position: 50% 40%; min-height: 72svh; align-content: center; }
+  #scene-home > .scene-head { justify-self: end; margin-inline: 0 6vw; }
+}
+/* one picture, one place: the poster leaves the footer */
+.ft-hat { display: none !important; }
+@media (min-width: 760px) {
+  .scene.cat .cat-btn .strip--title { font-size: clamp(44px, 4.2vw, 60px); }
+  .cat-desc { font-size: 17px; }
+  #scene-home > .scene-head { max-width: 480px; margin-inline: 0 5vw; }
+}
+/* card titles join the calm display weight */
+.scene.cat > .w > header .t h2 { font-weight: 600; font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 144; letter-spacing: -.005em; text-shadow: none; }
+
+/* ---------- Review round 2 (2026-10-24 01:20): fixes both reviewers agreed on, inside his notes ---------- */
+/* No soft glow (no gradients rule) */
+.welcome .print-top[src$=".png"] { filter: none !important; }
+/* R6 thinner weight: the welcome letter's headline and lede */
+.welcome-body .display { font-weight: 560; font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 144; }
+.wb-lede { font-weight: 500; }
+/* R8 legible drawer: descriptions in plain sentence-case sans */
+.mega-d { font: 400 15px/1.35 var(--pds-font-sans); letter-spacing: 0; text-transform: none; color: var(--wsp-teal-20); margin-top: 6px; }
+/* Drawer chip = the category's own ground; dark chips get a paper outline */
+:root { --chip-after: var(--wsp-ink-90); }
+.mega-cat[data-chapter-link="after"] .mega-chip { box-shadow: inset 0 0 0 2px var(--wsp-paper-5); clip-path: none; }
+/* Pictures switch: readable and inside the drawer */
+.mega-art { padding: 18px 34px 0 26px; }
+.art-switch, .art-switch .as-label { color: var(--wsp-paper-5); font: 500 16px/1.3 var(--pds-font-sans); }
+.art-switch .as-state { color: var(--wsp-paper-10); }
+/* An open category ends close under its last card */
+.scene.cat.is-on { padding-bottom: calc(var(--cut) * 1.3 + 32px); }
+/* S2: the split snack decoration goes (R10) */
+.space .snack { display: none; }
+/* Hero eyebrow: room above the title, no collision at 1280 */
+.wordmark .eyebrow { margin-bottom: 10px; line-height: 1.4; }
+/* UX review: reduced motion also stops smooth scrolling */
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+/* The floating Top button covered arrows and card text; Top now lives in the drawer */
+.to-top { display: none !important; }
+.mega-x { list-style: none; margin: 18px 0 0; padding: 14px 0 0 26px; border-top: 1px solid color-mix(in srgb, var(--wsp-paper-5) 22%, transparent); }
+.mega-xl { display: flex; align-items: center; min-height: 44px; padding: 0 30px 0 42px; font: 500 17px/1.3 var(--pds-font-sans); color: var(--wsp-paper-5); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.mega-xl:focus-visible { outline: 3px solid var(--wsp-gold-30); outline-offset: 2px; }
+/* Pacing (both reviews): shorter spaces between categories */
+.space { --h: 58svh; }
+.space[data-space="S0"], .space[data-space="S7"] { --h: 70svh; }
+@media (min-width: 760px) { .space { --h: 66svh; } .space[data-space="S0"], .space[data-space="S7"] { --h: 78svh; } }
+/* ---------- R12 (01:05): Hi Baby is his letter, open on the hat poster. No toggle; the newest note reads with zero taps ---------- */
+#scene-home.scene--letter { min-height: 78svh; align-content: end; row-gap: 0; padding-bottom: calc(var(--cut) * 1.3 + 18px); }
+#scene-home.scene--letter > .w { display: block !important; }
+.letter-head { justify-self: start; margin: 0 0 -2px 6px; z-index: 2; }
+.letter-title { display: inline-block; margin: 0; padding: 6px 16px 4px; background: var(--wsp-teal-80); color: var(--wsp-paper-5);
+  font-family: var(--pds-font-display); font-weight: 560; font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 144; font-size: clamp(34px, 9vw, 52px); line-height: 1.05; letter-spacing: -.01em; transform: rotate(-1.2deg); }
+#scene-home.scene--letter > .w--updates { max-width: 560px; justify-self: start; background: var(--wsp-paper-5); color: var(--wsp-ink-90); border: 2px solid var(--wsp-ink-90); box-shadow: none; transform: rotate(.6deg); }
+#scene-home.scene--letter > .w--updates > .body { padding: 18px 18px 16px; display: flex; flex-direction: column; gap: 12px; }
+#scene-home .update { padding: 0; border: 0; }
+#scene-home .update.important { border-left: 0; padding-left: 0; }
+#scene-home .update h3 { font-weight: 560; font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 72; font-size: 24px; line-height: 1.15; color: var(--wsp-ink-90); }
+#scene-home .update-when { font: 500 13px/1.4 var(--pds-font-mono); letter-spacing: .04em; color: var(--wsp-ink-70); }
+.update-new { display: inline-block; margin-left: 8px; padding: 2px 7px; background: var(--wsp-orange-50); color: var(--wsp-paper-5); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; vertical-align: 1px; }
+#scene-home .update + .update { border-top: 1px solid var(--wsp-ink-50); padding-top: 12px; }
+#scene-home .letter-more { align-self: flex-start; min-height: 44px; background: var(--wsp-paper-5); color: var(--wsp-ink-90); border: 2px solid var(--wsp-ink-90); }
+#scene-home .body > .caption { margin: 0; font-size: 15px; }
+#scene-home .body > .caption a { color: var(--wsp-ink-90); }
+@media (min-width: 760px) {
+  #scene-home.scene--letter { min-height: 72svh; align-content: center; justify-items: end; }
+  #scene-home.scene--letter > .letter-head, #scene-home.scene--letter > .w--updates { justify-self: end; margin-right: 6vw; }
+}
+/* Phone: the whole hat shows; the letter sits on the poster's lower edge */
+@media (max-width: 759px) {
+  #scene-home.scene--letter { min-height: 0; align-content: start; background-size: 100% auto; background-position: 50% 0; padding-top: calc(100vw * 1473 / 1100 * .80); }
+}
+@media (min-width: 760px) {
+  #scene-home.scene--letter > .letter-head, #scene-home.scene--letter > .w--updates { margin-right: 4vw; }
+  #scene-home.scene--letter > .w--updates { max-width: 440px; }
+}
+/* ---------- R20 (01:29): hero type. Venue line on the print's diagonal; October and the dates, crossed out as they pass;
+   Widespread Panic blown up to the text width. The text area is the full width; the duo sits beside the paragraph only ---------- */
+.site-header .wordmark { padding-right: 0; gap: 0; min-width: 0; }
+.site-header .wordmark .dates { padding-right: min(40vw, 200px); }
+.hero-venue { display: block; width: 100%; margin: 0 0 18px; font: 600 15px/1.2 var(--pds-font-mono); text-transform: uppercase; letter-spacing: .14em; white-space: nowrap;
+  color: var(--wsp-teal-20); transform-origin: 0 100%; transform: rotate(atan2(-22px, 100vw)); }
+.hero-dates { display: flex; align-items: baseline; gap: .55em; margin: 0 0 14px; font: 600 26px/1 var(--pds-font-mono); color: var(--wsp-paper-5); }
+.hd-m { letter-spacing: .04em; margin-right: .1em; }
+.hd-d { position: relative; display: inline-block; }
+.hd-x { position: absolute; left: 50%; top: 50%; width: 1.9em; height: 1.9em; transform: translate(-50%, -54%); overflow: visible; display: none; pointer-events: none; }
+.hd-x path { fill: none; stroke: var(--wsp-gold-30); stroke-width: 11; stroke-linecap: round; }
+.hd-d.is-past .hd-x { display: block; }
+.hd-done { display: none; }
+.hd-d.is-past .hd-done { display: inline; }
+.hero-title { margin: 0 0 12px; line-height: .92; }
+.hero-title .ht-big { display: block; font-size: var(--fit-size, clamp(64px, 21vw, 150px)); line-height: .9; letter-spacing: -.02em; }
+.hero-title .ht-x { display: block; font-size: clamp(30px, 8vw, 52px); line-height: 1.1; margin-top: 6px; }
+.hero-title .ht-x em { font-size: 1em; }
+@media (min-width: 760px) {
+  .site-header .wordmark .dates { padding-right: 0; max-width: 34rem; }
+  .hero-venue { font-size: 18px; }
+  .hero-dates { font-size: 32px; }
+}

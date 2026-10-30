@@ -1,0 +1,1967 @@
+{
+ "cards": {
+  "drink-bars": [
+   "sazerac-house",
+   "carousel-bar",
+   "sazerac-bar",
+   "napoleon-house",
+   "pat-obriens"
+  ],
+  "eat-dinner": [
+   "cochon-restaurant",
+   "annunciation-restaurant",
+   "emerils-new-orleans",
+   "peche",
+   "compere-lapin",
+   "herbsaint",
+   "galatoires",
+   "tujagues",
+   "arnauds",
+   "antoines"
+  ],
+  "eat-events": [
+   "bourbon-house",
+   "french-market"
+  ],
+  "eat-late": [
+   "erin-rose",
+   "clover-grill",
+   "the-spotted-cat",
+   "dba",
+   "verti-marte"
+  ],
+  "eat-lunch": [
+   "cochon-butcher",
+   "killer-poboys",
+   "mahonys-po-boys",
+   "domilises"
+  ],
+  "eat-morning": [
+   "mothers-restaurant",
+   "willa-jean",
+   "mr-bs-bistro",
+   "brennans",
+   "court-of-two-sisters",
+   "cafe-amelie",
+   "commanders-palace",
+   "atchafalaya"
+  ],
+  "eat-sweets": [
+   "cafe-du-monde-riverwalk",
+   "cafe-du-monde-french-market"
+  ],
+  "music-brass": [
+   "jbm-hornicopia-oct30",
+   "ph-oct30",
+   "jbm-allstars-oct31",
+   "ph-oct31",
+   "kermits-oct31"
+  ],
+  "music-free": [
+   "jazz-park-oct30",
+   "jazz-park-anniversary-oct31",
+   "freret-festival-oct31"
+  ],
+  "music-frenchmen": [
+   "snug-jason-marsalis-oct30",
+   "blue-nile-kermit-oct30",
+   "spotted-cat-oct30",
+   "dba-oct30",
+   "maison-oct30",
+   "snug-sally-baby-oct31",
+   "blue-nile-oct31",
+   "spotted-cat-oct31",
+   "dba-oct31",
+   "maison-oct31"
+  ],
+  "music-fri": [
+   "wsp-night-1",
+   "fillmore-victoria-monet-oct30",
+   "freaky-deaky-oct30",
+   "hob-saosin-oct30",
+   "gasa-low-cut-connie-oct30",
+   "tips-soul-rebels-oct30",
+   "howlin-wolf-saint-social-oct30"
+  ],
+  "music-sat": [
+   "wsp-night-2",
+   "freaky-deaky-oct31",
+   "gasa-low-cut-connie-oct31",
+   "tips-lagniappe-oct31",
+   "southport-pollo-asado-oct31",
+   "howlin-wolf-brasshearts-oct31"
+  ],
+  "music-sun": [
+   "jbm-super-jam-nov1",
+   "hob-skilla-baby-nov1",
+   "ph-nov1",
+   "dba-nov1",
+   "gasa-alash-nov1",
+   "howlin-wolf-hot8-nov1"
+  ],
+  "see-halloween": [
+   "lazarus-ball-the-barnett",
+   "hno-halloween-party-the-fillmore",
+   "new-orleans-historic-voodoo-museum"
+  ],
+  "see-museums": [
+   "julia-street-gallery-row",
+   "ogden-museum-of-southern-art",
+   "contemporary-arts-center-new-orleans",
+   "national-wwii-museum",
+   "jackson-square-royal-street-artists",
+   "new-orleans-museum-of-art"
+  ],
+  "see-saints": [
+   "st-louis-cathedral",
+   "st-louis-cemetery-no-1",
+   "lafayette-cemetery-no-1",
+   "metairie-cemetery"
+  ],
+  "shows-panic": [
+   "wsp-night-1",
+   "wsp-night-2"
+  ],
+  "shows-scene": [
+   "joy-zambi-ween-oct30",
+   "maple-leaf-bloodkin-oct30",
+   "maple-leaf-sunpie-oct30",
+   "chickie-george-porter-oct31",
+   "maple-leaf-johnny-sketch-oct31",
+   "maple-leaf-bloodkin-oct31"
+  ]
+ },
+ "hotel_facts": [
+  {
+   "label": "Check in, check out",
+   "text": "Check in at 4 PM, check out at 11 AM.",
+   "source": "https://www.marriott.com/hotels/maps/travel/msysh-springhill-suites-new-orleans-warehouse-arts-district/"
+  },
+  {
+   "label": "Front desk",
+   "text": "504-522-3100, staffed around the clock.",
+   "source": "https://www.marriott.com/hotels/maps/travel/msysh-springhill-suites-new-orleans-warehouse-arts-district/"
+  },
+  {
+   "label": "Breakfast and pool",
+   "text": "Breakfast is free, and there's an outdoor pool. The hours come from a third-party listing, so ask at the desk.",
+   "source": "https://www.hotelplanner.com/Hotels/339668/Reservations-Springhill-Suites-New-Orleans-Warehouse-Arts-District-New-Orleans-301-Saint-Joseph-St-70130?gencall=1"
+  },
+  {
+   "label": "Valet",
+   "text": "$47 a day, and spots are limited.",
+   "source": "https://www.marriott.com/hotels/maps/travel/msysh-springhill-suites-new-orleans-warehouse-arts-district/"
+  }
+ ],
+ "transit": [
+  {
+   "label": "On foot",
+   "text": "Bourbon Street and the Superdome are 20 to 30 minutes on foot, by our estimate. The French Quarter is better by rideshare after dark.",
+   "source": ""
+  },
+  {
+   "label": "Streetcar",
+   "text": "$1.25 a ride, or a Jazzy Pass for $3 a day. The St. Charles line runs downtown. The Canal line only goes as far as Canal and LaSalle. Drivers don't make change.",
+   "source": "https://www.norta.com/getmedia/7e0fdb3f-1712-4ea8-994f-1f5f9f4cb474/Streetcars.pdf"
+  },
+  {
+   "label": "Airport taxi",
+   "text": "A flat $36 to downtown for up to two people. Airport taxis take cards.",
+   "source": "https://flymsy.com/taxis-2"
+  },
+  {
+   "label": "To the shows",
+   "text": "Your bus pass covers the ride to the UNO Lakefront Arena and back, from the Maple Leaf Bar on Oak Street. Get to the Maple Leaf by 4 both days, about 16 to 25 minutes Uptown by rideshare (estimate).",
+   "source": "https://www.mapleleafbar.com/events/wsp-bus-ticket-package-10-30"
+  },
+  {
+   "label": "Clocks",
+   "text": "Clocks fall back at 2 AM Sunday. Sunday's sunset is 5:13 PM.",
+   "source": "https://api.weather.gov/gridpoints/LIX/68,88/forecast"
+  }
+ ],
+ "nearby": [
+  {
+   "name": "Walgreens, 900 Canal St",
+   "text": "The nearest pharmacy we could confirm, about 0.8 miles.",
+   "source": [
+    "https://nominatim.openstreetmap.org/"
+   ]
+  }
+ ],
+ "safety": [
+  {
+   "label": "Getting home late",
+   "text": "Take Uber or Lyft after midnight rather than hailing a cab, and check the plate and the driver's name.",
+   "source": "https://www.nomadotravel.app/en/guides/new-orleans-safety-tips"
+  },
+  {
+   "label": "Go cups",
+   "text": "In the French Quarter you can walk out of a bar with a drink in a plastic cup, never glass or a can.",
+   "source": "https://traveler.marriott.com/new-orleans/quirky-nola-laws-you-should-know-before-you-go/"
+  },
+  {
+   "label": "Last call",
+   "text": "New Orleans has no set closing time, so some bars run all night.",
+   "source": "https://traveler.marriott.com/new-orleans/quirky-nola-laws-you-should-know-before-you-go/"
+  }
+ ],
+ "weather_note": {
+  "text": "Friday 79° and 67°, 5% chance of rain. Saturday 80° and 67°, 58% chance, with storms. Sunday 80° and 66°, 46% chance. Sunset 6:14 PM Friday and Saturday, 5:13 PM Sunday.",
+  "source": "https://api.weather.gov/gridpoints/LIX/68,88/forecast"
+ },
+ "walks": {
+  "fri": {
+   "title": "Friday until the bus",
+   "weather": "Dry and about 79°, the nicest day of the three.",
+   "stops": [
+    {
+     "lat": 29.9490291,
+     "lng": -90.0671781,
+     "place": "mothers-restaurant",
+     "name": "Mother's Restaurant",
+     "address": "401 Poydras St, New Orleans, LA 70130",
+     "time": "Breakfast",
+     "note": "Breakfast all day, five blocks from the hotel. Get the debris and a biscuit.",
+     "leg": "About 10 minutes on foot, 0.5 miles (estimate)",
+     "sources": []
+    },
+    {
+     "lat": 29.9436,
+     "lng": -90.0713,
+     "place": "ogden-museum-of-southern-art",
+     "name": "Ogden Museum",
+     "address": "925 Camp St, New Orleans, LA 70130",
+     "time": "10 AM",
+     "note": "Opens at 10. Southern art, right beside the hotel.",
+     "leg": "About 10 minutes on foot, 0.6 miles (estimate)",
+     "sources": []
+    },
+    {
+     "lat": 29.945,
+     "lng": -90.0685,
+     "place": "julia-street-gallery-row",
+     "name": "Julia Street galleries",
+     "address": "432-434 Julia St, New Orleans, LA 70130",
+     "time": "",
+     "note": "A few blocks of galleries on the way toward Canal. Free to browse.",
+     "leg": "About 5 minutes on foot, 0.3 miles (estimate)",
+     "sources": []
+    },
+    {
+     "lat": 29.9541881,
+     "lng": -90.067944,
+     "place": "carousel-bar",
+     "name": "Carousel Bar",
+     "address": "214 Royal Street, New Orleans, LA 70130",
+     "time": "12:30 PM",
+     "note": "The Royal Caravan Brass Band plays at 12:30. A Vieux Carré on the turning bar.",
+     "leg": "About 15 minutes on foot, 0.8 miles (estimate)",
+     "sources": []
+    },
+    {
+     "lat": 29.9558596,
+     "lng": -90.0650706,
+     "place": "napoleon-house",
+     "name": "Napoleon House",
+     "address": "500 Chartres St, New Orleans, LA 70130",
+     "time": "Lunch",
+     "note": "A Pimm's Cup and a muffuletta.",
+     "leg": "About 5 minutes on foot, 0.3 miles (estimate)",
+     "sources": []
+    },
+    {
+     "lat": 29.958,
+     "lng": -90.0638,
+     "place": "st-louis-cathedral",
+     "name": "St. Louis Cathedral",
+     "address": "615 Pere Antoine Alley, New Orleans, LA 70116",
+     "time": "",
+     "note": "Through Jackson Square to the cathedral, open until 5. The square's artists are out when the weather's good.",
+     "leg": "About 5 minutes on foot, 0.2 miles (estimate)",
+     "sources": []
+    },
+    {
+     "lat": 29.957561,
+     "lng": -90.0618544,
+     "place": "cafe-du-monde-french-market",
+     "name": "Café Du Monde",
+     "address": "800 Decatur St, New Orleans, LA 70116",
+     "time": "",
+     "note": "Beignets and café au lait before the ride Uptown.",
+     "leg": "About 5 minutes on foot, 0.2 miles (estimate)",
+     "sources": []
+    },
+    {
+     "lat": 29.9489,
+     "lng": -90.1321,
+     "place": "",
+     "name": "Maple Leaf Bar",
+     "address": "8316 Oak St",
+     "time": "By 4 PM",
+     "note": "Leave the Quarter by about 3:15. Polytoxic plays the pregame, then the bus to the arena.",
+     "leg": "A rideshare Uptown, about 6 miles. Check the app for the time",
+     "sources": [
+      "https://www.mapleleafbar.com/events/wsp-bus-ticket-package-10-30",
+      "https://www.mapleleafbar.com/events/wsp-bus-ticket-package-10-31"
+     ]
+    }
+   ],
+   "path": [
+    [
+     29.94308,
+     -90.066406
+    ],
+    [
+     29.943144,
+     -90.066682
+    ],
+    [
+     29.943212,
+     -90.066681
+    ],
+    [
+     29.94477,
+     -90.066658
+    ],
+    [
+     29.945525,
+     -90.066639
+    ],
+    [
+     29.946297,
+     -90.06661
+    ],
+    [
+     29.947056,
+     -90.066562
+    ],
+    [
+     29.947401,
+     -90.066541
+    ],
+    [
+     29.947432,
+     -90.066698
+    ],
+    [
+     29.947586,
+     -90.066658
+    ],
+    [
+     29.947667,
+     -90.066634
+    ],
+    [
+     29.947749,
+     -90.066658
+    ],
+    [
+     29.947781,
+     -90.066803
+    ],
+    [
+     29.947825,
+     -90.067013
+    ],
+    [
+     29.947891,
+     -90.066993
+    ],
+    [
+     29.947897,
+     -90.067023
+    ],
+    [
+     29.947923,
+     -90.067172
+    ],
+    [
+     29.948532,
+     -90.067035
+    ],
+    [
+     29.948601,
+     -90.067017
+    ],
+    [
+     29.948624,
+     -90.067121
+    ],
+    [
+     29.948715,
+     -90.067095
+    ],
+    [
+     29.948865,
+     -90.06705
+    ],
+    [
+     29.948952,
+     -90.067025
+    ],
+    [
+     29.948988,
+     -90.06719
+    ],
+    [
+     29.949165,
+     -90.067989
+    ],
+    [
+     29.949184,
+     -90.068074
+    ],
+    [
+     29.949204,
+     -90.068162
+    ],
+    [
+     29.949451,
+     -90.069247
+    ],
+    [
+     29.949367,
+     -90.069272
+    ],
+    [
+     29.949213,
+     -90.069319
+    ],
+    [
+     29.949129,
+     -90.069345
+    ],
+    [
+     29.948111,
+     -90.069641
+    ],
+    [
+     29.947499,
+     -90.069821
+    ],
+    [
+     29.947467,
+     -90.069833
+    ],
+    [
+     29.947483,
+     -90.069904
+    ],
+    [
+     29.947074,
+     -90.070024
+    ],
+    [
+     29.946239,
+     -90.070273
+    ],
+    [
+     29.945647,
+     -90.070449
+    ],
+    [
+     29.945325,
+     -90.070543
+    ],
+    [
+     29.945177,
+     -90.070585
+    ],
+    [
+     29.944866,
+     -90.070673
+    ],
+    [
+     29.944525,
+     -90.070771
+    ],
+    [
+     29.944497,
+     -90.07078
+    ],
+    [
+     29.944105,
+     -90.070892
+    ],
+    [
+     29.9438,
+     -90.070985
+    ],
+    [
+     29.943815,
+     -90.071071
+    ],
+    [
+     29.943565,
+     -90.071147
+    ],
+    [
+     29.943815,
+     -90.071071
+    ],
+    [
+     29.9438,
+     -90.070985
+    ],
+    [
+     29.944105,
+     -90.070892
+    ],
+    [
+     29.943843,
+     -90.069764
+    ],
+    [
+     29.943818,
+     -90.069656
+    ],
+    [
+     29.943802,
+     -90.069586
+    ],
+    [
+     29.943733,
+     -90.069282
+    ],
+    [
+     29.943689,
+     -90.069091
+    ],
+    [
+     29.943617,
+     -90.068776
+    ],
+    [
+     29.944972,
+     -90.068373
+    ],
+    [
+     29.945153,
+     -90.068319
+    ],
+    [
+     29.945348,
+     -90.069151
+    ],
+    [
+     29.945357,
+     -90.069189
+    ],
+    [
+     29.945381,
+     -90.069291
+    ],
+    [
+     29.945563,
+     -90.07008
+    ],
+    [
+     29.945647,
+     -90.070449
+    ],
+    [
+     29.946239,
+     -90.070273
+    ],
+    [
+     29.947074,
+     -90.070024
+    ],
+    [
+     29.947483,
+     -90.069904
+    ],
+    [
+     29.947531,
+     -90.06989
+    ],
+    [
+     29.947566,
+     -90.069967
+    ],
+    [
+     29.947612,
+     -90.069953
+    ],
+    [
+     29.947669,
+     -90.069937
+    ],
+    [
+     29.947702,
+     -90.069962
+    ],
+    [
+     29.947913,
+     -90.070153
+    ],
+    [
+     29.948009,
+     -90.070164
+    ],
+    [
+     29.948084,
+     -90.070189
+    ],
+    [
+     29.948129,
+     -90.070215
+    ],
+    [
+     29.948174,
+     -90.070258
+    ],
+    [
+     29.948213,
+     -90.0703
+    ],
+    [
+     29.948217,
+     -90.070291
+    ],
+    [
+     29.948235,
+     -90.070271
+    ],
+    [
+     29.948257,
+     -90.070259
+    ],
+    [
+     29.948282,
+     -90.070257
+    ],
+    [
+     29.948306,
+     -90.070264
+    ],
+    [
+     29.948311,
+     -90.070268
+    ],
+    [
+     29.948326,
+     -90.070281
+    ],
+    [
+     29.94834,
+     -90.070304
+    ],
+    [
+     29.948347,
+     -90.070332
+    ],
+    [
+     29.948345,
+     -90.070361
+    ],
+    [
+     29.948339,
+     -90.070374
+    ],
+    [
+     29.948372,
+     -90.070415
+    ],
+    [
+     29.948419,
+     -90.070454
+    ],
+    [
+     29.948463,
+     -90.07048
+    ],
+    [
+     29.948538,
+     -90.070505
+    ],
+    [
+     29.948635,
+     -90.070517
+    ],
+    [
+     29.948847,
+     -90.070717
+    ],
+    [
+     29.948884,
+     -90.070744
+    ],
+    [
+     29.948928,
+     -90.07073
+    ],
+    [
+     29.948974,
+     -90.070715
+    ],
+    [
+     29.9494,
+     -90.070602
+    ],
+    [
+     29.949412,
+     -90.070578
+    ],
+    [
+     29.949482,
+     -90.070559
+    ],
+    [
+     29.949656,
+     -90.070512
+    ],
+    [
+     29.949729,
+     -90.070492
+    ],
+    [
+     29.950506,
+     -90.07026
+    ],
+    [
+     29.950646,
+     -90.070218
+    ],
+    [
+     29.951153,
+     -90.070058
+    ],
+    [
+     29.951424,
+     -90.069972
+    ],
+    [
+     29.951453,
+     -90.069966
+    ],
+    [
+     29.951493,
+     -90.069956
+    ],
+    [
+     29.951512,
+     -90.069959
+    ],
+    [
+     29.951523,
+     -90.069958
+    ],
+    [
+     29.951535,
+     -90.069956
+    ],
+    [
+     29.951743,
+     -90.069894
+    ],
+    [
+     29.952059,
+     -90.069791
+    ],
+    [
+     29.952116,
+     -90.069772
+    ],
+    [
+     29.95214,
+     -90.069753
+    ],
+    [
+     29.952179,
+     -90.069732
+    ],
+    [
+     29.952211,
+     -90.069713
+    ],
+    [
+     29.952219,
+     -90.069715
+    ],
+    [
+     29.952318,
+     -90.069659
+    ],
+    [
+     29.952554,
+     -90.069492
+    ],
+    [
+     29.952756,
+     -90.069356
+    ],
+    [
+     29.952927,
+     -90.069237
+    ],
+    [
+     29.952963,
+     -90.069208
+    ],
+    [
+     29.952973,
+     -90.069184
+    ],
+    [
+     29.952962,
+     -90.069143
+    ],
+    [
+     29.953041,
+     -90.069078
+    ],
+    [
+     29.953091,
+     -90.069037
+    ],
+    [
+     29.953113,
+     -90.069019
+    ],
+    [
+     29.953136,
+     -90.069
+    ],
+    [
+     29.953174,
+     -90.068971
+    ],
+    [
+     29.953224,
+     -90.068927
+    ],
+    [
+     29.953291,
+     -90.068872
+    ],
+    [
+     29.953338,
+     -90.068947
+    ],
+    [
+     29.953379,
+     -90.06891
+    ],
+    [
+     29.954106,
+     -90.068256
+    ],
+    [
+     29.954288,
+     -90.068092
+    ],
+    [
+     29.954845,
+     -90.067592
+    ],
+    [
+     29.954884,
+     -90.067557
+    ],
+    [
+     29.954914,
+     -90.067529
+    ],
+    [
+     29.955632,
+     -90.066885
+    ],
+    [
+     29.955606,
+     -90.066849
+    ],
+    [
+     29.955644,
+     -90.066818
+    ],
+    [
+     29.955677,
+     -90.066791
+    ],
+    [
+     29.955144,
+     -90.066019
+    ],
+    [
+     29.955141,
+     -90.065972
+    ],
+    [
+     29.955818,
+     -90.065354
+    ],
+    [
+     29.955792,
+     -90.065304
+    ],
+    [
+     29.955779,
+     -90.065272
+    ],
+    [
+     29.955806,
+     -90.065249
+    ],
+    [
+     29.955846,
+     -90.065215
+    ],
+    [
+     29.95589,
+     -90.065188
+    ],
+    [
+     29.955921,
+     -90.06516
+    ],
+    [
+     29.95628,
+     -90.064834
+    ],
+    [
+     29.956561,
+     -90.064582
+    ],
+    [
+     29.956561,
+     -90.064561
+    ],
+    [
+     29.956586,
+     -90.06454
+    ],
+    [
+     29.956629,
+     -90.064502
+    ],
+    [
+     29.95665,
+     -90.064494
+    ],
+    [
+     29.956956,
+     -90.064234
+    ],
+    [
+     29.956989,
+     -90.064205
+    ],
+    [
+     29.957019,
+     -90.064178
+    ],
+    [
+     29.957366,
+     -90.063877
+    ],
+    [
+     29.95739,
+     -90.063855
+    ],
+    [
+     29.957411,
+     -90.063847
+    ],
+    [
+     29.957448,
+     -90.063756
+    ],
+    [
+     29.957668,
+     -90.063559
+    ],
+    [
+     29.957698,
+     -90.063604
+    ],
+    [
+     29.957733,
+     -90.063575
+    ],
+    [
+     29.957735,
+     -90.06363
+    ],
+    [
+     29.957904,
+     -90.063885
+    ],
+    [
+     29.957735,
+     -90.06363
+    ],
+    [
+     29.957733,
+     -90.063575
+    ],
+    [
+     29.957698,
+     -90.063604
+    ],
+    [
+     29.957668,
+     -90.063559
+    ],
+    [
+     29.957799,
+     -90.063442
+    ],
+    [
+     29.957744,
+     -90.063366
+    ],
+    [
+     29.957716,
+     -90.063324
+    ],
+    [
+     29.957749,
+     -90.063293
+    ],
+    [
+     29.957781,
+     -90.063249
+    ],
+    [
+     29.95782,
+     -90.063166
+    ],
+    [
+     29.957844,
+     -90.063092
+    ],
+    [
+     29.95786,
+     -90.063022
+    ],
+    [
+     29.957869,
+     -90.062942
+    ],
+    [
+     29.957857,
+     -90.062872
+    ],
+    [
+     29.957839,
+     -90.062805
+    ],
+    [
+     29.95781,
+     -90.062737
+    ],
+    [
+     29.957771,
+     -90.062671
+    ],
+    [
+     29.957851,
+     -90.0626
+    ],
+    [
+     29.957822,
+     -90.062557
+    ],
+    [
+     29.957577,
+     -90.06219
+    ],
+    [
+     29.957619,
+     -90.062152
+    ],
+    [
+     29.957603,
+     -90.062129
+    ],
+    [
+     29.957599,
+     -90.062124
+    ],
+    [
+     29.957595,
+     -90.062118
+    ],
+    [
+     29.957576,
+     -90.062091
+    ],
+    [
+     29.957543,
+     -90.062041
+    ],
+    [
+     29.957499,
+     -90.061975
+    ],
+    [
+     29.957577,
+     -90.06193
+    ],
+    [
+     29.957599,
+     -90.06191
+    ]
+   ],
+   "miles": 2.7,
+   "path_source": "https://routing.openstreetmap.de/"
+  },
+  "sat": {
+   "title": "Saturday until the bus",
+   "weather": "Storms likely, heaviest around 3 to 6. This one stays mostly indoors. Bring the umbrella.",
+   "stops": [
+    {
+     "lat": 29.9489751,
+     "lng": -90.0747744,
+     "place": "willa-jean",
+     "name": "Willa Jean",
+     "address": "611 O'Keefe Ave, New Orleans, LA 70113",
+     "time": "Breakfast",
+     "note": "Southern breakfast and pastries, open from 7. There's a waitlist on busy mornings.",
+     "leg": "About 15 minutes on foot, 0.8 miles (estimate)",
+     "sources": []
+    },
+    {
+     "lat": 29.9421,
+     "lng": -90.0708,
+     "place": "national-wwii-museum",
+     "name": "National WWII Museum",
+     "address": "945 Magazine St, New Orleans, LA 70130",
+     "time": "9 AM",
+     "note": "Opens at 9 and takes as long as you give it. A good place to wait out rain.",
+     "leg": "About 15 minutes on foot, 0.7 miles (estimate)",
+     "sources": []
+    },
+    {
+     "lat": 29.9516891,
+     "lng": -90.0675556,
+     "place": "sazerac-house",
+     "name": "The Sazerac House",
+     "address": "101 Magazine St, New Orleans, LA 70130",
+     "time": "11 AM",
+     "note": "The cocktail's own museum, opens at 11, at the foot of Canal.",
+     "leg": "About 15 minutes on foot, 0.7 miles (estimate)",
+     "sources": []
+    },
+    {
+     "lat": 29.9564437,
+     "lng": -90.0678413,
+     "place": "erin-rose",
+     "name": "Erin Rose",
+     "address": "811 Conti Street, New Orleans, LA 70112",
+     "time": "Lunch",
+     "note": "Killer Po' Boys in the back room. The pork belly po' boy with lime slaw.",
+     "leg": "About 10 minutes on foot, 0.5 miles (estimate)",
+     "sources": []
+    },
+    {
+     "lat": 29.9583,
+     "lng": -90.0654,
+     "place": "ph-oct31",
+     "name": "Preservation Hall",
+     "address": "726 St Peter St",
+     "time": "2:30 PM",
+     "note": "Wendell Brunious and the Preservation Hall Legacy Band at 2:30. Reserve a seat on the Hall's calendar; Saturday's early sets still had seats. Leave by about 3:15 for the Maple Leaf.",
+     "leg": "About 5 minutes on foot, 0.2 miles (estimate)",
+     "sources": [
+      "https://www.preservationhall.com/calendar/"
+     ]
+    },
+    {
+     "lat": 29.9489,
+     "lng": -90.1321,
+     "place": "",
+     "name": "Maple Leaf Bar",
+     "address": "8316 Oak St",
+     "time": "By 4 PM",
+     "note": "Johnny Sketch & the Dirty Notes play the pregame, 4 to 7, then the bus to the arena.",
+     "leg": "A rideshare Uptown, about 5 miles. Check the app for the time",
+     "sources": [
+      "https://www.mapleleafbar.com/events/wsp-bus-ticket-package-10-30",
+      "https://www.mapleleafbar.com/events/wsp-bus-ticket-package-10-31"
+     ]
+    }
+   ],
+   "path": [
+    [
+     29.94308,
+     -90.066406
+    ],
+    [
+     29.943144,
+     -90.066682
+    ],
+    [
+     29.943212,
+     -90.066681
+    ],
+    [
+     29.94477,
+     -90.066658
+    ],
+    [
+     29.945525,
+     -90.066639
+    ],
+    [
+     29.946297,
+     -90.06661
+    ],
+    [
+     29.946466,
+     -90.067366
+    ],
+    [
+     29.946629,
+     -90.068092
+    ],
+    [
+     29.946789,
+     -90.06878
+    ],
+    [
+     29.947074,
+     -90.070024
+    ],
+    [
+     29.947214,
+     -90.070648
+    ],
+    [
+     29.94735,
+     -90.071255
+    ],
+    [
+     29.94736,
+     -90.071298
+    ],
+    [
+     29.947444,
+     -90.071664
+    ],
+    [
+     29.947631,
+     -90.072485
+    ],
+    [
+     29.947636,
+     -90.072503
+    ],
+    [
+     29.947802,
+     -90.073219
+    ],
+    [
+     29.947926,
+     -90.073751
+    ],
+    [
+     29.948023,
+     -90.074188
+    ],
+    [
+     29.948073,
+     -90.074414
+    ],
+    [
+     29.948089,
+     -90.074529
+    ],
+    [
+     29.94809,
+     -90.074564
+    ],
+    [
+     29.948092,
+     -90.074638
+    ],
+    [
+     29.948083,
+     -90.074768
+    ],
+    [
+     29.948086,
+     -90.074852
+    ],
+    [
+     29.948147,
+     -90.074922
+    ],
+    [
+     29.948845,
+     -90.074715
+    ],
+    [
+     29.948955,
+     -90.074683
+    ],
+    [
+     29.948845,
+     -90.074715
+    ],
+    [
+     29.948147,
+     -90.074922
+    ],
+    [
+     29.947777,
+     -90.075039
+    ],
+    [
+     29.946831,
+     -90.075337
+    ],
+    [
+     29.946849,
+     -90.075417
+    ],
+    [
+     29.946775,
+     -90.075439
+    ],
+    [
+     29.946708,
+     -90.075459
+    ],
+    [
+     29.946701,
+     -90.075461
+    ],
+    [
+     29.94628,
+     -90.075579
+    ],
+    [
+     29.946118,
+     -90.075624
+    ],
+    [
+     29.946071,
+     -90.075639
+    ],
+    [
+     29.946012,
+     -90.075659
+    ],
+    [
+     29.945919,
+     -90.075697
+    ],
+    [
+     29.945831,
+     -90.07575
+    ],
+    [
+     29.945783,
+     -90.075784
+    ],
+    [
+     29.945688,
+     -90.075864
+    ],
+    [
+     29.945638,
+     -90.075784
+    ],
+    [
+     29.945591,
+     -90.075708
+    ],
+    [
+     29.94542,
+     -90.075451
+    ],
+    [
+     29.945178,
+     -90.075086
+    ],
+    [
+     29.945154,
+     -90.07505
+    ],
+    [
+     29.945082,
+     -90.074924
+    ],
+    [
+     29.94504,
+     -90.074702
+    ],
+    [
+     29.945021,
+     -90.07461
+    ],
+    [
+     29.945006,
+     -90.07454
+    ],
+    [
+     29.944927,
+     -90.074558
+    ],
+    [
+     29.944878,
+     -90.07457
+    ],
+    [
+     29.944861,
+     -90.074574
+    ],
+    [
+     29.944841,
+     -90.07448
+    ],
+    [
+     29.944809,
+     -90.074496
+    ],
+    [
+     29.944276,
+     -90.073652
+    ],
+    [
+     29.94426,
+     -90.073613
+    ],
+    [
+     29.94425,
+     -90.073596
+    ],
+    [
+     29.944209,
+     -90.073536
+    ],
+    [
+     29.944195,
+     -90.073511
+    ],
+    [
+     29.944166,
+     -90.073473
+    ],
+    [
+     29.944148,
+     -90.073462
+    ],
+    [
+     29.943755,
+     -90.072812
+    ],
+    [
+     29.943785,
+     -90.072755
+    ],
+    [
+     29.943809,
+     -90.072694
+    ],
+    [
+     29.943827,
+     -90.072631
+    ],
+    [
+     29.943841,
+     -90.072558
+    ],
+    [
+     29.943847,
+     -90.072484
+    ],
+    [
+     29.943845,
+     -90.072409
+    ],
+    [
+     29.943831,
+     -90.072346
+    ],
+    [
+     29.943826,
+     -90.072326
+    ],
+    [
+     29.943807,
+     -90.072241
+    ],
+    [
+     29.943767,
+     -90.072168
+    ],
+    [
+     29.943719,
+     -90.072101
+    ],
+    [
+     29.943664,
+     -90.072042
+    ],
+    [
+     29.943603,
+     -90.071992
+    ],
+    [
+     29.943542,
+     -90.071953
+    ],
+    [
+     29.943477,
+     -90.071923
+    ],
+    [
+     29.94341,
+     -90.071902
+    ],
+    [
+     29.943342,
+     -90.071889
+    ],
+    [
+     29.943261,
+     -90.071883
+    ],
+    [
+     29.943221,
+     -90.071709
+    ],
+    [
+     29.943178,
+     -90.071524
+    ],
+    [
+     29.943131,
+     -90.071319
+    ],
+    [
+     29.943132,
+     -90.071308
+    ],
+    [
+     29.943104,
+     -90.071196
+    ],
+    [
+     29.943037,
+     -90.071216
+    ],
+    [
+     29.943001,
+     -90.07106
+    ],
+    [
+     29.94286,
+     -90.070439
+    ],
+    [
+     29.942782,
+     -90.070098
+    ],
+    [
+     29.942752,
+     -90.069969
+    ],
+    [
+     29.942662,
+     -90.069995
+    ],
+    [
+     29.94231,
+     -90.070098
+    ],
+    [
+     29.942041,
+     -90.070176
+    ],
+    [
+     29.941986,
+     -90.070192
+    ],
+    [
+     29.941968,
+     -90.070197
+    ],
+    [
+     29.941986,
+     -90.070192
+    ],
+    [
+     29.942041,
+     -90.070176
+    ],
+    [
+     29.94231,
+     -90.070098
+    ],
+    [
+     29.942662,
+     -90.069995
+    ],
+    [
+     29.942752,
+     -90.069969
+    ],
+    [
+     29.942857,
+     -90.069938
+    ],
+    [
+     29.943753,
+     -90.069675
+    ],
+    [
+     29.943818,
+     -90.069656
+    ],
+    [
+     29.943899,
+     -90.069631
+    ],
+    [
+     29.944391,
+     -90.069482
+    ],
+    [
+     29.944516,
+     -90.069444
+    ],
+    [
+     29.944586,
+     -90.069423
+    ],
+    [
+     29.945293,
+     -90.069209
+    ],
+    [
+     29.945357,
+     -90.069189
+    ],
+    [
+     29.945398,
+     -90.069177
+    ],
+    [
+     29.945742,
+     -90.069076
+    ],
+    [
+     29.946058,
+     -90.068982
+    ],
+    [
+     29.946789,
+     -90.06878
+    ],
+    [
+     29.947195,
+     -90.068654
+    ],
+    [
+     29.947838,
+     -90.068463
+    ],
+    [
+     29.948859,
+     -90.068168
+    ],
+    [
+     29.948879,
+     -90.068257
+    ],
+    [
+     29.948974,
+     -90.068229
+    ],
+    [
+     29.949123,
+     -90.068186
+    ],
+    [
+     29.949204,
+     -90.068162
+    ],
+    [
+     29.949279,
+     -90.068139
+    ],
+    [
+     29.949628,
+     -90.06803
+    ],
+    [
+     29.949669,
+     -90.068018
+    ],
+    [
+     29.949707,
+     -90.068006
+    ],
+    [
+     29.950527,
+     -90.067752
+    ],
+    [
+     29.95054,
+     -90.067758
+    ],
+    [
+     29.950585,
+     -90.067745
+    ],
+    [
+     29.950623,
+     -90.067733
+    ],
+    [
+     29.950679,
+     -90.067716
+    ],
+    [
+     29.951145,
+     -90.067586
+    ],
+    [
+     29.951192,
+     -90.067574
+    ],
+    [
+     29.951247,
+     -90.067562
+    ],
+    [
+     29.951268,
+     -90.067535
+    ],
+    [
+     29.951438,
+     -90.067486
+    ],
+    [
+     29.95147,
+     -90.067477
+    ],
+    [
+     29.951664,
+     -90.067427
+    ],
+    [
+     29.951754,
+     -90.067403
+    ],
+    [
+     29.951788,
+     -90.067394
+    ],
+    [
+     29.951796,
+     -90.067405
+    ],
+    [
+     29.95201,
+     -90.067718
+    ],
+    [
+     29.952396,
+     -90.068282
+    ],
+    [
+     29.952471,
+     -90.068224
+    ],
+    [
+     29.952503,
+     -90.068198
+    ],
+    [
+     29.952535,
+     -90.068173
+    ],
+    [
+     29.952548,
+     -90.068162
+    ],
+    [
+     29.952561,
+     -90.06815
+    ],
+    [
+     29.952589,
+     -90.068192
+    ],
+    [
+     29.95266,
+     -90.068297
+    ],
+    [
+     29.952715,
+     -90.068378
+    ],
+    [
+     29.953136,
+     -90.069
+    ],
+    [
+     29.95319,
+     -90.06908
+    ],
+    [
+     29.953239,
+     -90.069153
+    ],
+    [
+     29.953741,
+     -90.069895
+    ],
+    [
+     29.953747,
+     -90.069889
+    ],
+    [
+     29.953778,
+     -90.069866
+    ],
+    [
+     29.953832,
+     -90.069825
+    ],
+    [
+     29.953901,
+     -90.069779
+    ],
+    [
+     29.953938,
+     -90.069788
+    ],
+    [
+     29.954654,
+     -90.069158
+    ],
+    [
+     29.95467,
+     -90.069183
+    ],
+    [
+     29.954691,
+     -90.069216
+    ],
+    [
+     29.954731,
+     -90.069182
+    ],
+    [
+     29.954759,
+     -90.069158
+    ],
+    [
+     29.955257,
+     -90.068718
+    ],
+    [
+     29.955455,
+     -90.068543
+    ],
+    [
+     29.955477,
+     -90.068534
+    ],
+    [
+     29.955518,
+     -90.068495
+    ],
+    [
+     29.955543,
+     -90.06847
+    ],
+    [
+     29.955552,
+     -90.068449
+    ],
+    [
+     29.955684,
+     -90.068332
+    ],
+    [
+     29.956261,
+     -90.067822
+    ],
+    [
+     29.956276,
+     -90.067817
+    ],
+    [
+     29.956302,
+     -90.067793
+    ],
+    [
+     29.956376,
+     -90.067902
+    ],
+    [
+     29.956302,
+     -90.067793
+    ],
+    [
+     29.95633,
+     -90.067768
+    ],
+    [
+     29.956303,
+     -90.067728
+    ],
+    [
+     29.957019,
+     -90.067071
+    ],
+    [
+     29.957812,
+     -90.066358
+    ],
+    [
+     29.958599,
+     -90.065651
+    ],
+    [
+     29.958562,
+     -90.065597
+    ],
+    [
+     29.958378,
+     -90.065329
+    ]
+   ],
+   "miles": 2.9,
+   "path_source": "https://routing.openstreetmap.de/"
+  }
+ },
+ "bus": {
+  "where": "Maple Leaf Bar, 8316 Oak St",
+  "ride": "About 5 miles Uptown from the hotel, roughly 16 to 25 minutes by rideshare (estimate)",
+  "nights": [
+   {
+    "day": "Friday",
+    "pregame": "Polytoxic",
+    "time": "4 to 8 PM"
+   },
+   {
+    "day": "Saturday",
+    "pregame": "Johnny Sketch & the Dirty Notes",
+    "time": "4 to 8 PM"
+   }
+  ],
+  "includes": "The pregame show, the bus to the UNO Lakefront Arena and back (drinks on the bus), and the Bloodkin afterparty at the Maple Leaf after the show. Panic tickets aren't part of it.",
+  "note": "The bus's leaving time isn't posted. The pass covers 4 to 8 PM, so the pregame is the safe bet.",
+  "sources": [
+   "https://www.mapleleafbar.com/events/wsp-bus-ticket-package-10-30",
+   "https://www.mapleleafbar.com/events/wsp-bus-ticket-package-10-31"
+  ]
+ },
+ "note": {
+  "title": "",
+  "body": [
+   "Hey Baby, two nights of Panic in New Orleans on Halloween weekend. Tap the star on anything you like and it'll wait for you up top.",
+   "Saturday looks stormy, so bring the umbrella to the Lakefront."
+  ],
+  "sign": "-p"
+ }
+}

@@ -80,7 +80,7 @@ WSP.map = (function () {
   /* from a walk card: open the map, show that walk, frame it */
   function showWalk(k) {
     const w = walkLayers[k]; if (!w || !map) return;
-    if (WSP.shell) { WSP.shell.go && WSP.shell.go('around', { scroll: false }); WSP.shell.setOpen('map', true); WSP.shell.lockMap && WSP.shell.lockMap(false); }
+    if (WSP.shell) { WSP.shell.go && WSP.shell.go('map', { scroll: false }); WSP.shell.setOpen('map', true); WSP.shell.lockMap && WSP.shell.lockMap(false); }
     /* just this walk: the other walk and the category pins step aside ("All" brings the pins back) */
     Object.keys(walkLayers).forEach(x => { const on = x === k; if (on) walkLayers[x].g.addTo(map); else map.removeLayer(walkLayers[x].g); const c = document.querySelector(`[data-walk="${x}"]`); if (c) c.setAttribute('aria-pressed', String(on)); });
     active = new Set(); Object.keys(layerByCat).forEach(c => map.removeLayer(layerByCat[c]));

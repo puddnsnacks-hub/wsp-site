@@ -20,7 +20,8 @@ WSP.shell = (function () {
     scenes().forEach(s => { const on = s.dataset.chapter === id; s.classList.toggle('is-on', on); const b = $('[data-chapter-toggle]', s); if (b) b.setAttribute('aria-expanded', String(on)); });
     document.body.dataset.chapter = id; current = id; if (opts.scroll !== false) landingAt = Date.now();
     if (opts.scroll !== false) { const nav = $('.site-nav'); const sc = scenes().find(s => s.dataset.chapter === id); const top = (sc || $('main')).getBoundingClientRect().top + scrollY - (nav ? nav.offsetHeight : 0) + 4; scrollTo({ top: Math.max(0, top), behavior: opts.instant ? 'instant' : WSP.motion() }); }
-    if (id === 'around' && WSP.map) { setTimeout(() => { WSP.map.refresh && WSP.map.refresh(); WSP.map.refreshMini && WSP.map.refreshMini(); }, 60); }
+    if (id === 'map' && setOpen) setOpen('map', true);
+    if ((id === 'map' || id === 'around') && WSP.map) { setTimeout(() => { WSP.map.refresh && WSP.map.refresh(); WSP.map.refreshMini && WSP.map.refreshMini(); }, 60); }
     $$('.to-top').forEach(t => { t.hidden = true; });
   }
   function closeAll() { scenes().forEach(s => { s.classList.remove('is-on'); const b = $('[data-chapter-toggle]', s); if (b) b.setAttribute('aria-expanded', 'false'); }); current = null; document.body.dataset.chapter = ''; }
