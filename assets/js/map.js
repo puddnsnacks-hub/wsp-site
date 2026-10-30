@@ -52,6 +52,43 @@ WSP.map = (function () {
     setTimeout(() => map.invalidateSize(), 300);
   }
 
+  /* the walks: the street path in its own color, numbered stops, a chip to show each one */
+  const walkLayers = {};
+  function walks(W) {
+    if (!map || !W) return;
+    const wrap = document.getElementById('map-walks');
+    const COL = { fri: cssVar('--wsp-teal-60') || '#5f3494', sat: cssVar('--wsp-green-60') || '#2d5f38' };
+    const NAME = { fri: 'Friday walk', sat: 'Saturday walk' };
+    Object.keys(W).forEach(k => {
+      const w = W[k]; if (!w.path || w.path.length < 2) return;
+      const g = L.layerGroup();
+      L.polyline(w.path, { color: '#fff', weight: 10, opacity: .9 }).addTo(g);
+      L.polyline(w.path, { color: COL[k], weight: 6, opacity: .95 }).addTo(g);
+      L.marker(w.path[0], { icon: L.divIcon({ className: '', html: `<div class="walk-pin walk-pin--start" style="--c:${COL[k]}">★</div>`, iconSize: [28, 28], iconAnchor: [14, 14] }), title: 'Your hotel', keyboard: false }).addTo(g).bindPopup('<b>Your hotel</b><br>Start and end here');
+      w.stops.forEach((s, i) => { if (typeof s.lat !== 'number' || !s.place) return;
+        L.marker([s.lat, s.lng], { icon: L.divIcon({ className: '', html: `<div class="walk-pin" style="--c:${COL[k]}">${i + 1}</div>`, iconSize: [28, 28], iconAnchor: [14, 14] }), title: s.name, keyboard: false, zIndexOffset: 500 })
+          .addTo(g).bindPopup(`<b>${i + 1}. ${esc(s.name)}</b>${s.time ? `<br>${esc(s.time)}` : ''}<br><a href="#" data-open="${esc(s.place)}">Details</a>`)
+          .on('popupopen', (e) => { const a = e.popup.getElement().querySelector('[data-open]'); if (a) a.addEventListener('click', (ev) => { ev.preventDefault(); WSP.sheet.openLocation({ id: s.place }); }); }); });
+      g.addTo(map); walkLayers[k] = { g, bounds: L.latLngBounds(w.path).pad(.15) };
+    });
+    if (wrap) {
+      wrap.innerHTML = Object.keys(walkLayers).map(k => `<button class="chip" type="button" data-walk="${k}" aria-pressed="true"><span class="dot" style="--c:${COL[k]}"></span>${NAME[k]}${W[k].miles ? ` <span class="muted num">${W[k].miles} mi</span>` : ''}</button>`).join('');
+      wrap.addEventListener('click', (e) => { const b = e.target.closest('[data-walk]'); if (!b) return; const k = b.dataset.walk, on = b.getAttribute('aria-pressed') !== 'true';
+        b.setAttribute('aria-pressed', String(on)); if (on) { walkLayers[k].g.addTo(map); map.flyToBounds(walkLayers[k].bounds, { duration: .8 }); } else map.removeLayer(walkLayers[k].g); });
+    }
+  }
+  /* from a walk card: open the map, show that walk, frame it */
+  function showWalk(k) {
+    const w = walkLayers[k]; if (!w || !map) return;
+    if (WSP.shell) { WSP.shell.go && WSP.shell.go('around', { scroll: false }); WSP.shell.setOpen('map', true); WSP.shell.lockMap && WSP.shell.lockMap(false); }
+    /* just this walk: the other walk and the category pins step aside ("All" brings the pins back) */
+    Object.keys(walkLayers).forEach(x => { const on = x === k; if (on) walkLayers[x].g.addTo(map); else map.removeLayer(walkLayers[x].g); const c = document.querySelector(`[data-walk="${x}"]`); if (c) c.setAttribute('aria-pressed', String(on)); });
+    active = new Set(); Object.keys(layerByCat).forEach(c => map.removeLayer(layerByCat[c]));
+    document.querySelectorAll('#map-filters [data-cat]').forEach(x => x.setAttribute('aria-pressed', 'false'));
+    setTimeout(() => { map.getContainer().scrollIntoView({ behavior: WSP.motion ? WSP.motion() : 'smooth', block: 'center' }); }, 120);
+    setTimeout(() => { map.invalidateSize(); map.fitBounds(w.bounds); }, 250);
+  }
+
   function renderFilters(locations) {
     const wrap = document.getElementById('map-filters'); if (!wrap) return;
     const counts = {}; locations.forEach(l => { const c = CATS[l.category] ? l.category : 'nature'; counts[c] = (counts[c] || 0) + 1; });
@@ -115,5 +152,5 @@ WSP.map = (function () {
   function gmapsFallback(loc) { return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((loc.name || '') + ' ' + (String(loc.address || '').split(/\.\s|\s\(/)[0] || loc.city || 'New Orleans'))}`; }
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 
-  return { init, focus, mini, setInteractive, refresh, refreshMini, CATS, gmapsFallback };
+  return { init, walks, showWalk, focus, mini, setInteractive, refresh, refreshMini, CATS, gmapsFallback };
 })();

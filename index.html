@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="assets/css/layer.css">
 <link rel="stylesheet" href="assets/css/reverse.css">
 <link rel="stylesheet" href="assets/css/timeline.css">
-<link rel="stylesheet" href="assets/css/nola.css?v=6">
+<link rel="stylesheet" href="assets/css/nola.css?v=7">
 <script>document.documentElement.setAttribute("data-theme","light");</script>
 </head>
 <body>
@@ -184,9 +184,10 @@
       <div class="body"><div class="pending-note">Loading</div></div>
     </section>
     <section class="w" id="map" data-widget="map" aria-labelledby="map-h">
-      <header><div class="t"><span class="eyebrow">The map</span><h2 id="map-h">Every pin in town</h2></div><div class="act"><button class="btn btn--sm" id="locate-btn">Where am I?</button></div></header>
+      <header><div class="t"><span class="eyebrow">The map</span><h2 id="map-h">Every pin, both walks</h2></div><div class="act"><button class="btn btn--sm" id="locate-btn">Where am I?</button></div></header>
       <div class="body flush">
         <div class="map-cities" id="map-cities" role="group" aria-label="Show part of town"><button class="chip" type="button" data-city="all" aria-pressed="false">Downtown</button><button class="chip" type="button" data-city="quarter" aria-pressed="false">The Quarter</button><button class="chip" type="button" data-city="uptown" aria-pressed="false">Uptown</button><button class="chip" type="button" data-city="lake" aria-pressed="false">The lake</button></div>
+        <div class="map-filters map-walks" id="map-walks" role="group" aria-label="Show a walk"></div>
         <div class="map-filters" id="map-filters" role="group" aria-label="Filter pins"></div>
         <div class="map-wrap" id="map-wrap"><div id="leaflet-map" aria-label="Map of every place in the guide"></div><button class="map-lock" id="map-lock" aria-pressed="true"><span>Tap to unlock the map</span></button></div>
         <p class="caption map-note">Pins sit at each street address. The address in each card is the one to trust.</p>
@@ -224,8 +225,8 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="assets/js/icons.js?v=4"></script>
 <script src="assets/js/weather.js?v=3"></script>
-<script src="assets/js/map.js?v=1"></script>
+<script src="assets/js/map.js?v=3"></script>
 <script src="assets/js/shell.js?v=1"></script>
-<script src="assets/js/app.js?v=4"></script>
+<script src="assets/js/app.js?v=5"></script>
 </body>
 </html>

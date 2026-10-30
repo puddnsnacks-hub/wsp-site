@@ -300,7 +300,7 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
     ['eat-morning', 'eat-lunch', 'eat-dinner', 'eat-late', 'drink-bars', 'eat-sweets', 'eat-events', 'see-halloween', 'see-saints', 'see-museums'].forEach(k => renderPlaces(k, c[k]));
     /* the walks: stops in order, the leg from the last stop above each, a stop opens its card */
     ['fri', 'sat'].forEach(k => { const wb = body('walk-' + k), W = N.walks && N.walks[k]; if (!wb || !W) return;
-      wb.innerHTML = `<p class="walk-wx">${esc(W.weather)}</p><ol class="walk">${W.stops.map((s, i) => `<li>${s.leg ? `<p class="walk-leg">${esc(s.leg)}</p>` : ''}<span class="walk-n num">${i + 1}</span><div>${s.time ? `<p class="walk-t">${esc(s.time)}</p>` : ''}<h3>${s.place && P[s.place] ? `<button class="walk-go" type="button" data-place="${esc(s.place)}">${esc(s.name)}</button>` : esc(s.name)}</h3><p class="walk-a">${esc(String(s.address).replace(/,\s*New Orleans.*$/, ''))}</p><p>${esc(s.note)}${src(s.sources)}</p></div></li>`).join('')}</ol><p class="caption">Walking times are estimates. Tap a stop for its hours.</p>`; });
+      wb.innerHTML = `<p class="walk-wx">${esc(W.weather)}</p><ol class="walk">${W.stops.map((s, i) => `<li>${s.leg ? `<p class="walk-leg">${esc(s.leg)}</p>` : ''}<span class="walk-n num">${i + 1}</span><div>${s.time ? `<p class="walk-t">${esc(s.time)}</p>` : ''}<h3>${s.place && P[s.place] ? `<button class="walk-go" type="button" data-place="${esc(s.place)}">${esc(s.name)}</button>` : esc(s.name)}</h3><p class="walk-a">${esc(String(s.address).replace(/,\s*New Orleans.*$/, ''))}</p><p>${esc(s.note)}${src(s.sources)}</p></div></li>`).join('')}</ol><p class="caption">${W.miles ? `About ${W.miles} miles on foot. ` : ''}Walking times are estimates. Tap a stop for its hours.</p><p class="links"><button class="link-pill" type="button" data-walk-map="${k}">${I.pin}See the walk on the map</button></p>`; });
     /* the bus pass */
     const bb = body('shows-bus'); const B = N.bus;
     if (bb && B) bb.innerHTML = `<ul class="tkt-list">${B.nights.map(n => `<li class="tkt"><div><h3>${esc(n.day)}</h3><p>Pregame with ${esc(n.pregame)}, then the bus</p></div><div class="tkt-p">${esc(n.time)}</div></li>`).join('')}</ul>
@@ -323,6 +323,8 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
     WSP.locations = locs;
     try { renderNola(d); } catch (e) { console.warn('render', e); }
     WSP.map.init(locs, 'all');
+    try { WSP.map.walks(d.nola && d.nola.walks); } catch (e) { console.warn('walks', e); }
+    document.addEventListener('click', (e) => { const b = e.target.closest('[data-walk-map]'); if (!b) return; e.preventDefault(); WSP.map.showWalk(b.dataset.walkMap); });
     WSP.shell.init(d);
     await wxP;
   }

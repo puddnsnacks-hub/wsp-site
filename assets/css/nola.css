@@ -514,3 +514,8 @@ body.stars-only .space--gap { display: none; }
 .walk .walk-t { margin: 2px 0 0; font: 700 13px/1.2 var(--pds-font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--wsp-orange-60); }
 .walk-go { all: unset; cursor: pointer; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; text-decoration-color: var(--wsp-teal-40); }
 .walk-go:focus-visible { outline: 3px solid var(--wsp-teal-50); outline-offset: 2px; }
+
+/* walk stops on the map */
+.walk-pin { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--c); color: #fff; border: 3px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.45); font: 700 14px/1 var(--pds-font-sans); }
+.walk-pin--start { font-size: 15px; }
+.map-walks { padding-bottom: 0; }
