@@ -28,7 +28,7 @@
      "About 9 mi by road. Roughly 25–37 min by rideshare (estimate)"
     ]
    ],
-   "check": "Whether 8:00 is doors or the first set isn't confirmed. Sold out isn't confirmed either.",
+   "check": "Whether 8:00 is doors or the first set isn't confirmed. Your bus leaves from the Maple Leaf.",
    "website": "https://www.ticketmaster.com/widespread-panic-friday-new-orleans-louisiana-10-30-2026/event/1B00650E6B86363A",
    "sources": [
     "https://liveforlivemusic.com/news/announce/widespread-panic-halloween-new-orleans-2026/",
@@ -72,7 +72,7 @@
      "About 9 mi by road. Roughly 25–37 min by rideshare (estimate)"
     ]
    ],
-   "check": "Whether 8:00 is doors or the first set isn't confirmed. Sold out isn't confirmed either.",
+   "check": "Whether 8:00 is doors or the first set isn't confirmed. Your bus leaves from the Maple Leaf.",
    "website": "https://www.ticketmaster.com/widespread-panic-saturday-new-orleans-louisiana-10-31-2026/event/1B00650E69CD3419",
    "sources": [
     "https://liveforlivemusic.com/news/announce/widespread-panic-halloween-new-orleans-2026/",
@@ -105,6 +105,10 @@
     [
      "When",
      "Friday, the venue calendar runs 11 PM to 3 AM"
+    ],
+    [
+     "Your bus pass",
+     "Includes this afterparty"
     ],
     [
      "Getting there",
@@ -221,8 +225,8 @@
      "Saturday, the venue calendar runs 11 PM to 3 AM"
     ],
     [
-     "Not the same thing",
-     "The WSP bus package runs 4 to 8 PM at the Maple Leaf. That's a bus package, not the afterparty"
+     "Your bus pass",
+     "Includes this afterparty"
     ],
     [
      "Getting there",

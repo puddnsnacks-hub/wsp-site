@@ -170,9 +170,9 @@
    "source": "https://flymsy.com/taxis-2"
   },
   {
-   "label": "To the arena",
-   "text": "The UNO Lakefront Arena is about 9 miles from the hotel, roughly 25 to 37 minutes by rideshare. That's an estimate, so leave early.",
-   "source": "https://www.wwoz.org/events/1404686"
+   "label": "To the shows",
+   "text": "Your bus pass covers the ride to the UNO Lakefront Arena and back, from the Maple Leaf Bar on Oak Street. Get to the Maple Leaf by 4 both days, about 16 to 25 minutes Uptown by rideshare (estimate).",
+   "source": "https://www.mapleleafbar.com/events/wsp-bus-ticket-package-10-30"
   },
   {
    "label": "Clocks",
@@ -210,162 +210,176 @@
   "text": "Friday 79° and 67°, 5% chance of rain. Saturday 80° and 67°, 58% chance, with storms. Sunday 80° and 66°, 46% chance. Sunset 6:14 PM Friday and Saturday, 5:13 PM Sunday.",
   "source": "https://api.weather.gov/gridpoints/LIX/68,88/forecast"
  },
- "walk": {
-  "stops": [
+ "walks": {
+  "fri": {
+   "title": "Friday until the bus",
+   "weather": "Dry and about 79°, the nicest day of the three.",
+   "stops": [
+    {
+     "place": "mothers-restaurant",
+     "name": "Mother's Restaurant",
+     "address": "401 Poydras St, New Orleans, LA 70130",
+     "time": "Breakfast",
+     "note": "Breakfast all day, five blocks from the hotel. Get the debris and a biscuit.",
+     "leg": "About 10 minutes on foot (estimate)",
+     "sources": []
+    },
+    {
+     "place": "ogden-museum-of-southern-art",
+     "name": "Ogden Museum",
+     "address": "925 Camp St, New Orleans, LA 70130",
+     "time": "10 AM",
+     "note": "Opens at 10. Southern art, right beside the hotel.",
+     "leg": "About 10 minutes on foot (estimate)",
+     "sources": []
+    },
+    {
+     "place": "julia-street-gallery-row",
+     "name": "Julia Street galleries",
+     "address": "432-434 Julia St, New Orleans, LA 70130",
+     "time": "",
+     "note": "A few blocks of galleries on the way toward Canal. Free to browse.",
+     "leg": "About 5 minutes on foot (estimate)",
+     "sources": []
+    },
+    {
+     "place": "carousel-bar",
+     "name": "Carousel Bar",
+     "address": "214 Royal Street, New Orleans, LA 70130",
+     "time": "12:30 PM",
+     "note": "The Royal Caravan Brass Band plays at 12:30. A Vieux Carré on the turning bar.",
+     "leg": "About 15 minutes on foot (estimate)",
+     "sources": []
+    },
+    {
+     "place": "napoleon-house",
+     "name": "Napoleon House",
+     "address": "500 Chartres St, New Orleans, LA 70130",
+     "time": "Lunch",
+     "note": "A Pimm's Cup and a muffuletta.",
+     "leg": "About 5 minutes on foot (estimate)",
+     "sources": []
+    },
+    {
+     "place": "st-louis-cathedral",
+     "name": "St. Louis Cathedral",
+     "address": "615 Pere Antoine Alley, New Orleans, LA 70116",
+     "time": "",
+     "note": "Through Jackson Square to the cathedral, open until 5. The square's artists are out when the weather's good.",
+     "leg": "About 5 minutes on foot (estimate)",
+     "sources": []
+    },
+    {
+     "place": "cafe-du-monde-french-market",
+     "name": "Café Du Monde",
+     "address": "800 Decatur St, New Orleans, LA 70116",
+     "time": "",
+     "note": "Beignets and café au lait before the ride Uptown.",
+     "leg": "About 5 minutes on foot (estimate)",
+     "sources": []
+    },
+    {
+     "place": "",
+     "name": "Maple Leaf Bar",
+     "address": "8316 Oak St",
+     "time": "By 4 PM",
+     "note": "Leave the Quarter by about 3:15. Polytoxic plays the pregame, then the bus to the arena.",
+     "leg": "A rideshare Uptown, about 6 miles. Check the app for the time",
+     "sources": [
+      "https://www.mapleleafbar.com/events/wsp-bus-ticket-package-10-30",
+      "https://www.mapleleafbar.com/events/wsp-bus-ticket-package-10-31"
+     ]
+    }
+   ]
+  },
+  "sat": {
+   "title": "Saturday until the bus",
+   "weather": "Storms likely, heaviest around 3 to 6. This one stays mostly indoors. Bring the umbrella.",
+   "stops": [
+    {
+     "place": "willa-jean",
+     "name": "Willa Jean",
+     "address": "611 O'Keefe Ave, New Orleans, LA 70113",
+     "time": "Breakfast",
+     "note": "Southern breakfast and pastries, open from 7. There's a waitlist on busy mornings.",
+     "leg": "About 15 minutes on foot (estimate)",
+     "sources": []
+    },
+    {
+     "place": "national-wwii-museum",
+     "name": "National WWII Museum",
+     "address": "945 Magazine St, New Orleans, LA 70130",
+     "time": "9 AM",
+     "note": "Opens at 9 and takes as long as you give it. A good place to wait out rain.",
+     "leg": "About 15 minutes on foot (estimate)",
+     "sources": []
+    },
+    {
+     "place": "sazerac-house",
+     "name": "The Sazerac House",
+     "address": "101 Magazine St, New Orleans, LA 70130",
+     "time": "11 AM",
+     "note": "The cocktail's own museum, opens at 11, at the foot of Canal.",
+     "leg": "About 20 minutes on foot (estimate)",
+     "sources": []
+    },
+    {
+     "place": "erin-rose",
+     "name": "Erin Rose",
+     "address": "811 Conti Street, New Orleans, LA 70112",
+     "time": "Lunch",
+     "note": "Killer Po' Boys in the back room. The pork belly po' boy with lime slaw.",
+     "leg": "About 10 minutes on foot (estimate)",
+     "sources": []
+    },
+    {
+     "place": "ph-oct31",
+     "name": "Preservation Hall",
+     "address": "726 St Peter St",
+     "time": "2:30 PM",
+     "note": "Wendell Brunious and the Preservation Hall Legacy Band at 2:30. Reserve a seat on the Hall's calendar; Saturday's early sets still had seats. Leave by about 3:15 for the Maple Leaf.",
+     "leg": "About 5 minutes on foot (estimate)",
+     "sources": [
+      "https://www.preservationhall.com/calendar/"
+     ]
+    },
+    {
+     "place": "",
+     "name": "Maple Leaf Bar",
+     "address": "8316 Oak St",
+     "time": "By 4 PM",
+     "note": "Johnny Sketch & the Dirty Notes play the pregame, 4 to 7, then the bus to the arena.",
+     "leg": "A rideshare Uptown, about 5 miles. Check the app for the time",
+     "sources": [
+      "https://www.mapleleafbar.com/events/wsp-bus-ticket-package-10-30",
+      "https://www.mapleleafbar.com/events/wsp-bus-ticket-package-10-31"
+     ]
+    }
+   ]
+  }
+ },
+ "bus": {
+  "where": "Maple Leaf Bar, 8316 Oak St",
+  "ride": "About 5 miles Uptown from the hotel, roughly 16 to 25 minutes by rideshare (estimate)",
+  "nights": [
    {
-    "name": "Your hotel",
-    "address": "301 St Joseph St",
-    "note": "Start here."
+    "day": "Friday",
+    "pregame": "Polytoxic",
+    "time": "4 to 8 PM"
    },
    {
-    "name": "Joy Theater",
-    "address": "1200 Canal St",
-    "note": "Friday's late show is here. Canal Street is the edge of the Quarter.",
-    "source": "https://thejoytheater.com/event/kevin-scotts-zambi-ween/",
-    "leg": "About 25 minutes on foot from the last stop (estimate)"
-   },
-   {
-    "name": "Carousel Bar",
-    "address": "214 Royal St",
-    "note": "A drink on the turning bar, open 11 AM to midnight, 21 and over after 6.",
-    "source": "https://www.hotelmonteleone.com/dining/carousel-bar/",
-    "leg": "About 10 minutes on foot from the last stop (estimate)"
-   },
-   {
-    "name": "Royal Street",
-    "address": "200 to 1200 blocks of Royal",
-    "note": "Galleries and antique windows the whole way down.",
-    "leg": "Royal Street runs from the 200 block to the 1200 block, about ten blocks. Take your time."
-   },
-   {
-    "name": "Verti Marte",
-    "address": "1201 Royal St",
-    "note": "A tiny deli known for its sandwiches. Two articles say it's open 24 hours.",
-    "source": "https://dirtycoast.com/blogs/the-dirt2/verti-marte-tiny-24-hour-deli-feeds-french-quarter https://timeout.com/new-orleans/restaurants/verti-marte"
-   },
-   {
-    "name": "Back to the hotel",
-    "address": "301 St Joseph St",
-    "note": "A rideshare back is the easy choice after dark."
+    "day": "Saturday",
+    "pregame": "Johnny Sketch & the Dirty Notes",
+    "time": "4 to 8 PM"
    }
   ],
-  "legs": [],
-  "note": "Walking times are estimates. Bourbon Street is 20 to 30 minutes from the hotel on foot."
+  "includes": "The pregame show, the bus to the UNO Lakefront Arena and back (drinks on the bus), and the Bloodkin afterparty at the Maple Leaf after the show. Panic tickets aren't part of it.",
+  "note": "The bus's leaving time isn't posted. The pass covers 4 to 8 PM, so the pregame is the safe bet.",
+  "sources": [
+   "https://www.mapleleafbar.com/events/wsp-bus-ticket-package-10-30",
+   "https://www.mapleleafbar.com/events/wsp-bus-ticket-package-10-31"
+  ]
  },
- "checking": [
-  {
-   "chapter": "music",
-   "text": "Panic both nights: is 8 PM doors or the first set, and is it sold out? Check Ticketmaster."
-  },
-  {
-   "chapter": "music",
-   "text": "No Panic show turned up for Sunday."
-  },
-  {
-   "chapter": "music",
-   "text": "Bloodkin at the Maple Leaf: set times, prices, and how the guest spells his name, Gruver or Groover. The Maple Leaf is 504-866-9359."
-  },
-  {
-   "chapter": "music",
-   "text": "What the WSP bus package at the Maple Leaf includes, 4 to 8 PM."
-  },
-  {
-   "chapter": "music",
-   "text": "Ticket prices for most of the club shows."
-  },
-  {
-   "chapter": "music",
-   "text": "Freaky Deaky at Mardi Gras World: gate times and prices."
-  },
-  {
-   "chapter": "music",
-   "text": "An All Saints Day jazz mass or second line on Sunday. None found yet."
-  },
-  {
-   "chapter": "music",
-   "text": "A brass band or jazz brunch on Sunday morning. None found yet."
-  },
-  {
-   "chapter": "food",
-   "text": "Gumbo. Arnaud's is on a best-of list but isn't verified."
-  },
-  {
-   "chapter": "food",
-   "text": "Dive bars."
-  },
-  {
-   "chapter": "food",
-   "text": "Brunch near the hotel."
-  },
-  {
-   "chapter": "food",
-   "text": "Bottomless mimosas and Bloody Marys."
-  },
-  {
-   "chapter": "food",
-   "text": "Verti Marte's 24 hours come from two articles. There's no official listing."
-  },
-  {
-   "chapter": "food",
-   "text": "Cochon Butcher's hours. Its own site didn't show them."
-  },
-  {
-   "chapter": "food",
-   "text": "Halloween and All Saints Day hours anywhere. Call ahead on the day."
-  },
-  {
-   "chapter": "see",
-   "text": "Cemetery tour times and prices for St. Louis No. 1 and Lafayette No. 1."
-  },
-  {
-   "chapter": "see",
-   "text": "All Saints Day Mass times at St. Louis Cathedral, and the blessing of the graves."
-  },
-  {
-   "chapter": "see",
-   "text": "Ghost and cemetery tours on Halloween night."
-  },
-  {
-   "chapter": "see",
-   "text": "Day of the Dead events on Sunday. Only older years turned up."
-  },
-  {
-   "chapter": "shop",
-   "text": "Vintage clothing stores."
-  },
-  {
-   "chapter": "shop",
-   "text": "Antique furniture."
-  },
-  {
-   "chapter": "around",
-   "text": "Convenience stores near the hotel."
-  },
-  {
-   "chapter": "around",
-   "text": "Uber and Lyft prices, from the airport and to the Quarter. Check the app."
-  },
-  {
-   "chapter": "around",
-   "text": "The last streetcar of the night on St. Charles. RTA is 504-248-3900."
-  },
-  {
-   "chapter": "around",
-   "text": "Whether the Canal streetcar still stops at Canal and LaSalle."
-  },
-  {
-   "chapter": "around",
-   "text": "Street closures and bag checks in the Quarter on Halloween. Ask the front desk."
-  },
-  {
-   "chapter": "around",
-   "text": "Breakfast and pool hours at the hotel. Ask at check-in."
-  },
-  {
-   "chapter": "around",
-   "text": "The UNO Lakefront Arena's street address."
-  }
- ],
  "note": {
   "title": "",
   "body": [

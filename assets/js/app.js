@@ -264,7 +264,7 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
       ${p.image ? `<figure class="media sheet-media"><img src="${esc(p.image.src)}" alt="" loading="lazy" onerror="this.closest('figure').remove()"></figure>` : ''}
       <h3 id="sheet-title" class="heading-sm">${esc(p.name)}</h3>
       ${p.blurb ? `<p class="prose"><b class="strong">${esc(p.blurb)}</b></p>` : ''}
-      ${p.check ? `<p class="check-first"><b>Still checking</b> ${esc(p.check)}</p>` : ''}
+      ${p.check ? `<p class="check-first"><b>Check first</b> ${esc(p.check)}</p>` : ''}
       ${arr(p.rows).length || p.address ? `<dl class="hrs--wide place-dl">${arr(p.rows).map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}${p.address ? `<dt>Address</dt><dd>${esc(p.address)}</dd>` : ''}</dl>` : ''}
       <div class="links">${p.address || (p.lat && p.lng) ? pill(mapsFor(p), 'Maps', I.pin, 'maps') : ''}${pill(p.website, /ticketmaster|tickets/.test(p.website || '') ? 'Tickets' : 'Site', /ticket/.test(p.website || '') ? I.ticket : I.link)}${onMap(p)}</div>
       ${srcList(p.sources)}${p.image && p.image.credit ? `<p class="caption photo-credit">Photo: ${p.image.credit_url ? `<a href="${esc(p.image.credit_url)}" target="_blank" rel="noopener">${esc(p.image.credit)}</a>` : esc(p.image.credit)}</p>` : ''}`;
@@ -298,17 +298,19 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
     ['music-fri', 'music-sat', 'music-sun', 'music-free'].forEach(k => renderPlaces(k, c[k]));
     ['music-frenchmen', 'music-brass'].forEach(k => renderPlaces(k, c[k], true));
     ['eat-morning', 'eat-lunch', 'eat-dinner', 'eat-late', 'drink-bars', 'eat-sweets', 'eat-events', 'see-halloween', 'see-saints', 'see-museums'].forEach(k => renderPlaces(k, c[k]));
-    /* the walk: stops in order, the estimate under each */
-    const wb = body('walk-loop'); const W = N.walk;
-    if (wb && W) wb.innerHTML = `<ol class="walk">${W.stops.map((s, i) => `<li><span class="walk-n num">${i + 1}</span><div><h3>${esc(s.name)}</h3><p class="walk-a">${esc(s.address)}</p><p>${esc(s.note)}${src(s.source)}</p>${s.leg ? `<p class="walk-leg">${esc(s.leg)}</p>` : ''}</div></li>`).join('')}</ol><p class="caption">${esc(W.note)}</p>`;
+    /* the walks: stops in order, the leg from the last stop above each, a stop opens its card */
+    ['fri', 'sat'].forEach(k => { const wb = body('walk-' + k), W = N.walks && N.walks[k]; if (!wb || !W) return;
+      wb.innerHTML = `<p class="walk-wx">${esc(W.weather)}</p><ol class="walk">${W.stops.map((s, i) => `<li>${s.leg ? `<p class="walk-leg">${esc(s.leg)}</p>` : ''}<span class="walk-n num">${i + 1}</span><div>${s.time ? `<p class="walk-t">${esc(s.time)}</p>` : ''}<h3>${s.place && P[s.place] ? `<button class="walk-go" type="button" data-place="${esc(s.place)}">${esc(s.name)}</button>` : esc(s.name)}</h3><p class="walk-a">${esc(String(s.address).replace(/,\s*New Orleans.*$/, ''))}</p><p>${esc(s.note)}${src(s.sources)}</p></div></li>`).join('')}</ol><p class="caption">Walking times are estimates. Tap a stop for its hours.</p>`; });
+    /* the bus pass */
+    const bb = body('shows-bus'); const B = N.bus;
+    if (bb && B) bb.innerHTML = `<ul class="tkt-list">${B.nights.map(n => `<li class="tkt"><div><h3>${esc(n.day)}</h3><p>Pregame with ${esc(n.pregame)}, then the bus</p></div><div class="tkt-p">${esc(n.time)}</div></li>`).join('')}</ul>
+      <ul class="rules"><li class="rule"><span class="ic">${I.pin}</span><span><b>Where.</b> ${esc(B.where)}. ${esc(B.ride)}.</span></li>
+      <li class="rule"><span class="ic">${I.info}</span><span><b>What it covers.</b> ${esc(B.includes)}${src(B.sources)}</span></li>
+      <li class="rule"><span class="ic">${I.info}</span><span><b>Get there by 4.</b> ${esc(B.note)}</span></li></ul>`;
     const hb = body('around-hotel'); if (hb) hb.innerHTML = rules(N.hotel_facts) + rules(N.nearby.map(x => ({ label: x.name, text: x.text, source: x.source })));
     const gb = body('around-getting'); if (gb) gb.innerHTML = rules(N.transit);
     const sb = body('around-night'); if (sb) sb.innerHTML = rules(N.safety);
     const fb = body('weather'); if (fb && N.weather_note) fb.insertAdjacentHTML('beforeend', `<p class="caption">The forecast for the weekend: ${esc(N.weather_note.text)}${src(N.weather_note.source)}</p>`);
-    /* still checking: one tab per chapter, nothing stated as known */
-    const CH = [['music', 'Music'], ['food', 'Food and drink'], ['see', 'See'], ['shop', 'Shopping'], ['around', 'Getting around']];
-    const kb = body('still-checking');
-    if (kb) tabs(kb, 'chk', CH.map(([k, l]) => [k, l, (x => x.length ? `<ul class="rules">${x.map(t => `<li class="rule"><span class="ic">${I.info}</span><span>${esc(t.text)}</span></li>`).join('')}</ul>` : '')(N.checking.filter(t => t.chapter === k))]));
   }
 
   /* ---------- Boot ---------- */

@@ -506,3 +506,11 @@ section.w > header .eyebrow { font-size: 12px; letter-spacing: .06em; }
 body.stars-only .scene.cat:not(:has(section.w.is-starred)) { display: none; }
 body.stars-only .space--gap { display: none; }
 .photo-credit { font-size: 13px; margin-top: 6px; }
+
+/* the walks */
+.walk-wx { margin: 0 0 14px; padding: 10px 12px; background: var(--wsp-teal-20); color: var(--wsp-teal-80); font: 600 16px/1.4 var(--pds-font-sans); }
+.walk li { grid-template-columns: 40px minmax(0, 1fr); }
+.walk li > .walk-leg { grid-column: 1 / -1; margin: 0 0 2px; padding-left: 52px; font: 600 14px/1.3 var(--pds-font-sans); color: var(--wsp-green-60); }
+.walk .walk-t { margin: 2px 0 0; font: 700 13px/1.2 var(--pds-font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--wsp-orange-60); }
+.walk-go { all: unset; cursor: pointer; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; text-decoration-color: var(--wsp-teal-40); }
+.walk-go:focus-visible { outline: 3px solid var(--wsp-teal-50); outline-offset: 2px; }
