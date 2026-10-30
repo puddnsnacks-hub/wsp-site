@@ -4196,6 +4196,502 @@
    "miles": 0.6
   },
   {
+   "id": "vintage-market-by-trashy-diva",
+   "name": "The Vintage Market by Trashy Diva",
+   "short": "The Vintage Market by Trashy Diva",
+   "category": "shop",
+   "card": "shop-vintage",
+   "group": "",
+   "area": "Lower Garden District",
+   "address": "1920 Magazine St, New Orleans, LA 70130",
+   "lat": 29.931199,
+   "lng": -90.0741894,
+   "gmaps_url": "",
+   "website": "https://www.trashydivavintage.com/",
+   "blurb": "A Magazine Street vintage shop selling clothing, accessories and decor picked by Trashy Diva designer Candice Gwinn.",
+   "rows": [
+    [
+     "Look for",
+     "Vintage from roughly the 1920s to Y2K, including Edwardian, 1930s, 1960s-70s and 1980s pieces, lingerie and antique lace. The stock includes picks for collectors and for costume parties."
+    ],
+    [
+     "Hours",
+     "Fri 11 AM – 5 PM · Sat 11 AM – 6 PM · Sun 1 PM – 5 PM"
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.trashydivavintage.com/pages/visit-us-in-new-orleans",
+    "https://magazinestreet.com/merchant/vintage-market-by-trashy-diva",
+    "https://www.trashydivavintage.com/"
+   ],
+   "miles": 0.9
+  },
+  {
+   "id": "century-girl-vintage",
+   "name": "Century Girl Vintage",
+   "short": "Century Girl Vintage",
+   "category": "shop",
+   "card": "shop-vintage",
+   "group": "",
+   "area": "Lower Garden District",
+   "address": "2023 Magazine St, New Orleans, LA 70130",
+   "lat": 29.9307631,
+   "lng": -90.0752237,
+   "gmaps_url": "",
+   "website": "https://www.centurygirlvintage.com/",
+   "blurb": "A curated boutique of vintage and designer women's clothing, jewelry and accessories, opened on Magazine Street in 2014.",
+   "rows": [
+    [
+     "Look for",
+     "High-end designer vintage (Dior, Chanel, Vivienne Westwood, Valentino, St. John), sequined and embellished evening gowns, vintage fine and costume jewelry, bridal and lingerie. Also does consignment and rentals."
+    ],
+    [
+     "Price",
+     "$$$"
+    ],
+    [
+     "Hours",
+     "Fri 11 AM – 5:30 PM · Sat 11 AM – 5:30 PM · Sun 12 PM – 5:30 PM"
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.centurygirlvintage.com/",
+    "https://www.neworleans.com/blog/post/best-vintage-shops-in-new-orleans/"
+   ],
+   "miles": 1.0
+  },
+  {
+   "id": "blue-dream",
+   "name": "Blue Dream",
+   "short": "Blue Dream",
+   "category": "shop",
+   "card": "shop-vintage",
+   "group": "",
+   "area": "Lower Garden District",
+   "address": "1925 Sophie Wright Pl, New Orleans, LA 70130",
+   "lat": 29.9315987,
+   "lng": -90.0746333,
+   "gmaps_url": "",
+   "website": "http://www.bluedreamneworleans.com/",
+   "blurb": "A small shop mixing vintage clothing and jewelry with perfumes, oddities and gifts from local makers.",
+   "rows": [
+    [
+     "Look for",
+     "Vintage denim, tees, florals and dresses, eveningwear and standout jewelry, plus bath products and home goods."
+    ],
+    [
+     "Price",
+     "$$"
+    ],
+    [
+     "Hours",
+     "Fri 11 AM – 7 PM · Sat 11 AM – 7 PM · Sun 11 AM – 5 PM"
+    ]
+   ],
+   "check": "Hours come from a listing, not the shop. Call ahead.",
+   "sources": [
+    "https://local.yahoo.com/info-230009915-blue-dream-new-orleans/",
+    "https://www.neworleans.com/blog/post/best-vintage-shops-in-new-orleans/",
+    "http://www.bluedreamneworleans.com/"
+   ],
+   "miles": 0.9
+  },
+  {
+   "id": "funky-monkey",
+   "name": "Funky Monkey",
+   "short": "Funky Monkey",
+   "category": "shop",
+   "card": "shop-vintage",
+   "group": "",
+   "area": "Irish Channel",
+   "address": "3102 Magazine St, New Orleans, LA 70115",
+   "lat": 29.9243481,
+   "lng": -90.0855571,
+   "gmaps_url": "",
+   "website": "https://www.funkymonkeynola.com/",
+   "blurb": "A locally owned resale and vintage shop for men and women that has been on Magazine Street since 1997.",
+   "rows": [
+    [
+     "Look for",
+     "Vintage and secondhand clothing, band tees, platform boots, jumpsuits, wigs, costume jewelry and costume pieces. The stock turns over constantly around Halloween."
+    ],
+    [
+     "Hours",
+     "Fri 11 AM – 7 PM · Sat 11 AM – 7 PM · Sun 12 PM – 6 PM"
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.funkymonkeynola.com/pages/store-info",
+    "https://www.whereyat.com/best-halloween-costume-new-orleans",
+    "https://www.funkymonkeynola.com/"
+   ],
+   "miles": 1.7
+  },
+  {
+   "id": "french-quarter-vintage",
+   "name": "French Quarter Vintage",
+   "short": "French Quarter Vintage",
+   "category": "shop",
+   "card": "shop-vintage",
+   "group": "",
+   "area": "French Quarter",
+   "address": "733 Royal St, New Orleans, LA 70116",
+   "lat": 29.958729,
+   "lng": -90.0642316,
+   "gmaps_url": "",
+   "website": "https://www.trashydivavintage.com/",
+   "blurb": "Trashy Diva's Royal Street vintage shop, focused on dresses, coats and accessories.",
+   "rows": [
+    [
+     "Look for",
+     "Clothing from the 1920s through the 2000s, including Edwardian jackets, lace dresses, patterned gowns, wide-brim and bonnet-style hats and bold jewelry, in a range of sizes."
+    ],
+    [
+     "Hours",
+     "Fri 12 PM – 7 PM · Sat 12 PM – 7 PM · Sun 12 PM – 6 PM"
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.trashydivavintage.com/pages/visit-us-in-new-orleans",
+    "https://kitchencurates.com/vintage-stores-in-new-orleans/",
+    "https://www.trashydivavintage.com/"
+   ],
+   "miles": 1.1
+  },
+  {
+   "id": "vice-and-graft",
+   "name": "Vice & Graft",
+   "short": "Vice & Graft",
+   "category": "shop",
+   "card": "shop-vintage",
+   "group": "",
+   "area": "French Quarter",
+   "address": "927 Royal St, New Orleans, LA 70116",
+   "lat": 29.9601993,
+   "lng": -90.0628971,
+   "gmaps_url": "",
+   "website": "https://viceandgraft.com/",
+   "blurb": "A Royal Street shop selling vintage clothing for all genders and sizes alongside antiques, old photos and memorabilia.",
+   "rows": [
+    [
+     "Look for",
+     "Prohibition-era pieces such as flapper dresses, robes and early lingerie, post-war clothing, vintage tees, jackets and sweatshirts, militaria and Americana."
+    ],
+    [
+     "Hours",
+     "Fri 11 AM – 6 PM · Sat 11 AM – 6 PM · Sun 11 AM – 6 PM"
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://viceandgraft.com/pages/shop-in-person",
+    "https://bizneworleans.com/new-french-quarter-vintage-store-inspired-by-citys-history/",
+    "https://viceandgraft.com/"
+   ],
+   "image": {
+    "src": "assets/img/places/vice-and-graft.jpg",
+    "credit": "Vice & Graft · Shop's own website image; all rights reserved by the shop",
+    "credit_url": "https://viceandgraft.com/pages/shop-in-person"
+   },
+   "miles": 1.2
+  },
+  {
+   "id": "full-court",
+   "name": "Full Court",
+   "short": "Full Court",
+   "category": "shop",
+   "card": "shop-vintage",
+   "group": "",
+   "area": "French Quarter",
+   "address": "509 Dumaine St, New Orleans, LA 70116",
+   "lat": 29.9585423,
+   "lng": -90.0614464,
+   "gmaps_url": "",
+   "website": "https://www.fullcourtclassics.com/",
+   "blurb": "A small French Quarter shop near Decatur Street selling vintage sportswear and collectibles, with racks sorted by color and era.",
+   "rows": [
+    [
+     "Look for",
+     "Vintage sportswear and collectibles."
+    ]
+   ],
+   "check": "Hours aren't posted by the shop, and listings disagree. Call ahead.",
+   "sources": [
+    "https://kitchencurates.com/vintage-stores-in-new-orleans/",
+    "https://www.fullcourtclassics.com/"
+   ],
+   "miles": 1.1
+  },
+  {
+   "id": "miss-claudias",
+   "name": "Miss Claudia's Vintage Clothing & Costumes",
+   "short": "Miss Claudia's Vintage Clothing & Costumes",
+   "category": "shop",
+   "card": "shop-vintage",
+   "group": "",
+   "area": "Uptown",
+   "address": "4204 Magazine St, New Orleans, LA 70115",
+   "lat": 29.92087,
+   "lng": -90.0992636,
+   "gmaps_url": "",
+   "website": "https://www.instagram.com/missclaudiasvintage/",
+   "blurb": "A bright pink Uptown shop selling men's and women's vintage clothing from many decades alongside costumes.",
+   "rows": [
+    [
+     "Look for",
+     "Multi-decade vintage clothing plus costumes, wigs and hats."
+    ]
+   ],
+   "check": "Hours aren't posted. Call ahead.",
+   "sources": [
+    "https://www.neworleans.com/blog/post/the-best-costume-shops-in-new-orleans/",
+    "https://www.instagram.com/missclaudiasvintage/"
+   ],
+   "miles": 2.5
+  },
+  {
+   "id": "ms-rau",
+   "name": "M.S. Rau",
+   "short": "M.S. Rau",
+   "category": "shop",
+   "card": "shop-antiques",
+   "group": "",
+   "area": "French Quarter",
+   "address": "622 Royal St, New Orleans, LA 70130",
+   "lat": 29.9575785,
+   "lng": -90.0650041,
+   "gmaps_url": "",
+   "website": "https://rauantiques.com/",
+   "blurb": "A family-run Royal Street gallery, open since about 1912, whose three-story, 40,000-square-foot showroom mixes fine art, jewelry and formal antique furniture.",
+   "rows": [
+    [
+     "Look for",
+     "19th-century American, French and English furniture: armoires and linen presses, beds, commodes, desks and writing tables, dining tables, games tables, secretaires, sideboards and seating, along with fine art and estate jewelry."
+    ],
+    [
+     "Hours",
+     "Fri 9 AM – 5:15 PM · Sat 9 AM – 5:15 PM"
+    ]
+   ],
+   "check": "Sunday hours aren't posted.",
+   "sources": [
+    "https://rauantiques.com/pages/new-orleans-gallery",
+    "https://bizneworleans.com/m-s-rau-on-royal-street-has-an-expansive-and-elegant-new-showroom/",
+    "https://rauantiques.com/"
+   ],
+   "image": {
+    "src": "assets/img/places/ms-rau.jpg",
+    "credit": "M.S. Rau · All rights reserved; image from the shop's own website",
+    "credit_url": "https://rauantiques.com/pages/new-orleans-gallery"
+   },
+   "miles": 1.0
+  },
+  {
+   "id": "keils-antiques",
+   "name": "Keil's Antiques",
+   "short": "Keil's Antiques",
+   "category": "shop",
+   "card": "shop-antiques",
+   "group": "",
+   "area": "French Quarter",
+   "address": "325 Royal St, New Orleans, LA 70130",
+   "lat": 29.9554702,
+   "lng": -90.0673557,
+   "gmaps_url": "",
+   "website": "https://www.keilsantiques.com/",
+   "blurb": "A fourth-generation family shop on Royal Street, open since 1899, that has long focused on formal English and French furniture along with chandeliers and jewelry.",
+   "rows": [
+    [
+     "Look for",
+     "Formal 18th- and 19th-century English and French furniture (armoires, beds, tables, desks, mirrors, cabinets, chairs), crystal and bronze chandeliers, sconces and lanterns, estate jewelry and objets d'art."
+    ],
+    [
+     "Hours",
+     "Fri 9 AM – 5 PM · Sat 9 AM – 5 PM · Sun Closed"
+    ]
+   ],
+   "check": "",
+   "sources": [
+    "https://www.keilsantiques.com/",
+    "https://1stdibs.com/dealers/keils-antiques"
+   ],
+   "miles": 0.9
+  },
+  {
+   "id": "moss-antiques",
+   "name": "Moss Antiques",
+   "short": "Moss Antiques",
+   "category": "shop",
+   "card": "shop-antiques",
+   "group": "",
+   "area": "French Quarter",
+   "address": "411 Royal St, New Orleans, LA 70130",
+   "lat": 29.9558619,
+   "lng": -90.0667462,
+   "gmaps_url": "",
+   "website": "https://www.mossantiques.com/",
+   "blurb": "A Royal Street shop run by relatives of the Keil family whose stock is mostly French and English furniture from about 1870 to 1910, with lighting and silver.",
+   "rows": [
+    [
+     "Look for",
+     "French and English furniture, mostly late 19th to early 20th century, in walnut, mahogany, rosewood, elm and oak: Louis XV revival display cabinets, French Provincial armoires, Chippendale-style desks, buffets and gilt mirrors, plus lighting, silver, porcelain and bronze."
+    ],
+    [
+     "Hours",
+     "Fri 9 AM – 5 PM · Sat 9 AM – 5 PM · Sun Closed"
+    ]
+   ],
+   "check": "Hours come from a listing, not the shop. Call ahead.",
+   "sources": [
+    "https://startpage.mapquest.com/us/louisiana/moss-antiques-8511353",
+    "https://store.mossantiques.com/furniture/",
+    "https://www.mossantiques.com/"
+   ],
+   "miles": 0.9
+  },
+  {
+   "id": "harris-antiques",
+   "name": "Harris Antiques",
+   "short": "Harris Antiques",
+   "category": "shop",
+   "card": "shop-antiques",
+   "group": "",
+   "area": "French Quarter",
+   "address": "233 Royal St, New Orleans, LA 70130",
+   "lat": 29.9543923,
+   "lng": -90.068007,
+   "gmaps_url": "",
+   "website": "https://www.harrisantiques.com/",
+   "blurb": "A four-story shop at the Canal Street end of Royal Street that sells 18th- and 19th-century European furniture, along with clocks, lighting and paintings.",
+   "rows": [
+    [
+     "Look for",
+     "18th- and 19th-century European furniture (tables, mirrors, pedestals), plus lighting, clocks, paintings, barware and objets d'art."
+    ],
+    [
+     "Hours",
+     "Fri 10 AM – 5 PM · Sat 10 AM – 5 PM"
+    ]
+   ],
+   "check": "Sunday hours aren't posted.",
+   "sources": [
+    "https://www.harrisantiques.com/"
+   ],
+   "miles": 0.8
+  },
+  {
+   "id": "magazine-antique-mall",
+   "name": "Magazine Antique Mall",
+   "short": "Magazine Antique Mall",
+   "category": "shop",
+   "card": "shop-antiques",
+   "group": "",
+   "area": "Irish Channel",
+   "address": "3017 Magazine St, New Orleans, LA 70115",
+   "lat": 29.9249238,
+   "lng": -90.0852085,
+   "gmaps_url": "",
+   "website": "https://magazinestreet.com/merchant/magazine-antique-mall/",
+   "blurb": "A 6,500-square-foot multi-dealer mall with a mixed stock of antique and vintage pieces, less formal than the Royal Street dealers.",
+   "rows": [
+    [
+     "Look for",
+     "A wide mix of antiques and vintage items from many dealers, described as 'an eclectic assortment of timeless, one-of-a-kind items.'"
+    ],
+    [
+     "Hours",
+     "Fri 12 PM – 5 PM · Sat 12 PM – 5 PM · Sun Closed"
+    ]
+   ],
+   "check": "Hours come from a listing, not the shop. Call ahead.",
+   "sources": [
+    "https://startpage.mapquest.com/us/louisiana/magazine-antique-mall-271098033",
+    "https://www.neworleans.com/listing/magazine-antique-mall/32706",
+    "https://magazinestreet.com/merchant/magazine-antique-mall/"
+   ],
+   "miles": 1.7
+  },
+  {
+   "id": "wirthmore-antiques",
+   "name": "Wirthmore Antiques",
+   "short": "Wirthmore Antiques",
+   "category": "shop",
+   "card": "shop-antiques",
+   "group": "",
+   "area": "Uptown",
+   "address": "3727 Magazine St, New Orleans, LA 70115",
+   "lat": 29.9217306,
+   "lng": -90.0940538,
+   "gmaps_url": "",
+   "website": "https://www.wirthmoreantiques.com/",
+   "blurb": "A Magazine Street shop, run since 1983, that specializes in 18th- and 19th-century country French furniture, chosen by the owner on buying trips in France.",
+   "rows": [
+    [
+     "Look for",
+     "Country French dining tables, armoires, dressers and other storage pieces, seating, consoles and desks, plus chandeliers, mirrors, china, crystal, silver, and architectural and garden pieces."
+    ],
+    [
+     "Shipping",
+     "The site says 'Wirthmore will arrange your shipping needs from start to finish.'"
+    ],
+    [
+     "Hours",
+     "Fri 10 AM – 5 PM · Sat 10 AM – 5 PM · Sun Closed"
+    ]
+   ],
+   "check": "Listings disagree on Friday's opening time. Call ahead.",
+   "sources": [
+    "https://www.wirthmoreantiques.com/",
+    "https://www.houstoniamag.com/travel-and-outdoors/2025/12/new-orleans-antiquing-antiques"
+   ],
+   "miles": 2.2
+  },
+  {
+   "id": "dop-antiques",
+   "name": "DOP Antiques",
+   "short": "DOP Antiques",
+   "category": "shop",
+   "card": "shop-antiques",
+   "group": "",
+   "area": "Jefferson Highway",
+   "address": "300 Jefferson Hwy, Suite 201, New Orleans, LA 70121",
+   "lat": null,
+   "lng": null,
+   "gmaps_url": "",
+   "website": "https://dopantiques.com/",
+   "blurb": "A 20,000-square-foot warehouse showroom of European antique furniture, chandeliers and architectural pieces, with custom work in reclaimed cypress.",
+   "rows": [
+    [
+     "Look for",
+     "European antique furniture, chandeliers and mirrors, architectural and garden pieces, and rugs, plus custom tables, benches and bookcases built from reclaimed cypress and barge board."
+    ],
+    [
+     "Shipping",
+     "The site offers nationwide delivery on 'scheduled white-glove routes at published regional starting rates'. Oversized, fragile or remote orders are quoted separately."
+    ],
+    [
+     "Hours",
+     "Fri 10 AM – 5 PM · Sat 10 AM – 5 PM · Sun Closed"
+    ]
+   ],
+   "check": "A drive, not a walk: out Jefferson Highway.",
+   "sources": [
+    "https://dopantiques.com/visit",
+    "https://www.onlyinyourstate.com/experiences/louisiana/dops-antiques-nola",
+    "https://dopantiques.com/"
+   ],
+   "image": {
+    "src": "assets/img/places/dop-antiques.jpg",
+    "credit": "DOP Antiques · All rights reserved; image from the shop's own website",
+    "credit_url": "https://dopantiques.com/"
+   },
+   "miles": null
+  },
+  {
    "id": "ogden-museum-of-southern-art",
    "name": "Ogden Museum of Southern Art",
    "short": "Ogden Museum of Southern Art",
@@ -5627,6 +6123,132 @@
    "lng": -90.0731755,
    "address": "550 Baronne St, New Orleans, LA",
    "blurb": "The all-day bar and lounge in the Virgin Hotels lobby, with an early-evening live set on Friday."
+  },
+  {
+   "id": "vintage-market-by-trashy-diva",
+   "name": "The Vintage Market by Trashy Diva",
+   "category": "shop",
+   "lat": 29.931199,
+   "lng": -90.0741894,
+   "address": "1920 Magazine St, New Orleans, LA 70130",
+   "blurb": "A Magazine Street vintage shop selling clothing, accessories and decor picked by Trashy Diva designer Candice Gwinn."
+  },
+  {
+   "id": "century-girl-vintage",
+   "name": "Century Girl Vintage",
+   "category": "shop",
+   "lat": 29.9307631,
+   "lng": -90.0752237,
+   "address": "2023 Magazine St, New Orleans, LA 70130",
+   "blurb": "A curated boutique of vintage and designer women's clothing, jewelry and accessories, opened on Magazine Street in 2014."
+  },
+  {
+   "id": "blue-dream",
+   "name": "Blue Dream",
+   "category": "shop",
+   "lat": 29.9315987,
+   "lng": -90.0746333,
+   "address": "1925 Sophie Wright Pl, New Orleans, LA 70130",
+   "blurb": "A small shop mixing vintage clothing and jewelry with perfumes, oddities and gifts from local makers."
+  },
+  {
+   "id": "funky-monkey",
+   "name": "Funky Monkey",
+   "category": "shop",
+   "lat": 29.9243481,
+   "lng": -90.0855571,
+   "address": "3102 Magazine St, New Orleans, LA 70115",
+   "blurb": "A locally owned resale and vintage shop for men and women that has been on Magazine Street since 1997."
+  },
+  {
+   "id": "french-quarter-vintage",
+   "name": "French Quarter Vintage",
+   "category": "shop",
+   "lat": 29.958729,
+   "lng": -90.0642316,
+   "address": "733 Royal St, New Orleans, LA 70116",
+   "blurb": "Trashy Diva's Royal Street vintage shop, focused on dresses, coats and accessories."
+  },
+  {
+   "id": "vice-and-graft",
+   "name": "Vice & Graft",
+   "category": "shop",
+   "lat": 29.9601993,
+   "lng": -90.0628971,
+   "address": "927 Royal St, New Orleans, LA 70116",
+   "blurb": "A Royal Street shop selling vintage clothing for all genders and sizes alongside antiques, old photos and memorabilia."
+  },
+  {
+   "id": "full-court",
+   "name": "Full Court",
+   "category": "shop",
+   "lat": 29.9585423,
+   "lng": -90.0614464,
+   "address": "509 Dumaine St, New Orleans, LA 70116",
+   "blurb": "A small French Quarter shop near Decatur Street selling vintage sportswear and collectibles, with racks sorted by color and era."
+  },
+  {
+   "id": "miss-claudias",
+   "name": "Miss Claudia's Vintage Clothing & Costumes",
+   "category": "shop",
+   "lat": 29.92087,
+   "lng": -90.0992636,
+   "address": "4204 Magazine St, New Orleans, LA 70115",
+   "blurb": "A bright pink Uptown shop selling men's and women's vintage clothing from many decades alongside costumes."
+  },
+  {
+   "id": "ms-rau",
+   "name": "M.S. Rau",
+   "category": "shop",
+   "lat": 29.9575785,
+   "lng": -90.0650041,
+   "address": "622 Royal St, New Orleans, LA 70130",
+   "blurb": "A family-run Royal Street gallery, open since about 1912, whose three-story, 40,000-square-foot showroom mixes fine art, jewelry and formal antique furniture."
+  },
+  {
+   "id": "keils-antiques",
+   "name": "Keil's Antiques",
+   "category": "shop",
+   "lat": 29.9554702,
+   "lng": -90.0673557,
+   "address": "325 Royal St, New Orleans, LA 70130",
+   "blurb": "A fourth-generation family shop on Royal Street, open since 1899, that has long focused on formal English and French furniture along with chandeliers and jewelry."
+  },
+  {
+   "id": "moss-antiques",
+   "name": "Moss Antiques",
+   "category": "shop",
+   "lat": 29.9558619,
+   "lng": -90.0667462,
+   "address": "411 Royal St, New Orleans, LA 70130",
+   "blurb": "A Royal Street shop run by relatives of the Keil family whose stock is mostly French and English furniture from about 1870 to 1910, with lighting and silver."
+  },
+  {
+   "id": "harris-antiques",
+   "name": "Harris Antiques",
+   "category": "shop",
+   "lat": 29.9543923,
+   "lng": -90.068007,
+   "address": "233 Royal St, New Orleans, LA 70130",
+   "blurb": "A four-story shop at the Canal Street end of Royal Street that sells 18th- and 19th-century European furniture, along with clocks, lighting and paintings."
+  },
+  {
+   "id": "magazine-antique-mall",
+   "name": "Magazine Antique Mall",
+   "category": "shop",
+   "lat": 29.9249238,
+   "lng": -90.0852085,
+   "address": "3017 Magazine St, New Orleans, LA 70115",
+   "blurb": "A 6,500-square-foot multi-dealer mall with a mixed stock of antique and vintage pieces, less formal than the Royal Street dealers."
+  },
+  {
+   "id": "wirthmore-antiques",
+   "name": "Wirthmore Antiques",
+   "category": "shop",
+   "lat": 29.9217306,
+   "lng": -90.0940538,
+   "address": "3727 Magazine St, New Orleans, LA 70115",
+   "blurb": "A Magazine Street shop, run since 1983, that specializes in 18th- and 19th-century country French furniture, chosen by the owner on buying trips in France."
   },
   {
    "id": "ogden-museum-of-southern-art",

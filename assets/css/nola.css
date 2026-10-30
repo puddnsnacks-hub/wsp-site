@@ -10,6 +10,7 @@
   --wsp-cat-drink: var(--wsp-gold-40);   --wsp-cat-drink-ink: var(--wsp-ink-90);
   --wsp-cat-art: var(--wsp-ink-70);      --wsp-cat-art-ink: var(--wsp-paper-5);
   --wsp-cat-halloween: var(--wsp-black); --wsp-cat-halloween-ink: var(--wsp-paper-5);
+  --wsp-cat-shop: var(--wsp-orange-40);  --wsp-cat-shop-ink: var(--wsp-ink-90);
   --wsp-cat-hotel: var(--wsp-teal-80);   --wsp-cat-hotel-ink: var(--wsp-paper-5);
 }
 
@@ -544,3 +545,10 @@ body.stars-only .space--gap { display: none; }
 .h2-map-t { font: 400 max(17px, calc(var(--u) * 20))/1.1 "Francois One", var(--pds-font-sans); letter-spacing: .02em;
   background: var(--wsp-gold-30); color: var(--wsp-teal-80); padding: calc(var(--u) * 4) calc(var(--u) * 12); min-height: 24px; }
 @media (prefers-reduced-motion: reduce) { .hero2 .h2-map { transition: none; } }
+
+/* ---------- Vintage and antiques ---------- */
+.scene[data-chapter="shop"]     { --ground: var(--wsp-orange-40); --c-title: var(--wsp-black); --c-shadow: var(--wsp-paper-5);
+  --c-w1: var(--wsp-black); --c-w1-ink: var(--wsp-paper-5); --c-w2: var(--wsp-teal-80); --c-w2-ink: var(--wsp-paper-5); }
+#scene-shop { --lab-ink: var(--wsp-orange-60); clip-path: polygon(0 calc(var(--c) * 1.1), 42% 0, 100% calc(var(--c) * .7), 100% calc(100% - var(--c) * .4), 0 100%); }
+#scene-shop .cat-desc { color: var(--wsp-ink-90); }
+:root { --chip-shop: var(--wsp-orange-40); }

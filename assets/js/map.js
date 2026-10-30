@@ -9,6 +9,7 @@ WSP.map = (function () {
     'drink':     { label: 'Drinks',       glyph: 'D' },
     'art':       { label: 'Art',          glyph: 'A' },
     'halloween': { label: 'Halloween and All Saints', glyph: 'H' },
+    'shop':      { label: 'Vintage and antiques', glyph: 'S' },
     'hotel':     { label: 'Your hotel',   glyph: '★' },
   };
   /* New Orleans: the map opens on the hotel and the Quarter, the chips fly farther out */

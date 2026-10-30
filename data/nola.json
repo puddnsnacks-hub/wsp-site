@@ -155,6 +155,25 @@
    "lafayette-cemetery-no-1",
    "metairie-cemetery"
   ],
+  "shop-antiques": [
+   "harris-antiques",
+   "keils-antiques",
+   "moss-antiques",
+   "ms-rau",
+   "magazine-antique-mall",
+   "wirthmore-antiques",
+   "dop-antiques"
+  ],
+  "shop-vintage": [
+   "vintage-market-by-trashy-diva",
+   "blue-dream",
+   "century-girl-vintage",
+   "french-quarter-vintage",
+   "full-court",
+   "vice-and-graft",
+   "funky-monkey",
+   "miss-claudias"
+  ],
   "shows-panic": [
    "wsp-night-1",
    "wsp-night-2"
