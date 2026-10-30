@@ -1,0 +1,92 @@
+/*
+  Theme: wsp — a PDS theme for the Widespread Panic · Milwaukee companion.
+  Release 2: "the site is a screen-printed show poster." The ramps and semantic bindings are re-pointed to
+  the colors sampled from the Peeps illustrations (the WSP style print): cream kraft paper, deep teal and
+  turquoise ink, butterscotch and orange spot colors, brown-black line. One tone only (light); the paper
+  is the ground at night too, so the art never sits on a dark field.
+
+  PDS rules: a theme may change the global tier (ramps, faces, depth, radius) and re-point semantic
+  bindings. Components keep their anatomy and use only --pds-* tokens. Nothing here adds a component.
+*/
+
+:root {
+  /* ---------- Poster ramp (sampled from the art) ---------- */
+  --wsp-paper-5: #fbf3dd; --wsp-paper-10: #f6ead0; --wsp-paper-20: #f0e0b4; --wsp-paper-30: #e7d39e; --wsp-paper-40: #d9c184;
+  --wsp-teal-20: #9bd8e0; --wsp-teal-30: #5fbfcd; --wsp-teal-40: #2a9fb3; --wsp-teal-50: #157d90; --wsp-teal-60: #0f6170; --wsp-teal-70: #0b4a56; --wsp-teal-80: #073a45; --wsp-teal-90: #052a33;
+  --wsp-gold-30: #f2c75c; --wsp-gold-40: #e4b23a; --wsp-gold-50: #c48f14; --wsp-gold-60: #946a0a;
+  --wsp-orange-40: #e9893a; --wsp-orange-50: #d26b1f; --wsp-orange-60: #a2500f;
+  --wsp-ink-50: #8a7458; --wsp-ink-60: #6a553e; --wsp-ink-70: #4a3828; --wsp-ink-80: #352616; --wsp-ink-90: #241709;
+  --wsp-green-40: #6fae7a; --wsp-green-50: #3f7f4d; --wsp-green-60: #2d5f38;
+  --wsp-pink-50: #c9456a; --wsp-pink-60: #a2334f;
+
+  /* ---------- Type: faces stay, the display face leans harder on WONK ---------- */
+  --pds-display-axes: "SOFT" 100, "WONK" 1;
+
+  /* ---------- Semantic re-pointing (light, the only tone) ---------- */
+  color-scheme: light;
+  --pds-bg-canvas: var(--wsp-paper-20);
+  --pds-bg-card: var(--wsp-paper-5);
+  --pds-bg-surface: var(--wsp-paper-10);
+  --pds-bg-sunken: var(--wsp-paper-30);
+  --pds-bg-bar: var(--wsp-paper-5);
+  --pds-bg-band: var(--wsp-teal-80);
+  --pds-bg-selected: var(--wsp-paper-30);
+
+  --pds-border-subtle: var(--wsp-paper-40);
+  --pds-border-control: var(--wsp-ink-50);
+  --pds-border-strong: var(--wsp-ink-80);
+
+  --pds-text-default: var(--wsp-ink-70);
+  --pds-text-muted: var(--wsp-ink-60);
+  --pds-text-strong: var(--wsp-ink-90);
+  --pds-text-heading: var(--wsp-teal-70);
+  --pds-text-eyebrow: var(--wsp-orange-60);
+  --pds-text-link: var(--wsp-teal-60);
+  --pds-text-on-band: var(--wsp-paper-5);
+  --pds-text-on-band-muted: var(--wsp-teal-20);
+  --pds-text-mark-on-band: var(--wsp-gold-30);
+
+  --pds-action-bg: var(--wsp-teal-60);
+  --pds-action-text: var(--wsp-paper-5);
+  --pds-action-secondary-bg: var(--wsp-paper-5);
+  --pds-action-secondary-text: var(--wsp-ink-90);
+  --pds-action-outline: var(--wsp-ink-80);
+
+  --pds-mark: var(--wsp-gold-50);
+  --pds-focus-ring: var(--wsp-teal-50);
+  --pds-focus-halo: var(--wsp-teal-20);
+
+  --pds-status-open-bg: #e3efdf; --pds-status-open-text: var(--wsp-green-60); --pds-status-open-dot: var(--wsp-green-50);
+  --pds-status-closed-bg: #f6ddd6; --pds-status-closed-text: var(--wsp-orange-60); --pds-status-closed-dot: var(--wsp-orange-50);
+  --pds-status-soon-bg: var(--wsp-paper-20); --pds-status-soon-text: var(--wsp-gold-60); --pds-status-soon-dot: var(--wsp-gold-40);
+  --pds-notice-bg: var(--wsp-paper-20); --pds-notice-edge: var(--wsp-gold-40); --pds-notice-text: var(--wsp-ink-80);
+  --pds-map-pin-edge: var(--wsp-paper-5);
+  --pds-scrim: rgba(5, 42, 51, .6);
+
+  /* ---------- Category colors (map pins, chips, place rows) ---------- */
+  --wsp-cat-venue: var(--wsp-teal-50);        --wsp-cat-venue-ink: var(--wsp-paper-5);
+  --wsp-cat-hotel: var(--wsp-ink-70);         --wsp-cat-hotel-ink: var(--wsp-paper-5);
+  --wsp-cat-bar: var(--wsp-orange-50);        --wsp-cat-bar-ink: var(--wsp-paper-5);
+  --wsp-cat-bloody: var(--wsp-pink-60);       --wsp-cat-bloody-ink: var(--wsp-paper-5);
+  --wsp-cat-happy-hour: var(--wsp-gold-40);  --wsp-cat-happy-hour-ink: var(--wsp-ink-90);
+  --wsp-cat-restaurant: var(--wsp-gold-50);   --wsp-cat-restaurant-ink: var(--wsp-ink-90);
+  --wsp-cat-street-food: var(--wsp-gold-30);  --wsp-cat-street-food-ink: var(--wsp-ink-90);
+  --wsp-cat-watch-party: var(--wsp-green-50); --wsp-cat-watch-party-ink: var(--wsp-paper-5);
+  --wsp-cat-stage: var(--wsp-teal-30);        --wsp-cat-stage-ink: var(--wsp-ink-90);
+  --wsp-cat-closure: var(--wsp-teal-20);      --wsp-cat-closure-ink: var(--wsp-ink-90);
+  --wsp-cat-landmark: var(--wsp-ink-50);      --wsp-cat-landmark-ink: var(--wsp-paper-5);
+  --wsp-cat-laverne: var(--wsp-pink-50);      --wsp-cat-laverne-ink: var(--wsp-paper-5);
+  --wsp-cat-practical: var(--wsp-paper-40);   --wsp-cat-practical-ink: var(--wsp-ink-90);
+
+  /* Closure polygon on the map */
+  --wsp-closure-fill: rgba(42, 159, 179, .18);
+  --wsp-closure-stroke: var(--wsp-teal-50);
+
+  /* ---------- Poster chrome ---------- */
+  --wsp-misreg: var(--wsp-teal-40);           /* the second pass that didn't quite line up */
+  --wsp-misreg-offset: 4px;
+  --wsp-grid-gap: 14px;
+  --wsp-page-margin: 16px;
+  --wsp-max: 1280px;
+  --pds-radius: 0;
+}

@@ -1,0 +1,4243 @@
+{
+ "places": [
+  {
+   "id": "wsp-night-1",
+   "name": "Widespread Panic, Night 1",
+   "short": "UNO Lakefront Arena",
+   "category": "panic",
+   "card": "shows-panic",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "UNO Lakefront Arena",
+   "address": "",
+   "lat": 30.0301,
+   "lng": -90.0505,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=UNO%20Lakefront%20Arena%2C%206801%20Franklin%20Ave%2C%20New%20Orleans%2C%20LA%2070122",
+   "blurb": "Night one of two at the UNO Lakefront Arena, out by the lake.",
+   "rows": [
+    [
+     "When",
+     "Friday, 8 PM"
+    ],
+    [
+     "Price",
+     "Ticketmaster single-night or 2-night pass. Cheapest resale listing $129.95 pre-fee, $182.50 all-in (Oct 19, third-party tracker)"
+    ],
+    [
+     "Getting there",
+     "About 9 mi by road. Roughly 25–37 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "Whether 8:00 is doors or the first set isn't confirmed. Sold out isn't confirmed either.",
+   "website": "https://www.ticketmaster.com/widespread-panic-friday-new-orleans-louisiana-10-30-2026/event/1B00650E6B86363A",
+   "sources": [
+    "https://liveforlivemusic.com/news/announce/widespread-panic-halloween-new-orleans-2026/",
+    "https://www.wwoz.org/events/1404686",
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/",
+    "https://www.songkick.com/concerts/43370779-widespread-panic-at-uno-lakefront-arena",
+    "https://widespreadpanic.com/2026/08/17/halloween-in-new-orleans-2026/"
+   ],
+   "miles": 6.1
+  },
+  {
+   "id": "wsp-night-2",
+   "name": "Widespread Panic, Halloween",
+   "short": "UNO Lakefront Arena",
+   "category": "panic",
+   "card": "shows-panic",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "UNO Lakefront Arena",
+   "address": "",
+   "lat": 30.0301,
+   "lng": -90.0505,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=UNO%20Lakefront%20Arena%2C%206801%20Franklin%20Ave%2C%20New%20Orleans%2C%20LA%2070122",
+   "blurb": "Halloween night with Panic at the UNO Lakefront Arena. Costumes are a long Panic Halloween tradition.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 8 PM"
+    ],
+    [
+     "Price",
+     "Ticketmaster single-night or 2-night pass. Cheapest listed resale $171.35 (Oct 20, third-party tracker)"
+    ],
+    [
+     "Getting there",
+     "About 9 mi by road. Roughly 25–37 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "Whether 8:00 is doors or the first set isn't confirmed. Sold out isn't confirmed either.",
+   "website": "https://www.ticketmaster.com/widespread-panic-saturday-new-orleans-louisiana-10-31-2026/event/1B00650E69CD3419",
+   "sources": [
+    "https://liveforlivemusic.com/news/announce/widespread-panic-halloween-new-orleans-2026/",
+    "https://www.wwoz.org/events/1404691",
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/",
+    "https://widespreadpanic.com/2026/08/17/halloween-in-new-orleans-2026/"
+   ],
+   "miles": 6.1
+  },
+  {
+   "id": "maple-leaf-bloodkin-oct30",
+   "name": "Bloodkin with special guest CR Gruver",
+   "short": "Maple Leaf Bar",
+   "category": "panic",
+   "card": "shows-scene",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "Maple Leaf Bar",
+   "address": "8316 Oak St, New Orleans, LA 70118",
+   "lat": 29.9489,
+   "lng": -90.1321,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Maple%20Leaf%20Bar%2C%208316%20Oak%20St%2C%20New%20Orleans%2C%20LA%2070118",
+   "blurb": "Listed as a WSP afterparty, Uptown at the Maple Leaf.",
+   "rows": [
+    [
+     "When",
+     "Friday, the venue calendar runs 11 PM to 3 AM"
+    ],
+    [
+     "Getting there",
+     "About 5 mi by road. Roughly 16–25 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "Set times aren't posted. The guest's name is spelled two ways, Gruver and Groover.",
+   "website": "https://www.mapleleafbar.com/",
+   "sources": [
+    "https://www.wwoz.org/events/1398526",
+    "https://www.mapleleafbar.com/calendar",
+    "https://www.instagram.com/therealbloodkin"
+   ],
+   "miles": 4.0
+  },
+  {
+   "id": "maple-leaf-sunpie-oct30",
+   "name": "Sunpie and Return of the Loup Garou Band",
+   "short": "Maple Leaf Bar",
+   "category": "panic",
+   "card": "shows-scene",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "Maple Leaf Bar",
+   "address": "8316 Oak St, New Orleans, LA 70118",
+   "lat": 29.9489,
+   "lng": -90.1321,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Maple%20Leaf%20Bar%2C%208316%20Oak%20St%2C%20New%20Orleans%2C%20LA%2070118",
+   "blurb": "Uptown's famous brass-and-funk room and this weekend's unofficial Panic clubhouse, with a pre-show and two late-night afterparties.",
+   "rows": [
+    [
+     "When",
+     "Friday, 8 PM"
+    ],
+    [
+     "Getting there",
+     "About 5 mi by road. Roughly 16–25 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.mapleleafbar.com/",
+   "sources": [
+    "https://www.mapleleafbar.com/calendar"
+   ],
+   "miles": 4.0
+  },
+  {
+   "id": "maple-leaf-johnny-sketch-oct31",
+   "name": "Johnny Sketch & the Dirty Notes (WSP Pre-Show)",
+   "short": "Maple Leaf Bar",
+   "category": "panic",
+   "card": "shows-scene",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "Maple Leaf Bar",
+   "address": "8316 Oak St, New Orleans, LA 70118",
+   "lat": 29.9489,
+   "lng": -90.1321,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Maple%20Leaf%20Bar%2C%208316%20Oak%20St%2C%20New%20Orleans%2C%20LA%2070118",
+   "blurb": "Uptown's famous brass-and-funk room and this weekend's unofficial Panic clubhouse, with a pre-show and two late-night afterparties.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 4 PM"
+    ],
+    [
+     "Price",
+     "$23.00"
+    ],
+    [
+     "Getting there",
+     "About 5 mi by road. Roughly 16–25 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.mapleleafbar.com/events/johnny-sketch-the-dirty-notes-2",
+   "sources": [
+    "https://www.mapleleafbar.com/events/johnny-sketch-the-dirty-notes-2"
+   ],
+   "miles": 4.0
+  },
+  {
+   "id": "maple-leaf-bloodkin-oct31",
+   "name": "Bloodkin with special guest CR Gruver, Halloween",
+   "short": "Maple Leaf Bar",
+   "category": "panic",
+   "card": "shows-scene",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "Maple Leaf Bar",
+   "address": "8316 Oak St, New Orleans, LA 70118",
+   "lat": 29.9489,
+   "lng": -90.1321,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Maple%20Leaf%20Bar%2C%208316%20Oak%20St%2C%20New%20Orleans%2C%20LA%2070118",
+   "blurb": "Listed as a WSP afterparty on Halloween night, Uptown at the Maple Leaf.",
+   "rows": [
+    [
+     "When",
+     "Saturday, the venue calendar runs 11 PM to 3 AM"
+    ],
+    [
+     "Not the same thing",
+     "The WSP bus package runs 4 to 8 PM at the Maple Leaf. That's a bus package, not the afterparty"
+    ],
+    [
+     "Getting there",
+     "About 5 mi by road. Roughly 16–25 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "Set times aren't posted. The guest's name is spelled two ways, Gruver and Groover.",
+   "website": "https://www.mapleleafbar.com/",
+   "sources": [
+    "https://www.wwoz.org/events/1398551",
+    "https://www.mapleleafbar.com/calendar",
+    "https://www.instagram.com/therealbloodkin"
+   ],
+   "miles": 4.0
+  },
+  {
+   "id": "chickie-george-porter-oct31",
+   "name": "George Porter Jr. & His Runnin' Pardners",
+   "short": "Chickie Wah Wah",
+   "category": "panic",
+   "card": "shows-scene",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "Chickie Wah Wah",
+   "address": "2828 Canal St, New Orleans, LA 70119",
+   "lat": 29.9668,
+   "lng": -90.0896,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Chickie%20Wah%20Wah%2C%202828%20Canal%20St%2C%20New%20Orleans%2C%20LA%2070119",
+   "blurb": "A friendly Mid-City listening room that books late shows for NOLA funk royalty.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 11:30 PM"
+    ],
+    [
+     "Getting there",
+     "About 3 mi by road. Roughly 11–18 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.chickiewahwah.com/",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-31"
+   ],
+   "miles": 2.1
+  },
+  {
+   "id": "tips-soul-rebels-oct30",
+   "name": "All Hallows Eve Spooktacular with The Soul Rebels (w/ Kota Dosa)",
+   "short": "Tipitina's",
+   "category": "music",
+   "card": "music-fri",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "Tipitina's",
+   "address": "501 Napoleon Ave, New Orleans, LA 70115",
+   "lat": 29.9174,
+   "lng": -90.1008,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Tipitina%27s%2C%20501%20Napoleon%20Ave%2C%20New%20Orleans%2C%20LA%2070115",
+   "blurb": "The Uptown shrine to Professor Longhair, hosting a Soul Rebels Halloween throwdown and a Halloween-night dance party.",
+   "rows": [
+    [
+     "When",
+     "Friday, 9 PM"
+    ],
+    [
+     "Price",
+     "From $34.41 (third-party tracker)"
+    ],
+    [
+     "Getting there",
+     "About 4 mi by road. Roughly 13–21 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.ticketweb.com/event/all-hallows-eve-spooktacular-with-tipitinas-tickets/14222724",
+   "sources": [
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/",
+    "https://www.wwoz.org/events/1377306"
+   ],
+   "miles": 2.7
+  },
+  {
+   "id": "fillmore-victoria-monet-oct30",
+   "name": "Victoria Monét",
+   "short": "The Fillmore New Orleans",
+   "category": "music",
+   "card": "music-fri",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "The Fillmore New Orleans",
+   "address": "6 Canal St, New Orleans, LA 70130",
+   "lat": 29.9498,
+   "lng": -90.0644,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The%20Fillmore%20New%20Orleans%2C%206%20Canal%20St%2C%20New%20Orleans%2C%20LA%2070130",
+   "blurb": "A downtown concert hall at the foot of Canal Street that plays host to touring headliners.",
+   "rows": [
+    [
+     "When",
+     "Friday, 8 PM"
+    ],
+    [
+     "Getting there",
+     "About 0.6 mi. Short walk (12 min)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.fillmorenola.com/",
+   "sources": [
+    "https://www.wwoz.org/events/1390656"
+   ],
+   "miles": 0.5
+  },
+  {
+   "id": "hob-saosin-oct30",
+   "name": "Saosin: 20 Years of Self-Titled (w/ Silent Planet & more)",
+   "short": "House of Blues New Orleans",
+   "category": "music",
+   "card": "music-fri",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "House of Blues New Orleans",
+   "address": "225 Decatur St, New Orleans, LA 70130",
+   "lat": 29.9532,
+   "lng": -90.0661,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Blues%20New%20Orleans%2C%20225%20Decatur%20St%2C%20New%20Orleans%2C%20LA%2070130",
+   "blurb": "The French Quarter's big rock room, with a Friday show and a Sunday-night rap date on the books.",
+   "rows": [
+    [
+     "When",
+     "Friday, 6 PM"
+    ],
+    [
+     "Price",
+     "From $49 (third-party tracker)"
+    ],
+    [
+     "Getting there",
+     "About 0.9 mi. 17 min walk or 5–10 min rideshare"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.ticketmaster.com/saosin-20-years-of-selftitled-new-orleans-louisiana-10-30-2026/event/1B006493036E525B",
+   "sources": [
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/"
+   ],
+   "miles": 0.7
+  },
+  {
+   "id": "howlin-wolf-saint-social-oct30",
+   "name": "Saint Social + Rare Seed",
+   "short": "The Howlin' Wolf",
+   "category": "music",
+   "card": "music-fri",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "The Howlin' Wolf",
+   "address": "907 S Peters St, New Orleans, LA 70130",
+   "lat": 29.9427,
+   "lng": -90.0659,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The%20Howlin%27%20Wolf%2C%20907%20S%20Peters%20St%2C%20New%20Orleans%2C%20LA%2070130",
+   "blurb": "A Warehouse District club about a block from the hotel, with local bands Friday and Saturday and Hot 8 Brass Band on Sunday night.",
+   "rows": [
+    [
+     "When",
+     "Friday, 7 PM"
+    ],
+    [
+     "Getting there",
+     "About 0.1 mi. Short walk (5 min)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.thehowlinwolf.com/",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-30",
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/"
+   ],
+   "miles": 0.0
+  },
+  {
+   "id": "joy-zambi-ween-oct30",
+   "name": "Kevin Scott's ZAMBI-Ween, late night",
+   "short": "The Joy Theater",
+   "category": "music",
+   "card": "shows-scene",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "The Joy Theater",
+   "address": "1200 Canal St, New Orleans, LA 70112",
+   "lat": 29.956,
+   "lng": -90.074,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The%20Joy%20Theater%2C%201200%20Canal%20St%2C%20New%20Orleans%2C%20LA%2070112",
+   "blurb": "A late-night Halloween-eve show at the Joy Theater on Canal. It's a late show that night, not an official Panic afterparty.",
+   "rows": [
+    [
+     "When",
+     "Friday, show 11:55 PM"
+    ],
+    [
+     "Doors",
+     "11:45 PM"
+    ],
+    [
+     "Who",
+     "All ages"
+    ],
+    [
+     "Tickets",
+     "Ticketmaster. The venue is cashless"
+    ],
+    [
+     "Getting there",
+     "About 1.3 mi. 25 min walk or 5–10 min rideshare"
+    ]
+   ],
+   "check": "Ticket price and sold-out status aren't listed.",
+   "website": "https://www.ticketmaster.com/kevin-scotts-zambiween-1030-late-night-new-orleans-louisiana-10-30-2026/event/1B00653DCEF3770C",
+   "sources": [
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/",
+    "https://thejoytheater.com/event/kevin-scotts-zambi-ween/"
+   ],
+   "miles": 1.0
+  },
+  {
+   "id": "gasa-low-cut-connie-oct30",
+   "name": "Low Cut Connie",
+   "short": "Gasa Gasa",
+   "category": "music",
+   "card": "music-fri",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "Gasa Gasa",
+   "address": "4920 Freret St, New Orleans, LA 70115",
+   "lat": 29.9348,
+   "lng": -90.1079,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Gasa%20Gasa%2C%204920%20Freret%20St%2C%20New%20Orleans%2C%20LA%2070115",
+   "blurb": "A mid-sized Freret Street room with a courtyard stage and a good bill both Halloween nights and Sunday.",
+   "rows": [
+    [
+     "When",
+     "Friday, 10 PM"
+    ],
+    [
+     "Price",
+     "From $55 (third-party tracker)"
+    ],
+    [
+     "Getting there",
+     "About 3 mi by road. Roughly 12–20 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.ticketweb.com/event/low-cut-connie-gasa-gasa-tickets/14841113",
+   "sources": [
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/"
+   ],
+   "miles": 2.6
+  },
+  {
+   "id": "freaky-deaky-oct30",
+   "name": "Freaky Deaky NOLA, Night 1 (Porter Robinson DJ set, Dabin, more)",
+   "short": "Mardi Gras World",
+   "category": "music",
+   "card": "music-fri",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "Mardi Gras World",
+   "address": "1380 Port of New Orleans Pl, New Orleans, LA 70130",
+   "lat": 29.9347,
+   "lng": -90.0616,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mardi%20Gras%20World%2C%201380%20Port%20of%20New%20Orleans%20Pl%2C%20New%20Orleans%2C%20LA%2070130",
+   "blurb": "The riverfront float-building warehouse, turned into a two-night dance-music festival site for Halloween weekend.",
+   "rows": [
+    [
+     "When",
+     "Friday, Not listed"
+    ],
+    [
+     "Getting there",
+     "About 0.9 mi. 17 min walk or 5–10 min rideshare"
+    ]
+   ],
+   "check": "",
+   "website": "https://freakydeakynola.com",
+   "sources": [
+    "https://freakydeakynola.com",
+    "https://www.edmtunes.com/2026/07/22/freaky-deaky-nola-reveals-debut-lineup-featuring-porter-robinson-fisher-chris-lorenzo-more/"
+   ],
+   "miles": 0.6
+  },
+  {
+   "id": "southport-pollo-asado-oct31",
+   "name": "Pollo Asado (Ween Tribute): MOM's Halloween Ball",
+   "short": "Southport Hall",
+   "category": "music",
+   "card": "music-sat",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "Southport Hall",
+   "address": "200 Monticello Ave, Jefferson, LA 70121",
+   "lat": 29.9544,
+   "lng": -90.1367,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Southport%20Hall%2C%20200%20Monticello%20Ave%2C%20Jefferson%2C%20LA%2070121",
+   "blurb": "A century-old former speakeasy just over the Jefferson Parish line, hosting a Ween-tribute Halloween ball after midnight.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 11:45 PM"
+    ],
+    [
+     "Getting there",
+     "About 6 mi by road. Roughly 17–27 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://southporthall.com/",
+   "sources": [
+    "https://www.wwoz.org/events/1386631"
+   ],
+   "miles": 4.3
+  },
+  {
+   "id": "tips-lagniappe-oct31",
+   "name": "DJ RQ Away presents Lagniappe: Halloween Edition",
+   "short": "Tipitina's",
+   "category": "music",
+   "card": "music-sat",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "Tipitina's",
+   "address": "501 Napoleon Ave, New Orleans, LA 70115",
+   "lat": 29.9174,
+   "lng": -90.1008,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Tipitina%27s%2C%20501%20Napoleon%20Ave%2C%20New%20Orleans%2C%20LA%2070115",
+   "blurb": "The Uptown shrine to Professor Longhair, hosting a Soul Rebels Halloween throwdown and a Halloween-night dance party.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 9 PM"
+    ],
+    [
+     "Price",
+     "$34.41 (venue ticket page)"
+    ],
+    [
+     "Getting there",
+     "About 4 mi by road. Roughly 13–21 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.ticketweb.com/event/dj-rq-away-presents-lagniappe-tipitinas-tickets/15031663",
+   "sources": [
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/",
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-31"
+   ],
+   "miles": 2.7
+  },
+  {
+   "id": "gasa-low-cut-connie-oct31",
+   "name": "Low Cut Connie",
+   "short": "Gasa Gasa",
+   "category": "music",
+   "card": "music-sat",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "Gasa Gasa",
+   "address": "4920 Freret St, New Orleans, LA 70115",
+   "lat": 29.9348,
+   "lng": -90.1079,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Gasa%20Gasa%2C%204920%20Freret%20St%2C%20New%20Orleans%2C%20LA%2070115",
+   "blurb": "A mid-sized Freret Street room with a courtyard stage and a good bill both Halloween nights and Sunday.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 10 PM"
+    ],
+    [
+     "Getting there",
+     "About 3 mi by road. Roughly 12–20 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.ticketweb.com/event/low-cut-connie-gasa-gasa-tickets/14841103",
+   "sources": [
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/",
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-31"
+   ],
+   "miles": 2.6
+  },
+  {
+   "id": "howlin-wolf-brasshearts-oct31",
+   "name": "Brasshearts w/ Sunscape & Dizzy (The Den)",
+   "short": "The Howlin' Wolf",
+   "category": "music",
+   "card": "music-sat",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "The Howlin' Wolf",
+   "address": "907 S Peters St, New Orleans, LA 70130",
+   "lat": 29.9427,
+   "lng": -90.0659,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The%20Howlin%27%20Wolf%2C%20907%20S%20Peters%20St%2C%20New%20Orleans%2C%20LA%2070130",
+   "blurb": "A Warehouse District club about a block from the hotel, with local bands Friday and Saturday and Hot 8 Brass Band on Sunday night.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 9 PM"
+    ],
+    [
+     "Getting there",
+     "About 0.1 mi. Short walk (5 min)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.ticketweb.com/event/brasshearts-w-sunscape-dizzy-the-den-at-howlin-wolf-tickets/14989473",
+   "sources": [
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/",
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-31"
+   ],
+   "miles": 0.0
+  },
+  {
+   "id": "freaky-deaky-oct31",
+   "name": "Freaky Deaky NOLA, Night 2 (FISHER, Chris Lorenzo, more)",
+   "short": "Mardi Gras World",
+   "category": "music",
+   "card": "music-sat",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "Mardi Gras World",
+   "address": "1380 Port of New Orleans Pl, New Orleans, LA 70130",
+   "lat": 29.9347,
+   "lng": -90.0616,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mardi%20Gras%20World%2C%201380%20Port%20of%20New%20Orleans%20Pl%2C%20New%20Orleans%2C%20LA%2070130",
+   "blurb": "The riverfront float-building warehouse, turned into a two-night dance-music festival site for Halloween weekend.",
+   "rows": [
+    [
+     "When",
+     "Saturday, Not listed"
+    ],
+    [
+     "Getting there",
+     "About 0.9 mi. 17 min walk or 5–10 min rideshare"
+    ]
+   ],
+   "check": "",
+   "website": "https://freakydeakynola.com",
+   "sources": [
+    "https://freakydeakynola.com",
+    "https://www.edmtunes.com/2026/07/22/freaky-deaky-nola-reveals-debut-lineup-featuring-porter-robinson-fisher-chris-lorenzo-more/"
+   ],
+   "miles": 0.6
+  },
+  {
+   "id": "snug-jason-marsalis-oct30",
+   "name": "Jason Marsalis presents the Music of Ellis Marsalis",
+   "short": "Snug Harbor Jazz Bistro",
+   "category": "music",
+   "card": "music-frenchmen",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "Snug Harbor Jazz Bistro",
+   "address": "626 Frenchmen St, New Orleans, LA 70116",
+   "lat": 29.9641,
+   "lng": -90.0579,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Snug%20Harbor%20Jazz%20Bistro%2C%20626%20Frenchmen%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "Frenchmen Street's listening-room jazz club, with a Marsalis family tribute Friday and Halloween swing Saturday.",
+   "rows": [
+    [
+     "When",
+     "Friday, 7:30 PM"
+    ],
+    [
+     "Getting there",
+     "About 2 mi by road. Roughly 9–16 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.ticketweb.com/event/jason-marsalis-presents-the-music-snug-harbor-jazz-bistro-tickets/14340334",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-30"
+   ],
+   "miles": 1.5
+  },
+  {
+   "id": "blue-nile-kermit-oct30",
+   "name": "Kermit Ruffins & the BBQ Swingers",
+   "short": "The Blue Nile",
+   "category": "music",
+   "card": "music-frenchmen",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "The Blue Nile",
+   "address": "532 Frenchmen St, New Orleans, LA 70116",
+   "lat": 29.9631,
+   "lng": -90.0579,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The%20Blue%20Nile%2C%20532%20Frenchmen%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "A two-room Frenchmen Street club for funk, Afrobeat and brass. Kermit Ruffins plays here Friday night.",
+   "rows": [
+    [
+     "When",
+     "Friday, 10 PM"
+    ],
+    [
+     "Getting there",
+     "About 2 mi by road. Roughly 9–16 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "http://www.bluenilelive.com",
+   "sources": [
+    "https://www.wwoz.org/events/1394781"
+   ],
+   "miles": 1.5
+  },
+  {
+   "id": "spotted-cat-oct30",
+   "name": "Spotted Cat: Cottonmouth Kings 6 PM, Smokin' On Some Brass 10 PM",
+   "short": "The Spotted Cat Music Club",
+   "category": "music",
+   "card": "music-frenchmen",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "The Spotted Cat Music Club",
+   "address": "623 Frenchmen St, New Orleans, LA 70116",
+   "lat": 29.9641,
+   "lng": -90.0576,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The%20Spotted%20Cat%20Music%20Club%2C%20623%20Frenchmen%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "The Marigny's quintessential little jazz club: no cover, a one-drink minimum, and a tip jar passed between songs.",
+   "rows": [
+    [
+     "When",
+     "Friday, 6 PM"
+    ],
+    [
+     "Price",
+     "No cover. One-drink minimum, tips for the band"
+    ],
+    [
+     "Getting there",
+     "About 2 mi by road. Roughly 9–16 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.spottedcatmusicclub.com/",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-30",
+    "https://www.spottedcatmusicclub.com/"
+   ],
+   "miles": 1.5
+  },
+  {
+   "id": "dba-oct30",
+   "name": "d.b.a.: Michael Watson & the Alchemy 6 PM, New Breed Brass Band 10 PM",
+   "short": "d.b.a.",
+   "category": "music",
+   "card": "music-frenchmen",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "d.b.a.",
+   "address": "618 Frenchmen St, New Orleans, LA 70116",
+   "lat": 29.9639,
+   "lng": -90.0579,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=d.b.a.%2C%20618%20Frenchmen%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "Frenchmen Street's long-running bar with a deep draft list and a stage that moves from jazz to brass to funk through the night.",
+   "rows": [
+    [
+     "When",
+     "Friday, 6 PM"
+    ],
+    [
+     "Getting there",
+     "About 2 mi by road. Roughly 9–16 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.dbaneworleans.com/",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-30"
+   ],
+   "miles": 1.5
+  },
+  {
+   "id": "maison-oct30",
+   "name": "The Maison: Sugar & the Daddies",
+   "short": "The Maison",
+   "category": "music",
+   "card": "music-frenchmen",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "The Maison",
+   "address": "508 Frenchmen St, New Orleans, LA 70116",
+   "lat": 29.9628,
+   "lng": -90.0578,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The%20Maison%2C%20508%20Frenchmen%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "A two-story Frenchmen Street music bar with a rolling schedule of jazz bands from the afternoon on.",
+   "rows": [
+    [
+     "When",
+     "Friday, 8 PM"
+    ],
+    [
+     "Getting there",
+     "About 2 mi by road. Roughly 9–16 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.maisonfrenchmen.com/",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-30"
+   ],
+   "miles": 1.5
+  },
+  {
+   "id": "snug-sally-baby-oct31",
+   "name": "Halloween with Sally Baby's Silver Dollars",
+   "short": "Snug Harbor Jazz Bistro",
+   "category": "music",
+   "card": "music-frenchmen",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "Snug Harbor Jazz Bistro",
+   "address": "626 Frenchmen St, New Orleans, LA 70116",
+   "lat": 29.9641,
+   "lng": -90.0579,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Snug%20Harbor%20Jazz%20Bistro%2C%20626%20Frenchmen%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "Frenchmen Street's listening-room jazz club, with a Marsalis family tribute Friday and Halloween swing Saturday.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 9 PM"
+    ],
+    [
+     "Getting there",
+     "About 2 mi by road. Roughly 9–16 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.ticketweb.com/event/halloween-with-sally-babys-silver-snug-harbor-jazz-bistro-tickets/14344484",
+   "sources": [
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/",
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-31"
+   ],
+   "miles": 1.5
+  },
+  {
+   "id": "blue-nile-oct31",
+   "name": "Blue Nile: Caesar Brothers' FunkBox 7:30 PM, Afrobeat NOLA 10 PM",
+   "short": "The Blue Nile",
+   "category": "music",
+   "card": "music-frenchmen",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "The Blue Nile",
+   "address": "532 Frenchmen St, New Orleans, LA 70116",
+   "lat": 29.9631,
+   "lng": -90.0579,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The%20Blue%20Nile%2C%20532%20Frenchmen%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "A two-room Frenchmen Street club for funk, Afrobeat and brass. Kermit Ruffins plays here Friday night.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 7:30 PM"
+    ],
+    [
+     "Getting there",
+     "About 2 mi by road. Roughly 9–16 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "http://www.bluenilelive.com",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-31"
+   ],
+   "miles": 1.5
+  },
+  {
+   "id": "spotted-cat-oct31",
+   "name": "Spotted Cat: Panorama Jazz Band 6 PM, James Martin Band 10 PM",
+   "short": "The Spotted Cat Music Club",
+   "category": "music",
+   "card": "music-frenchmen",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "The Spotted Cat Music Club",
+   "address": "623 Frenchmen St, New Orleans, LA 70116",
+   "lat": 29.9641,
+   "lng": -90.0576,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The%20Spotted%20Cat%20Music%20Club%2C%20623%20Frenchmen%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "The Marigny's quintessential little jazz club: no cover, a one-drink minimum, and a tip jar passed between songs.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 6 PM"
+    ],
+    [
+     "Price",
+     "No cover. One-drink minimum, tips for the band"
+    ],
+    [
+     "Getting there",
+     "About 2 mi by road. Roughly 9–16 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.spottedcatmusicclub.com/",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-31",
+    "https://www.spottedcatmusicclub.com/"
+   ],
+   "miles": 1.5
+  },
+  {
+   "id": "dba-oct31",
+   "name": "d.b.a.: Young Lion Showcase 2 PM, Kortana 6 PM, Lyndsey Smith 10 PM",
+   "short": "d.b.a.",
+   "category": "music",
+   "card": "music-frenchmen",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "d.b.a.",
+   "address": "618 Frenchmen St, New Orleans, LA 70116",
+   "lat": 29.9639,
+   "lng": -90.0579,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=d.b.a.%2C%20618%20Frenchmen%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "Frenchmen Street's long-running bar with a deep draft list and a stage that moves from jazz to brass to funk through the night.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 2 PM"
+    ],
+    [
+     "Getting there",
+     "About 2 mi by road. Roughly 9–16 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.dbaneworleans.com/",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-31"
+   ],
+   "miles": 1.5
+  },
+  {
+   "id": "maison-oct31",
+   "name": "The Maison: The Kazzettes",
+   "short": "The Maison",
+   "category": "music",
+   "card": "music-frenchmen",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "The Maison",
+   "address": "508 Frenchmen St, New Orleans, LA 70116",
+   "lat": 29.9628,
+   "lng": -90.0578,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The%20Maison%2C%20508%20Frenchmen%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "A two-story Frenchmen Street music bar with a rolling schedule of jazz bands from the afternoon on.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 7 PM"
+    ],
+    [
+     "Getting there",
+     "About 2 mi by road. Roughly 9–16 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.maisonfrenchmen.com/",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-31"
+   ],
+   "miles": 1.5
+  },
+  {
+   "id": "ph-oct30",
+   "name": "Preservation All-Stars (four sets)",
+   "short": "Preservation Hall",
+   "category": "music",
+   "card": "music-brass",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "Preservation Hall",
+   "address": "726 St Peter St, New Orleans, LA 70116",
+   "lat": 29.9583,
+   "lng": -90.0654,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Preservation%20Hall%2C%20726%20St%20Peter%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "The small, unamplified French Quarter jazz hall where 45-minute sets run all evening. Some Friday sets are already sold out, so reserve now.",
+   "rows": [
+    [
+     "When",
+     "Friday, 5 PM"
+    ],
+    [
+     "Getting there",
+     "About 1.3 mi. 27 min walk or 5–10 min rideshare"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.preservationhall.com/calendar/",
+   "sources": [
+    "https://www.preservationhall.com/calendar/"
+   ],
+   "miles": 1.1
+  },
+  {
+   "id": "ph-oct31",
+   "name": "Wendell Brunious & the Preservation Legacy Band (2:30, 3:45); Preservation All-Stars (5:00, 6:15, 7:30, 8:45)",
+   "short": "Preservation Hall",
+   "category": "music",
+   "card": "music-brass",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "Preservation Hall",
+   "address": "726 St Peter St, New Orleans, LA 70116",
+   "lat": 29.9583,
+   "lng": -90.0654,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Preservation%20Hall%2C%20726%20St%20Peter%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "The small, unamplified French Quarter jazz hall where 45-minute sets run all evening. Some Friday sets are already sold out, so reserve now.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 2:30 PM"
+    ],
+    [
+     "Getting there",
+     "About 1.3 mi. 27 min walk or 5–10 min rideshare"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.preservationhall.com/calendar/",
+   "sources": [
+    "https://www.preservationhall.com/calendar/"
+   ],
+   "miles": 1.1
+  },
+  {
+   "id": "kermits-oct31",
+   "name": "Kermit Ruffins & The BBQ Swingers",
+   "short": "Kermit's Tremé Mother-in-Law Lounge",
+   "category": "music",
+   "card": "music-brass",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "Kermit's Tremé Mother-in-Law Lounge",
+   "address": "1500 N Claiborne Ave, New Orleans, LA 70116",
+   "lat": 29.971,
+   "lng": -90.0668,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Kermit%27s%20Trem%C3%A9%20Mother-in-Law%20Lounge%2C%201500%20N%20Claiborne%20Ave%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "Kermit Ruffins' Tremé lounge and shrine to Ernie K-Doe, where trumpet, barbecue and tall tales are the house specialty.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 6 PM"
+    ],
+    [
+     "Getting there",
+     "About 2 mi by road. Roughly 10–17 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.kermitslounge.com/",
+   "sources": [
+    "https://www.wwoz.org/events/1402256"
+   ],
+   "miles": 1.9
+  },
+  {
+   "id": "jbm-hornicopia-oct30",
+   "name": "Donald Harrison's Quantum Leap Music Festival: Hornicopia II (w/ Chief Xian aTunde Adjuah)",
+   "short": "New Orleans Jazz & Blues Market",
+   "category": "music",
+   "card": "music-brass",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "New Orleans Jazz & Blues Market",
+   "address": "1436 Oretha Castle Haley Blvd, New Orleans, LA 70113",
+   "lat": 29.9412,
+   "lng": -90.0787,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20Jazz%20%26%20Blues%20Market%2C%201436%20Oretha%20Castle%20Haley%20Blvd%2C%20New%20Orleans%2C%20LA%2070113",
+   "blurb": "The former New Orleans Jazz Market, a handsome Central City hall hosting Donald Harrison's Quantum Leap festival all three nights.",
+   "rows": [
+    [
+     "When",
+     "Friday, 7 PM"
+    ],
+    [
+     "Getting there",
+     "About 1.0 mi. 20 min walk or 5–10 min rideshare"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.ticketmaster.com/donald-harrisons-quantum-leap-music-festival-new-orleans-louisiana-10-30-2026/event/1B00653727FB4A4E",
+   "sources": [
+    "https://www.wwoz.org/events/1399896"
+   ],
+   "miles": 0.7
+  },
+  {
+   "id": "jbm-allstars-oct31",
+   "name": "Quantum Leap: New Orleans All-Stars Showcase / The Chuck Brown Band & more",
+   "short": "New Orleans Jazz & Blues Market",
+   "category": "music",
+   "card": "music-brass",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "New Orleans Jazz & Blues Market",
+   "address": "1436 Oretha Castle Haley Blvd, New Orleans, LA 70113",
+   "lat": 29.9412,
+   "lng": -90.0787,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20Jazz%20%26%20Blues%20Market%2C%201436%20Oretha%20Castle%20Haley%20Blvd%2C%20New%20Orleans%2C%20LA%2070113",
+   "blurb": "The former New Orleans Jazz Market, a handsome Central City hall hosting Donald Harrison's Quantum Leap festival all three nights.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 7 PM"
+    ],
+    [
+     "Getting there",
+     "About 1.0 mi. 20 min walk or 5–10 min rideshare"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.ticketmaster.com/donald-harrisons-quantum-leap-music-festivalchuck-new-orleans-louisiana-10-31-2026/event/1B0065372A534FD2",
+   "sources": [
+    "https://www.wwoz.org/events/1399901",
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/"
+   ],
+   "miles": 0.7
+  },
+  {
+   "id": "jbm-super-jam-nov1",
+   "name": "The Sunday Super Jam & Brass Band Extravaganza: The Frequinauts (Stanton Moore, Donald Harrison) + Rebirth Brass Band",
+   "short": "New Orleans Jazz & Blues Market",
+   "category": "music",
+   "card": "music-sun",
+   "group": "sun",
+   "date": "2026-11-01",
+   "area": "New Orleans Jazz & Blues Market",
+   "address": "1436 Oretha Castle Haley Blvd, New Orleans, LA 70113",
+   "lat": 29.9412,
+   "lng": -90.0787,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20Jazz%20%26%20Blues%20Market%2C%201436%20Oretha%20Castle%20Haley%20Blvd%2C%20New%20Orleans%2C%20LA%2070113",
+   "blurb": "The former New Orleans Jazz Market, a handsome Central City hall hosting Donald Harrison's Quantum Leap festival all three nights.",
+   "rows": [
+    [
+     "When",
+     "Sunday, 7:30 PM"
+    ],
+    [
+     "Getting there",
+     "About 1.0 mi. 20 min walk or 5–10 min rideshare"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.ticketmaster.com/d-harrisons-quantum-leap-music-fest-new-orleans-louisiana-11-01-2026/event/1B00653102C4E20A",
+   "sources": [
+    "https://www.wwoz.org/events/1400241",
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/"
+   ],
+   "miles": 0.7
+  },
+  {
+   "id": "ph-nov1",
+   "name": "Leroy Jones & the Preservation Jazz Masters (2:30, 3:45); Preservation Legacy Band ft. Gregg Stafford (5:00 to 8:45)",
+   "short": "Preservation Hall",
+   "category": "music",
+   "card": "music-sun",
+   "group": "sun",
+   "date": "2026-11-01",
+   "area": "Preservation Hall",
+   "address": "726 St Peter St, New Orleans, LA 70116",
+   "lat": 29.9583,
+   "lng": -90.0654,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Preservation%20Hall%2C%20726%20St%20Peter%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "The small, unamplified French Quarter jazz hall where 45-minute sets run all evening. Some Friday sets are already sold out, so reserve now.",
+   "rows": [
+    [
+     "When",
+     "Sunday, 2:30 PM"
+    ],
+    [
+     "Getting there",
+     "About 1.3 mi. 27 min walk or 5–10 min rideshare"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.preservationhall.com/calendar/",
+   "sources": [
+    "https://www.preservationhall.com/calendar/?month=November+2026"
+   ],
+   "miles": 1.1
+  },
+  {
+   "id": "howlin-wolf-hot8-nov1",
+   "name": "Hot 8 Brass Band",
+   "short": "The Howlin' Wolf",
+   "category": "music",
+   "card": "music-sun",
+   "group": "sun",
+   "date": "2026-11-01",
+   "area": "The Howlin' Wolf",
+   "address": "907 S Peters St, New Orleans, LA 70130",
+   "lat": 29.9427,
+   "lng": -90.0659,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The%20Howlin%27%20Wolf%2C%20907%20S%20Peters%20St%2C%20New%20Orleans%2C%20LA%2070130",
+   "blurb": "A Warehouse District club about a block from the hotel, with local bands Friday and Saturday and Hot 8 Brass Band on Sunday night.",
+   "rows": [
+    [
+     "When",
+     "Sunday, 10:30 PM"
+    ],
+    [
+     "Getting there",
+     "About 0.1 mi. Short walk (5 min)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.ticketweb.com/event/the-grammy-winning-hot-8-howlin-wolf-tickets/14241694",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-11-01",
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/"
+   ],
+   "miles": 0.0
+  },
+  {
+   "id": "hob-skilla-baby-nov1",
+   "name": "Skilla Baby: The Price of Fame Tour",
+   "short": "House of Blues New Orleans",
+   "category": "music",
+   "card": "music-sun",
+   "group": "sun",
+   "date": "2026-11-01",
+   "area": "House of Blues New Orleans",
+   "address": "225 Decatur St, New Orleans, LA 70130",
+   "lat": 29.9532,
+   "lng": -90.0661,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Blues%20New%20Orleans%2C%20225%20Decatur%20St%2C%20New%20Orleans%2C%20LA%2070130",
+   "blurb": "The French Quarter's big rock room, with a Friday show and a Sunday-night rap date on the books.",
+   "rows": [
+    [
+     "When",
+     "Sunday, 7 PM"
+    ],
+    [
+     "Getting there",
+     "About 0.9 mi. 17 min walk or 5–10 min rideshare"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.ticketmaster.com/skilla-baby-the-price-of-fame-new-orleans-louisiana-11-01-2026/event/1B006519B5B9C9F8",
+   "sources": [
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/"
+   ],
+   "miles": 0.7
+  },
+  {
+   "id": "gasa-alash-nov1",
+   "name": "An Evening with Alash Ensemble (Tuvan throat singers)",
+   "short": "Gasa Gasa",
+   "category": "music",
+   "card": "music-sun",
+   "group": "sun",
+   "date": "2026-11-01",
+   "area": "Gasa Gasa",
+   "address": "4920 Freret St, New Orleans, LA 70115",
+   "lat": 29.9348,
+   "lng": -90.1079,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Gasa%20Gasa%2C%204920%20Freret%20St%2C%20New%20Orleans%2C%20LA%2070115",
+   "blurb": "A mid-sized Freret Street room with a courtyard stage and a good bill both Halloween nights and Sunday.",
+   "rows": [
+    [
+     "When",
+     "Sunday, 8:30 PM"
+    ],
+    [
+     "Getting there",
+     "About 3 mi by road. Roughly 12–20 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.ticketweb.com/event/alash-ensemble-gasa-gasa-tickets/14990763",
+   "sources": [
+    "https://onestowatch.com/live/new-orleans-halloween-concerts/",
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-11-01"
+   ],
+   "miles": 2.6
+  },
+  {
+   "id": "dba-nov1",
+   "name": "d.b.a.: Paradise Jazz Band 6 PM, The Jump Hounds 9:30 PM",
+   "short": "d.b.a.",
+   "category": "music",
+   "card": "music-sun",
+   "group": "sun",
+   "date": "2026-11-01",
+   "area": "d.b.a.",
+   "address": "618 Frenchmen St, New Orleans, LA 70116",
+   "lat": 29.9639,
+   "lng": -90.0579,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=d.b.a.%2C%20618%20Frenchmen%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "Frenchmen Street's long-running bar with a deep draft list and a stage that moves from jazz to brass to funk through the night.",
+   "rows": [
+    [
+     "When",
+     "Sunday, 6 PM"
+    ],
+    [
+     "Getting there",
+     "About 2 mi by road. Roughly 9–16 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.dbaneworleans.com/",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-11-01"
+   ],
+   "miles": 1.5
+  },
+  {
+   "id": "freret-festival-oct31",
+   "name": "Freret Street Festival (Margie Perez, Flow Tribe, Pinettes Brass Band, Louis Michot & Swamp Magic, more)",
+   "short": "Freret Street Festival (Freret St, 4400-5200 blocks)",
+   "category": "music",
+   "card": "music-free",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "Freret Street Festival (Freret St, 4400-5200 blocks)",
+   "address": "Freret St between Napoleon Ave and Valmont St, New Orleans, LA 70115",
+   "lat": 29.9348,
+   "lng": -90.1079,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Freret%20Street%20Festival%20%28Freret%20St%2C%204400-5200%20blocks%29%2C%20Freret%20St%20between%20Napoleon%20Ave%20and%20Valmont%20St%2C%20New%20Orleans%2C%20LA%2070115",
+   "blurb": "A free neighborhood art, food and music festival with three stages on six blocks of Freret Street. Map pin is the street's midpoint at 4920 Freret.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 11 AM"
+    ],
+    [
+     "Price",
+     "Free and open to the public"
+    ],
+    [
+     "Getting there",
+     "About 3 mi by road. Roughly 12–20 min by rideshare (estimate)"
+    ]
+   ],
+   "check": "",
+   "website": "https://freretstreetfestival.org/",
+   "sources": [
+    "https://www.wwoz.org/events/1403671"
+   ],
+   "miles": 2.6
+  },
+  {
+   "id": "jazz-park-anniversary-oct31",
+   "name": "Jazz Park 32nd Anniversary Celebration ft. Arrowhead Jazz Band",
+   "short": "New Orleans Jazz National Historical Park",
+   "category": "music",
+   "card": "music-free",
+   "group": "sat",
+   "date": "2026-10-31",
+   "area": "New Orleans Jazz National Historical Park",
+   "address": "419 Decatur St, New Orleans, LA 70116",
+   "lat": 29.9548,
+   "lng": -90.0647,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20Jazz%20National%20Historical%20Park%2C%20419%20Decatur%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "The National Park Service's jazz visitor center, which hosts free live music and ranger programs.",
+   "rows": [
+    [
+     "When",
+     "Saturday, 3 PM"
+    ],
+    [
+     "Getting there",
+     "About 1.0 mi. 20 min walk or 5–10 min rideshare"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.nps.gov/jazz/index.htm",
+   "sources": [
+    "https://www.wwoz.org/events/1400016"
+   ],
+   "miles": 0.8
+  },
+  {
+   "id": "jazz-park-oct30",
+   "name": "Jazz Park: Saskia Walker Trio 3 PM, Young PinStripe Brass Band 5 PM",
+   "short": "New Orleans Jazz National Historical Park",
+   "category": "music",
+   "card": "music-free",
+   "group": "fri",
+   "date": "2026-10-30",
+   "area": "New Orleans Jazz National Historical Park",
+   "address": "419 Decatur St, New Orleans, LA 70116",
+   "lat": 29.9548,
+   "lng": -90.0647,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20Jazz%20National%20Historical%20Park%2C%20419%20Decatur%20St%2C%20New%20Orleans%2C%20LA%2070116",
+   "blurb": "The National Park Service's jazz visitor center, which hosts free live music and ranger programs.",
+   "rows": [
+    [
+     "When",
+     "Friday, 3 PM"
+    ],
+    [
+     "Getting there",
+     "About 1.0 mi. 20 min walk or 5–10 min rideshare"
+    ]
+   ],
+   "check": "",
+   "website": "https://www.nps.gov/jazz/index.htm",
+   "sources": [
+    "https://www.wwoz.org/calendar/livewire-music?date=2026-10-30"
+   ],
+   "miles": 0.8
+  },
+  {
+   "id": "mothers-restaurant",
+   "name": "Mother's Restaurant",
+   "short": "Mother's Restaurant",
+   "category": "food",
+   "card": "eat-morning",
+   "group": "",
+   "area": "",
+   "address": "401 Poydras St, New Orleans, LA 70130",
+   "lat": 29.9490291,
+   "lng": -90.0671781,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mother%27s+Restaurant+401+Poydras+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "A Poydras Street institution that serves breakfast all day, with a baked ham that has its own fan club. Sit down with a plate of debris and a biscuit before a long day of walking.",
+   "rows": [
+    [
+     "Order",
+     "Famous Ferdi Special po-boy (baked ham, roast beef, debris with au jus). The site also bills its baked ham as the world's best"
+    ],
+    [
+     "Hours",
+     "Fri 7 AM–10 PM · Sat 7 AM–10 PM · Sun 7 AM–10 PM"
+    ],
+    [
+     "Reservations",
+     "None taken. No reservation (expect a line at peak brunch)"
+    ],
+    [
+     "Price",
+     "$"
+    ],
+    [
+     "Getting there",
+     "Walkable (about 8 min)"
+    ]
+   ],
+   "website": "https://www.mothersrestaurant.net/",
+   "check": "",
+   "sources": [
+    "https://www.mothersrestaurant.net/"
+   ],
+   "miles": 0.4
+  },
+  {
+   "id": "willa-jean",
+   "name": "Willa Jean",
+   "short": "Willa Jean",
+   "category": "food",
+   "card": "eat-morning",
+   "group": "",
+   "area": "",
+   "address": "611 O'Keefe Ave, New Orleans, LA 70113",
+   "lat": 29.9489751,
+   "lng": -90.0747744,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Willa+Jean+611+O%27Keefe+Ave%2C+New+Orleans%2C+LA+70113",
+   "blurb": "A bakery and restaurant in the Central Business District, known for comforting Southern breakfast and brunch plates and pastries. Come early, since the site runs a waitlist at busy times.",
+   "rows": [
+    [
+     "Order",
+     "Pastries and Southern breakfast plates (check the day's menu)"
+    ],
+    [
+     "Hours",
+     "Fri 7 AM–3 PM · Sat 7 AM–3 PM · Sun 7 AM–3 PM"
+    ],
+    [
+     "Reservations",
+     "Waitlist via the site (join the waitlist online)"
+    ],
+    [
+     "Price",
+     "$$"
+    ],
+    [
+     "Getting there",
+     "Walkable (about 13 min)"
+    ]
+   ],
+   "website": "https://www.willajean.com/",
+   "check": "",
+   "sources": [
+    "https://www.willajean.com/"
+   ],
+   "miles": 0.6
+  },
+  {
+   "id": "brennans",
+   "name": "Brennan's",
+   "short": "Brennan's",
+   "category": "food",
+   "card": "eat-morning",
+   "group": "",
+   "area": "",
+   "address": "417 Royal St, New Orleans, LA 70130",
+   "lat": 29.9561817,
+   "lng": -90.0666443,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Brennan%27s+417+Royal+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "The pink French Quarter grande dame that made breakfast an event, and it celebrates 80 years in 2026. Linger in the courtyard and finish with something flaming.",
+   "rows": [
+    [
+     "Order",
+     "Breakfast at Brennan's. Ask about the signature flambe dessert"
+    ],
+    [
+     "Hours",
+     "Fri Breakfast 9 AM–2 PM. Dinner 6 PM–10 PM. Roost Bar 9 AM–10 PM · Sat Breakfast 9 AM–2 PM. Dinner 6 PM–10 PM. Roost Bar 9 AM–10 PM · Sun Breakfast 9 AM–2 PM. Dinner 6 PM–10 PM. Roost Bar 9 AM–10 PM"
+    ],
+    [
+     "Reservations",
+     "Recommended. Reserve on the site or call 504–525–9711"
+    ],
+    [
+     "Price",
+     "$$$$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 0.9 mi)"
+    ]
+   ],
+   "website": "https://www.brennansneworleans.com/",
+   "check": "",
+   "sources": [
+    "https://www.brennansneworleans.com/"
+   ],
+   "miles": 0.9
+  },
+  {
+   "id": "commanders-palace",
+   "name": "Commander's Palace",
+   "short": "Commander's Palace",
+   "category": "food",
+   "card": "eat-morning",
+   "group": "",
+   "area": "",
+   "address": "1403 Washington Ave, New Orleans, LA 70130",
+   "lat": 29.9287898,
+   "lng": -90.0842676,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Commander%27s+Palace+1403+Washington+Ave%2C+New+Orleans%2C+LA+70130",
+   "blurb": "The turquoise-and-white Garden District landmark, famous for its Jazz Brunch and a Bloody Mary built with a block of ice. Dress up a little and plan for a long, lovely meal.",
+   "rows": [
+    [
+     "Order",
+     "Jazz Brunch. The Yellow Heirloom Tomato Bloody Mary. Friday lunch 25-cent martinis"
+    ],
+    [
+     "Hours",
+     "Fri Lunch from 11:30 AM. Dinner from 6 PM (end times not published) · Sat Jazz Brunch 11 AM–2 PM. Dinner from 6 PM · Sun Jazz Brunch 10 AM–2 PM. Dinner from 6 PM"
+    ],
+    [
+     "Reservations",
+     "Strongly recommended. Book on Tock (exploretock.com/commanderspalace) or call 504–899–8221"
+    ],
+    [
+     "Price",
+     "$$$$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 1.5 mi)"
+    ]
+   ],
+   "website": "https://www.commanderspalace.com/",
+   "check": "",
+   "sources": [
+    "https://www.commanderspalace.com/about",
+    "https://www.commanderspalace.com/"
+   ],
+   "miles": 1.5
+  },
+  {
+   "id": "court-of-two-sisters",
+   "name": "The Court of Two Sisters",
+   "short": "The Court of Two Sisters",
+   "category": "food",
+   "card": "eat-morning",
+   "group": "",
+   "area": "",
+   "address": "613 Royal St, New Orleans, LA 70130",
+   "lat": 29.9574093,
+   "lng": -90.0653821,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Court+of+Two+Sisters+613+Royal+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "A French Quarter courtyard known for a daily jazz brunch buffet with a house trio. Pretty setting, but it is a big-volume tourist buffet.",
+   "rows": [
+    [
+     "Order",
+     "Jazz brunch buffet"
+    ],
+    [
+     "Hours",
+     "Fri Jazz Brunch 9 AM–3 PM. Dinner 5:30 PM–9:30 PM · Sat Jazz Brunch 8:30 AM–3 PM. Dinner 5:30 PM–9:30 PM · Sun Jazz Brunch 8:30 AM–3 PM. Dinner 5:30 PM–9:30 PM"
+    ],
+    [
+     "Reservations",
+     "Reserve via the site. Last reservation at 2 PM"
+    ],
+    [
+     "Price",
+     "$$$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 1.0 mi)"
+    ]
+   ],
+   "website": "https://www.courtoftwosisters.com/",
+   "check": "",
+   "sources": [
+    "https://www.courtoftwosisters.com/"
+   ],
+   "miles": 1.0
+  },
+  {
+   "id": "cochon-butcher",
+   "name": "Cochon Butcher",
+   "short": "Cochon Butcher",
+   "category": "food",
+   "card": "eat-lunch",
+   "group": "",
+   "area": "",
+   "address": "930 Tchoupitoulas St, New Orleans, LA 70130",
+   "lat": 29.9422012,
+   "lng": -90.0670007,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Cochon+Butcher+930+Tchoupitoulas+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "A house-cured-meat sandwich shop and butcher counter a few blocks from the hotel, attached to Cochon. Casual, no reservations, and the meats are all made in house.",
+   "rows": [
+    [
+     "Order",
+     "House-made charcuterie sandwiches and the daily lunch/dinner specials"
+    ],
+    [
+     "Hours",
+     "Fri 11 AM–10 PM · Sat 11 AM–10 PM · Sun 11 AM–10 PM"
+    ],
+    [
+     "Reservations",
+     "No reservations required (casual, walk-in)"
+    ],
+    [
+     "Price",
+     "$$"
+    ],
+    [
+     "Getting there",
+     "Walkable (about 2 min)"
+    ]
+   ],
+   "website": "https://www.cochonbutcher.com/",
+   "check": "We couldn't recheck these hours on its own site. Call ahead.",
+   "sources": [
+    "https://www.cochonbutcher.com/contact",
+    "https://www.cochonbutcher.com/"
+   ],
+   "miles": 0.1
+  },
+  {
+   "id": "killer-poboys",
+   "name": "Killer Poboys (Erin Rose location)",
+   "short": "Killer Poboys (Erin Rose location)",
+   "category": "food",
+   "card": "eat-lunch",
+   "group": "",
+   "area": "",
+   "address": "811 Conti St, New Orleans, LA 70112",
+   "lat": 29.9564437,
+   "lng": -90.0678413,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Killer+Poboys+%28Erin+Rose+location%29+811+Conti+St%2C+New+Orleans%2C+LA+70112",
+   "blurb": "Chef-driven, internationally inspired po-boys served out of the back of the Erin Rose bar. A very French Quarter way to eat a sandwich with a cold drink in hand.",
+   "rows": [
+    [
+     "Order",
+     "Check the current menu on the site (rotating chef-driven po-boys)"
+    ],
+    [
+     "Hours",
+     "Fri 10 AM–12 AM · Sat 10 AM–12 AM · Sun 10 AM–10 PM"
+    ],
+    [
+     "Reservations",
+     "None. Walk-up counter"
+    ],
+    [
+     "Price",
+     "$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 0.9 mi)"
+    ]
+   ],
+   "website": "https://www.killerpoboys.com/",
+   "check": "",
+   "sources": [
+    "https://www.killerpoboys.com/locations",
+    "https://www.killerpoboys.com/"
+   ],
+   "miles": 0.9
+  },
+  {
+   "id": "mahonys-po-boys",
+   "name": "Mahony's Po-Boys & Seafood",
+   "short": "Mahony's Po-Boys & Seafood",
+   "category": "food",
+   "card": "eat-lunch",
+   "group": "",
+   "area": "",
+   "address": "3454 Magazine St, New Orleans, LA 70115",
+   "lat": 29.9222477,
+   "lng": -90.0903266,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mahony%27s+Po-Boys+%26+Seafood+3454+Magazine+St%2C+New+Orleans%2C+LA+70115",
+   "blurb": "A po-boy and seafood shop on Magazine Street with a big sandwich list and seafood. A relaxed stop if she is already exploring the shops between the Garden District and Uptown.",
+   "rows": [
+    [
+     "Order",
+     "A fried shrimp or roast beef po-boy (check the menu for specials)"
+    ],
+    [
+     "Hours",
+     "Fri 11 AM–8 PM · Sat 11 AM–8 PM · Sun 11 AM–8 PM"
+    ],
+    [
+     "Reservations",
+     "Not mentioned on site. Walk-in counter style"
+    ],
+    [
+     "Price",
+     "$$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 2.1 mi)"
+    ]
+   ],
+   "website": "https://www.mahonyspoboys.com/",
+   "check": "",
+   "sources": [
+    "https://www.mahonyspoboys.com/"
+   ],
+   "miles": 2.0
+  },
+  {
+   "id": "domilises",
+   "name": "Domilise's Po-Boys & Bar",
+   "short": "Domilise's Po-Boys & Bar",
+   "category": "food",
+   "card": "eat-lunch",
+   "group": "",
+   "area": "",
+   "address": "5240 Annunciation St, New Orleans, LA 70115",
+   "lat": 29.9174602,
+   "lng": -90.1123715,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Domilise%27s+Po-Boys+%26+Bar+5240+Annunciation+St%2C+New+Orleans%2C+LA+70115",
+   "blurb": "A corner po-boy joint Uptown that has been frying shrimp and oysters for generations, on Leidenheimer bread. Cash-and-patience local legend.",
+   "rows": [
+    [
+     "Order",
+     "Fried shrimp or oyster po-boy dressed"
+    ],
+    [
+     "Hours",
+     "Fri 11 AM–7 PM · Sat 11 AM–7 PM · Sun CLOSED"
+    ],
+    [
+     "Reservations",
+     "None. Order at the counter"
+    ],
+    [
+     "Price",
+     "$"
+    ],
+    [
+     "Getting there",
+     "Ride-share (about 3.3 mi)"
+    ]
+   ],
+   "website": "https://www.domilisespoboys.com/",
+   "check": "",
+   "sources": [
+    "https://www.domilisespoboys.com/"
+   ],
+   "miles": 3.3
+  },
+  {
+   "id": "cochon-restaurant",
+   "name": "Cochon",
+   "short": "Cochon",
+   "category": "food",
+   "card": "eat-dinner",
+   "group": "",
+   "area": "",
+   "address": "930 Tchoupitoulas St, New Orleans, LA 70130",
+   "lat": 29.9422012,
+   "lng": -90.0670007,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Cochon+930+Tchoupitoulas+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "Chef Donald Link's rustic Cajun restaurant in a renovated warehouse, with local pork, seafood and produce. Space is held at the bar, chef's counter and patio for walk-ins.",
+   "rows": [
+    [
+     "Order",
+     "Traditional Cajun pork and seafood dishes (see menu)"
+    ],
+    [
+     "Hours",
+     "Fri 11 AM–10 PM · Sat 11 AM–10 PM · Sun 11 AM–10 PM"
+    ],
+    [
+     "Reservations",
+     "Resy. Walk-ins welcome at bar/counter/patio"
+    ],
+    [
+     "Price",
+     "$$$"
+    ],
+    [
+     "Getting there",
+     "Walkable (about 2 min)"
+    ]
+   ],
+   "website": "https://www.cochonrestaurant.com/",
+   "check": "",
+   "sources": [
+    "https://www.cochonrestaurant.com/"
+   ],
+   "miles": 0.1
+  },
+  {
+   "id": "peche",
+   "name": "Pêche Seafood Grill",
+   "short": "Pêche Seafood Grill",
+   "category": "food",
+   "card": "eat-dinner",
+   "group": "",
+   "area": "",
+   "address": "800 Magazine St, New Orleans, LA 70130",
+   "lat": 29.9451888,
+   "lng": -90.0691411,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=P%C3%AAche+Seafood+Grill+800+Magazine+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "A lively Warehouse District seafood hall from the Link group, focused on Gulf fish and open-fire cooking. A short walk from the hotel.",
+   "rows": [
+    [
+     "Order",
+     "Whole fish and Gulf seafood from the grill (check the menu)"
+    ],
+    [
+     "Hours",
+     "Fri 11 AM–10 PM · Sat 11 AM–10 PM · Sun 11 AM–10 PM"
+    ],
+    [
+     "Reservations",
+     "Reserve ahead for Friday and Saturday dinners"
+    ],
+    [
+     "Price",
+     "$$$"
+    ],
+    [
+     "Getting there",
+     "Walkable (about 4 min)"
+    ]
+   ],
+   "website": "https://www.pecherestaurant.com/",
+   "check": "",
+   "sources": [
+    "https://www.pecherestaurant.com/"
+   ],
+   "miles": 0.2
+  },
+  {
+   "id": "herbsaint",
+   "name": "Herbsaint",
+   "short": "Herbsaint",
+   "category": "food",
+   "card": "eat-dinner",
+   "group": "",
+   "area": "",
+   "address": "701 St Charles Ave, New Orleans, LA 70130",
+   "lat": 29.9472716,
+   "lng": -90.0714182,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Herbsaint+701+St+Charles+Ave%2C+New+Orleans%2C+LA+70130",
+   "blurb": "Donald Link's elegant St. Charles Avenue restaurant serving French-Southern cooking, with a dark roux gumbo on the menu. Note the odd weekend hours.",
+   "rows": [
+    [
+     "Order",
+     "Dark roux gumbo. Duck confit with dirty rice"
+    ],
+    [
+     "Hours",
+     "Fri 11:30 AM–10 PM · Sat 5 PM–10 PM (no lunch) · Sun CLOSED"
+    ],
+    [
+     "Reservations",
+     "Reserve. Friday lunch and Saturday dinner"
+    ],
+    [
+     "Price",
+     "$$$"
+    ],
+    [
+     "Getting there",
+     "Walkable (about 8 min)"
+    ]
+   ],
+   "website": "https://www.herbsaint.com/",
+   "check": "",
+   "sources": [
+    "https://www.herbsaint.com/"
+   ],
+   "miles": 0.4
+  },
+  {
+   "id": "compere-lapin",
+   "name": "Compère Lapin",
+   "short": "Compère Lapin",
+   "category": "food",
+   "card": "eat-dinner",
+   "group": "",
+   "area": "",
+   "address": "535 Tchoupitoulas St, New Orleans, LA 70130",
+   "lat": 29.9479201,
+   "lng": -90.0674847,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Comp%C3%A8re+Lapin+535+Tchoupitoulas+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "A Caribbean-meets-Creole restaurant in the Old No. 77 Hotel, a few blocks from the hotel. Dinner nightly and a Sunday brunch.",
+   "rows": [
+    [
+     "Order",
+     "Check the current menu on the site"
+    ],
+    [
+     "Hours",
+     "Fri Dinner 5:30 PM–9 PM. Bar from 4:30 PM · Sat Dinner 5:30 PM–9 PM. Bar from 4:30 PM · Sun Brunch 10:30 AM–2 PM. Dinner 5:30 PM–9 PM"
+    ],
+    [
+     "Reservations",
+     "Reservations page on site (comperelapin.com/reservations.html)"
+    ],
+    [
+     "Price",
+     "$$$"
+    ],
+    [
+     "Getting there",
+     "Walkable (about 6 min)"
+    ]
+   ],
+   "website": "https://www.comperelapin.com/",
+   "check": "",
+   "sources": [
+    "https://www.comperelapin.com/reservations.html",
+    "https://www.comperelapin.com/"
+   ],
+   "miles": 0.3
+  },
+  {
+   "id": "annunciation-restaurant",
+   "name": "Annunciation Restaurant",
+   "short": "Annunciation Restaurant",
+   "category": "food",
+   "card": "eat-dinner",
+   "group": "",
+   "area": "",
+   "address": "1016 Annunciation St, New Orleans, LA 70130",
+   "lat": 29.9414965,
+   "lng": -90.0675946,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Annunciation+Restaurant+1016+Annunciation+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "Modern Creole and Southern cooking in a restored turn-of-the-century Warehouse District warehouse, about a ten-minute walk from the hotel. Hosting a Witches & Warlocks Lunch on Friday, Oct 30.",
+   "rows": [
+    [
+     "Order",
+     "Modern Creole dishes (see menu)"
+    ],
+    [
+     "Hours",
+     "Fri Witches & Warlocks Lunch 11 AM–2 PM. Dinner 5 PM–10 PM · Sat 5 PM–10 PM · Sun 5 PM–9 PM"
+    ],
+    [
+     "Reservations",
+     "OpenTable or call 504–568–0245"
+    ],
+    [
+     "Price",
+     "$$$"
+    ],
+    [
+     "Getting there",
+     "Walkable (about 3 min)"
+    ]
+   ],
+   "website": "https://www.annunciationrestaurant.com/",
+   "check": "",
+   "sources": [
+    "https://www.annunciationrestaurant.com/contact-us",
+    "https://www.annunciationrestaurant.com/"
+   ],
+   "miles": 0.1
+  },
+  {
+   "id": "emerils-new-orleans",
+   "name": "Emeril's",
+   "short": "Emeril's",
+   "category": "food",
+   "card": "eat-dinner",
+   "group": "",
+   "area": "",
+   "address": "800 Tchoupitoulas St, New Orleans, LA 70130",
+   "lat": 29.9446386,
+   "lng": -90.0673486,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Emeril%27s+800+Tchoupitoulas+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "Emeril Lagasse's flagship in the Warehouse District, a short walk from the hotel. Dinner only, and the site's schedule skips Sunday.",
+   "rows": [
+    [
+     "Order",
+     "See current menu"
+    ],
+    [
+     "Hours",
+     "Fri Dinner 5:30 PM–10:30 PM. Wine Bar 5:30 PM–11:30 PM · Sat Dinner 5:30 PM–10:30 PM. Wine Bar 5:30 PM–11:30 PM · Sun Not listed on the site (listed days are Tue-Sat). Treat as closed"
+    ],
+    [
+     "Reservations",
+     "Reservations recommended. See site"
+    ],
+    [
+     "Price",
+     "$$$$"
+    ],
+    [
+     "Getting there",
+     "Walkable (about 2 min)"
+    ]
+   ],
+   "website": "https://www.emerilsrestaurants.com/emerils-new-orleans/",
+   "check": "",
+   "sources": [
+    "https://www.emerilsrestaurants.com/emerils-new-orleans/"
+   ],
+   "miles": 0.1
+  },
+  {
+   "id": "arnauds",
+   "name": "Arnaud's Restaurant",
+   "short": "Arnaud's Restaurant",
+   "category": "food",
+   "card": "eat-dinner",
+   "group": "",
+   "area": "",
+   "address": "813 Rue Bienville, New Orleans, LA 70112",
+   "lat": 29.9557409,
+   "lng": -90.0686785,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Arnaud%27s+Restaurant+813+Rue+Bienville%2C+New+Orleans%2C+LA+70112",
+   "blurb": "A French Quarter Creole institution of more than 100 years, with a Mardi Gras museum and the French 75 Bar next door. Sunday Jazz Brunch and Friday lunch are the traditions.",
+   "rows": [
+    [
+     "Order",
+     "Classic Creole dishes and the French 75 at the bar (see menus)"
+    ],
+    [
+     "Hours",
+     "Fri Lunch 11:30 AM–1:30 PM. Dinner 5:30 PM–9 PM · Sat Dinner 5:30 PM–9 PM · Sun Sunday Jazz Brunch 10 AM–1:30 PM (dinner not listed)"
+    ],
+    [
+     "Reservations",
+     "Book on the site or call 504–523–5433"
+    ],
+    [
+     "Price",
+     "$$$$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 0.9 mi)"
+    ]
+   ],
+   "website": "https://www.arnaudsrestaurant.com/",
+   "check": "",
+   "sources": [
+    "https://www.arnaudsrestaurant.com/"
+   ],
+   "miles": 0.9
+  },
+  {
+   "id": "antoines",
+   "name": "Antoine's Restaurant",
+   "short": "Antoine's Restaurant",
+   "category": "food",
+   "card": "eat-dinner",
+   "group": "",
+   "area": "",
+   "address": "713 Saint Louis St, New Orleans, LA 70130",
+   "lat": 29.9567166,
+   "lng": -90.0664811,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Antoine%27s+Restaurant+713+Saint+Louis+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "New Orleans' oldest restaurant, open since 1840 and still family run. The birthplace of Oysters Rockefeller and Eggs Sardou.",
+   "rows": [
+    [
+     "Order",
+     "Oysters Rockefeller. Eggs Sardou. Pommes de terre souffles"
+    ],
+    [
+     "Hours",
+     "Fri Lunch 10:30 AM–2 PM. Dinner 5 PM–9 PM · Sat Brunch 10:30 AM–2 PM. Dinner 5 PM–9 PM · Sun Jazz Brunch 10:30 AM–2 PM (no dinner listed)"
+    ],
+    [
+     "Reservations",
+     "Reserve on the site"
+    ],
+    [
+     "Price",
+     "$$$$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 0.9 mi)"
+    ]
+   ],
+   "website": "https://antoines.com/",
+   "check": "",
+   "sources": [
+    "https://antoines.com/"
+   ],
+   "miles": 0.9
+  },
+  {
+   "id": "galatoires",
+   "name": "Galatoire's",
+   "short": "Galatoire's",
+   "category": "food",
+   "card": "eat-dinner",
+   "group": "",
+   "area": "",
+   "address": "209 Bourbon St, New Orleans, LA 70130",
+   "lat": 29.954972,
+   "lng": -90.0690178,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Galatoire%27s+209+Bourbon+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "A white-tablecloth Bourbon Street Creole classic, a long-time favorite of locals for Friday lunch. Dress code and a long, lively lunch.",
+   "rows": [
+    [
+     "Order",
+     "Classic Creole fish and shrimp dishes (see menu)"
+    ],
+    [
+     "Hours",
+     "Fri 11:30 AM–9 PM · Sat 11:30 AM–9 PM · Sun 12 PM–9 PM"
+    ],
+    [
+     "Reservations",
+     "Reservations available. Friday lunch is busy"
+    ],
+    [
+     "Price",
+     "$$$$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 0.8 mi)"
+    ]
+   ],
+   "website": "https://www.galatoires.com/",
+   "check": "",
+   "sources": [
+    "https://www.galatoires.com/",
+    "https://www.galatoires.com/contact_us"
+   ],
+   "miles": 0.8
+  },
+  {
+   "id": "tujagues",
+   "name": "Tujague's",
+   "short": "Tujague's",
+   "category": "food",
+   "card": "eat-dinner",
+   "group": "",
+   "area": "",
+   "address": "429 Decatur St, New Orleans, LA 70130",
+   "lat": 29.9550331,
+   "lng": -90.0645092,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Tujague%27s+429+Decatur+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "New Orleans' second-oldest restaurant, over 170 years in the Quarter and credited with the Grasshopper and early brunch. Walk in for a brunch or a boozy bar stop.",
+   "rows": [
+    [
+     "Order",
+     "Brisket and the Grasshopper cocktail (the restaurant bills itself as the Grasshopper's birthplace)"
+    ],
+    [
+     "Hours",
+     "Fri Brunch 11 AM–2:30 PM. Bar 2:30–10 PM. Dinner 5:00–10 PM · Sat Brunch 10 AM–2:30 PM. Bar 2:30–10 PM. Dinner 5:00–10 PM · Sun Brunch 10 AM–2:30 PM. Bar 2:30–9 PM. Dinner 5:00–9 PM"
+    ],
+    [
+     "Reservations",
+     "OpenTable or call 504–525–8676"
+    ],
+    [
+     "Price",
+     "$$$"
+    ],
+    [
+     "Getting there",
+     "Walkable (about 16 min)"
+    ]
+   ],
+   "website": "https://www.tujaguesrestaurant.com/",
+   "check": "",
+   "sources": [
+    "https://www.tujaguesrestaurant.com/"
+   ],
+   "miles": 0.8
+  },
+  {
+   "id": "clover-grill",
+   "name": "Clover Grill",
+   "short": "Clover Grill",
+   "category": "food",
+   "card": "eat-late",
+   "group": "",
+   "area": "",
+   "address": "900 Bourbon St, New Orleans, LA 70116",
+   "lat": 29.9602826,
+   "lng": -90.0640281,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Clover+Grill+900+Bourbon+St%2C+New+Orleans%2C+LA+70116",
+   "blurb": "A 1939 Bourbon Street diner with pink menus and a griddle that never stops. Burgers and breakfasts any hour.",
+   "rows": [
+    [
+     "Order",
+     "A griddle burger or breakfast"
+    ],
+    [
+     "Hours",
+     "Fri Open 24 hours · Sat Open 24 hours · Sun Open 24 hours"
+    ],
+    [
+     "Reservations",
+     "None. First-come counter"
+    ],
+    [
+     "Price",
+     "$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 1.2 mi)"
+    ]
+   ],
+   "website": "https://www.clovergrill.com/",
+   "check": "",
+   "sources": [
+    "https://www.clovergrill.com/"
+   ],
+   "miles": 1.2
+  },
+  {
+   "id": "erin-rose",
+   "name": "Erin Rose",
+   "short": "Erin Rose",
+   "category": "drink",
+   "card": "eat-late",
+   "group": "",
+   "area": "",
+   "address": "811 Conti Street, New Orleans, LA 70112",
+   "lat": 29.9564437,
+   "lng": -90.0678413,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Erin+Rose+811+Conti+St%2C+New+Orleans%2C+LA+70112",
+   "blurb": "An Irish pub with a craft cocktail bar, and Killer Po' Boys in the back room. Get the rum-marinated pork belly po' boy with citrus lime slaw.",
+   "rows": [
+    [
+     "Order",
+     "A drink plus a Killer Poboys sandwich from the back kitchen"
+    ],
+    [
+     "Hours",
+     "Fri 10 AM–7 AM (next day) · Sat 10 AM–7 AM (next day) · Sun 10 AM–7 AM (next day)"
+    ],
+    [
+     "Reservations",
+     "None"
+    ],
+    [
+     "Price",
+     "$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 0.9 mi)"
+    ]
+   ],
+   "website": "https://www.erinrosebar.com/",
+   "check": "",
+   "sources": [
+    "https://www.erinrosebar.com/",
+    "https://www.frommers.com/destinations/new-orleans/nightlife/erin-rose/",
+    "https://www.killerpoboys.com/locations"
+   ],
+   "miles": 0.9
+  },
+  {
+   "id": "the-spotted-cat",
+   "name": "The Spotted Cat Music Club",
+   "short": "The Spotted Cat Music Club",
+   "category": "drink",
+   "card": "eat-late",
+   "group": "",
+   "area": "",
+   "address": "623 Frenchmen St, New Orleans, LA 70116",
+   "lat": 29.9640813,
+   "lng": -90.0576329,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Spotted+Cat+Music+Club+623+Frenchmen+St%2C+New+Orleans%2C+LA+70116",
+   "blurb": "The quintessential Frenchmen Street jazz club, open daily afternoons to 2 AM. No-nonsense small stage and a crowd that dances.",
+   "rows": [
+    [
+     "Order",
+     "A drink and the live band"
+    ],
+    [
+     "Hours",
+     "Fri 2 PM–2 AM · Sat 2 PM–2 AM · Sun 2 PM–2 AM"
+    ],
+    [
+     "Reservations",
+     "None"
+    ],
+    [
+     "Price",
+     "$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 1.5 mi)"
+    ]
+   ],
+   "website": "https://www.spottedcatmusicclub.com/",
+   "check": "",
+   "sources": [
+    "https://www.spottedcatmusicclub.com/"
+   ],
+   "miles": 1.5
+  },
+  {
+   "id": "dba",
+   "name": "d.b.a.",
+   "short": "d.b.a.",
+   "category": "drink",
+   "card": "eat-late",
+   "group": "",
+   "area": "",
+   "address": "618 Frenchmen St, New Orleans, LA 70116",
+   "lat": 29.9639408,
+   "lng": -90.0580377,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=d.b.a.+618+Frenchmen+St%2C+New+Orleans%2C+LA+70116",
+   "blurb": "A craft-beer and spirits bar on Frenchmen Street with live music. A step up in drinks from most Frenchmen stops.",
+   "rows": [
+    [
+     "Order",
+     "Beer or a whiskey flight. The live set"
+    ],
+    [
+     "Hours",
+     "Fri 6 PM–1 AM · Sat 2 PM–1 AM · Sun 6 PM–1 AM"
+    ],
+    [
+     "Reservations",
+     "None"
+    ],
+    [
+     "Price",
+     "$$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 1.5 mi)"
+    ]
+   ],
+   "website": "http://www.dbaneworleans.com/",
+   "check": "",
+   "sources": [
+    "http://www.dbaneworleans.com/"
+   ],
+   "miles": 1.5
+  },
+  {
+   "id": "atchafalaya",
+   "name": "Atchafalaya",
+   "short": "Atchafalaya",
+   "category": "food",
+   "card": "eat-morning",
+   "group": "",
+   "area": "",
+   "address": "901 Louisiana Ave, New Orleans, LA 70115",
+   "lat": 29.9213429,
+   "lng": -90.0876868,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Atchafalaya+901+Louisiana+Ave%2C+New+Orleans%2C+LA+70115",
+   "blurb": "A Garden District neighborhood restaurant with inventive Bloody Marys, including a green Bywater version and a 'Bloody Fairy' made with absinthe. Closed Tuesdays and Wednesdays but open all weekend.",
+   "rows": [
+    [
+     "Order",
+     "Bywater Bloody Mary or the Bloody Fairy (absinthe)"
+    ],
+    [
+     "Hours",
+     "Fri Brunch 9:30 AM–2 PM. Dinner 5 PM–9:30 PM · Sat Brunch 9:30 AM–2:30 PM. Dinner 5 PM–9:30 PM · Sun Brunch 9:30 AM–2:30 PM. Dinner 5 PM–9 PM"
+    ],
+    [
+     "Reservations",
+     "Reservations recommended. See site"
+    ],
+    [
+     "Price",
+     "$$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 2.0 mi)"
+    ]
+   ],
+   "website": "https://www.atchafalayarestaurant.com/",
+   "check": "",
+   "sources": [
+    "https://www.atchafalayarestaurant.com/"
+   ],
+   "miles": 2.0
+  },
+  {
+   "id": "cafe-amelie",
+   "name": "Café Amelie",
+   "short": "Café Amelie",
+   "category": "food",
+   "card": "eat-morning",
+   "group": "",
+   "area": "",
+   "address": "912 Royal St, New Orleans, LA 70116",
+   "lat": 29.9597546,
+   "lng": -90.0630392,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Amelie+912+Royal+St%2C+New+Orleans%2C+LA+70116",
+   "blurb": "A romantic French Quarter courtyard with a brunch Thursday through Sunday and a Bloody Mary menu. Book ahead for the courtyard.",
+   "rows": [
+    [
+     "Order",
+     "Brunch plus a Bloody Mary"
+    ],
+    [
+     "Hours",
+     "Fri Brunch 10:30 AM–3 PM. Dinner 5:30 PM–9:30 PM · Sat Brunch 10:30 AM–3 PM. Dinner 5:30 PM–9:30 PM · Sun Brunch 10:30 AM–3 PM. Dinner 5:30 PM–9:30 PM"
+    ],
+    [
+     "Reservations",
+     "Reservations by email/phone. See site"
+    ],
+    [
+     "Price",
+     "$$$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 1.1 mi)"
+    ]
+   ],
+   "website": "https://www.cafeamelie.com/",
+   "check": "",
+   "sources": [
+    "https://www.cafeamelie.com/"
+   ],
+   "miles": 1.2
+  },
+  {
+   "id": "mr-bs-bistro",
+   "name": "Mr. B's Bistro",
+   "short": "Mr. B's Bistro",
+   "category": "food",
+   "card": "eat-morning",
+   "group": "",
+   "area": "",
+   "address": "201 Royal St, New Orleans, LA 70130",
+   "lat": 29.9543264,
+   "lng": -90.0682024,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Mr.+B%27s+Bistro+201+Royal+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "A Brennan-family French Quarter bistro known for a Bloody Mary with a spicy kick and a weekly Sunday jazz brunch.",
+   "rows": [
+    [
+     "Order",
+     "Bloody Mary and the barbecue shrimp"
+    ],
+    [
+     "Hours",
+     "Fri Lunch 11:30 AM–2 PM. Dinner from 5 PM · Sat Lunch 11:30 AM–2 PM. Dinner from 5 PM · Sun Jazz Brunch 10:30 AM–2 PM. Dinner from 5 PM"
+    ],
+    [
+     "Reservations",
+     "See site/reservations page. Phone 504–523–2078"
+    ],
+    [
+     "Price",
+     "$$$"
+    ],
+    [
+     "Getting there",
+     "Walkable (about 15 min)"
+    ]
+   ],
+   "website": "https://www.mrbsbistro.com/",
+   "check": "",
+   "sources": [
+    "https://www.mrbsbistro.com/",
+    "https://mrbsbistro.com/general_info.php"
+   ],
+   "miles": 0.8
+  },
+  {
+   "id": "sazerac-house",
+   "name": "The Sazerac House",
+   "short": "The Sazerac House",
+   "category": "drink",
+   "card": "drink-bars",
+   "group": "",
+   "area": "",
+   "address": "101 Magazine St, New Orleans, LA 70130",
+   "lat": 29.9516891,
+   "lng": -90.0675556,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Sazerac+House+101+Magazine+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "An interactive museum and distillery experience that tells the story of the Sazerac cocktail, with tastings. A good daytime orientation to the city's cocktail history.",
+   "rows": [
+    [
+     "Order",
+     "A tour with tasting. The Sazerac cocktail"
+    ],
+    [
+     "Hours",
+     "Fri 11 AM–6 PM · Sat 11 AM–6 PM · Sun 11 AM–6 PM"
+    ],
+    [
+     "Reservations",
+     "Booking recommended for tours/tastings"
+    ],
+    [
+     "Price",
+     "$$"
+    ],
+    [
+     "Getting there",
+     "Walkable (about 11 min)"
+    ]
+   ],
+   "website": "https://sazerachouse.com/",
+   "check": "",
+   "sources": [
+    "https://sazerachouse.com/",
+    "https://www.sazerachouse.com/visit/"
+   ],
+   "miles": 0.6
+  },
+  {
+   "id": "sazerac-bar",
+   "name": "The Sazerac Bar (Roosevelt New Orleans)",
+   "short": "The Sazerac Bar (Roosevelt New Orleans)",
+   "category": "drink",
+   "card": "drink-bars",
+   "group": "",
+   "area": "",
+   "address": "130 Roosevelt Way, New Orleans, LA 70112",
+   "lat": 29.9544933,
+   "lng": -90.0722198,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=The+Sazerac+Bar+%28Roosevelt+New+Orleans%29+130+Roosevelt+Way%2C+New+Orleans%2C+LA+70112",
+   "blurb": "The grand Art Deco hotel bar named for the Sazerac, long associated with the Ramos Gin Fizz. Dress up a little and order the classics.",
+   "rows": [
+    [
+     "Order",
+     "The Sazerac or a Ramos Gin Fizz"
+    ],
+    [
+     "Hours",
+     "Fri 11 AM–1 AM · Sat 11 AM–1 AM · Sun 11 AM–12 AM"
+    ],
+    [
+     "Reservations",
+     "Walk-in"
+    ],
+    [
+     "Price",
+     "$$$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 0.8 mi)"
+    ]
+   ],
+   "website": "https://www.waldorfastoria-neworleans.com/",
+   "check": "",
+   "sources": [
+    "https://www.waldorfastoria-neworleans.com/",
+    "https://therooseveltneworleans.com/dining/"
+   ],
+   "miles": 0.9
+  },
+  {
+   "id": "carousel-bar",
+   "name": "Carousel Bar & Lounge (Hotel Monteleone)",
+   "short": "Carousel Bar & Lounge (Hotel Monteleone)",
+   "category": "drink",
+   "card": "drink-bars",
+   "group": "",
+   "area": "",
+   "address": "214 Royal Street, New Orleans, LA 70130",
+   "lat": 29.9541881,
+   "lng": -90.067944,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Carousel+Bar+%26+Lounge+%28Hotel+Monteleone%29+214+Royal+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "The slowly turning bar inside the Hotel Monteleone, with a piano, sofa seats, and the Vieux Carré cocktail it's known for.",
+   "rows": [
+    [
+     "Order",
+     "A Vieux Carré"
+    ],
+    [
+     "Hours",
+     "Fri 11 AM–12 AM · Sat 11 AM–12 AM · Sun 11 AM–12 AM"
+    ],
+    [
+     "Who",
+     "21 and over after 6 PM"
+    ],
+    [
+     "Music Friday",
+     "Royal Caravan Brass Band 12:30 PM, Al \"Lil' Fats\" Jackson Trio 4 PM, Nayo Jones Experience 9 PM"
+    ],
+    [
+     "Music Saturday",
+     "Lena Prima & Band 9 PM"
+    ],
+    [
+     "Getting there",
+     "Walkable, about 15 minutes (estimate)"
+    ]
+   ],
+   "website": "https://www.hotelmonteleone.com/dining/carousel-bar/",
+   "check": "",
+   "sources": [
+    "https://www.hotelmonteleone.com/dining/carousel-bar/",
+    "https://www.frommers.com/destinations/new-orleans/nightlife/carousel-bar-at-the-monteleone-hotel"
+   ],
+   "miles": 0.8
+  },
+  {
+   "id": "napoleon-house",
+   "name": "Napoleon House",
+   "short": "Napoleon House",
+   "category": "drink",
+   "card": "drink-bars",
+   "group": "",
+   "area": "",
+   "address": "500 Chartres St, New Orleans, LA 70130",
+   "lat": 29.9558596,
+   "lng": -90.0650706,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Napoleon+House+500+Chartres+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "A crumbling, candlelit 1800s corner bar in the French Quarter with classical music and a Pimm's Cup. Walk-ins only, no reservations.",
+   "rows": [
+    [
+     "Order",
+     "Pimm's Cup and the Muffuletta"
+    ],
+    [
+     "Hours",
+     "Fri 11 AM–10 PM · Sat 11 AM–10 PM · Sun 11 AM–10 PM"
+    ],
+    [
+     "Reservations",
+     "Reservations not available. Walk-ins welcome"
+    ],
+    [
+     "Price",
+     "$$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 0.9 mi)"
+    ]
+   ],
+   "website": "https://www.napoleonhouse.com/",
+   "check": "",
+   "sources": [
+    "https://www.napoleonhouse.com/",
+    "https://www.napoleonhouse.com/about/"
+   ],
+   "miles": 0.9
+  },
+  {
+   "id": "pat-obriens",
+   "name": "Pat O'Brien's",
+   "short": "Pat O'Brien's",
+   "category": "drink",
+   "card": "drink-bars",
+   "group": "",
+   "area": "",
+   "address": "718 Saint Peter St, New Orleans, LA 70116",
+   "lat": 29.9580935,
+   "lng": -90.0654893,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Pat+O%27Brien%27s+718+Saint+Peter+St%2C+New+Orleans%2C+LA+70116",
+   "blurb": "The home of the Hurricane, with a courtyard fire fountain and a dueling-piano bar. It is the touristy way to drink a Hurricane.",
+   "rows": [
+    [
+     "Order",
+     "The Hurricane"
+    ],
+    [
+     "Hours",
+     "Fri 12 PM–2 AM · Sat 12 PM–2 AM · Sun 12 PM–12 AM"
+    ],
+    [
+     "Reservations",
+     "Walk-in. Lines on weekend nights"
+    ],
+    [
+     "Price",
+     "$$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 1.0 mi)"
+    ]
+   ],
+   "website": "https://www.patobriens.com/",
+   "check": "",
+   "sources": [
+    "https://www.patobriens.com/"
+   ],
+   "miles": 1.0
+  },
+  {
+   "id": "cafe-du-monde-french-market",
+   "name": "Café Du Monde (French Market)",
+   "short": "Café Du Monde (French Market)",
+   "category": "food",
+   "card": "eat-sweets",
+   "group": "",
+   "area": "",
+   "address": "800 Decatur St, New Orleans, LA 70116",
+   "lat": 29.957561,
+   "lng": -90.0618544,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Du+Monde+%28French+Market%29+800+Decatur+St%2C+New+Orleans%2C+LA+70116",
+   "blurb": "The original beignet and café au lait stand across from Jackson Square, a New Orleans tradition. Expect lines and powdered sugar everywhere.",
+   "rows": [
+    [
+     "Order",
+     "Beignets and café au lait"
+    ],
+    [
+     "Hours",
+     "Fri 7:15 AM–12 AM · Sat 7:15 AM–12 AM · Sun 7:15 AM–11 PM"
+    ],
+    [
+     "Reservations",
+     "None. First-come"
+    ],
+    [
+     "Price",
+     "$"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 1.0 mi)"
+    ]
+   ],
+   "website": "https://www.cafedumonde.com/",
+   "check": "",
+   "sources": [
+    "https://shop.cafedumonde.com/pages/locations",
+    "https://www.cafedumonde.com/"
+   ],
+   "miles": 1.0
+  },
+  {
+   "id": "cafe-du-monde-riverwalk",
+   "name": "Café Du Monde (Riverwalk)",
+   "short": "Café Du Monde (Riverwalk)",
+   "category": "food",
+   "card": "eat-sweets",
+   "group": "",
+   "area": "",
+   "address": "500 Port of New Orleans Pl Suite 140, New Orleans, LA 70130",
+   "lat": 29.947864,
+   "lng": -90.0625452,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Du+Monde+%28Riverwalk%29+500+Port+of+New+Orleans+Pl+Suite+140%2C+New+Orleans%2C+LA+70130",
+   "blurb": "A shorter-line Café Du Monde stand at the Riverwalk, closest to the hotel of the two. Daytime hours only.",
+   "rows": [
+    [
+     "Order",
+     "Beignets and café au lait"
+    ],
+    [
+     "Hours",
+     "Fri 9 AM–7 PM · Sat 9 AM–7 PM · Sun 10 AM–6 PM"
+    ],
+    [
+     "Reservations",
+     "None"
+    ],
+    [
+     "Price",
+     "$"
+    ],
+    [
+     "Getting there",
+     "Walkable (about 7 min)"
+    ]
+   ],
+   "website": "https://www.cafedumonde.com/",
+   "check": "",
+   "sources": [
+    "https://shop.cafedumonde.com/pages/locations",
+    "https://www.cafedumonde.com/"
+   ],
+   "miles": 0.4
+  },
+  {
+   "id": "bourbon-house",
+   "name": "Bourbon House",
+   "short": "Bourbon House",
+   "category": "food",
+   "card": "eat-events",
+   "group": "",
+   "area": "",
+   "address": "144 Bourbon St, New Orleans, LA 70130",
+   "lat": 29.9541927,
+   "lng": -90.0694342,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Bourbon+House+144+Bourbon+St%2C+New+Orleans%2C+LA+70130",
+   "blurb": "The Friday Witchy Lunch on Oct 30 is sold out. Regular hours aren't posted.",
+   "rows": [
+    [
+     "Order",
+     "3-course Witchy Lunch (gumbo or bisque, shrimp & grits, apple pie bread pudding)"
+    ],
+    [
+     "Hours",
+     "Fri 11 AM–10 PM (Witchy Lunch 11 AM–2:30 PM SOLD OUT) · Sat 11 AM–10 PM · Sun 11 AM–9 PM"
+    ],
+    [
+     "Reservations",
+     "Oct 30 Witchy Lunch is Sold Out. Call 504–522–0111 to ask about waitlists or regular tables"
+    ],
+    [
+     "Price",
+     "$$$"
+    ],
+    [
+     "Getting there",
+     "Walkable (about 15 min)"
+    ]
+   ],
+   "website": "https://www.bourbonhouse.com/",
+   "check": "",
+   "sources": [
+    "https://www.bourbonhouse.com/event/witchy-lunches",
+    "https://www.bourbonhouse.com/"
+   ],
+   "miles": 0.8
+  },
+  {
+   "id": "french-market",
+   "name": "French Market (Market Morsels and Culture & Cuisine)",
+   "short": "French Market (Market Morsels and Culture & Cuisine)",
+   "category": "food",
+   "card": "eat-events",
+   "group": "",
+   "area": "",
+   "address": "1008 N Peters St, New Orleans, LA 70116",
+   "lat": 29.9590261,
+   "lng": -90.060261,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=French+Market+%28Market+Morsels+and+Culture+%26+Cuisine%29+1008+N+Peters+St%2C+New+Orleans%2C+LA+70116",
+   "blurb": "The oldest public market in the country, with free cooking demos with free samples. Fri Oct 30 is Market Morsels and Sat Oct 31 features Black Masking Indians with a cooking demo.",
+   "rows": [
+    [
+     "Order",
+     "Free samples at the demo (while supplies last)"
+    ],
+    [
+     "Hours",
+     "Fri Market Morsels 12 PM–1 PM · Sat Culture & Cuisine 12 PM–1 PM · Sun No event listed"
+    ],
+    [
+     "Reservations",
+     "None"
+    ],
+    [
+     "Price",
+     "free"
+    ],
+    [
+     "Getting there",
+     "Short ride (about 1.1 mi)"
+    ]
+   ],
+   "website": "https://frenchmarket.org/",
+   "check": "",
+   "sources": [
+    "https://frenchmarket.org/events/",
+    "https://frenchmarket.org/"
+   ],
+   "miles": 1.2
+  },
+  {
+   "short": "Verti Marte",
+   "group": "",
+   "area": "",
+   "lat": null,
+   "lng": null,
+   "gmaps_url": "",
+   "website": "",
+   "check": "Both sources are articles, not a live listing. There's no official site to confirm it.",
+   "name": "Verti Marte",
+   "category": "food",
+   "card": "eat-late",
+   "address": "1201 Royal St, New Orleans, LA 70116",
+   "blurb": "A tiny French Quarter deli known for its sandwiches, and the late-night stop on the walk.",
+   "rows": [
+    [
+     "Hours",
+     "Two articles say open 24 hours, seven days a week"
+    ]
+   ],
+   "sources": [
+    "https://dirtycoast.com/blogs/the-dirt2/verti-marte-tiny-24-hour-deli-feeds-french-quarter",
+    "https://timeout.com/new-orleans/restaurants/verti-marte"
+   ],
+   "id": "verti-marte",
+   "miles": null
+  },
+  {
+   "id": "ogden-museum-of-southern-art",
+   "name": "Ogden Museum of Southern Art",
+   "short": "Ogden Museum of Southern Art",
+   "category": "art",
+   "card": "see-museums",
+   "group": "",
+   "area": "",
+   "address": "925 Camp St, New Orleans, LA 70130",
+   "lat": 29.9436,
+   "lng": -90.0713,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=29.9436,-90.0713",
+   "blurb": "The Southern-art museum right beside her hotel, with Clementine Hunter, Sister Gertrude Morgan and Nellie Mae Rowe in the current vernacular-art show. A traditional Dia de los Muertos altar is also listed as a current exhibition, which fits the weekend.",
+   "rows": [
+    [
+     "Hours",
+     "Fri 10 AM – 5 PM · Sat 10 AM – 5 PM · Sun 10 AM – 5 PM"
+    ],
+    [
+     "Admission",
+     "Adults $15. Seniors 65+ $12. Students/teachers/service members with ID $12. Ages 5–17 $7. Under 5 and members free. Last admission 4:45 PM."
+    ],
+    [
+     "Getting there",
+     "Walk about 7 min, or a ride about 3 min (estimates)"
+    ]
+   ],
+   "website": "https://ogdenmuseum.org",
+   "check": "",
+   "sources": [
+    "https://ogdenmuseum.org/visit/",
+    "https://ogdenmuseum.org",
+    "https://ogdenmuseum.org/exhibition/the-dream-is-the-truth/",
+    "https://ogdenmuseum.org/events/month/"
+   ],
+   "miles": 0.3
+  },
+  {
+   "id": "contemporary-arts-center-new-orleans",
+   "name": "Contemporary Arts Center (CAC)",
+   "short": "Contemporary Arts Center (CAC)",
+   "category": "art",
+   "card": "see-museums",
+   "group": "",
+   "area": "",
+   "address": "900 Camp St, New Orleans, LA 70130",
+   "lat": 29.9438,
+   "lng": -90.0708,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=29.9438,-90.0708",
+   "blurb": "The CAC is the next building over, but its galleries are dark this weekend between shows. Walk past for the building and check the site in case the closure notice changes.",
+   "rows": [
+    [
+     "Hours",
+     "Fri Galleries closed (site banner: closed till Nov 7) · Sat Galleries closed (site banner: closed till Nov 7) · Sun Galleries closed (site banner: closed till Nov 7)"
+    ],
+    [
+     "Admission",
+     "General $10 normally. Sundays free to Louisiana residents. Students/seniors $8. Not applicable while galleries are closed."
+    ],
+    [
+     "Getting there",
+     "Walk about 6 min, or a ride about 3 min (estimates)"
+    ]
+   ],
+   "website": "https://cacno.org",
+   "check": "",
+   "sources": [
+    "https://www.cacno.org/programming",
+    "https://cacno.org",
+    "https://cacno.org/visit"
+   ],
+   "miles": 0.3
+  },
+  {
+   "id": "national-wwii-museum",
+   "name": "The National WWII Museum",
+   "short": "The National WWII Museum",
+   "category": "art",
+   "card": "see-museums",
+   "group": "",
+   "area": "",
+   "address": "945 Magazine St, New Orleans, LA 70130",
+   "lat": 29.9421,
+   "lng": -90.0708,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=29.9421,-90.0708",
+   "blurb": "A big, immersive museum a few blocks away, good for a long indoor stretch. The site highlights a USS New Orleans special exhibit, Come Back Fighting.",
+   "rows": [
+    [
+     "Hours",
+     "Fri 9 AM – 5 PM · Sat 9 AM – 5 PM · Sun 9 AM – 5 PM"
+    ],
+    [
+     "Admission",
+     "Adult $37. Senior 65+ $34. Student/military $27. Under 5 free. Beyond All Boundaries (10 AM–4 PM, hourly) $9. Freedom Theater $9. Both $12. Second-day pass $15."
+    ],
+    [
+     "Getting there",
+     "Walk about 7 min, or a ride about 3 min (estimates)"
+    ]
+   ],
+   "website": "https://www.nationalww2museum.org",
+   "check": "",
+   "sources": [
+    "https://www.nationalww2museum.org/visit/plan-your-visit",
+    "https://www.nationalww2museum.org"
+   ],
+   "miles": 0.3
+  },
+  {
+   "id": "new-orleans-museum-of-art",
+   "name": "New Orleans Museum of Art (NOMA) and Besthoff Sculpture Garden",
+   "short": "New Orleans Museum of Art (NOMA) and Besthoff Sculpture Garden",
+   "category": "art",
+   "card": "see-museums",
+   "group": "",
+   "area": "",
+   "address": "1 Collins Diboll Cir, City Park, New Orleans, LA 70124",
+   "lat": 29.9839,
+   "lng": -90.0901,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=29.9839,-90.0901",
+   "blurb": "The city's big art museum in City Park, plus a free sculpture garden next door. It is a real trip out of the Warehouse District, so it suits a slower Sunday.",
+   "rows": [
+    [
+     "Hours",
+     "Fri 10 AM – 5 PM · Sat 10 AM – 5 PM · Sun 10 AM – 5 PM"
+    ],
+    [
+     "Admission",
+     "Out-of-state adult $23. Senior/military $18. University students $16. Youth 19 and under free. Sculpture Garden free daily, Oct-Mar 10 AM – 5 PM."
+    ],
+    [
+     "Getting there",
+     "A ride, about 15–20 min by car (estimates)"
+    ]
+   ],
+   "website": "https://noma.org",
+   "check": "",
+   "sources": [
+    "https://noma.org/visit/",
+    "https://noma.org"
+   ],
+   "miles": 3.2
+  },
+  {
+   "id": "julia-street-gallery-row",
+   "name": "Julia Street gallery row (Arthur Roger Gallery and neighbors)",
+   "short": "Julia Street gallery row (Arthur Roger Gallery and neighbors)",
+   "category": "art",
+   "card": "see-museums",
+   "group": "",
+   "area": "",
+   "address": "432-434 Julia St, New Orleans, LA 70130",
+   "lat": 29.945,
+   "lng": -90.0685,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=29.945,-90.0685",
+   "blurb": "Julia Street's blocks of contemporary galleries start less than a quarter mile from her hotel, so this is an easy browse between museums. The big monthly art walk lands a week after her trip.",
+   "rows": [
+    [
+     "Hours",
+     "Fri Most galleries 10–5 (Tue-Sat). See gallery list in notes · Sat Most galleries open 10–5. Martine Chaisson 11–5. Check each · Sun Mixed: Ariodante 9:30–1:30, Campbell Contemporary 11–6, Orleans Gallery 12–5, MH Contemporary 12–5, Stella Jones 11–6. Many others closed"
+    ],
+    [
+     "Admission",
+     "Free to browse."
+    ],
+    [
+     "Getting there",
+     "Walk about 4 min (estimate)"
+    ]
+   ],
+   "website": "https://www.artsdistrictneworleans.com",
+   "check": "",
+   "sources": [
+    "https://www.artsdistrictneworleans.com/galleries",
+    "https://www.artsdistrictneworleans.com",
+    "https://www.artsdistrictneworleans.com/events/first-saturday-gallery-openings"
+   ],
+   "miles": 0.2
+  },
+  {
+   "id": "lazarus-ball-the-barnett",
+   "name": "HNO Lazarus Ball at The Barnett",
+   "short": "HNO Lazarus Ball at The Barnett",
+   "category": "halloween",
+   "card": "see-halloween",
+   "group": "",
+   "area": "",
+   "address": "600 Carondelet St, New Orleans, LA 70130",
+   "lat": 29.9483,
+   "lng": -90.0719,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=29.9483,-90.0719",
+   "blurb": "The Friday opener of Halloween New Orleans weekend, a black-tie-optional costume-friendly ball a few blocks from her hotel. A fundraiser for Project Lazarus.",
+   "rows": [
+    [
+     "Hours",
+     "Fri 7 PM – 10 PM · Sat none · Sun none"
+    ],
+    [
+     "Admission",
+     "Ticketed Price not posted."
+    ],
+    [
+     "Getting there",
+     "Walk about 10 min, or a ride about 4 min (estimates)"
+    ]
+   ],
+   "website": "https://outxout.com/event/hno-lazarus-ball-new-orleans-2026",
+   "check": "",
+   "sources": [
+    "https://outxout.com/blog/halloween-new-orleans-2026",
+    "https://outxout.com/event/hno-lazarus-ball-new-orleans-2026"
+   ],
+   "miles": 0.5
+  },
+  {
+   "id": "hno-halloween-party-the-fillmore",
+   "name": "HNO Saturday Night Halloween Party at The Fillmore",
+   "short": "HNO Saturday Night Halloween Party at The Fillmore",
+   "category": "halloween",
+   "card": "see-halloween",
+   "group": "",
+   "area": "",
+   "address": "6 Canal St, New Orleans, LA 70130",
+   "lat": 29.9498,
+   "lng": -90.0644,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=29.9498,-90.0644",
+   "blurb": "The big Halloween-night party, with a midnight show and the HNO Costume Revue and Contest. Costumes are required.",
+   "rows": [
+    [
+     "Hours",
+     "Fri none · Sat 10 PM – 3 AM · Sun none"
+    ],
+    [
+     "Admission",
+     "Ticketed Price not posted."
+    ],
+    [
+     "Getting there",
+     "Walk about 10 min, or a ride about 4 min (estimates)"
+    ]
+   ],
+   "website": "https://outxout.com/event/hno-halloween-party-new-orleans-2026",
+   "check": "",
+   "sources": [
+    "https://outxout.com/blog/halloween-new-orleans-2026",
+    "https://outxout.com/event/hno-halloween-party-new-orleans-2026"
+   ],
+   "miles": 0.5
+  },
+  {
+   "id": "new-orleans-historic-voodoo-museum",
+   "name": "New Orleans Historic Voodoo Museum",
+   "short": "New Orleans Historic Voodoo Museum",
+   "category": "halloween",
+   "card": "see-halloween",
+   "group": "",
+   "area": "",
+   "address": "724 Dumaine St, New Orleans, LA 70116",
+   "lat": 29.9598,
+   "lng": -90.0638,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=29.9598,-90.0638",
+   "blurb": "A small, atmospheric French Quarter museum of Voodoo history, altars and gris-gris, which is a natural stop on Halloween weekend.",
+   "rows": [
+    [
+     "Hours",
+     "Fri 10 AM – 6 PM · Sat 10 AM – 6 PM · Sun 10 AM – 6 PM"
+    ],
+    [
+     "Admission",
+     "Adults 18–54 $7. Seniors 55+ and youth 10–17 $5.50. Children 6–9 $3.50. Ages 1–5 free."
+    ],
+    [
+     "Getting there",
+     "Walk about 25–30 min, or a ride about 8 min (estimates)"
+    ]
+   ],
+   "website": "https://voodoomuseum.com",
+   "check": "",
+   "sources": [
+    "https://www.frenchquarter.com/nola/new-orleans-historic-voodoo-museum/2506",
+    "https://voodoomuseum.com"
+   ],
+   "miles": 1.2
+  },
+  {
+   "id": "st-louis-cemetery-no-1",
+   "name": "St. Louis Cemetery No. 1",
+   "short": "St. Louis Cemetery No. 1",
+   "category": "halloween",
+   "card": "see-saints",
+   "group": "",
+   "area": "",
+   "address": "425 Basin St, New Orleans, LA 70112",
+   "lat": 29.959,
+   "lng": -90.0712,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=29.959,-90.0712",
+   "blurb": "New Orleans' oldest surviving cemetery and the city's best-known city of the dead. Entry is by official guided tour only, and the whole place is quieter and more moving around All Saints.",
+   "rows": [
+    [
+     "Hours",
+     "Fri Official tours daily 9 AM – 3:45 PM · Sat Official tours daily 9 AM – 3:45 PM · Sun Official tours daily 9 AM – 3:45 PM (All Saints blessing at the cemetery was 2 PM in an undated past schedule. 2026 time unconfirmed)"
+    ],
+    [
+     "Admission",
+     "Tour price not posted."
+    ],
+    [
+     "Getting there",
+     "Walk about 25–30 min, or a ride about 7 min (estimates)"
+    ]
+   ],
+   "website": "https://tourlouisiana.com/attractions/St-Louis-Cemetery-Hours-Pricing",
+   "check": "",
+   "sources": [
+    "https://tourlouisiana.com/attractions/St-Louis-Cemetery-Hours-Pricing",
+    "https://16596.sites.ecatholic.com/news/all-saints-day-observances"
+   ],
+   "miles": 1.1
+  },
+  {
+   "id": "lafayette-cemetery-no-1",
+   "name": "Lafayette Cemetery No. 1",
+   "short": "Lafayette Cemetery No. 1",
+   "category": "halloween",
+   "card": "see-saints",
+   "group": "",
+   "area": "",
+   "address": "1427 Washington Ave, New Orleans, LA 70130",
+   "lat": 29.9292,
+   "lng": -90.0845,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=29.9292,-90.0845",
+   "blurb": "The Garden District cemetery across from Commander's Palace, reopened to the public on Oct 1, 2026 after seven years closed. It is open only on small guided tours run by the Preservation Resource Center, so it will feel intimate rather than touristy.",
+   "rows": [
+    [
+     "Hours",
+     "Fri Up to six tour sessions a day, 7 days a week (times not posted) · Sat Same · Sun Same"
+    ],
+    [
+     "Admission",
+     "Price not posted."
+    ],
+    [
+     "Getting there",
+     "Walk about 30–35 min, or a ride about 8 min (estimates)"
+    ]
+   ],
+   "website": "https://prcno.org/cemetery-tour/lafayette-cemetery-no-1/",
+   "check": "",
+   "sources": [
+    "https://deeparrival.com/news/lafayette-cemetery-no-1-tours-reopen-october-2026/",
+    "https://prcno.org/cemetery-tour/lafayette-cemetery-no-1/",
+    "https://www.wlox.com/2026/10/04/historic-new-orleans-cemetery-reopens-tours-after-7-year-closure/"
+   ],
+   "miles": 1.4
+  },
+  {
+   "id": "st-louis-cathedral",
+   "name": "St. Louis Cathedral (Cathedral-Basilica of Saint Louis King of France)",
+   "short": "St. Louis Cathedral (Cathedral-Basilica of Saint Louis King of France)",
+   "category": "halloween",
+   "card": "see-saints",
+   "group": "",
+   "area": "",
+   "address": "615 Pere Antoine Alley, New Orleans, LA 70116",
+   "lat": 29.958,
+   "lng": -90.0638,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=29.958,-90.0638",
+   "blurb": "The postcard cathedral on Jackson Square, where she can sit through an All Saints Day Mass or just step in. The Cathedral is open to visitors daily.",
+   "rows": [
+    [
+     "Hours",
+     "Fri Open 7 AM – 5 PM · Sat Open 7 AM – 5 PM. Saturday 5 PM Anticipatory Mass (also an 8 AM Mass listed) · Sun Open 7 AM – 5 PM. Regular Sunday Masses 8 AM, 10 AM, 12 PM, 5 PM (not confirmed as the All Saints holyday schedule)"
+    ],
+    [
+     "Admission",
+     "Free."
+    ],
+    [
+     "Getting there",
+     "Walk about 22–25 min, or a ride about 7 min (estimates)"
+    ]
+   ],
+   "website": "https://www.cathedralstl.org/",
+   "check": "",
+   "sources": [
+    "https://www.cathedralstl.org/"
+   ],
+   "miles": 1.0
+  },
+  {
+   "id": "metairie-cemetery",
+   "name": "Metairie Cemetery",
+   "short": "Metairie Cemetery",
+   "category": "halloween",
+   "card": "see-saints",
+   "group": "",
+   "area": "",
+   "address": "5100 Pontchartrain Blvd, New Orleans, LA 70124",
+   "lat": 29.9833,
+   "lng": -90.1184,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=29.9833,-90.1184",
+   "blurb": "Known for its grand above-ground tombs and monuments, a long ride out from the Warehouse District.",
+   "rows": [
+    [
+     "Getting there",
+     "A ride, about 20–25 min by car (estimates)"
+    ]
+   ],
+   "website": "https://www.metairiecemetery.com",
+   "check": "No All Saints Day plans turned up for this year, and its hours aren't posted.",
+   "sources": [
+    "https://www.metairiecemetery.com"
+   ],
+   "miles": 4.2
+  },
+  {
+   "id": "jackson-square-royal-street-artists",
+   "name": "Jackson Square artists",
+   "short": "Jackson Square artists",
+   "category": "art",
+   "card": "see-museums",
+   "group": "",
+   "area": "",
+   "address": "Jackson Square, New Orleans, LA 70116",
+   "lat": 29.9575,
+   "lng": -90.0629,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=29.9575,-90.0629",
+   "blurb": "The fence-line artists around Jackson Square, the classic place to browse paintings, portraits and prints in the open air.",
+   "rows": [
+    [
+     "Admission",
+     "Free to browse."
+    ],
+    [
+     "Getting there",
+     "Walk about 22–25 min, or a ride about 7 min (estimates)"
+    ]
+   ],
+   "website": "https://www.nola.gov",
+   "check": "Their hours depend on the weather and the artists.",
+   "sources": [
+    "https://www.nola.gov"
+   ],
+   "miles": 1.0
+  },
+  {
+   "id": "hotel",
+   "name": "SpringHill Suites",
+   "short": "Your hotel",
+   "category": "hotel",
+   "card": "",
+   "group": "",
+   "area": "Warehouse District",
+   "address": "301 St Joseph St, New Orleans, LA 70130",
+   "lat": 29.9431,
+   "lng": -90.0664,
+   "gmaps_url": "https://www.google.com/maps/search/?api=1&query=29.9431,-90.0664",
+   "website": "https://www.marriott.com/en-us/hotels/msysh-springhill-suites-new-orleans-warehouse-arts-district/overview/",
+   "blurb": "Home base, in the Warehouse District.",
+   "rows": [],
+   "check": "",
+   "sources": [
+    "https://www.marriott.com/hotels/maps/travel/msysh-springhill-suites-new-orleans-warehouse-arts-district/"
+   ],
+   "miles": 0.0
+  }
+ ],
+ "pins": [
+  {
+   "id": "wsp-night-1",
+   "name": "Widespread Panic, Night 1",
+   "category": "panic",
+   "lat": 30.0301,
+   "lng": -90.0505,
+   "address": "",
+   "blurb": "Night one of two at the UNO Lakefront Arena, out by the lake."
+  },
+  {
+   "id": "wsp-night-2",
+   "name": "Widespread Panic, Halloween",
+   "category": "panic",
+   "lat": 30.0301,
+   "lng": -90.0505,
+   "address": "",
+   "blurb": "Halloween night with Panic at the UNO Lakefront Arena. Costumes are a long Panic Halloween tradition."
+  },
+  {
+   "id": "maple-leaf-bloodkin-oct30",
+   "name": "Bloodkin with special guest CR Gruver",
+   "category": "panic",
+   "lat": 29.9489,
+   "lng": -90.1321,
+   "address": "8316 Oak St, New Orleans, LA 70118",
+   "blurb": "Listed as a WSP afterparty, Uptown at the Maple Leaf."
+  },
+  {
+   "id": "maple-leaf-sunpie-oct30",
+   "name": "Sunpie and Return of the Loup Garou Band",
+   "category": "panic",
+   "lat": 29.9489,
+   "lng": -90.1321,
+   "address": "8316 Oak St, New Orleans, LA 70118",
+   "blurb": "Uptown's famous brass-and-funk room and this weekend's unofficial Panic clubhouse, with a pre-show and two late-night afterparties."
+  },
+  {
+   "id": "maple-leaf-johnny-sketch-oct31",
+   "name": "Johnny Sketch & the Dirty Notes (WSP Pre-Show)",
+   "category": "panic",
+   "lat": 29.9489,
+   "lng": -90.1321,
+   "address": "8316 Oak St, New Orleans, LA 70118",
+   "blurb": "Uptown's famous brass-and-funk room and this weekend's unofficial Panic clubhouse, with a pre-show and two late-night afterparties."
+  },
+  {
+   "id": "maple-leaf-bloodkin-oct31",
+   "name": "Bloodkin with special guest CR Gruver, Halloween",
+   "category": "panic",
+   "lat": 29.9489,
+   "lng": -90.1321,
+   "address": "8316 Oak St, New Orleans, LA 70118",
+   "blurb": "Listed as a WSP afterparty on Halloween night, Uptown at the Maple Leaf."
+  },
+  {
+   "id": "chickie-george-porter-oct31",
+   "name": "George Porter Jr. & His Runnin' Pardners",
+   "category": "panic",
+   "lat": 29.9668,
+   "lng": -90.0896,
+   "address": "2828 Canal St, New Orleans, LA 70119",
+   "blurb": "A friendly Mid-City listening room that books late shows for NOLA funk royalty."
+  },
+  {
+   "id": "tips-soul-rebels-oct30",
+   "name": "All Hallows Eve Spooktacular with The Soul Rebels (w/ Kota Dosa)",
+   "category": "music",
+   "lat": 29.9174,
+   "lng": -90.1008,
+   "address": "501 Napoleon Ave, New Orleans, LA 70115",
+   "blurb": "The Uptown shrine to Professor Longhair, hosting a Soul Rebels Halloween throwdown and a Halloween-night dance party."
+  },
+  {
+   "id": "fillmore-victoria-monet-oct30",
+   "name": "Victoria Monét",
+   "category": "music",
+   "lat": 29.9498,
+   "lng": -90.0644,
+   "address": "6 Canal St, New Orleans, LA 70130",
+   "blurb": "A downtown concert hall at the foot of Canal Street that plays host to touring headliners."
+  },
+  {
+   "id": "hob-saosin-oct30",
+   "name": "Saosin: 20 Years of Self-Titled (w/ Silent Planet & more)",
+   "category": "music",
+   "lat": 29.9532,
+   "lng": -90.0661,
+   "address": "225 Decatur St, New Orleans, LA 70130",
+   "blurb": "The French Quarter's big rock room, with a Friday show and a Sunday-night rap date on the books."
+  },
+  {
+   "id": "howlin-wolf-saint-social-oct30",
+   "name": "Saint Social + Rare Seed",
+   "category": "music",
+   "lat": 29.9427,
+   "lng": -90.0659,
+   "address": "907 S Peters St, New Orleans, LA 70130",
+   "blurb": "A Warehouse District club about a block from the hotel, with local bands Friday and Saturday and Hot 8 Brass Band on Sunday night."
+  },
+  {
+   "id": "joy-zambi-ween-oct30",
+   "name": "Kevin Scott's ZAMBI-Ween, late night",
+   "category": "music",
+   "lat": 29.956,
+   "lng": -90.074,
+   "address": "1200 Canal St, New Orleans, LA 70112",
+   "blurb": "A late-night Halloween-eve show at the Joy Theater on Canal. It's a late show that night, not an official Panic afterparty."
+  },
+  {
+   "id": "gasa-low-cut-connie-oct30",
+   "name": "Low Cut Connie",
+   "category": "music",
+   "lat": 29.9348,
+   "lng": -90.1079,
+   "address": "4920 Freret St, New Orleans, LA 70115",
+   "blurb": "A mid-sized Freret Street room with a courtyard stage and a good bill both Halloween nights and Sunday."
+  },
+  {
+   "id": "freaky-deaky-oct30",
+   "name": "Freaky Deaky NOLA, Night 1 (Porter Robinson DJ set, Dabin, more)",
+   "category": "music",
+   "lat": 29.9347,
+   "lng": -90.0616,
+   "address": "1380 Port of New Orleans Pl, New Orleans, LA 70130",
+   "blurb": "The riverfront float-building warehouse, turned into a two-night dance-music festival site for Halloween weekend."
+  },
+  {
+   "id": "southport-pollo-asado-oct31",
+   "name": "Pollo Asado (Ween Tribute): MOM's Halloween Ball",
+   "category": "music",
+   "lat": 29.9544,
+   "lng": -90.1367,
+   "address": "200 Monticello Ave, Jefferson, LA 70121",
+   "blurb": "A century-old former speakeasy just over the Jefferson Parish line, hosting a Ween-tribute Halloween ball after midnight."
+  },
+  {
+   "id": "tips-lagniappe-oct31",
+   "name": "DJ RQ Away presents Lagniappe: Halloween Edition",
+   "category": "music",
+   "lat": 29.9174,
+   "lng": -90.1008,
+   "address": "501 Napoleon Ave, New Orleans, LA 70115",
+   "blurb": "The Uptown shrine to Professor Longhair, hosting a Soul Rebels Halloween throwdown and a Halloween-night dance party."
+  },
+  {
+   "id": "gasa-low-cut-connie-oct31",
+   "name": "Low Cut Connie",
+   "category": "music",
+   "lat": 29.9348,
+   "lng": -90.1079,
+   "address": "4920 Freret St, New Orleans, LA 70115",
+   "blurb": "A mid-sized Freret Street room with a courtyard stage and a good bill both Halloween nights and Sunday."
+  },
+  {
+   "id": "howlin-wolf-brasshearts-oct31",
+   "name": "Brasshearts w/ Sunscape & Dizzy (The Den)",
+   "category": "music",
+   "lat": 29.9427,
+   "lng": -90.0659,
+   "address": "907 S Peters St, New Orleans, LA 70130",
+   "blurb": "A Warehouse District club about a block from the hotel, with local bands Friday and Saturday and Hot 8 Brass Band on Sunday night."
+  },
+  {
+   "id": "freaky-deaky-oct31",
+   "name": "Freaky Deaky NOLA, Night 2 (FISHER, Chris Lorenzo, more)",
+   "category": "music",
+   "lat": 29.9347,
+   "lng": -90.0616,
+   "address": "1380 Port of New Orleans Pl, New Orleans, LA 70130",
+   "blurb": "The riverfront float-building warehouse, turned into a two-night dance-music festival site for Halloween weekend."
+  },
+  {
+   "id": "snug-jason-marsalis-oct30",
+   "name": "Jason Marsalis presents the Music of Ellis Marsalis",
+   "category": "music",
+   "lat": 29.9641,
+   "lng": -90.0579,
+   "address": "626 Frenchmen St, New Orleans, LA 70116",
+   "blurb": "Frenchmen Street's listening-room jazz club, with a Marsalis family tribute Friday and Halloween swing Saturday."
+  },
+  {
+   "id": "blue-nile-kermit-oct30",
+   "name": "Kermit Ruffins & the BBQ Swingers",
+   "category": "music",
+   "lat": 29.9631,
+   "lng": -90.0579,
+   "address": "532 Frenchmen St, New Orleans, LA 70116",
+   "blurb": "A two-room Frenchmen Street club for funk, Afrobeat and brass. Kermit Ruffins plays here Friday night."
+  },
+  {
+   "id": "spotted-cat-oct30",
+   "name": "Spotted Cat: Cottonmouth Kings 6 PM, Smokin' On Some Brass 10 PM",
+   "category": "music",
+   "lat": 29.9641,
+   "lng": -90.0576,
+   "address": "623 Frenchmen St, New Orleans, LA 70116",
+   "blurb": "The Marigny's quintessential little jazz club: no cover, a one-drink minimum, and a tip jar passed between songs."
+  },
+  {
+   "id": "dba-oct30",
+   "name": "d.b.a.: Michael Watson & the Alchemy 6 PM, New Breed Brass Band 10 PM",
+   "category": "music",
+   "lat": 29.9639,
+   "lng": -90.0579,
+   "address": "618 Frenchmen St, New Orleans, LA 70116",
+   "blurb": "Frenchmen Street's long-running bar with a deep draft list and a stage that moves from jazz to brass to funk through the night."
+  },
+  {
+   "id": "maison-oct30",
+   "name": "The Maison: Sugar & the Daddies",
+   "category": "music",
+   "lat": 29.9628,
+   "lng": -90.0578,
+   "address": "508 Frenchmen St, New Orleans, LA 70116",
+   "blurb": "A two-story Frenchmen Street music bar with a rolling schedule of jazz bands from the afternoon on."
+  },
+  {
+   "id": "snug-sally-baby-oct31",
+   "name": "Halloween with Sally Baby's Silver Dollars",
+   "category": "music",
+   "lat": 29.9641,
+   "lng": -90.0579,
+   "address": "626 Frenchmen St, New Orleans, LA 70116",
+   "blurb": "Frenchmen Street's listening-room jazz club, with a Marsalis family tribute Friday and Halloween swing Saturday."
+  },
+  {
+   "id": "blue-nile-oct31",
+   "name": "Blue Nile: Caesar Brothers' FunkBox 7:30 PM, Afrobeat NOLA 10 PM",
+   "category": "music",
+   "lat": 29.9631,
+   "lng": -90.0579,
+   "address": "532 Frenchmen St, New Orleans, LA 70116",
+   "blurb": "A two-room Frenchmen Street club for funk, Afrobeat and brass. Kermit Ruffins plays here Friday night."
+  },
+  {
+   "id": "spotted-cat-oct31",
+   "name": "Spotted Cat: Panorama Jazz Band 6 PM, James Martin Band 10 PM",
+   "category": "music",
+   "lat": 29.9641,
+   "lng": -90.0576,
+   "address": "623 Frenchmen St, New Orleans, LA 70116",
+   "blurb": "The Marigny's quintessential little jazz club: no cover, a one-drink minimum, and a tip jar passed between songs."
+  },
+  {
+   "id": "dba-oct31",
+   "name": "d.b.a.: Young Lion Showcase 2 PM, Kortana 6 PM, Lyndsey Smith 10 PM",
+   "category": "music",
+   "lat": 29.9639,
+   "lng": -90.0579,
+   "address": "618 Frenchmen St, New Orleans, LA 70116",
+   "blurb": "Frenchmen Street's long-running bar with a deep draft list and a stage that moves from jazz to brass to funk through the night."
+  },
+  {
+   "id": "maison-oct31",
+   "name": "The Maison: The Kazzettes",
+   "category": "music",
+   "lat": 29.9628,
+   "lng": -90.0578,
+   "address": "508 Frenchmen St, New Orleans, LA 70116",
+   "blurb": "A two-story Frenchmen Street music bar with a rolling schedule of jazz bands from the afternoon on."
+  },
+  {
+   "id": "ph-oct30",
+   "name": "Preservation All-Stars (four sets)",
+   "category": "music",
+   "lat": 29.9583,
+   "lng": -90.0654,
+   "address": "726 St Peter St, New Orleans, LA 70116",
+   "blurb": "The small, unamplified French Quarter jazz hall where 45-minute sets run all evening. Some Friday sets are already sold out, so reserve now."
+  },
+  {
+   "id": "ph-oct31",
+   "name": "Wendell Brunious & the Preservation Legacy Band (2:30, 3:45); Preservation All-Stars (5:00, 6:15, 7:30, 8:45)",
+   "category": "music",
+   "lat": 29.9583,
+   "lng": -90.0654,
+   "address": "726 St Peter St, New Orleans, LA 70116",
+   "blurb": "The small, unamplified French Quarter jazz hall where 45-minute sets run all evening. Some Friday sets are already sold out, so reserve now."
+  },
+  {
+   "id": "kermits-oct31",
+   "name": "Kermit Ruffins & The BBQ Swingers",
+   "category": "music",
+   "lat": 29.971,
+   "lng": -90.0668,
+   "address": "1500 N Claiborne Ave, New Orleans, LA 70116",
+   "blurb": "Kermit Ruffins' Tremé lounge and shrine to Ernie K-Doe, where trumpet, barbecue and tall tales are the house specialty."
+  },
+  {
+   "id": "jbm-hornicopia-oct30",
+   "name": "Donald Harrison's Quantum Leap Music Festival: Hornicopia II (w/ Chief Xian aTunde Adjuah)",
+   "category": "music",
+   "lat": 29.9412,
+   "lng": -90.0787,
+   "address": "1436 Oretha Castle Haley Blvd, New Orleans, LA 70113",
+   "blurb": "The former New Orleans Jazz Market, a handsome Central City hall hosting Donald Harrison's Quantum Leap festival all three nights."
+  },
+  {
+   "id": "jbm-allstars-oct31",
+   "name": "Quantum Leap: New Orleans All-Stars Showcase / The Chuck Brown Band & more",
+   "category": "music",
+   "lat": 29.9412,
+   "lng": -90.0787,
+   "address": "1436 Oretha Castle Haley Blvd, New Orleans, LA 70113",
+   "blurb": "The former New Orleans Jazz Market, a handsome Central City hall hosting Donald Harrison's Quantum Leap festival all three nights."
+  },
+  {
+   "id": "jbm-super-jam-nov1",
+   "name": "The Sunday Super Jam & Brass Band Extravaganza: The Frequinauts (Stanton Moore, Donald Harrison) + Rebirth Brass Band",
+   "category": "music",
+   "lat": 29.9412,
+   "lng": -90.0787,
+   "address": "1436 Oretha Castle Haley Blvd, New Orleans, LA 70113",
+   "blurb": "The former New Orleans Jazz Market, a handsome Central City hall hosting Donald Harrison's Quantum Leap festival all three nights."
+  },
+  {
+   "id": "ph-nov1",
+   "name": "Leroy Jones & the Preservation Jazz Masters (2:30, 3:45); Preservation Legacy Band ft. Gregg Stafford (5:00 to 8:45)",
+   "category": "music",
+   "lat": 29.9583,
+   "lng": -90.0654,
+   "address": "726 St Peter St, New Orleans, LA 70116",
+   "blurb": "The small, unamplified French Quarter jazz hall where 45-minute sets run all evening. Some Friday sets are already sold out, so reserve now."
+  },
+  {
+   "id": "howlin-wolf-hot8-nov1",
+   "name": "Hot 8 Brass Band",
+   "category": "music",
+   "lat": 29.9427,
+   "lng": -90.0659,
+   "address": "907 S Peters St, New Orleans, LA 70130",
+   "blurb": "A Warehouse District club about a block from the hotel, with local bands Friday and Saturday and Hot 8 Brass Band on Sunday night."
+  },
+  {
+   "id": "hob-skilla-baby-nov1",
+   "name": "Skilla Baby: The Price of Fame Tour",
+   "category": "music",
+   "lat": 29.9532,
+   "lng": -90.0661,
+   "address": "225 Decatur St, New Orleans, LA 70130",
+   "blurb": "The French Quarter's big rock room, with a Friday show and a Sunday-night rap date on the books."
+  },
+  {
+   "id": "gasa-alash-nov1",
+   "name": "An Evening with Alash Ensemble (Tuvan throat singers)",
+   "category": "music",
+   "lat": 29.9348,
+   "lng": -90.1079,
+   "address": "4920 Freret St, New Orleans, LA 70115",
+   "blurb": "A mid-sized Freret Street room with a courtyard stage and a good bill both Halloween nights and Sunday."
+  },
+  {
+   "id": "dba-nov1",
+   "name": "d.b.a.: Paradise Jazz Band 6 PM, The Jump Hounds 9:30 PM",
+   "category": "music",
+   "lat": 29.9639,
+   "lng": -90.0579,
+   "address": "618 Frenchmen St, New Orleans, LA 70116",
+   "blurb": "Frenchmen Street's long-running bar with a deep draft list and a stage that moves from jazz to brass to funk through the night."
+  },
+  {
+   "id": "freret-festival-oct31",
+   "name": "Freret Street Festival (Margie Perez, Flow Tribe, Pinettes Brass Band, Louis Michot & Swamp Magic, more)",
+   "category": "music",
+   "lat": 29.9348,
+   "lng": -90.1079,
+   "address": "Freret St between Napoleon Ave and Valmont St, New Orleans, LA 70115",
+   "blurb": "A free neighborhood art, food and music festival with three stages on six blocks of Freret Street. Map pin is the street's midpoint at 4920 Freret."
+  },
+  {
+   "id": "jazz-park-anniversary-oct31",
+   "name": "Jazz Park 32nd Anniversary Celebration ft. Arrowhead Jazz Band",
+   "category": "music",
+   "lat": 29.9548,
+   "lng": -90.0647,
+   "address": "419 Decatur St, New Orleans, LA 70116",
+   "blurb": "The National Park Service's jazz visitor center, which hosts free live music and ranger programs."
+  },
+  {
+   "id": "jazz-park-oct30",
+   "name": "Jazz Park: Saskia Walker Trio 3 PM, Young PinStripe Brass Band 5 PM",
+   "category": "music",
+   "lat": 29.9548,
+   "lng": -90.0647,
+   "address": "419 Decatur St, New Orleans, LA 70116",
+   "blurb": "The National Park Service's jazz visitor center, which hosts free live music and ranger programs."
+  },
+  {
+   "id": "mothers-restaurant",
+   "name": "Mother's Restaurant",
+   "category": "food",
+   "lat": 29.9490291,
+   "lng": -90.0671781,
+   "address": "401 Poydras St, New Orleans, LA 70130",
+   "blurb": "A Poydras Street institution that serves breakfast all day, with a baked ham that has its own fan club. Sit down with a plate of debris and a biscuit before a long day of walking."
+  },
+  {
+   "id": "willa-jean",
+   "name": "Willa Jean",
+   "category": "food",
+   "lat": 29.9489751,
+   "lng": -90.0747744,
+   "address": "611 O'Keefe Ave, New Orleans, LA 70113",
+   "blurb": "A bakery and restaurant in the Central Business District, known for comforting Southern breakfast and brunch plates and pastries. Come early, since the site runs a waitlist at busy times."
+  },
+  {
+   "id": "brennans",
+   "name": "Brennan's",
+   "category": "food",
+   "lat": 29.9561817,
+   "lng": -90.0666443,
+   "address": "417 Royal St, New Orleans, LA 70130",
+   "blurb": "The pink French Quarter grande dame that made breakfast an event, and it celebrates 80 years in 2026. Linger in the courtyard and finish with something flaming."
+  },
+  {
+   "id": "commanders-palace",
+   "name": "Commander's Palace",
+   "category": "food",
+   "lat": 29.9287898,
+   "lng": -90.0842676,
+   "address": "1403 Washington Ave, New Orleans, LA 70130",
+   "blurb": "The turquoise-and-white Garden District landmark, famous for its Jazz Brunch and a Bloody Mary built with a block of ice. Dress up a little and plan for a long, lovely meal."
+  },
+  {
+   "id": "court-of-two-sisters",
+   "name": "The Court of Two Sisters",
+   "category": "food",
+   "lat": 29.9574093,
+   "lng": -90.0653821,
+   "address": "613 Royal St, New Orleans, LA 70130",
+   "blurb": "A French Quarter courtyard known for a daily jazz brunch buffet with a house trio. Pretty setting, but it is a big-volume tourist buffet."
+  },
+  {
+   "id": "cochon-butcher",
+   "name": "Cochon Butcher",
+   "category": "food",
+   "lat": 29.9422012,
+   "lng": -90.0670007,
+   "address": "930 Tchoupitoulas St, New Orleans, LA 70130",
+   "blurb": "A house-cured-meat sandwich shop and butcher counter a few blocks from the hotel, attached to Cochon. Casual, no reservations, and the meats are all made in house."
+  },
+  {
+   "id": "killer-poboys",
+   "name": "Killer Poboys (Erin Rose location)",
+   "category": "food",
+   "lat": 29.9564437,
+   "lng": -90.0678413,
+   "address": "811 Conti St, New Orleans, LA 70112",
+   "blurb": "Chef-driven, internationally inspired po-boys served out of the back of the Erin Rose bar. A very French Quarter way to eat a sandwich with a cold drink in hand."
+  },
+  {
+   "id": "mahonys-po-boys",
+   "name": "Mahony's Po-Boys & Seafood",
+   "category": "food",
+   "lat": 29.9222477,
+   "lng": -90.0903266,
+   "address": "3454 Magazine St, New Orleans, LA 70115",
+   "blurb": "A po-boy and seafood shop on Magazine Street with a big sandwich list and seafood. A relaxed stop if she is already exploring the shops between the Garden District and Uptown."
+  },
+  {
+   "id": "domilises",
+   "name": "Domilise's Po-Boys & Bar",
+   "category": "food",
+   "lat": 29.9174602,
+   "lng": -90.1123715,
+   "address": "5240 Annunciation St, New Orleans, LA 70115",
+   "blurb": "A corner po-boy joint Uptown that has been frying shrimp and oysters for generations, on Leidenheimer bread. Cash-and-patience local legend."
+  },
+  {
+   "id": "cochon-restaurant",
+   "name": "Cochon",
+   "category": "food",
+   "lat": 29.9422012,
+   "lng": -90.0670007,
+   "address": "930 Tchoupitoulas St, New Orleans, LA 70130",
+   "blurb": "Chef Donald Link's rustic Cajun restaurant in a renovated warehouse, with local pork, seafood and produce. Space is held at the bar, chef's counter and patio for walk-ins."
+  },
+  {
+   "id": "peche",
+   "name": "Pêche Seafood Grill",
+   "category": "food",
+   "lat": 29.9451888,
+   "lng": -90.0691411,
+   "address": "800 Magazine St, New Orleans, LA 70130",
+   "blurb": "A lively Warehouse District seafood hall from the Link group, focused on Gulf fish and open-fire cooking. A short walk from the hotel."
+  },
+  {
+   "id": "herbsaint",
+   "name": "Herbsaint",
+   "category": "food",
+   "lat": 29.9472716,
+   "lng": -90.0714182,
+   "address": "701 St Charles Ave, New Orleans, LA 70130",
+   "blurb": "Donald Link's elegant St. Charles Avenue restaurant serving French-Southern cooking, with a dark roux gumbo on the menu. Note the odd weekend hours."
+  },
+  {
+   "id": "compere-lapin",
+   "name": "Compère Lapin",
+   "category": "food",
+   "lat": 29.9479201,
+   "lng": -90.0674847,
+   "address": "535 Tchoupitoulas St, New Orleans, LA 70130",
+   "blurb": "A Caribbean-meets-Creole restaurant in the Old No. 77 Hotel, a few blocks from the hotel. Dinner nightly and a Sunday brunch."
+  },
+  {
+   "id": "annunciation-restaurant",
+   "name": "Annunciation Restaurant",
+   "category": "food",
+   "lat": 29.9414965,
+   "lng": -90.0675946,
+   "address": "1016 Annunciation St, New Orleans, LA 70130",
+   "blurb": "Modern Creole and Southern cooking in a restored turn-of-the-century Warehouse District warehouse, about a ten-minute walk from the hotel. Hosting a Witches & Warlocks Lunch on Friday, Oct 30."
+  },
+  {
+   "id": "emerils-new-orleans",
+   "name": "Emeril's",
+   "category": "food",
+   "lat": 29.9446386,
+   "lng": -90.0673486,
+   "address": "800 Tchoupitoulas St, New Orleans, LA 70130",
+   "blurb": "Emeril Lagasse's flagship in the Warehouse District, a short walk from the hotel. Dinner only, and the site's schedule skips Sunday."
+  },
+  {
+   "id": "arnauds",
+   "name": "Arnaud's Restaurant",
+   "category": "food",
+   "lat": 29.9557409,
+   "lng": -90.0686785,
+   "address": "813 Rue Bienville, New Orleans, LA 70112",
+   "blurb": "A French Quarter Creole institution of more than 100 years, with a Mardi Gras museum and the French 75 Bar next door. Sunday Jazz Brunch and Friday lunch are the traditions."
+  },
+  {
+   "id": "antoines",
+   "name": "Antoine's Restaurant",
+   "category": "food",
+   "lat": 29.9567166,
+   "lng": -90.0664811,
+   "address": "713 Saint Louis St, New Orleans, LA 70130",
+   "blurb": "New Orleans' oldest restaurant, open since 1840 and still family run. The birthplace of Oysters Rockefeller and Eggs Sardou."
+  },
+  {
+   "id": "galatoires",
+   "name": "Galatoire's",
+   "category": "food",
+   "lat": 29.954972,
+   "lng": -90.0690178,
+   "address": "209 Bourbon St, New Orleans, LA 70130",
+   "blurb": "A white-tablecloth Bourbon Street Creole classic, a long-time favorite of locals for Friday lunch. Dress code and a long, lively lunch."
+  },
+  {
+   "id": "tujagues",
+   "name": "Tujague's",
+   "category": "food",
+   "lat": 29.9550331,
+   "lng": -90.0645092,
+   "address": "429 Decatur St, New Orleans, LA 70130",
+   "blurb": "New Orleans' second-oldest restaurant, over 170 years in the Quarter and credited with the Grasshopper and early brunch. Walk in for a brunch or a boozy bar stop."
+  },
+  {
+   "id": "clover-grill",
+   "name": "Clover Grill",
+   "category": "food",
+   "lat": 29.9602826,
+   "lng": -90.0640281,
+   "address": "900 Bourbon St, New Orleans, LA 70116",
+   "blurb": "A 1939 Bourbon Street diner with pink menus and a griddle that never stops. Burgers and breakfasts any hour."
+  },
+  {
+   "id": "erin-rose",
+   "name": "Erin Rose",
+   "category": "drink",
+   "lat": 29.9564437,
+   "lng": -90.0678413,
+   "address": "811 Conti Street, New Orleans, LA 70112",
+   "blurb": "An Irish pub with a craft cocktail bar, and Killer Po' Boys in the back room. Get the rum-marinated pork belly po' boy with citrus lime slaw."
+  },
+  {
+   "id": "the-spotted-cat",
+   "name": "The Spotted Cat Music Club",
+   "category": "drink",
+   "lat": 29.9640813,
+   "lng": -90.0576329,
+   "address": "623 Frenchmen St, New Orleans, LA 70116",
+   "blurb": "The quintessential Frenchmen Street jazz club, open daily afternoons to 2 AM. No-nonsense small stage and a crowd that dances."
+  },
+  {
+   "id": "dba",
+   "name": "d.b.a.",
+   "category": "drink",
+   "lat": 29.9639408,
+   "lng": -90.0580377,
+   "address": "618 Frenchmen St, New Orleans, LA 70116",
+   "blurb": "A craft-beer and spirits bar on Frenchmen Street with live music. A step up in drinks from most Frenchmen stops."
+  },
+  {
+   "id": "atchafalaya",
+   "name": "Atchafalaya",
+   "category": "food",
+   "lat": 29.9213429,
+   "lng": -90.0876868,
+   "address": "901 Louisiana Ave, New Orleans, LA 70115",
+   "blurb": "A Garden District neighborhood restaurant with inventive Bloody Marys, including a green Bywater version and a 'Bloody Fairy' made with absinthe. Closed Tuesdays and Wednesdays but open all weekend."
+  },
+  {
+   "id": "cafe-amelie",
+   "name": "Café Amelie",
+   "category": "food",
+   "lat": 29.9597546,
+   "lng": -90.0630392,
+   "address": "912 Royal St, New Orleans, LA 70116",
+   "blurb": "A romantic French Quarter courtyard with a brunch Thursday through Sunday and a Bloody Mary menu. Book ahead for the courtyard."
+  },
+  {
+   "id": "mr-bs-bistro",
+   "name": "Mr. B's Bistro",
+   "category": "food",
+   "lat": 29.9543264,
+   "lng": -90.0682024,
+   "address": "201 Royal St, New Orleans, LA 70130",
+   "blurb": "A Brennan-family French Quarter bistro known for a Bloody Mary with a spicy kick and a weekly Sunday jazz brunch."
+  },
+  {
+   "id": "sazerac-house",
+   "name": "The Sazerac House",
+   "category": "drink",
+   "lat": 29.9516891,
+   "lng": -90.0675556,
+   "address": "101 Magazine St, New Orleans, LA 70130",
+   "blurb": "An interactive museum and distillery experience that tells the story of the Sazerac cocktail, with tastings. A good daytime orientation to the city's cocktail history."
+  },
+  {
+   "id": "sazerac-bar",
+   "name": "The Sazerac Bar (Roosevelt New Orleans)",
+   "category": "drink",
+   "lat": 29.9544933,
+   "lng": -90.0722198,
+   "address": "130 Roosevelt Way, New Orleans, LA 70112",
+   "blurb": "The grand Art Deco hotel bar named for the Sazerac, long associated with the Ramos Gin Fizz. Dress up a little and order the classics."
+  },
+  {
+   "id": "carousel-bar",
+   "name": "Carousel Bar & Lounge (Hotel Monteleone)",
+   "category": "drink",
+   "lat": 29.9541881,
+   "lng": -90.067944,
+   "address": "214 Royal Street, New Orleans, LA 70130",
+   "blurb": "The slowly turning bar inside the Hotel Monteleone, with a piano, sofa seats, and the Vieux Carré cocktail it's known for."
+  },
+  {
+   "id": "napoleon-house",
+   "name": "Napoleon House",
+   "category": "drink",
+   "lat": 29.9558596,
+   "lng": -90.0650706,
+   "address": "500 Chartres St, New Orleans, LA 70130",
+   "blurb": "A crumbling, candlelit 1800s corner bar in the French Quarter with classical music and a Pimm's Cup. Walk-ins only, no reservations."
+  },
+  {
+   "id": "pat-obriens",
+   "name": "Pat O'Brien's",
+   "category": "drink",
+   "lat": 29.9580935,
+   "lng": -90.0654893,
+   "address": "718 Saint Peter St, New Orleans, LA 70116",
+   "blurb": "The home of the Hurricane, with a courtyard fire fountain and a dueling-piano bar. It is the touristy way to drink a Hurricane."
+  },
+  {
+   "id": "cafe-du-monde-french-market",
+   "name": "Café Du Monde (French Market)",
+   "category": "food",
+   "lat": 29.957561,
+   "lng": -90.0618544,
+   "address": "800 Decatur St, New Orleans, LA 70116",
+   "blurb": "The original beignet and café au lait stand across from Jackson Square, a New Orleans tradition. Expect lines and powdered sugar everywhere."
+  },
+  {
+   "id": "cafe-du-monde-riverwalk",
+   "name": "Café Du Monde (Riverwalk)",
+   "category": "food",
+   "lat": 29.947864,
+   "lng": -90.0625452,
+   "address": "500 Port of New Orleans Pl Suite 140, New Orleans, LA 70130",
+   "blurb": "A shorter-line Café Du Monde stand at the Riverwalk, closest to the hotel of the two. Daytime hours only."
+  },
+  {
+   "id": "bourbon-house",
+   "name": "Bourbon House",
+   "category": "food",
+   "lat": 29.9541927,
+   "lng": -90.0694342,
+   "address": "144 Bourbon St, New Orleans, LA 70130",
+   "blurb": "The Friday Witchy Lunch on Oct 30 is sold out. Regular hours aren't posted."
+  },
+  {
+   "id": "french-market",
+   "name": "French Market (Market Morsels and Culture & Cuisine)",
+   "category": "food",
+   "lat": 29.9590261,
+   "lng": -90.060261,
+   "address": "1008 N Peters St, New Orleans, LA 70116",
+   "blurb": "The oldest public market in the country, with free cooking demos with free samples. Fri Oct 30 is Market Morsels and Sat Oct 31 features Black Masking Indians with a cooking demo."
+  },
+  {
+   "id": "ogden-museum-of-southern-art",
+   "name": "Ogden Museum of Southern Art",
+   "category": "art",
+   "lat": 29.9436,
+   "lng": -90.0713,
+   "address": "925 Camp St, New Orleans, LA 70130",
+   "blurb": "The Southern-art museum right beside her hotel, with Clementine Hunter, Sister Gertrude Morgan and Nellie Mae Rowe in the current vernacular-art show. A traditional Dia de los Muertos altar is also listed as a current exhibition, which fits the weekend."
+  },
+  {
+   "id": "contemporary-arts-center-new-orleans",
+   "name": "Contemporary Arts Center (CAC)",
+   "category": "art",
+   "lat": 29.9438,
+   "lng": -90.0708,
+   "address": "900 Camp St, New Orleans, LA 70130",
+   "blurb": "The CAC is the next building over, but its galleries are dark this weekend between shows. Walk past for the building and check the site in case the closure notice changes."
+  },
+  {
+   "id": "national-wwii-museum",
+   "name": "The National WWII Museum",
+   "category": "art",
+   "lat": 29.9421,
+   "lng": -90.0708,
+   "address": "945 Magazine St, New Orleans, LA 70130",
+   "blurb": "A big, immersive museum a few blocks away, good for a long indoor stretch. The site highlights a USS New Orleans special exhibit, Come Back Fighting."
+  },
+  {
+   "id": "new-orleans-museum-of-art",
+   "name": "New Orleans Museum of Art (NOMA) and Besthoff Sculpture Garden",
+   "category": "art",
+   "lat": 29.9839,
+   "lng": -90.0901,
+   "address": "1 Collins Diboll Cir, City Park, New Orleans, LA 70124",
+   "blurb": "The city's big art museum in City Park, plus a free sculpture garden next door. It is a real trip out of the Warehouse District, so it suits a slower Sunday."
+  },
+  {
+   "id": "julia-street-gallery-row",
+   "name": "Julia Street gallery row (Arthur Roger Gallery and neighbors)",
+   "category": "art",
+   "lat": 29.945,
+   "lng": -90.0685,
+   "address": "432-434 Julia St, New Orleans, LA 70130",
+   "blurb": "Julia Street's blocks of contemporary galleries start less than a quarter mile from her hotel, so this is an easy browse between museums. The big monthly art walk lands a week after her trip."
+  },
+  {
+   "id": "lazarus-ball-the-barnett",
+   "name": "HNO Lazarus Ball at The Barnett",
+   "category": "halloween",
+   "lat": 29.9483,
+   "lng": -90.0719,
+   "address": "600 Carondelet St, New Orleans, LA 70130",
+   "blurb": "The Friday opener of Halloween New Orleans weekend, a black-tie-optional costume-friendly ball a few blocks from her hotel. A fundraiser for Project Lazarus."
+  },
+  {
+   "id": "hno-halloween-party-the-fillmore",
+   "name": "HNO Saturday Night Halloween Party at The Fillmore",
+   "category": "halloween",
+   "lat": 29.9498,
+   "lng": -90.0644,
+   "address": "6 Canal St, New Orleans, LA 70130",
+   "blurb": "The big Halloween-night party, with a midnight show and the HNO Costume Revue and Contest. Costumes are required."
+  },
+  {
+   "id": "new-orleans-historic-voodoo-museum",
+   "name": "New Orleans Historic Voodoo Museum",
+   "category": "halloween",
+   "lat": 29.9598,
+   "lng": -90.0638,
+   "address": "724 Dumaine St, New Orleans, LA 70116",
+   "blurb": "A small, atmospheric French Quarter museum of Voodoo history, altars and gris-gris, which is a natural stop on Halloween weekend."
+  },
+  {
+   "id": "st-louis-cemetery-no-1",
+   "name": "St. Louis Cemetery No. 1",
+   "category": "halloween",
+   "lat": 29.959,
+   "lng": -90.0712,
+   "address": "425 Basin St, New Orleans, LA 70112",
+   "blurb": "New Orleans' oldest surviving cemetery and the city's best-known city of the dead. Entry is by official guided tour only, and the whole place is quieter and more moving around All Saints."
+  },
+  {
+   "id": "lafayette-cemetery-no-1",
+   "name": "Lafayette Cemetery No. 1",
+   "category": "halloween",
+   "lat": 29.9292,
+   "lng": -90.0845,
+   "address": "1427 Washington Ave, New Orleans, LA 70130",
+   "blurb": "The Garden District cemetery across from Commander's Palace, reopened to the public on Oct 1, 2026 after seven years closed. It is open only on small guided tours run by the Preservation Resource Center, so it will feel intimate rather than touristy."
+  },
+  {
+   "id": "st-louis-cathedral",
+   "name": "St. Louis Cathedral (Cathedral-Basilica of Saint Louis King of France)",
+   "category": "halloween",
+   "lat": 29.958,
+   "lng": -90.0638,
+   "address": "615 Pere Antoine Alley, New Orleans, LA 70116",
+   "blurb": "The postcard cathedral on Jackson Square, where she can sit through an All Saints Day Mass or just step in. The Cathedral is open to visitors daily."
+  },
+  {
+   "id": "metairie-cemetery",
+   "name": "Metairie Cemetery",
+   "category": "halloween",
+   "lat": 29.9833,
+   "lng": -90.1184,
+   "address": "5100 Pontchartrain Blvd, New Orleans, LA 70124",
+   "blurb": "Known for its grand above-ground tombs and monuments, a long ride out from the Warehouse District."
+  },
+  {
+   "id": "jackson-square-royal-street-artists",
+   "name": "Jackson Square artists",
+   "category": "art",
+   "lat": 29.9575,
+   "lng": -90.0629,
+   "address": "Jackson Square, New Orleans, LA 70116",
+   "blurb": "The fence-line artists around Jackson Square, the classic place to browse paintings, portraits and prints in the open air."
+  },
+  {
+   "id": "hotel",
+   "name": "SpringHill Suites",
+   "category": "hotel",
+   "lat": 29.9431,
+   "lng": -90.0664,
+   "address": "301 St Joseph St, New Orleans, LA 70130",
+   "blurb": "Home base, in the Warehouse District."
+  }
+ ],
+ "cats": {
+  "panic": "Panic",
+  "music": "Music",
+  "food": "Food",
+  "drink": "Drinks",
+  "art": "Art",
+  "halloween": "Halloween and All Saints",
+  "hotel": "Hotel",
+  "walk": "The walk"
+ }
+}
